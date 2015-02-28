@@ -1,0 +1,13 @@
+ * Package:    sys-devel/gnuconfig-20140728
+ * Repository: gentoo_prefix
+ * Maintainer: base-system@gentoo.org
+ * USE:        abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox
+>>> Unpacking source...
+>>> Unpacking gnuconfig-20140728.tar.bz2 to /home/core/gentoo/var/tmp/portage/sys-devel/gnuconfig-20140728/work
+>>> Source unpacked in /home/core/gentoo/var/tmp/portage/sys-devel/gnuconfig-20140728/work
+>>> Preparing source in /home/core/gentoo/var/tmp/portage/sys-devel/gnuconfig-20140728/work ...
+ * Applying 0002-Add-x32-support-to-config.guess.patch ...
+
+/home/core/gentoo/usr/portage/sys-devel/gnuconfig/gnuconfig-20140728.ebuild: src_prepare aborted; exiting.
+

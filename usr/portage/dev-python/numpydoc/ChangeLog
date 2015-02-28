@@ -1,0 +1,28 @@
+# ChangeLog for dev-python/numpydoc
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/numpydoc/ChangeLog,v 1.6 2014/07/22 14:04:24 idella4 Exp $
+
+  22 Jul 2014; Ian Delaney <idella4@gentoo.org> numpydoc-0.4-r1.ebuild:
+  bump; drop py2.6 add py3 pypy
+
+  16 Feb 2014; Mike Frysinger <vapier@gentoo.org> numpydoc-0.4-r1.ebuild:
+  Mark arm stable.
+
+  07 Dec 2013; Pacho Ramos <pacho@gentoo.org> numpydoc-0.4-r1.ebuild:
+  x86 stable, bug #488738
+
+  29 Nov 2013; Pacho Ramos <pacho@gentoo.org> numpydoc-0.4-r1.ebuild:
+  amd64 stable, bug #488738
+
+*numpydoc-0.4-r1 (07 Sep 2013)
+
+  07 Sep 2013; Mike Gilbert <floppym@gentoo.org> +numpydoc-0.4-r1.ebuild,
+  -numpydoc-0.4.ebuild:
+  Fix permissions on egg-info files.
+
+*numpydoc-0.4 (17 Aug 2013)
+
+  17 Aug 2013; Mike Gilbert <floppym@gentoo.org> +metadata.xml,
+  +numpydoc-0.4.ebuild:
+  New ebuild, dependency of matplotlib. Adding relevent keywords since this is
+  small, pure-python package.

@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=media-libs/freetype:2 virtual/opengl virtual/glu x11-libs/libX11 x11-libs/libXaw x11-libs/libXrandr x11-libs/libXt boost? ( dev-libs/boost ) cg? ( media-gfx/nvidia-cg-toolkit ) freeimage? ( media-libs/freeimage ) gles2? ( || ( <media-libs/mesa-8.0.0[gles] >=media-libs/mesa-8.0.0[gles2] ) ) ois? ( dev-games/ois ) threads? ( poco? ( dev-libs/poco ) tbb? ( dev-cpp/tbb ) ) zip? ( sys-libs/zlib dev-libs/zziplib ) x11-proto/xf86vidmodeproto virtual/pkgconfig doc? ( app-doc/doxygen ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Object-oriented Graphics Rendering Engine
+EAPI=5
+HOMEPAGE=http://www.ogre3d.org/
+IUSE=+boost cg doc double-precision examples +freeimage gles2 ois +opengl poco profile tbb threads tools +zip
+KEYWORDS=amd64 x86
+LICENSE=MIT
+RDEPEND=media-libs/freetype:2 virtual/opengl virtual/glu x11-libs/libX11 x11-libs/libXaw x11-libs/libXrandr x11-libs/libXt boost? ( dev-libs/boost ) cg? ( media-gfx/nvidia-cg-toolkit ) freeimage? ( media-libs/freeimage ) gles2? ( || ( <media-libs/mesa-8.0.0[gles] >=media-libs/mesa-8.0.0[gles2] ) ) ois? ( dev-games/ois ) threads? ( poco? ( dev-libs/poco ) tbb? ( dev-cpp/tbb ) ) zip? ( sys-libs/zlib dev-libs/zziplib )
+REQUIRED_USE=threads? ( || ( boost poco tbb ) )
+RESTRICT=test
+SLOT=0/1.8.1
+SRC_URI=mirror://sourceforge/ogre/ogre_src_v1-8-1.tar.bz2
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=a50e5750b4f294b221cf6fc89bac89ef

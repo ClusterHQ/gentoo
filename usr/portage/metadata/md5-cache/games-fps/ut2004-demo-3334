@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Demo for the critically-acclaimed first-person shooter
+HOMEPAGE=http://www.unrealtournament.com/
+KEYWORDS=-* x86 amd64
+LICENSE=ut2003-demo
+RDEPEND=virtual/opengl =virtual/libstdc++-3.3 x86? ( x11-libs/libX11 x11-libs/libXext ) amd64? ( app-emulation/emul-linux-x86-xlibs )
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://gentoo/ut2004-lnx-demo3334.run
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=bb8446b847789e3668a891fbee3d552b

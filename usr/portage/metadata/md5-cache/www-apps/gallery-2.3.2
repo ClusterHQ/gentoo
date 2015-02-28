@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) virtual/httpd-php >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Web based (PHP Script) photo album viewer/creator
+EAPI=5
+HOMEPAGE=http://galleryproject.org/
+IUSE=ffmpeg +gd imagemagick +mysql netpbm postgres raw sqlite unzip zip vhosts
+KEYWORDS=amd64 hppa ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=raw? ( media-gfx/dcraw ) ffmpeg? ( virtual/ffmpeg ) imagemagick? ( || ( media-gfx/imagemagick media-gfx/graphicsmagick[imagemagick] ) ) netpbm? ( media-libs/netpbm media-gfx/jhead ) unzip? ( app-arch/unzip ) zip? ( app-arch/zip ) sqlite? ( dev-lang/php[pdo] dev-lang/php[sqlite] ) mysql? ( || ( dev-lang/php[mysql] dev-lang/php[mysqli] ) ) dev-lang/php[session,postgres?,gd?] virtual/httpd-php >=app-admin/webapp-config-1.50.15
+SLOT=2.3.2
+SRC_URI=mirror://sourceforge/gallery/gallery-2.3.2-full.tar.gz
+_eclasses_=confutils	2ab69b52fa6ea0c0669a47fb94b354b4	depend.php	dcdf301e07578788ea73af6c2012b66b	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	phpconfutils	3b141a267018096231e10dfbd1657b81	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=efab6b1a20ebd5628f90b9b35d76b8f3

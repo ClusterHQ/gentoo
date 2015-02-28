@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Fortran to C converter
+EAPI=4
+HOMEPAGE=http://www.netlib.org/f2c
+IUSE=doc
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86 ~x86-fbsd ~amd64-linux ~x86-linux
+LICENSE=HPND
+RDEPEND=dev-libs/libf2c
+SLOT=0
+SRC_URI=mirror://debian/pool/main/f/f2c/f2c_20100827.orig.tar.gz mirror://debian/pool/main/f/f2c/f2c_20100827-1.debian.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=09867fb319b3484d0f85f7c0d251bd74

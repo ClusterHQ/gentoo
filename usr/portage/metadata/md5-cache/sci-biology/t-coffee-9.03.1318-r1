@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=virtual/fortran
+DESCRIPTION=A multiple sequence alignment package
+EAPI=5
+HOMEPAGE=http://www.tcoffee.org/Projects_home_page/t_coffee_home_page.html
+IUSE=examples
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=sci-biology/clustalw sci-chemistry/tm-align virtual/fortran
+SLOT=0
+SRC_URI=http://www.tcoffee.org/Packages/Stable/Version_9.03.r1318/T-COFFEE_distribution_Version_9.03.r1318.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	fortran-2	db8710b355fc5598015c4bc3aad3bdb0	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=f22ce6cd0b62d7e3fcc42a3718155671

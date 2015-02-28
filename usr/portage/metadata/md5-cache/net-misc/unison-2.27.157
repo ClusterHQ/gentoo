@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst prepare test
+DEPEND=>=dev-lang/ocaml-3.10.2[ocamlopt?] gtk? ( >=dev-ml/lablgtk-2.2 )
+DESCRIPTION=Two-way cross-platform file synchronizer
+EAPI=2
+HOMEPAGE=http://www.cis.upenn.edu/~bcpierce/unison/
+IUSE=gtk doc static debug threads +ocamlopt
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux
+LICENSE=GPL-2
+PDEPEND=gtk? ( media-fonts/font-schumacher-misc )
+RDEPEND=gtk? ( >=dev-ml/lablgtk-2.2 || ( net-misc/x11-ssh-askpass net-misc/ssh-askpass-fullscreen ) ) !net-misc/unison:0 app-admin/eselect-unison
+SLOT=2.27
+SRC_URI=http://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-2.27.157/unison-2.27.157.tar.gz doc? ( http://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-2.27.157/unison-2.27.157-manual.pdf http://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-2.27.157/unison-2.27.157-manual.html )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=592a25ffc0818702e2c5c0c99fad6242

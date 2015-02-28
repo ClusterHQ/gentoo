@@ -1,0 +1,23 @@
+# ChangeLog for games-board/natch
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/games-board/natch/ChangeLog,v 1.5 2014/09/11 07:43:13 mr_bones_ Exp $
+
+  11 Sep 2014; Michael Sterrett <mr_bones_@gentoo.org> natch-2.4.ebuild:
+  EAPI=5
+
+  07 Sep 2010; Tristan Heaven <nyhm@gentoo.org> natch-2.4.ebuild:
+  Add ~amd64 keyword; EAPI=2
+
+*natch-2.4 (23 Apr 2006)
+
+  23 Apr 2006; Michael Sterrett <mr_bones_@gentoo.org> +natch-2.4.ebuild:
+  version bump
+
+  03 May 2005; David Holm <dholm@gentoo.org> natch-2.3.ebuild:
+  Added to ~ppc.
+
+*natch-2.3 (26 Mar 2005)
+
+  26 Mar 2005; Michael Sterrett <mr_bones_@gentoo.org> +metadata.xml,
+  +natch-2.3.ebuild:
+  initial commit (bug #67638)

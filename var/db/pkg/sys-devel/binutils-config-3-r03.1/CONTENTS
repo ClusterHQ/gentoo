@@ -1,0 +1,9 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/binutils-config c30b472581e62c4132b5d0f786c676c2 1410958917
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/misc
+dir /home/core/gentoo/usr/lib/misc/binutils-config
+obj /home/core/gentoo/usr/lib/misc/binutils-config/create-ldwrapper d0f0ad07fd6e13f98b58e0a6f315ec65 1410958917
+obj /home/core/gentoo/usr/lib/misc/binutils-config/libbinutils-config.a afb346cd97603f907a2ee6db3a5151dc 1410958919
+obj /home/core/gentoo/usr/lib/misc/binutils-config/binutils-config.h 97dd10838f18676ea22418fe36976c8a 1410958917

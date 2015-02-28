@@ -1,0 +1,13 @@
+DEFINED_PHASES=install setup
+DEPEND=|| ( <dev-lang/php-5.3[pcre] >=dev-lang/php-5.3 ) dev-php/PEAR-Console_Getargs dev-lang/php >=dev-php/pear-1.8.1
+DESCRIPTION=Show Information about your PEAR install and its packages
+EAPI=4
+HOMEPAGE=http://pear.php.net/PEAR_Info
+IUSE=minimal
+KEYWORDS=~alpha ~amd64 ~ia64 ~sparc ~x86
+LICENSE=PHP-3.01
+RDEPEND=dev-lang/php >=dev-php/pear-1.8.1
+SLOT=0
+SRC_URI=http://pear.php.net/get/PEAR_Info-1.9.2.tgz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	php-pear-r1	c984187b1bfa4f9c980f68a3682211d2	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=5828d55c673ba3b7d29a5f63ab5e07ed

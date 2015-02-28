@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare prerm unpack
+DEPEND=app-text/openjade app-text/opensp app-text/sgml-common dev-texlive/texlive-fontsrecommended dev-lang/perl sys-apps/gawk sys-apps/groff virtual/latex-base >=app-text/sgml-common-0.6.3-r2
+DESCRIPTION=A toolset for processing LinuxDoc DTD SGML files
+EAPI=5
+HOMEPAGE=http://packages.qa.debian.org/l/linuxdoc-tools.html
+KEYWORDS=amd64 ~ia64 ppc x86 ~x86-fbsd
+LICENSE=MIT SGMLUG
+RDEPEND=app-text/openjade app-text/opensp app-text/sgml-common dev-texlive/texlive-fontsrecommended dev-lang/perl sys-apps/gawk sys-apps/groff virtual/latex-base
+SLOT=0
+SRC_URI=mirror://debian/pool/main/l/linuxdoc-tools/linuxdoc-tools_0.9.68.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	sgml-catalog	115ce04390f5bb32de8fef875ea71b4b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b3865fefbe80745f84d73ecf490c46ed

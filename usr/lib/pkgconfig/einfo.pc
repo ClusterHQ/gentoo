@@ -1,0 +1,9 @@
+prefix=/home/core/gentoo/usr
+exec_prefix=${prefix}
+libdir=/home/core/gentoo/usr/lib
+includedir=${prefix}/include
+
+Name: einfo
+Description: Pretty console informational display
+Version: 1.0.6
+Libs: -L${libdir} -leinfo

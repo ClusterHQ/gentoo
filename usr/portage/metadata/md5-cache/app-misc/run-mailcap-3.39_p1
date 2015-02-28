@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Execute programs via entries in the mailcap file
+HOMEPAGE=http://packages.debian.org/unstable/net/mime-support
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+LICENSE=freedist
+RDEPEND=>=dev-lang/perl-5.6 app-misc/mime-types
+SLOT=0
+SRC_URI=mirror://debian/pool/main/m/mime-support/mime-support_3.39-1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e91b919bd1677afeda9d9576b47ad63a

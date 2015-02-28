@@ -1,0 +1,85 @@
+  eclass exists: /home/core/gentoo/usr/portage/eclass/flag-o-matic.eclass
+inherit: flag-o-matic -> /home/core/gentoo/usr/portage/eclass/flag-o-matic.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+*** Multiple Inheritence (Level: 5)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/prefix.eclass
+inherit: prefix -> /home/core/gentoo/usr/portage/eclass/prefix.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/linux-info.eclass
+inherit: linux-info -> /home/core/gentoo/usr/portage/eclass/linux-info.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/versionator.eclass
+inherit: versionator -> /home/core/gentoo/usr/portage/eclass/versionator.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+EXPORT_FUNCTIONS: pkg_setup -> linux-info_pkg_setup
+  eclass exists: /home/core/gentoo/usr/portage/eclass/linux-mod.eclass
+inherit: linux-mod -> /home/core/gentoo/usr/portage/eclass/linux-mod.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/linux-info.eclass
+inherit: linux-info -> /home/core/gentoo/usr/portage/eclass/linux-info.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/versionator.eclass
+inherit: versionator -> /home/core/gentoo/usr/portage/eclass/versionator.eclass
+EXPORT_FUNCTIONS: pkg_setup -> linux-info_pkg_setup
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+EXPORT_FUNCTIONS: pkg_setup -> linux-mod_pkg_setup
+EXPORT_FUNCTIONS: pkg_preinst -> linux-mod_pkg_preinst
+EXPORT_FUNCTIONS: pkg_postinst -> linux-mod_pkg_postinst
+EXPORT_FUNCTIONS: src_install -> linux-mod_src_install
+EXPORT_FUNCTIONS: src_compile -> linux-mod_src_compile
+EXPORT_FUNCTIONS: pkg_postrm -> linux-mod_pkg_postrm
+  eclass exists: /home/core/gentoo/usr/portage/eclass/autotools-utils.eclass
+inherit: autotools-utils -> /home/core/gentoo/usr/portage/eclass/autotools-utils.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/autotools.eclass
+inherit: autotools -> /home/core/gentoo/usr/portage/eclass/autotools.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/libtool.eclass
+inherit: libtool -> /home/core/gentoo/usr/portage/eclass/libtool.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+inherit: multiprocessing -> /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/libtool.eclass
+inherit: libtool -> /home/core/gentoo/usr/portage/eclass/libtool.eclass
+EXPORT_FUNCTIONS: src_prepare -> autotools-utils_src_prepare
+EXPORT_FUNCTIONS: src_configure -> autotools-utils_src_configure
+EXPORT_FUNCTIONS: src_compile -> autotools-utils_src_compile
+EXPORT_FUNCTIONS: src_install -> autotools-utils_src_install
+EXPORT_FUNCTIONS: src_test -> autotools-utils_src_test
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/versionator.eclass
+inherit: versionator -> /home/core/gentoo/usr/portage/eclass/versionator.eclass
+autotools-utils_src_prepare: entering function, parameters: 
+autotools-utils_src_configure: entering function, parameters: 
+in_iuse: entering function, parameters: static-libs

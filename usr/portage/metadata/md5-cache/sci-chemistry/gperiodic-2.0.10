@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DEPEND=sys-libs/ncurses:5 x11-libs/gtk+:2 x11-libs/cairo[X] nls? ( sys-devel/gettext ) virtual/pkgconfig
+DESCRIPTION=Periodic table application for Linux
+EAPI=4
+HOMEPAGE=http://www.frantz.fi/software/gperiodic.php
+IUSE=nls
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses:5 x11-libs/gtk+:2 x11-libs/cairo[X] nls? ( sys-devel/gettext )
+SLOT=0
+SRC_URI=http://www.frantz.fi/software/gperiodic-2.0.10.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7c763409a5fd34b84517832b9e8cbd9b

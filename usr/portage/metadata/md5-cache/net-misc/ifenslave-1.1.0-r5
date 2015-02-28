@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=sys-devel/gcc >=sys-kernel/linux-headers-2.4.22
+DESCRIPTION=Attach and detach slave interfaces to a bonding device
+HOMEPAGE=http://sf.net/projects/bonding/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://debian/pool/main/i/ifenslave-2.6/ifenslave-2.6_1.1.0.orig.tar.gz mirror://debian/pool/main/i/ifenslave-2.6/ifenslave-2.6_1.1.0-13.diff.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	linux-info	2b8c53f6065bdee2d757472215a3088f	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=9253f4361b38a872ae735d05ffcd785b

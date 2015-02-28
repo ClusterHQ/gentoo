@@ -1,0 +1,39 @@
+# ChangeLog for dev-util/android-studio
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-util/android-studio/ChangeLog,v 1.5 2014/09/03 19:29:08 swift Exp $
+
+*android-studio-0.8.6.135.1339820 (03 Sep 2014)
+
+  03 Sep 2014; Sven Vermeulen <swift@gentoo.org>
+  +android-studio-0.8.6.135.1339820.ebuild,
+  -android-studio-0.5.8.135.1155795.ebuild,
+  -android-studio-0.5.9.135.1195882.ebuild,
+  -android-studio-0.6.1.135.1224218.ebuild:
+  Bump version (bug #5213400). Drop older editions. Thanks to Jason Zaman
+  (perfinion)
+
+*android-studio-0.8.1.135.1248636 (05 Jul 2014)
+
+  05 Jul 2014; Sven Vermeulen <swift@gentoo.org>
+  +android-studio-0.8.1.135.1248636.ebuild:
+  Fix bug #515552 - Bump android studio to 0.8.1.135.1248636, thanks to C.J.
+  Wijtmans and Jason Zaman
+
+*android-studio-0.6.1.135.1224218 (23 Jun 2014)
+
+  23 Jun 2014; Sven Vermeulen <swift@gentoo.org>
+  +android-studio-0.6.1.135.1224218.ebuild:
+  Bump android studio, thanks to jason perfinion
+
+*android-studio-0.5.9.135.1195882 (01 Jun 2014)
+
+  01 Jun 2014; Tom Wijsman <TomWij@gentoo.org>
+  +android-studio-0.5.9.135.1195882.ebuild:
+  Version bump to 0.5.9.135.1195882; fixes bug #512078, proxied commit for Jason
+  Zaman.
+
+*android-studio-0.5.8.135.1155795 (11 May 2014)
+
+  11 May 2014;  <jauhien@gentoo.org> +android-studio-0.5.8.135.1155795.ebuild,
+  +metadata.xml:
+  Initial import, closing bug #510030, thanks to Jason Zaman and Manuel Rueger

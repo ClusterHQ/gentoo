@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install setup
+DEPEND=python_targets_python3_2? ( >=dev-lang/python-3.2.5-r2:3.2 ) python_targets_python3_3? ( >=dev-lang/python-3.3.2-r2:3.3 ) dev-lang/python-exec:=[python_targets_python3_2(-)?,python_targets_python3_3(-)?,-python_single_target_python3_2(-),-python_single_target_python3_3(-)] dev-libs/libconfig x11-libs/libX11 x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libXrender dbus? ( sys-apps/dbus ) opengl? ( virtual/opengl ) pcre? ( dev-libs/libpcre:3 ) app-text/asciidoc virtual/pkgconfig x11-proto/xproto drm? ( x11-libs/libdrm )
+DESCRIPTION=A compositor for X, and a fork of xcompmgr-dana
+EAPI=5
+HOMEPAGE=http://github.com/chjj/compton
+IUSE=dbus +drm opengl +pcre python_targets_python3_2 python_targets_python3_3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=python_targets_python3_2? ( >=dev-lang/python-3.2.5-r2:3.2 ) python_targets_python3_3? ( >=dev-lang/python-3.3.2-r2:3.3 ) dev-lang/python-exec:=[python_targets_python3_2(-)?,python_targets_python3_3(-)?,-python_single_target_python3_2(-),-python_single_target_python3_3(-)] dev-libs/libconfig x11-libs/libX11 x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libXrender dbus? ( sys-apps/dbus ) opengl? ( virtual/opengl ) pcre? ( dev-libs/libpcre:3 ) x11-apps/xprop x11-apps/xwininfo
+REQUIRED_USE=|| ( python_targets_python3_2 python_targets_python3_3 )
+SLOT=0
+SRC_URI=https://github.com/chjj/compton/archive/v0.1_beta1.tar.gz -> compton-0.1_beta1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multibuild	46527a4656956da3d58acff72c9b59b1	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	python-r1	75e5c82b55dcb208a0a8f4ab8847e731	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b77697a636aae8c5f78e7edd702c6305

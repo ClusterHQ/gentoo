@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=x11-libs/wxGTK:2.8[X,debug=] dev-db/sqlite:3
+DESCRIPTION=C++ wrapper around the public domain SQLite 3.x database
+EAPI=5
+HOMEPAGE=http://wxcode.sourceforge.net/components/wxsqlite3/
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=wxWinLL-3
+RDEPEND=x11-libs/wxGTK:2.8[X,debug=] dev-db/sqlite:3
+SLOT=0
+SRC_URI=mirror://sourceforge/wxcode/wxsqlite3-3.0.6.1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	wxwidgets	6d6eec2685256d35511e7b6d5461bec9
+_md5_=21648e9fb9c69a2aac9c96334a7669fa

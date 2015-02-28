@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=dev-libs/openssl
+DESCRIPTION=a tool to do fuzzy fingerprinting for man-in-the-middle attacks
+EAPI=5
+HOMEPAGE=http://www.thc.org/thc-ffp/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=BSD-2
+RDEPEND=dev-libs/openssl
+SLOT=0
+SRC_URI=http://www.thc.org/releases/ffp-0.0.8.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=1310f4bd6009390ffc4bd335fba49999

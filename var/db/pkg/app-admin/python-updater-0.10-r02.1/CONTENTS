@@ -1,0 +1,10 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/sbin
+obj /home/core/gentoo/usr/sbin/python-updater 22c76def06d454d958b6151ef663b958 1410959165
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/python-updater-0.10-r02.1
+obj /home/core/gentoo/usr/share/doc/python-updater-0.10-r02.1/AUTHORS.bz2 9d0b1a78cec8b4740b826e47018674de 1410959164
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/python-updater.1.bz2 dcafa3ba9a091b2a92efe90f5126173f 1410959164

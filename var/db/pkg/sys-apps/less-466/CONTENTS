@@ -1,0 +1,22 @@
+dir /home/core/gentoo/etc
+dir /home/core/gentoo/etc/env.d
+obj /home/core/gentoo/etc/env.d/70less c805eb302fa124719c8fc95a40e5eddc 1410959757
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/less-466
+obj /home/core/gentoo/usr/share/doc/less-466/NEWS.bz2 97b4eaeaa142d1305830161187486014 1410959757
+obj /home/core/gentoo/usr/share/doc/less-466/README.Gentoo.bz2 df78e25dd8533dd2fc035034aadfd3a5 1410959757
+obj /home/core/gentoo/usr/share/doc/less-466/README.bz2 c08b79ae24df4e185578026c31a24d80 1410959757
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/lesskey.1.bz2 52d5ea9879b3c5ea4c36600821b358e8 1410959756
+obj /home/core/gentoo/usr/share/man/man1/lessecho.1.bz2 d7fd9886ba896b19bacf76a3ed1ea33e 1410959757
+obj /home/core/gentoo/usr/share/man/man1/less.1.bz2 144be18989d66988d49d86f6836db51f 1410959756
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/lesspipe.sh -> lesspipe 1410959791
+obj /home/core/gentoo/usr/bin/less 5d54f183573b25a1b81760edb9acc3e3 1410959757
+obj /home/core/gentoo/usr/bin/lesspipe db4193f0dd1458ad8a194e1ff866326b 1410959758
+obj /home/core/gentoo/usr/bin/lessecho 6280f5605245167db020ee29c2a8aae0 1410959757
+obj /home/core/gentoo/usr/bin/lesskey f58bf5a248e4f322d3e322e653b448c9 1410959757
+obj /home/core/gentoo/usr/bin/code2color 72870319e6641088597aafae5a0a8f7b 1410959757

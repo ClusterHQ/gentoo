@@ -1,0 +1,52 @@
+# ChangeLog for dev-python/xhtml2pdf
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/xhtml2pdf/ChangeLog,v 1.12 2014/05/03 06:12:24 patrick Exp $
+
+*xhtml2pdf-0.0.6 (03 May 2014)
+
+  03 May 2014; Patrick Lauer <patrick@gentoo.org> +xhtml2pdf-0.0.6.ebuild:
+  Bump
+
+  18 Jun 2013; Tim Harder <radhermit@gentoo.org> -xhtml2pdf-0.0.5.ebuild:
+  Remove old.
+
+*xhtml2pdf-0.0.5-r1 (18 Jun 2013)
+
+  18 Jun 2013; Tim Harder <radhermit@gentoo.org> +xhtml2pdf-0.0.5-r1.ebuild:
+  Revbump, migrate to distutils-r1.
+
+  09 Jun 2013; Mike Gilbert <floppym@gentoo.org> -xhtml2pdf-0.0.3.ebuild,
+  -xhtml2pdf-0.0.4.ebuild, xhtml2pdf-0.0.5.ebuild:
+  Depend on virtual/python-imaging. Remove old.
+
+*xhtml2pdf-0.0.5 (02 Apr 2013)
+
+  02 Apr 2013; Patrick Lauer <patrick@gentoo.org> +xhtml2pdf-0.0.5.ebuild:
+  Bump
+
+  16 Dec 2012; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup due retirement, #95685
+
+*xhtml2pdf-0.0.4 (28 Jun 2012)
+
+  28 Jun 2012; Patrick Lauer <patrick@gentoo.org> +xhtml2pdf-0.0.4.ebuild:
+  Bump
+
+  21 May 2012; Krzysztof Pawlik <nelchael@gentoo.org> xhtml2pdf-0.0.3.ebuild:
+  Remove calls to python-distutils-ng_redoscript, it is automated in eclass.
+
+  03 Apr 2012; Krzysztof Pawlik <nelchael@gentoo.org> xhtml2pdf-0.0.3.ebuild:
+  Migrate to python-distutils-ng.eclass.
+
+  30 Jan 2012; Krzysztof Pawlik <nelchael@gentoo.org> xhtml2pdf-0.0.3.ebuild:
+  Fix SRC_URI, add blocker for dev-python/pisa.
+
+  28 Jan 2012; Krzysztof Pawlik <nelchael@gentoo.org> xhtml2pdf-0.0.3.ebuild:
+  Fix Python module name.
+
+*xhtml2pdf-0.0.3 (27 Jan 2012)
+
+  27 Jan 2012; Krzysztof Pawlik <nelchael@gentoo.org> +xhtml2pdf-0.0.3.ebuild,
+  +metadata.xml:
+  New package: dev-python/xhtml2pidf - an HTML to PDF converter, successor to
+  dev-python/pisa.

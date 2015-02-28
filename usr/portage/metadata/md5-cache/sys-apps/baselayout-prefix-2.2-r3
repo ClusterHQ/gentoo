@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure install postinst preinst prepare
+DESCRIPTION=Minimal baselayout and e-functions for Gentoo Prefix installs
+EAPI=3
+HOMEPAGE=http://www.gentoo.org/
+IUSE=build kernel_linux
+KEYWORDS=~arm ~arm-linux ~ppc-aix ~x64-freebsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris ~x86-winnt
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://gentoo/baselayout-2.2.tar.bz2 http://dev.gentoo.org/~vapier/dist/baselayout-2.2.tar.bz2 http://dev.gentoo.org/~redlizard/distfiles/einfo-1.0.6.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=06d108c3246dd329629b8ecf71477cd7

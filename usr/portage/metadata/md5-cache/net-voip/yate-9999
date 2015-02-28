@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install preinst prepare unpack
+DEPEND=doc? ( || ( app-doc/doxygen dev-util/kdoc ) ) virtual/pkgconfig postgres? ( dev-db/postgresql-base ) mysql? ( virtual/mysql ) gsm? ( media-sound/gsm ) speex? ( media-libs/speex ) ssl? ( dev-libs/openssl ) h323? ( net-libs/h323plus ) zlib? ( sys-libs/zlib ) qt4? ( dev-qt/qtgui:4 dev-qt/designer:4 ) ilbc? ( dev-libs/ilbc-rfc3951 ) spandsp? ( >=media-libs/spandsp-0.0.3 ) dahdi? ( net-misc/dahdi ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=The Yate AV Suite
+EAPI=5
+HOMEPAGE=http://yate.null.ro/
+IUSE=doc sse2 sctp dahdi zaptel wpcard tdmcard wanpipe +ilbc +ilbc-webrtc +isac-float isac-fixed postgres mysql +gsm +speex h323 spandsp +ssl qt4 +zlib amrnb
+LICENSE=GPL-2
+RDEPEND=postgres? ( dev-db/postgresql-base ) mysql? ( virtual/mysql ) gsm? ( media-sound/gsm ) speex? ( media-libs/speex ) ssl? ( dev-libs/openssl ) h323? ( net-libs/h323plus ) zlib? ( sys-libs/zlib ) qt4? ( dev-qt/qtgui:4 dev-qt/designer:4 ) ilbc? ( dev-libs/ilbc-rfc3951 ) spandsp? ( >=media-libs/spandsp-0.0.3 ) dahdi? ( net-misc/dahdi )
+SLOT=0
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	subversion	c12bdf4fcc82f86ad89b14c8f76c4026	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=96ede59eb5236c4c12857a1893453352

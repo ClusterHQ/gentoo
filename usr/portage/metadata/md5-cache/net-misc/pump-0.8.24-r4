@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=>=dev-libs/popt-1.5
+DESCRIPTION=This is the DHCP/BOOTP client written by RedHat
+EAPI=5
+HOMEPAGE=http://ftp.debian.org/debian/pool/main/p/pump/
+KEYWORDS=amd64 arm hppa ia64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/popt-1.5
+SLOT=0
+SRC_URI=mirror://debian/pool/main/p/pump/pump_0.8.24.orig.tar.gz mirror://debian/pool/main/p/pump/pump_0.8.24-7.diff.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6dd5563ed80a175bd14dec4a83d742a3

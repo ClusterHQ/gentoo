@@ -1,0 +1,36 @@
+# ChangeLog for app-misc/elasticsearch
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-misc/elasticsearch/ChangeLog,v 1.5 2014/09/16 14:19:05 chainsaw Exp $
+
+*elasticsearch-1.3.2 (16 Sep 2014)
+
+  16 Sep 2014; Tony Vroon <chainsaw@gentoo.org> -elasticsearch-0.90.6.ebuild,
+  -elasticsearch-0.90.6-r1.ebuild, -elasticsearch-1.0.1.ebuild,
+  +elasticsearch-1.3.2.ebuild:
+  Version bump, as requested by Mark Nowiasz. With thanks to Tomas Mozes & Ivan
+  Iraci for testing in bug #507116. Removing all vulnerable versions for
+  security bug #518452.
+
+*elasticsearch-1.0.1 (04 Mar 2014)
+
+  04 Mar 2014; Tony Vroon <chainsaw@gentoo.org> +elasticsearch-1.0.1.ebuild:
+  Version bump, as requested by Thomas Stein in bug #503038.
+
+  08 Jan 2014; Mike Frysinger <vapier@gentoo.org>
+  elasticsearch-0.90.6-r1.ebuild, elasticsearch-0.90.6.ebuild:
+  Inherit the user eclass for enewuser/etc...
+
+*elasticsearch-0.90.6-r1 (27 Nov 2013)
+
+  27 Nov 2013; Tony Vroon <chainsaw@gentoo.org>
+  +elasticsearch-0.90.6-r1.ebuild, +files/elasticsearch.init2:
+  Have the init script work properly, fixes by Simon Alman. Closes bug #491324.
+
+*elasticsearch-0.90.6 (07 Nov 2013)
+
+  07 Nov 2013; Tony Vroon <chainsaw@gentoo.org> +elasticsearch-0.90.6.ebuild,
+  +files/elasticsearch.conf, +files/elasticsearch.init,
+  +files/elasticsearch.service, +metadata.xml:
+  Initial commit, initial ebuild by Tom Wijsman with further tweaks by Travis
+  G. Hansen around systemd compatibility and traditional init scripts. Silenced
+  QA warnings for pre-built components.

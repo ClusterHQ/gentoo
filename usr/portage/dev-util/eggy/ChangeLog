@@ -1,0 +1,17 @@
+# ChangeLog for dev-util/eggy
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-util/eggy/ChangeLog,v 1.3 2014/05/30 21:36:14 pesa Exp $
+
+  30 May 2014; Davide Pesavento <pesa@gentoo.org> metadata.xml:
+  Drop to maintainer-needed.
+
+  29 Jun 2010; Arfrever Frehtes Taifersar Arahesis <arfrever@gentoo.org>
+  eggy-0.3.3.ebuild:
+  Set RESTRICT_PYTHON_ABIS and fix dependencies (bug #316785).
+
+*eggy-0.3.3 (11 Jan 2010)
+
+  11 Jan 2010; <hwoarang@gentoo.org> +eggy-0.3.3.ebuild, +metadata.xml:
+  Initial commit of eggy IDE, fixes bug #296147 thanks to Enrico Tagliavini
+  <enrico.tagliavini@gmail.com> and Ben de Groot <yngwin@gentoo.org> for the
+  ebuilds.

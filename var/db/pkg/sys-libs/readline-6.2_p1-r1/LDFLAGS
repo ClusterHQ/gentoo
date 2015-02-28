@@ -1,0 +1,1 @@
+-L/home/core/gentoo/var/tmp/portage/sys-libs/readline-6.2_p1-r1/work/readline-6.2/shlib -Wl,--dynamic-linker -Wl,/home/core/gentoo/usr/lib/ld-linux-x86-64.so.2

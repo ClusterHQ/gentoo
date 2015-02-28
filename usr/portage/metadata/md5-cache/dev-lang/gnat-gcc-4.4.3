@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=dev-libs/mpfr-2.3.1 >=dev-libs/gmp-4.2.2 >=sys-libs/zlib-1.1.4 >=sys-libs/ncurses-5.2-r2 >=sys-devel/bison-1.875 >=sys-libs/glibc-2.8 >=sys-devel/binutils-2.15.94 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13 >=sys-devel/automake-1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool >=sys-apps/sed-4 sys-devel/gnuconfig >=app-admin/eselect-gnat-1.3 sys-devel/bc
+DESCRIPTION=GNAT Ada Compiler - gcc version
+HOMEPAGE=http://gcc.gnu.org/
+IUSE=nls
+KEYWORDS=~amd64 ~x86
+LICENSE=GMGPL
+RDEPEND=>=dev-libs/mpfr-2.3.1 >=dev-libs/gmp-4.2.2 >=sys-libs/zlib-1.1.4 >=sys-libs/ncurses-5.2-r2 app-admin/eselect-gnat
+SLOT=4.4
+SRC_URI=ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.4.3/gcc-core-4.4.3.tar.bz2 ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.4.3/gcc-ada-4.4.3.tar.bz2 amd64? ( http://dev.gentoo.org/~george/src/gnatboot-4.3-amd64.tar.bz2 ) sparc? ( http://dev.gentoo.org/~george/src/gnatboot-4.3-sparc.tar.bz2 ) x86? ( http://dev.gentoo.org/~george/src/gnatboot-4.3-i686.tar.bz2 )
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	fixheadtails	c6fd1fc49c9dc11924f28a1406f251a0	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnatbuild	e2113909032948657971fc6b4ba07283	gnuconfig	1f703be3634689b52cc0c4f1b306d79c	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	pax-utils	8257582809714b788173511f975d767d	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=e5245aa259ff4f0c173586b2b4eb2593

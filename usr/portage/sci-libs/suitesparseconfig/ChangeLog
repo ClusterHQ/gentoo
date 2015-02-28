@@ -1,0 +1,22 @@
+# ChangeLog for sci-libs/suitesparseconfig
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sci-libs/suitesparseconfig/ChangeLog,v 1.4 2014/03/04 19:44:56 vincent Exp $
+
+  04 Mar 2014; Vicente Olivert Riera <vincent@gentoo.org>
+  suitesparseconfig-4.2.1.ebuild:
+  Add ~mips keyword.
+
+*suitesparseconfig-4.2.1 (24 Jun 2013)
+
+  24 Jun 2013; Sébastien Fabbro <bicatali@gentoo.org>
+  +suitesparseconfig-4.2.1.ebuild:
+  Version bump
+
+  08 Dec 2012; Markus Meier <maekke@gentoo.org> suitesparseconfig-4.0.2.ebuild:
+  add ~arm, bug #440908
+
+*suitesparseconfig-4.0.2 (12 Nov 2012)
+
+  12 Nov 2012; Sébastien Fabbro <bicatali@gentoo.org>
+  +suitesparseconfig-4.0.2.ebuild, +metadata.xml:
+  Initial import

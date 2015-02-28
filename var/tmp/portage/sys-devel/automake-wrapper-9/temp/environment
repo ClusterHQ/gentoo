@@ -1,0 +1,214 @@
+declare -x ABI="amd64"
+declare -x ABI_X86="64"
+declare -x ALSA_CARDS=""
+declare -x APACHE2_MODULES="authn_core authz_core socache_shmcb unixd actions alias auth_basic authn_alias authn_anon authn_dbm authn_default authn_file authz_dbm authz_default authz_groupfile authz_host authz_owner authz_user autoindex cache cgi cgid dav dav_fs dav_lock deflate dir disk_cache env expires ext_filter file_cache filter headers include info log_config logio mem_cache mime mime_magic negotiation rewrite setenvif speling status unique_id userdir usertrack vhost_alias"
+declare -x ARCH="amd64"
+declare -x BOOTSTRAP_USE="cxx unicode internal-glib python_targets_python3_3 python_targets_python2_7 multilib multilib"
+declare -x CALLIGRA_FEATURES="kexi words flow plan sheets stage tables krita karbon braindump author"
+declare -x CAMERAS="ptp2"
+declare -x CBUILD="x86_64-pc-linux-gnu"
+declare -x CFLAGS="-O2 -pipe -O2 -pipe"
+declare -x CFLAGS_amd64="-m64"
+declare -x CFLAGS_x32="-mx32"
+declare -x CFLAGS_x86="-m32"
+declare -x CHOST="x86_64-pc-linux-gnu"
+declare -x CHOST_amd64="x86_64-pc-linux-gnu"
+declare -x CHOST_x32="x86_64-pc-linux-gnux32"
+declare -x CHOST_x86="i686-pc-linux-gnu"
+declare -x COLLECTD_PLUGINS="df interface irq load memory rrdtool swap syslog"
+declare -x CONFIGURE_EPREFIX="/home/core/gentoo"
+declare -x CONFIG_SHELL="/home/core/gentoo/bin/bash"
+declare -x CXXFLAGS="-O2 -pipe -O2 -pipe"
+declare -x DEFAULT_ABI="amd64"
+declare -x DEFINED_PHASES=" install unpack"
+declare DEPEND=""
+declare DESCRIPTION="wrapper for automake to manage multiple automake versions"
+declare -x DESTTREE="/usr"
+declare -x DIROPTIONS="-m0755"
+declare -x EAPI="0"
+declare -x ELIBC="glibc"
+declare -x EXEOPTIONS="-m0755"
+declare -x FCFLAGS="-O2 -pipe"
+declare -x FETCHCOMMAND_SSH="bash -c \"x=\\\${2#ssh://} ; host=\\\${x%%/*} ; port=\\\${host##*:} ; host=\\\${host%:*} ; [[ \\\${host} = \\\${port} ]] && port=22 ; exec rsync --rsh=\\\"ssh -p\\\${port} \\\${3}\\\" -avP \\\"\\\${host}:/\\\${x#*/}\\\" \\\"\\\$1\\\"\" rsync \"\${DISTDIR}/\${FILE}\" \"\${URI}\" \"\${PORTAGE_SSH_OPTS}\""
+declare -x FFLAGS="-O2 -pipe"
+declare -x GCC_SPECS=""
+declare -x GPSD_PROTOCOLS="ashtech aivdm earthmate evermore fv18 garmin garmintxt gpsclock itrax mtk3301 nmea ntrip navcom oceanserver oldstyle oncore rtcm104v2 rtcm104v3 sirf superstar2 timing tsip tripmate tnt ublox ubx"
+declare -x GRUB_PLATFORMS=""
+declare HDEPEND=""
+declare HOMEPAGE="http://www.gentoo.org/"
+declare INHERITED
+declare -x INPUT_DEVICES="keyboard mouse evdev"
+declare -x INSDESTTREE=""
+declare -x INSOPTIONS="-m0644"
+declare IUSE=""
+declare -x IUSE_IMPLICIT="abi_x86_64 prefix"
+declare -x KERNEL="linux"
+declare -x KEYWORDS="alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86 ~ppc-aix ~amd64-fbsd ~sparc-fbsd ~x86-fbsd ~x64-freebsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~arm-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+declare -x KV=""
+declare -x LCD_DEVICES=""
+declare -x LC_MESSAGES="C"
+declare -x LDFLAGS="-Wl,-O1"
+declare -x LDFLAGS_amd64="-m elf_x86_64"
+declare -x LDFLAGS_x32="-m elf32_x86_64"
+declare -x LDFLAGS_x86="-m elf_i386"
+declare -x LIBDIR_amd64="lib"
+declare -x LIBDIR_amd64_fbsd="lib64"
+declare -x LIBDIR_arm="lib"
+declare -x LIBDIR_arm64="lib64"
+declare -x LIBDIR_n32="lib32"
+declare -x LIBDIR_n64="lib64"
+declare -x LIBDIR_o32="lib"
+declare -x LIBDIR_ppc="lib32"
+declare -x LIBDIR_ppc64="lib64"
+declare -x LIBDIR_s390="lib32"
+declare -x LIBDIR_s390x="lib64"
+declare -x LIBDIR_sparc32="lib32"
+declare -x LIBDIR_sparc64="lib64"
+declare -x LIBDIR_x32="libx32"
+declare -x LIBDIR_x86="lib32"
+declare -x LIBDIR_x86_fbsd="lib32"
+declare -x LIBOPTIONS="-m0644"
+declare -x LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer"
+declare -x LICENSE="GPL-2"
+declare -x MACOSSANDBOX_PATHS="/dev/fd/ /private/tmp/ /private/var/tmp/ @@PORTAGE_BUILDDIR@@/ @@PORTAGE_ACTUAL_DISTDIR@@/"
+declare -x MACOSSANDBOX_PATHS_CONTENT_ONLY="/dev/null /dev/dtracehelper /dev/tty /private/var/run/syslog"
+declare -x MAKEOPTS="-j8"
+declare -x MULTILIB_ABIS="amd64"
+declare -x MULTILIB_STRICT_DENY="64-bit.*shared object"
+declare -x MULTILIB_STRICT_DIRS="/lib32 /lib /usr/lib32 /usr/lib /usr/kde/*/lib32 /usr/kde/*/lib /usr/qt/*/lib32 /usr/qt/*/lib /usr/X11R6/lib32 /usr/X11R6/lib"
+declare -x MULTILIB_STRICT_EXEMPT="(perl5|gcc|gcc-lib|binutils|eclipse-3|debug|portage|udev|systemd|clang|python-exec)"
+declare -x NETBEANS="apisupport cnd groovy gsf harness ide identity j2ee java mobility nb php profiler soa visualweb webcommon websvccommon xml"
+declare -x OFFICE_IMPLEMENTATION="libreoffice"
+declare -x PATH="/home/core/gentoo/var/tmp/portage/._portage_reinstall_.9fcp9Y/bin/ebuild-helpers/unprivileged:/home/core/gentoo/var/tmp/portage/._portage_reinstall_.9fcp9Y/bin/ebuild-helpers:/home/core/gentoo/usr/sbin:/home/core/gentoo/usr/bin:/home/core/gentoo/sbin:/home/core/gentoo/bin:/home/core/gentoo/opt/bin:/home/core/gentoo/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3:/usr/bin:/bin"
+declare PDEPEND=""
+declare -x PHP_TARGETS=""
+declare -x PKG_CONFIG_PATH="/home/core/gentoo/usr/lib/pkgconfig"
+declare -a PORTAGE_DOCOMPRESS='([0]="/usr/share/doc" [1]="/usr/share/info" [2]="/usr/share/man")'
+declare -x PORTAGE_DOCOMPRESS_SIZE_LIMIT="128"
+declare -a PORTAGE_DOCOMPRESS_SKIP='([0]="/usr/share/doc/automake-wrapper-9/html")'
+declare -x PORTAGE_ROOT_USER="core"
+declare -x PREFIX_DISABLE_GEN_USR_LDSCRIPT="yes"
+declare -x PROFILE_ONLY_VARIABLES="ARCH ELIBC IUSE_IMPLICIT KERNEL USERLAND USE_EXPAND_IMPLICIT USE_EXPAND_UNPREFIXED USE_EXPAND_VALUES_ARCH USE_EXPAND_VALUES_ELIBC USE_EXPAND_VALUES_KERNEL USE_EXPAND_VALUES_USERLAND"
+declare -x PROPERTIES=""
+declare -x PROVIDE=""
+declare -x PYTHONDONTWRITEBYTECODE="1"
+declare -x PYTHON_SINGLE_TARGET=""
+declare -x PYTHON_TARGETS=""
+declare -x RDEPEND=""
+declare REPOSITORY
+declare REQUIRED_USE=""
+declare -x RESTRICT=""
+declare -x RESUMECOMMAND_SSH="bash -c \"x=\\\${2#ssh://} ; host=\\\${x%%/*} ; port=\\\${host##*:} ; host=\\\${host%:*} ; [[ \\\${host} = \\\${port} ]] && port=22 ; exec rsync --rsh=\\\"ssh -p\\\${port} \\\${3}\\\" -avP \\\"\\\${host}:/\\\${x#*/}\\\" \\\"\\\$1\\\"\" rsync \"\${DISTDIR}/\${FILE}\" \"\${URI}\" \"\${PORTAGE_SSH_OPTS}\""
+declare -x RUBY_TARGETS=""
+declare -x S="/home/core/gentoo/var/tmp/portage/sys-devel/automake-wrapper-9/work"
+declare -x SANDBOX_DENY=""
+declare -x SANDBOX_PREDICT=""
+declare -x SANDBOX_READ="/:/home/core/gentoo/var/tmp"
+declare -x SANDBOX_WRITE="/home/core/gentoo/var/tmp"
+declare -x SHELL="/home/core/gentoo/bin/bash"
+declare -x SLOT="0"
+declare SRC_URI=""
+declare -x SYMLINK_LIB=""
+declare -x USE="abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU"
+declare -x USERLAND="GNU"
+declare -x USE_EXPAND_IMPLICIT="ARCH ELIBC KERNEL USERLAND"
+declare -x USE_EXPAND_UNPREFIXED="ARCH"
+declare -x USE_EXPAND_VALUES_ARCH="alpha amd64 amd64-fbsd amd64-linux arm arm-linux arm64 hppa hppa-hpux ia64 ia64-hpux ia64-linux m68k m68k-mint mips ppc ppc64 ppc64-linux ppc-aix ppc-macos ppc-openbsd s390 sh sparc sparc64-freebsd sparc64-solaris sparc-fbsd sparc-solaris x64-freebsd x64-macos x64-openbsd x64-solaris x86 x86-cygwin x86-fbsd x86-freebsd x86-interix x86-linux x86-macos x86-netbsd x86-openbsd x86-solaris x86-winnt"
+declare -x USE_EXPAND_VALUES_ELIBC="AIX Cygwin Darwin DragonFly FreeBSD glibc HPUX Interix mintlib musl NetBSD OpenBSD SunOS uclibc Winnt"
+declare -x USE_EXPAND_VALUES_KERNEL="AIX Cygwin Darwin FreeBSD freemint HPUX Interix linux NetBSD OpenBSD SunOS Winnt"
+declare -x USE_EXPAND_VALUES_USERLAND="BSD GNU"
+declare -x USE_PYTHON="2.7"
+declare -- VERS="19"
+declare -x VIDEO_CARDS=""
+declare -x XTABLES_ADDONS="quota2 psd pknock lscan length2 ipv4options ipset ipp2p iface geoip fuzzy condition tee tarpit sysrq steal rawnat logmark ipmark dhcpmac delude chaos account"
+declare -x _E_DOCDESTTREE_=""
+declare -x _E_EXEDESTTREE_=""
+declare -- phase_func
+__bashpid () 
+{ 
+    sh -c 'echo ${PPID}'
+}
+__call-ebuildshell () 
+{ 
+    if ! has ebuildshell ${FEATURES}; then
+        "$@";
+        return $?;
+    fi;
+    ( umask 002;
+    ( ( set;
+    declare -p;
+    declare -fp;
+    shopt -p;
+    if [[ ${BASH_VERSINFO[0]} == 3 ]]; then
+        export;
+    fi ) | __filter_readonly_variables --filter-for-subshell;
+    echo 'declare -r $PORTAGE_READONLY_METADATA $PORTAGE_READONLY_VARS';
+    echo "export PS1='EBUILD ${PN} $1 \$ '";
+    echo 'unset ENV';
+    echo "type $1";
+    echo "echo WANTED: $@";
+    echo "trap '";
+    echo "umask 002";
+    echo "(";
+    echo "	set";
+    echo "	declare -p";
+    echo "	declare -fp";
+    echo "	shopt -p | grep -v extdebug$";
+    if [[ ${BASH_VERSINFO[0]} == 3 ]]; then
+        echo "	export";
+    fi;
+    echo -n ")";
+    echo -n " | __filter_readonly_variables --filter-metadata";
+    echo " > ${T}/ebuildshell-environment-outcome' 0";
+    echo "shopt -u extdebug";
+    echo "trap - DEBUG" ) > ${T}/ebuildshell-environment;
+    chown ${PORTAGE_USER:-portage}:${PORTAGE_GROUP:-portage} "${T}/ebuildshell-environment" &>/dev/null;
+    chmod g+w "${T}/ebuildshell-environment" &>/dev/null );
+    rm -f "${T}/ebuildshell-environment-outcome" &>/dev/null;
+    unset BASH_ENV;
+    env -i ${BASH} --rcfile "${T}/ebuildshell-environment" -i || die;
+    chown ${PORTAGE_USER:-portage}:${PORTAGE_GROUP:-portage} "${T}/ebuildshell-environment-outcome" &>/dev/null;
+    chmod g+w "${T}/ebuildshell-environment-outcome" &>/dev/null;
+    source "${T}/ebuildshell-environment-outcome" &>/dev/null
+}
+pkg_nofetch () 
+{ 
+    __eapi0_pkg_nofetch "$@"
+}
+post_src_install () 
+{ 
+    prefix-post_src_install
+}
+prefix-post_src_install () 
+{ 
+    local f;
+    if [[ ${PN} != "libiconv" && -n $(ls "${ED}"/usr/lib*/charset.alias 2>/dev/null) ]]; then
+        einfo "automatically removing charset.alias";
+        rm -f "${ED}"/usr/lib*/charset.alias;
+    fi
+}
+profile-post_src_install () 
+{ 
+    prefix-post_src_install
+}
+src_compile () 
+{ 
+    __eapi0_src_compile "$@"
+}
+src_install () 
+{ 
+    newbin "${S}"/am-wrapper-${PV}.sh automake || die;
+    dosym automake /usr/bin/aclocal;
+    keepdir /usr/share/aclocal
+}
+src_test () 
+{ 
+    __eapi0_src_test "$@"
+}
+src_unpack () 
+{ 
+    cp "${FILESDIR}"/am-wrapper-${PV}.sh "${S}"/;
+    if use prefix; then
+        sed -i -e '1c\#!'"${EPREFIX}"'/bin/sh' "${S}"/am-wrapper-${PV}.sh || die;
+    fi
+}

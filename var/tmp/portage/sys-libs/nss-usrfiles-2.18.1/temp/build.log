@@ -1,0 +1,43 @@
+ * Package:    sys-libs/nss-usrfiles-2.18.1
+ * Repository: local_overlay
+ * USE:        abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox
+>>> Unpacking source...
+>>> Unpacking v2.18.1.zip to /home/core/gentoo/var/tmp/portage/sys-libs/nss-usrfiles-2.18.1/work
+>>> Source unpacked in /home/core/gentoo/var/tmp/portage/sys-libs/nss-usrfiles-2.18.1/work
+>>> Preparing source in /home/core/gentoo/var/tmp/portage/sys-libs/nss-usrfiles-2.18.1/work/nss-altfiles-2.18.1 ...
+>>> Source prepared.
+>>> Configuring source in /home/core/gentoo/var/tmp/portage/sys-libs/nss-usrfiles-2.18.1/work/nss-altfiles-2.18.1 ...
+>>> Source configured.
+>>> Compiling source in /home/core/gentoo/var/tmp/portage/sys-libs/nss-usrfiles-2.18.1/work/nss-altfiles-2.18.1 ...
+make -j8 DATADIR=/usr/share/baselayout MODULE_NAME=usrfiles 
+cc -O2 -pipe -O2 -pipe  -pthread -fpic -std=gnu99 -Wall -D_GNU_SOURCE -DALTFILES_DATADIR='"/usr/share/baselayout"' -DALTFILES_MODULE_NAME=usrfiles  -c -o src/nss_altfiles/files-pwd.o src/nss_altfiles/files-pwd.c
+cc -O2 -pipe -O2 -pipe  -pthread -fpic -std=gnu99 -Wall -D_GNU_SOURCE -DALTFILES_DATADIR='"/usr/share/baselayout"' -DALTFILES_MODULE_NAME=usrfiles  -c -o src/nss_altfiles/files-grp.o src/nss_altfiles/files-grp.c
+cc -O2 -pipe -O2 -pipe  -pthread -fpic -std=gnu99 -Wall -D_GNU_SOURCE -DALTFILES_DATADIR='"/usr/share/baselayout"' -DALTFILES_MODULE_NAME=usrfiles  -c -o src/nss_altfiles/files-hosts.o src/nss_altfiles/files-hosts.c
+cc -O2 -pipe -O2 -pipe  -pthread -fpic -std=gnu99 -Wall -D_GNU_SOURCE -DALTFILES_DATADIR='"/usr/share/baselayout"' -DALTFILES_MODULE_NAME=usrfiles  -c -o src/nss_altfiles/files-network.o src/nss_altfiles/files-network.c
+cc -O2 -pipe -O2 -pipe  -pthread -fpic -std=gnu99 -Wall -D_GNU_SOURCE -DALTFILES_DATADIR='"/usr/share/baselayout"' -DALTFILES_MODULE_NAME=usrfiles  -c -o src/nss_altfiles/files-proto.o src/nss_altfiles/files-proto.c
+cc -O2 -pipe -O2 -pipe  -pthread -fpic -std=gnu99 -Wall -D_GNU_SOURCE -DALTFILES_DATADIR='"/usr/share/baselayout"' -DALTFILES_MODULE_NAME=usrfiles  -c -o src/nss_altfiles/files-rpc.o src/nss_altfiles/files-rpc.c
+cc -O2 -pipe -O2 -pipe  -pthread -fpic -std=gnu99 -Wall -D_GNU_SOURCE -DALTFILES_DATADIR='"/usr/share/baselayout"' -DALTFILES_MODULE_NAME=usrfiles  -c -o src/nss_altfiles/files-service.o src/nss_altfiles/files-service.c
+cc -O2 -pipe -O2 -pipe  -pthread -fpic -std=gnu99 -Wall -D_GNU_SOURCE -DALTFILES_DATADIR='"/usr/share/baselayout"' -DALTFILES_MODULE_NAME=usrfiles  -c -o src/nss_altfiles/files-sgrp.o src/nss_altfiles/files-sgrp.c
+make: *** Deleting file 'src/nss_altfiles/files-service.o'
+make: *** Deleting file 'src/nss_altfiles/files-hosts.o'
+make: *** Deleting file 'src/nss_altfiles/files-pwd.o'
+<builtin>: recipe for target 'src/nss_altfiles/files-grp.o' failed
+make: *** [src/nss_altfiles/files-grp.o] Interrupt
+<builtin>: recipe for target 'src/nss_altfiles/files-network.o' failed
+make: *** [src/nss_altfiles/files-network.o] Interrupt
+<builtin>: recipe for target 'src/nss_altfiles/files-proto.o' failed
+make: *** [src/nss_altfiles/files-proto.o] Interrupt
+<builtin>: recipe for target 'src/nss_altfiles/files-rpc.o' failed
+make: *** [src/nss_altfiles/files-rpc.o] Interrupt
+<builtin>: recipe for target 'src/nss_altfiles/files-sgrp.o' failed
+make: *** [src/nss_altfiles/files-sgrp.o] Interrupt
+<builtin>: recipe for target 'src/nss_altfiles/files-pwd.o' failed
+make: *** [src/nss_altfiles/files-pwd.o] Interrupt
+<builtin>: recipe for target 'src/nss_altfiles/files-hosts.o' failed
+make: *** [src/nss_altfiles/files-hosts.o] Interrupt
+<builtin>: recipe for target 'src/nss_altfiles/files-service.o' failed
+make: *** [src/nss_altfiles/files-service.o] Interrupt
+
+/home/core/gentoo/usr/local/portage/sys-libs/nss-usrfiles/nss-usrfiles-2.18.1.ebuild: src_compile aborted; exiting.
+

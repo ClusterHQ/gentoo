@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/core/gentoo/usr
+exec_prefix=${prefix}
+libdir=/home/core/gentoo/usr/lib
+includedir=${prefix}/include
+
+Name: libpcrecpp
+Description: PCRECPP - C++ wrapper for PCRE
+Version: 8.35
+Libs: -L${libdir} -lpcrecpp
+Cflags: -I${includedir} 
+Libs.private: -pthread

@@ -1,0 +1,43 @@
+# ChangeLog for games-simulation/flightgear-data
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/games-simulation/flightgear-data/ChangeLog,v 1.9 2014/08/12 22:41:57 reavertm Exp $
+
+  12 Aug 2014; Maciej Mrozowski <reavertm@gentoo.org>
+  -flightgear-data-2.10.0.ebuild, -flightgear-data-2.12.1.ebuild:
+  Removed versions affected by bug 468106. Dropping to ~ppc.
+
+  07 Jun 2014; Agostino Sarubbo <ago@gentoo.org> flightgear-data-3.0.0.ebuild:
+  Stable for x86, wrt bug #505912
+
+  09 May 2014; Chema Alonso <nimiux@gentoo.org> flightgear-data-3.0.0.ebuild:
+  Stable for amd64 wrt bug #505912
+
+*flightgear-data-3.0.0 (27 Mar 2014)
+
+  27 Mar 2014; Maciej Mrozowski <reavertm@gentoo.org>
+  +flightgear-data-3.0.0.ebuild:
+  Version bump, bug 502246.
+
+*flightgear-data-2.12.1 (12 Dec 2013)
+
+  12 Dec 2013; Maciej Mrozowski <reavertm@gentoo.org>
+  +flightgear-data-2.12.1.ebuild, -flightgear-data-2.12.0.ebuild:
+  Version bump, remove old.
+
+  07 Dec 2013; Pacho Ramos <pacho@gentoo.org> flightgear-data-2.10.0.ebuild:
+  x86 stable, bug #488552
+
+  24 Nov 2013; Pacho Ramos <pacho@gentoo.org> flightgear-data-2.10.0.ebuild:
+  amd64 stable, bug #488552
+
+*flightgear-data-2.12.0 (23 Nov 2013)
+
+  23 Nov 2013; Maciej Mrozowski <reavertm@gentoo.org>
+  +flightgear-data-2.12.0.ebuild:
+  Version bump, bug 485932
+
+*flightgear-data-2.10.0 (20 Feb 2013)
+
+  20 Feb 2013; Maciej Mrozowski <reavertm@gentoo.org>
+  +flightgear-data-2.10.0.ebuild, +metadata.xml:
+  Version bump, bug 458202.

@@ -1,0 +1,33 @@
+# ChangeLog for dev-python/jsonpatch
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/jsonpatch/ChangeLog,v 1.6 2014/07/14 07:44:03 patrick Exp $
+
+*jsonpatch-1.7 (14 Jul 2014)
+
+  14 Jul 2014; Patrick Lauer <patrick@gentoo.org> +jsonpatch-1.7.ebuild:
+  Bump
+
+*jsonpatch-1.5 (03 Apr 2014)
+
+  03 Apr 2014; Tim Harder <radhermit@gentoo.org> +jsonpatch-1.5.ebuild,
+  metadata.xml:
+  Version bump, run tests, update PYTHON_COMPAT, and add upstream info to
+  metadata.
+
+  19 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org> jsonpatch-0.12.ebuild:
+  Keyword amd64-linux and x86-linux
+
+*jsonpatch-0.10 (20 Jan 2013)
+
+  20 Jan 2013; Matthew Thode <prometheanfire@gentoo.org>
+  +jsonpatch-0.10.ebuild:
+  jsonpatch-0.10 needed because glanceclient is stupid
+
+  17 Jan 2013; Matthew Thode <prometheanfire@gentoo.org> jsonpatch-0.12.ebuild:
+  update for [${PYTHON_USEDEP}]
+
+*jsonpatch-0.12 (17 Jan 2013)
+
+  17 Jan 2013; Matthew Thode <prometheanfire@gentoo.org>
+  +jsonpatch-0.12.ebuild, +metadata.xml:
+  adding jsonpatch for a glanceclient dependancy

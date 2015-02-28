@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare prerm setup
+DEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) virtual/httpd-php >=app-admin/webapp-config-1.50.15
+DESCRIPTION=DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
+EAPI=4
+HOMEPAGE=http://wiki.splitbrain.org/wiki:dokuwiki
+IUSE=gd vhosts
+KEYWORDS=amd64 ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/php-5.3[xml] gd? ( || ( dev-lang/php[gd] media-gfx/imagemagick ) ) virtual/httpd-php >=app-admin/webapp-config-1.50.15
+SLOT=20120125
+SRC_URI=http://www.splitbrain.org/_media/projects/dokuwiki/dokuwiki-2012-01-25.tgz
+_eclasses_=depend.php	dcdf301e07578788ea73af6c2012b66b	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	phpconfutils	3b141a267018096231e10dfbd1657b81	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=2a96534fce9b7734d371af97895bc88f

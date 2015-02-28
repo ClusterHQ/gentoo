@@ -1,0 +1,7 @@
+#!/home/core/gentoo/bin/bash
+# Copyright 2010 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+source "${PORTAGE_BIN_PATH:-/home/core/gentoo/usr/lib/portage/bin}"/isolated-functions.sh
+die "$@"
+exit 1

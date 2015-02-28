@@ -1,0 +1,51 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/db5.2_recover a5d40baadcfdc762162de700a58503aa 1410959908
+obj /home/core/gentoo/usr/bin/db5.2sql 014ddc1f85a967aa5ff8b2001cfa9f0a 1410959907
+obj /home/core/gentoo/usr/bin/db5.2_printlog 3ac27eac9e041d6696b1c15748a9d9a0 1410959907
+obj /home/core/gentoo/usr/bin/db5.2_stat 8f4107c91ca9b356b72ffc7dea9b5fa4 1410959908
+obj /home/core/gentoo/usr/bin/db5.2_checkpoint fc29c89e22c83e1b2a9456c3c18c79e7 1410959907
+obj /home/core/gentoo/usr/bin/db5.2_replicate 3123afabf9ea33394961c792849c7651 1410959908
+obj /home/core/gentoo/usr/bin/db5.2_load d5690d1813fed21f0adff9e395ec60ee 1410959907
+obj /home/core/gentoo/usr/bin/db5.2_verify 03cc7cddd57df765c5e639bb6c4c94f9 1410959908
+obj /home/core/gentoo/usr/bin/db5.2_sql_codegen 54ddde833f79885361230adfbfd7b497 1410959907
+obj /home/core/gentoo/usr/bin/db5.2_log_verify 9e3ae1850fc82860aa44f109a7c8fec5 1410959907
+obj /home/core/gentoo/usr/bin/db5.2_tuner bdafb682ab5eeab3f37d38a9f613989e 1410959908
+obj /home/core/gentoo/usr/bin/db5.2_upgrade 861f1f3accfe886653200172b3faa4a9 1410959908
+obj /home/core/gentoo/usr/bin/db5.2_hotbackup bd90b6c39cd8d7fdf4e909767e6a0095 1410959907
+obj /home/core/gentoo/usr/bin/db5.2_dump c2334101d6e544cf1ff4703b14b8aa98 1410959907
+obj /home/core/gentoo/usr/bin/db5.2_archive 27ebfbcafbc84c66ec4a2458ebb31433 1410959907
+obj /home/core/gentoo/usr/bin/db5.2_deadlock d789b3b84558d1ff71c75e9f72b8ef97 1410959907
+dir /home/core/gentoo/usr/sbin
+dir /home/core/gentoo/usr/include
+dir /home/core/gentoo/usr/include/db5.2
+obj /home/core/gentoo/usr/include/db5.2/dbstl_dbt.h 1bc16fefbd085b315e350bddcb5e87ec 1330541313
+obj /home/core/gentoo/usr/include/db5.2/dbstl_dbc.h 61c63891039da757c99190d1854b2bac 1330541313
+obj /home/core/gentoo/usr/include/db5.2/dbstl_inner_utility.h 94e784eaf48396edfea525e2e006cc54 1330541313
+obj /home/core/gentoo/usr/include/db5.2/dbsql.h 369a57a487c181044b68b09024b91ce5 1410959906
+obj /home/core/gentoo/usr/include/db5.2/dbstl_resource_manager.h b93412303ac94db75552766a8e393b21 1330541313
+obj /home/core/gentoo/usr/include/db5.2/dbstl_vector.h 2e3d6a175a16356e727f82f9d5f177e7 1330541313
+obj /home/core/gentoo/usr/include/db5.2/dbstl_element_ref.h a405e7aab5a49e41fd3b3bbe77cce4ee 1330541313
+obj /home/core/gentoo/usr/include/db5.2/db_185.h a515d6876a5e092f6efd06cc6d7b96b3 1410959862
+obj /home/core/gentoo/usr/include/db5.2/dbstl_common.h bb9008132c3cd8d19a01c12f5955a99c 1410959862
+obj /home/core/gentoo/usr/include/db5.2/db.h 9c6b608ffa32ebd1dad346b135e189be 1410959862
+obj /home/core/gentoo/usr/include/db5.2/dbstl_exception.h f809568d2efc2eff5d477184ce6e2ff0 1330541313
+obj /home/core/gentoo/usr/include/db5.2/dbstl_base_iterator.h 7fcfdd2e213f323ef0655f80ec5d09cb 1330541312
+obj /home/core/gentoo/usr/include/db5.2/dbstl_container.h 78ba7437721d103ef7954abad41b3d72 1330541313
+obj /home/core/gentoo/usr/include/db5.2/dbstl_utility.h 5f5e8679b3bfaf172c72d21a1668f40e 1330541313
+obj /home/core/gentoo/usr/include/db5.2/dbstl_set.h 69648c7253c52662fc9a070bff7f0952 1330541313
+obj /home/core/gentoo/usr/include/db5.2/db_cxx.h ceca09a2533bfd3947279cef8b2eb085 1410959862
+obj /home/core/gentoo/usr/include/db5.2/dbstl_map.h 0bdd244618bc70bef8ec90cb83e367f8 1330541313
+dir /home/core/gentoo/usr/lib
+obj /home/core/gentoo/usr/lib/libdb-5.2.a f5c5b9d47039a13000022b252d3675b4 1410959908
+obj /home/core/gentoo/usr/lib/libdb_cxx-5.2.la 40d1a878c56c9fcf65e6147c3132cb78 1410959893
+obj /home/core/gentoo/usr/lib/libdb_cxx-5.2.so 961136c57b2d20eac370c5b1152acdc3 1410959907
+obj /home/core/gentoo/usr/lib/libdb_stl-5.2.a 8135d8a13bb4306183507f6ad5ba32df 1410959908
+obj /home/core/gentoo/usr/lib/libdb_stl-5.2.la 71afa43005c25cfe5667e08f3de20307 1410959894
+obj /home/core/gentoo/usr/lib/libdb-5.2.la f6042c1603784fbf341fa779d8c3abba 1410959893
+obj /home/core/gentoo/usr/lib/libdb_sql-5.2.so f400945db7e167cef705e5b193b9c6b8 1410959907
+obj /home/core/gentoo/usr/lib/libdb_cxx-5.2.a 3f0dada45068218cdc23aea514bc4e60 1410959908
+obj /home/core/gentoo/usr/lib/libdb-5.2.so 8deb8c8f17f2d69a6123886c0e3d8031 1410959907
+obj /home/core/gentoo/usr/lib/libdb_sql-5.2.la 09e5e91a30c4f5c062059bdc7bba41ff 1410959906
+obj /home/core/gentoo/usr/lib/libdb_stl-5.2.so 7c308b6d725478a6daa95aa94adbfbf0 1410959907
+obj /home/core/gentoo/usr/lib/libdb_sql-5.2.a 9bfef55cee90cb366ffa4aa06ce01131 1410959908

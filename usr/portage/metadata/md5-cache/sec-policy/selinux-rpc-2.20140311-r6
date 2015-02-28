@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst postrm prepare unpack
+DEPEND=>=sys-apps/policycoreutils-2.0.82 >=sec-policy/selinux-base-policy-2.20140311-r6 sys-devel/m4 >=sys-apps/checkpolicy-2.0.21
+DESCRIPTION=SELinux policy for rpc
+EAPI=5
+HOMEPAGE=http://www.gentoo.org/proj/en/hardened/selinux/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-apps/policycoreutils-2.0.82 >=sec-policy/selinux-base-policy-2.20140311-r6
+SLOT=0
+SRC_URI=http://oss.tresys.com/files/refpolicy/refpolicy-2.20140311.tar.bz2 http://dev.gentoo.org/~swift/patches/selinux-base-policy/patchbundle-selinux-base-policy-2.20140311-r6.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	selinux-policy-2	76f6046da715a2d83a6057dfe05d605d	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7de4a914e15b2835e6ef868adcba5357

@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst prepare setup
+DEPEND=tcpd? ( sys-apps/tcp-wrappers ) dev-libs/openssl ssl? ( dev-libs/openssl ) virtual/pkgconfig
+DESCRIPTION=TLS/SSL - Port Wrapper
+EAPI=5
+HOMEPAGE=http://www.stunnel.org/index.html
+IUSE=ipv6 selinux tcpd ssl
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 ~s390 sparc x86 ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x86-macos
+LICENSE=GPL-2
+RDEPEND=tcpd? ( sys-apps/tcp-wrappers ) dev-libs/openssl selinux? ( sec-policy/selinux-stunnel )
+SLOT=0
+SRC_URI=http://www.stunnel.org/downloads/stunnel-5.02.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	ssl-cert	6698abb0c28e144e92c4ff1e33341684	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=1665bbfd4a4f0d4c89f9df5fcb8e216c

@@ -1,0 +1,4 @@
+/home/core/gentoo/usr/bin/scanelf libc.so.6
+/home/core/gentoo/usr/bin/scanmacho libc.so.6
+/home/core/gentoo/usr/bin/dumpelf libc.so.6
+/home/core/gentoo/usr/bin/pspax libc.so.6

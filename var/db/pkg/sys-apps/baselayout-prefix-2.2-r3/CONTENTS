@@ -1,0 +1,54 @@
+dir /home/core/gentoo/etc
+obj /home/core/gentoo/etc/gentoo-release 3274587c7b12010880f75606764e4f37 1410958939
+obj /home/core/gentoo/etc/profile 2ef57fbfbd9acfc1547f2636334d2431 1410958939
+dir /home/core/gentoo/etc/init.d
+sym /home/core/gentoo/etc/init.d/functions.sh -> ../../usr/lib/einfo/sh/functions.sh 1410959037
+dir /home/core/gentoo/etc/env.d
+obj /home/core/gentoo/etc/env.d/00basic 99743a178726f18debf5e06693577bd5 1410958939
+obj /home/core/gentoo/etc/env.d/99basic bf9a6ff2dad6b450012de7cf4fbd6254 1410958939
+dir /home/core/gentoo/sbin
+obj /home/core/gentoo/sbin/runscript 1a0b3e697e2598f8f4d1df71864291a4 1410958941
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+sym /home/core/gentoo/usr/lib/libeinfo.so.1 -> libeinfo.so.1.0.0 1410959037
+obj /home/core/gentoo/usr/lib/libeinfo.so.1.0.0 7e7b15162ce35b37a3c716549891bd5c 1410958940
+obj /home/core/gentoo/usr/lib/libeinfo.a 0aaae38f592e96f594b375c6bafc2684 1410958940
+sym /home/core/gentoo/usr/lib/libeinfo.so -> libeinfo.so.1.0.0 1410959037
+dir /home/core/gentoo/usr/lib/einfo
+dir /home/core/gentoo/usr/lib/einfo/sh
+obj /home/core/gentoo/usr/lib/einfo/sh/functions.sh 2b8e07612d14f334aff7a672bd5837f4 1410958938
+dir /home/core/gentoo/usr/lib/einfo/bin
+sym /home/core/gentoo/usr/lib/einfo/bin/vebegin -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/vewend -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/veend -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/vewarn -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/ewend -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/ewarn -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/veindent -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/eerror -> einfo 1410959037
+obj /home/core/gentoo/usr/lib/einfo/bin/einfo 9c8a00e5830e7b7aaf614888d80d3ffa 1410958940
+sym /home/core/gentoo/usr/lib/einfo/bin/eindent -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/esyslog -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/veinfo -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/ewaitfile -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/eoutdent -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/ewarnn -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/eend -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/eval_ecolors -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/veoutdent -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/ebegin -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/eerrorn -> einfo 1410959037
+sym /home/core/gentoo/usr/lib/einfo/bin/einfon -> einfo 1410959037
+obj /home/core/gentoo/usr/lib/libeinfo.la 35d2aeffdfe2617f9a770db49fdeaea7 1410958939
+dir /home/core/gentoo/usr/lib/pkgconfig
+obj /home/core/gentoo/usr/lib/pkgconfig/einfo.pc 659eb614421c0bc4230da8f11915f450 1410958938
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man3
+obj /home/core/gentoo/usr/share/man/man3/einfo.3.bz2 5d010ff99fdce87abb565dca13e29042 1410958938
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/baselayout-prefix-2.2-r3
+obj /home/core/gentoo/usr/share/doc/baselayout-prefix-2.2-r3/ChangeLog.svn.bz2 a67529c6e53ec1bca40effe8f1e07a33 1410958939
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/einfo.h e8dc192f7b55959ee077ad724494f147 1410958939
+sym /home/core/gentoo/usr/tmp -> /home/core/gentoo/var/tmp 1410959037

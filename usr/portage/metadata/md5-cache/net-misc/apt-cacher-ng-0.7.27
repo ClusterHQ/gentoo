@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=app-arch/bzip2 app-arch/xz-utils sys-libs/zlib dev-util/cmake sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Yet another implementation of an HTTP proxy for Debian/Ubuntu software packages written in C++
+EAPI=5
+HOMEPAGE=http://www.unix-ag.uni-kl.de/~bloch/acng/ http://packages.qa.debian.org/a/apt-cacher-ng.html
+IUSE=doc fuse tcpd
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-4 ZLIB public-domain
+RDEPEND=app-arch/bzip2 app-arch/xz-utils sys-libs/zlib dev-lang/perl fuse? ( sys-fs/fuse ) tcpd? ( sys-apps/tcp-wrappers )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/a/apt-cacher-ng/apt-cacher-ng_0.7.27.orig.tar.xz
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=e9b9dd6abcd80cb95829a674d5836e16

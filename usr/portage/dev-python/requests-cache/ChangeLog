@@ -1,0 +1,45 @@
+# ChangeLog for dev-python/requests-cache
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/requests-cache/ChangeLog,v 1.9 2014/09/02 04:17:46 patrick Exp $
+
+  02 Sep 2014; Patrick Lauer <patrick@gentoo.org> requests-cache-0.4.5.ebuild:
+  Whitespace
+
+*requests-cache-0.4.5 (31 Aug 2014)
+
+  31 Aug 2014; Ian Delaney <idella4@gentoo.org> +requests-cache-0.4.5.ebuild:
+  bump; drop py2.6 add py3.4 pypy, add doc build, tidy
+
+*requests-cache-0.4.4 (26 Nov 2013)
+
+  26 Nov 2013; Patrick Lauer <patrick@gentoo.org> +requests-cache-0.4.4.ebuild:
+  Bump
+
+*requests-cache-0.4.3 (18 Sep 2013)
+
+  18 Sep 2013; Patrick Lauer <patrick@gentoo.org> +requests-cache-0.4.3.ebuild:
+  Bump
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> requests-cache-0.3.0.ebuild,
+  requests-cache-0.4.0.ebuild, requests-cache-0.4.2.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*requests-cache-0.4.2 (02 Sep 2013)
+
+  02 Sep 2013; Patrick Lauer <patrick@gentoo.org> +requests-cache-0.4.2.ebuild:
+  Bump
+
+*requests-cache-0.4.0 (02 May 2013)
+
+  02 May 2013; Patrick Lauer <patrick@gentoo.org> +requests-cache-0.4.0.ebuild:
+  Bump
+
+  28 Feb 2013; Jason A. Donenfeld <zx2c4@gentoo.org>
+  requests-cache-0.3.0.ebuild:
+  Fix metadata.
+
+*requests-cache-0.3.0 (28 Feb 2013)
+
+  28 Feb 2013; Jason A. Donenfeld <zx2c4@gentoo.org> +metadata.xml,
+  +requests-cache-0.3.0.ebuild:
+  Import based on dev-python/requests.

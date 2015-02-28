@@ -1,0 +1,1 @@
+|| ( =dev-lang/perl-5.18* =dev-lang/perl-5.16* ~perl-core/Test-Simple-0.980.0 ) !<perl-core/Test-Simple-0.980.0 !>perl-core/Test-Simple-0.980.0-r999

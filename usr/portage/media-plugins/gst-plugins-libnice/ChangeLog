@@ -1,0 +1,189 @@
+# ChangeLog for media-plugins/gst-plugins-libnice
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-plugins/gst-plugins-libnice/ChangeLog,v 1.43 2014/09/15 08:22:21 ago Exp $
+
+  15 Sep 2014; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.7-r100.ebuild, gst-plugins-libnice-0.1.7.ebuild:
+  Stable for sparc, wrt bug #512012
+
+  25 Aug 2014; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.7-r100.ebuild, gst-plugins-libnice-0.1.7.ebuild:
+  Stable for alpha, wrt bug #512012
+
+  23 Aug 2014; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.7-r100.ebuild, gst-plugins-libnice-0.1.7.ebuild:
+  Stable for ia64, wrt bug #512012
+
+  21 Aug 2014; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.7-r100.ebuild, gst-plugins-libnice-0.1.7.ebuild:
+  Stable for ppc64, wrt bug #512012
+
+  07 Aug 2014; Jeroen Roovers <jer@gentoo.org>
+  gst-plugins-libnice-0.1.7.ebuild, gst-plugins-libnice-0.1.7-r100.ebuild:
+  Stable for HPPA (bug #512012).
+
+  28 Jul 2014; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.7-r100.ebuild, gst-plugins-libnice-0.1.7.ebuild:
+  Stable for ppc, wrt bug #512012
+
+  23 Jul 2014; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.7-r100.ebuild, gst-plugins-libnice-0.1.7.ebuild:
+  Stable for x86, wrt bug #512012
+
+  22 Jul 2014; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.7-r100.ebuild, gst-plugins-libnice-0.1.7.ebuild:
+  Stable for amd64, wrt bug #512912
+
+*gst-plugins-libnice-0.1.7-r100 (15 Jul 2014)
+*gst-plugins-libnice-0.1.7 (15 Jul 2014)
+
+  15 Jul 2014; Pacho Ramos <pacho@gentoo.org>
+  +gst-plugins-libnice-0.1.7-r100.ebuild, +gst-plugins-libnice-0.1.7.ebuild:
+  Version bump
+
+  18 Jun 2014; Michał Górny <mgorny@gentoo.org>
+  gst-plugins-libnice-0.1.4-r1.ebuild, gst-plugins-libnice-0.1.4-r101.ebuild:
+  Update dependencies to require guaranteed EAPI=5 or multilib ebuilds, bug
+  #513718.
+
+*gst-plugins-libnice-0.1.4-r101 (10 Jun 2014)
+*gst-plugins-libnice-0.1.4-r1 (10 Jun 2014)
+
+  10 Jun 2014; Michał Górny <mgorny@gentoo.org>
+  +gst-plugins-libnice-0.1.4-r1.ebuild, +gst-plugins-libnice-0.1.4-r101.ebuild:
+  Enable multilib support, bug #493176.
+
+  28 Oct 2013; Patrick Lauer <patrick@gentoo.org>
+  -gst-plugins-libnice-0.1.3-r100.ebuild, -gst-plugins-libnice-0.1.3.ebuild:
+  Removing versions with unsatisfiable keywords after net-libs/libnice cleanup
+
+  22 Oct 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.4-r100.ebuild, gst-plugins-libnice-0.1.4.ebuild:
+  Stable for sparc, wrt bug #480908
+
+  20 Oct 2013; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  This is handled by gstreamer only
+
+  16 Oct 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.4-r100.ebuild, gst-plugins-libnice-0.1.4.ebuild:
+  Stable for ia64, wrt bug #480908
+
+  16 Oct 2013; Jeroen Roovers <jer@gentoo.org>
+  gst-plugins-libnice-0.1.4.ebuild, gst-plugins-libnice-0.1.4-r100.ebuild:
+  Stable for HPPA (bug #480908).
+
+  15 Oct 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.4-r100.ebuild, gst-plugins-libnice-0.1.4.ebuild:
+  Stable for alpha, wrt bug #480908
+
+  14 Oct 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.4-r100.ebuild, gst-plugins-libnice-0.1.4.ebuild:
+  Stable for arm, wrt bug #480908
+
+  13 Oct 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.4-r100.ebuild, gst-plugins-libnice-0.1.4.ebuild:
+  Stable for ppc64, wrt bug #480908
+
+  12 Oct 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.4-r100.ebuild, gst-plugins-libnice-0.1.4.ebuild:
+  Stable for ppc, wrt bug #480908
+
+  11 Oct 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.4-r100.ebuild, gst-plugins-libnice-0.1.4.ebuild:
+  Stable for x86, wrt bug #480908
+
+  10 Oct 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.4-r100.ebuild, gst-plugins-libnice-0.1.4.ebuild:
+  Stable for amd64, wrt bug #480908
+
+*gst-plugins-libnice-0.1.4-r100 (03 Mar 2013)
+*gst-plugins-libnice-0.1.4 (03 Mar 2013)
+
+  03 Mar 2013; Pacho Ramos <pacho@gentoo.org>
+  +gst-plugins-libnice-0.1.4-r100.ebuild, +gst-plugins-libnice-0.1.4.ebuild:
+  Bump
+
+  23 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3-r100.ebuild:
+  Stable for alpha, wrt bug #458188
+
+  23 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3-r100.ebuild:
+  Stable for hppa, wrt bug #458188
+
+  23 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3-r100.ebuild:
+  Stable for sparc, wrt bug #458188
+
+  22 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3-r100.ebuild:
+  Stable for arm, wrt bug #458188
+
+  22 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3-r100.ebuild:
+  Stable for ia64, wrt bug #458188
+
+  21 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3-r100.ebuild:
+  Stable for ppc64, wrt bug #458188
+
+  21 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3-r100.ebuild:
+  Stable for ppc, wrt bug #458188
+
+  21 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3-r100.ebuild:
+  Stable for x86, wrt bug #458188
+
+  21 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3-r100.ebuild:
+  Stable for amd64, wrt bug #458188
+
+  10 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3.ebuild:
+  Stable for sparc, wrt bug #454906
+
+  07 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3.ebuild:
+  Stable for hppa, wrt bug #454906
+
+  04 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3.ebuild:
+  Stable for arm, wrt bug #454906
+
+  04 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3.ebuild:
+  Stable for alpha, wrt bug #454906
+
+  04 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3.ebuild:
+  Stable for ia64, wrt bug #454906
+
+  01 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3.ebuild:
+  Stable for ppc, wrt bug #454906
+
+  01 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3.ebuild:
+  Stable for ppc64, wrt bug #454906
+
+  01 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3.ebuild:
+  Stable for x86, wrt bug #454906
+
+  01 Feb 2013; Agostino Sarubbo <ago@gentoo.org>
+  gst-plugins-libnice-0.1.3.ebuild:
+  Stable for amd64, wrt bug #454906
+
+  12 Jan 2013; Gilles Dartiguelongue <eva@gentoo.org>
+  gst-plugins-libnice-0.1.3-r100.ebuild:
+  Actually depend on gst-1 for r100, bug #451028.
+
+*gst-plugins-libnice-0.1.3-r100 (08 Dec 2012)
+*gst-plugins-libnice-0.1.3 (08 Dec 2012)
+
+  08 Dec 2012; Alexandre Rostovtsev <tetromino@gentoo.org>
+  +gst-plugins-libnice-0.1.3.ebuild, +gst-plugins-libnice-0.1.3-r100.ebuild,
+  +metadata.xml:
+  Split gstreamer plugin out of net-libs/libnice to enable clean optional
+  support for gst-0.10 and/or gst-1.0.

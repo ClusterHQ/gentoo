@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install preinst prepare
+DEPEND=dev-libs/openssl sys-libs/zlib pam? ( virtual/pam ) sys-libs/db sqlite? ( dev-db/sqlite:3 ) dev-libs/libevent app-misc/ca-certificates !mail-mta/courier !mail-mta/esmtp !mail-mta/exim !mail-mta/mini-qmail !mail-mta/msmtp[mta] !mail-mta/netqmail !mail-mta/nullmailer !mail-mta/postfix !mail-mta/qmail-ldap !mail-mta/sendmail !mail-mta/ssmtp[mta] !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool virtual/pkgconfig
+DESCRIPTION=Lightweight but featured SMTP daemon from OpenBSD
+EAPI=5
+HOMEPAGE=http://www.opensmtpd.org/
+IUSE=pam sqlite +mta
+KEYWORDS=amd64 x86
+LICENSE=ISC BSD BSD-1 BSD-2 BSD-4
+RDEPEND=dev-libs/openssl sys-libs/zlib pam? ( virtual/pam ) sys-libs/db sqlite? ( dev-db/sqlite:3 ) dev-libs/libevent app-misc/ca-certificates !mail-mta/courier !mail-mta/esmtp !mail-mta/exim !mail-mta/mini-qmail !mail-mta/msmtp[mta] !mail-mta/netqmail !mail-mta/nullmailer !mail-mta/postfix !mail-mta/qmail-ldap !mail-mta/sendmail !mail-mta/ssmtp[mta]
+SLOT=0
+SRC_URI=https://www.opensmtpd.org/archives/opensmtpd-5.4.1p1.tar.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	pam	5e39d502488dd7c258289b7e4b482342	prefix	21058c21ca48453d771df15500873ede	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=dcb074ace5b171e95edb92e279875278

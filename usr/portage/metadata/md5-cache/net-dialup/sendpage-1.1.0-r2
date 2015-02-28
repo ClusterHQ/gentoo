@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=!net-misc/hylafax >=dev-perl/Device-SerialPort-0.13 >=dev-perl/MailTools-1.44 >=virtual/perl-libnet-1.11 >=dev-perl/Net-SNPP-1.13 dev-perl/DBI dev-lang/perl:=[-build(-)]
+DESCRIPTION=Dialup alphapaging software
+EAPI=5
+HOMEPAGE=http://www.sendpage.org/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=!net-misc/hylafax >=dev-perl/Device-SerialPort-0.13 >=dev-perl/MailTools-1.44 >=virtual/perl-libnet-1.11 >=dev-perl/Net-SNPP-1.13 dev-perl/DBI dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=http://www.sendpage.org/download/sendpage-1.001.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	a6a2d5c77bdaeba2794b167689cafb7a	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=09d4a4134d05d710ade0d66ccce39a8f

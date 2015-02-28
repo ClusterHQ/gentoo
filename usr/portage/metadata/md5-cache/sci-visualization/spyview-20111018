@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure prepare unpack
+DEPEND=>=dev-libs/boost-1.42 media-libs/netpbm x11-libs/fltk:1[opengl] app-text/ghostscript-gpl virtual/glu sys-apps/groff
+DESCRIPTION=Interactive plotting program
+EAPI=4
+HOMEPAGE=http://kavli.nano.tudelft.nl/~gsteele/spyview/
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=>=dev-libs/boost-1.42 media-libs/netpbm x11-libs/fltk:1[opengl] app-text/ghostscript-gpl virtual/glu sci-visualization/gnuplot
+SLOT=0
+SRC_URI=http://kavli.nano.tudelft.nl/~gsteele/spyview/versions/spyview-20111018.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6011808fc5cff056cc42f08dbc73504f

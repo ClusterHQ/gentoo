@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Probabilistic Alignment Kit
+EAPI=4
+HOMEPAGE=http://code.google.com/p/prank-msa/ http://www.ebi.ac.uk/goldman-srv/prank/prank/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=http://prank-msa.googlecode.com/files/prank.src.111130.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=baca7e062e10c19de586718ace0af969

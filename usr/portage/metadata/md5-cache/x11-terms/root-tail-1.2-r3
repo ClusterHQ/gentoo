@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=x11-misc/imake app-text/rman x11-misc/gccmakedep x11-libs/libX11 x11-proto/xproto
+DESCRIPTION=Terminal to display (multiple) log files on the root window
+EAPI=2
+HOMEPAGE=http://oldhome.schmorp.de/marc/root-tail.html
+IUSE=kde debug
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXext x11-libs/libX11
+SLOT=0
+SRC_URI=http://oldhome.schmorp.de/marc/data/root-tail-1.2.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6cdf6baf4e464f1881d1339c2c51cbdf

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup
+DEPEND=dev-python/numpy dev-python/pygtkglext media-libs/freeglut virtual/glu virtual/opengl x11-libs/libXmu doc? ( dev-python/epydoc ) =dev-lang/python-2*
+DESCRIPTION=Toolkit and library for the analysis and manipulation of macromolecular structural models
+EAPI=4
+HOMEPAGE=http://pymmlib.sourceforge.net/
+IUSE=doc
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+LICENSE=Artistic
+RDEPEND=dev-python/numpy dev-python/pygtkglext media-libs/freeglut virtual/glu virtual/opengl x11-libs/libXmu =dev-lang/python-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/pymmlib/pymmlib-1.2.0.tar.gz
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=f8813c7723d60d31400925ef36b5851d

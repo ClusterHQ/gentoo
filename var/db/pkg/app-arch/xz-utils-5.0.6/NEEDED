@@ -1,0 +1,5 @@
+/home/core/gentoo/usr/lib/liblzma.so.5.0.6 libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/lzmadec liblzma.so.5,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/xzdec liblzma.so.5,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/xz liblzma.so.5,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/lzmainfo liblzma.so.5,libpthread.so.0,libc.so.6

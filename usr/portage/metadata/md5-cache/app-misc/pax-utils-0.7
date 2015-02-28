@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install test unpack
+DEPEND=caps? ( sys-libs/libcap ) python? ( dev-python/pyelftools ) ia64-hpux? ( dev-libs/gnulib ) app-arch/xz-utils
+DESCRIPTION=ELF related utils for ELF 32/64 binaries that can check files for security relevant properties
+EAPI=4
+HOMEPAGE=http://hardened.gentoo.org/pax-utils.xml
+IUSE=caps python
+KEYWORDS=~x64-freebsd ~x86-freebsd ~ia64-hpux ~amd64-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+LICENSE=GPL-2
+RDEPEND=caps? ( sys-libs/libcap ) python? ( dev-python/pyelftools ) ia64-hpux? ( dev-libs/gnulib )
+SLOT=0
+SRC_URI=mirror://gentoo/pax-utils-0.7.tar.xz http://dev.gentoo.org/~solar/pax/pax-utils-0.7.tar.xz http://dev.gentoo.org/~vapier/dist/pax-utils-0.7.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=f8d73656c9a094db973bf95ca3398d81

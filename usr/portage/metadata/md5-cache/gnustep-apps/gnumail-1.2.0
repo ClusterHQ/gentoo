@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=~gnustep-libs/pantomime-1.2.0 >=gnustep-base/gnustep-gui-0.11.0 || ( gnustep-apps/addresses gnustep-libs/addresseskit ) >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back
+DESCRIPTION=A fully featured mail application for GNUstep
+EAPI=4
+HOMEPAGE=http://www.collaboration-world.com/gnumail/
+IUSE=crypt +emoticon +xface debug doc
+KEYWORDS=amd64 ppc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=crypt? ( app-crypt/gnupg ) >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back debug? ( !<sys-devel/gdb-6.0 )
+SLOT=0
+SRC_URI=http://download.gna.org/gnustep-nonfsf/GNUMail-1.2.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnustep-2	5c8ef29c1d72267699559746ef1c0096	gnustep-base	94ae60344fbcafb38eebb75c0ad67909	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=fa898e8f24fac5d42d363e28ba523b09

@@ -1,0 +1,11 @@
+# Copyright 1999-2013 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: /var/cvsroot/gentoo-x86/profiles/arch/mips/package.mask,v 1.23 2014/01/23 19:46:51 zlogene Exp $
+
+# Mask pam_ldap and nss_ldap - openldap dep missing.
+sys-auth/pam_ldap
+sys-auth/nss_ldap
+
+# Mask because of 64-bit code regressions
+# 469976
+=dev-libs/openssl-1.0.1e-r1

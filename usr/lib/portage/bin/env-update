@@ -1,0 +1,41 @@
+#!/home/core/gentoo/usr/bin/python -bO
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+from __future__ import print_function
+
+import errno
+import sys
+
+def usage(status):
+	print("Usage: env-update [--no-ldconfig]")
+	print("")
+	print("See the env-update(1) man page for more info")
+	sys.exit(status)
+
+if "-h" in sys.argv or "--help" in sys.argv:
+	usage(0)
+
+makelinks=1
+if "--no-ldconfig" in sys.argv:
+	makelinks=0
+	sys.argv.pop(sys.argv.index("--no-ldconfig"))
+
+if len(sys.argv) > 1:
+	print("!!! Invalid command line options!\n")
+	usage(1)
+
+from os import path as osp
+pym_path = osp.join(osp.dirname(osp.dirname(osp.realpath(__file__))), "pym")
+sys.path.insert(0, pym_path)
+import portage
+portage._internal_caller = True
+
+try:
+	portage.env_update(makelinks)
+except IOError as e:
+	if e.errno == errno.EACCES:
+		print("env-update: Need superuser access")
+		sys.exit(1)
+	else:
+		raise

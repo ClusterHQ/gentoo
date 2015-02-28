@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=>=media-libs/libpng-1.2.43-r2:0 media-libs/libsdl[sound,video,X] timidity? ( >=media-sound/timidity++-2 ) zlib? ( sys-libs/zlib ) app-arch/unzip
+DESCRIPTION=an Ultima 7 game engine that runs on modern operating systems
+EAPI=2
+HOMEPAGE=http://exult.sourceforge.net/
+IUSE=timidity zlib
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libpng-1.2.43-r2:0 media-libs/libsdl[sound,video,X] timidity? ( >=media-sound/timidity++-2 ) zlib? ( sys-libs/zlib )
+SLOT=0
+SRC_URI=mirror://sourceforge/exult/exult-1.4.9rc1.tar.gz mirror://sourceforge/exult/U7MusicOGG_1of2.zip mirror://sourceforge/exult/U7MusicOGG_2of2.zip mirror://sourceforge/exult/jmsfx.zip mirror://sourceforge/exult/jmsfxsi.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=e53d2b045d766174483ab7d180d95cc2

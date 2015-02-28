@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=net-mail/vpopmail || ( mail-mta/netqmail[qmail-spp] mail-mta/qmail-ldap[qmail-spp] ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool >=sys-apps/sed-4
+DESCRIPTION=qmail-spp plugin to check recipient existance with vpopmail
+EAPI=2
+HOMEPAGE=http://github.com/hollow/vchkuser
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://bb.xnull.de/projects/vchkuser/dist/vchkuser-0.3.3.tar.bz2
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	fixheadtails	c6fd1fc49c9dc11924f28a1406f251a0	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	qmail	9aa474d2def73a95c642872fdca9c014	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=bc9395dcadac5273d6163119399e3e60

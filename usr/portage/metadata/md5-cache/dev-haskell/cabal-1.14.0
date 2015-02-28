@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prerm setup test
+DEPEND=>=dev-lang/ghc-6.10.1 <dev-lang/ghc-7.6.0
+DESCRIPTION=A framework for packaging Haskell software
+EAPI=4
+HOMEPAGE=http://www.haskell.org/cabal/
+IUSE=doc profile
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-6.10.1 <dev-lang/ghc-7.6.0
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://hackage/packages/archive/Cabal/1.14.0/Cabal-1.14.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	ghc-package	9dd58db252d8252779bb74ed015196e3	haskell-cabal	b6154aeaa4dfbbc6d8a66d7f739c22d1	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=2253c7dc74dbc1f2753acf218880c212

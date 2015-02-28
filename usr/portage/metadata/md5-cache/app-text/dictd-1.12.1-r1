@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=sys-libs/zlib dev-libs/libmaa dbi? ( dev-db/libdbi ) judy? ( dev-libs/judy ) >=sys-apps/coreutils-6.10 >=sys-apps/gawk-3.1.6 virtual/yacc virtual/pkgconfig
+DESCRIPTION=Dictionary Client/Server for the DICT protocol
+EAPI=5
+HOMEPAGE=http://www.dict.org/ http://sourceforge.net/projects/dict/
+IUSE=dbi judy minimal
+KEYWORDS=alpha amd64 ~hppa ia64 ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris
+LICENSE=GPL-2 ISOC-rfc
+RDEPEND=sys-libs/zlib dev-libs/libmaa dbi? ( dev-db/libdbi ) judy? ( dev-libs/judy ) >=sys-apps/coreutils-6.10
+SLOT=0
+SRC_URI=mirror://sourceforge/dict/dictd-1.12.1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	readme.gentoo	106edea5533517715013de909a333abd	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=aeb5e63327dc964a6d326391cb949ec8

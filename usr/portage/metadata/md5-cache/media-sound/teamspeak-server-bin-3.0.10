@@ -1,0 +1,13 @@
+DEFINED_PHASES=install nofetch setup
+DEPEND=virtual/pkgconfig
+DESCRIPTION=TeamSpeak Server - Voice Communication Software
+EAPI=5
+HOMEPAGE=http://www.teamspeak.com/
+IUSE=doc pdf tsdns
+KEYWORDS=~amd64 ~x86
+LICENSE=teamspeak3 GPL-2
+RESTRICT=installsources fetch mirror strip
+SLOT=0
+SRC_URI=amd64? ( http://ftp.4players.de/pub/hosted/ts3/releases/3.0.10/teamspeak3-server_linux-amd64-3.0.10.tar.gz ) x86? ( http://ftp.4players.de/pub/hosted/ts3/releases/3.0.10/teamspeak3-server_linux-x86-3.0.10.tar.gz )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=ceabb4c24bd898a906797e0c74065953

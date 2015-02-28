@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=nls? ( sys-devel/gettext )
+DESCRIPTION=Execute a command when the contents of a directory change
+EAPI=2
+HOMEPAGE=http://directory.fsf.org/project/dnotify/
+IUSE=nls
+KEYWORDS=amd64 ~mips ppc -sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://gentoo/dnotify-0.18.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=87129fd54a12a070f4a7f6c105f03c08

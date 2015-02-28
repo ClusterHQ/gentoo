@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install setup
+DESCRIPTION=Weighted Policy daemon for Postfix
+EAPI=4
+HOMEPAGE=http://www.policyd-weight.org/
+KEYWORDS=~alpha amd64 x86
+LICENSE=GPL-2
+RDEPEND=virtual/perl-Sys-Syslog dev-perl/Net-DNS >=mail-mta/postfix-2.1
+SLOT=0
+SRC_URI=http://www.policyd-weight.org/releases/policyd-weight-0.1.15.2.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=c862543777103e15d049212c9f330e3a

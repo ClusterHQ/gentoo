@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=app-text/sword-1.6.0 >=dev-cpp/clucene-2.3.3.4 dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 dev-qt/qtwebkit:4 dev-libs/boost dev-libs/icu:= net-misc/curl sys-libs/zlib dev-qt/qttest:4 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Qt4 Bible study application using the SWORD library
+EAPI=5
+HOMEPAGE=http://www.bibletime.info/
+IUSE=debug
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-text/sword-1.6.0 >=dev-cpp/clucene-2.3.3.4 dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 dev-qt/qtwebkit:4
+SLOT=0
+SRC_URI=mirror://sourceforge/project/bibletime/BibleTime%202/BibleTime%202%20source%20code/bibletime-2.10.0.tar.xz
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=875c983fae6fbaf2d01e3475ee775039

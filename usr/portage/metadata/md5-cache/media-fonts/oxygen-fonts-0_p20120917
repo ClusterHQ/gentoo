@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm setup
+DEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings )
+DESCRIPTION=Desktop/GUI font family for integrated use with the KDE desktop
+EAPI=4
+HOMEPAGE=https://projects.kde.org/projects/playground/artwork/oxygen-fonts
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~johu/distfiles/oxygen-fonts-0_p20120917.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	font	37271e0911f39dd15a28adcaf94f6956	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=2a5152efcfcb442c3fd77f14ee4eb01c

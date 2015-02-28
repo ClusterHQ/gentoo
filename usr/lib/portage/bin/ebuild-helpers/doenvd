@@ -1,0 +1,14 @@
+#!/home/core/gentoo/bin/bash
+# Copyright 1999-2010 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+if [[ $# -lt 1 ]] ; then
+	source "${PORTAGE_BIN_PATH:-/home/core/gentoo/usr/lib/portage/bin}"/isolated-functions.sh
+	__helpers_die "${0##*/}: at least one argument needed"
+	exit 1
+fi
+
+exec \
+env \
+INSDESTTREE="/etc/env.d/" \
+doins "$@"

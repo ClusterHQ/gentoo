@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install prepare setup
+DEPEND=cgi? ( dev-lang/python ) fuse? ( >=sys-fs/fuse-2.6 )
+DESCRIPTION=A filesystem for highly reliable petabyte storage
+EAPI=5
+HOMEPAGE=http://www.moosefs.org/
+IUSE=cgi +fuse static-libs python_targets_python2_7 python_single_target_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=cgi? ( dev-lang/python ) fuse? ( >=sys-fs/fuse-2.6 )
+REQUIRED_USE=python_single_target_python2_7? ( python_targets_python2_7 ) ^^ ( python_single_target_python2_7 )
+SLOT=0
+SRC_URI=http://pro.hit.gemius.pl/hitredir/id=.WCbG2t.7Ln5k1s3Q9xPg8cPfX.wVMc5kyXfrKcJTDH.c7/url=moosefs.org/tl_files/mfscode/mfs-1.6.27-1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python-single-r1	a71a169a881e0a11d04a7fe12dc39f6e	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=eb295ea3a7687fb3d2024bd12f8e275c

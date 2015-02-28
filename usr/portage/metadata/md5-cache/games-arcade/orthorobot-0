@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=>=games-engines/love-0.8.0 app-arch/unzip
+DESCRIPTION=Nice perspective based puzzle game, where you flatten the view to move across gaps
+EAPI=5
+HOMEPAGE=http://stabyourself.net/orthorobot/
+KEYWORDS=amd64 x86
+LICENSE=CC-BY-NC-ND-3.0
+RDEPEND=>=games-engines/love-0.8.0
+SLOT=0
+SRC_URI=http://stabyourself.net/dl.php?file=orthorobot/orthorobot-source.zip -> orthorobot-0.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=eccc047a4da7ed253ab6c13a23ea9330

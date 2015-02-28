@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=dev-libs/libxml2 !dedicated? ( media-libs/libpng:0 media-libs/sdl-image[jpeg,png] virtual/glu virtual/opengl sound? ( media-libs/libsdl[X,sound,opengl,video] media-libs/sdl-mixer ) !sound? ( media-libs/libsdl[X,opengl,video] ) ) >=sys-apps/sed-4
+DESCRIPTION=Fast-paced 3D lightcycle game based on Tron
+EAPI=5
+HOMEPAGE=http://armagetronad.org/
+IUSE=dedicated sound
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libxml2 !dedicated? ( media-libs/libpng:0 media-libs/sdl-image[jpeg,png] virtual/glu virtual/opengl sound? ( media-libs/libsdl[X,sound,opengl,video] media-libs/sdl-mixer ) !sound? ( media-libs/libsdl[X,opengl,video] ) )
+SLOT=0
+SRC_URI=http://launchpad.net/armagetronad/0.2.8/0.2.8.3.2/+download/armagetronad-0.2.8.3.2.src.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=c3ffa6476a1cc75608af67b46765d81c

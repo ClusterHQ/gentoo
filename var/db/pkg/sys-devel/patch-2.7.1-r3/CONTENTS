@@ -1,0 +1,14 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/patch-2.7.1-r3
+obj /home/core/gentoo/usr/share/doc/patch-2.7.1-r3/AUTHORS.bz2 8968c124ed75dec93e3e78ee1e336d41 1410958967
+obj /home/core/gentoo/usr/share/doc/patch-2.7.1-r3/README.bz2 76ad370e01c23d07d7f7206cf06b9926 1410958967
+obj /home/core/gentoo/usr/share/doc/patch-2.7.1-r3/TODO.bz2 d7c1bb8fa3ae123586736ec98453b54a 1410958967
+obj /home/core/gentoo/usr/share/doc/patch-2.7.1-r3/ChangeLog.bz2 ee7345461b791532ff1ae8a74bc93eed 1410958967
+obj /home/core/gentoo/usr/share/doc/patch-2.7.1-r3/NEWS.bz2 735316efcdc86e5dafd2be9e25ae42ea 1410958967
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/patch.1.bz2 14344a68f640626b6098cdbc6f8e7d1a 1410958967
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/patch 11ace6faf320facb12666c0f143e3ed5 1410958967

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
+DEPEND=ssl? ( dev-libs/openssl ) !ssl? ( dev-libs/gmp ) kernel_linux? ( virtual/modutils ) sys-apps/sed kernel_linux? ( virtual/linux-sources ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) virtual/pkgconfig
+DESCRIPTION=Emulator driver for tpm
+EAPI=2
+HOMEPAGE=https://developer.berlios.de/projects/tpm-emulator
+IUSE=ssl modules kernel_linux
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=ssl? ( dev-libs/openssl ) kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=mirror://berlios/tpm-emulator/tpm_emulator-0.7.4.tar.gz
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	linux-info	2b8c53f6065bdee2d757472215a3088f	linux-mod	101302d4b7b694ea9622bbffb187d0de	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	udev	da001465a2e939c93f7ae16947ce3438	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=4a1da405cebf5fe8532aa679c624f4a1

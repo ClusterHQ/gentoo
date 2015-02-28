@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-apps/mkfontdir x11-apps/bdftopcf
+DESCRIPTION=Kuo Chauo Chinese Fonts collection in BIG5 encoding
+HOMEPAGE=http://freebsd.sinica.edu.tw/
+KEYWORDS=alpha amd64 arm ia64 ppc s390 sh sparc x86 ~x86-fbsd
+LICENSE=freedist
+RESTRICT=strip binchecks
+SLOT=0
+SRC_URI=ftp://freebsd.sinica.edu.tw/pub/distfiles/kcfonts-1.05.tar.gz ftp://wm28.csie.ncu.edu.tw/pub/distfiles/kcfonts-1.05.tar.gz mirror://gentoo/kcfonts-1.05-freebsd-aa_ad.patch.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=34786a600f8beac02763ce07d34eff4f

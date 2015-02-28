@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Manages the /usr/bin/miniAudicle symlink
+EAPI=3
+HOMEPAGE=http://www.gentoo.org/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=app-admin/eselect-1.2.3
+SLOT=0
+SRC_URI=mirror://gentoo/miniaudicle.eselect-1.0.1.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=911fbb09766a35d7cad7d6c5273c51b8

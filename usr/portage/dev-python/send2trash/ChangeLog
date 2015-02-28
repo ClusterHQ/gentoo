@@ -1,0 +1,19 @@
+# ChangeLog for dev-python/send2trash
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/send2trash/ChangeLog,v 1.4 2014/03/31 20:24:54 mgorny Exp $
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> send2trash-1.2.0.ebuild:
+  Add support for the new PyPy slotting.
+
+  18 Aug 2013; Agostino Sarubbo <ago@gentoo.org> send2trash-1.2.0.ebuild:
+  Stable for x86, wrt bug #480510
+
+  13 Aug 2013; Agostino Sarubbo <ago@gentoo.org> send2trash-1.2.0.ebuild:
+  Stable for amd64, wrt bug #480510
+
+*send2trash-1.2.0 (15 Jun 2013)
+
+  15 Jun 2013; Ian Delaney <idella4@gentoo.org> +metadata.xml,
+  +send2trash-1.2.0.ebuild:
+  New ebuild written by me, new dep to app-misc/anki, closes Bug #473110 by
+  tomka

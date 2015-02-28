@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst
+DEPEND=net-misc/curl dev-libs/libxml2 dev-libs/libpcre net-libs/liboauth virtual/pkgconfig
+DESCRIPTION=A command line twitter/identi.ca client
+EAPI=2
+HOMEPAGE=http://gregkh.github.com/bti/
+IUSE=bash-completion
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+PDEPEND=bash-completion? ( app-shells/bash-completion )
+RDEPEND=net-misc/curl dev-libs/libxml2 dev-libs/libpcre net-libs/liboauth || ( sys-libs/readline dev-libs/libedit ) bash-completion? ( app-admin/eselect )
+SLOT=0
+SRC_URI=mirror://kernel/software/web/bti/bti-031.tar.bz2
+_eclasses_=bash-completion	f913ed18b57a2d3372c4291680454db4	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4f2163100a62553d5ffad5d1185d3ba2

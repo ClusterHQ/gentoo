@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=>=app-arch/unzip-5.50-r2
+DESCRIPTION=braille translator from the National Federation of the Blind
+EAPI=3
+HOMEPAGE=http://www.nfb.org/nfbtrans
+KEYWORDS=amd64 ~ppc x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://www.nfb.org/Images/nfb/Products_Technology/nfbtr774.zip
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=3cdf9a9e399c0805cfff4ab3c9f17392

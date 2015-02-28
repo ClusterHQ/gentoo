@@ -1,0 +1,32 @@
+# ChangeLog for dev-python/pycryptopp
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pycryptopp/ChangeLog,v 1.8 2014/08/14 16:36:00 phajdan.jr Exp $
+
+  14 Aug 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> pycryptopp-0.6.0.ebuild:
+  x86 stable wrt bug #518242
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> pycryptopp-0.6.0.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+  21 Dec 2012; Tim Harder <radhermit@gentoo.org> pycryptopp-0.6.0.ebuild:
+  Use PYTHON_USEDEP to pull in proper deps.
+
+*pycryptopp-0.6.0 (18 Dec 2012)
+
+  18 Dec 2012; Tim Harder <radhermit@gentoo.org> +pycryptopp-0.6.0.ebuild:
+  Version bump. Migrate to distutils-r1.
+
+  22 Feb 2012; Patrick Lauer <patrick@gentoo.org> pycryptopp-0.5.29.ebuild:
+  Restricting python stuff properly
+
+  22 Feb 2012; Patrick Lauer <patrick@gentoo.org> pycryptopp-0.5.29.ebuild:
+  Restricting jython
+
+  20 Feb 2012; Patrick Lauer <patrick@gentoo.org> pycryptopp-0.5.29.ebuild:
+  Restricting pypy #404915
+
+*pycryptopp-0.5.29 (08 Dec 2011)
+
+  08 Dec 2011; Tim Harder <radhermit@gentoo.org> +pycryptopp-0.5.29.ebuild,
+  +metadata.xml:
+  Initial import. Ebuild by me.

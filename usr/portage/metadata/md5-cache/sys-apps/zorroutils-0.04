@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Zorro bus utility for Amigas running 2.1 and later kernels
+HOMEPAGE=http://users.telenet.be/geertu/Download/#zorro
+KEYWORDS=m68k ~ppc
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://users.telenet.be/geertu/Download/zorroutils-0.04.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=3c11aed855a13c28db43cc3a9138a9a4

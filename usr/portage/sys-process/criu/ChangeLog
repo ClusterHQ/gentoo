@@ -1,0 +1,56 @@
+# ChangeLog for sys-process/criu
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-process/criu/ChangeLog,v 1.10 2014/08/13 02:40:02 radhermit Exp $
+
+*criu-1.2-r1 (13 Aug 2014)
+
+  13 Aug 2014; Tim Harder <radhermit@gentoo.org> -criu-1.2.ebuild,
+  +criu-1.2-r1.ebuild:
+  Specify required protobuf-c version range.
+
+  13 Aug 2014; Tim Harder <radhermit@gentoo.org> -criu-0.5.ebuild,
+  -criu-0.6.ebuild, -criu-0.7.ebuild, -criu-0.8.ebuild, -criu-1.0.ebuild,
+  -criu-1.1.ebuild, -files/crtools-0.4-flags.patch:
+  Remove old.
+
+*criu-1.2 (01 Mar 2014)
+
+  01 Mar 2014; Tim Harder <radhermit@gentoo.org> +criu-1.2.ebuild,
+  +files/criu-1.2-makefile.patch:
+  Version bump.
+
+*criu-1.1 (19 Feb 2014)
+
+  19 Feb 2014; Tim Harder <radhermit@gentoo.org> +criu-1.1.ebuild:
+  Version bump.
+
+*criu-1.0 (26 Nov 2013)
+
+  26 Nov 2013; Tim Harder <radhermit@gentoo.org> +criu-1.0.ebuild:
+  Version bump.
+
+*criu-0.8 (06 Nov 2013)
+
+  06 Nov 2013; Tim Harder <radhermit@gentoo.org> +criu-0.8.ebuild:
+  Version bump.
+
+*criu-0.7 (08 Sep 2013)
+
+  08 Sep 2013; Tim Harder <radhermit@gentoo.org> +criu-0.7.ebuild:
+  Version bump.
+
+*criu-0.6 (31 Jul 2013)
+
+  31 Jul 2013; Tim Harder <radhermit@gentoo.org> +criu-0.6.ebuild,
+  +files/criu-0.6-flags.patch:
+  Version bump (bug #475558 by Maksim Melnikau).
+
+  08 Jun 2013; Tim Harder <radhermit@gentoo.org> criu-0.5.ebuild:
+  Drop ~x86 keyword since it isn't supported yet.
+
+*criu-0.5 (03 May 2013)
+
+  03 May 2013; Tim Harder <radhermit@gentoo.org>
+  +files/crtools-0.4-flags.patch, +criu-0.5.ebuild, +metadata.xml:
+  Upstream rename and version bump of sys-process/crtools.
+

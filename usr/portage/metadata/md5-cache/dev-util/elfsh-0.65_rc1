@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/expat-1.95 readline? ( sys-libs/readline ) app-arch/unzip dev-libs/libhash
+DESCRIPTION=scripting language to modify ELF binaries
+HOMEPAGE=http://www.eresi-project.org/
+IUSE=readline
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://gentoo/elfsh-0.65_rc1.zip
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ea07fb866f9633d056ecdeb198353647

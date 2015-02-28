@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install postinst setup unpack
+DESCRIPTION=A utility to control Transmeta's Crusoe and Efficeon processors
+HOMEPAGE=http://freshmeat.net/projects/longrun/
+KEYWORDS=-ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://kernel/linux/utils/cpu/crusoe/longrun-0.9.tar.bz2 mirror://debian/pool/main/l/longrun/longrun_0.9-19.diff.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	linux-info	2b8c53f6065bdee2d757472215a3088f	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=0057edac5b7808f68f382d20c6c60b61

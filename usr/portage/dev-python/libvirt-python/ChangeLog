@@ -1,0 +1,64 @@
+# ChangeLog for dev-python/libvirt-python
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/libvirt-python/ChangeLog,v 1.14 2014/08/12 20:34:53 ago Exp $
+
+  12 Aug 2014; Agostino Sarubbo <ago@gentoo.org> libvirt-python-1.2.5.ebuild:
+  Stable for x86, wrt bug #509858
+
+  12 Aug 2014; Agostino Sarubbo <ago@gentoo.org> libvirt-python-1.2.5.ebuild:
+  Stable for amd64, wrt bug #509858
+
+*libvirt-python-1.2.6 (03 Aug 2014)
+
+  03 Aug 2014; Tobias Klausmann <klausman@gentoo.org>
+  +libvirt-python-1.2.6.ebuild:
+  Bump to 1.2.6 so libvirt-python compiles against libvirt-1.2.6 (bug 518812)
+
+*libvirt-python-1.2.5 (16 Jun 2014)
+
+  16 Jun 2014; Tiziano Müller <dev-zero@gentoo.org>
+  +libvirt-python-1.2.5.ebuild:
+  Version bump (bug #510460).
+
+*libvirt-python-1.2.4 (17 May 2014)
+
+  17 May 2014; Doug Goldstein <cardoe@gentoo.org> +libvirt-python-1.2.4.ebuild,
+  -libvirt-python-1.2.0.ebuild, -libvirt-python-1.2.1.ebuild:
+  Version bump. Remove older versions as well.
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org> libvirt-python-1.2.3.ebuild:
+  Stable for x86, wrt bug #502232
+
+  21 Apr 2014; Agostino Sarubbo <ago@gentoo.org> libvirt-python-1.2.3.ebuild:
+  Stable for amd64, wrt bug #502232
+
+*libvirt-python-1.2.3 (20 Apr 2014)
+
+  20 Apr 2014; Doug Goldstein <cardoe@gentoo.org> +libvirt-python-1.2.3.ebuild:
+  Version bump
+
+  25 Jan 2014; Agostino Sarubbo <ago@gentoo.org> libvirt-python-1.2.1.ebuild:
+  Stable for amd64, wrt bug #498534
+
+  25 Jan 2014; Agostino Sarubbo <ago@gentoo.org> libvirt-python-1.2.1.ebuild:
+  Stable for x86, wrt bug #498534
+
+  22 Jan 2014; Agostino Sarubbo <ago@gentoo.org> libvirt-python-1.2.0.ebuild:
+  Stable for x86, wrt bug #496204
+
+  22 Jan 2014; Agostino Sarubbo <ago@gentoo.org> libvirt-python-1.2.0.ebuild:
+  Stable for amd64, wrt bug #496204
+
+*libvirt-python-1.2.1 (19 Jan 2014)
+
+  19 Jan 2014; Doug Goldstein <cardoe@gentoo.org> +libvirt-python-1.2.1.ebuild:
+  Version bump. Added Python 3 support upstream in this version so its enabled
+  here.
+
+*libvirt-python-1.2.0 (02 Dec 2013)
+
+  02 Dec 2013; Doug Goldstein <cardoe@gentoo.org> +libvirt-python-1.2.0.ebuild,
+  +metadata.xml:
+  Initial version of the Python bindings for libvirt that are now split from the
+  main libvirt repo. This also allows us to build the bindings against multiple
+  versions of Python.

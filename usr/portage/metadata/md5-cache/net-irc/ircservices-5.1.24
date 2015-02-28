@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure install prepare setup
+DEPEND=>=sys-apps/sed-4
+DESCRIPTION=ChanServ, NickServ, and MemoServ with support for several IRC daemons
+EAPI=4
+HOMEPAGE=http://achurch.org/services/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2 FDL-1.2
+SLOT=0
+SRC_URI=http://achurch.org/services/tarballs/ircservices-5.1.24.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fixheadtails	c6fd1fc49c9dc11924f28a1406f251a0	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=2513517e8e2fd67017645e0ad606d519

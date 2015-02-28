@@ -1,0 +1,71 @@
+# ChangeLog for dev-python/cryptography-vectors
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/cryptography-vectors/ChangeLog,v 1.13 2014/08/24 03:44:46 radhermit Exp $
+
+*cryptography-vectors-0.5.4 (24 Aug 2014)
+
+  24 Aug 2014; Tim Harder <radhermit@gentoo.org>
+  +cryptography-vectors-0.5.4.ebuild:
+  Version bump.
+
+  13 Aug 2014; Anthony G. Basile <blueness@gentoo.org>
+  cryptography-vectors-0.3.ebuild, cryptography-vectors-0.4.ebuild,
+  cryptography-vectors-0.5.1.ebuild, cryptography-vectors-0.5.2.ebuild,
+  cryptography-vectors-0.5.3.ebuild:
+  Keyword ~ppc and ~ppc64, bug #503094
+
+*cryptography-vectors-0.5.3 (08 Aug 2014)
+
+  08 Aug 2014; Tim Harder <radhermit@gentoo.org>
+  +cryptography-vectors-0.5.3.ebuild:
+  Version bump.
+
+*cryptography-vectors-0.5.2 (10 Jul 2014)
+
+  10 Jul 2014; Tim Harder <radhermit@gentoo.org>
+  +cryptography-vectors-0.5.2.ebuild:
+  Version bump.
+
+*cryptography-vectors-0.5.1 (08 Jul 2014)
+
+  08 Jul 2014; Tim Harder <radhermit@gentoo.org>
+  -cryptography-vectors-0.5.ebuild, +cryptography-vectors-0.5.1.ebuild:
+  Version bump and remove old.
+
+*cryptography-vectors-0.5 (08 Jul 2014)
+
+  08 Jul 2014; Tim Harder <radhermit@gentoo.org>
+  +cryptography-vectors-0.5.ebuild:
+  Version bump.
+
+  27 Jun 2014; Tim Harder <radhermit@gentoo.org>
+  cryptography-vectors-0.3.ebuild, cryptography-vectors-0.4.ebuild:
+  Add build dep on setuptools (bug #515292).
+
+  22 Jun 2014; Tobias Klausmann <klausman@gentoo.org>
+  cryptography-vectors-0.4.ebuild:
+  Keyworded on alpha, bug #503094
+
+  08 Jun 2014; Akinori Hattori <hattya@gentoo.org>
+  cryptography-vectors-0.3.ebuild, cryptography-vectors-0.4.ebuild:
+  keyword ~ia64 wrt bug #503094
+
+  10 May 2014; Ian Delaney <idella4@gentoo.org> cryptography-vectors-0.3.ebuild,
+  cryptography-vectors-0.4.ebuild:
+  drop py2.6 pypy2_0 support
+
+*cryptography-vectors-0.4 (07 May 2014)
+
+  07 May 2014; Patrick Lauer <patrick@gentoo.org>
+  +cryptography-vectors-0.4.ebuild:
+  Bump
+
+  03 Apr 2014; Tim Harder <radhermit@gentoo.org>
+  cryptography-vectors-0.3.ebuild:
+  Add ~arm.
+
+*cryptography-vectors-0.3 (03 Apr 2014)
+
+  03 Apr 2014; Tim Harder <radhermit@gentoo.org>
+  +cryptography-vectors-0.3.ebuild, +metadata.xml:
+  Initial import, test data for dev-python/cryptography.

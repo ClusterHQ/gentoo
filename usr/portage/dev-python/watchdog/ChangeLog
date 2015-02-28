@@ -1,0 +1,22 @@
+# ChangeLog for dev-python/watchdog
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/watchdog/ChangeLog,v 1.4 2014/08/14 16:32:05 phajdan.jr Exp $
+
+  14 Aug 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> watchdog-0.8.0.ebuild:
+  x86 stable wrt bug #518240
+
+*watchdog-0.8.1 (28 Jul 2014)
+
+  28 Jul 2014; Julian Ospald <hasufell@gentoo.org> +watchdog-0.8.1.ebuild:
+  version bump
+
+*watchdog-0.8.0 (06 Jul 2014)
+
+  06 Jul 2014; Julian Ospald <hasufell@gentoo.org> +watchdog-0.8.0.ebuild:
+  version bump
+
+*watchdog-0.7.1 (30 Mar 2014)
+
+  30 Mar 2014; Julian Ospald <hasufell@gentoo.org> +watchdog-0.7.1.ebuild,
+  +metadata.xml:
+  initial import

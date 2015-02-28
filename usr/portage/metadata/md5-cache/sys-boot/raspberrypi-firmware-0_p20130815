@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst preinst unpack
+DESCRIPTION=Raspberry PI boot loader and firmware
+EAPI=5
+HOMEPAGE=https://github.com/raspberrypi/firmware
+KEYWORDS=~arm -*
+LICENSE=GPL-2 raspberrypi-videocore-bin
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=https://github.com/raspberrypi/firmware/raw/e0590d6dda/boot/bootcode.bin -> raspberrypi-firmware-e0590d6dda-bootcode.bin https://github.com/raspberrypi/firmware/raw/e0590d6dda/boot/fixup.dat -> raspberrypi-firmware-e0590d6dda-fixup.dat https://github.com/raspberrypi/firmware/raw/e0590d6dda/boot/fixup_cd.dat -> raspberrypi-firmware-e0590d6dda-fixup_cd.dat https://github.com/raspberrypi/firmware/raw/e0590d6dda/boot/fixup_x.dat -> raspberrypi-firmware-e0590d6dda-fixup_x.dat https://github.com/raspberrypi/firmware/raw/e0590d6dda/boot/start.elf -> raspberrypi-firmware-e0590d6dda-start.elf https://github.com/raspberrypi/firmware/raw/e0590d6dda/boot/start_cd.elf -> raspberrypi-firmware-e0590d6dda-start_cd.elf https://github.com/raspberrypi/firmware/raw/e0590d6dda/boot/start_x.elf -> raspberrypi-firmware-e0590d6dda-start_x.elf
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	readme.gentoo	106edea5533517715013de909a333abd	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b10958f4e68ed6703e50b8f362f1ceea

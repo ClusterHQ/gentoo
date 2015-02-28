@@ -1,0 +1,37 @@
+# ChangeLog for dev-python/robotframework-selenium2library
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/robotframework-selenium2library/ChangeLog,v 1.6 2014/01/01 00:34:01 radhermit Exp $
+
+*robotframework-selenium2library-1.5.0 (01 Jan 2014)
+
+  01 Jan 2014; Tim Harder <radhermit@gentoo.org>
+  +robotframework-selenium2library-1.5.0.ebuild:
+  Version bump.
+
+  07 Sep 2013; Tim Harder <radhermit@gentoo.org>
+  robotframework-selenium2library-9999.ebuild:
+  Update to git-r3 eclass.
+
+*robotframework-selenium2library-1.4.0 (07 Sep 2013)
+
+  07 Sep 2013; Tim Harder <radhermit@gentoo.org>
+  +robotframework-selenium2library-1.4.0.ebuild:
+  Version bump.
+
+*robotframework-selenium2library-1.2.0 (15 Jun 2013)
+
+  15 Jun 2013; Tim Harder <radhermit@gentoo.org>
+  +robotframework-selenium2library-1.2.0.ebuild:
+  Version bump.
+
+  30 Jan 2013; Tim Harder <radhermit@gentoo.org> metadata.xml:
+  Add myself as maintainer.
+
+*robotframework-selenium2library-9999 (30 Jan 2013)
+*robotframework-selenium2library-1.1.0 (30 Jan 2013)
+
+  30 Jan 2013; Tim Harder <radhermit@gentoo.org>
+  +robotframework-selenium2library-1.1.0.ebuild,
+  +robotframework-selenium2library-9999.ebuild, +metadata.xml:
+  Initial import, ebuild by me.
+

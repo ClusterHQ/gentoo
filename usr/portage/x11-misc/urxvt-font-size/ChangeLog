@@ -1,0 +1,31 @@
+# ChangeLog for x11-misc/urxvt-font-size
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-misc/urxvt-font-size/ChangeLog,v 1.5 2014/09/09 17:30:10 nimiux Exp $
+
+  09 Sep 2014; Chema Alonso <nimiux@gentoo.org>
+  urxvt-font-size-20140501-r1.ebuild:
+  Stable for amd64 wrt bug #510842
+
+  19 Jul 2014; Tim Harder <radhermit@gentoo.org>
+  -urxvt-font-size-20140501.ebuild:
+  Remove old.
+
+*urxvt-font-size-20140501-r1 (19 Jul 2014)
+
+  19 Jul 2014; Tim Harder <radhermit@gentoo.org>
+  +urxvt-font-size-20140501-r1.ebuild, urxvt-font-size-99999999.ebuild:
+  Add missing xlsfonts rdep.
+
+*urxvt-font-size-99999999 (02 May 2014)
+
+  02 May 2014; Tim Harder <radhermit@gentoo.org> -urxvt-font-size-9999.ebuild,
+  +urxvt-font-size-99999999.ebuild:
+  Use proper version number for live ebuild.
+
+*urxvt-font-size-20140501 (02 May 2014)
+*urxvt-font-size-9999 (02 May 2014)
+
+  02 May 2014; Tim Harder <radhermit@gentoo.org> +urxvt-font-size-9999.ebuild,
+  +urxvt-font-size-20140501.ebuild, +metadata.xml:
+  Initial import (bug #509248 by José Romildo Malaquias).
+

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare unpack
+DEPEND=virtual/latex-base >=sys-apps/texinfo-4.2-r5
+DESCRIPTION=post processor for dvi files
+EAPI=2
+HOMEPAGE=http://efeu.cybertec.at/index_en.html
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x64-macos ~x86-macos
+LICENSE=GPL-2
+RDEPEND=virtual/latex-base
+SLOT=0
+SRC_URI=http://efeu.cybertec.at/dist/dvipost-1.1.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	latex-package	999c52f495ebb8dd3b69bda982bb2817	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=984be62bda8857604992c4f24829f789

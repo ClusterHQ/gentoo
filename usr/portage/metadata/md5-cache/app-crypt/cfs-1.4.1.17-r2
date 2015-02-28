@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=net-fs/nfs-utils
+DESCRIPTION=Cryptographic Filesystem
+HOMEPAGE=http://packages.debian.org/stable/utils/cfs http://www.crypto.com/software/
+KEYWORDS=~ppc x86
+LICENSE=CFS BSD SSLeay GPL-2
+RDEPEND=net-fs/nfs-utils
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/cfs/cfs_1.4.1.orig.tar.gz mirror://debian/pool/main/c/cfs/cfs_1.4.1-17.diff.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=f8f8d74b6c133ed0cbdd8b972592c9e2

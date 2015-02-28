@@ -1,0 +1,4 @@
+/home/core/gentoo/usr/bin/sdiff libc.so.6
+/home/core/gentoo/usr/bin/diff3 libc.so.6
+/home/core/gentoo/usr/bin/cmp libc.so.6
+/home/core/gentoo/usr/bin/diff libc.so.6

@@ -1,0 +1,12 @@
+# ChangeLog for sci-libs/xkaapi
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sci-libs/xkaapi/ChangeLog,v 1.2 2014/07/31 23:29:18 reavertm Exp $
+
+  31 Jul 2014; Maciej Mrozowski <reavertm@gentoo.org> xkaapi-2.1.ebuild:
+  Remove explicit src_test override since eclass is fixed, bug 499580.
+
+*xkaapi-2.1 (28 Jan 2014)
+
+  28 Jan 2014; Justin Lecher <jlec@gentoo.org> +files/xkaapi-2.1-ffi.patch,
+  +files/xkaapi-2.1-flags.patch, +metadata.xml, +xkaapi-2.1.ebuild:
+  New addition, written by me

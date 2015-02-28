@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=A template engine for PHP
+EAPI=4
+HOMEPAGE=http://www.smarty.net/
+IUSE=doc
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=LGPL-2.1
+PDEPEND=doc? ( =dev-php/smarty-docs-2* )
+SLOT=0
+SRC_URI=http://www.smarty.net/files/Smarty-2.6.28.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=798ae1e14a39f12cc37b2a6bcf880781

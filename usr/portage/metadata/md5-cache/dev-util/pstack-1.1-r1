@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Display stack trace of a running process
+EAPI=2
+HOMEPAGE=http://www.linuxcommand.org/man_pages/pstack1.html
+KEYWORDS=~x86 -*
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://gentoo/pstack.tgz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=9edccdfee10672d270fc31096d180176

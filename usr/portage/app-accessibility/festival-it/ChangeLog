@@ -1,0 +1,28 @@
+# ChangeLog for app-accessibility/festival-it
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-accessibility/festival-it/ChangeLog,v 1.5 2014/08/06 06:24:38 patrick Exp $
+
+  06 Aug 2014; Patrick Lauer <patrick@gentoo.org> festival-it-1.0-r2.ebuild:
+  Make description more repoman-happy
+
+*festival-it-1.0-r2 (03 Mar 2013)
+
+  03 Mar 2013; <neurogeek@gentoo.org> -festival-it-1.0-r1.ebuild,
+  +festival-it-1.0-r2.ebuild:
+  Fixed homepage, deps and EAPI. Closes #446750 and #458646
+
+  08 May 2009; Jesus Rivero <neurogeek@gentoo.org>
+  festival-it-1.0-r1.ebuild:
+  Dropped some untested keywords.
+
+*festival-it-1.0-r1 (08 May 2009)
+
+  08 May 2009; Jesus Rivero <neurogeek@gentoo.org> -festival-it-1.0.ebuild,
+  +festival-it-1.0-r1.ebuild:
+  Migrate to EAPI=2. Removed old version.
+
+*festival-it-1.0 (07 May 2009)
+
+  07 May 2009; Jesus Rivero <neurogeek@gentoo.org> +festival-it-1.0.ebuild:
+  Initial commit. Thanks to Francesco Monica and Bruno Redondi. Closes bug
+  #125361

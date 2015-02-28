@@ -1,0 +1,7 @@
+This is a fork of OpenRC, highly trimmed just to install the einfo
+utilities, alongside with functions.sh.  The buildsystem has been
+replaced completely and autotooled and libtooled to allow building on
+the various Prefix platforms.
+
+Its Mercural sources can be found at:
+http://prefix.gentooexperimental.org:8000/einfo/

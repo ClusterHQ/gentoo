@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEPEND=>=x11-base/xorg-server-1.6.3[-minimal] || ( <x11-libs/libdrm-2.4.22 x11-libs/libdrm[video_cards_radeon] ) x11-proto/fontsproto x11-proto/glproto x11-proto/randrproto x11-proto/videoproto x11-proto/xextproto x11-proto/xf86driproto x11-proto/xf86miscproto x11-proto/xproto !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool x86-interix? ( >=sys-devel/libtool-2.2.6a sys-devel/m4 >=x11-misc/util-macros-1.17 >=media-fonts/font-util-1.2.0 ) ppc-aix? ( >=sys-devel/libtool-2.2.6a sys-devel/m4 >=x11-misc/util-macros-1.17 >=media-fonts/font-util-1.2.0 ) x86-winnt? ( >=sys-devel/libtool-2.2.6a sys-devel/m4 >=x11-misc/util-macros-1.17 >=media-fonts/font-util-1.2.0 ) virtual/pkgconfig x11-proto/fontsproto x11-proto/randrproto x11-proto/renderproto x11-proto/videoproto x11-proto/xextproto x11-proto/xineramaproto x11-proto/xproto x11-base/xorg-server[xorg] x11-libs/libpciaccess
+DESCRIPTION=ATI video driver
+EAPI=3
+HOMEPAGE=http://xorg.freedesktop.org/
+KEYWORDS=alpha amd64 ia64 ~ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=MIT
+RDEPEND=>=x11-base/xorg-server-1.6.3[-minimal] x11-base/xorg-server[xorg] x11-libs/libpciaccess
+SLOT=0
+SRC_URI=http://xorg.freedesktop.org/releases/individual/driver/xf86-video-ati-6.13.2.tar.bz2
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	autotools-utils	3727db64c7b960903d5033280f108080	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	xorg-2	69479ff7a35a30e863a475568d29b9be
+_md5_=f095eb564d4ef435a414b3fb72a0676e

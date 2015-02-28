@@ -1,0 +1,13 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/perl5
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/Parse
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/Parse/CPAN
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/Parse/CPAN/Meta.pm fd30e4b366f631ca5db3e602e5e30586 1410959363
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/Parse-CPAN-Meta-1.440.900-r1
+obj /home/core/gentoo/usr/share/doc/Parse-CPAN-Meta-1.440.900-r1/Changes.bz2 471287c20a6a0850e1618a7a1ba14be9 1410959363
+obj /home/core/gentoo/usr/share/doc/Parse-CPAN-Meta-1.440.900-r1/README.bz2 ced7cfc63d60c97ea812c76eb79a50df 1410959364

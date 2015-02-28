@@ -1,0 +1,24 @@
+# ChangeLog for dev-python/assets
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/assets/ChangeLog,v 1.5 2013/02/13 07:53:49 maksbotan Exp $
+
+  13 Feb 2013; Maxim Koltsov <maksbotan@gentoo.org> -assets-0.1.1.ebuild,
+  assets-0.1.1-r1.ebuild:
+  Fix homepage and SRC_URI, bug #456878
+
+*assets-0.1.1-r1 (12 Feb 2013)
+
+  12 Feb 2013; Michał Górny <mgorny@gentoo.org> +assets-0.1.1-r1.ebuild:
+  Migrate to distutils-r1. Fix tests when TMPDIR != /tmp.
+
+  04 Feb 2012; Maxim Koltsov <maksbotan@gentoo.org> metadata.xml:
+  Fix maintainer's email in metadata
+
+  30 Oct 2011; Maxim Koltsov <maksbotan@gentoo.org> assets-0.1.1.ebuild:
+  Remove unneeded dependency on nose
+
+*assets-0.1.1 (30 Oct 2011)
+
+  30 Oct 2011; Maxim Koltsov <maksbotan@gentoo.org> +assets-0.1.1.ebuild,
+  +metadata.xml:
+  Add dev-python/assets-0.1.1, thanks to slepnoga

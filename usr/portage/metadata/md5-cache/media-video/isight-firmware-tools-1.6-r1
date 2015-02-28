@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install postinst prepare
+DEPEND=>=dev-libs/glib-2.14:2 dev-libs/libgcrypt:0 virtual/libusb:0 virtual/udev >=dev-util/intltool-0.40 sys-apps/texinfo virtual/pkgconfig virtual/pkgconfig
+DESCRIPTION=Extract, load or export firmware for the iSight webcams
+EAPI=5
+HOMEPAGE=https://launchpad.net/isight-firmware-tools
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.14:2 dev-libs/libgcrypt:0 virtual/libusb:0 virtual/udev
+SLOT=0
+SRC_URI=http://launchpad.net/isight-firmware-tools/main/1.6/+download/isight-firmware-tools-1.6.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	udev	da001465a2e939c93f7ae16947ce3438	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=010be15d54f9d38789ac36e653d56ac1

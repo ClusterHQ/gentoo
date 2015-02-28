@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup
+DEPEND=ipafont? ( media-gfx/fontforge media-fonts/ja-ipafonts ) X? ( x11-apps/mkfontdir media-fonts/encodings )
+DESCRIPTION=M+ Japanese outline fonts
+EAPI=5
+HOMEPAGE=http://mplus-fonts.sourceforge.jp/ http://ossipedia.ipa.go.jp/ipafont/
+IUSE=ipafont X
+KEYWORDS=amd64 hppa ia64 ppc x86 ~ppc-macos ~x86-macos
+LICENSE=mplus-fonts ipafont? ( IPAfont )
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/mplus-fonts/6650/mplus-TESTFLIGHT-055.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	font	37271e0911f39dd15a28adcaf94f6956	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c8ff6b802b25f65e8c391ed35348909f

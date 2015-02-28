@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=x11-libs/gtk+:2 virtual/pkgconfig
+DESCRIPTION=GRaphics Over MIscellaneous Things, a presentation helper
+EAPI=2
+HOMEPAGE=http://www.home.unix-ag.org/simon/gromit
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/gtk+:2
+SLOT=0
+SRC_URI=http://www.home.unix-ag.org/simon/gromit/gromit-20041213.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=3e10614e3f7fab1487e523271421ef67

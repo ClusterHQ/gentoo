@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=>=sys-libs/ncurses-5.2
+DESCRIPTION=Console Mixer Program for OSS
+HOMEPAGE=http://www.fh-worms.de/~inf222
+IUSE=examples
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=sys-libs/ncurses-5.2
+SLOT=0
+SRC_URI=http://www.Fh-Worms.DE./~inf222/code/c/gom/released/gom-0.29.103.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7c3f0994f8e088f60911029d58d2cb72

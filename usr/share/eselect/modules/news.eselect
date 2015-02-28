@@ -1,0 +1,424 @@
+# -*-eselect-*-  vim: ft=eselect
+# Copyright 2005-2014 Gentoo Foundation
+# Distributed under the terms of the GNU GPL version 2 or later
+
+inherit package-manager
+
+DESCRIPTION="Read Gentoo (\"GLEP 42\") news items"
+MAINTAINER="ulm@gentoo.org"
+
+NEWS_DIR="/var/lib/gentoo/news"
+
+# read list of news items
+# list of parameters may contain "unread" or "read"
+# returns one item per line: status/repository/name
+# sort order: by item name (i.e. effectively by date)
+find_items() {
+	local stat repos=$(get_repositories) repo file item
+	for stat; do
+		for repo in ${repos}; do
+			file="${EROOT}${NEWS_DIR}/news-${repo}.${stat}"
+			[[ -f ${file} ]] || continue
+			for item in $(<"${file}"); do
+				echo "${stat}/${repo}/${item}"
+			done
+		done
+	done | sort -t / -k 3
+}
+
+# write list of items to file
+# first parameter is "unread" or "read"
+# second parameter is the repository
+# list of items is expected in global array "items"
+write_item_list() {
+	local stat=$1 repo=$2 file item update
+	for item in "${items[@]}"; do
+		[[ ${item%%/*} = "${stat}" ]] || continue
+		item=${item#*/}
+		[[ ${item%%/*} = "${repo}" ]] && update="${update} ${item#*/}"
+	done
+	file="${EROOT}${NEWS_DIR}/news-${repo}.${stat}"
+	for item in ${update}; do
+		echo "${item}"
+	done >"${file}"
+	if [[ $? -ne 0 ]]; then
+		write_error_msg \
+			"Cannot update list of news items for repository \"${repo}\""
+		return 1
+	fi
+	# GLEP 42 says the file should be in the portage group and group writable
+	chgrp portage "${file}" 2>/dev/null && chmod 664 "${file}" 2>/dev/null
+	return 0
+}
+
+# read a given item
+# first parameter is the directory
+# second parameter is the item's name
+# optional third parameter may be "header", "body", or "existsp"
+read_item() {
+	local dir=$1 item=$2 what=$3 file lang command=""
+	for lang in $(accepted_languages); do
+		file="${dir}/${item}/${item}.${lang}.txt"
+		[[ -f "${file}" ]] || continue
+		case "${what}" in
+			header) command="/^$/Q" ;;
+			body) command="0,/^$/d" ;;
+			existsp) return 0 ;;
+		esac
+		sed -e "${command}" "${file}" || die "Error reading ${file}"
+		return
+	done
+	return 1
+}
+
+# find directory for a given repository (and cache it)
+# affects variable "dir" and arrays "repos" and "dirs" by side effect
+find_repo_dir() {
+	local repo=$1 i
+	for (( i = 0; i < ${#repos[@]}; i++ )); do
+		[[ ${repos[i]} = "${repo}" ]] && break
+	done
+	if [[ ${i} -eq ${#repos[@]} ]]; then
+		repos[i]=${repo}
+		dirs[i]=$(get_repo_news_dir "${repo}")
+	fi
+	dir=${dirs[i]}
+}
+
+# return list of accepted languages
+accepted_languages() {
+	local lc lct=${LC_ALL:-${LANG}}
+	lct=${lct%%[^[:alpha:]_]*}	# strip .* @* etc.
+	lc=${lct%%_*}				# strip _<territory>
+	[[ ${lct} != "${lc}" ]] && echo "${lct}"
+	case ${lc} in
+		""|C|POSIX|en) ;;
+		*) echo "${lc}" ;;
+	esac
+	echo en
+}
+
+# calculate day of week for given year ($1), month ($2), and day ($3)
+# using Chr. Zeller's formula for the new calendar
+day_of_week() {
+	local a=${1##*(0)} m=${2##*(0)} q=${3##*(0)}
+	local -a wd=( Sat Sun Mon Tue Wed Thu Fri )
+	[[ ${m} -le 2 ]] && (( a--, m += 12 ))
+	echo ${wd[(q + (m+1)*13/5 + a + a/4 - a/100 + a/400) % 7]}
+}
+
+# encode header as quoted-printable
+rfc2047_encode() {
+	local s=$1 i c LC_ALL=C
+	echo -n "=?UTF-8?Q?"
+	for (( i=0; i<${#s}; i++ )); do
+		c=${s:i:1}
+		if [[ ${c} =~ [-A-Za-z0-9!*+/] ]]; then
+			echo -n "${c}"
+		elif [[ ${c} = ' ' ]]; then
+			echo -n '_'
+		else
+			printf '=%02X' "'${c}"
+		fi
+	done
+	echo "?="
+}
+
+# output message header in e-mail/mbox format
+mail_header() {
+	local item=$1 author=$2 title=$3 posted=$4
+	local -a mname=( 0 Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec )
+	local year=0001 month=01 day=01 time="00:00:00" wd addr="unknown" name
+
+	# "date -d" is not portable, therefore we do manual processing
+	if [[ ${posted} == +([0-9])-+([0-9])-+([0-9]) ]]; then
+		year=${posted%%-*}
+		month=${posted#*-}; month=${month%%-*}
+		day=${posted##*-}
+	fi
+	wd=$(day_of_week "${year}" "${month}" "${day}")
+
+	if [[ ${author} == *([^\<\>])\<+([^\<\>])\> ]]; then
+		# GLEP 42 says this must look like "Real Name <email@address>"
+		name=${author%%*( )<*}
+		addr=${author##*<}; addr=${addr%%>*}
+	elif [[ ${author} == +([^\<\>]) ]]; then
+		addr=${author}
+	fi
+
+	[[ ${name} != *([[:ascii:]]) || ${name} =~ [\]\[()\<\>\",.:\;@\\] ]] \
+		&& name=$(rfc2047_encode "${name}")
+	[[ ${title} != *([[:ascii:]]) ]] && title=$(rfc2047_encode "${title}")
+
+	echo "From ${addr} ${wd} ${mname[${month##*(0)}]} ${day} ${time} ${year}"
+	echo "From: ${name}${name+ }<${addr}>"
+	#echo "Reply-To: DO NOT REPLY <devnull@localhost.invalid>"
+	echo "Subject: ${title}"
+	echo "Date: ${wd}, ${day} ${mname[${month##*(0)}]} ${year} ${time} +0000"
+	echo "Message-Id: <glep42-${item}@gentoo.org>"
+	echo "MIME-Version: 1.0"
+	echo "Content-Type: text/plain; charset=UTF-8"
+	echo "Content-Transfer-Encoding: 8bit"
+}
+
+### list action
+
+describe_list() {
+	echo "List news items"
+}
+
+do_list() {
+	local item stat repo dir header line title posted i=1
+	local cols=${COLUMNS:-80} ifs_save=${IFS}
+	local -a repos dirs
+
+	set -- $(find_items unread read)
+	write_list_start "News items:"
+	for item; do
+		stat=${item%%/*}; item=${item#*/}
+		repo=${item%%/*}; item=${item#*/}
+		find_repo_dir "${repo}"
+		title="(${item} - no title)"
+		posted=${item:0:10}
+		[[ ${posted} == +([0-9])-+([0-9])-+([0-9]) ]] || posted="(no date) "
+		header=$(read_item "${dir}" "${item}" header) \
+			|| title="(${item} - removed?)"
+		local IFS=$'\n'
+		for line in ${header}; do
+			case "${line%%:*}" in
+				Title) title=${line##*([^:]):*([[:space:]])} ;;
+				Posted) posted=${line##*([^:]):*([[:space:]])} ;;
+			esac
+		done
+		IFS=${ifs_save}
+		[[ ${repo} != gentoo ]] && title="[${repo}] ${title}"
+		line="${posted}$(space $((10 - ${#posted})))  ${title}"
+		# truncate the line if it is too long
+		(( 11 + ${#line} >= cols && cols >= 72 )) \
+			&& line="${line:0:cols-15}..."
+		if [[ ${stat} = unread ]]; then
+			write_numbered_list_entry ${i} "$(highlight "N  ${line}")"
+		else
+			write_numbered_list_entry ${i} "   ${line}"
+		fi
+		(( i++ ))
+	done
+	[[ $# -eq 0 ]] && ! is_output_mode brief \
+		&& write_kv_list_entry "(none found)" ""
+}
+
+### count action
+
+describe_count() {
+	echo "Display number of news items"
+}
+
+describe_count_options() {
+	echo "new : Count unread news items (default)"
+	echo "all : Count all news items"
+}
+
+do_count() {
+	local status
+	[[ $1 = all ]] && status="unread read" || status="unread"
+	set -- $(find_items ${status})
+	echo $#
+}
+
+### read action
+
+describe_read() {
+	echo "Read news items"
+}
+
+describe_read_options() {
+	echo "--mbox : Output in mbox format"
+	echo "--quiet : Suppress output, only change status"
+	echo "--raw : Output in raw format"
+	echo "new : Read unread news items (default)"
+	echo "all : Read all news items"
+	echo "item : Number of item (from 'list' action)"
+}
+
+describe_read_parameters() {
+	echo "<item>..."
+}
+
+do_read() {
+	local -a items=( $(find_items unread read) ) repos dirs
+	local n=${#items[@]} format=cooked ifs_save=${IFS}
+	local item repo stat dir header line i seq repos_upd author title posted
+
+	while [[ $# -gt 0 ]]; do
+		case ${1##--} in
+			mbox) format=mbox ;;
+			quiet|silent) format=null ;;
+			raw) format=raw ;;
+			*) break ;;
+		esac
+		shift
+	done
+
+	# expand special values "new" and "all"
+	if [[ $# -eq 0 || $1 = new || $1 = all ]]; then
+		for (( i = 1; i <= n; i++ )); do
+			[[ $1 = all || ${items[i-1]%%/*} = unread ]] || continue
+			seq="${seq} ${i}"
+		done
+		set -- ${seq}
+		[[ $# -eq 0 && ${format} = cooked ]] && ! is_output_mode brief \
+			&& echo "No news is good news."
+	fi
+
+	for i; do
+		if ! is_number "${i}" || [[ ${i} -lt 1 || ${i} -gt ${#items[@]} ]]
+		then
+			write_warning_msg "Bad item number: ${i}"
+			continue
+		fi
+		item=${items[--i]}
+		stat=${item%%/*}; item=${item#*/}
+		repo=${item%%/*}; item=${item#*/}
+		find_repo_dir "${repo}"
+		case ${format} in
+		raw)
+			read_item "${dir}" "${item}"
+			;;
+		cooked)
+			write_list_start "${item}"
+			header=$(read_item "${dir}" "${item}" header)
+			local IFS=$'\n'
+			for line in ${header}; do
+				case "${line%%:*}" in
+					Title)
+						write_kv_list_entry "${line%%:*}" \
+							"$(highlight "${line##*([^:]):*([[:space:]])}")"
+						;;
+					Author|Translator|Posted|Revision)
+						write_kv_list_entry "${line%%:*}" \
+							"${line##*([^:]):*([[:space:]])}"
+						;;
+				esac
+			done
+			IFS=${ifs_save}
+			echo
+			read_item "${dir}" "${item}" body
+			;;
+		mbox)
+			if header=$(read_item "${dir}" "${item}" header); then
+				author=""; title=""; posted=""
+				local IFS=$'\n'
+				for line in ${header}; do
+					case "${line%%:*}" in
+						Author) : ${author:=${line##*([^:]):*([[:space:]])}} ;;
+						Title) : ${title:=${line##*([^:]):*([[:space:]])}} ;;
+						Posted) : ${posted:=${line##*([^:]):*([[:space:]])}} ;;
+					esac
+				done
+				mail_header "${item}" "${author}" "${title}" "${posted}"
+				echo
+				for line in ${header}; do
+					case "${line%%:*}" in
+						Title|Author|Translator|Posted|Revision)
+							echo "${line}" ;;
+					esac
+				done
+				IFS=${ifs_save}
+				echo
+				read_item "${dir}" "${item}" body | sed 's/^>*From />&/;$q'
+			else
+				false
+			fi
+			;;
+		null)
+			true
+			;;
+		esac
+		[[ $? -ne 0 ]] \
+			&& write_warning_msg "News item \"${item}\" no longer exists"
+		[[ ${format} != null ]] && echo
+
+		[[ ${stat} = unread ]] || continue
+		# move from "unread" to "read"
+		unset items[i]
+		items[n++]=read/${repo}/${item}
+		has ${repo} ${repos_upd} || repos_upd="${repos_upd} ${repo}"
+	done
+
+	# update lists of read/unread items
+	for repo in ${repos_upd}; do
+		write_item_list read ${repo} && write_item_list unread ${repo}
+	done
+}
+
+### unread action
+
+describe_unread() {
+	echo "Mark read news items as unread again"
+}
+
+describe_unread_options() {
+	echo "all : Mark all news items as unread"
+	echo "item : Number of item (from 'list' action)"
+}
+
+describe_unread_parameters() {
+	echo "<item>..."
+}
+
+do_unread() {
+	local -a items=( $(find_items unread read) )
+	local n=${#items[@]} item repo stat i seq repos_upd
+
+	# expand special value "all"
+	if [[ $1 = all ]]; then
+		for (( i = 1; i <= n; i++ )); do
+			seq="${seq} ${i}"
+		done
+		set -- ${seq}
+	fi
+
+	for i; do
+		if ! is_number "${i}" || [[ ${i} -lt 1 || ${i} -gt ${#items[@]} ]]
+		then
+			write_warning_msg "Bad item number: ${i}"
+			continue
+		fi
+		item=${items[--i]}
+		stat=${item%%/*}; item=${item#*/}
+		repo=${item%%/*}; item=${item#*/}
+		[[ ${stat} = read ]] || continue
+		# move from "read" to "unread"
+		unset items[i]
+		items[n++]=unread/${repo}/${item}
+		has ${repo} ${repos_upd} || repos_upd="${repos_upd} ${repo}"
+	done
+
+	# update lists of unread/read items
+	for repo in ${repos_upd}; do
+		write_item_list unread ${repo} && write_item_list read ${repo}
+	done
+}
+
+### purge action
+
+describe_purge() {
+	echo "Purge read news"
+}
+
+do_purge() {
+	local -a items=( $(find_items read) )
+	local item i repos
+
+	# find repos with nonempty lists
+	for (( i = 0; i < ${#items[@]}; i++ )); do
+		item=${items[i]#*/}
+		has "${item%%/*}" ${repos} || repos="${repos} ${item%%/*}"
+	done
+
+	# purge list of read items
+	items=()
+	for repo in ${repos}; do
+		write_item_list read ${repo}
+	done
+}

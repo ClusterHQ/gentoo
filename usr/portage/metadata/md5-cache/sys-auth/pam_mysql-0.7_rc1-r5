@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=openssl? ( dev-libs/openssl:0= ) >=sys-libs/pam-0.72:0= virtual/mysql:0=
+DESCRIPTION=pam_mysql is a module for pam to authenticate users with mysql
+EAPI=5
+HOMEPAGE=http://pam-mysql.sourceforge.net/
+IUSE=openssl
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=openssl? ( dev-libs/openssl:0= ) >=sys-libs/pam-0.72:0= virtual/mysql:0=
+SLOT=0
+SRC_URI=mirror://sourceforge/pam-mysql/pam_mysql-0.7RC1.tar.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	autotools-utils	3727db64c7b960903d5033280f108080	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	pam	5e39d502488dd7c258289b7e4b482342	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b93c0704d53d891ba61ec1bb3da94832

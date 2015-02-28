@@ -1,0 +1,85 @@
+# ChangeLog for dev-python/stevedore
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/stevedore/ChangeLog,v 1.19 2014/07/06 12:50:02 mgorny Exp $
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> stevedore-0.14.1.ebuild,
+  stevedore-0.15-r1.ebuild, stevedore-0.15.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+*stevedore-0.15-r1 (12 Jun 2014)
+
+  12 Jun 2014; Patrick Lauer <patrick@gentoo.org> +stevedore-0.15-r1.ebuild:
+  Add py34
+
+  01 Apr 2014; Ian Delaney <idella4@gentoo.org> stevedore-0.15.ebuild:
+  re-add flake8 for test phase
+
+  30 Mar 2014; Ian Delaney <idella4@gentoo.org> -stevedore-0.10.ebuild,
+  -stevedore-0.11.ebuild, -stevedore-0.12.ebuild, stevedore-0.14.1.ebuild,
+  stevedore-0.15.ebuild:
+  Drop pypy2_0 support due to lack of its support in pbr, update deps, drop old
+
+*stevedore-0.15 (30 Mar 2014)
+
+  30 Mar 2014; Matthew Thode <prometheanfire@gentoo.org> +stevedore-0.15.ebuild:
+  new bump
+
+*stevedore-0.14.1 (01 Mar 2014)
+
+  01 Mar 2014; Tim Harder <radhermit@gentoo.org> +stevedore-0.14.1.ebuild:
+  Version bump (bug #499730).
+
+  12 Nov 2013; Matthew Thode <prometheanfire@gentoo.org>
+  -stevedore-0.9.1.ebuild, stevedore-0.12.ebuild:
+  adding pypy2_0 to stevedore
+
+*stevedore-0.12 (19 Sep 2013)
+
+  19 Sep 2013; Tim Harder <radhermit@gentoo.org> +stevedore-0.12.ebuild:
+  Version bump.
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> stevedore-0.9.1.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*stevedore-0.11 (29 Aug 2013)
+
+  29 Aug 2013; Tim Harder <radhermit@gentoo.org> +stevedore-0.11.ebuild:
+  Version bump.
+
+  28 Aug 2013; Agostino Sarubbo <ago@gentoo.org> stevedore-0.9.1.ebuild:
+  Stable for x86, wrt bug #450086
+
+*stevedore-0.10 (08 Aug 2013)
+
+  08 Aug 2013; Tim Harder <radhermit@gentoo.org> -stevedore-0.6.ebuild,
+  -stevedore-0.8-r1.ebuild, +stevedore-0.10.ebuild:
+  Version bump and remove old.
+
+  30 Jul 2013; Agostino Sarubbo <ago@gentoo.org> stevedore-0.9.1.ebuild:
+  Stable for amd64, wrt bug #450086
+
+  16 Jun 2013; Ian Delaney <idella4@gentoo.org> stevedore-0.9.1.ebuild:
+  correct setuptools in deps wrt Bug #473278
+
+*stevedore-0.9.1 (14 Jun 2013)
+
+  14 Jun 2013; Ian Delaney <idella4@gentoo.org> +stevedore-0.9.1.ebuild,
+  stevedore-0.8-r1.ebuild:
+  corrections to 0.8-r1 inc. setting of <setuptools-0.7, fixes Bug #473278, bump
+
+*stevedore-0.8-r1 (19 Apr 2013)
+
+  19 Apr 2013; Ian Delaney <idella4@gentoo.org> +stevedore-0.8-r1.ebuild:
+  migration -> distutils-r1
+
+*stevedore-0.8 (26 Jan 2013)
+
+  26 Jan 2013; Matthew Thode <prometheanfire@gentoo.org> +stevedore-0.8.ebuild:
+  adding stevedore-0.8 since sys-cluster/cinder needs it
+
+*stevedore-0.6 (05 Nov 2012)
+
+  05 Nov 2012; Patrick Lauer <patrick@gentoo.org> +metadata.xml,
+  +stevedore-0.6.ebuild:
+  Initial import, ebuilds by Mark Lewandowski #440806

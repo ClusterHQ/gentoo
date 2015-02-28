@@ -1,0 +1,27 @@
+# ChangeLog for dev-util/setconf
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-util/setconf/ChangeLog,v 1.6 2014/03/29 15:08:53 floppym Exp $
+
+  29 Mar 2014; Mike Gilbert <floppym@gentoo.org> setconf-0.6.2.ebuild:
+  Add python2.7.
+
+  29 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> setconf-0.6.2.ebuild:
+  Set RDEPEND and REQUIRED_USE for technical limitations of the python-
+  single-r1.eclass
+
+  29 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> setconf-0.6.2.ebuild:
+  Make use of python-single-r1.eclass and python_fix_shebang. Allow all of
+  python3_2, python3_3 and python3_4 that are in tree.
+
+  29 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> -setconf-0.5.3.ebuild:
+  old
+
+*setconf-0.6.2 (29 Mar 2014)
+
+  29 Mar 2014; Samuli Suominen <ssuominen@gentoo.org> +setconf-0.6.2.ebuild:
+  Version bump. Use python 3.x exclusively wrt #462326 by James Rowe
+
+*setconf-0.5.3 (16 Mar 2013)
+
+  16 Mar 2013; Samuli Suominen <ssuominen@gentoo.org> +setconf-0.5.3.ebuild:
+  Initial commit.

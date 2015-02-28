@@ -1,0 +1,133 @@
+dir /home/core/gentoo/lib
+dir /home/core/gentoo/lib/modules
+dir /home/core/gentoo/lib/modules/3.16.2+
+dir /home/core/gentoo/lib/modules/3.16.2+/extra
+dir /home/core/gentoo/lib/modules/3.16.2+/extra/zfs
+obj /home/core/gentoo/lib/modules/3.16.2+/extra/zfs/zfs.ko 2f7e1d73cb95511288ca3578151e1ea0 1411044679
+dir /home/core/gentoo/lib/modules/3.16.2+/extra/zcommon
+obj /home/core/gentoo/lib/modules/3.16.2+/extra/zcommon/zcommon.ko 97c726c54283e5a82b58056ba39c5af7 1411044679
+dir /home/core/gentoo/lib/modules/3.16.2+/extra/unicode
+obj /home/core/gentoo/lib/modules/3.16.2+/extra/unicode/zunicode.ko f027c3b0f47bde32d44248b5328a4860 1411044679
+dir /home/core/gentoo/lib/modules/3.16.2+/extra/nvpair
+obj /home/core/gentoo/lib/modules/3.16.2+/extra/nvpair/znvpair.ko 6018c881468b5999314e80a592252b7a 1411044679
+dir /home/core/gentoo/lib/modules/3.16.2+/extra/avl
+obj /home/core/gentoo/lib/modules/3.16.2+/extra/avl/zavl.ko f57c9dd3a0b7b9b90ee526058ce893d0 1411044679
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/zfs-kmod-0.6.3
+obj /home/core/gentoo/usr/share/doc/zfs-kmod-0.6.3/README.markdown.bz2 07c97bfe2c429d6334cfb80ce4ab9944 1411044678
+obj /home/core/gentoo/usr/share/doc/zfs-kmod-0.6.3/DISCLAIMER.bz2 0e4f36da3c171981a81cf741a3e9a0d5 1411044678
+obj /home/core/gentoo/usr/share/doc/zfs-kmod-0.6.3/COPYRIGHT.bz2 6522d165277f867a8539695eb1a3d4b9 1411044678
+obj /home/core/gentoo/usr/share/doc/zfs-kmod-0.6.3/AUTHORS.bz2 78e1ebf4356288ebfa14a097338f57f3 1411044678
+dir /home/core/gentoo/usr/src
+dir /home/core/gentoo/usr/src/zfs-0.6.3
+dir /home/core/gentoo/usr/src/zfs-0.6.3/3.16.2+
+obj /home/core/gentoo/usr/src/zfs-0.6.3/3.16.2+/Module.symvers 0ba91f528cb6b307f051dbe88d572226 1411044678
+obj /home/core/gentoo/usr/src/zfs-0.6.3/3.16.2+/zfs_config.h f890d1d792e681c33a186542460c5221 1411044678
+obj /home/core/gentoo/usr/src/zfs-0.6.3/3.16.2+/zfs.release fee967814a6ac36085c24b5198fff3ad 1411044678
+obj /home/core/gentoo/usr/src/zfs-0.6.3/zfs_config.h.in 73e1a39ad6b0100b03caf35ca35ea708 1411044678
+obj /home/core/gentoo/usr/src/zfs-0.6.3/zfs.release.in 22f3aed791cf0343038b84186fcec190 1411044678
+dir /home/core/gentoo/usr/src/zfs-0.6.3/include
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/zpios-internal.h 8516d584a001c12151caae80b3bd7f25 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/zpios-ctl.h 855c19a51b1a11fcc66bd296ab0b4282 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/zfs_prop.h dd2a6578ce5ac2db96715237a271d8f6 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/zfs_namecheck.h 51cf951463e6faa5cb781970c60bd6a5 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/zfs_fletcher.h 8c5321eecdad9c518fa162e352f4d991 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/zfs_deleg.h 8b7331f348c7052719389bc803f8443f 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/zfs_comutil.h 86913df884f7d668ff5b739d421c1206 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/zfeature_common.h 462814852d866bd86585023b5b5906aa 1411044677
+dir /home/core/gentoo/usr/src/zfs-0.6.3/include/sys
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zvol.h 02a88cb9103aea7c87955e5634575d1c 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zpl.h 53f08416af2d32ac5da9c8fbf418378e 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_onexit.h a3b0cf5746105f8b12d2ff5f3b5c63a8 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_ioctl.h df88c425964192a6d1673951c6123999 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zrlock.h 573f84ecf0581ec67420592876243986 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zio_impl.h 99ef0404715a640e43067765d9d0de40 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zio.h 5bcd8058737c800ff50bddbc57b40837 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zio_compress.h 3b94295e940c95e1ee23aa7f81b3cd90 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zio_checksum.h e2141cd72ca5bee0a9ce7c23a41c920b 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zil_impl.h aeb622b7b438fe88023e44acba7956b8 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zil.h 3c91abd76f3d1ac07e2716310004996c 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_znode.h 10a4893ff0af2f7d6c4f74bffd0f30d7 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_vnops.h 47baa93aeabbfd7bd1cd564972ff6bba 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_vfsops.h f4ee577796700f954ce23aa0c4011bbd 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_stat.h ab3bf4d7a9784a0cb1d8cff58836824f 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_sa.h 1bc713fe00287b082460b06ada195eba 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_rlock.h 302c674aa677c88b3ad957097a4bb537 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_fuid.h fa1c94dfdc4f30c7a0d5685279fa1ca8 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_dir.h 82f6816bf30ff79dbaa34116068c8b48 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_delay.h bbdf1f914ed20b8f71c9fe13725b81eb 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_debug.h c47597e524c7199ddd026876b149d048 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_ctldir.h 893bdcf283ea4afc80f53003ec1be87b 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_context.h c55a9898ad75b474e4e5971110a7ef06 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfs_acl.h 9e22aa58531c038cb9d113ffa77e440d 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zfeature.h a8aee302621ca9bd3fe9ec2830da1a94 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zap_leaf.h 36cc3d9e0e6954ef6abd9b40d8bf10f8 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zap_impl.h 3542fdd4ff5734a7ebb61df92a96db2a 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/zap.h ff132af218f8d2ce576f21cd46e2e3d2 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/xvattr.h 95918d977c8e67943343df91fa5a421d 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/vdev_impl.h 80f1a6e56a6a366b50d3ebceea9208ca 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/vdev.h 559230767a02b54d629dd82b05d31ae7 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/vdev_file.h 839db618d079dc490d8af98f4f445c02 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/vdev_disk.h 03878cf4b55bc6863f39301a3c08c641 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/uuid.h 8240b0be701cadf9e7338136b70ef7c6 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/unique.h a7f55a6fa894b19756084e1bf756394f 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/uio_impl.h 7bba8673bb6790e4e4b2c12bb243ea54 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/uberblock_impl.h 75b7e264c6726a7a8948233111b7f33e 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/uberblock.h 10b0c7f3edb760dbe468a67dd079c241 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/u8_textprep.h ddf283e45b783a1b4ab62f6bec53972c 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/u8_textprep_data.h 8676e3bbd09b76775a96bf2c08cc43b3 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/txg_impl.h cf9f41050217a62700a28e193d40c81b 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/txg.h 3a1baf9aef9c5c2a9fea98b64c7a13b0 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/spa_impl.h 0b41516e7bddd47630838a07a33fb19c 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/spa.h 0c373f95fc5bb6eb1ee4963626ad93b0 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/space_map.h 32cad28f925134151af3fed4e9600326 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/spa_boot.h bbdb2b53978a98cf62d7b5760e770727 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/sa_impl.h e0eaa8bffdd6a978f9d33b1885ce5e2e 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/sa.h a4da0fe9ed3d2e6bbccd3216b3787c3d 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/rrwlock.h 3eb044a7731d3f4986c7d11fbb8eea8d 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/refcount.h 986ff50da40612735202cc8d58655cdd 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/nvpair_impl.h 713ae0d444958695b772a13bf4062f6f 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/nvpair.h ea5b78e63426c0f4238cae86d2b2f602 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/metaslab_impl.h 25bf92844c76c4418b1de2aa9e40d684 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/metaslab.h cc08dc711362bdcde3d9bf18a911f11e 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/efi_partition.h f1378ac7aa047853c4ebc520779711c8 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dsl_userhold.h 0fd701662178303cb771ab09e2b35d34 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dsl_synctask.h 95c7676cda8b8e4b757bd03a9650db38 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dsl_scan.h d24f2f77265345f33b2ede31f5fd314f 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dsl_prop.h d23121d08d4230595f20417e8aa5af88 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dsl_pool.h 444ef0f7e493bec1d4be34f3aa9d8e01 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dsl_dir.h e85cd5f80b42ad559fd26ab6dc48d891 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dsl_destroy.h 29771d31a2ac41bec83d53979654463e 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dsl_deleg.h a4065a0d76d3d54960749650e25d9395 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dsl_deadlist.h 505fb111d9f17d816f09a74c66290d59 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dsl_dataset.h de7bfb7531c902b1fd06fb197903cc94 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dnode.h 9878f7cb5892edfa12f0b4c5d5b32496 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dmu_zfetch.h 535e3932a3f218f1dfc71848c12ebdaf 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dmu_tx.h 584d676c697732ba6ca9adebb7b89745 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dmu_traverse.h 650cc6abb360cffbc5d1144d9d43e494 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dmu_send.h 187fb7d8fef3229d705252c27314e560 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dmu_objset.h 7a6cd426cbb749c1ec20fa2f500eda44 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dmu_impl.h 67e8399092f5e111c09d9761bdd8c444 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dmu.h ad5e42534800048141be237bf4f12cf8 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/ddt.h 79805aac1cf84373e2465ff157b3dac7 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/dbuf.h e00e6ec12a098fb89b0cb2cd1775ff71 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/bptree.h b818e16dbb181453dc5bafd4ee9f2cc9 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/bpobj.h 5211003472cca43595864ec713d4bce0 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/bplist.h 8838d72824ec83ebe94e7bf98e61a98c 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/avl_impl.h fb0d1cd06440402454bea51803de6553 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/avl.h e720e1657212e541e5be2d30e3a0395b 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/arc.h 2289f672d98306c17092990cac012c96 1411044677
+dir /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/fs
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/fs/zfs.h 1c43048f5c8164d71985d334ff681ce7 1411044677
+dir /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/fm
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/fm/util.h 8cbbf8f847027ecd32f885bd584bb074 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/fm/protocol.h 885b3592039d49493f0263406a40d35f 1411044677
+dir /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/fm/fs
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/sys/fm/fs/zfs.h 3743b9052d8329694c4cf908ed158f5d 1411044677
+dir /home/core/gentoo/usr/src/zfs-0.6.3/include/linux
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/linux/blkdev_compat.h 1e44692f1ed392cdfc0c6b32f5896640 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/linux/vfs_compat.h 28d39ff51e4877b5ee054307f7b2e16b 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/linux/xattr_compat.h 60997a1dd90663245e48bb7c165f845e 1411044677
+obj /home/core/gentoo/usr/src/zfs-0.6.3/include/linux/dcache_compat.h 123eb25533e395ddb14fc95f6a0d2983 1411044677

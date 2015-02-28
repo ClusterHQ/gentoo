@@ -1,0 +1,51 @@
+# ChangeLog for app-backup/bareos
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-backup/bareos/ChangeLog,v 1.10 2014/05/20 23:18:41 mschiff Exp $
+
+  20 May 2014; Marc Schiffbauer <mschiff@gentoo.org> files/bareos-fd.initd:
+  Do not set owner for pid direrctory in bareos-fd init script
+
+*bareos-13.2.3 (04 May 2014)
+
+  04 May 2014; Marc Schiffbauer <mschiff@gentoo.org> +bareos-13.2.3.ebuild:
+  Bump version.
+
+  04 May 2014; Marc Schiffbauer <mschiff@gentoo.org> files/bareos-dir.initd,
+  files/bareos-fd.initd, files/bareos-sd.initd:
+  Fix pid path in init scripts
+
+  04 May 2014; Marc Schiffbauer <mschiff@gentoo.org> bareos-13.2.2.ebuild,
+  files/bareos-dir.initd, files/bareos-fd.initd, files/bareos-sd.initd:
+  Change location of pidfiles from /run to /run/bareos for better non-root
+  support
+
+  07 Mar 2014; Marc Schiffbauer <mschiff@gentoo.org> bareos-13.2.2.ebuild:
+  Remove examples USE flag.
+
+  14 Dec 2013; Marc Schiffbauer <mschiff@gentoo.org> bareos-12.4.5-r1.ebuild,
+  bareos-13.2.2.ebuild:
+  add mirror restriction due to unclear copyright situation
+
+*bareos-13.2.2 (03 Dec 2013)
+
+  03 Dec 2013; Marc Schiffbauer <mschiff@gentoo.org> +bareos-13.2.2.ebuild:
+  Add new version. Fix console compilation error.
+
+*bareos-12.4.5-r1 (12 Nov 2013)
+
+  12 Nov 2013; Marc Schiffbauer <mschiff@gentoo.org> -bareos-12.4.5.ebuild,
+  +bareos-12.4.5-r1.ebuild, files/bareos-dir.initd, files/bareos-fd.initd,
+  files/bareos-sd.initd:
+  revbump: drop superfluous 'need net' from init scripts. See #439092
+
+  30 Oct 2013; Marc Schiffbauer <mschiff@gentoo.org> bareos-12.4.5.ebuild:
+  Fix configure for USE=-sqlite3.
+
+*bareos-12.4.5 (21 Oct 2013)
+
+  21 Oct 2013; Marc Schiffbauer <mschiff@gentoo.org> +bareos-12.4.5.ebuild,
+  +files/bareos-12.4.5-Makefile.patch, +files/bareos-12.4.5-bat-ldflags.patch,
+  +files/bareos-dir.confd, +files/bareos-dir.initd, +files/bareos-fd.confd,
+  +files/bareos-fd.initd, +files/bareos-sd.confd, +files/bareos-sd.initd,
+  +metadata.xml:
+  Initial commit of bareos.

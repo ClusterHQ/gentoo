@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=dev-dotnet/dbus-sharp dev-dotnet/dbus-sharp-glib dev-dotnet/gio-sharp dev-dotnet/gtk-sharp dev-dotnet/gnome-sharp dev-dotnet/taglib-sharp media-libs/libextractor
+DESCRIPTION=Basenji is a volume indexing tool designed for easy and fast indexing of volume collections
+EAPI=4
+HOMEPAGE=http://launchpad.net/basenji
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=dev-dotnet/dbus-sharp dev-dotnet/dbus-sharp-glib dev-dotnet/gio-sharp dev-dotnet/gtk-sharp dev-dotnet/gnome-sharp dev-dotnet/taglib-sharp media-libs/libextractor dev-dotnet/gnome-desktop-sharp sys-fs/udisks
+SLOT=0
+SRC_URI=http://launchpad.net/basenji/trunk/1.0/+download/basenji-1.0.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=43641dfa1c1480f563ec2aa97ae7089c

@@ -1,0 +1,27 @@
+# ChangeLog for dev-python/roman
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/roman/ChangeLog,v 1.5 2014/03/31 21:14:12 mgorny Exp $
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> roman-2.0.0.ebuild:
+  Add support for the new PyPy slotting.
+
+*roman-2.0.0 (01 Jul 2013)
+
+  01 Jul 2013; Tiziano Müller <dev-zero@gentoo.org> +roman-2.0.0.ebuild,
+  -roman-1.4.0-r1.ebuild:
+  Version bump which introduces tests and pypy/py-3.3 compatibility.
+
+*roman-1.4.0-r1 (01 Jul 2013)
+
+  01 Jul 2013; Tiziano Müller <dev-zero@gentoo.org> +roman-1.4.0-r1.ebuild:
+  Migrate to distutils-r1
+
+  14 Nov 2012; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  Updating maintainer, metadata.xml
+
+*roman-1.4.0 (18 May 2012)
+
+  18 May 2012; Kacper Kowalik <xarthisius@gentoo.org> +metadata.xml,
+  +roman-1.4.0.ebuild:
+  Initial import, fixes #416063, ebuild written by Ian Delaney
+  <johneed@hotmail.com>

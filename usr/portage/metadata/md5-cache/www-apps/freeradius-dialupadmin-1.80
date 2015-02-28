@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=sys-apps/findutils sys-apps/sed >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Web administration interface of freeradius server
+HOMEPAGE=http://www.freeradius.org/dialupadmin.html
+IUSE=vhosts
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/php dev-perl/DateManip >=net-dialup/freeradius-2.1.1 >=app-admin/webapp-config-1.50.15
+SLOT=1.80
+SRC_URI=ftp://ftp.freeradius.org/pub/radius/freeradius-server-2.1.1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=ff129a107faad906347fd2b9c22279bd

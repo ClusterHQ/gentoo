@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=x11-libs/libX11 x11-libs/libXScrnSaver
+DESCRIPTION=xidle monitors inactivity in X and runs the specified program when a timeout occurs.
+EAPI=4
+HOMEPAGE=http://www.freebsdsoftware.org/x11/xidle.html
+KEYWORDS=~amd64 ~hppa ~x86
+LICENSE=BSD-2
+RDEPEND=x11-libs/libX11 x11-libs/libXScrnSaver
+SLOT=0
+SRC_URI=mirror://freebsd/ports/local-distfiles/novel/xidle-24102005.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=858c3d201eebe65eb745b2488dcbfed0

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEPEND=>=dev-libs/boost-1.42.0 dev-libs/lockdev >=sys-apps/util-linux-2.16 btrfs? ( >=sys-fs/btrfs-progs-0.19-r2 ) lvm? ( sys-fs/lvm2 ) pam? ( sys-libs/pam ) app-arch/xz-utils sys-apps/groff doc? ( app-doc/doxygen media-gfx/graphviz ) nls? ( >=app-text/po4a-0.40 sys-devel/gettext ) test? ( >=dev-util/cppunit-1.10.0 ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Utility to execute commands in a chroot environment
+EAPI=4
+HOMEPAGE=http://packages.debian.org/source/sid/schroot
+IUSE=btrfs +dchroot debug doc lvm nls pam test
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-libs/boost-1.42.0 dev-libs/lockdev >=sys-apps/util-linux-2.16 btrfs? ( >=sys-fs/btrfs-progs-0.19-r2 ) lvm? ( sys-fs/lvm2 ) pam? ( sys-libs/pam ) sys-apps/debianutils dchroot? ( !sys-apps/dchroot ) nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/s/schroot/schroot_1.6.5.orig.tar.xz mirror://debian/pool/main/s/schroot/schroot_1.6.5-1.debian.tar.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	base	87f7447ccfc06fd0729ff4684e11e0d6	bash-completion-r1	c8399c7c7ecbcf7ed6e5bd3abb3d4af3	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	pam	5e39d502488dd7c258289b7e4b482342	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=690bb97491dfd4e220b8c011a70d09eb

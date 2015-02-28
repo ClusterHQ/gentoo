@@ -1,0 +1,36 @@
+# ChangeLog for app-admin/eselect-metasploit
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-admin/eselect-metasploit/ChangeLog,v 1.5 2014/06/28 00:50:31 zerochaos Exp $
+
+  28 Jun 2014; Rick Farina <zerochaos@gentoo.org>
+  -eselect-metasploit-0.11.ebuild, -eselect-metasploit-0.12.ebuild,
+  -files/metasploit.eselect-0.11, -files/metasploit.eselect-0.12,
+  -files/msfconsole-0.12:
+  cleanup old
+
+*eselect-metasploit-0.13 (25 Apr 2014)
+
+  25 Apr 2014; Rick Farina <zerochaos@gentoo.org>
+  +eselect-metasploit-0.13.ebuild, +files/metasploit.eselect-0.13,
+  +files/msfloader-0.13:
+  improvements to the new method of handling Gemfile.lock
+
+  25 Apr 2014; Rick Farina <zerochaos@gentoo.org> files/metasploit.eselect-0.12:
+  missed a debug line, removing
+
+*eselect-metasploit-0.12 (25 Apr 2014)
+
+  25 Apr 2014; Rick Farina <zerochaos@gentoo.org>
+  +eselect-metasploit-0.12.ebuild, +files/metasploit.eselect-0.12,
+  +files/msfconsole-0.12:
+  create a loader script for msfconsole to handle the bundler Gemfile hacks,
+  minor cleanup for added safety
+
+*eselect-metasploit-0.11 (15 Dec 2013)
+
+  15 Dec 2013; Rick Farina <zerochaos@gentoo.org>
+  +eselect-metasploit-0.11.ebuild, +files/91metasploit,
+  +files/metasploit.eselect-0.11, +files/msfrpcd.confd, +files/msfrpcd.initd,
+  +metadata.xml:
+  initial commit of eselect-metasploit for slotted metasploit support, imported
+  from the pentoo overlay

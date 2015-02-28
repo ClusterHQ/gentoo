@@ -1,0 +1,69 @@
+# ChangeLog for dev-python/flask-restless
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/flask-restless/ChangeLog,v 1.13 2014/07/06 12:41:46 mgorny Exp $
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> flask-restless-0.12.0.ebuild,
+  flask-restless-0.12.1.ebuild, flask-restless-0.13.0.ebuild,
+  flask-restless-0.13.1.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+*flask-restless-0.13.1 (30 May 2014)
+
+  30 May 2014; Ian Delaney <idella4@gentoo.org> +flask-restless-0.13.1.ebuild:
+  bump; add py3 support
+
+*flask-restless-0.13.0 (26 May 2014)
+
+  26 May 2014; Patrick Lauer <patrick@gentoo.org> +flask-restless-0.13.0.ebuild:
+  Bump
+
+*flask-restless-0.12.1 (06 May 2014)
+
+  06 May 2014; Ian Delaney <idella4@gentoo.org> +files/mapping.patch,
+  +flask-restless-0.12.1.ebuild, flask-restless-0.12.0.ebuild:
+  bump; drop py2.6 add pypy support
+
+  21 Jan 2014; Patrick Lauer <patrick@gentoo.org> -flask-restless-0.10.0.ebuild,
+  -flask-restless-0.10.1.ebuild, -flask-restless-0.11.0-r1.ebuild:
+  Remove old
+
+*flask-restless-0.12.0 (22 Nov 2013)
+
+  22 Nov 2013; Patrick Lauer <patrick@gentoo.org> +flask-restless-0.12.0.ebuild:
+  Bump, fix docs logic
+
+  25 Aug 2013; Mike Gilbert <floppym@gentoo.org>
+  flask-restless-0.11.0-r1.ebuild:
+  Fix python-datutil dep.
+
+  17 Jun 2013; Patrick Lauer <patrick@gentoo.org>
+  flask-restless-0.11.0-r1.ebuild:
+  Fix python targets as flask was downrated
+
+  10 Jun 2013; Ian Delaney <idella4@gentoo.org> files/docbuild.patch,
+  flask-restless-0.11.0-r1.ebuild:
+  Updated to accommodate adding dep flask-themes for doc build
+
+*flask-restless-0.11.0-r1 (10 Jun 2013)
+
+  10 Jun 2013; Ian Delaney <idella4@gentoo.org> +files/docbuild.patch,
+  +flask-restless-0.11.0-r1.ebuild, -flask-restless-0.11.0.ebuild:
+  revbump; migrate -> distutils-r1, IUSE doc examples test added and
+  corresponding phases deps updated, remove -0.11.0
+
+*flask-restless-0.11.0 (24 May 2013)
+
+  24 May 2013; Patrick Lauer <patrick@gentoo.org> +flask-restless-0.11.0.ebuild:
+  Bump
+
+*flask-restless-0.10.1 (22 May 2013)
+
+  22 May 2013; Patrick Lauer <patrick@gentoo.org> +flask-restless-0.10.1.ebuild:
+  Bump
+
+*flask-restless-0.10.0 (04 May 2013)
+
+  04 May 2013; Rafael G. Martins <rafaelmartins@gentoo.org>
+  +flask-restless-0.10.0.ebuild, +metadata.xml:
+  Initial commit

@@ -1,0 +1,8 @@
+DEFINED_PHASES=install
+DESCRIPTION=Documentation for Cheetah templates
+HOMEPAGE=http://www.cheetahtemplate.org/
+KEYWORDS=~amd64 ~ia64 ppc x86
+LICENSE=OPL
+SLOT=0
+SRC_URI=mirror://sourceforge/cheetahtemplate/CheetahDocs-0.9.16a1.tgz
+_md5_=e6dee6387e9667c4f309d34ca39065dd

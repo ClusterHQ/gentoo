@@ -1,0 +1,20 @@
+# ChangeLog for sci-chemistry/phaser
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sci-chemistry/phaser/ChangeLog,v 1.4 2014/01/06 09:24:09 jlec Exp $
+
+  06 Jan 2014; Justin Lecher <jlec@gentoo.org> phaser-2.1.4.ebuild,
+  metadata.xml:
+  Bump to EAPI=5; punt base.eclass; Bump to python-single-r1.eclass
+
+  05 Feb 2012; Mike Gilbert <floppym@gentoo.org> phaser-2.1.4.ebuild:
+  Inherit toolchain-funcs.
+
+  10 Apr 2011; Justin Lecher <jlec@gentoo.org> phaser-2.1.4.ebuild:
+  Remove all keywords as the package misses patches, 332485
+
+*phaser-2.1.4 (03 Jul 2010)
+
+  03 Jul 2010; Justin Lecher <jlec@gentoo.org> +phaser-2.1.4.ebuild,
+  +files/phaser-2.1.4-chmod.patch, +metadata.xml:
+  Initial addition
+

@@ -1,0 +1,40 @@
+# ChangeLog for sys-apps/epoch
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/epoch/ChangeLog,v 1.6 2014/06/03 07:14:41 tomwij Exp $
+
+*epoch-1.1.1 (03 Jun 2014)
+
+  03 Jun 2014; Tom Wijsman <TomWij@gentoo.org> +epoch-1.1.1.ebuild,
+  epoch-1.0.1.ebuild, epoch-1.0.ebuild, epoch-1.0_rc1.ebuild,
+  epoch-1.0_rc2.ebuild, epoch-9999.ebuild:
+  Version bump to 1.1.1. Fix DESCRIPTION.punctuation QA warning.
+
+*epoch-1.0.1 (02 Mar 2014)
+
+  02 Mar 2014; Tom Wijsman <TomWij@gentoo.org> +epoch-1.0.1.ebuild:
+  Version bump to 1.0.1.
+
+*epoch-1.0 (07 Feb 2014)
+
+  07 Feb 2014; Tom Wijsman <TomWij@gentoo.org> +epoch-1.0.ebuild,
+  +files/epoch-1.0-fix-CFLAGS.patch, epoch-9999.ebuild:
+  Version bump to 1.0, fixes bug #500462.
+
+*epoch-1.0_rc2 (22 Dec 2013)
+
+  22 Dec 2013; Tom Wijsman <TomWij@gentoo.org> +epoch-1.0_rc2.ebuild,
+  epoch-1.0_rc1.ebuild:
+  Version bump to 1.0_rc2.
+
+  07 Dec 2013; Tom Wijsman <TomWij@gentoo.org> epoch-1.0_rc1.ebuild,
+  epoch-9999.ebuild:
+  Clarify which kernel parameter is needed to use the init system.
+
+*epoch-1.0_rc1 (07 Dec 2013)
+*epoch-9999 (07 Dec 2013)
+
+  07 Dec 2013; Tom Wijsman <TomWij@gentoo.org> +epoch-1.0_rc1.ebuild,
+  +epoch-9999.ebuild, +files/epoch-1.0_rc1-epoch.conf,
+  +files/epoch-1.0_rc1-fix-CFLAGS.patch, +metadata.xml:
+  New ebuild for sys-apps/epoch; an init system, a /sbin/init replacement;
+  designed for simplicity.

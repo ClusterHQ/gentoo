@@ -1,0 +1,1 @@
+>=sys-libs/ncurses-5.7-r7 virtual/libintl >=sys-devel/libtool-2.2.6b sys-devel/gettext

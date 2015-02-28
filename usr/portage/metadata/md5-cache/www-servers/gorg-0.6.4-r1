@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=>=dev-libs/libxml2-2.6.16 >=dev-libs/libxslt-1.1.12 test? ( ruby_targets_ruby18? ( mysql? ( >=dev-ruby/dbi-0.0.21[ruby_targets_ruby18,mysql] ) fastcgi? ( >=dev-ruby/fcgi-0.8.5-r1[ruby_targets_ruby18] ) ) ) ruby_targets_ruby18? ( dev-lang/ruby:1.8 )
+DESCRIPTION=Back-end XSLT processor for an XML-based web site
+EAPI=3
+HOMEPAGE=http://www.gentoo.org/proj/en/gdp/doc/gorg.xml
+IUSE=fastcgi mysql test elibc_FreeBSD ruby_targets_ruby18
+KEYWORDS=~amd64-linux ~x86-linux ~x86-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libxml2-2.6.16 >=dev-libs/libxslt-1.1.12 fastcgi? ( virtual/httpd-fastcgi ) ruby_targets_ruby18? ( mysql? ( >=dev-ruby/dbi-0.0.21[ruby_targets_ruby18,mysql] ) fastcgi? ( >=dev-ruby/fcgi-0.8.5-r1[ruby_targets_ruby18] ) ) ruby_targets_ruby18? ( dev-lang/ruby:1.8 )
+SLOT=0
+SRC_URI=http://gentoo.neysx.org/mystuff/gorg/gorg-0.6.4.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	ruby-ng	14f0490e24cbad7c17cece628b3d111e	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=f7ebc45d81ce6ab8bce27f1ccd166bf0

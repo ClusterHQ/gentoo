@@ -1,0 +1,12 @@
+DEFINED_PHASES=install setup
+DEPEND==dev-lang/python-2*
+DESCRIPTION=Python script to submit firewall logs to dshield.org
+EAPI=4
+HOMEPAGE=http://dshieldpy.sourceforge.net/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND==dev-lang/python-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/dshieldpy/dshieldpy-3.2.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ceb96e8c136392b0063aacd819333613

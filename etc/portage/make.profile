@@ -1,0 +1,1 @@
+/home/core/gentoo/usr/portage/profiles/prefix/linux/amd64

@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=>=dev-libs/libmcrypt-2.5.8 >=app-crypt/mhash-0.9.9 sys-libs/zlib
+DESCRIPTION=replacement of the old unix crypt(1)
+EAPI=2
+HOMEPAGE=http://mcrypt.sourceforge.net/
+IUSE=nls
+KEYWORDS=amd64 ppc sparc x86 ~x86-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libmcrypt-2.5.8 >=app-crypt/mhash-0.9.9 sys-libs/zlib
+SLOT=0
+SRC_URI=mirror://sourceforge/mcrypt/mcrypt-2.6.8.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=511ab25a1d4b12926f081e79c6142731

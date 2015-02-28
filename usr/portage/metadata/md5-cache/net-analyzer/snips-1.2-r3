@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare unpack
+DESCRIPTION=System & Network Integrated Polling Software
+EAPI=4
+HOMEPAGE=http://www.netplex-tech.com/snips/
+KEYWORDS=~amd64
+LICENSE=SNIPS BSD HPND GPL-1+ RSA free-noncomm
+RDEPEND=dev-lang/perl virtual/mailx net-analyzer/rrdtool >=net-misc/iputils-20071127-r2 sys-libs/gdbm sys-libs/ncurses
+SLOT=0
+SRC_URI=http://www.netplex-tech.com/software/downloads/snips/snips-1.2.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=95e50a3670d6bd1dbe9324a4240dd195

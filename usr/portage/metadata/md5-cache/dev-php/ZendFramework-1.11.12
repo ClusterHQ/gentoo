@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare
+DEPEND=cli? ( dev-lang/php[simplexml,tokenizer] ) dev-lang/php dev-lang/php
+DESCRIPTION=Zend Framework is a high quality and open source framework for developing Web Applications
+EAPI=2
+HOMEPAGE=http://framework.zend.com/
+IUSE=doc examples minimal cli
+KEYWORDS=amd64 hppa ~ppc x86
+LICENSE=BSD
+RDEPEND=cli? ( dev-lang/php[simplexml,tokenizer] ) dev-lang/php dev-lang/php
+SLOT=0
+SRC_URI=!minimal? ( http://framework.zend.com/releases/ZendFramework-1.11.12/ZendFramework-1.11.12.tar.gz ) minimal? ( http://framework.zend.com/releases/ZendFramework-1.11.12/ZendFramework-1.11.12-minimal.tar.gz ) doc? ( http://framework.zend.com/releases/ZendFramework-1.11.12/ZendFramework-1.11.12-apidoc.tar.gz http://framework.zend.com/releases/ZendFramework-1.11.12/ZendFramework-1.11.12-manual-en.tar.gz )
+_eclasses_=depend.php	dcdf301e07578788ea73af6c2012b66b	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	php-lib-r1	d7318e400ae0d443613d286980877fd4	phpconfutils	3b141a267018096231e10dfbd1657b81	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=a61b2e25671b7c36426f517d53cbbc3b

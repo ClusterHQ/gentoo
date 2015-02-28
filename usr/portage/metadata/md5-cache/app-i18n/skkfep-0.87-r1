@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=>=sys-libs/ncurses-5.7-r7 >=sys-apps/sed-4 virtual/awk
+DESCRIPTION=A SKK-like Japanese input method for console
+EAPI=4
+HOMEPAGE=http://homepage2.nifty.com/aito/soft.html
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=sys-libs/ncurses-5.7-r7 app-i18n/skk-jisyo
+SLOT=0
+SRC_URI=http://homepage2.nifty.com/aito/skkfep/skkfep-0.87.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=1ce6df4b5a8f2d6248596481b54a199e

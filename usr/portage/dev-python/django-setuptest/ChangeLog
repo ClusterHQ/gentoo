@@ -1,0 +1,31 @@
+# ChangeLog for dev-python/django-setuptest
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/django-setuptest/ChangeLog,v 1.6 2014/05/10 08:33:59 idella4 Exp $
+
+  10 May 2014; Ian Delaney <idella4@gentoo.org> django-setuptest-0.1.4.ebuild:
+  drop py2.6 add py3.3 py3.4 pypy support
+
+  10 Sep 2013; Patrick Lauer <patrick@gentoo.org> django-setuptest-0.1.4.ebuild:
+  Whitespace
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org>
+  django-setuptest-0.1.2-r1.ebuild, django-setuptest-0.1.4.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*django-setuptest-0.1.4 (25 Jun 2013)
+
+  25 Jun 2013; Ian Delaney <idella4@gentoo.org> +django-setuptest-0.1.4.ebuild,
+  -django-setuptest-0.1.2.ebuild:
+  bump, remove old
+
+*django-setuptest-0.1.2-r1 (28 May 2013)
+
+  28 May 2013; Ian Delaney <idella4@gentoo.org>
+  +django-setuptest-0.1.2-r1.ebuild:
+  revbump. migrate -> distutils-r1, remove old ebuild
+
+*django-setuptest-0.1.2 (19 Nov 2012)
+
+  19 Nov 2012; Ian Delaney <idella4@gentoo.org> +django-setuptest-0.1.2.ebuild,
+  +metadata.xml:
+  New package, requested by tampakrap, initial written by me

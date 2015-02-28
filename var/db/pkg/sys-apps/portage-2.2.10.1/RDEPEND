@@ -1,0 +1,1 @@
+|| ( >=dev-lang/python-2.7 dev-lang/python:2.6[threads] ) dev-lang/python:2.7 >=sys-apps/sed-4.0.5 || ( >=app-shells/bash-4.2_p37[readline] ( <app-shells/bash-4.2_p37 >=app-shells/bash-4.1 ) ) >=app-admin/eselect-1.2 || ( >=dev-lang/python-2.7[ssl] dev-lang/python:2.6[threads,ssl] dev-python/python-mhash ) >=app-misc/pax-utils-0.1.17 !<app-shells/bash-3.2_p17

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=virtual/blas virtual/lapack || ( sci-libs/metis sci-libs/parmetis ) cilk? ( dev-lang/cilk ) virtual/pkgconfig virtual/fortran
+DESCRIPTION=C library of sparse linear solvers
+EAPI=4
+HOMEPAGE=http://www.tau.ac.il/~stoledo/taucs/
+IUSE=cilk doc static-libs
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=LGPL-2.1
+RDEPEND=virtual/blas virtual/lapack || ( sci-libs/metis sci-libs/parmetis ) cilk? ( dev-lang/cilk ) virtual/fortran
+SLOT=0
+SRC_URI=http://www.tau.ac.il/~stoledo/taucs/2.2/taucs.tgz -> taucs-2.2.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fortran-2	db8710b355fc5598015c4bc3aad3bdb0	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=37834cfda9f8e30ccdce540ed7f72f7a

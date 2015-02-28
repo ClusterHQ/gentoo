@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm prepare setup
+DEPEND==dev-lang/python-2.7*
+DESCRIPTION=Program to create video CDs and DVDs, suitable to be played in home DVD players
+EAPI=4
+HOMEPAGE=http://www.rastersoft.com/programas/devede.html
+IUSE=+ffmpeg
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=dev-python/dbus-python dev-python/pycairo dev-python/pygobject:2 >=dev-python/pygtk-2.16 media-video/dvdauthor media-video/mplayer media-video/vcdimager virtual/cdrtools ffmpeg? ( virtual/ffmpeg[mp3] ) =dev-lang/python-2.7*
+SLOT=0
+SRC_URI=http://www.rastersoft.com/descargas/devede-3.21.0.tar.bz2
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=90f716c4e3b71fb8471db222a03bddba

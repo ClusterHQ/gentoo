@@ -1,0 +1,71 @@
+dir /home/core/gentoo/sbin
+obj /home/core/gentoo/sbin/sysctl 0f3aea04307e2b4c8fecbfc056ae7a76 1410959077
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/procps-3.3.9-r2
+obj /home/core/gentoo/usr/share/doc/procps-3.3.9-r2/AUTHORS.bz2 9c0ba4c86e44c0fc06b740cca05862a2 1410959076
+obj /home/core/gentoo/usr/share/doc/procps-3.3.9-r2/README.bz2 5befb10ac0f7e0648109cc685629851e 1410959076
+obj /home/core/gentoo/usr/share/doc/procps-3.3.9-r2/BUGS.bz2 a8536203f9cfa583fa0e014b2c5b2b74 1410959075
+obj /home/core/gentoo/usr/share/doc/procps-3.3.9-r2/NEWS.bz2 09ff4c63ca7cc7ec8411bc108291e139 1410959076
+obj /home/core/gentoo/usr/share/doc/procps-3.3.9-r2/FAQ.bz2 8afeb0652c31d9b3f64d5cae9e08fc61 1410959075
+obj /home/core/gentoo/usr/share/doc/procps-3.3.9-r2/README.top.bz2 1304106959b8be6875c128e5b3ee8bc3 1410959075
+obj /home/core/gentoo/usr/share/doc/procps-3.3.9-r2/ChangeLog ebcc9755b7b04f14b3a85543d5593dce 1410959076
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man5
+obj /home/core/gentoo/usr/share/man/man5/sysctl.conf.5.bz2 b80a50aebcafbc125039d0fc920a8c6f 1410959075
+dir /home/core/gentoo/usr/share/man/man8
+obj /home/core/gentoo/usr/share/man/man8/sysctl.8.bz2 40b548a543dbe223f6a09ae9197efbe6 1410959075
+obj /home/core/gentoo/usr/share/man/man8/vmstat.8.bz2 a357c3c8b96fb5a09f744f59fb894040 1410959075
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/slabtop.1.bz2 95786b7e399f1e0222978ed5a7a50f1e 1410959075
+obj /home/core/gentoo/usr/share/man/man1/kill.1.bz2 29fca758bc7f708c2116fb38ddf8a8c0 1410959075
+obj /home/core/gentoo/usr/share/man/man1/uptime.1.bz2 875ec54e243e836838f66c107d015609 1410959075
+obj /home/core/gentoo/usr/share/man/man1/pkill.1 77e76aa1d4221cc7d851ec08a17f54d1 1410959075
+obj /home/core/gentoo/usr/share/man/man1/pidof.1.bz2 84095ccc39bb4daa9c0cbc1f505d5ed6 1410959075
+obj /home/core/gentoo/usr/share/man/man1/pmap.1.bz2 5a56fb4340fc4366aea5a5ddc489813c 1410959075
+obj /home/core/gentoo/usr/share/man/man1/pgrep.1.bz2 43a86b7b5ac7af981ac95e75aeb49686 1410959075
+obj /home/core/gentoo/usr/share/man/man1/top.1.bz2 536f069f7a08cf7900883356a319e158 1410959075
+obj /home/core/gentoo/usr/share/man/man1/tload.1.bz2 427adcc752ca90d44dc863b5e8801ffe 1410959075
+obj /home/core/gentoo/usr/share/man/man1/ps.1.bz2 959f13e24485338bf48c82fa55f80652 1410959074
+obj /home/core/gentoo/usr/share/man/man1/watch.1.bz2 3654afb8143b0b80e89ea92bb3c9c03e 1410959075
+obj /home/core/gentoo/usr/share/man/man1/free.1.bz2 82c220530e4d7611b2ef04623f70e2dd 1410959075
+obj /home/core/gentoo/usr/share/man/man1/w.1.bz2 a8443007123677481bba6878d7665ab8 1410959075
+obj /home/core/gentoo/usr/share/man/man1/pwdx.1.bz2 b82df349b03d0d033ffa18b4d8567af4 1410959075
+dir /home/core/gentoo/usr/lib
+sym /home/core/gentoo/usr/lib/libprocps.so.3 -> libprocps.so.3.0.0 1410959156
+dir /home/core/gentoo/usr/lib/pkgconfig
+obj /home/core/gentoo/usr/lib/pkgconfig/libprocps.pc 078498af60f498ac55630ffcdcfb3482 1410959074
+sym /home/core/gentoo/usr/lib/libprocps.so -> libprocps.so.3.0.0 1410959156
+obj /home/core/gentoo/usr/lib/libprocps.so.3.0.0 b0e83749f934504d28637796fa16c46e 1410959077
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/top a31030b6f6e6a72c193ea4d5f4af362a 1410959077
+obj /home/core/gentoo/usr/bin/slabtop 295a31c6cf09c83b78d77bb6cab3a242 1410959077
+obj /home/core/gentoo/usr/bin/pmap 2a095ed91702b480e16b0eab1246f7d7 1410959077
+obj /home/core/gentoo/usr/bin/uptime a2167aa5592683a715df26c30b44bd18 1410959077
+obj /home/core/gentoo/usr/bin/watch 4f6014eea3f7f07e1ee05d92a0d84a12 1410959077
+obj /home/core/gentoo/usr/bin/free 7ae65aebea41e040a5f465383207d44f 1410959077
+obj /home/core/gentoo/usr/bin/pgrep e971cee49f41fb5231de961674f5619f 1410959077
+obj /home/core/gentoo/usr/bin/pwdx 846ee438ace960df631f6db52ba0878a 1410959077
+obj /home/core/gentoo/usr/bin/pkill e971cee49f41fb5231de961674f5619f 1410959077
+obj /home/core/gentoo/usr/bin/vmstat b76e29647d7ffb960c8ebcb79c0fa42e 1410959077
+obj /home/core/gentoo/usr/bin/w 2d9243cb1159aa80e6f6c71a9fcc14b8 1410959077
+obj /home/core/gentoo/usr/bin/tload 2e084ebd03fa444aad89d396be8794e3 1410959077
+dir /home/core/gentoo/usr/include
+dir /home/core/gentoo/usr/include/proc
+obj /home/core/gentoo/usr/include/proc/readproc.h 9428aaf22fb1ad2d80642f4ef2fb62c0 1410959074
+obj /home/core/gentoo/usr/include/proc/sysinfo.h b7d066ca28afea463e6e626db32cac1d 1410959074
+obj /home/core/gentoo/usr/include/proc/procps.h cf2fd3512aafd73f3399b92892be0004 1410959074
+obj /home/core/gentoo/usr/include/proc/devname.h 66042a345713cf36145248bab816269e 1410959074
+obj /home/core/gentoo/usr/include/proc/version.h e36e4a664c498bb7836cec86ba313a48 1410959074
+obj /home/core/gentoo/usr/include/proc/slab.h 77eacbc558f30b47839f6fb20373b554 1410959074
+obj /home/core/gentoo/usr/include/proc/escape.h 48bbcfc5ffe102730027e482bf52dee6 1410959074
+obj /home/core/gentoo/usr/include/proc/pwcache.h 8fc54889a90c7258fa38ec5f6c3d0065 1410959074
+obj /home/core/gentoo/usr/include/proc/wchan.h a813b80496fe772508c5339e0e477aa7 1410959074
+obj /home/core/gentoo/usr/include/proc/whattime.h 1c43b7ef30e1a9100609b800c9a0f989 1410959074
+obj /home/core/gentoo/usr/include/proc/sig.h fa44bdd7dd805fe32f77cd4f0f4683c9 1410959074
+obj /home/core/gentoo/usr/include/proc/alloc.h 8047ed5c1c7955b9821209d14a7349da 1410959074
+dir /home/core/gentoo/bin
+obj /home/core/gentoo/bin/ps fa3f3319f697a1f01bbc9043a8e5e984 1410959077
+obj /home/core/gentoo/bin/kill 780196557c179e67f2e7726b21035e0f 1410959077
+obj /home/core/gentoo/bin/pidof 204de2dfb503eb088a0a4a292f89aca4 1410959077

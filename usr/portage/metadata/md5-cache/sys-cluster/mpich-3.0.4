@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare setup test
+DEPEND=dev-libs/libaio sys-apps/hwloc romio? ( net-fs/nfs-utils ) dev-lang/perl sys-devel/libtool fortran? ( virtual/fortran )
+DESCRIPTION=A high performance and portable MPI implementation
+EAPI=5
+HOMEPAGE=http://www.mpich.org/
+IUSE=+cxx doc fortran mpi-threads romio threads
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=mpich
+RDEPEND=dev-libs/libaio sys-apps/hwloc romio? ( net-fs/nfs-utils ) !sys-cluster/mpich2 !sys-cluster/openmpi fortran? ( virtual/fortran )
+SLOT=0
+SRC_URI=http://www.mpich.org/static/downloads/3.0.4/mpich-3.0.4.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fortran-2	db8710b355fc5598015c4bc3aad3bdb0	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e0063856ea552584fb7ae283b58327c3

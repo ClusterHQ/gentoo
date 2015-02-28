@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare test
+DEPEND=virtual/lapack virtual/pkgconfig
+DESCRIPTION=Software for interior-point for semidefinite programming
+EAPI=4
+HOMEPAGE=http://www.mcs.anl.gov/hs/software/DSDP/
+IUSE=doc examples
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~ppc-macos ~x86-linux ~x86-macos ~x64-macos
+LICENSE=BSD
+RDEPEND=virtual/lapack
+SLOT=0
+SRC_URI=http://www.mcs.anl.gov/hs/software/DSDP//DSDP5.8.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=78141e5517cf2c31f8da53d7a02784f8

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/gmp doc? ( virtual/latex-base )
+DESCRIPTION=Standard ML optimizing compiler and libraries
+HOMEPAGE=http://www.mlton.org
+IUSE=binary doc
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=HPND MIT
+RDEPEND=dev-libs/gmp
+SLOT=0
+SRC_URI=!binary? ( mirror://sourceforge/mlton/mlton-20100608.src.tgz ) binary? ( amd64? ( mirror://sourceforge/mlton/mlton-20100608-1.amd64-linux.static.tgz ) x86? ( mirror://sourceforge/mlton/mlton-20100608-1.x86-linux.static.tgz ) )
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=991fca29d7cd2d4f1d7bb629beba192e

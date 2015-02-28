@@ -1,0 +1,18 @@
+# ChangeLog for dev-libs/elfio
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/elfio/ChangeLog,v 1.4 2014/08/10 20:33:33 slyfox Exp $
+
+  10 Aug 2014; Sergei Trofimovich <slyfox@gentoo.org> elfio-1.0.3.ebuild:
+  QA: drop trailing '.' from DESCRIPTION
+
+  25 Oct 2009; Torsten Veller <tove@gentoo.org> metadata.xml:
+  Remove drizzt from metadata.xml (#149111)
+
+  04 Mar 2009; Timothy Redaelli <drizzt@gentoo.org> elfio-1.0.3.ebuild:
+  Add ~x86-fbsd keyword
+
+*elfio-1.0.3 (06 Mar 2007)
+
+  06 Mar 2007; Timothy Redaelli <drizzt@gentoo.org>
+  +files/elfio-1.0.3-shared.patch, +metadata.xml, +elfio-1.0.3.ebuild:
+  New ebuild, thanks to MATSUU Takuto wrt bug #127026

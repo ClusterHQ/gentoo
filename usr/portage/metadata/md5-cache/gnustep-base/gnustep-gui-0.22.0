@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=doc? ( virtual/texi2dvi dev-tex/latex2html app-text/texi2html ) app-text/aspell >=gnustep-base/gnustep-base-1.24.0 media-libs/audiofile >=media-libs/tiff-3 x11-libs/libXt cups? ( >=net-print/cups-1.1 ) gif? ( >=media-libs/giflib-4.1 ) jpeg? ( virtual/jpeg ) png? ( >=media-libs/libpng-1.2 ) speech? ( app-accessibility/flite )
+DESCRIPTION=Library of GUI classes written in Obj-C
+EAPI=4
+HOMEPAGE=http://www.gnustep.org/
+IUSE=cups gif jpeg png speech debug doc
+KEYWORDS=~alpha amd64 ppc sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux ~x86-solaris
+LICENSE=LGPL-2.1
+RDEPEND=doc? ( virtual/texi2dvi dev-tex/latex2html app-text/texi2html ) app-text/aspell >=gnustep-base/gnustep-base-1.24.0 media-libs/audiofile >=media-libs/tiff-3 x11-libs/libXt cups? ( >=net-print/cups-1.1 ) gif? ( >=media-libs/giflib-4.1 ) jpeg? ( virtual/jpeg ) png? ( >=media-libs/libpng-1.2 ) speech? ( app-accessibility/flite )
+SLOT=0
+SRC_URI=ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-gui-0.22.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnustep-base	94ae60344fbcafb38eebb75c0ad67909	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b4daeeb23e00d979184697abe7bd1152

@@ -1,0 +1,104 @@
+#!/bin/bash
+
+# Avoid bash localization of error messages
+export LC_ALL=C
+
+if ! . /etc/init.d/functions.sh 2>/dev/null ; then
+	ebegin() { printf '%s ... ' "$*" ; }
+	eend() {
+		local r=${1:-0}
+		shift
+		if [[ $r -eq 0 ]] ; then
+			echo "[ ok ]"
+		else
+			echo "$* [ !! ]"
+		fi
+		return $r
+	}
+	die() { echo "$*"; exit 1; }
+fi
+
+vars=( CHOST GCC_CONFIG ROOT TROOT NOCOLOR )
+unset ${vars[@]}
+
+TROOT=${PWD}
+GCC_CONFIG="${TROOT}/../gcc-config"
+if ! "${GCC_CONFIG}" --help >/dev/null ; then
+	die "could not find gcc-config in ${TROOT}/../"
+fi
+PATH="${TROOT}/..:${PATH}"
+
+NOCOLOR="true"
+# This CHOST value doesn't matter.  It could be anything.
+# As long as all the configs we test are based on this being
+# the CHOST value.
+CHOST="x86_64-pc-linux-gnu"
+
+cmp_log() {
+	local ret log=$1 exp=$2
+	local v args=()
+	for v in ${vars[@]} ; do
+		args+=( -e "s:@${v}@:${!v}:g" )
+	done
+	args+=( -e "s|: line [0-9]*: |: |g" )
+	sed "${args[@]}" "${exp}" > "${exp}.tmp"
+	sed "${args[@]}" "${log}" > "${log}.tmp"
+	diff -u "${exp}.tmp" "${log}.tmp" > "${log}.diff"
+	ret=$?
+	rm "${exp}.tmp"
+	return ${ret}
+}
+
+rm -f */*.log*
+rm -rf TMP-*-rw-*
+
+if [[ $# -eq 0 ]] ; then
+	set -- */test*
+else
+	set -- ${@/%//test*}
+	set -- ${@//\/\///}
+fi
+
+tret=0
+for t in "$@" ; do
+	[[ ${t} == *.exp ]] && continue
+
+	ebegin "Running ${t}"
+
+	test=${t##*/}
+	tdir=${t%/*}
+	if [[ ${tdir} == rw-* ]] ; then
+		cp -pPR "${tdir}" "TMP-${test}-${tdir}"
+		tdir="TMP-${test}-${tdir}"
+	fi
+
+	ROOT=${TROOT}/${tdir}
+
+	r="${ROOT}/runit"
+	cat <<-EOF > "${r}"
+	#!/bin/bash
+	cd "${ROOT}"
+	$(for v in PATH ${vars[@]} ; do printf '%s="%s"\n' ${v} "${!v}" ; done)
+	export ${vars[@]}
+	. ./${test}
+	EOF
+	chmod a+rx "${r}"
+
+	log=${ROOT}/${test}.log
+	"${r}" >& "${log}"
+	ret=$?
+	reason="exit failure"
+
+	if [[ ${ret} -eq 0 ]] ; then
+		reason="log difference"
+		cmp_log "${log}" "${log%.log}.exp"
+		ret=$?
+	fi
+	if eend ${ret} "due to ${reason}; see ${log}" ; then
+		rm -f "${log}"* "${r}"
+		[[ ${tdir} == TMP-${test}-rw-* ]] && rm -rf "${tdir}"
+	else
+		: $(( tret += $? ))
+	fi
+done
+exit ${tret}

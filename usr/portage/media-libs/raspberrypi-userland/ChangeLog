@@ -1,0 +1,44 @@
+# ChangeLog for media-libs/raspberrypi-userland
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-libs/raspberrypi-userland/ChangeLog,v 1.6 2014/09/03 22:28:11 chithanh Exp $
+
+*raspberrypi-userland-0_pre20140830 (03 Sep 2014)
+
+  03 Sep 2014; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +raspberrypi-userland-0_pre20140830.ebuild:
+  New snapshot.
+
+*raspberrypi-userland-0_pre20130705-r1 (23 Jan 2014)
+*raspberrypi-userland-0_pre20140117 (23 Jan 2014)
+
+  23 Jan 2014; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +raspberrypi-userland-0_pre20130705-r1.ebuild,
+  +raspberrypi-userland-0_pre20140117.ebuild,
+  -raspberrypi-userland-0_pre20121024.ebuild,
+  -raspberrypi-userland-0_pre20130131.ebuild,
+  -raspberrypi-userland-0_pre20130705.ebuild, files/04raspberrypi-userland:
+  New snapshot. Use correct path in env.d file, bug #494976.
+
+*raspberrypi-userland-0_pre20130705 (13 Jul 2013)
+
+  13 Jul 2013; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +raspberrypi-userland-0_pre20130705.ebuild, raspberrypi-userland-9999.ebuild:
+  New snapshot.
+
+*raspberrypi-userland-9999 (02 Feb 2013)
+*raspberrypi-userland-0_pre20130131 (02 Feb 2013)
+
+  02 Feb 2013; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +raspberrypi-userland-0_pre20130131.ebuild, +raspberrypi-userland-9999.ebuild:
+  New snapshot for new firmware, bug #453352. Add live ebuild.
+
+  25 Oct 2012; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  raspberrypi-userland-0_pre20121024.ebuild:
+  Make description more precise.
+
+*raspberrypi-userland-0_pre20121024 (25 Oct 2012)
+
+  25 Oct 2012; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +files/04raspberrypi-userland, +metadata.xml,
+  +raspberrypi-userland-0_pre20121024.ebuild:
+  Initial commit. Thanks to xmw for the env.d file.

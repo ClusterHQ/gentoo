@@ -1,0 +1,25 @@
+# ChangeLog for games-util/lutris
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/games-util/lutris/ChangeLog,v 1.5 2014/06/01 22:25:01 hasufell Exp $
+
+  01 Jun 2014; Julian Ospald <hasufell@gentoo.org> lutris-0.3.4.ebuild:
+  stable
+
+*lutris-0.3.4 (04 Mar 2014)
+
+  04 Mar 2014; Julian Ospald <hasufell@gentoo.org> +lutris-0.3.4.ebuild:
+  version bump
+
+*lutris-0.3.3 (29 Jan 2014)
+
+  29 Jan 2014; Julian Ospald <hasufell@gentoo.org> +lutris-0.3.3.ebuild:
+  version bump
+
+  27 Dec 2013; Julian Ospald <hasufell@gentoo.org> lutris-0.3.2.ebuild:
+  fix dependencies
+
+*lutris-0.3.2 (22 Dec 2013)
+
+  22 Dec 2013; Julian Ospald <hasufell@gentoo.org> +lutris-0.3.2.ebuild,
+  +files/lutris-0.3.2-desktopfile.patch, +metadata.xml:
+  initial import

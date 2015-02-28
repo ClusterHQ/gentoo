@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=virtual/pam >=sys-auth/ykclient-2.4 >=sys-auth/ykpers-1.6 ldap? ( net-nds/openldap )
+DESCRIPTION=Library for authenticating against PAM with a Yubikey
+EAPI=5
+HOMEPAGE=https://github.com/Yubico/yubico-pam
+IUSE=ldap
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=virtual/pam >=sys-auth/ykclient-2.4 >=sys-auth/ykpers-1.6 ldap? ( net-nds/openldap )
+SLOT=0
+SRC_URI=http://opensource.yubico.com/yubico-pam/releases/pam_yubico-2.14.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=52a2723ce87e6b2149a55f1b6da17258

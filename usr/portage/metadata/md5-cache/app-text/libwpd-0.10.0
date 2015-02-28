@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst postrm
+DEPEND=dev-libs/librevenge virtual/pkgconfig doc? ( app-doc/doxygen ) test? ( dev-util/cppunit )
+DESCRIPTION=WordPerfect Document import/export library
+EAPI=5
+HOMEPAGE=http://libwpd.sf.net
+IUSE=doc test +tools
+KEYWORDS=~amd64 ~hppa ~mips ~x86 ~x86-fbsd
+LICENSE=|| ( LGPL-2.1 MPL-2.0 )
+RDEPEND=dev-libs/librevenge !<app-text/libwpd-0.8.14-r1
+SLOT=0.10
+SRC_URI=mirror://sourceforge/libwpd/libwpd-0.10.0.tar.xz
+_eclasses_=alternatives	326031758c86cd08f5844f475f03ac01	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=bb590f6efab7127e9744281beb654445

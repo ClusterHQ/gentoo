@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/libX11 x11-libs/libICE x11-libs/libSM x11-libs/libXpm x11-libs/libXext jpeg? ( virtual/jpeg ) x11-proto/xproto
+DESCRIPTION=a swallowable applet monitors the utilization level of memory, cache and swap space
+HOMEPAGE=http://www.tigr.net
+IUSE=jpeg
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libICE x11-libs/libSM x11-libs/libXpm x11-libs/libXext jpeg? ( virtual/jpeg )
+SLOT=0
+SRC_URI=http://www.tigr.net/afterstep/download/asmem/asmem-1.12.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e88933a8adbe8b6662077cff15812b49

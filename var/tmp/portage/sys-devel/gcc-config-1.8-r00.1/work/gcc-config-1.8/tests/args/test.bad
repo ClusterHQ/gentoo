@@ -1,0 +1,12 @@
+#!/bin/bash
+flags=(
+	-Q
+	"-E -B"
+	"-E -L"
+	"-B -L"
+)
+for f in "${flags[@]}" ; do
+	gcc-config ${f} && exit 1
+done
+
+exec gcc-config -h >/dev/null

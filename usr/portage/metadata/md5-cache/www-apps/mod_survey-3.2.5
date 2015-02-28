@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=>=dev-lang/perl-5.6.1 >=app-admin/webapp-config-1.50.15
+DESCRIPTION=XML-defined web questionnaires as a plug-in module using Apache
+HOMEPAGE=http://www.modsurvey.org
+IUSE=doc mysql nls postgres linguas_en linguas_de linguas_fr linguas_it linguas_sv vhosts
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/perl-5.6.1 >=www-apache/mod_perl-1.99 postgres? ( >=dev-perl/DBI-1.38 dev-perl/DBD-Pg ) mysql? ( >=dev-perl/DBI-1.38 dev-perl/DBD-mysql ) >=virtual/perl-CGI-3.0.0 >=app-admin/webapp-config-1.50.15
+SLOT=0
+SRC_URI=http://www.modsurvey.org/download/tarballs/modsurvey-3.2.5.tgz doc? ( http://www.modsurvey.org/download/tarballs/modsurvey-docs-3.2.5.tgz )
+_eclasses_=depend.apache	41d01b539f56fa0a5269f3a8ce916981	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=0e6146ecf73616684591b6b2c769f3f8

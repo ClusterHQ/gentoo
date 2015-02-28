@@ -1,0 +1,26 @@
+# ChangeLog for dev-ruby/rqrcode
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/rqrcode/ChangeLog,v 1.6 2014/08/06 07:09:18 mrueg Exp $
+
+  06 Aug 2014; Manuel Rüger <mrueg@gentoo.org> rqrcode-0.4.2-r1.ebuild:
+  Add ruby21 target.
+
+  21 May 2014; Manuel Rüger <mrueg@gentoo.org> rqrcode-0.4.2-r1.ebuild:
+  Remove ruby18 target. Add missing die.
+
+  08 Mar 2014; Manuel Rüger <mrueg@gentoo.org> -rqrcode-0.4.2.ebuild:
+  Cleanup old.
+
+*rqrcode-0.4.2-r1 (20 Dec 2013)
+
+  20 Dec 2013; Manuel Rüger <mrueg@gentoo.org> +rqrcode-0.4.2-r1.ebuild:
+  Add ruby20 target.
+
+  14 Aug 2012; Diego E. Pettenò <flameeyes@gentoo.org> metadata.xml:
+  Update metadata.xml so that it's the same as most other packages.
+
+*rqrcode-0.4.2 (18 Sep 2011)
+
+  18 Sep 2011; Diego E. Pettenò <flameeyes@gentoo.org> +rqrcode-0.4.2.ebuild,
+  +metadata.xml:
+  Initial import of the rqrcode QRCode generation library.

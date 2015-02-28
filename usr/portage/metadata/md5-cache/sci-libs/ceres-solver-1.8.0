@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-cpp/glog[gflags?] cxsparse? ( sci-libs/cxsparse ) lapack? ( virtual/lapack ) protobuf? ( dev-libs/protobuf ) sparse? ( sci-libs/amd sci-libs/camd sci-libs/ccolamd sci-libs/cholmod sci-libs/colamd sci-libs/spqr ) dev-cpp/eigen:3 lapack? ( virtual/pkgconfig ) doc? ( dev-python/sphinx ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Nonlinear least-squares minimizer
+EAPI=5
+HOMEPAGE=https://code.google.com/p/ceres-solver/
+IUSE=cxsparse doc examples gflags lapack openmp protobuf +schur sparse static-libs test
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=dev-cpp/glog[gflags?] cxsparse? ( sci-libs/cxsparse ) lapack? ( virtual/lapack ) protobuf? ( dev-libs/protobuf ) sparse? ( sci-libs/amd sci-libs/camd sci-libs/ccolamd sci-libs/cholmod sci-libs/colamd sci-libs/spqr )
+REQUIRED_USE=test? ( gflags ) sparse? ( lapack )
+SLOT=0/1
+SRC_URI=https://ceres-solver.googlecode.com/files/ceres-solver-1.8.0.tar.gz
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=5c168f44d54a9258ca47bfdc0cc7c298

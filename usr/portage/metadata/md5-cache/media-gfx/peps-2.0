@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=app-text/ghostscript-gpl app-arch/gzip
+DESCRIPTION=Peps preprocesses EPS files and passes it to Ghostscript for conversion into a bitmap
+EAPI=2
+HOMEPAGE=http://peps.redprince.net/peps/
+IUSE=X
+KEYWORDS=amd64 x86
+LICENSE=BSD-2
+RDEPEND=app-text/ghostscript-gpl app-arch/gzip
+SLOT=0
+SRC_URI=http://www.peps.redprince.net/peps/peps-2.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ba7d660a5c43b2cd8d22613974e5b932

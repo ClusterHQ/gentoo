@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=media-libs/audiofile media-libs/taglib alsa? ( media-libs/alsa-lib ) ao? ( media-libs/libao ) flac? ( media-libs/flac ) mad? ( media-libs/libid3tag media-libs/libmad ) musepack? ( >=media-sound/musepack-tools-444 ) modplug? ( media-libs/libmodplug ) timidity? ( media-sound/timidity++ ) vorbis? ( >=media-libs/libogg-1.1.2 >=media-libs/libvorbis-1.0.1-r2 ) mad? ( virtual/pkgconfig ) >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back
+DESCRIPTION=Free software and romantic music player for GNUstep
+EAPI=5
+HOMEPAGE=http://gap.nongnu.org/cynthiune/
+IUSE=alsa ao flac mad modplug musepack oss timidity vorbis debug doc
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/audiofile media-libs/taglib alsa? ( media-libs/alsa-lib ) ao? ( media-libs/libao ) flac? ( media-libs/flac ) mad? ( media-libs/libid3tag media-libs/libmad ) musepack? ( >=media-sound/musepack-tools-444 ) modplug? ( media-libs/libmodplug ) timidity? ( media-sound/timidity++ ) vorbis? ( >=media-libs/libogg-1.1.2 >=media-libs/libvorbis-1.0.1-r2 ) >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back debug? ( !<sys-devel/gdb-6.0 )
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/gap/Cynthiune-1.0.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnustep-2	5c8ef29c1d72267699559746ef1c0096	gnustep-base	94ae60344fbcafb38eebb75c0ad67909	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4d55e2cdbc1cd8b2b2bc3542663e8bfe

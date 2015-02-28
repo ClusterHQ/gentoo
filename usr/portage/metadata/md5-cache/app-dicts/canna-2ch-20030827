@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=canna? ( app-i18n/canna )
+DESCRIPTION=Japanese Canna dictionary for 2channelers
+HOMEPAGE=http://omaemona.sourceforge.net/packages/Canna/
+IUSE=canna
+KEYWORDS=alpha ~amd64 ppc ppc64 sparc x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=mirror://gentoo/canna-2ch-20030827.tar.gz
+_eclasses_=cannadic	c9aaf1d68e1882312c78ffcf8ab0e689	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7b669c66f97514192a154cdd51157c39

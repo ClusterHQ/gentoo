@@ -1,0 +1,196 @@
+temp patch: /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/temp/libtool-elt.patch
+
+Trying target-nm/2.4.2 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/configure
+Hunk #1 succeeded at 4635 (offset 1238 lines).
+patching file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/configure
+Hunk #1 succeeded at 4635 (offset 1238 lines).
+
+Trying install-sh/1.5.6 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/install-sh
+Hunk #1 FAILED at 240.
+1 out of 1 hunk FAILED
+
+Trying install-sh/1.5.4 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/install-sh
+Hunk #1 FAILED at 246.
+1 out of 1 hunk FAILED
+
+Trying install-sh/1.5 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/install-sh
+Hunk #1 FAILED at 192.
+1 out of 1 hunk FAILED
+
+Trying ltmain/1.5 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 1854.
+1 out of 1 hunk FAILED
+
+Trying portage/2.2 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 7410.
+Hunk #2 succeeded at 9372 with fuzz 2 (offset 1896 lines).
+1 out of 2 hunks FAILED
+
+Trying portage/1.5.10 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 3940.
+Hunk #2 FAILED at 3975.
+2 out of 2 hunks FAILED
+
+Trying portage/1.4.0 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 3940.
+Hunk #2 FAILED at 3975.
+2 out of 2 hunks FAILED
+
+Trying portage/1.3.3 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 3078.
+1 out of 1 hunk FAILED
+
+Trying portage/1.3.0c patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 3769.
+Hunk #2 FAILED at 3799.
+2 out of 2 hunks FAILED
+
+Trying portage/1.2.0 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 succeeded at 82 (offset 50 lines).
+patching file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 succeeded at 82 (offset 50 lines).
+
+Trying relink/1.4.3 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 745.
+Hunk #2 succeeded at 5402 (offset 4527 lines).
+Hunk #3 succeeded at 5539 (offset 4558 lines).
+Hunk #4 succeeded at 6911 with fuzz 1 (offset 5050 lines).
+Hunk #5 FAILED at 1880.
+Hunk #6 FAILED at 3842.
+Hunk #7 FAILED at 4143.
+4 out of 7 hunks FAILED
+
+Trying relink/1.4.2 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 754.
+Hunk #2 succeeded at 5402 (offset 4518 lines).
+Hunk #3 succeeded at 5539 (offset 4549 lines).
+Hunk #4 succeeded at 6806 with fuzz 2 (offset 4930 lines).
+Hunk #5 succeeded at 6941 (offset 5044 lines).
+Hunk #6 FAILED at 3879.
+Hunk #7 FAILED at 4180.
+3 out of 7 hunks FAILED
+
+Trying relink/1.4.1 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 827.
+Hunk #2 succeeded at 5402 (offset 4443 lines).
+Hunk #3 succeeded at 5539 (offset 4367 lines).
+Hunk #4 succeeded at 6911 with fuzz 1 (offset 4670 lines).
+Hunk #5 FAILED at 2260.
+Hunk #6 FAILED at 4340.
+Hunk #7 FAILED at 4641.
+Hunk #8 FAILED at 4801.
+5 out of 8 hunks FAILED
+
+Trying relink/1.4.0a-GCC3.0-2 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 754.
+Hunk #2 succeeded at 5402 (offset 4518 lines).
+Hunk #3 succeeded at 5539 (offset 4549 lines).
+Hunk #4 succeeded at 6806 with fuzz 2 (offset 4930 lines).
+Hunk #5 FAILED at 1897.
+Hunk #6 FAILED at 3867.
+Hunk #7 FAILED at 4168.
+4 out of 7 hunks FAILED
+
+Trying relink/1.4.0a-GCC3.0-1 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 754.
+Hunk #2 succeeded at 5402 (offset 4518 lines).
+Hunk #3 succeeded at 5539 (offset 4549 lines).
+Hunk #4 succeeded at 6806 with fuzz 2 (offset 4930 lines).
+Hunk #5 succeeded at 6941 (offset 5044 lines).
+Hunk #6 FAILED at 3879.
+Hunk #7 FAILED at 4180.
+3 out of 7 hunks FAILED
+
+Trying relink/1.4.0a patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 754.
+Hunk #2 succeeded at 5402 (offset 4518 lines).
+Hunk #3 succeeded at 5539 (offset 4549 lines).
+Hunk #4 succeeded at 6806 with fuzz 2 (offset 4930 lines).
+Hunk #5 succeeded at 6941 (offset 5044 lines).
+Hunk #6 FAILED at 3879.
+Hunk #7 FAILED at 4180.
+3 out of 7 hunks FAILED
+
+Trying max_cmd_len/1.5.20 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 136.
+1 out of 1 hunk FAILED
+
+Trying max_cmd_len/1.5.14 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 136.
+1 out of 1 hunk FAILED
+
+Trying max_cmd_len/1.5.0 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 117.
+1 out of 1 hunk FAILED
+
+Trying sed/1.5.6 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 succeeded at 2511 with fuzz 2 (offset 2472 lines).
+patching file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 succeeded at 2511 with fuzz 2 (offset 2472 lines).
+
+Trying test/1.4.2 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] 
+Skipping patch.
+58 out of 58 hunks ignored
+
+Trying test/1.4.0 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] 
+Skipping patch.
+28 out of 28 hunks ignored
+
+Trying tmp/1.3.5 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 3462.
+1 out of 1 hunk FAILED
+
+Trying as-needed/2.4.2 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 succeeded at 5805 (offset 7 lines).
+Hunk #2 succeeded at 6170 (offset 7 lines).
+patching file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 succeeded at 5805 (offset 7 lines).
+Hunk #2 succeeded at 6170 (offset 7 lines).
+
+Trying target-nm/2.4.2 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 3397.
+1 out of 1 hunk FAILED
+
+Trying uclibc-conf/1.3.0c patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 1978.
+Hunk #2 FAILED at 3030.
+Hunk #3 FAILED at 4504.
+3 out of 3 hunks FAILED
+
+Trying uclibc-conf/1.2.0 patch
+checking file /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3/config/ltmain.sh
+Hunk #1 FAILED at 1978.
+Hunk #2 FAILED at 3030.
+Hunk #3 FAILED at 4504.
+3 out of 3 hunks FAILED

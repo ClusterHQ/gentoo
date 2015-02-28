@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare
+DEPEND=sys-libs/ncurses virtual/pkgconfig
+DESCRIPTION=MicroGnuEmacs, a port from the BSDs
+EAPI=4
+HOMEPAGE=http://homepage.boetes.org/software/mg/
+IUSE=livecd
+KEYWORDS=alpha amd64 hppa ppc ~ppc64 sparc x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~x86-macos
+LICENSE=public-domain ISC BSD
+RDEPEND=sys-libs/ncurses
+SLOT=0
+SRC_URI=http://homepage.boetes.org/software/mg/mg-20110905.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b796ad0b24e36b9e2c1289873f05bc47

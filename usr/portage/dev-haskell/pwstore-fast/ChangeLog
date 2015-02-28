@@ -1,0 +1,21 @@
+# ChangeLog for dev-haskell/pwstore-fast
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/pwstore-fast/ChangeLog,v 1.4 2014/07/25 09:16:13 slyfox Exp $
+
+  25 Jul 2014; Sergei Trofimovich <slyfox@gentoo.org> pwstore-fast-2.3.ebuild,
+  pwstore-fast-2.4.1.ebuild:
+  Drop trailing '.' from description.
+
+  25 Jul 2014; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml:
+  Drop redundant '<maintainer>' field, leave only '<herd>'.
+
+*pwstore-fast-2.4.1 (10 Dec 2013)
+
+  10 Dec 2013; Mark Wright <gienah@gentoo.org> +pwstore-fast-2.4.1.ebuild:
+  Bump pwstore-fast to 2.4.1
+
+*pwstore-fast-2.3 (26 Aug 2013)
+
+  26 Aug 2013; Alexander Vershilov <qnikst@gentoo.org> +metadata.xml,
+  +pwstore-fast-2.3.ebuild:
+  dev-haskell/pwstore-fast: initial layout

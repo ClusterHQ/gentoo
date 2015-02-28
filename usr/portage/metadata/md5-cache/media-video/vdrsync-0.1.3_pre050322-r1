@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=converting vdr-recordings to mpeg2, dvd or other similar formats
+HOMEPAGE=http://vdrsync.vdr-portal.de/
+IUSE=dvdr
+KEYWORDS=x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/perl-5.8.0 media-fonts/corefonts dvdr? ( >=media-libs/gd-2.0.15 >=dev-perl/GD-2.0.7 >=dev-perl/GDTextUtil-0.86 >=media-video/dvdauthor-0.6.8 )
+SLOT=0
+SRC_URI=http://vdrsync.vdr-portal.de/releases/vdrsync-050322.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=cf5041da408eb63d4fec67fa19961cb6

@@ -1,0 +1,6 @@
+/home/core/gentoo/usr/sbin/tcpdmatch libwrap.so.0,libc.so.6
+/home/core/gentoo/usr/sbin/tcpd libwrap.so.0,libc.so.6
+/home/core/gentoo/usr/sbin/tcpdchk libwrap.so.0,libc.so.6
+/home/core/gentoo/usr/sbin/try-from libwrap.so.0,libc.so.6
+/home/core/gentoo/usr/sbin/safe_finger libc.so.6
+/home/core/gentoo/usr/lib/libwrap.so.0.7.6 libc.so.6

@@ -1,0 +1,24 @@
+# ChangeLog for dev-ruby/sanitize
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/sanitize/ChangeLog,v 1.4 2014/04/24 16:46:32 mrueg Exp $
+
+  24 Apr 2014; Manuel Rüger <mrueg@gentoo.org> sanitize-2.0.6-r1.ebuild:
+  Remove ruby18 support.
+
+*sanitize-2.1.0 (28 Mar 2014)
+
+  28 Mar 2014; Hans de Graaff <graaff@gentoo.org> +sanitize-2.1.0.ebuild:
+  Version bump.
+
+*sanitize-2.0.6-r1 (26 Mar 2014)
+
+  26 Mar 2014; Hans de Graaff <graaff@gentoo.org> -sanitize-2.0.6.ebuild,
+  +sanitize-2.0.6-r1.ebuild:
+  Install a proper gemspec file. Add ruby21.
+
+*sanitize-2.0.6 (22 Nov 2013)
+
+  22 Nov 2013; Manuel Rüger <mrueg@gentoo.org> +metadata.xml,
+  +sanitize-2.0.6.ebuild:
+  Initial ebuild by Tiziano Müller (dev-zero). Taken from his overlay. Added
+  minor changes.

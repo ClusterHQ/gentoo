@@ -1,0 +1,43 @@
+# ChangeLog for dev-python/xmltodict
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/xmltodict/ChangeLog,v 1.9 2014/04/25 05:09:43 radhermit Exp $
+
+*xmltodict-0.9.0 (25 Apr 2014)
+
+  25 Apr 2014; Tim Harder <radhermit@gentoo.org> +xmltodict-0.9.0.ebuild:
+  Version bump.
+
+  16 Apr 2014; Ian Delaney <idella4@gentoo.org> xmltodict-0.8.7.ebuild:
+  add pypy support
+
+*xmltodict-0.8.7 (02 Apr 2014)
+
+  02 Apr 2014; Tim Harder <radhermit@gentoo.org> +xmltodict-0.8.7.ebuild:
+  Version bump, add python3_4 support.
+
+  21 Jan 2014; Patrick Lauer <patrick@gentoo.org> -xmltodict-0.7.0.ebuild:
+  Remove old
+
+  29 Oct 2013; Tim Harder <radhermit@gentoo.org> -xmltodict-0.8.1.ebuild,
+  xmltodict-0.8.3.ebuild:
+  Fix setuptools sandbox issue (bug #489726) and remove old.
+
+*xmltodict-0.8.3 (28 Oct 2013)
+
+  28 Oct 2013; Patrick Lauer <patrick@gentoo.org> +xmltodict-0.8.3.ebuild:
+  Bump
+
+*xmltodict-0.8.1 (21 Oct 2013)
+
+  21 Oct 2013; Patrick Lauer <patrick@gentoo.org> +xmltodict-0.8.1.ebuild:
+  Bump
+
+  04 Oct 2013; Tim Harder <radhermit@gentoo.org> xmltodict-0.7.0.ebuild,
+  metadata.xml:
+  Add pypi site to HOMEPAGE and upstream metadata.
+
+*xmltodict-0.7.0 (04 Oct 2013)
+
+  04 Oct 2013; Tim Harder <radhermit@gentoo.org> +xmltodict-0.7.0.ebuild,
+  +metadata.xml:
+  Initial import.

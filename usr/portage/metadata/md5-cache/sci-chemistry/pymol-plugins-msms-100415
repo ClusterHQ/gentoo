@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm prepare unpack
+DEPEND=sci-chemistry/msms-bin sci-chemistry/pymol =dev-lang/python-2*
+DESCRIPTION=GUI for MSMS and displaying its results in PyMOL
+EAPI=3
+HOMEPAGE=http://www.biotec.tu-dresden.de/~hongboz/msms_pymol/msms_pymol.html
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=BSD pymol
+RDEPEND=sci-chemistry/msms-bin sci-chemistry/pymol =dev-lang/python-2*
+SLOT=0
+SRC_URI=http://www.biotec.tu-dresden.de/~hongboz/msms_pymol/pymol_script/msms_pymol.py -> pymol-plugins-msms-100415.py
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=de7ec893dc677cd451035435afc4a631

@@ -1,0 +1,7 @@
+sys-libs/glibc ~*
+virtual/modutils amd64
+virtual/linux-sources amd64
+sys-kernel/spl ~amd64
+sys-fs/zfs-kmod ~amd64
+sys-fs/zfs ~amd64
+sys-apps/kmod amd64

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst prepare setup
+DEPEND=>=app-admin/gkrellm-2[X] net-misc/curl =app-admin/gkrellm-2* virtual/pkgconfig
+DESCRIPTION=A gkrellm plugin to control the MPD (Music Player Daemon)
+EAPI=2
+HOMEPAGE=http://mpd.wikicities.com/wiki/Client:GKrellMPC
+IUSE=threads
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=app-admin/gkrellm-2[X] net-misc/curl =app-admin/gkrellm-2*
+RESTRICT=test
+SLOT=0
+SRC_URI=http://www.topfx.com/dist/gkrellmpc-0.1_beta9.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	gkrellm-plugin	4599c73f33aed9a9988a7031f60d2ed8	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=5a4c7524a31d809e5cdeb018e1bb277d

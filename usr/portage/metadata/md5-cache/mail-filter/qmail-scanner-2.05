@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=dev-lang/perl virtual/perl-Time-HiRes net-mail/tnef virtual/perl-DB_File mail-filter/maildrop virtual/qmail app-arch/unzip virtual/daemontools clamav? ( app-antivirus/clamav ) spamassassin? ( mail-filter/spamassassin ) >=sys-apps/sed-4
+DESCRIPTION=E-Mail virus scanner for qmail
+HOMEPAGE=http://qmail-scanner.sourceforge.net/
+IUSE=clamav spamassassin
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl virtual/perl-Time-HiRes net-mail/tnef virtual/perl-DB_File mail-filter/maildrop virtual/qmail app-arch/unzip virtual/daemontools clamav? ( app-antivirus/clamav ) spamassassin? ( mail-filter/spamassassin )
+RESTRICT=userpriv
+SLOT=0
+SRC_URI=mirror://sourceforge/qmail-scanner/qmail-scanner-2.05.tgz http://toribio.apollinare.org/qmail-scanner/download/q-s-2.05st-20080728.patch.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fixheadtails	c6fd1fc49c9dc11924f28a1406f251a0	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=440dc42edaabe6f5f57839483d1fe793

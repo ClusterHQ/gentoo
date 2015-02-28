@@ -1,0 +1,88 @@
+# ChangeLog for games-emulation/dolphin
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/games-emulation/dolphin/ChangeLog,v 1.21 2014/06/30 05:39:48 twitch153 Exp $
+
+  30 Jun 2014; Devan Franchini <twitch153@gentoo.org> dolphin-9999.ebuild:
+  Adds wxGTK3.0 version dependency, bug #515688
+
+*dolphin-4.0.2 (04 May 2014)
+
+  04 May 2014; Devan Franchini <twitch153@gentoo.org> +dolphin-4.0.2.ebuild:
+  Version bump to 4.0.2
+
+  19 Mar 2014; Devan Franchini <twitch153@gentoo.org> dolphin-9999.ebuild:
+  Adds gtest to saved External directories.
+
+  18 Mar 2014; Devan Franchini <twitch153@gentoo.org> dolphin-4.0.ebuild:
+  Removes unnecessary S variable, bug #504964
+
+  17 Feb 2014; Devan Franchini <twitch153@gentoo.org> dolphin-3.5.ebuild,
+  dolphin-4.0.ebuild:
+  Changes SRC_URI to appropriate location, adds mirror restriction for 4.0
+
+  07 Feb 2014; Devan Franchini <twitch153@gentoo.org> dolphin-9999.ebuild:
+  Updates REPO_URI and alters Readme.txt to proper Readme.md file
+
+  25 Jan 2014; Devan Franchini <twitch153@gentoo.org> dolphin-9999.ebuild:
+  Saves external GL folder from removal
+
+  24 Jan 2014; Devan Franchini <twitch153@gentoo.org> dolphin-9999.ebuild:
+  Removes deletion of CLRun dir, and updates dependency for glew
+
+  17 Nov 2013; Devan Franchini <twitch153@gentoo.org> dolphin-3.5.ebuild,
+  dolphin-4.0.ebuild, dolphin-9999.ebuild:
+  Adds explicit call of cmake-utils_src_compile to move the building to compile
+  phase
+
+  17 Nov 2013; Devan Franchini <twitch153@gentoo.org> dolphin-3.5.ebuild,
+  dolphin-4.0.ebuild, dolphin-9999.ebuild:
+  Alters homepage to show correct address, bug #490082
+
+*dolphin-4.0 (26 Sep 2013)
+
+  26 Sep 2013; Devan Franchini <twitch153@gentoo.org> +dolphin-4.0.ebuild:
+  Version bump to 4.0, bug #486052
+
+  08 Sep 2013; Devan Franchini <twitch153@gentoo.org> dolphin-9999.ebuild:
+  Preserves bundled polarssl lib, bug #483794
+
+  01 Sep 2013; Patrick Lauer <patrick@gentoo.org> dolphin-3.5.ebuild:
+  Whitespace
+
+  01 Sep 2013; Devan Franchini <twitch153@gentoo.org> dolphin-3.5.ebuild:
+  Replaces has_version checking of gcc version for more suited use of the gcc-
+  version command to check the current gcc version being used to compile the
+  program
+
+  31 Aug 2013; Devan Franchini <twitch153@gentoo.org> dolphin-3.5.ebuild:
+  dolphin-3.5.ebuild: Added check to apply gcc-4.8.patch to all variants of gcc
+  4.8.*
+
+  27 Aug 2013; Devan Franchini <twitch153@gentoo.org> dolphin-9999.ebuild:
+  dolphin-9999.ebuild: Adds check for merge type to prevent unnecessary checking
+  of gcc-version when emerging as a binary package
+
+  27 Aug 2013; Devan Franchini <twitch153@gentoo.org> dolphin-3.5.ebuild:
+  dolphin-3.5.ebuild: Adds check for binary package to prevent unnecessary
+  checking of gcc-version
+
+  26 Aug 2013; Devan Franchini <twitch153@gentoo.org> dolphin-3.5.ebuild,
+  dolphin-9999.ebuild:
+  Removes repetition of package name in description
+
+  26 Aug 2013; Devan Franchini <twitch153@gentoo.org> dolphin-3.5.ebuild,
+  dolphin-9999.ebuild:
+  Replaces doins command with dodoc command.
+
+  26 Aug 2013; Devan Franchini <twitch153@gentoo.org> dolphin-3.5.ebuild,
+  dolphin-9999.ebuild:
+  Added pkg_pretend() function to check for gcc version instead of src_prepare()
+  in both ebuilds; also fixes keywording issues in 9999 ebuild
+
+*dolphin-9999 (26 Aug 2013)
+*dolphin-3.5 (26 Aug 2013)
+
+  26 Aug 2013; twitch153 +dolphin-3.5.ebuild, +dolphin-9999.ebuild,
+  +files/dolphin-emu-3.5-gcc-4.8.patch, +metadata.xml:
+  New ebuild and live ebuild for dolphin emulator. Written by myself. Fixes bug
+  #281543

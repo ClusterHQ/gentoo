@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=~dev-lang/mercury-13.05.2 cairo? ( >=x11-libs/cairo-1.10.0 ) glut? ( media-libs/freeglut ) odbc? ( dev-db/unixODBC ) iodbc? ( !odbc? ( dev-db/libiodbc ) ) ncurses? ( sys-libs/ncurses ) opengl? ( virtual/opengl ) tcl? ( tk? ( dev-lang/tcl dev-lang/tk x11-libs/libX11 x11-libs/libXmu ) )
+DESCRIPTION=Additional libraries and tools that are not part of the Mercury standard library
+EAPI=2
+HOMEPAGE=http://www.mercurylang.org/index.html
+IUSE=X cairo examples glut iodbc ncurses odbc opengl ssl tcl tk xml
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 LGPL-2
+RDEPEND=~dev-lang/mercury-13.05.2 cairo? ( >=x11-libs/cairo-1.10.0 ) glut? ( media-libs/freeglut ) odbc? ( dev-db/unixODBC ) iodbc? ( !odbc? ( dev-db/libiodbc ) ) ncurses? ( sys-libs/ncurses ) opengl? ( virtual/opengl ) tcl? ( tk? ( dev-lang/tcl dev-lang/tk x11-libs/libX11 x11-libs/libXmu ) )
+SLOT=0
+SRC_URI=http://dl.mercurylang.org/release/mercury-srcdist-13.05.2.tar.gz mirror://gentoo/mercury-extras-13.05.2-gentoo-patchset-0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c1fdd07f078b6676b7ec3a5d5380aeee

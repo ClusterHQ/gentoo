@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare setup
+DEPEND=!app-pda/synce-connector >=dev-libs/dbus-glib-0.100 >=dev-libs/glib-2.28 !dev-libs/librapi2 !dev-libs/libsynce net-dialup/ppp sys-apps/net-tools virtual/libgudev virtual/udev python? ( >=dev-python/pyrex-0.9.6 dev-python/python-gudev ) virtual/pkgconfig python? ( =dev-lang/python-2.7* )
+DESCRIPTION=Base libraries, including RAPI protocol, tools and dccm daemon
+EAPI=4
+HOMEPAGE=http://sourceforge.net/projects/synce/
+IUSE=python static-libs
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=!app-pda/synce-connector >=dev-libs/dbus-glib-0.100 >=dev-libs/glib-2.28 !dev-libs/librapi2 !dev-libs/libsynce net-dialup/ppp sys-apps/net-tools virtual/libgudev virtual/udev python? ( >=dev-python/pyrex-0.9.6 dev-python/python-gudev ) python? ( =dev-lang/python-2.7* )
+SLOT=0
+SRC_URI=mirror://sourceforge/synce/synce-core-0.16.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=44a11c4a9018c53858b59767016a58a3

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=dev-libs/glib-2.6.5:2 alsa? ( media-libs/alsa-lib lash? ( >=media-sound/lash-0.5 ) ) dbus? ( >=sys-apps/dbus-1.0.0 ) jack? ( media-sound/jack-audio-connection-kit ) ladspa? ( >=media-libs/ladspa-sdk-1.12 >=media-libs/ladspa-cmt-1.15 ) pulseaudio? ( >=media-sound/pulseaudio-0.9.8 ) portaudio? ( >=media-libs/portaudio-19_pre ) readline? ( sys-libs/readline ) sndfile? ( >=media-libs/libsndfile-1.0.18 ) virtual/pkgconfig sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Fluidsynth is a software real-time synthesizer based on the Soundfont 2 specifications
+EAPI=4
+HOMEPAGE=http://www.fluidsynth.org/
+IUSE=alsa dbus debug examples jack ladspa lash portaudio pulseaudio readline sndfile
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=LGPL-2
+RDEPEND=>=dev-libs/glib-2.6.5:2 alsa? ( media-libs/alsa-lib lash? ( >=media-sound/lash-0.5 ) ) dbus? ( >=sys-apps/dbus-1.0.0 ) jack? ( media-sound/jack-audio-connection-kit ) ladspa? ( >=media-libs/ladspa-sdk-1.12 >=media-libs/ladspa-cmt-1.15 ) pulseaudio? ( >=media-sound/pulseaudio-0.9.8 ) portaudio? ( >=media-libs/portaudio-19_pre ) readline? ( sys-libs/readline ) sndfile? ( >=media-libs/libsndfile-1.0.18 )
+SLOT=0
+SRC_URI=mirror://sourceforge/fluidsynth/fluidsynth-1.1.6.tar.gz
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=1d7328fd6f80e8c7dd28dd29f283bc55

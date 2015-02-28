@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=sys-apps/groff
+DESCRIPTION=A simple Network Time Protocol (NTP) client
+EAPI=4
+HOMEPAGE=http://cr.yp.to/clockspeed.html
+IUSE=static selinux
+KEYWORDS=amd64 ~mips x86
+LICENSE=all-rights-reserved
+RDEPEND=selinux? ( sec-policy/selinux-clockspeed ) net-dns/djbdns
+RESTRICT=mirror bindist test
+SLOT=0
+SRC_URI=http://cr.yp.to/clockspeed/clockspeed-0.62.tar.gz http://dev.gentoo.org/~pacho/maintainer-needed/leapsecs.dat.20081114
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=2f34f1e19f9b73f24f2e97b0782603c1

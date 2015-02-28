@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst prepare
+DEPEND=caps? ( sys-libs/libcap ) charconv? ( virtual/libiconv ) ldap? ( >=net-nds/openldap-2.0.25 ) mysql? ( virtual/mysql ) pam? ( virtual/pam ) postgres? ( dev-db/postgresql-base ) ssl? ( >=dev-libs/openssl-0.9.6g ) xinetd? ( virtual/inetd )
+DESCRIPTION=Fast, production-quality, standard-conformant FTP server
+EAPI=2
+HOMEPAGE=http://www.pureftpd.org/
+IUSE=anondel anonperm anonren anonres caps charconv ldap mysql noiplog pam paranoidmsg postgres selinux ssl vchroot xinetd
+KEYWORDS=~x86-fbsd
+LICENSE=BSD
+RDEPEND=caps? ( sys-libs/libcap ) charconv? ( virtual/libiconv ) ldap? ( >=net-nds/openldap-2.0.25 ) mysql? ( virtual/mysql ) pam? ( virtual/pam ) postgres? ( dev-db/postgresql-base ) ssl? ( >=dev-libs/openssl-0.9.6g ) xinetd? ( virtual/inetd ) net-ftp/ftpbase selinux? ( sec-policy/selinux-ftp )
+SLOT=0
+SRC_URI=ftp://ftp.pureftpd.org/pub/pure-ftpd/releases/pure-ftpd-1.0.29.tar.bz2
+_eclasses_=confutils	2ab69b52fa6ea0c0669a47fb94b354b4	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b57a80632b3a71970d9733429f428d7a

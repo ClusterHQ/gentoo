@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=>=net-analyzer/nagios-plugins-1.4.13-r1
+DESCRIPTION=A nagios plugin for checking logfiles
+HOMEPAGE=http://www.consol.com/opensource/nagios/check-logfiles
+KEYWORDS=~alpha amd64 ~ppc ppc64 ~sparc x86
+LICENSE=GPL-3
+RDEPEND=>=net-analyzer/nagios-plugins-1.4.13-r1
+SLOT=0
+SRC_URI=http://www.consol.com/fileadmin/opensource/Nagios/check_logfiles-2.3.2.1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=a7ff5f394059e134e55216331d4c3cd1

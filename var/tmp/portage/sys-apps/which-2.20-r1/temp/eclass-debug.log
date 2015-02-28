@@ -1,0 +1,24 @@
+  eclass exists: /home/core/gentoo/usr/portage/eclass/flag-o-matic.eclass
+inherit: flag-o-matic -> /home/core/gentoo/usr/portage/eclass/flag-o-matic.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+*** Multiple Inheritence (Level: 5)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/prefix.eclass
+inherit: prefix -> /home/core/gentoo/usr/portage/eclass/prefix.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass

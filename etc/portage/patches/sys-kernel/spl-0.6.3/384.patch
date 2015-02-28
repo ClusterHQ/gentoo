@@ -1,0 +1,175 @@
+From 77f75f67b3a73ae4dde08c9d3ca5207a769b3efd Mon Sep 17 00:00:00 2001
+From: Richard Yao <richard.yao@clusterhq.com>
+Date: Fri, 29 Aug 2014 11:12:47 -0400
+Subject: [PATCH] Kernel header installation should respect --prefix
+
+This is the upstream component of work that enables preliminary support
+for building Gentoo's ZFS packaging on other Linux systems via Gentoo
+Prefix.
+
+Signed-off-by: Richard Yao <richard.yao@clusterhq.com>
+---
+ Makefile.am                      | 4 ++--
+ include/Makefile.am              | 2 +-
+ include/fs/Makefile.am           | 2 +-
+ include/linux/Makefile.am        | 2 +-
+ include/rpc/Makefile.am          | 2 +-
+ include/sharefs/Makefile.am      | 2 +-
+ include/sys/Makefile.am          | 2 +-
+ include/sys/fm/Makefile.am       | 2 +-
+ include/sys/fs/Makefile.am       | 2 +-
+ include/sys/sysevent/Makefile.am | 2 +-
+ include/util/Makefile.am         | 2 +-
+ include/vm/Makefile.am           | 2 +-
+ 12 files changed, 13 insertions(+), 13 deletions(-)
+
+diff --git a/Makefile.am b/Makefile.am
+index 23dc257..89af931 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -12,10 +12,10 @@ endif
+ if CONFIG_KERNEL
+ SUBDIRS += module
+ 
+-extradir = /usr/src/spl-$(VERSION)
++extradir = @prefix@/src/spl-$(VERSION)
+ extra_HEADERS = spl.release.in spl_config.h.in
+ 
+-kerneldir = /usr/src/spl-$(VERSION)/$(LINUX_VERSION)
++kerneldir = @prefix@/src/spl-$(VERSION)/$(LINUX_VERSION)
+ nodist_kernel_HEADERS = spl.release spl_config.h module/$(LINUX_SYMBOLS)
+ endif
+ 
+diff --git a/include/Makefile.am b/include/Makefile.am
+index 463bea1..4b55ce1 100644
+--- a/include/Makefile.am
++++ b/include/Makefile.am
+@@ -16,6 +16,6 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include
++kerneldir = @prefix@/src/spl-$(VERSION)/include
+ kernel_HEADERS = $(KERNEL_H)
+ endif
+diff --git a/include/fs/Makefile.am b/include/fs/Makefile.am
+index 530172d..e0da4b3 100644
+--- a/include/fs/Makefile.am
++++ b/include/fs/Makefile.am
+@@ -8,6 +8,6 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include/fs
++kerneldir = @prefix@/src/spl-$(VERSION)/include/fs
+ kernel_HEADERS = $(KERNEL_H)
+ endif
+diff --git a/include/linux/Makefile.am b/include/linux/Makefile.am
+index 59f2ec5..c4da11c 100644
+--- a/include/linux/Makefile.am
++++ b/include/linux/Makefile.am
+@@ -24,6 +24,6 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include/linux
++kerneldir = @prefix@/src/spl-$(VERSION)/include/linux
+ kernel_HEADERS = $(KERNEL_H)
+ endif
+diff --git a/include/rpc/Makefile.am b/include/rpc/Makefile.am
+index 2f8aa29..cfc8246 100644
+--- a/include/rpc/Makefile.am
++++ b/include/rpc/Makefile.am
+@@ -9,6 +9,6 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include/rpc
++kerneldir = @prefix@/src/spl-$(VERSION)/include/rpc
+ kernel_HEADERS = $(KERNEL_H)
+ endif
+diff --git a/include/sharefs/Makefile.am b/include/sharefs/Makefile.am
+index d6175a5..10e7093 100644
+--- a/include/sharefs/Makefile.am
++++ b/include/sharefs/Makefile.am
+@@ -8,6 +8,6 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include/sharefs
++kerneldir = @prefix@/src/spl-$(VERSION)/include/sharefs
+ kernel_HEADERS = $(KERNEL_H)
+ endif
+diff --git a/include/sys/Makefile.am b/include/sys/Makefile.am
+index 9d82636..f74116f 100644
+--- a/include/sys/Makefile.am
++++ b/include/sys/Makefile.am
+@@ -105,7 +105,7 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include/sys
++kerneldir = @prefix@/src/spl-$(VERSION)/include/sys
+ kernel_HEADERS = $(KERNEL_H)
+ endif
+ 
+diff --git a/include/sys/fm/Makefile.am b/include/sys/fm/Makefile.am
+index 1c9cf84..2821cbe 100644
+--- a/include/sys/fm/Makefile.am
++++ b/include/sys/fm/Makefile.am
+@@ -9,6 +9,6 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include/sys/fm
++kerneldir = @prefix@/src/spl-$(VERSION)/include/sys/fm
+ kernel_HEADERS = $(KERNEL_H)
+ endif
+diff --git a/include/sys/fs/Makefile.am b/include/sys/fs/Makefile.am
+index 27ae109..581083e 100644
+--- a/include/sys/fs/Makefile.am
++++ b/include/sys/fs/Makefile.am
+@@ -8,6 +8,6 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include/sys/fs
++kerneldir = @prefix@/src/spl-$(VERSION)/include/sys/fs
+ kernel_HEADERS = $(KERNEL_H)
+ endif
+diff --git a/include/sys/sysevent/Makefile.am b/include/sys/sysevent/Makefile.am
+index bf395eb..63d9af3 100644
+--- a/include/sys/sysevent/Makefile.am
++++ b/include/sys/sysevent/Makefile.am
+@@ -8,6 +8,6 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include/sys/sysevent
++kerneldir = @prefix@/src/spl-$(VERSION)/include/sys/sysevent
+ kernel_HEADERS = $(KERNEL_H)
+ endif
+diff --git a/include/util/Makefile.am b/include/util/Makefile.am
+index 5ac96e8..b721b50 100644
+--- a/include/util/Makefile.am
++++ b/include/util/Makefile.am
+@@ -9,6 +9,6 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include/util
++kerneldir = @prefix@/src/spl-$(VERSION)/include/util
+ kernel_HEADERS = $(KERNEL_H)
+ endif
+diff --git a/include/vm/Makefile.am b/include/vm/Makefile.am
+index 413a6e3..7faab0a 100644
+--- a/include/vm/Makefile.am
++++ b/include/vm/Makefile.am
+@@ -10,6 +10,6 @@ USER_H =
+ EXTRA_DIST = $(COMMON_H) $(KERNEL_H) $(USER_H)
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/spl-$(VERSION)/include/vm
++kerneldir = @prefix@/src/spl-$(VERSION)/include/vm
+ kernel_HEADERS = $(KERNEL_H)
+ endif

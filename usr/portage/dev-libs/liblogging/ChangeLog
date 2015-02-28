@@ -1,0 +1,18 @@
+# ChangeLog for dev-libs/liblogging
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/liblogging/ChangeLog,v 1.3 2014/08/10 20:36:02 slyfox Exp $
+
+  10 Aug 2014; Sergei Trofimovich <slyfox@gentoo.org> liblogging-1.0.2.ebuild,
+  liblogging-1.0.4.ebuild:
+  QA: drop trailing '.' from DESCRIPTION
+
+*liblogging-1.0.4 (04 May 2014)
+
+  04 May 2014; Ultrabug <ultrabug@gentoo.org> +liblogging-1.0.4.ebuild:
+  version bump fix #508224 thx to clabbe.montjoie and Thomas D.
+
+*liblogging-1.0.2 (10 Mar 2014)
+
+  10 Mar 2014; Ultrabug <ultrabug@gentoo.org> +liblogging-1.0.2.ebuild,
+  +metadata.xml:
+  initial ebuild wrt #501976 thanks to Thomas D.

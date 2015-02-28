@@ -1,0 +1,60 @@
+# ChangeLog for www-client/phantomjs
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/www-client/phantomjs/ChangeLog,v 1.14 2014/07/28 05:19:15 vapier Exp $
+
+  28 Jul 2014; Mike Frysinger <vapier@gentoo.org> metadata.xml:
+  Drop myself as maintainer.
+
+  04 Mar 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  phantomjs-1.9.7.ebuild:
+  Add subslot dependency on dev-libs/icu
+
+  13 Feb 2014; Jason A. Donenfeld <zx2c4@gentoo.org> metadata.xml:
+  I do not maintain this package any longer.
+
+*phantomjs-1.9.7 (13 Feb 2014)
+
+  13 Feb 2014; Jason A. Donenfeld <zx2c4@gentoo.org> +phantomjs-1.9.7.ebuild,
+  -phantomjs-1.9.0.ebuild:
+  Version bump.
+
+  25 Sep 2013; Tim Harder <radhermit@gentoo.org> phantomjs-1.9.0.ebuild:
+  Add unzip build dep (bug #485970).
+
+  29 Apr 2013; Mike Frysinger <vapier@gentoo.org> phantomjs-1.9.0.ebuild:
+  Clean up random problems (but does not fix them all -- see #409991).
+
+  25 Apr 2013; Jason A. Donenfeld <zx2c4@gentoo.org> phantomjs-1.9.0.ebuild:
+  Respect CFLAGS.
+
+  25 Apr 2013; Jason A. Donenfeld <zx2c4@gentoo.org> phantomjs-1.9.0.ebuild:
+  Needs icu.
+
+*phantomjs-1.9.0 (25 Apr 2013)
+
+  25 Apr 2013; Jason A. Donenfeld <zx2c4@gentoo.org> +phantomjs-1.9.0.ebuild,
+  metadata.xml:
+  Bumping verison to 1.9.0. We're relying on the internal static build of qt
+  now, since they've patched themselves too far away from upstream.
+
+  02 Mar 2013; Markos Chandras <hwoarang@gentoo.org> phantomjs-1.3.0.ebuild,
+  phantomjs-1.4.1.ebuild:
+  Move Qt dependencies to the new category
+
+  19 Jul 2012; Michael Palimaka <kensington@gentoo.org> phantomjs-1.3.0.ebuild,
+  phantomjs-1.4.1.ebuild:
+  Add missing slot dependencies on Qt.
+
+*phantomjs-1.4.1 (17 Jan 2012)
+
+  17 Jan 2012; Mike Frysinger <vapier@gentoo.org> +phantomjs-1.4.1.ebuild:
+  Version bump.
+
+  01 Dec 2011; Mike Frysinger <vapier@gentoo.org> phantomjs-1.3.0.ebuild:
+  Install examples with USE=examples as pointed out by Tim Harder.
+
+*phantomjs-1.3.0 (27 Nov 2011)
+
+  27 Nov 2011; Mike Frysinger <vapier@gentoo.org> +phantomjs-1.3.0.ebuild,
+  +metadata.xml:
+  Initial ebuild by me.

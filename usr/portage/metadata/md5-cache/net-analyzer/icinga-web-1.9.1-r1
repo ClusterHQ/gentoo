@@ -1,0 +1,13 @@
+DEFINED_PHASES=config configure install postinst prepare setup
+DEPEND=dev-php/phing dev-lang/php[apache2?,cli,json,mysql?,pdo,postgres?,sockets,xslt,xml] pnp? ( net-analyzer/pnp4nagios ) apache2? ( =www-servers/apache-2* )
+DESCRIPTION=Icinga Web - new Web Interface
+EAPI=5
+HOMEPAGE=http://www.icinga.org/
+IUSE=apache2 mysql pnp postgres apache2
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=dev-php/phing dev-lang/php[apache2?,cli,json,mysql?,pdo,postgres?,sockets,xslt,xml] pnp? ( net-analyzer/pnp4nagios ) apache2? ( =www-servers/apache-2* )
+SLOT=0
+SRC_URI=mirror://sourceforge/icinga/icinga-web-1.9.1.tar.gz
+_eclasses_=depend.apache	41d01b539f56fa0a5269f3a8ce916981	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=c93ce3978201e3c3405e4807b09057bc

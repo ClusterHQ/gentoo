@@ -1,0 +1,15 @@
+/home/core/gentoo/usr/lib/libssl.so.1.0.0 libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/libcapi.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/lib4758cca.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/libgmp.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/libubsec.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/libgost.so libcrypto.so.1.0.0,libc.so.6
+/home/core/gentoo/usr/lib/engines/libatalla.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/libchil.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/libaep.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/libsureware.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/libpadlock.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/libcswift.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/engines/libnuron.so libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/lib/libcrypto.so.1.0.0 libdl.so.2,libz.so.1,libc.so.6
+/home/core/gentoo/usr/bin/openssl libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libz.so.1,libc.so.6

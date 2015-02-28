@@ -1,0 +1,40 @@
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/prefix.eclass
+inherit: prefix -> /home/core/gentoo/usr/portage/eclass/prefix.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib-minimal.eclass
+inherit: multilib-minimal -> /home/core/gentoo/usr/portage/eclass/multilib-minimal.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib-build.eclass
+inherit: multilib-build -> /home/core/gentoo/usr/portage/eclass/multilib-build.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multibuild.eclass
+inherit: multibuild -> /home/core/gentoo/usr/portage/eclass/multibuild.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+inherit: multiprocessing -> /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+EXPORT_FUNCTIONS: src_configure -> multilib-minimal_src_configure
+EXPORT_FUNCTIONS: src_compile -> multilib-minimal_src_compile
+EXPORT_FUNCTIONS: src_test -> multilib-minimal_src_test
+EXPORT_FUNCTIONS: src_install -> multilib-minimal_src_install
+  eclass exists: /home/core/gentoo/usr/portage/eclass/prefix.eclass
+inherit: prefix -> /home/core/gentoo/usr/portage/eclass/prefix.eclass

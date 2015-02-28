@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=games-util/loki_patch
+DESCRIPTION=Linux port of the popular strategy game from Firaxis
+EAPI=2
+HOMEPAGE=http://www.lokigames.com/products/smac/
+IUSE=+videos
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=LOKI-EULA
+PROPERTIES=interactive
+RDEPEND=sys-libs/glibc x11-libs/libX11 x11-libs/libXext x11-libs/libXau x11-libs/libXdmcp !ppc? ( sys-libs/lib-compat-loki ) media-libs/libsdl[sound,video] media-libs/sdl-ttf media-libs/sdl-mixer media-libs/smpeg media-libs/freetype sys-libs/zlib
+RESTRICT=strip
+SLOT=0
+SRC_URI=x86? ( mirror://lokigames/smac/smac-6.0a-x86.run ) amd64? ( mirror://lokigames/smac/smac-6.0a-x86.run ) ppc? ( http://mirrors.dotsrc.org/lokigames/installers/smac/smac-install-ppc.run )
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cdrom	49b4b952fb5c83fac6c616b532723e60	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=fbb81678704ac024c27a43b96a81eee5

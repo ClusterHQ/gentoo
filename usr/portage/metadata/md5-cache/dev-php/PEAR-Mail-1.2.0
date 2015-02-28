@@ -1,0 +1,11 @@
+DEFINED_PHASES=install setup
+DEPEND=dev-lang/php >=dev-php/pear-1.8.1
+DESCRIPTION=Class that provides multiple interfaces for sending emails
+HOMEPAGE=http://pear.php.net/Mail
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 ~s390 ~sh sparc x86
+LICENSE=PHP-2.02 BSD
+RDEPEND=>=dev-php/PEAR-Net_SMTP-1.4.1 dev-lang/php >=dev-php/pear-1.8.1
+SLOT=0
+SRC_URI=http://pear.php.net/get/Mail-1.2.0.tgz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	php-pear-r1	c984187b1bfa4f9c980f68a3682211d2	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=f74f04496a1e0f235c6cbbb9009268c8

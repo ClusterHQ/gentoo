@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-lang/perl dev-libs/openssl sys-libs/zlib
+DESCRIPTION=Network Console on Acid
+EAPI=2
+HOMEPAGE=http://www.xenoclast.org/nca/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD GPL-2
+RDEPEND=dev-libs/openssl sys-libs/zlib
+SLOT=0
+SRC_URI=http://www.xenoclast.org/nca/download/nca-0.9.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=f7b264b2bcd5e895ee46f25e7b61c70a

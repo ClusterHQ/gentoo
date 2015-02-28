@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEPEND=fuse? ( sys-fs/fuse ) perl? ( dev-lang/perl ) php? ( dev-lang/php ) tcl? ( dev-lang/tcl ) usb? ( virtual/libusb:0 ) zeroconf? ( net-dns/avahi[mdnsresponder-compat] ) perl? ( dev-lang/swig ) php? ( dev-lang/swig ) python? ( dev-lang/swig ) python? ( =dev-lang/python-2* ) dev-lang/perl:=[-build(-)] !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Access 1-Wire devices like a filesystem
+EAPI=5
+HOMEPAGE=http://www.owfs.org/ http://owfs.sourceforge.net/
+IUSE=debug fuse ftpd httpd parport perl php python server tcl usb zeroconf
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=GPL-2
+RDEPEND=fuse? ( sys-fs/fuse ) perl? ( dev-lang/perl ) php? ( dev-lang/php ) tcl? ( dev-lang/tcl ) usb? ( virtual/libusb:0 ) zeroconf? ( net-dns/avahi[mdnsresponder-compat] ) python? ( =dev-lang/python-2* ) dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://sourceforge/owfs/owfs-2.7p21.tar.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	depend.php	dcdf301e07578788ea73af6c2012b66b	distutils	34e0f373c466bb0e97ba194735f1acf2	eutils	06133990e861be0fe60c2b428fd025d9	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	a6a2d5c77bdaeba2794b167689cafb7a	phpconfutils	3b141a267018096231e10dfbd1657b81	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=fe2af6e0099fed4a58dd8fdf228f7e4b

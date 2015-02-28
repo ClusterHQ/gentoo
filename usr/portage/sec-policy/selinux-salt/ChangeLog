@@ -1,0 +1,15 @@
+# ChangeLog for sec-policy/selinux-salt
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sec-policy/selinux-salt/ChangeLog,v 1.2 2014/08/21 19:31:07 swift Exp $
+
+*selinux-salt-2.20140311-r6 (21 Aug 2014)
+
+  21 Aug 2014; Sven Vermeulen <swift@gentoo.org>
+  +selinux-salt-2.20140311-r6.ebuild:
+  Release of 2.20140311-r6
+
+*selinux-salt-9999 (15 Aug 2014)
+
+  15 Aug 2014; Sven Vermeulen <swift@gentoo.org> +metadata.xml,
+  +selinux-salt-9999.ebuild:
+  Adding SELinux salt policy to the repository

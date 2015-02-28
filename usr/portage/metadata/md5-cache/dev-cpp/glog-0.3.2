@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=gflags? ( dev-cpp/gflags ) unwind? ( sys-libs/libunwind ) test? ( dev-cpp/gmock dev-cpp/gtest )
+DESCRIPTION=Google's C++ logging library
+EAPI=4
+HOMEPAGE=http://code.google.com/p/google-glog/
+IUSE=gflags static-libs unwind test
+KEYWORDS=~amd64 ~arm ~x86 ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=gflags? ( dev-cpp/gflags ) unwind? ( sys-libs/libunwind )
+SLOT=0
+SRC_URI=http://google-glog.googlecode.com/files/glog-0.3.2.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=69b78623602d469fc33de68586eb62e9

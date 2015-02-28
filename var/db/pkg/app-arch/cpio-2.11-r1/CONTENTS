@@ -1,0 +1,81 @@
+dir /home/core/gentoo/bin
+obj /home/core/gentoo/bin/cpio 5ecfdd6da2233facbd58eaee300fdcd4 1410991414
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/cpio-2.11-r1
+obj /home/core/gentoo/usr/share/doc/cpio-2.11-r1/THANKS.bz2 2ebf987882f5c8d2af2e41e9a6b8c5b7 1410991414
+obj /home/core/gentoo/usr/share/doc/cpio-2.11-r1/TODO.bz2 7fd94be113d776119df020bd3bbaa726 1410991414
+obj /home/core/gentoo/usr/share/doc/cpio-2.11-r1/NEWS.bz2 b2228ae9920e5b34915da56ae9369669 1410991414
+obj /home/core/gentoo/usr/share/doc/cpio-2.11-r1/AUTHORS.bz2 de44be9fb77219859a663691e23cec1a 1410991414
+obj /home/core/gentoo/usr/share/doc/cpio-2.11-r1/ChangeLog.bz2 d1f5c6c0a8666896a880d19b7ae51682 1410991414
+obj /home/core/gentoo/usr/share/doc/cpio-2.11-r1/README.bz2 7422dd9f7fe500c7a13feed58eb4e295 1410991414
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/zh_TW
+dir /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES/cpio.mo 7dae754d844f5cd214cfe1af1ddff6fb 1410991414
+dir /home/core/gentoo/usr/share/locale/zh_CN
+dir /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES/cpio.mo 5847f5e44f796667592798f1088f6a8f 1410991414
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/cpio.mo b342d45d2c2acf6bfe69768465789a6b 1410991414
+dir /home/core/gentoo/usr/share/locale/uk
+dir /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES/cpio.mo 3ec5294d773de0a40ab14fbdd127cd4a 1410991414
+dir /home/core/gentoo/usr/share/locale/tr
+dir /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES/cpio.mo 30036407af680052fce2cf3f1f3670b4 1410991413
+dir /home/core/gentoo/usr/share/locale/sv
+dir /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES/cpio.mo 22154790978559bf34a186db04a6a41d 1410991413
+dir /home/core/gentoo/usr/share/locale/ru
+dir /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES/cpio.mo 56ac2eac708c5272335c48dbeed5391c 1410991413
+dir /home/core/gentoo/usr/share/locale/ro
+dir /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES/cpio.mo 80782312c65c109dd612a2162f9e3728 1410991413
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/cpio.mo 8f2f085372070823aa705e04e4004e00 1410991413
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/cpio.mo c03d1cb373b8e0064e320b287a985e96 1410991413
+dir /home/core/gentoo/usr/share/locale/nl
+dir /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES/cpio.mo 2312853133d0a1c47259862446e35108 1410991413
+dir /home/core/gentoo/usr/share/locale/ko
+dir /home/core/gentoo/usr/share/locale/ko/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ko/LC_MESSAGES/cpio.mo 1ce45d1cc3ddf202e5a8cb94089c6afb 1410991413
+dir /home/core/gentoo/usr/share/locale/id
+dir /home/core/gentoo/usr/share/locale/id/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/id/LC_MESSAGES/cpio.mo 58fce83bd9c0c36dbd306d98669acc5a 1410991413
+dir /home/core/gentoo/usr/share/locale/hu
+dir /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES/cpio.mo bebd5abbc12ff8d8b23de65a5f0ca655 1410991413
+dir /home/core/gentoo/usr/share/locale/gl
+dir /home/core/gentoo/usr/share/locale/gl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/gl/LC_MESSAGES/cpio.mo 2e02364c0002939f79a8f78a671c190e 1410991413
+dir /home/core/gentoo/usr/share/locale/ga
+dir /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES/cpio.mo 3e15c2ad0bf4cd400043d40273f035ef 1410991413
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/cpio.mo 6176b43e516d143ae192954dd23dac72 1410991413
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/cpio.mo 47c84b27d3df8ba675a5081b27926abf 1410991413
+dir /home/core/gentoo/usr/share/locale/es
+dir /home/core/gentoo/usr/share/locale/es/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/es/LC_MESSAGES/cpio.mo f0f1077e635039d3b5dae0c0fd30f6ef 1410991413
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/cpio.mo e70bf4aad229f9f5c491f525601631b7 1410991413
+dir /home/core/gentoo/usr/share/locale/da
+dir /home/core/gentoo/usr/share/locale/da/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/da/LC_MESSAGES/cpio.mo b8f158afab88a123ebaf249b5f31f4f2 1410991413
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/cpio.info.bz2 ff9a2766024b8f0c2b3eaa45dc98aced 1410991413
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/cpio.1.bz2 a491b67ebc50d0946ffe1d64cd1ac75f 1410991413

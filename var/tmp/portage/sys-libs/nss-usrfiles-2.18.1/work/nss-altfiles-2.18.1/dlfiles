@@ -1,0 +1,29 @@
+#! /bin/bash
+#
+# dlfiles
+# Copyright (C) 2013 Adrian Perez <aperez@igalia.com>
+#
+# Distributed under terms of the MIT license.
+#
+
+set -eu
+
+if [[ $# -lt 1 || $# -gt 2 ]]; then
+	echo "Usage: $0 branch [revision]" >&2
+	exit 1
+fi
+
+branch=${1/\./_}
+revision=${2:-HEAD}
+svn_prefix="http://www.eglibc.org/svn/branches/eglibc-${branch}/libc"
+
+do_export() {
+    svn export --force -r "${revision}" "${svn_prefix}/$1" $2
+}
+
+do_export nss/nss_files src/nss_altfiles
+do_export grp src/grp
+do_export gshadow src/gshadow
+do_export pwd src/pwd
+do_export resolv src/resolv
+do_export shadow src/shadow

@@ -1,0 +1,25 @@
+# ChangeLog for dev-python/cov-core
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/cov-core/ChangeLog,v 1.6 2014/08/27 08:21:07 idella4 Exp $
+
+  27 Aug 2014; Ian Delaney <idella4@gentoo.org> cov-core-1.7.ebuild:
+  add keyword ~x86, pypy support
+
+  02 Apr 2014; Patrick McLean <chutzpah@gentoo.org> cov-core-1.7.ebuild:
+  Add python3_4 support.
+
+  27 Jul 2013; Dirkjan Ochtman <djc@gentoo.org> cov-core-1.7.ebuild:
+  Remove pytest dependency (bug 452546).
+
+  17 Dec 2012; Michał Górny <mgorny@gentoo.org> cov-core-1.7.ebuild:
+  Bump to EAPI=5 to make Paludis happy, bug #447524.
+
+  08 Dec 2012; Michał Górny <mgorny@gentoo.org> cov-core-1.7.ebuild:
+  Add PYTHON_USEDEP on migrated packages, fix HOMEPAGE.
+
+*cov-core-1.7 (16 Nov 2012)
+
+  16 Nov 2012; Patrick McLean <chutzpah@gentoo.org> +cov-core-1.7.ebuild,
+  +metadata.xml:
+  New package, cov-core plugin core for use by pytest-cov, nose-cov and
+  nose2-cov

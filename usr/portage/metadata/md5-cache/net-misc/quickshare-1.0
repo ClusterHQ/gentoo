@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=net-libs/libmicrohttpd x11-libs/gtk+:2 virtual/pkgconfig
+DESCRIPTION=A simple HTTP server with a GUI which allows for easy sharing of files
+EAPI=4
+HOMEPAGE=http://houbysoft.com/qs/
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=net-libs/libmicrohttpd x11-libs/gtk+:2
+SLOT=0
+SRC_URI=http://houbysoft.com/download/quickshare-1.0-src.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b1d6a9cb7ee6eaaaab91cdfba1869d4b

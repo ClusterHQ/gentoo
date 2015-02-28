@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( blas? ( virtual/blas ) jpeg? ( virtual/jpeg ) lapack? ( virtual/lapack ) png? ( media-libs/libpng:0= ) X? ( x11-libs/libX11 ) )
+DESCRIPTION=Numerical and networking C++ library
+EAPI=5
+HOMEPAGE=http://dlib.net/
+IUSE=blas doc examples jpeg lapack png test X
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=Boost-1.0
+RDEPEND=blas? ( virtual/blas ) jpeg? ( virtual/jpeg ) lapack? ( virtual/lapack ) png? ( media-libs/libpng:0= ) X? ( x11-libs/libX11 )
+SLOT=0
+SRC_URI=mirror://sourceforge/dclib/dlib-18.7.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=f68a5ec657437a39a5a207e9e25a9ae7

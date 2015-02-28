@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=a collection of all the greatest Quake movies
+HOMEPAGE=http://www.planetquake.com/cineplex/history.html
+KEYWORDS=amd64 x86
+LICENSE=all-rights-reserved
+RESTRICT=mirror bindist
+SLOT=0
+SRC_URI=http://ftp.se.kde.org/pub/pc/games/idgames2/planetquake/cineplex/camper.zip http://ftp.se.kde.org/pub/pc/games/idgames2/planetquake/cineplex/rgb.zip http://ftp.se.kde.org/pub/pc/games/idgames2/planetquake/cineplex/rgb2.zip http://ftp.se.kde.org/pub/pc/games/idgames2/planetquake/cineplex/rgb3_preview.zip http://ftp.se.kde.org/pub/pc/games/idgames2/planetquake/cineplex/ta2.zip http://ftp.se.kde.org/pub/pc/games/idgames2/planetquake/cineplex/op_bays.zip http://ftp.se.kde.org/pub/pc/games/idgames2/planetquake/cineplex/artifact.zip http://ftp.se.kde.org/pub/pc/games/idgames2/planetquake/blah/blahmov.zip http://ftp.se.kde.org/pub/pc/games/idgames2/planetquake/blah/blahouts.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=0478f432926a8d9dcfa624eda32ff8c7

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=dev-libs/gmp:0= dev-libs/gf2x:0= dev-lang/perl
+DESCRIPTION=High-performance and portable Number Theory C++ library
+EAPI=5
+HOMEPAGE=http://shoup.net/ntl/
+IUSE=doc static-libs test
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-macos
+LICENSE=GPL-2
+RDEPEND=dev-libs/gmp:0= dev-libs/gf2x:0=
+SLOT=0
+SRC_URI=http://www.shoup.net/ntl/ntl-6.0.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=28bb09b62d909c4bd646e7a7bf254b2b

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=>=sci-libs/netcdf-4.0.1 >=sci-libs/hdf5-1.6.4 dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/wxpython:2.8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] virtual/pmw[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[tk,xml] ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=Large suite of open source tools for the management and analysis of climate data
+EAPI=5
+HOMEPAGE=http://proj.badc.rl.ac.uk/cedaservices/wiki/CdatLite
+IUSE=python_targets_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=sci-libs/netcdf-4.0.1 >=sci-libs/hdf5-1.6.4 dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/wxpython:2.8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] virtual/pmw[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] !sci-biology/ncbi-tools python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[tk,xml] ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=http://ndg.nerc.ac.uk/dist/cdat_lite-6.0rc2.tar.gz
+_eclasses_=distutils-r1	90e7008a7d21e3b1597bea444bb85827	eutils	06133990e861be0fe60c2b428fd025d9	multibuild	46527a4656956da3d58acff72c9b59b1	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	python-r1	75e5c82b55dcb208a0a8f4ab8847e731	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=df8eaf39d56282fb816bfb53c1f2a867

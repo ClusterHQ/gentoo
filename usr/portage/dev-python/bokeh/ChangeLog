@@ -1,0 +1,35 @@
+# ChangeLog for dev-python/bokeh
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/bokeh/ChangeLog,v 1.7 2014/07/07 09:22:32 jlec Exp $
+
+  07 Jul 2014; Justin Lecher <jlec@gentoo.org> bokeh-0.4.4.ebuild:
+  Fix parallel installation issues, #516052
+
+*bokeh-0.4.4 (07 Jul 2014)
+
+  07 Jul 2014; Justin Lecher <jlec@gentoo.org> +bokeh-0.4.4.ebuild,
+  +files/bokeh-0.4.4-fix_test_object.patch, metadata.xml:
+  Importing Version BUmp from sci overlay, thanks Witold Piłat; #516052
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> bokeh-0.4.1.ebuild,
+  bokeh-0.4.2.ebuild, bokeh-0.4.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+*bokeh-0.4.2 (12 Mar 2014)
+
+  12 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org> +bokeh-0.4.2.ebuild,
+  bokeh-0.4.1.ebuild:
+  Version bump
+
+*bokeh-0.4.1 (22 Feb 2014)
+
+  22 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> +bokeh-0.4.1.ebuild,
+  bokeh-0.4.ebuild:
+  Version bump
+
+*bokeh-0.4 (06 Feb 2014)
+
+  06 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> +bokeh-0.4.ebuild,
+  +metadata.xml:
+  Initial import

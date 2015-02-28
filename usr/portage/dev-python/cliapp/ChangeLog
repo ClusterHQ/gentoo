@@ -1,0 +1,52 @@
+# ChangeLog for dev-python/cliapp
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/cliapp/ChangeLog,v 1.10 2014/03/16 17:39:39 mschiff Exp $
+
+*cliapp-1.20140315 (16 Mar 2014)
+
+  16 Mar 2014; Marc Schiffbauer <mschiff@gentoo.org> -cliapp-1.20130313.ebuild,
+  +cliapp-1.20140315.ebuild:
+  Bump version. Remove oldest version.
+
+*cliapp-1.20130808 (09 Aug 2013)
+
+  09 Aug 2013; Marc Schiffbauer <mschiff@gentoo.org> +cliapp-1.20130808.ebuild,
+  -cliapp-1.20120630.ebuild, -cliapp-1.20120929.ebuild,
+  -cliapp-1.20121216.ebuild:
+  Bump version. Remove older versions
+
+  24 Mar 2013; Marc Schiffbauer <mschiff@gentoo.org> cliapp-1.20130313.ebuild:
+  added $PYTHONDEPS
+
+*cliapp-1.20130313 (24 Mar 2013)
+
+  24 Mar 2013; Marc Schiffbauer <mschiff@gentoo.org> +cliapp-1.20130313.ebuild:
+  Version bump
+
+*cliapp-1.20121216 (18 Dec 2012)
+
+  18 Dec 2012; Marc Schiffbauer <mschiff@gentoo.org> +cliapp-1.20121216.ebuild:
+  Version bump.
+
+*cliapp-1.20120929 (06 Oct 2012)
+
+  06 Oct 2012; Marc Schiffbauer <mschiff@gentoo.org> -cliapp-0.29.ebuild,
+  +cliapp-1.20120929.ebuild:
+  Version bump. Drop old version.
+
+*cliapp-1.20120630 (08 Jul 2012)
+
+  08 Jul 2012; Marc Schiffbauer <mschiff@gentoo.org> +cliapp-1.20120630.ebuild:
+  Version bump.
+
+  27 Jun 2012; Michael Sterrett <mr_bones_@gentoo.org> cliapp-0.29.ebuild:
+  add missing test to IUSE
+
+  24 Jun 2012; Marc Schiffbauer <mschiff@gentoo.org> cliapp-0.29.ebuild:
+  Fix tests. Closes #423101
+
+*cliapp-0.29 (15 Jun 2012)
+
+  15 Jun 2012; Marc Schiffbauer <mschiff@gentoo.org> +cliapp-0.29.ebuild,
+  +metadata.xml:
+  Initial commit of cliapp.

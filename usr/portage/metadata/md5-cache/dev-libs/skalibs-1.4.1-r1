@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install
+DESCRIPTION=development files used for building software at skarnet.org: essentially general-purpose libraries
+EAPI=4
+HOMEPAGE=http://www.skarnet.org/software/skalibs/index.html
+IUSE=doc static-libs
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+SLOT=0
+SRC_URI=http://www.skarnet.org/software/skalibs/skalibs-1.4.1.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ba9a5dfb27f90b2be47bb48f72e70ba4

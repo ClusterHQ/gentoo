@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Gentoo python-config wrapper script
+
+[[ "${EPYTHON}" =~ (/|^python$) ]] && EPYTHON="python2.7"
+python_config="${EPYTHON/python/python-config-}"
+"${0%/*}/${python_config:-python-config-2.7}" "$@"

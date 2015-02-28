@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/glib >=gnome-extra/libgsf-1.8:= virtual/libiconv zlib? ( sys-libs/zlib ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Excellent MS Word filter lib, used in most Office suites
+EAPI=5
+HOMEPAGE=http://wvware.sourceforge.net
+IUSE=zlib
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=LGPL-2
+RDEPEND=dev-libs/glib >=gnome-extra/libgsf-1.8:= virtual/libiconv zlib? ( sys-libs/zlib )
+SLOT=0
+SRC_URI=mirror://sourceforge/wvware/wv2-0.4.2.tar.bz2
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=43ea3b0e1440f7322853c563d83b214d

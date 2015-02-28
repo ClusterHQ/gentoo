@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/libXaw x11-proto/xproto
+DESCRIPTION=PHYLIP - The PHYLogeny Inference Package
+HOMEPAGE=http://evolution.genetics.washington.edu/phylip.html
+KEYWORDS=amd64 ppc x86
+LICENSE=freedist
+RDEPEND=x11-libs/libXaw
+SLOT=0
+SRC_URI=http://evolution.gs.washington.edu/phylip/download/phylip-3.67.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=821dbf7fbb3a4aee6ecd744169af6269

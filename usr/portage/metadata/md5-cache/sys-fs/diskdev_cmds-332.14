@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=HFS and HFS+ utils ported from OSX, supplies mkfs and fsck
+HOMEPAGE=http://opendarwin.org
+KEYWORDS=-amd64 ~ppc ~x86
+LICENSE=APSL-2
+SLOT=0
+SRC_URI=http://darwinsource.opendarwin.org/tarballs/apsl/diskdev_cmds-332.14.tar.gz mirror://gentoo/diskdev_cmds-332.14.patch.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=3789116d31ae0cf190ee52393c34ac9a

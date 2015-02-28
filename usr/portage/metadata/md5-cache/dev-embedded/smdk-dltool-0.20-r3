@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DEPEND=virtual/libusb:1
+DESCRIPTION=Tool to communicate with Samsung SMDK boards
+EAPI=4
+HOMEPAGE=http://www.fluff.org/ben/smdk/tools/
+KEYWORDS=~amd64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=virtual/libusb:1
+RESTRICT=mirror bindist
+SLOT=0
+SRC_URI=http://www.fluff.org/ben/smdk/tools/downloads/smdk-tools-v0.20.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=f3bfc32f9f93be9e7d644f42b1e709f4

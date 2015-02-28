@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=>=dev-lang/mono-1.2.4 >=sys-apps/dbus-1 virtual/pkgconfig
+DESCRIPTION=Managed D-Bus Implementation for .NET
+HOMEPAGE=http://www.ndesk.org/DBusSharp
+KEYWORDS=amd64 ppc x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-1.2.4 >=sys-apps/dbus-1
+SLOT=0
+SRC_URI=http://www.ndesk.org/archive/ndesk-dbus/ndesk-dbus-0.6.1a.tar.gz
+_eclasses_=mono	203a4295c06155d318bdff9c6b2d5e1c	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=770cd4846ae316e116666c6239c90c4a

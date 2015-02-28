@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DEPEND=net-print/cups app-text/ghostscript-gpl
+DESCRIPTION=Provides a virtual printer for CUPS to produce PDF files
+EAPI=4
+HOMEPAGE=http://www.cups-pdf.de/
+IUSE=+ppds
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=net-print/cups app-text/ghostscript-gpl
+SLOT=0
+SRC_URI=http://www.cups-pdf.de/src/cups-pdf_3.0beta1.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6a0123a0c5bc47a6da2496ac39b21536

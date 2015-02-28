@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=virtual/opengl virtual/glu
+DESCRIPTION=Be a rampaging monster and destroy the city
+EAPI=2
+HOMEPAGE=http://evlweb.eecs.uic.edu/aej/AndyBattalion.html
+KEYWORDS=ppc x86
+LICENSE=battalion HPND
+RDEPEND=virtual/opengl virtual/glu
+SLOT=0
+SRC_URI=http://evlweb.eecs.uic.edu/aej/BATTALION/battalion1.4b.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=b35266d7e7211a59e0d5465b20b43582

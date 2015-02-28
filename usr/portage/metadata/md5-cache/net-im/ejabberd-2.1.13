@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare
+DEPEND=>=net-im/jabber-base-0.01 >=dev-libs/expat-1.95 >=dev-lang/erlang-12.2.5[ssl] <dev-lang/erlang-16 odbc? ( dev-db/unixODBC ) ldap? ( =net-nds/openldap-2* ) >=dev-libs/openssl-0.9.8e captcha? ( media-gfx/imagemagick[truetype,png] ) zlib? ( sys-libs/zlib ) ssl? ( dev-libs/openssl )
+DESCRIPTION=The Erlang Jabber Daemon
+EAPI=5
+HOMEPAGE=http://www.ejabberd.im/ https://github.com/processone/ejabberd/
+IUSE=captcha debug ldap odbc pam +web zlib mod_irc mod_muc mod_proxy65 mod_pubsub mod_statsdx ssl
+KEYWORDS=~amd64 ~arm ~ia64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=net-im/jabber-base-0.01 >=dev-libs/expat-1.95 >=dev-lang/erlang-12.2.5[ssl] <dev-lang/erlang-16 odbc? ( dev-db/unixODBC ) ldap? ( =net-nds/openldap-2* ) >=dev-libs/openssl-0.9.8e captcha? ( media-gfx/imagemagick[truetype,png] ) zlib? ( sys-libs/zlib ) >=sys-apps/shadow-4.1.4.2-r3 pam? ( virtual/pam )
+SLOT=0
+SRC_URI=http://www.process-one.net/downloads/ejabberd/2.1.13/ejabberd-2.1.13.tgz mod_statsdx? ( http://dev.gentoo.org/~radhermit/dist/ejabberd-mod_statsdx-1118.patch.gz )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	pam	5e39d502488dd7c258289b7e4b482342	prefix	21058c21ca48453d771df15500873ede	ssl-cert	6698abb0c28e144e92c4ff1e33341684	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=5e52d51dd02350b992f2848cc9610a6d

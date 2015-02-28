@@ -1,0 +1,23 @@
+# ChangeLog for dev-python/crumbs
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/crumbs/ChangeLog,v 1.3 2014/09/02 21:32:05 alunduil Exp $
+
+*crumbs-2.0.0 (02 Sep 2014)
+
+  02 Sep 2014; Alex Brandt <alunduil@gentoo.org> +crumbs-2.0.0.ebuild,
+  crumbs-9999.ebuild:
+  bump crumbs version to 2.0.0
+
+*crumbs-1.2.2-r1 (25 Aug 2014)
+
+  25 Aug 2014; Alex Brandt <alunduil@gentoo.org> +crumbs-1.2.2-r1.ebuild,
+  crumbs-9999.ebuild:
+  add missing setuptools dependency
+
+*crumbs-9999 (25 Aug 2014)
+*crumbs-1.2.2 (25 Aug 2014)
+
+  25 Aug 2014; Alex Brandt <alunduil@gentoo.org> +crumbs-1.2.2.ebuild,
+  +crumbs-9999.ebuild, +metadata.xml:
+  New ebuild for crumbs. Ebuild written by me.
+

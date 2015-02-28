@@ -1,0 +1,15 @@
+# ChangeLog for dev-java/jboss-modules
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-java/jboss-modules/ChangeLog,v 1.2 2014/05/31 19:38:55 tomwij Exp $
+
+*jboss-modules-1.3.3 (31 May 2014)
+
+  31 May 2014; Tom Wijsman <TomWij@gentoo.org> +jboss-modules-1.3.3.ebuild:
+  Version bump to 1.3.3; noticed by Arfrever.
+
+*jboss-modules-1.3.0 (26 Sep 2013)
+
+  26 Sep 2013; Johann Schmitz <ercpe@gentoo.org> +jboss-modules-1.3.0.ebuild,
+  +metadata.xml:
+  Ebuild for jboss-modules - JBoss modular classloading system Dependency of
+  jboss-logging

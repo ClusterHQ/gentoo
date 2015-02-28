@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=net-dialup/ppp dev-lang/perl tk? ( dev-perl/perl-tk )
+DESCRIPTION=Linux client for PPTP
+EAPI=5
+HOMEPAGE=http://pptpclient.sourceforge.net/
+IUSE=tk
+KEYWORDS=~alpha ~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-dialup/ppp dev-lang/perl tk? ( dev-perl/perl-tk ) sys-apps/iproute2
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/pptpclient/pptp-1.8.0.tar.gz http://dev.gentoo.org/~pinkbyte/distfiles/pptpclient/pptp-command-20130515.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c107870af4a02744aa7b7d4572f497c8

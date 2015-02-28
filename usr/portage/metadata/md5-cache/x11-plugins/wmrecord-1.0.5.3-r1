@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm x11-proto/xextproto >=sys-apps/sed-4.1.5-r1
+DESCRIPTION=A Dockable General Purpose Recording Utility
+HOMEPAGE=http://ret009t0.eresmas.net/other_software/wmrecord/
+KEYWORDS=x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm
+SLOT=0
+SRC_URI=http://ret009t0.eresmas.net/other_software/wmrecord/wmrecord-1.0.5_20040218_0029.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=1f5d9dbeb5604e85f94b2171b1318c6e

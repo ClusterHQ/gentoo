@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install test unpack
+DEPEND=sys-apps/groff >=sys-apps/sed-4
+DESCRIPTION=handle qmail forwarding according to a cdb database
+HOMEPAGE=http://cr.yp.to/fastforward.html
+KEYWORDS=x86 sparc ~ppc
+LICENSE=public-domain
+RDEPEND=sys-apps/groff
+SLOT=0
+SRC_URI=http://cr.yp.to/software/fastforward-0.51.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fixheadtails	c6fd1fc49c9dc11924f28a1406f251a0	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=2022eece9691d602368a4b088f39e12d

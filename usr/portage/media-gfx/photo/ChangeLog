@@ -1,0 +1,25 @@
+# ChangeLog for media-gfx/photo
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-gfx/photo/ChangeLog,v 1.4 2014/08/19 23:52:12 pesa Exp $
+
+*photo-0.8-r1 (19 Aug 2014)
+
+  19 Aug 2014; Davide Pesavento <pesa@gentoo.org> +photo-0.8-r1.ebuild,
+  -photo-0.7.1.1.ebuild, -photo-0.8.ebuild:
+  EAPI=5; add missing qtsql dep (bug 514586); add slot operator on exiv2 dep.
+
+  02 Mar 2013; Markos Chandras <hwoarang@gentoo.org> photo-0.7.1.1.ebuild,
+  photo-0.8.ebuild:
+  Move Qt dependencies to the new category
+
+*photo-0.8 (15 Oct 2012)
+
+  15 Oct 2012; Ben de Groot <yngwin@gentoo.org> +photo-0.8.ebuild:
+  Version bump. Updated homepage and src_uri, bug #438440.
+
+*photo-0.7.1.1 (11 May 2012)
+
+  11 May 2012; Ben de Groot <yngwin@gentoo.org>
+  +files/photo-0.7.1.1-install-desktop.patch, +metadata.xml,
+  +photo-0.7.1.1.ebuild:
+  Initial import from qt overlay

@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
+DEPEND=net-misc/curl sys-libs/ncurses
+DESCRIPTION=Curses-based interpreter and development tools for TADS 2 and TADS 3 text adventures
+EAPI=4
+HOMEPAGE=http://www.tads.org/frobtads.htm
+IUSE=debug tads2compiler tads3compiler
+KEYWORDS=amd64 x86
+LICENSE=TADS2 TADS3
+RDEPEND=net-misc/curl sys-libs/ncurses
+RESTRICT=!tads3compiler? ( test )
+SLOT=0
+SRC_URI=http://www.tads.org/frobtads/frobtads-1.2.2.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=ad009f517def41bcd1ec2ebacee6a0a9

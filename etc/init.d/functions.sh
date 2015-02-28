@@ -1,0 +1,1 @@
+../../usr/lib/einfo/sh/functions.sh

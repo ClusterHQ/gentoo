@@ -1,0 +1,47 @@
+#!/home/core/gentoo/bin/bash
+# Copyright 1999-2012 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+source "${PORTAGE_BIN_PATH:-/home/core/gentoo/usr/lib/portage/bin}"/isolated-functions.sh
+
+if ! ___eapi_has_prefix_variables; then
+	ED=${D}
+fi
+
+# Setup ABI cruft
+LIBDIR_VAR="LIBDIR_${ABI}"
+if [[ -n ${ABI} && -n ${!LIBDIR_VAR} ]] ; then
+	CONF_LIBDIR=${!LIBDIR_VAR}
+fi
+unset LIBDIR_VAR
+# we need this to default to lib so that things dont break
+CONF_LIBDIR=${CONF_LIBDIR:-lib}
+libdir="${ED}${DESTTREE}/${CONF_LIBDIR}"
+
+
+if [[ $# -lt 1 ]] ; then
+	__helpers_die "${0##*/}: at least one argument needed"
+	exit 1
+fi
+if [[ ! -d ${libdir} ]] ; then
+	install -d "${libdir}" || { __helpers_die "${0##*/}: failed to install ${libdir}"; exit 1; }
+fi
+
+ret=0
+
+for x in "$@" ; do
+	if [[ -e ${x} ]] ; then
+		if [[ ! -L ${x} ]] ; then
+			install ${LIBOPTIONS} "${x}" "${libdir}"
+		else
+			ln -s "$(readlink "${x}")" "${libdir}/${x##*/}"
+		fi
+	else
+		echo "!!! ${0##*/}: ${x} does not exist" 1>&2
+		false
+	fi
+	((ret|=$?))
+done
+
+[[ $ret -ne 0 ]] && __helpers_die "${0##*/} failed"
+exit ${ret}

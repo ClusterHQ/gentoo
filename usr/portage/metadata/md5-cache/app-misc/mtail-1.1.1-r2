@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Tail workalike, that performs output colourising
+EAPI=3
+HOMEPAGE=http://matt.immute.net/src/mtail/
+KEYWORDS=alpha amd64 ~mips ppc sparc x86 ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=HPND
+SLOT=0
+SRC_URI=http://matt.immute.net/src/mtail/mtail-1.1.1.tgz http://matt.immute.net/src/mtail/mtailrc-syslog.sample
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7145443632fd47535c8ba5ef226320b2

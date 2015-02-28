@@ -1,0 +1,51 @@
+# ChangeLog for app-office/geierlein
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-office/geierlein/ChangeLog,v 1.9 2014/08/10 18:13:56 slyfox Exp $
+
+  10 Aug 2014; Sergei Trofimovich <slyfox@gentoo.org> geierlein-0.6.1.ebuild,
+  geierlein-0.6.2.ebuild:
+  QA: drop trailing '.' from DESCRIPTION
+
+*geierlein-0.6.2 (24 Jul 2014)
+
+  24 Jul 2014; Hanno Boeck <hanno@gentoo.org> -geierlein-0.4.1.ebuild,
+  -geierlein-0.4.2.ebuild, -geierlein-0.5.1.ebuild, -geierlein-0.6.0.ebuild,
+  +geierlein-0.6.2.ebuild:
+  Bump, remove old.
+
+*geierlein-0.6.1 (03 Nov 2013)
+
+  03 Nov 2013; Hanno Boeck <hanno@gentoo.org> +geierlein-0.6.1.ebuild:
+  Version bump.
+
+*geierlein-0.6.0 (29 Sep 2013)
+
+  29 Sep 2013; Hanno Boeck <hanno@gentoo.org> +geierlein-0.6.0.ebuild:
+  Bump.
+
+*geierlein-0.5.1 (02 Jul 2013)
+
+  02 Jul 2013; Hanno Boeck <hanno@gentoo.org> +geierlein-0.5.1.ebuild:
+  Bump.
+
+*geierlein-0.4.2 (13 Jan 2013)
+
+  13 Jan 2013; Hanno Boeck <hanno@gentoo.org> +geierlein-0.4.2.ebuild,
+  -geierlein-0.3.4.ebuild, -geierlein-0.4.0.ebuild:
+  Bump with 2013 tax form changes
+
+*geierlein-0.4.1 (18 Dec 2012)
+
+  18 Dec 2012; Hanno Boeck <hanno@gentoo.org> +geierlein-0.4.1.ebuild:
+  Version bump.
+
+*geierlein-0.4.0 (14 Oct 2012)
+
+  14 Oct 2012; Hanno Boeck <hanno@gentoo.org> +geierlein-0.4.0.ebuild:
+  Version bump.
+
+*geierlein-0.3.4 (01 Oct 2012)
+
+  01 Oct 2012; Hanno Boeck <hanno@gentoo.org> +geierlein-0.3.4.ebuild,
+  +metadata.xml:
+  Initial commit, will replace taxbird someday.

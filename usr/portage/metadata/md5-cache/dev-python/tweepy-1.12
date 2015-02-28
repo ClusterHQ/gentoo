@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup unpack
+DEPEND==dev-lang/python-2*
+DESCRIPTION=A Python library for accessing the Twitter API
+EAPI=4
+HOMEPAGE=http://tweepy.github.com/
+IUSE=examples
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND==dev-lang/python-2*
+SLOT=0
+SRC_URI=https://github.com/tweepy/tweepy/tarball/1.12 -> tweepy-1.12.tar.gz
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	vcs-snapshot	58b766562c9fbfb3268b04e33cdf2f66
+_md5_=0c787ec73486104b8ac6cac0d80df081

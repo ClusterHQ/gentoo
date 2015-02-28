@@ -1,0 +1,99 @@
+# ChangeLog for dev-libs/isl
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/isl/ChangeLog,v 1.21 2014/08/05 15:21:38 armin76 Exp $
+
+  05 Aug 2014; Raúl Porcel <armin76@gentoo.org> isl-0.11.1.ebuild,
+  isl-0.12.2.ebuild, isl-0.13.ebuild:
+  Add ~m68k/~s390/~sh/~sparc wrt #487266
+
+  22 Jun 2014; Akinori Hattori <hattya@gentoo.org> isl-0.11.1.ebuild,
+  isl-0.12.2.ebuild, isl-0.13.ebuild:
+  keyword ~ia64 wrt bug #487266
+
+  18 Jun 2014; Michał Górny <mgorny@gentoo.org> isl-0.12.2.ebuild,
+  isl-0.13.ebuild:
+  Update dependencies to require guaranteed EAPI=5 or multilib ebuilds, bug
+  #513718.
+
+*isl-0.13 (22 May 2014)
+*isl-0.12.2 (22 May 2014)
+
+  22 May 2014; Ryan Hill <rhill@gentoo.org> -isl-0.09.ebuild, -isl-0.10.ebuild,
+  +isl-0.12.2.ebuild, +isl-0.13.ebuild:
+  Version bump (bug #467192). Use EAPI 5 and add subslots. Add multilib
+  support. Update HOMEPAGE and SRC_URI. Add missing pkgconfig dep. Remove
+  old.
+
+  04 Nov 2013; Matt Turner <mattst88@gentoo.org> isl-0.11.1.ebuild:
+  Added ~alpha, bug 487266.
+
+  14 Oct 2013; Naohiro Aota <naota@gentoo.org> isl-0.11.1.ebuild:
+  Add ~x86-fbsd. #487266
+
+  12 Oct 2013; Markus Meier <maekke@gentoo.org> isl-0.11.1.ebuild:
+  add ~arm, bug #487266
+
+  12 Oct 2013; Alexis Ballier <aballier@gentoo.org> isl-0.11.1.ebuild:
+  keyword ~amd64-fbsd, bug #487266
+
+  11 Oct 2013; Markos Chandras <hwoarang@gentoo.org> isl-0.11.1.ebuild:
+  Add ~mips per #487266
+
+  09 Oct 2013; Jeroen Roovers <jer@gentoo.org> isl-0.11.1.ebuild:
+  Marked ~hppa (bug #487266).
+
+  16 Apr 2013; Justin Lecher <jlec@gentoo.org> isl-0.09.ebuild,
+  isl-0.10.ebuild, isl-0.11.1.ebuild, metadata.xml:
+  Fix punctuation
+
+*isl-0.11.1 (07 Jan 2013)
+
+  07 Jan 2013; Ryan Hill <dirtyepic@gentoo.org> +isl-0.11.1.ebuild:
+  Version bump (bug #450632).
+
+*isl-0.10 (24 Jun 2012)
+
+  24 Jun 2012; Ryan Hill <dirtyepic@gentoo.org> -isl-0.07-r1.ebuild,
+  +isl-0.10.ebuild:
+  Version bump (bug #421429). Remove old.
+
+*isl-0.09 (20 Feb 2012)
+
+  20 Feb 2012; Ryan Hill <dirtyepic@gentoo.org> +isl-0.09.ebuild:
+  Version bump (bug #389357 by Samuli).
+
+  20 Nov 2011; Samuli Suominen <ssuominen@gentoo.org> isl-0.07-r1.ebuild:
+  Link to upstream bug report for the LDFLAGS and pkg-config issue.
+
+  02 Nov 2011; Samuli Suominen <ssuominen@gentoo.org> -isl-0.06.ebuild,
+  -files/isl-0.06-parallel-py.patch, -isl-0.07.ebuild:
+  old
+
+*isl-0.07-r1 (02 Nov 2011)
+
+  02 Nov 2011; Samuli Suominen <ssuominen@gentoo.org> +isl-0.07-r1.ebuild:
+  Remove compile time LDFLAGS from Libs: in pkg-config file wrt #382737
+
+*isl-0.07 (21 Aug 2011)
+
+  21 Aug 2011; Ryan Hill <dirtyepic@gentoo.org> -isl-0.05.1.ebuild,
+  +isl-0.07.ebuild, +files/isl-0.07-gdb-autoload-dir.patch:
+  Version bump.
+
+*isl-0.06 (13 Apr 2011)
+
+  13 Apr 2011; Ryan Hill <dirtyepic@gentoo.org> +isl-0.06.ebuild,
+  +files/isl-0.06-parallel-py.patch:
+  Version bump.
+
+*isl-0.05.1 (07 Jan 2011)
+
+  07 Jan 2011; Ryan Hill <dirtyepic@gentoo.org> -isl-0.05.ebuild,
+  +isl-0.05.1.ebuild:
+  Version bump.
+
+*isl-0.05 (01 Jan 2011)
+
+  01 Jan 2011; Ryan Hill <dirtyepic@gentoo.org> +isl-0.05.ebuild,
+  +metadata.xml:
+  Initial import.

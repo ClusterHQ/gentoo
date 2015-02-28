@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=CUEgen is a FLAC-compatible cuesheet generator for Linux
+EAPI=2
+HOMEPAGE=http://www.cs.man.ac.uk/~slavinp/cuegen.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.cs.man.ac.uk/~slavinp/files/cuegen-1.2.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=a43f8caa03524673ce4e2ea283fcecd3

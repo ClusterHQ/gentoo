@@ -1,0 +1,1 @@
+>=dev-libs/openssl-0.9.6d:0[-bindist] dev-libs/openssl >=sys-libs/zlib-1.2.3 >=sys-apps/tcp-wrappers-7.6 virtual/pkgconfig virtual/os-headers sys-devel/autoconf !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool virtual/pkgconfig

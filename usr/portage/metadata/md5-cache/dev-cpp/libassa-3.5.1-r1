@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=net-libs/libtirpc doc? ( app-doc/doxygen )
+DESCRIPTION=A networking library based on Adaptive Communication Patterns
+EAPI=4
+HOMEPAGE=http://libassa.sourceforge.net/
+IUSE=doc static-libs
+KEYWORDS=amd64 x86
+LICENSE=LGPL-2
+RDEPEND=net-libs/libtirpc
+SLOT=0
+SRC_URI=mirror://sourceforge/libassa/libassa-3.5.1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=9d706420c7cf202747997afef21b1a73

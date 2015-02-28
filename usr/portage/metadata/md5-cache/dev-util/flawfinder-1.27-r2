@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND==dev-lang/python-2*
+DESCRIPTION=Examines C/C++ source code for security flaws
+EAPI=3
+HOMEPAGE=http://www.dwheeler.com/flawfinder/
+KEYWORDS=amd64 ~mips ~ppc ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~x86-solaris
+LICENSE=GPL-2
+RDEPEND==dev-lang/python-2*
+SLOT=0
+SRC_URI=http://www.dwheeler.com/flawfinder/flawfinder-1.27.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=cf86d689e75d8fa22c5375ab6952f74f

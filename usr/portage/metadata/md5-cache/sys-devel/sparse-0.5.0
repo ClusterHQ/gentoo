@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile prepare
+DEPEND=gtk? ( x11-libs/gtk+:2 ) xml? ( dev-libs/libxml2 ) gtk? ( virtual/pkgconfig ) xml? ( virtual/pkgconfig )
+DESCRIPTION=C semantic parser
+EAPI=4
+HOMEPAGE=http://sparse.wiki.kernel.org/index.php/Main_Page
+IUSE=gtk test xml
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+LICENSE=OSL-1.1
+RDEPEND=gtk? ( x11-libs/gtk+:2 ) xml? ( dev-libs/libxml2 )
+SLOT=0
+SRC_URI=mirror://kernel/software/devel/sparse/dist/sparse-0.5.0.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=cdbf34c7efd0615f7b063c79d144013f

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=|| ( >=app-i18n/scim-0.99.8 >=app-i18n/scim-cvs-0.99.8 ) >=app-i18n/libhangul-0.0.4 nls? ( virtual/libintl ) virtual/pkgconfig nls? ( sys-devel/gettext )
+DESCRIPTION=Hangul IMEngine for SCIM ported from imhangul
+EAPI=5
+HOMEPAGE=http://www.scim-im.org/
+IUSE=nls
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( >=app-i18n/scim-0.99.8 >=app-i18n/scim-cvs-0.99.8 ) >=app-i18n/libhangul-0.0.4 nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/scim/scim-hangul-0.4.0.tar.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	autotools-utils	3727db64c7b960903d5033280f108080	eutils	06133990e861be0fe60c2b428fd025d9	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e4458386ad2b4d8171d325bfef44e16c

@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Common configuration scripts for the SuiteSparse libraries
+HOMEPAGE=http://www.cise.ufl.edu/research/sparse/UFconfig
+IUSE=static-libs
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~x86-macos
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://www.cise.ufl.edu/research/sparse/UFconfig/UFconfig-3.5.0.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=5442c3b0b8e8f56506f933f5f5be2a45

@@ -1,0 +1,32 @@
+# ChangeLog for dev-python/blaze
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/blaze/ChangeLog,v 1.6 2014/09/02 04:13:07 patrick Exp $
+
+*blaze-0.6.0 (02 Sep 2014)
+
+  02 Sep 2014; Patrick Lauer <patrick@gentoo.org> +blaze-0.6.0.ebuild:
+  Bump
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> blaze-0.4.1.ebuild,
+  blaze-0.4.2.ebuild, blaze-0.5.0.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+*blaze-0.5.0 (03 Jul 2014)
+
+  03 Jul 2014; Sébastien Fabbro <bicatali@gentoo.org> +blaze-0.5.0.ebuild:
+  Version bump
+
+*blaze-0.4.2 (22 Feb 2014)
+
+  22 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> +blaze-0.4.2.ebuild:
+  Version bump
+
+  13 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> blaze-0.4.1.ebuild:
+  after better testing, remove python-3.2 support
+
+*blaze-0.4.1 (11 Feb 2014)
+
+  11 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> +blaze-0.4.1.ebuild,
+  +metadata.xml:
+  Initial import

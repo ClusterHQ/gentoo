@@ -1,0 +1,19 @@
+# ChangeLog for dev-python/funcparserlib
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/funcparserlib/ChangeLog,v 1.4 2014/07/06 12:41:28 mgorny Exp $
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> funcparserlib-0.3.6.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+  12 May 2014; Ian Delaney <idella4@gentoo.org> funcparserlib-0.3.6.ebuild:
+  drop py2.6 pypy2_0 add py3.4 support
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> funcparserlib-0.3.6.ebuild:
+  Add support for the new PyPy slotting.
+
+*funcparserlib-0.3.6 (07 Sep 2013)
+
+  07 Sep 2013; Michał Górny <mgorny@gentoo.org> +funcparserlib-0.3.6.ebuild,
+  +metadata.xml:
+  Introduce funcparserlib, a dep for mockldap.

@@ -1,0 +1,8 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/gnuconfig
+obj /home/core/gentoo/usr/share/gnuconfig/config.sub e46a9bb8f0ad42e0ebafc8ebc82b6262 1410958911
+obj /home/core/gentoo/usr/share/gnuconfig/config.guess 767e69313ab65df1f91592dec0f13fe4 1410958911
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/gnuconfig-20140728
+obj /home/core/gentoo/usr/share/doc/gnuconfig-20140728/ChangeLog.bz2 f141f6a3f02132769d580631850ea8e3 1410958912

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst
+DEPEND=X? ( x11-libs/libX11 x11-libs/libXaw x11-libs/libXmu x11-libs/libXt ) cjk? ( dev-libs/icu ) ncurses? ( sys-libs/ncurses sys-libs/readline ) ssl? ( dev-libs/openssl ) tcl? ( dev-lang/tcl ) X? ( x11-misc/imake x11-misc/xbitmaps x11-proto/xproto app-text/rman x11-apps/mkfontdir x11-apps/bdftopcf )
+DESCRIPTION=Complete 3270 access package
+HOMEPAGE=http://x3270.bgp.nu/
+IUSE=cjk doc ncurses ssl tcl X
+KEYWORDS=~amd64 ~ppc ~s390 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=X? ( x11-libs/libX11 x11-libs/libXaw x11-libs/libXmu x11-libs/libXt ) cjk? ( dev-libs/icu ) ncurses? ( sys-libs/ncurses sys-libs/readline ) ssl? ( dev-libs/openssl ) tcl? ( dev-lang/tcl )
+SLOT=0
+SRC_URI=mirror://gentoo/suite3270-3.3.6.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e380189395a3f3b14aae0b866f766d6c

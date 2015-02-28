@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst preinst prepare
+DEPEND=net-libs/libpcap sys-libs/ncurses
+DESCRIPTION=An ethernet monitor program that keeps track of ethernet/ip address pairings
+EAPI=5
+HOMEPAGE=http://ee.lbl.gov/
+IUSE=selinux
+KEYWORDS=amd64 hppa ppc sparc x86 ~x86-fbsd
+LICENSE=BSD GPL-2
+RDEPEND=net-libs/libpcap sys-libs/ncurses selinux? ( sec-policy/selinux-arpwatch )
+SLOT=0
+SRC_URI=ftp://ftp.ee.lbl.gov/arpwatch-2.1a15.tar.gz mirror://gentoo/arpwatch-patchset-0.5.tbz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=5222bd7f01a9744115cec66a807fed63

@@ -1,0 +1,17 @@
+# ChangeLog for dev-perl/autovivification
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-perl/autovivification/ChangeLog,v 1.3 2014/08/05 11:34:45 zlogene Exp $
+
+  05 Aug 2014; Mikle Kolyada <zlogene@gentoo.org>
+  autovivification-0.120.0.ebuild:
+  Fix DESCRIPTION
+
+  05 Nov 2013; Patrick Lauer <patrick@gentoo.org>
+  autovivification-0.120.0.ebuild:
+  Whitespace
+
+*autovivification-0.120.0 (05 Nov 2013)
+
+  05 Nov 2013; Manuel Rüger <mrueg@gentoo.org> +autovivification-0.120.0.ebuild,
+  +metadata.xml:
+  Import from perl overlay. New dependency for dev-tex/biber.

@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare setup
+DESCRIPTION=Fully OO graph drawing library for PHP
+EAPI=4
+HOMEPAGE=http://www.aditus.nu/jpgraph/
+IUSE=truetype +examples
+KEYWORDS=alpha amd64 hppa ppc sparc x86
+LICENSE=QPL-1.0
+RDEPEND=truetype? ( media-fonts/corefonts ) dev-lang/php[gd]
+SLOT=0
+SRC_URI=http://hem.bredband.net/jpgraph2/jpgraph-3.0.7.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=5f0b0242d2710311613ab89bfd8fde19

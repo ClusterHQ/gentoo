@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=dvd? ( media-libs/libdvdread ) media-sound/vorbis-tools
+DESCRIPTION=Information, extraction or creation for OGG media streams
+EAPI=2
+HOMEPAGE=http://www.bunkus.org/videotools/ogmtools/
+IUSE=dvd
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=dvd? ( media-libs/libdvdread ) media-sound/vorbis-tools
+SLOT=0
+SRC_URI=http://www.bunkus.org/videotools/ogmtools/ogmtools-1.5.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c5635a67692ef3cf43d96a5e59dcfe43

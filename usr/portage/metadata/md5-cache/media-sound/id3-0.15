@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=changes the id3 tag in an mp3 file
+HOMEPAGE=http://lly.org/~rcw/abcde/page
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://lly.org/~rcw/id3/id3_0.15.orig.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=0985584051435fd3d3add6e4d8b77fc6

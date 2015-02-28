@@ -1,0 +1,1 @@
+|| ( >=sys-apps/groff-1.19.2-r1 app-doc/heirloom-doctools ) !sys-apps/man-db !<app-arch/lzma-4.63 app-arch/xz-utils

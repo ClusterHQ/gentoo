@@ -1,0 +1,2 @@
+/home/core/gentoo/usr/bin/bc libreadline.so.6,libncurses.so.5,libc.so.6
+/home/core/gentoo/usr/bin/dc libc.so.6

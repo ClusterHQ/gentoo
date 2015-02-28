@@ -1,0 +1,14 @@
+ * Package:    virtual/shadow-0
+ * Repository: gentoo_prefix
+ * Maintainer: base-system@gentoo.org
+ * USE:        abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox
+>>> Unpacking source...
+>>> Source unpacked in /home/core/gentoo/var/tmp/portage/virtual/shadow-0/work
+>>> Compiling source in /home/core/gentoo/var/tmp/portage/virtual/shadow-0/work ...
+>>> Source compiled.
+>>> Test phase [not enabled]: virtual/shadow-0
+
+>>> Install shadow-0 into /home/core/gentoo/var/tmp/portage/virtual/shadow-0/image/ category virtual
+>>> Completed installing shadow-0 into /home/core/gentoo/var/tmp/portage/virtual/shadow-0/image/
+

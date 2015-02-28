@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=>=dev-lang/mono-2.10 virtual/pkgconfig userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Visual Basic .NET Runtime and Class Libraries
+EAPI=2
+HOMEPAGE=http://www.mono-project.com/VisualBasic.NET_support
+KEYWORDS=amd64 ppc x86
+LICENSE=LGPL-2 MIT
+RDEPEND=>=dev-lang/mono-2.10
+RESTRICT=test
+SLOT=0
+SRC_URI=http://download.mono-project.com/sources/mono-basic/mono-basic-2.10.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	go-mono	95f4d6f11343dd05b134d8d1d2efd9e0	mono	203a4295c06155d318bdff9c6b2d5e1c	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=c870dbef1b5a141bd4b2be0805285763

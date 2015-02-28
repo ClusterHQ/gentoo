@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=x11-libs/libX11 xft? ( x11-libs/libXft ) xinerama? ( x11-libs/libXinerama ) xft? ( virtual/pkgconfig ) xinerama? ( virtual/pkgconfig )
+DESCRIPTION=a generic, highly customizable, and efficient menu for the X Window System
+EAPI=5
+HOMEPAGE=http://tools.suckless.org/dmenu/
+IUSE=xft xinerama
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~x86 ~x86-fbsd
+LICENSE=MIT
+RDEPEND=x11-libs/libX11 xft? ( x11-libs/libXft ) xinerama? ( x11-libs/libXinerama )
+SLOT=0
+SRC_URI=http://dl.suckless.org/tools/dmenu-4.5.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=9a5cab724680a0ce228a2a11df7ec624

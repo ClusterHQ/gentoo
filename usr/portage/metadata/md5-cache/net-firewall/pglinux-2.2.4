@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst postrm preinst setup
+DEPEND=net-libs/libnetfilter_queue net-libs/libnfnetlink dbus? ( sys-apps/dbus ) zlib? ( sys-libs/zlib ) qt4? ( sys-auth/polkit-qt dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 || ( kde-base/kdesu x11-libs/gksu x11-misc/ktsuss ) ) virtual/pkgconfig sys-devel/libtool:2 >=sys-apps/sed-4 virtual/pkgconfig
+DESCRIPTION=Privacy oriented firewall application
+EAPI=5
+HOMEPAGE=https://sourceforge.net/projects/peerguardian/
+IUSE=cron dbus logrotate networkmanager qt4 zlib
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=net-libs/libnetfilter_queue net-libs/libnfnetlink dbus? ( sys-apps/dbus ) zlib? ( sys-libs/zlib ) qt4? ( sys-auth/polkit-qt dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 || ( kde-base/kdesu x11-libs/gksu x11-misc/ktsuss ) ) net-firewall/iptables sys-apps/sysvinit cron? ( virtual/cron ) logrotate? ( app-admin/logrotate ) networkmanager? ( net-misc/networkmanager )
+REQUIRED_USE=qt4? ( dbus )
+SLOT=0
+SRC_URI=mirror://sourceforge/peerguardian/pgl-2.2.4.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	linux-info	2b8c53f6065bdee2d757472215a3088f	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=76685cdabb169b54d54ff4143e4266c0

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=pppd? ( net-dialup/ppp:= ) virtual/linux-sources virtual/os-headers app-arch/xz-utils >=sys-apps/sed-4
+DESCRIPTION=CAPI4Linux Utils
+EAPI=5
+HOMEPAGE=ftp://ftp.in-berlin.de/pub/capi4linux/
+IUSE=fax +pppd rcapid
+KEYWORDS=~alpha amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=pppd? ( net-dialup/ppp:= ) dev-lang/perl
+SLOT=0/3.0.4
+SRC_URI=ftp://ftp.in-berlin.de/pub/capi4linux/capi4k-utils-2005-07-18.tar.gz ftp://ftp.in-berlin.de/pub/capi4linux/OLD/capi4k-utils-2005-07-18.tar.gz http://sbriesen.de/gentoo/distfiles/capi4k-files-20050718-r5.tar.xz http://sbriesen.de/gentoo/distfiles/capi4k-patches-20050718-r5.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	linux-info	2b8c53f6065bdee2d757472215a3088f	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=0177957e6ebf017b96844c6feb65afb2

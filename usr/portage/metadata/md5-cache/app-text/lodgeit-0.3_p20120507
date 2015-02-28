@@ -1,0 +1,14 @@
+DEFINED_PHASES=install setup unpack
+DEPEND==dev-lang/python-2*
+DESCRIPTION=Command-line interface to paste.pocoo.org
+EAPI=4
+HOMEPAGE=http://paste.pocoo.org/
+IUSE=vim
+KEYWORDS=amd64 x86
+LICENSE=BSD MIT
+RDEPEND=vim? ( || ( app-editors/vim[python] app-editors/gvim[python] ) ) =dev-lang/python-2*
+RESTRICT=test
+SLOT=0
+SRC_URI=https://bitbucket.org/skrattaren/lodgeit-script-gentoo/raw/03a5e8a6d1d4/scripts/lodgeit.py -> lodgeit-0.3_p20120507.py vim? ( http://www.vim.org/scripts/download_script.php?src_id=8848 -> lodgeit-0.3_p20120507.vim )
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=324343a14b96f8d14a650e2eafcab8e5

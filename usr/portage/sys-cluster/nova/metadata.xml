@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <herd>openstack</herd>
+  <maintainer>
+    <email>prometheanfire@gentoo.org</email>
+    <name>Matthew Thode</name>
+  </maintainer>
+  <longdescription lang="en">
+    Nova is a cloud computing fabric controller
+	(the main part of an IaaS system). It is written in Python.
+  </longdescription>
+  <use>
+    <flag name="compute">Installs the initscripts for the nova volume service</flag>
+    <flag name="kvm">qemu-kvm hypervisor support</flag>
+    <flag name="network">Installs the initscripts for the nova network service</flag>
+    <flag name="novncproxy">Installs the initscripts for the nova novncproxy service</flag>
+    <flag name="xen">xen hypervisor support</flag>
+  </use>
+</pkgmetadata>

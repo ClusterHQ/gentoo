@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=media-sound/jack-audio-connection-kit-0.109.2 >=media-libs/alsa-lib-0.9 media-libs/libsamplerate media-libs/libsndfile >=media-libs/phat-0.4 dev-libs/libxml2:2 x11-libs/gtk+:2 gnome-base/libgnomecanvas lash? ( media-sound/lash ) virtual/pkgconfig
+DESCRIPTION=A Midi Controllable Audio Sampler
+EAPI=1
+HOMEPAGE=http://zhevny.com/specimen
+IUSE=lash
+KEYWORDS=~amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=media-sound/jack-audio-connection-kit-0.109.2 >=media-libs/alsa-lib-0.9 media-libs/libsamplerate media-libs/libsndfile >=media-libs/phat-0.4 dev-libs/libxml2:2 x11-libs/gtk+:2 gnome-base/libgnomecanvas lash? ( media-sound/lash )
+SLOT=0
+SRC_URI=http://zhevny.com/specimen/files/specimen-0.5.2-rc3.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=f4153408dfa9d009e56d1550488ed67b

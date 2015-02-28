@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=ssl? ( >=dev-libs/openssl-0.9.6g ) pam? ( virtual/pam ) tcpd? ( sys-apps/tcp-wrappers ) debug? ( dev-libs/dmalloc ) ssl? ( dev-libs/openssl )
+DESCRIPTION=Serial Console Manager
+HOMEPAGE=http://www.conserver.com/
+IUSE=pam ssl tcpd debug ssl
+KEYWORDS=alpha amd64 ia64 ppc sparc x86
+LICENSE=BSD GPL-2
+RDEPEND=ssl? ( >=dev-libs/openssl-0.9.6g ) pam? ( virtual/pam ) tcpd? ( sys-apps/tcp-wrappers ) debug? ( dev-libs/dmalloc )
+SLOT=0
+SRC_URI=ftp://ftp.conserver.com/conserver/conserver-8.1.16.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	pam	5e39d502488dd7c258289b7e4b482342	prefix	21058c21ca48453d771df15500873ede	ssl-cert	6698abb0c28e144e92c4ff1e33341684	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=65a8a3750fd97dee8f85f6e3c43930f6

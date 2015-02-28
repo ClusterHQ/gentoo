@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare unpack
+DEPEND=x11-libs/gtk+:3 dev-libs/libunique:3 dev-libs/libxml2:2 libnotify? ( x11-libs/libnotify ) >=media-libs/gstreamer-0.10.31:0.10 >=media-libs/gst-plugins-base-0.10.31:0.10 media-plugins/gst-plugins-gio:0.10 media-plugins/gst-plugins-meta:0.10[flac?,mp3?,wavpack?] aac? ( media-plugins/gst-plugins-faac:0.10 ) nls? ( virtual/libintl ) >=app-text/gnome-doc-utils-0.17.2 virtual/pkgconfig nls? ( sys-devel/gettext ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool app-arch/xz-utils >=sys-apps/sed-4
+DESCRIPTION=Audio converter for GNOME
+EAPI=4
+HOMEPAGE=http://gnac.sourceforge.net/
+IUSE=aac flac libnotify mp3 nls wavpack linguas_cs linguas_da linguas_de linguas_en_GB linguas_es linguas_gl linguas_fr linguas_he linguas_hu linguas_it linguas_lt linguas_nb linguas_pt_BR linguas_pl linguas_ro linguas_ru linguas_sl linguas_sv linguas_te linguas_tr linguas_zh_CN debug
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=x11-libs/gtk+:3 dev-libs/libunique:3 dev-libs/libxml2:2 libnotify? ( x11-libs/libnotify ) >=media-libs/gstreamer-0.10.31:0.10 >=media-libs/gst-plugins-base-0.10.31:0.10 media-plugins/gst-plugins-gio:0.10 media-plugins/gst-plugins-meta:0.10[flac?,mp3?,wavpack?] aac? ( media-plugins/gst-plugins-faac:0.10 ) nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/gnac/gnac-0.2.4.1.tar.bz2
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	gnome.org	8fef8f967214f56e08fa92d61163d891	gnome2	9637c29fc715b17a6328f24251129557	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=9038344982fff6cae9d85d1f533a8277

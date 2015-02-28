@@ -1,0 +1,1 @@
+|| ( sys-apps/less sys-apps/more sys-apps/most sys-apps/util-linux[ncurses] app-text/lv app-editors/vim[vim-pager] )

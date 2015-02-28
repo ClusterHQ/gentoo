@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst postrm prepare pretend setup unpack
+DEPEND=>=dev-libs/intel-common-13.1[compiler] app-arch/rpm2targz
+DESCRIPTION=Intel C/C++/FORTRAN debugger
+EAPI=5
+HOMEPAGE=http://software.intel.com/en-us/articles/intel-composer-xe/
+IUSE=eclipse examples multilib
+KEYWORDS=-* ~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=Intel-SDP
+RDEPEND=>=dev-libs/intel-common-13.1[compiler] virtual/jre eclipse? ( dev-util/eclipse-sdk )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://registrationcenter-download.intel.com/irc_nas/4220/parallel_studio_xe_2013_sp1_update3.tgz
+_eclasses_=check-reqs	a7f404bfb16e0a996700c5d3ac4edad3	eutils	06133990e861be0fe60c2b428fd025d9	intel-sdp	df7c76937645536165fa786ef03857fe	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=6ee56c334c464651f662f8362c18e0eb

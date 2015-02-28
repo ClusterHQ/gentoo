@@ -1,0 +1,9 @@
+***** automake *****
+***** PWD: /home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3
+***** automake --add-missing --copy --foreign --force-missing
+
+configure.ac:35: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.ac:35: http://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+configure.ac:42: installing 'config/compile'
+configure.ac:35: installing 'config/missing'
+cmd/Makefile.am: installing 'config/depcomp'

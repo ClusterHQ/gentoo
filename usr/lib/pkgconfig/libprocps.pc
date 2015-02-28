@@ -1,0 +1,11 @@
+prefix=/home/core/gentoo/usr
+exec_prefix=/home/core/gentoo
+libdir=/home/core/gentoo/lib
+includedir=${prefix}/include
+
+Name: libprocps
+Description: Library to control and query process state
+Version: 3.3.9
+Libs: -L${libdir} -lprocps
+Libs.private:
+Cflags: -I${includedir}

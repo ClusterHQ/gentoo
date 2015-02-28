@@ -1,0 +1,23 @@
+# ChangeLog for app-editors/diakonos
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-editors/diakonos/ChangeLog,v 1.4 2014/02/22 10:56:27 mrueg Exp $
+
+*diakonos-0.9.2 (22 Feb 2014)
+
+  22 Feb 2014; Manuel Rüger <mrueg@gentoo.org> +diakonos-0.9.2.ebuild,
+  -diakonos-0.9.1-r1.ebuild:
+  Version bump. Cleanup old.
+
+  20 Dec 2013; Manuel Rüger <mrueg@gentoo.org> -diakonos-0.9.1.ebuild:
+  Cleanup old.
+
+*diakonos-0.9.1-r1 (02 Nov 2013)
+
+  02 Nov 2013; Manuel Rüger <mrueg@gentoo.org> +diakonos-0.9.1-r1.ebuild:
+  Add ruby20 target.
+
+*diakonos-0.9.1 (14 Aug 2013)
+
+  14 Aug 2013; Manuel Rüger <mrueg@gentoo.org> +diakonos-0.9.1.ebuild,
+  +metadata.xml:
+  Initial version. Fixes bug #110190

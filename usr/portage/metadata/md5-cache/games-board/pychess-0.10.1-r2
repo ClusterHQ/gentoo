@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DEPEND=dev-python/librsvg-python dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pygobject:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pygtksourceview:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] gstreamer? ( dev-python/gst-python:0.10[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) dev-python/gconf-python x11-themes/gnome-icon-theme >=sys-apps/sed-4 python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite] ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=A chess client for Gnome
+EAPI=5
+HOMEPAGE=http://pychess.googlepages.com/home
+IUSE=gstreamer python_targets_python2_7
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=dev-python/librsvg-python dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pygobject:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pygtksourceview:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] gstreamer? ( dev-python/gst-python:0.10[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) dev-python/gconf-python x11-themes/gnome-icon-theme python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite] ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=http://pychess.googlecode.com/files/pychess-0.10.1.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	distutils-r1	90e7008a7d21e3b1597bea444bb85827	eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multibuild	46527a4656956da3d58acff72c9b59b1	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	python-r1	75e5c82b55dcb208a0a8f4ab8847e731	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=bdbbae5342260423a5b5f53202d13c3e

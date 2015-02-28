@@ -1,0 +1,12 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/File-Temp-0.230.400
+obj /home/core/gentoo/usr/share/doc/File-Temp-0.230.400/Changes.bz2 e3f1be3e58a957e615c3a583e557a931 1410959363
+obj /home/core/gentoo/usr/share/doc/File-Temp-0.230.400/README.bz2 8259be45b13c21a713bc2bf038fdf169 1410959363
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/perl5
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/File
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/File/Temp.pm 42d392eee808579f109684ac09d8649e 1410959363

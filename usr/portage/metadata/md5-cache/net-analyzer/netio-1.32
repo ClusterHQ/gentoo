@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=app-arch/unzip >=sys-apps/sed-4
+DESCRIPTION=a network benchmarking tool that measures net throughput with NetBIOS and TCP/IP protocols
+EAPI=5
+HOMEPAGE=http://www.ars.de/ars/ars.nsf/docs/netio
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+LICENSE=free-noncomm
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://www.ars.de/ARS/ars.nsf/f24a6a0b94c22d82862566960071bf5a/aa577bc4be573b05c125706d004c75b5/$FILE/netio132.zip
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=a52293a6a6668f23cfd21120d8503317

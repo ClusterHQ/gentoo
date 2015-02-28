@@ -1,0 +1,51 @@
+***** 0002-Add-x32-support-to-config.guess.patch *****
+PWD: /home/core/gentoo/var/tmp/portage/sys-devel/gnuconfig-20140728/work
+
+======================================================
+
+PATCH COMMAND:  patch -p0 -g0 -E --no-backup-if-mismatch  < '/home/core/gentoo/var/tmp/portage/sys-devel/gnuconfig-20140728/work/0002-Add-x32-support-to-config.guess.patch'
+
+======================================================
+can't find file to patch at input line 22
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|From c5e163ea6346538d9f5c6c111fd865e92eeb491d Mon Sep 17 00:00:00 2001
+|From: "H.J. Lu" <hongjiu.lu@intel.com>
+|Date: Fri, 20 Dec 2013 14:36:01 -0500
+|Subject: [PATCH] Add x32 support to config.guess
+|
+|GCC on Linux/x86-64 may be configured for x32:
+|
+|https://sites.google.com/site/x32abi/
+|
+|by default and the Linux/x32 target should be x86_64-VENDOR-linux-gnux32.
+|This patch adds x32 support to config.guess.  OK to install?
+|
+|URL: http://gcc.gnu.org/ml/gcc-patches/2012-08/msg01083.html
+|---
+| config.guess | 13 ++++++++++++-
+| 1 file changed, 12 insertions(+), 1 deletion(-)
+|
+|diff --git a/config.guess b/config.guess
+|index 9afd676..8b26ecf 100755
+|--- a/config.guess
+|+++ b/config.guess
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+
+patch program exited with status 1
+======================================================
+
+PATCH COMMAND:  patch -p1 -g0 -E --no-backup-if-mismatch  < '/home/core/gentoo/var/tmp/portage/sys-devel/gnuconfig-20140728/work/0002-Add-x32-support-to-config.guess.patch'
+
+======================================================
+checking file config.guess
+
+patch program exited with status 0
+======================================================
+
+ACTUALLY APPLYING 0002-Add-x32-support-to-config.guess.patch ...
+
+======================================================

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare
+DEPEND=>=app-admin/eselect-emacs-1.16 sys-libs/ncurses amd64? ( abi_x86_x32? ( >=sys-libs/ncurses-5.9-r3[abi_x86_x32(-)] ) !abi_x86_x32? ( || ( >=sys-libs/ncurses-5.9-r3[abi_x86_32(-)] app-emulation/emul-linux-x86-baselibs[development,-abi_x86_32(-)] ) ) ) virtual/pkgconfig
+DESCRIPTION=The extensible self-documenting text editor
+EAPI=5
+HOMEPAGE=http://www.gnu.org/software/emacs/
+IUSE=abi_x86_x32
+KEYWORDS=amd64 x86
+LICENSE=GPL-1+ GPL-2+ BSD
+RDEPEND=>=app-admin/eselect-emacs-1.16 sys-libs/ncurses amd64? ( abi_x86_x32? ( >=sys-libs/ncurses-5.9-r3[abi_x86_x32(-)] ) !abi_x86_x32? ( || ( >=sys-libs/ncurses-5.9-r3[abi_x86_32(-)] app-emulation/emul-linux-x86-baselibs[development,-abi_x86_32(-)] ) ) )
+SLOT=18
+SRC_URI=ftp://ftp.gnu.org/old-gnu/emacs/emacs-18.59.tar.gz ftp://ftp.splode.com/pub/users/friedman/emacs/emacs-18.59-linux22x-elf-glibc21.diff.gz http://dev.gentoo.org/~ulm/emacs/emacs-18.59-patches-8.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7a13bc2362bd2f243b15f5bdbebc7f2e

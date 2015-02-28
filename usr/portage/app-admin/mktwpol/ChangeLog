@@ -1,0 +1,56 @@
+# ChangeLog for app-admin/mktwpol
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-admin/mktwpol/ChangeLog,v 1.13 2014/08/03 18:34:50 ago Exp $
+
+  03 Aug 2014; Agostino Sarubbo <ago@gentoo.org> mktwpol-0.2.4.ebuild:
+  Stable for ppc, wrt bug #509764
+
+  16 Jul 2014; Chema Alonso <nimiux@gentoo.org> mktwpol-0.2.4.ebuild:
+  Stable for amd64 wrt bug #509764
+
+  14 Jun 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> mktwpol-0.2.4.ebuild:
+  x86 stable wrt bug #509764
+
+*mktwpol-0.2.4 (07 Apr 2014)
+
+  07 Apr 2014; Chema Alonso <nimiux@gentoo.org> +mktwpol-0.2.4.ebuild:
+  Version bump
+
+  15 Feb 2014; Chema Alonso <nimiux@gentoo.org> -mktwpol-0.2.0.ebuild,
+  -mktwpol-0.2.2.ebuild:
+  Drop old
+
+*mktwpol-0.2.3 (15 Feb 2014)
+
+  15 Feb 2014; Chema Alonso <nimiux@gentoo.org> +mktwpol-0.2.3.ebuild:
+  Version bump
+
+*mktwpol-0.2.2 (04 Feb 2014)
+
+  04 Feb 2014; Chema Alonso <nimiux@gentoo.org> +mktwpol-0.2.2.ebuild:
+  Version bump
+
+  25 Sep 2013; Chema Alonso <nimiux@gentoo.org> -mktwpol-0.1.5.ebuild:
+  Drop old
+
+*mktwpol-0.2.0 (25 Sep 2013)
+
+  25 Sep 2013; Chema Alonso <nimiux@gentoo.org> +mktwpol-0.2.0.ebuild:
+  Version bump
+
+  18 Sep 2013; Chema Alonso <nimiux@gentoo.org> mktwpol-0.1.5.ebuild:
+  Better description of the package
+
+  18 Sep 2013; Chema Alonso <nimiux@gentoo.org> -mktwpol-0.1.4.ebuild:
+  Drop old
+
+*mktwpol-0.1.5 (16 Sep 2013)
+
+  16 Sep 2013; Chema Alonso <nimiux@gentoo.org> +mktwpol-0.1.5.ebuild:
+  Version bump
+
+*mktwpol-0.1.4 (10 Sep 2013)
+
+  10 Sep 2013; Chema Alonso <nimiux@gentoo.org> +mktwpol-0.1.4.ebuild,
+  +metadata.xml:
+  New ebuild thanks to Chuck Seyboldt <seyboldt@gmail.com>

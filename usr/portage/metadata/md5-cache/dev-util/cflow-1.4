@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare
+DEPEND=emacs? ( virtual/emacs ) nls? ( virtual/libintl virtual/libiconv ) nls? ( sys-devel/gettext )
+DESCRIPTION=C function call hierarchy analyzer
+EAPI=5
+HOMEPAGE=http://www.gnu.org/software/cflow/
+IUSE=debug emacs nls
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-3
+RDEPEND=emacs? ( virtual/emacs ) nls? ( virtual/libintl virtual/libiconv )
+SLOT=0
+SRC_URI=ftp://download.gnu.org.ua/pub/release/cflow/cflow-1.4.tar.bz2
+_eclasses_=elisp-common	1aa23b3de5dae55456fa2071428eb5bf	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ba1b331c3c9f9c9856212b87e9c5dba5

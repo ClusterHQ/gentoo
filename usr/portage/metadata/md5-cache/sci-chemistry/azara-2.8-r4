@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=x11-libs/libX11 x11-libs/motif:0 xpm? ( x11-libs/libXpm ) python? ( =dev-lang/python-2* )
+DESCRIPTION=A suite of programmes to process and view NMR data
+EAPI=3
+HOMEPAGE=http://www.bio.cam.ac.uk/azara/
+IUSE=python xpm X
+KEYWORDS=~amd64 ~x86 ~amd64-linux
+LICENSE=AZARA
+RDEPEND=x11-libs/libX11 x11-libs/motif:0 xpm? ( x11-libs/libXpm ) python? ( =dev-lang/python-2* )
+SLOT=0
+SRC_URI=http://www.bio.cam.ac.uk/ccpn/download/azara/azara-2.8-src.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=acaf58b4a0f2e49d69f1f016dbb9b285

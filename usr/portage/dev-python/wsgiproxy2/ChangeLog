@@ -1,0 +1,39 @@
+# ChangeLog for dev-python/wsgiproxy2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/wsgiproxy2/ChangeLog,v 1.9 2014/07/05 02:48:00 idella4 Exp $
+
+  05 Jul 2014; Ian Delaney <idella4@gentoo.org> wsgiproxy2-0.4.1.ebuild:
+  whitespace
+
+  04 Jul 2014; Ian Delaney <idella4@gentoo.org> wsgiproxy2-0.4.1.ebuild:
+  add missing dep setuptools, fixes Bug #515744
+
+  23 May 2014; Ian Delaney <idella4@gentoo.org> wsgiproxy2-0.4.1.ebuild:
+  drop py2.6, add IUSE doc, doc build, fix everything
+
+*wsgiproxy2-0.4.1 (08 Jan 2014)
+
+  08 Jan 2014; Patrick Lauer <patrick@gentoo.org> +wsgiproxy2-0.4.1.ebuild:
+  Bump
+
+*wsgiproxy2-0.3 (17 Sep 2013)
+
+  17 Sep 2013; Patrick Lauer <patrick@gentoo.org> +wsgiproxy2-0.3.ebuild:
+  Bump
+
+*wsgiproxy2-0.2 (03 Jun 2013)
+
+  03 Jun 2013; Patrick Lauer <patrick@gentoo.org> +wsgiproxy2-0.2.ebuild:
+  Bump
+
+  22 May 2013; Patrick Lauer <patrick@gentoo.org> wsgiproxy2-0.1.ebuild:
+  Readding python-3.3 to python_targets
+
+  22 May 2013; Patrick Lauer <patrick@gentoo.org> wsgiproxy2-0.1.ebuild:
+  Remove python 3.3 until socketpool catches up
+
+*wsgiproxy2-0.1 (20 Mar 2013)
+
+  20 Mar 2013; Patrick Lauer <patrick@gentoo.org> +metadata.xml,
+  +wsgiproxy2-0.1.ebuild:
+  Initial import, test dep of webtest

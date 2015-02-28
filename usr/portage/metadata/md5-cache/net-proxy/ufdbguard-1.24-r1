@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst prepare setup
+DEPEND=dev-libs/openssl app-arch/bzip2 net-misc/wget sys-devel/bison sys-devel/flex
+DESCRIPTION=ufdbGuard is a redirector for the Squid internet proxy
+EAPI=2
+HOMEPAGE=http://www.urlfilterdb.com/en/products/ufdbguard.html
+IUSE=+httpd doc
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/openssl app-arch/bzip2 net-misc/wget sys-apps/openrc
+SLOT=0
+SRC_URI=mirror://sourceforge/ufdbguard/ufdbGuard-1.24.tar.gz doc? ( mirror://sourceforge/ufdbguard/ReferenceManual_v1_24.pdf -> ufdbguard-1.24-manual.pdf )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=159f3cf8d98a85a68b23768ceaf0dee0

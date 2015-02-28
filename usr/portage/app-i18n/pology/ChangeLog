@@ -1,0 +1,28 @@
+# ChangeLog for app-i18n/pology
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-i18n/pology/ChangeLog,v 1.6 2014/08/10 17:52:30 slyfox Exp $
+
+  10 Aug 2014; Sergei Trofimovich <slyfox@gentoo.org> pology-0.11.ebuild,
+  pology-9999.ebuild:
+  QA: drop trailing '.' from DESCRIPTION
+
+  19 Jan 2013; Tomáš Chvátal <scarabeus@gentoo.org> pology-0.11.ebuild:
+  Stable on amd64 and x86.
+
+  18 Jan 2013; Tomáš Chvátal <scarabeus@gentoo.org> pology-0.11.ebuild,
+  pology-9999.ebuild:
+  Fix typo in homepage
+
+  16 Nov 2012; Agostino Sarubbo <ago@gentoo.org> pology-0.11.ebuild:
+  workaround for bug 399061
+
+  03 Aug 2012; Tomáš Chvátal <scarabeus@gentoo.org> pology-0.11.ebuild,
+  pology-9999.ebuild:
+  Whitespace fix.
+
+*pology-9999 (03 Aug 2012)
+*pology-0.11 (03 Aug 2012)
+
+  03 Aug 2012; Tomáš Chvátal <scarabeus@gentoo.org> +pology-0.11.ebuild,
+  +pology-9999.ebuild, +metadata.xml:
+  Initial commit of pology toolkit used to manage and check translations.

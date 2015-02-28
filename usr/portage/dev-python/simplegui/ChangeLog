@@ -1,0 +1,18 @@
+# ChangeLog for dev-python/simplegui
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/simplegui/ChangeLog,v 1.4 2014/06/14 09:34:41 phajdan.jr Exp $
+
+  14 Jun 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> simplegui-0.1.0.ebuild:
+  x86 stable wrt bug #504364
+
+  27 May 2014; Markos Chandras <hwoarang@gentoo.org> simplegui-0.1.0.ebuild:
+  Stable on amd64 wrt bug #504364
+
+  09 Nov 2013; Julian Ospald <hasufell@gentoo.org> simplegui-0.1.0.ebuild:
+  add python3_2 and python3_3 wrt #487412
+
+*simplegui-0.1.0 (08 Oct 2013)
+
+  08 Oct 2013; Julian Ospald <hasufell@gentoo.org> +simplegui-0.1.0.ebuild,
+  +metadata.xml:
+  initial import

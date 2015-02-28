@@ -1,0 +1,29 @@
+# ChangeLog for dev-python/multipledispatch
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/multipledispatch/ChangeLog,v 1.5 2014/09/01 05:40:31 patrick Exp $
+
+*multipledispatch-0.4.6 (01 Sep 2014)
+
+  01 Sep 2014; Patrick Lauer <patrick@gentoo.org>
+  +multipledispatch-0.4.6.ebuild:
+  Bump
+
+*multipledispatch-0.4.5 (13 Aug 2014)
+
+  13 Aug 2014; Ian Delaney <idella4@gentoo.org> +multipledispatch-0.4.5.ebuild:
+  bump, add pypy support
+
+  09 Aug 2014; Ian Delaney <idella4@gentoo.org> multipledispatch-0.4.4.ebuild:
+  add py3.4 support
+
+*multipledispatch-0.4.4 (14 Jul 2014)
+
+  14 Jul 2014; Patrick Lauer <patrick@gentoo.org>
+  +multipledispatch-0.4.4.ebuild:
+  Bump
+
+*multipledispatch-0.4.3 (26 May 2014)
+
+  26 May 2014; Patrick Lauer <patrick@gentoo.org> +metadata.xml,
+  +multipledispatch-0.4.3.ebuild:
+  Initial import, dependency of dev-python/datashape

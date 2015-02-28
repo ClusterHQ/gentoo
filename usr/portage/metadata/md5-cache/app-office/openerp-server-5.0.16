@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile config install postinst postrm preinst prepare setup
+DEPEND=dev-db/postgresql-server dev-python/egenix-mx-base dev-python/lxml dev-python/psycopg dev-python/pychart dev-python/pytz dev-python/pyxml dev-python/pyopenssl dev-python/reportlab media-gfx/pydot dev-libs/libxslt[python] dev-libs/libxml2[python] =dev-lang/python-2*
+DESCRIPTION=Open Source ERP & CRM
+EAPI=3
+HOMEPAGE=http://www.openerp.com/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-db/postgresql-server dev-python/egenix-mx-base dev-python/lxml dev-python/psycopg dev-python/pychart dev-python/pytz dev-python/pyxml dev-python/pyopenssl dev-python/reportlab media-gfx/pydot dev-libs/libxslt[python] dev-libs/libxml2[python] =dev-lang/python-2*
+SLOT=0
+SRC_URI=http://www.openerp.com/download/stable/source/openerp-server-5.0.16.tar.gz
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=cffed4e9fd1dd5ae78bcbc8b2aedf1ec

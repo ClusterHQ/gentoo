@@ -1,0 +1,15 @@
+/home/core/gentoo/usr/bin/gawk libreadline.so.6,libdl.so.2,libm.so.6,libc.so.6
+/home/core/gentoo/usr/lib/misc/awk/grcat libc.so.6
+/home/core/gentoo/usr/lib/misc/awk/pwcat libc.so.6
+/home/core/gentoo/usr/lib/gawk/time.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/readdir.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/readfile.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/fnmatch.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/fork.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/inplace.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/ordchr.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/revtwoway.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/filefuncs.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/testext.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/rwarray.so libc.so.6
+/home/core/gentoo/usr/lib/gawk/revoutput.so libc.so.6

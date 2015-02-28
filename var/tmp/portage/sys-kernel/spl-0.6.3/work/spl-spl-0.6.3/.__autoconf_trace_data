@@ -1,0 +1,6 @@
+configure.ac:30:AC_CONFIG_AUX_DIR:config
+configure.ac:31:AC_CONFIG_MACRO_DIR:config
+configure.ac:35:AM_INIT_AUTOMAKE:$SPL_META_NAME:$SPL_META_VERSION
+configure.ac:36:AC_CONFIG_HEADERS:spl_config.h: (mv spl_config.h spl_config.h.tmp && awk -f ${ac_srcdir}/config/config.awk spl_config.h.tmp >spl_config.h && rm spl_config.h.tmp) || exit 1
+configure.ac:43:AC_PROG_LIBTOOL:
+configure.ac:43:LT_INIT:

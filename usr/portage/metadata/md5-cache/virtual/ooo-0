@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for OpenOffice.org/LibreOffice
+EAPI=4
+IUSE=java
+KEYWORDS=amd64 ~ppc x86
+RDEPEND=|| ( app-office/libreoffice[java?] app-office/libreoffice-bin[java?] app-office/openoffice-bin[java?] )
+SLOT=0
+_md5_=405cf50cb9593276d912a82316b4fe55

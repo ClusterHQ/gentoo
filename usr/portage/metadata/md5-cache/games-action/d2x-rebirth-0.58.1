@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=dev-games/physfs[hog,mvl,zip] media-libs/libsdl[X,sound,joystick,opengl?,video] music? ( media-libs/sdl-mixer[timidity,vorbis] ) opengl? ( virtual/opengl virtual/glu ) app-arch/unzip dev-util/scons
+DESCRIPTION=Descent Rebirth - enhanced Descent 2 engine
+EAPI=5
+HOMEPAGE=http://www.dxx-rebirth.com/
+IUSE=cdinstall debug demo ipv6 linguas_de +music opengl opl3-musicpack sc55-musicpack
+KEYWORDS=~amd64 ~x86
+LICENSE=D1X GPL-2 public-domain
+PDEPEND=cdinstall? ( games-action/descent2-data ) demo? ( games-action/descent2-demodata )
+RDEPEND=dev-games/physfs[hog,mvl,zip] media-libs/libsdl[X,sound,joystick,opengl?,video] music? ( media-libs/sdl-mixer[timidity,vorbis] ) opengl? ( virtual/opengl virtual/glu )
+REQUIRED_USE=?? ( opl3-musicpack sc55-musicpack ) opl3-musicpack? ( music ) sc55-musicpack? ( music )
+SLOT=0
+SRC_URI=https://github.com/dxx-rebirth/dxx-rebirth/archive/0.58.1-d2x.tar.gz -> d2x-rebirth-0.58.1.tar.gz opl3-musicpack? ( http://www.dxx-rebirth.com/download/dxx/res/d2xr-opl3-music.zip ) sc55-musicpack? ( http://www.dxx-rebirth.com/download/dxx/res/d2xr-sc55-music.zip ) linguas_de? ( http://www.dxx-rebirth.com/download/dxx/res/d2xr-briefings-ger.zip )
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	scons-utils	988e24b9e2e4642189b4e97c03e5ae71	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=a733138d662a8adadab44b66f5952048

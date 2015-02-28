@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=sys-apps/groff >=sys-apps/sed-4
+DESCRIPTION=a small null client that forwards mail via QMQP to a full qmail server
+HOMEPAGE=http://www.qmail.org/ http://cr.yp.to/qmail/mini.html
+KEYWORDS=amd64 arm hppa ~mips ppc x86
+LICENSE=public-domain
+RDEPEND=!mail-mta/courier !mail-mta/esmtp !mail-mta/exim !mail-mta/msmtp !mail-mta/netqmail !mail-mta/nullmailer !mail-mta/postfix !mail-mta/qmail-ldap !mail-mta/sendmail !mail-mta/ssmtp !mail-mta/opensmtpd
+SLOT=0
+SRC_URI=mirror://qmail/netqmail-1.05.tar.gz http://www.din.or.jp/~ushijima/mini-qmail-kit/mini-qmail-kit-0.52.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fixheadtails	c6fd1fc49c9dc11924f28a1406f251a0	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=19fb3bacc04461a8994ea88700a1139b

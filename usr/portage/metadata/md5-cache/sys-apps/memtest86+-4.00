@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm preinst prerm unpack
+DEPEND=floppy? ( >=sys-boot/grub-0.95 sys-fs/mtools )
+DESCRIPTION=Memory tester based on memtest86
+HOMEPAGE=http://www.memtest.org/
+IUSE=floppy serial
+KEYWORDS=-* amd64 x86
+LICENSE=GPL-2
+RDEPEND=floppy? ( >=sys-boot/grub-0.95 sys-fs/mtools )
+RESTRICT=test
+SLOT=0
+SRC_URI=http://www.memtest.org/download/4.00/memtest86+-4.00.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	mount-boot	02dd3bb4c5f025fef0fc3ade0f27c217	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=91f52e20b96a326840595c3fa88e250c

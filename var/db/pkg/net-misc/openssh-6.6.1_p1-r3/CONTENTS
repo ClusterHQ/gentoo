@@ -1,0 +1,72 @@
+dir /home/core/gentoo/var
+dir /home/core/gentoo/var/empty
+obj /home/core/gentoo/var/empty/.keep_net-misc_openssh-0 d41d8cd98f00b204e9800998ecf8427e 1410960918
+dir /home/core/gentoo/var/empty/dev
+obj /home/core/gentoo/var/empty/dev/.keep_net-misc_openssh-0 d41d8cd98f00b204e9800998ecf8427e 1410960918
+dir /home/core/gentoo/etc
+dir /home/core/gentoo/etc/conf.d
+obj /home/core/gentoo/etc/conf.d/sshd b35e9f3829f4cfca07168fcba98749c7 1410960918
+dir /home/core/gentoo/etc/ssh
+obj /home/core/gentoo/etc/ssh/moduli d32c183f3027751f040cc438eadfe9b3 1410960917
+obj /home/core/gentoo/etc/ssh/sshd_config 50ea705a42684d05c8b78d1b8da17ed9 1410960918
+obj /home/core/gentoo/etc/ssh/ssh_config 68ec4d0913dd59fa5f2de2920dd9622c 1410960918
+dir /home/core/gentoo/etc/init.d
+obj /home/core/gentoo/etc/init.d/sshd 6d584325731fa94af6ad72b26a7f7d52 1410960919
+dir /home/core/gentoo/etc/skel
+dir /home/core/gentoo/etc/skel/.ssh
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/ssh ee69b8749da98955e9786c52aff66f0f 1410960919
+obj /home/core/gentoo/usr/bin/ssh-keygen 071c73a01e08e1ef116b1e58f306b48f 1410960919
+sym /home/core/gentoo/usr/bin/slogin -> ./ssh 1410960935
+obj /home/core/gentoo/usr/bin/ssh-copy-id 149126a8abc5b1e3df659c4ebb622e94 1410960919
+obj /home/core/gentoo/usr/bin/ssh-keyscan 813aa4a87e625b5c00db95b175473384 1410960919
+obj /home/core/gentoo/usr/bin/scp f4c3c53f5e6c3273a37669e99cc460c4 1410960919
+obj /home/core/gentoo/usr/bin/ssh-agent c0dd205a0f57eeb0f31c6a997752de75 1410960919
+obj /home/core/gentoo/usr/bin/sftp b60c50615b62192f6436442bfe0cb3ed 1410960919
+obj /home/core/gentoo/usr/bin/ssh-add ffbab8c6356a27a75e81428c45512ff7 1410960919
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/systemd
+dir /home/core/gentoo/usr/lib/systemd/system
+obj /home/core/gentoo/usr/lib/systemd/system/sshd.service c26aa19277fc72d0c89ea21d259ef49a 1410960918
+obj /home/core/gentoo/usr/lib/systemd/system/sshd.socket 4735139e66316cdf102cb99d716ad6aa 1410960918
+obj /home/core/gentoo/usr/lib/systemd/system/sshd@.service 67aee1a909e35bd05f0bd9bfaea0f5c6 1410960918
+dir /home/core/gentoo/usr/lib/misc
+obj /home/core/gentoo/usr/lib/misc/ssh-pkcs11-helper 00c24796d39ce756dc893b39eb91480d 1410960919
+obj /home/core/gentoo/usr/lib/misc/sftp-server 54ffcb53f276a2a10ab812b65b646ac8 1410960919
+obj /home/core/gentoo/usr/lib/misc/ssh-keysign a3371ee7e3d7565c284da3036c0aab2c 1410960919
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man8
+obj /home/core/gentoo/usr/share/man/man8/ssh-pkcs11-helper.8.bz2 e6b06431fc8a3e55c31b1bf60520110c 1410960918
+obj /home/core/gentoo/usr/share/man/man8/sftp-server.8.bz2 c0f3c77b6d3c6bfa33c89f5c784c15e9 1410960918
+obj /home/core/gentoo/usr/share/man/man8/ssh-keysign.8.bz2 2a4506989da87b237aefb906bd0b898b 1410960918
+obj /home/core/gentoo/usr/share/man/man8/sshd.8.bz2 d7ed38b54dcb954737ee7dbcebcca101 1410960918
+dir /home/core/gentoo/usr/share/man/man5
+obj /home/core/gentoo/usr/share/man/man5/sshd_config.5.bz2 d9c4dca731a1c66646f22532e1cca1cf 1410960918
+obj /home/core/gentoo/usr/share/man/man5/moduli.5.bz2 8bd85fe74d1542e76a41002cbb2207f6 1410960918
+obj /home/core/gentoo/usr/share/man/man5/ssh_config.5.bz2 335657c2f47cf94aefa4f7ee4590cf5b 1410960918
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/ssh-agent.1.bz2 e6aa85138bec2f0c64f2a713f770bfbd 1410960918
+obj /home/core/gentoo/usr/share/man/man1/ssh-keyscan.1.bz2 a6a1bac99487dfb5bf09092c85407a79 1410960918
+obj /home/core/gentoo/usr/share/man/man1/sftp.1.bz2 3259fb4b81ff0d34b15585485db76039 1410960918
+obj /home/core/gentoo/usr/share/man/man1/ssh-copy-id.1.bz2 46ada36813c3ed3eb988f376df278fb2 1410960918
+obj /home/core/gentoo/usr/share/man/man1/scp.1.bz2 cb3e044f7b068afbc1944b0d01229373 1410960918
+obj /home/core/gentoo/usr/share/man/man1/ssh-keygen.1.bz2 73428c4819b0cab3b8d01a8328c96d28 1410960918
+obj /home/core/gentoo/usr/share/man/man1/ssh.1.bz2 5413e907d5c66d329f014c64ef54df08 1410960918
+sym /home/core/gentoo/usr/share/man/man1/slogin.1.bz2 -> ./ssh.1.bz2 1410960935
+obj /home/core/gentoo/usr/share/man/man1/ssh-add.1.bz2 ad3a4a349fccfa47614cb1021cc2a563 1410960918
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3
+obj /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3/sshd_config.bz2 26256c0e9424b891d0c8527ba2fa50e2 1410960918
+obj /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3/TODO.bz2 cfd032e3c0967aece258e4f5805b51ea 1410960918
+obj /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3/README.platform.bz2 c151b2c606eedfa7b8866741f7ebbb9e 1410960918
+obj /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3/README.bz2 64c3e7137b3de39876ff7d0b393239f2 1410960918
+obj /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3/CREDITS.bz2 30fae9116150e474b323e20b9ad0f321 1410960918
+obj /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3/README.dns.bz2 0936b40a98e8178908d5e1ad3934f4ca 1410960918
+obj /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3/OVERVIEW.bz2 ec9b30826e38f1750abe31095f8f0230 1410960918
+obj /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3/README.tun.bz2 a46d2b664f198fdbf0ab3e6e2340cf8e 1410960918
+obj /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3/README.privsep.bz2 a68035ffdc0c46072fa0c9519a3d0e48 1410960918
+obj /home/core/gentoo/usr/share/doc/openssh-6.6.1_p1-r3/ChangeLog.bz2 6b4ce94dd366628c142e74ab448ad86d 1410960918
+dir /home/core/gentoo/usr/sbin
+obj /home/core/gentoo/usr/sbin/sshd 9619b5e5d321c97b407441cc04e564c2 1410960919

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=sys-libs/zlib mpi? ( virtual/mpi )
+DESCRIPTION=Software for graph, mesh and hypergraph partitioning
+EAPI=4
+HOMEPAGE=http://www.labri.u-bordeaux.fr/perso/pelegrin/scotch/
+IUSE=doc examples int64 mpi static-libs tools
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=CeCILL-2
+RDEPEND=sys-libs/zlib mpi? ( virtual/mpi )
+SLOT=0
+SRC_URI=http://dev.gentooexperimental.org/~patrick/scotch_5.1.12b_esmumps.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=89ffa88b6ea6bc223ee5c7bc64f52c48

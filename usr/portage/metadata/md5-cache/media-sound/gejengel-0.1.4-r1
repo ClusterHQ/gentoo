@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=dev-cpp/gtkmm:2.4 dev-cpp/pangomm:1.4 media-libs/taglib dev-db/sqlite:3 || ( media-gfx/imagemagick[cxx] media-gfx/graphicsmagick[imagemagick] ) mad? ( media-libs/libmad ) flac? ( media-libs/flac[cxx] ) ffmpeg? ( virtual/ffmpeg ) audioscrobbler? ( >=media-libs/lastfmlib-0.4 ) dbus? ( dev-libs/dbus-glib ) libnotify? ( x11-libs/libnotify ) openal? ( media-libs/openal ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio ) dev-libs/libxdg-basedir dev-util/intltool >=sys-devel/automake-1.11
+DESCRIPTION=Lightweight audio player
+EAPI=4
+HOMEPAGE=http://code.google.com/p/gejengel
+IUSE=+alsa audioscrobbler debug dbus +ffmpeg flac libnotify mad openal pulseaudio syslog
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-cpp/gtkmm:2.4 dev-cpp/pangomm:1.4 media-libs/taglib dev-db/sqlite:3 || ( media-gfx/imagemagick[cxx] media-gfx/graphicsmagick[imagemagick] ) mad? ( media-libs/libmad ) flac? ( media-libs/flac[cxx] ) ffmpeg? ( virtual/ffmpeg ) audioscrobbler? ( >=media-libs/lastfmlib-0.4 ) dbus? ( dev-libs/dbus-glib ) libnotify? ( x11-libs/libnotify ) openal? ( media-libs/openal ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio )
+SLOT=0
+SRC_URI=http://gejengel.googlecode.com/files/gejengel-0.1.4.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6a72dc973d73400dec07144d2692e348

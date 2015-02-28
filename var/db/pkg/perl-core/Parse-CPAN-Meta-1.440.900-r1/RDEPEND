@@ -1,0 +1,1 @@
+>=virtual/perl-CPAN-Meta-YAML-0.8.0 >=virtual/perl-JSON-PP-2.272.0 dev-lang/perl:0/5.18=[-build(-)]

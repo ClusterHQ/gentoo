@@ -1,0 +1,14 @@
+#   LZ4 - Fast LZ compression algorithm
+#   Copyright (C) 2011-2014, Yann Collet.
+#   BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+
+prefix=/home/core/gentoo/usr
+libdir=/home/core/gentoo/usr/lib
+includedir=/home/core/gentoo/usr/include
+
+Name: lz4
+Description: fast lossless compression algorithm library
+URL: http://code.google.com/p/lz4/
+Version: 120
+Libs: -L/home/core/gentoo/usr/lib -llz4
+Cflags: -I/home/core/gentoo/usr/include

@@ -1,0 +1,15 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/htop-1.0.3
+obj /home/core/gentoo/usr/share/doc/htop-1.0.3/README.bz2 11494c2a00b6a8a11d28b6257adfac90 1411043748
+obj /home/core/gentoo/usr/share/doc/htop-1.0.3/ChangeLog.bz2 8d354770d0e45d7c469fd504bd285490 1411043748
+dir /home/core/gentoo/usr/share/pixmaps
+obj /home/core/gentoo/usr/share/pixmaps/htop.png 497141ee611796448ebfbb82eab92aba 1411043748
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/htop.1.bz2 a95c7b98e2bc430e59d38f3c5550f9b5 1411043748
+dir /home/core/gentoo/usr/share/applications
+obj /home/core/gentoo/usr/share/applications/htop.desktop 194b840f96d3e6bbf29229811a6195c2 1411043748
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/htop 98e4d294f04fd9b13b92de5f50ab0f0e 1411043749

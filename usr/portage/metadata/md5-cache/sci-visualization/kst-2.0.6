@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=sci-libs/cfitsio sci-libs/getdata sci-libs/gsl sci-libs/netcdf[cxx] dev-qt/qtcore:4 || ( ( >=dev-qt/qtgui-4.8.5:4 dev-qt/designer:4 ) <dev-qt/qtgui-4.8.5:4 ) dev-qt/qtopengl:4 dev-qt/qtsvg:4 test? ( dev-qt/qttest:4 ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Fast real-time large-dataset viewing and plotting tool for KDE4
+EAPI=4
+HOMEPAGE=http://kst.kde.org/
+IUSE=debug test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 LGPL-2 FDL-1.2
+RDEPEND=sci-libs/cfitsio sci-libs/getdata sci-libs/gsl sci-libs/netcdf[cxx] dev-qt/qtcore:4 || ( ( >=dev-qt/qtgui-4.8.5:4 dev-qt/designer:4 ) <dev-qt/qtgui-4.8.5:4 ) dev-qt/qtopengl:4 dev-qt/qtsvg:4
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/kst/kst-2.0.6.tar.gz
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=dc5614c50ef790570d03690271522f1a

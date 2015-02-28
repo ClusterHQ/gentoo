@@ -1,0 +1,14 @@
+# ChangeLog for app-emacs/d-mode
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-emacs/d-mode/ChangeLog,v 1.2 2014/06/07 11:07:52 ulm Exp $
+
+  07 Jun 2014; Ulrich Müller <ulm@gentoo.org> d-mode-2.0.6.ebuild:
+  Remove redundant NEED_EMACS assignment.
+
+*d-mode-2.0.6 (29 Jul 2013)
+
+  29 Jul 2013; Ulrich Müller <ulm@gentoo.org> +d-mode-2.0.6.ebuild,
+  +files/50d-mode-gentoo.el, +metadata.xml:
+  Initial import. Ebuild and site-init file contributed by Martin von Gagern
+  <Martin.vGagern@gmx.net> in bug 474036, with modifications by me.
+

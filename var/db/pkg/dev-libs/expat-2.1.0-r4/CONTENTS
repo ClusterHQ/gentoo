@@ -1,0 +1,33 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/xmlwf.1.bz2 0abea75918692acc208d8119c8d68a7a 1410959838
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/expat-2.1.0-r4
+obj /home/core/gentoo/usr/share/doc/expat-2.1.0-r4/Changes.bz2 f7df32734405a0f9bf340f59e05faf1e 1410959838
+obj /home/core/gentoo/usr/share/doc/expat-2.1.0-r4/README.bz2 69be8ff8f00c36f267e9bb6ccb512cfa 1410959838
+dir /home/core/gentoo/usr/share/doc/expat-2.1.0-r4/html
+obj /home/core/gentoo/usr/share/doc/expat-2.1.0-r4/html/expat.png e3830980289045416d834c0c857cf43d 1410959838
+obj /home/core/gentoo/usr/share/doc/expat-2.1.0-r4/html/reference.html 6a051dbcd7a3d35efd684bfa7dc4e8cb 1410959838
+obj /home/core/gentoo/usr/share/doc/expat-2.1.0-r4/html/style.css 72592bbd454d71c7e8eddcf6e42778e2 1410959838
+obj /home/core/gentoo/usr/share/doc/expat-2.1.0-r4/html/valid-xhtml10.png 9c78657c4fdb176868b18510405a1410 1410959838
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/xmlwf 0e11529c1b09b320a13edf20f2db01a8 1410959839
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/expat_external.h 8e2b8dce543d6ff4cdb37f4a8daabd9e 1410959838
+obj /home/core/gentoo/usr/include/expat.h c63254f83a88d2eb61378dd9ac126ff1 1410959838
+dir /home/core/gentoo/usr/lib
+sym /home/core/gentoo/usr/lib/libexpat.so.1 -> libexpat.so.1.6.0 1410959840
+sym /home/core/gentoo/usr/lib/libexpat.so -> libexpat.so.1.6.0 1410959840
+dir /home/core/gentoo/usr/lib/pkgconfig
+obj /home/core/gentoo/usr/lib/pkgconfig/expat.pc 04b5de036f91dcf44af4595a8596b31d 1410959838
+obj /home/core/gentoo/usr/lib/pkgconfig/expatw.pc 7842844cd6ff865a6f404fee225f1f8b 1410959838
+obj /home/core/gentoo/usr/lib/pkgconfig/expatu.pc 503338b55595542d1d2ced8b830a9ddd 1410959838
+obj /home/core/gentoo/usr/lib/libexpatu.so.1.6.0 4e960c2c2d3bd9c9db2e28f689493f86 1410959839
+sym /home/core/gentoo/usr/lib/libexpatu.so.1 -> libexpatu.so.1.6.0 1410959840
+sym /home/core/gentoo/usr/lib/libexpatw.so -> libexpatw.so.1.6.0 1410959840
+sym /home/core/gentoo/usr/lib/libexpatu.so -> libexpatu.so.1.6.0 1410959840
+obj /home/core/gentoo/usr/lib/libexpatw.so.1.6.0 a167c226d3b43fc584533b5062bf1cbe 1410959839
+sym /home/core/gentoo/usr/lib/libexpatw.so.1 -> libexpatw.so.1.6.0 1410959840
+obj /home/core/gentoo/usr/lib/libexpat.so.1.6.0 d07a78e988a484d2817a246acf594077 1410959839

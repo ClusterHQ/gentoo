@@ -1,0 +1,50 @@
+# ChangeLog for dev-ruby/simple_oauth
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/simple_oauth/ChangeLog,v 1.11 2014/08/05 16:00:28 mrueg Exp $
+
+  05 Aug 2014; Manuel Rüger <mrueg@gentoo.org> simple_oauth-0.2.0-r1.ebuild:
+  Remove trailing '.' from DESCRIPTION.
+
+  11 Jun 2014; Hans de Graaff <graaff@gentoo.org> simple_oauth-0.2.0-r1.ebuild:
+  Add ruby21.
+
+  24 Apr 2014; Manuel Rüger <mrueg@gentoo.org> simple_oauth-0.2.0-r1.ebuild:
+  Remove ruby18 support.
+
+  11 Nov 2013; Manuel Rüger <mrueg@gentoo.org> -simple_oauth-0.1.9.ebuild,
+  -simple_oauth-0.2.0.ebuild:
+  Cleanup old.
+
+*simple_oauth-0.2.0-r1 (09 Oct 2013)
+
+  09 Oct 2013; Manuel Rüger <mrueg@gentoo.org> +simple_oauth-0.2.0-r1.ebuild:
+  Add ruby20 target.
+
+*simple_oauth-0.2.0 (04 Dec 2012)
+
+  04 Dec 2012; Hans de Graaff <graaff@gentoo.org> +simple_oauth-0.2.0.ebuild:
+  Version bump.
+
+  23 Sep 2012; Hans de Graaff <graaff@gentoo.org> -simple_oauth-0.1.5.ebuild,
+  -simple_oauth-0.1.8.ebuild:
+  Cleanup.
+
+*simple_oauth-0.1.9 (13 Aug 2012)
+
+  13 Aug 2012; Diego E. Pettenò <flameeyes@gentoo.org>
+  +simple_oauth-0.1.9.ebuild:
+  Version bump; use the new rspec recipe for tests.
+
+*simple_oauth-0.1.8 (09 Jun 2012)
+
+  09 Jun 2012; Hans de Graaff <graaff@gentoo.org> +simple_oauth-0.1.8.ebuild:
+  Version bump.
+
+  11 Feb 2012; Thomas Kahle <tomka@gentoo.org> simple_oauth-0.1.5.ebuild:
+  marked ~x86 per bug 395971
+
+*simple_oauth-0.1.5 (19 Sep 2011)
+
+  19 Sep 2011; Hans de Graaff <graaff@gentoo.org> +simple_oauth-0.1.5.ebuild,
+  +metadata.xml:
+  Initial import. Dependency of forthcoming faraday_middleware.

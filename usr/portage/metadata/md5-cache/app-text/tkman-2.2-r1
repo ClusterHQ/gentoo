@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=>=app-text/rman-3.1 >=dev-lang/tcl-8.4 >=dev-lang/tk-8.4
+DESCRIPTION=TkMan man and info page browser
+EAPI=5
+HOMEPAGE=http://tkman.sourceforge.net/
+KEYWORDS=~amd64 ppc sparc x86
+LICENSE=Artistic
+RDEPEND=>=app-text/rman-3.1 >=dev-lang/tcl-8.4 >=dev-lang/tk-8.4
+SLOT=0
+SRC_URI=mirror://sourceforge/tkman/tkman-2.2.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=2b5b61e192264d1dd1c8c3c225f0f977

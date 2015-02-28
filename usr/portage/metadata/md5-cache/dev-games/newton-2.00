@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=doc? ( virtual/opengl media-libs/freeglut )
+DESCRIPTION=an integrated solution for real time simulation of physics environments
+HOMEPAGE=http://www.physicsengine.com/
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=newton
+RDEPEND=doc? ( virtual/opengl media-libs/freeglut )
+SLOT=0
+SRC_URI=amd64? ( http://www.newtondynamics.com/downloads/newtonLinux-64-2.00.tar.gz ) x86? ( http://www.newtondynamics.com/downloads/newtonLinux-32-2.00.tar.gz )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=41f1edc79f1f5a0077643628612d8c1b

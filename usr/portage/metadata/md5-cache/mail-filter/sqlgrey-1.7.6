@@ -1,0 +1,12 @@
+DEFINED_PHASES=config install postinst setup unpack
+DEPEND=dev-lang/perl dev-perl/DBI dev-perl/net-server dev-perl/Date-Calc virtual/mailx postgres? ( dev-perl/DBD-Pg ) sqlite? ( dev-perl/DBD-SQLite ) mysql? ( dev-perl/DBD-mysql ) !postgres? ( !mysql? ( !sqlite? ( dev-perl/DBD-Pg ) ) ) sys-apps/sed
+DESCRIPTION=SQLgrey is a postfix policy service implementing a grey-listing policy
+HOMEPAGE=http://sqlgrey.sourceforge.net/
+IUSE=mysql postgres sqlite
+KEYWORDS=amd64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl dev-perl/DBI dev-perl/net-server dev-perl/Date-Calc virtual/mailx postgres? ( dev-perl/DBD-Pg ) sqlite? ( dev-perl/DBD-SQLite ) mysql? ( dev-perl/DBD-mysql ) !postgres? ( !mysql? ( !sqlite? ( dev-perl/DBD-Pg ) ) )
+SLOT=0
+SRC_URI=mirror://sourceforge/sqlgrey/sqlgrey-1.7.6.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=79ad34c8be682fe73e3075e0f31e891a

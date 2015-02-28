@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=net-libs/libident sys-apps/tcp-wrappers ruby_targets_ruby19? ( dev-lang/ruby:1.9 )
+DESCRIPTION=A TCP wrappers library for Ruby
+EAPI=2
+HOMEPAGE=http://raa.ruby-lang.org/list.rhtml?name=ruby-tcpwrap
+IUSE=elibc_FreeBSD ruby_targets_ruby19
+KEYWORDS=amd64 ~hppa ~mips ~ppc x86
+LICENSE=BSD
+RDEPEND=net-libs/libident sys-apps/tcp-wrappers ruby_targets_ruby19? ( dev-lang/ruby:1.9 )
+SLOT=0
+SRC_URI=http://shugo.net/archive/ruby-tcpwrap/ruby-tcpwrap-0.6.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	ruby-ng	14f0490e24cbad7c17cece628b3d111e	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=0222fe786caae5807b7c07a1e8be7421

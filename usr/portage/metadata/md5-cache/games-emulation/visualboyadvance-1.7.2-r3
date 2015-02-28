@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/libpng media-libs/libsdl sys-libs/zlib[minizip] gtk? ( >=x11-libs/gtk+-2.4:2 >=dev-cpp/gtkmm-2.4:2.4 >=dev-cpp/libglademm-2.4:2.4 ) nls? ( virtual/libintl ) virtual/pkgconfig mmx? ( dev-lang/nasm ) nls? ( sys-devel/gettext ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=gameboy, gameboy color, and gameboy advance emulator
+EAPI=2
+HOMEPAGE=http://vba.ngemu.com/
+IUSE=gtk mmx nls
+KEYWORDS=amd64 ppc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng media-libs/libsdl sys-libs/zlib[minizip] gtk? ( >=x11-libs/gtk+-2.4:2 >=dev-cpp/gtkmm-2.4:2.4 >=dev-cpp/libglademm-2.4:2.4 ) nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/vba/VisualBoyAdvance-src-1.7.2.tar.gz mirror://gentoo/visualboyadvance-1.7.2-deprecatedsigc++.patch.bz2
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	games	dac10eff8e85525db38b099d348fb26d	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=54c4f1a491c84f6733ca6e2f6855d00b

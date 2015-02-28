@@ -1,0 +1,22 @@
+# ChangeLog for dev-haskell/happstack-server
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/happstack-server/ChangeLog,v 1.4 2014/07/25 09:16:32 slyfox Exp $
+
+  25 Jul 2014; Sergei Trofimovich <slyfox@gentoo.org>
+  happstack-server-7.1.7.1.ebuild, happstack-server-7.3.1.ebuild:
+  Drop trailing '.' from description.
+
+  25 Jul 2014; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml:
+  Drop redundant '<maintainer>' field, leave only '<herd>'.
+
+*happstack-server-7.3.1 (20 Oct 2013)
+
+  20 Oct 2013; Mark Wright <gienah@gentoo.org> +happstack-server-7.3.1.ebuild,
+  metadata.xml:
+  Bump happstack-server to 7.3.1
+
+*happstack-server-7.1.7.1 (20 Jun 2013)
+
+  20 Jun 2013; Alexander Vershilov <qnikst@gentoo.org>
+  +happstack-server-7.1.7.1.ebuild, +metadata.xml:
+  add 7.1.7.1 due to #473858

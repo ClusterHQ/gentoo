@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=dev-python/pyode dev-python/pygame dev-python/pyopengl =dev-lang/python-2*
+DESCRIPTION=Fast-paced, 3D, first-person shoot/dodge-'em-up, in the vain of Tempest or n2o
+EAPI=2
+HOMEPAGE=http://accelerator3d.sourceforge.net/
+KEYWORDS=~amd64 x86 ~x86-fbsd
+LICENSE=Artistic
+RDEPEND=dev-python/pyode dev-python/pygame dev-python/pyopengl =dev-lang/python-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/accelerator3d/accelerator-0.1.1.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=edd2c4451a6fef4001e89b00ee974b2c

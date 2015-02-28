@@ -1,0 +1,58 @@
+# ChangeLog for dev-python/django-debug-toolbar
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/django-debug-toolbar/ChangeLog,v 1.10 2014/08/27 08:55:39 maksbotan Exp $
+
+*django-debug-toolbar-1.2.1 (27 Aug 2014)
+
+  27 Aug 2014; Maxim Koltsov <maksbotan@gentoo.org>
+  +django-debug-toolbar-1.2.1.ebuild:
+  Bump to 1.2.1. Fix tests exclusion, remove OS X fork file removal as they do
+  not exist anymore, drop 2.6 and 3.2, add 3.4
+
+  03 Mar 2014; Ultrabug <ultrabug@gentoo.org>
+  django-debug-toolbar-0.10.2.ebuild, django-debug-toolbar-0.11.0.ebuild:
+  fix IUSE examples usage
+
+*django-debug-toolbar-0.11.0 (23 Jan 2014)
+*django-debug-toolbar-0.10.2 (23 Jan 2014)
+
+  23 Jan 2014; Ian Delaney <idella4@gentoo.org>
+  +django-debug-toolbar-0.10.2.ebuild, +django-debug-toolbar-0.11.0.ebuild,
+  -django-debug-toolbar-0.9.4-r1.ebuild, django-debug-toolbar-0.10.0.ebuild:
+  -0.10.2: add missing dep for doc build, bumps: -0.11.0; update deps, rm tests
+  folder (prior to install) due to file collisions
+
+*django-debug-toolbar-0.10.0 (23 Jan 2014)
+
+  23 Jan 2014; Ian Delaney <idella4@gentoo.org>
+  +django-debug-toolbar-0.10.0.ebuild:
+  bump: add py3 support, update deps, add IUSE doc, doc build and install,
+  update test phase
+
+  31 May 2013; Mike Gilbert <floppym@gentoo.org>
+  django-debug-toolbar-0.9.4-r1.ebuild:
+  Use github tarball and make python_test do something useful.
+
+*django-debug-toolbar-0.9.4-r1 (21 May 2013)
+
+  21 May 2013; Ian Delaney <idella4@gentoo.org>
+  +django-debug-toolbar-0.9.4-r1.ebuild, -django-debug-toolbar-0.9.4.ebuild:
+  revbump, migrate -> distutils-r1, drop old ebuild, fix to test phase
+
+  10 Jan 2013; Ian Delaney <idella4@gentoo.org>
+  django-debug-toolbar-0.9.4.ebuild:
+  Enhanced install phase to rm OSX forkfiles, fixes Bug #450880 by Flameeyes
+
+  14 Nov 2012; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  Updating maintainer, metadata.xml
+
+  19 May 2012; Theo Chatzimichos <tampakrap@gentoo.org>
+  django-debug-toolbar-0.9.4.ebuild:
+  test phase reduced/simplified, by idella4
+
+*django-debug-toolbar-0.9.4 (25 Apr 2012)
+
+  25 Apr 2012; Theo Chatzimichos <tampakrap@gentoo.org>
+  +django-debug-toolbar-0.9.4.ebuild,
+  +files/django-debug-toolbar-0.9.4-fix-with-py2.5.patch, +metadata.xml:
+  Initial commit, ebuild by idella4

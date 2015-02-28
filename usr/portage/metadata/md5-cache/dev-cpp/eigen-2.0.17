@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=examples? ( dev-qt/qtgui:4 dev-qt/qtopengl:4 ) doc? ( app-doc/doxygen ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=C++ template library for linear algebra: vectors, matrices, and related algorithms
+EAPI=4
+HOMEPAGE=http://eigen.tuxfamily.org/
+IUSE=debug doc examples
+KEYWORDS=alpha amd64 ~arm ~hppa ia64 ppc ppc64 sparc x86 ~amd64-fbsd ~amd64-linux ~x86-linux
+LICENSE=GPL-3
+RDEPEND=examples? ( dev-qt/qtgui:4 dev-qt/qtopengl:4 ) !dev-cpp/eigen:0
+RESTRICT=test
+SLOT=2
+SRC_URI=https://bitbucket.org/eigen/eigen/get/2.0.17.tar.bz2 -> eigen-2.0.17.tar.bz2
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=0af487b49e3001a84f8360e83b8d600f

@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm prepare
+DEPEND=app-arch/unzip =dev-lang/python-2*
+DESCRIPTION=A Python wrapper for the Amazon web API
+EAPI=3
+HOMEPAGE=http://www.josephson.org/projects/pyamazon
+KEYWORDS=~amd64
+LICENSE=PSF-2
+RDEPEND==dev-lang/python-2*
+SLOT=0
+SRC_URI=http://www.josephson.org/projects/pyamazon/files/pyamazon-0.65.zip
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6f67a4ff748531d1f470f25563923663

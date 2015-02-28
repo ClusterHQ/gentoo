@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst postrm prepare
+DEPEND=>=dev-libs/libgringotts-1.2 >=x11-libs/gtk+-2.12:2 dev-libs/popt sys-devel/gettext virtual/pkgconfig
+DESCRIPTION=Utility that allows you to jot down sensitive data
+EAPI=2
+HOMEPAGE=http://gringotts.berlios.de/
+IUSE=suid
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libgringotts-1.2 >=x11-libs/gtk+-2.12:2 dev-libs/popt
+SLOT=0
+SRC_URI=mirror://berlios/gringotts/gringotts-1.2.10.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c5d4fa757ba4bfc1230e8bb5161ef456

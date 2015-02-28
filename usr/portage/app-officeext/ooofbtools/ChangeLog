@@ -1,0 +1,44 @@
+# ChangeLog for app-officeext/ooofbtools
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-officeext/ooofbtools/ChangeLog,v 1.8 2014/07/27 10:54:43 phajdan.jr Exp $
+
+  26 Jul 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  ooofbtools-2.26-r1.ebuild:
+  x86 stable wrt bug #509594
+
+*ooofbtools-2.26-r1 (04 Apr 2014)
+
+  04 Apr 2014; Sergey Popov <pinkbyte@gentoo.org> -ooofbtools-2.26.ebuild,
+  +ooofbtools-2.26-r1.ebuild:
+  Revision bump: install documentation properly, wrt bug #497992. Thanks to
+  Sergey Starikoff <Ikonta AT yandex.ru>, who discovered this issue. Drop old
+  revision
+
+  04 Apr 2014; Sergey Popov <pinkbyte@gentoo.org> ooofbtools-2.12.ebuild,
+  ooofbtools-2.26.ebuild:
+  QA: add missing dependency on app-arch/p7zip, needed for proper archive
+  unpacking, drop redundant empty IUSE
+
+*ooofbtools-2.26 (27 Mar 2014)
+
+  27 Mar 2014; Tomáš Chvátal <scarabeus@gentoo.org> +ooofbtools-2.26.ebuild,
+  -ooofbtools-2.25.ebuild:
+  Version bump to 2.26. Fixes bug#505084.
+
+  25 Feb 2014; Tomáš Chvátal <scarabeus@gentoo.org> ooofbtools-2.25.ebuild:
+  Fix install phase wrt bug#497992.
+
+*ooofbtools-2.25 (29 Dec 2013)
+
+  29 Dec 2013; Tomáš Chvátal <scarabeus@gentoo.org> +ooofbtools-2.25.ebuild,
+  ooofbtools-2.12.ebuild:
+  Version bump to 2.25 wrt bug#492654
+
+  27 Apr 2013; Tomáš Chvátal <scarabeus@gentoo.org> ooofbtools-2.12.ebuild:
+  Stabilise on amd64 and x86.
+
+*ooofbtools-2.12 (29 Mar 2013)
+
+  29 Mar 2013; Tomáš Chvátal <scarabeus@gentoo.org> +ooofbtools-2.12.ebuild,
+  +metadata.xml:
+  Initial commit of this extension wrt bug#463536.

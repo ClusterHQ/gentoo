@@ -1,0 +1,1 @@
+export EXTRA_ECONF="--with-lib-path=/home/core/gentoo/usr/lib:/home/core/gentoo/lib"

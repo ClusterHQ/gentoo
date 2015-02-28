@@ -1,0 +1,13 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/CPAN-Meta-Requirements-2.125.0-r1
+obj /home/core/gentoo/usr/share/doc/CPAN-Meta-Requirements-2.125.0-r1/README.bz2 7f7d2e1f307d15ed8e0a02f17fe5d974 1410959468
+obj /home/core/gentoo/usr/share/doc/CPAN-Meta-Requirements-2.125.0-r1/Changes.bz2 a1727daba6dbe3da5487fb4b4d8d1c17 1410959468
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/perl5
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN/Meta
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN/Meta/Requirements.pm 4f4c386cc9083e0e5357f15505eec152 1410959468

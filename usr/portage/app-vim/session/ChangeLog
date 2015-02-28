@@ -1,0 +1,72 @@
+# ChangeLog for app-vim/session
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-vim/session/ChangeLog,v 1.14 2014/06/26 06:28:30 radhermit Exp $
+
+*session-2.4.14 (26 Jun 2014)
+
+  26 Jun 2014; Tim Harder <radhermit@gentoo.org> +session-2.4.14.ebuild:
+  Version bump.
+
+*session-2.4.9 (04 Nov 2013)
+
+  04 Nov 2013; Tim Harder <radhermit@gentoo.org> +session-2.4.9.ebuild:
+  Version bump.
+
+*session-2.4.8 (01 Sep 2013)
+
+  01 Sep 2013; Tim Harder <radhermit@gentoo.org> +session-2.4.8.ebuild:
+  Version bump.
+
+  03 Aug 2012; Tim Harder <radhermit@gentoo.org> -session-1.4.11.ebuild,
+  -session-1.4.16.ebuild, -session-1.4.21.ebuild:
+  Remove old.
+
+*session-1.5 (03 Aug 2012)
+
+  03 Aug 2012; Tim Harder <radhermit@gentoo.org> +session-1.5.ebuild:
+  Version bump.
+
+*session-1.4.22 (17 Nov 2011)
+
+  17 Nov 2011; Tim Harder <radhermit@gentoo.org> +session-1.4.22.ebuild:
+  Version bump.
+
+*session-1.4.21 (13 Nov 2011)
+
+  13 Nov 2011; Tim Harder <radhermit@gentoo.org> +session-1.4.21.ebuild:
+  Version bump.
+
+*session-1.4.16 (19 Sep 2011)
+
+  19 Sep 2011; Tim Harder <radhermit@gentoo.org> -session-1.4.9-r1.ebuild,
+  +session-1.4.16.ebuild:
+  Version bump and remove old.
+
+  02 Sep 2011; Tim Harder <radhermit@gentoo.org> session-1.4.11.ebuild:
+  Update xolox-misc dependency.
+
+*session-1.4.11 (02 Sep 2011)
+
+  02 Sep 2011; Tim Harder <radhermit@gentoo.org> +session-1.4.11.ebuild:
+  Version bump.
+
+  31 Aug 2011; Tim Harder <radhermit@gentoo.org> -session-1.4.6.ebuild,
+  -session-1.4.9.ebuild:
+  Remove old.
+
+*session-1.4.9-r1 (31 Aug 2011)
+
+  31 Aug 2011; Tim Harder <radhermit@gentoo.org> +session-1.4.9-r1.ebuild:
+  Revision bump. Add dependency on external xolox-misc scripts.
+
+*session-1.4.9 (25 Jun 2011)
+
+  25 Jun 2011; Tim Harder <radhermit@gentoo.org> +session-1.4.9.ebuild:
+  Version bump. Use github tarball.
+
+*session-1.4.6 (10 Jun 2011)
+
+  10 Jun 2011; Tim Harder <radhermit@gentoo.org> +session-1.4.6.ebuild,
+  +metadata.xml:
+  Initial import.
+

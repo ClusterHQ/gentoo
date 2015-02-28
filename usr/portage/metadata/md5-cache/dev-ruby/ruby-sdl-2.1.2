@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test unpack
+DEPEND=>=media-libs/libsdl-1.2.5 truetype? ( >=media-libs/sdl-ttf-2.0.6 ) image? ( >=media-libs/sdl-image-1.2.2 ) mixer? ( >=media-libs/sdl-mixer-1.2.4 ) mpeg? ( >=media-libs/smpeg-0.4.4-r1 ) sge? ( media-libs/sge ) ruby_targets_ruby19? ( dev-lang/ruby:1.9 )
+DESCRIPTION=Ruby/SDL: Ruby bindings for SDL
+EAPI=5
+HOMEPAGE=http://www.kmc.gr.jp/~ohai/rubysdl.en.html
+IUSE=image mixer truetype mpeg sge elibc_FreeBSD ruby_targets_ruby19
+KEYWORDS=amd64 ~ppc x86
+LICENSE=LGPL-2.1
+RDEPEND=>=media-libs/libsdl-1.2.5 truetype? ( >=media-libs/sdl-ttf-2.0.6 ) image? ( >=media-libs/sdl-image-1.2.2 ) mixer? ( >=media-libs/sdl-mixer-1.2.4 ) mpeg? ( >=media-libs/smpeg-0.4.4-r1 ) sge? ( media-libs/sge ) ruby_targets_ruby19? ( dev-lang/ruby:1.9 )
+REQUIRED_USE=|| ( ruby_targets_ruby19 )
+SLOT=0
+SRC_URI=mirror://rubyforge/rubysdl/rubysdl-2.1.2.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	ruby-ng	14f0490e24cbad7c17cece628b3d111e	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=5fc4d170d57a6befc71c68138b205485

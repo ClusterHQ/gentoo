@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=media-libs/libao net-libs/gnutls dev-libs/libgcrypt:0= dev-libs/json-c >=virtual/ffmpeg-9 virtual/pkgconfig >=dev-vcs/git-1.8.2.1
+DESCRIPTION=A console-based replacement for Pandora's flash player
+EAPI=5
+HOMEPAGE=http://6xq.net/projects/pianobar/
+IUSE=static-libs
+LICENSE=MIT
+RDEPEND=media-libs/libao net-libs/gnutls dev-libs/libgcrypt:0= dev-libs/json-c >=virtual/ffmpeg-9
+SLOT=0
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	git-r3	6ebae45064cb04482f3c702632dd9528	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4a4689595ca8ba2cebfbccf322e414f6

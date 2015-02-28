@@ -1,0 +1,5 @@
+ * Package:    sys-libs/ncurses-5.9-r3
+ * Repository: gentoo_prefix
+ * Maintainer: base-system@gentoo.org
+ * USE:        abi_x86_64 amd64 cxx elibc_glibc kernel_linux prefix unicode userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox

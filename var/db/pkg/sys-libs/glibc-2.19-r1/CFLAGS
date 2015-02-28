@@ -1,0 +1,1 @@
+-pipe -pipe -O2 -fno-strict-aliasing

@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst postrm preinst setup test unpack
+DEPEND=!build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 )
+DESCRIPTION=Full sources including Linux-VServer patchsets for the 3.9 kernel tree
+EAPI=5
+HOMEPAGE=http://www.gentoo.org/proj/en/vps/
+IUSE=symlink build
+KEYWORDS=~amd64 ~hppa ~x86
+LICENSE=GPL-2 freedist
+PDEPEND=!build? ( virtual/dev-manager )
+RDEPEND=!build? ( >=sys-libs/ncurses-5.2 sys-devel/make dev-lang/perl sys-devel/bc )
+RESTRICT=binchecks strip
+SLOT=2.3.6.5
+SRC_URI=mirror://kernel/linux/kernel/v3.x/patch-3.9.10.xz mirror://kernel/linux/kernel/v3.x/linux-3.9.tar.xz http://vserver.13thfloor.at/Experimental/patch-3.9.10-vs2.3.6.5.diff
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	kernel-2	e499b064415eae70e307c8c4edcca831	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=f24852dded17feb09d759e5538ec59bf

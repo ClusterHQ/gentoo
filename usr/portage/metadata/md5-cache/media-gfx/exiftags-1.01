@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Extracts JPEG EXIF headers from digital camera photos
+HOMEPAGE=http://johnst.org/sw/exiftags/
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://johnst.org/sw/exiftags/exiftags-1.01.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ccc558baf15fc8f8e15c5bf7f0cf66ad

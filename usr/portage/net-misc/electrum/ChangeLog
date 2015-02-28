@@ -1,0 +1,112 @@
+# ChangeLog for net-misc/electrum
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-misc/electrum/ChangeLog,v 1.23 2014/03/17 21:15:47 blueness Exp $
+
+*electrum-1.9.8 (17 Mar 2014)
+
+  17 Mar 2014; Anthony G. Basile <blueness@gentoo.org> +electrum-1.9.8.ebuild:
+  Version bump
+
+  26 Jan 2014; Anthony G. Basile <blueness@gentoo.org> electrum-1.7.4.ebuild,
+  electrum-1.8.1.ebuild, electrum-1.9.7.ebuild:
+  Fix python deps, bug #494368
+
+  18 Jan 2014; Anthony G. Basile <blueness@gentoo.org>
+  +files/electrum.desktop-1.9.7.patch, +files/setup.py-1.9.7.patch,
+  -files/electrum.desktop-1.9.6.patch, -files/setup.py-1.9.6.patch:
+  Fix patches for 1.9.7
+
+*electrum-1.9.7 (18 Jan 2014)
+
+  18 Jan 2014; Anthony G. Basile <blueness@gentoo.org> +electrum-1.9.7.ebuild,
+  -electrum-1.9.6.ebuild, metadata.xml:
+  Version bump
+
+  17 Dec 2013; Anthony G. Basile <blueness@gentoo.org> ChangeLog:
+  Fix gpg signiture on Manifest
+
+*electrum-1.9.6 (17 Dec 2013)
+
+  17 Dec 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.9.6.ebuild,
+  +files/electrum.desktop-1.9.6.patch, +files/setup.py-1.9.6.patch,
+  -electrum-1.9.3.ebuild, -electrum-1.9.4.ebuild:
+  Version bump, remove older broken 1.9.x
+
+*electrum-1.9.4 (13 Nov 2013)
+
+  13 Nov 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.9.4.ebuild:
+  Version bump
+
+*electrum-1.9.3 (12 Nov 2013)
+
+  12 Nov 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.9.3.ebuild,
+  -electrum-1.9.2.ebuild:
+  Version bump
+
+  06 Nov 2013; Anthony G. Basile <blueness@gentoo.org> -electrum-1.7.3.ebuild,
+  -electrum-1.8.ebuild, -electrum-1.9.ebuild:
+  Remove older unstable
+
+*electrum-1.9.2 (06 Nov 2013)
+
+  06 Nov 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.9.2.ebuild:
+  Version bump
+
+*electrum-1.9 (05 Nov 2013)
+
+  05 Nov 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.9.ebuild:
+  Version bump
+
+*electrum-1.8.1 (14 Aug 2013)
+
+  14 Aug 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.8.1.ebuild:
+  Version bump, bug #480976
+
+*electrum-1.8 (02 Jun 2013)
+
+  02 Jun 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.8.ebuild:
+  Version bump
+
+  15 May 2013; Anthony G. Basile <blueness@gentoo.org> ChangeLog:
+  Fix failed gpg signing of Manifest
+
+  15 May 2013; Anthony G. Basile <blueness@gentoo.org> -electrum-1.0.ebuild,
+  -electrum-1.6.2.ebuild, -electrum-1.7.2.ebuild, -electrum-1.7.ebuild:
+  Remove older unstable
+
+*electrum-1.7.4 (15 May 2013)
+
+  15 May 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.7.4.ebuild:
+  Version bump
+
+*electrum-1.7.3 (14 Apr 2013)
+
+  14 Apr 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.7.3.ebuild:
+  Version bump
+
+*electrum-1.7.2 (25 Mar 2013)
+
+  25 Mar 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.7.2.ebuild:
+  Version bump
+
+  22 Mar 2013; Anthony G. Basile <blueness@gentoo.org> electrum-1.7.ebuild:
+  Fix files deleted for USE=qt or gtk, thanks Maks Verver, bug #462532
+
+*electrum-1.7 (19 Mar 2013)
+
+  19 Mar 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.7.ebuild:
+  Version bump
+
+  17 Mar 2013; Markos Chandras <hwoarang@gentoo.org> metadata.xml:
+  Add proxy-maintainers to metadata.xml
+
+*electrum-1.6.2 (12 Feb 2013)
+
+  12 Feb 2013; Anthony G. Basile <blueness@gentoo.org> +electrum-1.6.2.ebuild:
+  Version bump, bug #452932
+
+*electrum-1.0 (16 Sep 2012)
+
+  16 Sep 2012; Anthony G. Basile <blueness@gentoo.org> +electrum-1.0.ebuild,
+  +metadata.xml:
+  Initial commit

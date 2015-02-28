@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=app-arch/bzip2 dev-libs/tinyxml media-libs/freetype:2 sys-libs/zlib virtual/opengl x11-libs/gtk+:2 x11-libs/wxGTK:2.8[X] gps? ( >=sci-geosciences/gpsd-2.96-r1 ) sys-devel/gettext sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=a free, open source software for marine navigation
+EAPI=4
+HOMEPAGE=http://opencpn.org/
+IUSE=gps
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=app-arch/bzip2 dev-libs/tinyxml media-libs/freetype:2 sys-libs/zlib virtual/opengl x11-libs/gtk+:2 x11-libs/wxGTK:2.8[X] gps? ( >=sci-geosciences/gpsd-2.96-r1 )
+SLOT=0
+SRC_URI=http://opencpn.org/ocpn/downloads/beta/OpenCPN-3.0.2-Source.tar.gz
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	wxwidgets	6d6eec2685256d35511e7b6d5461bec9
+_md5_=3f05194ba6a712a55af643b3b8023006

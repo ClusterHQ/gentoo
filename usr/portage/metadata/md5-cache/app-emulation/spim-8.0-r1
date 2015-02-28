@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=X? ( media-fonts/font-adobe-100dpi x11-libs/libXaw x11-libs/libXp ) X? ( x11-misc/imake x11-proto/xproto ) >=sys-apps/sed-4 sys-devel/bison
+DESCRIPTION=MIPS Simulator
+EAPI=3
+HOMEPAGE=http://spimsimulator.sourceforge.net/
+IUSE=doc X
+KEYWORDS=amd64 ppc ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+LICENSE=BSD
+RDEPEND=X? ( media-fonts/font-adobe-100dpi x11-libs/libXaw x11-libs/libXp )
+SLOT=0
+SRC_URI=http://www.cs.wisc.edu/~larus/SPIM/spim-8.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=9c7e5636a9a9db5db5a105f4f121e019

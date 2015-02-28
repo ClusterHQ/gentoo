@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup
+DEPEND=app-text/iso-codes dev-python/lxml dev-python/python-levenshtein sys-devel/gettext html? ( dev-python/utidylib ) ical? ( dev-python/vobject ) ini? ( dev-python/iniparse ) dev-python/sphinx || ( =dev-lang/python-2.7* =dev-lang/python-2.6* ) || ( =dev-lang/python-2.7*[sqlite] =dev-lang/python-2.6*[sqlite] )
+DESCRIPTION=Toolkit to convert between many translation formats
+EAPI=3
+HOMEPAGE=http://translate.sourceforge.net
+IUSE=doc +html +ical +ini +subtitles
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=app-text/iso-codes dev-python/lxml dev-python/python-levenshtein sys-devel/gettext html? ( dev-python/utidylib ) ical? ( dev-python/vobject ) ini? ( dev-python/iniparse ) dev-python/sphinx || ( =dev-lang/python-2.7* =dev-lang/python-2.6* ) || ( =dev-lang/python-2.7*[sqlite] =dev-lang/python-2.6*[sqlite] )
+SLOT=0
+SRC_URI=mirror://sourceforge/translate/translate-toolkit-1.10.0.tar.bz2
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c874c9eee582335d6737c1091cdecb4d

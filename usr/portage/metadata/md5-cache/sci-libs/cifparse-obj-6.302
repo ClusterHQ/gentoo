@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-devel/bison sys-devel/flex
+DESCRIPTION=Provides an object-oriented application interface to information in mmCIF format
+HOMEPAGE=http://sw-tools.pdb.org/apps/CIFPARSE-OBJ/index.html
+KEYWORDS=~amd64 ppc x86
+LICENSE=PDB
+SLOT=0
+SRC_URI=http://sw-tools.pdb.org/apps/CIFPARSE-OBJ/cifparse-obj-v6.302-prod-src.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=079c54cd25e975eb79b81d32f521d2b4

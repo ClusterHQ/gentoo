@@ -1,0 +1,1 @@
+sys-libs/zlib sys-devel/gettext virtual/libiconv >=dev-libs/gmp-4.3.2 >=dev-libs/mpfr-2.4.2 >=dev-libs/mpc-0.8.1

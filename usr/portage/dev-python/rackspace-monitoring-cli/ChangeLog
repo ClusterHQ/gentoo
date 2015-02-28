@@ -1,0 +1,23 @@
+# ChangeLog for dev-python/rackspace-monitoring-cli
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/rackspace-monitoring-cli/ChangeLog,v 1.4 2014/08/10 21:20:41 slyfox Exp $
+
+  10 Aug 2014; Sergei Trofimovich <slyfox@gentoo.org>
+  rackspace-monitoring-cli-0.5.2.ebuild, rackspace-monitoring-cli-0.6.2.ebuild:
+  QA: drop trailing '.' from DESCRIPTION
+
+  30 Jun 2014; Matthew Thode <prometheanfire@gentoo.org>
+  rackspace-monitoring-cli-0.5.2.ebuild, rackspace-monitoring-cli-0.6.2.ebuild:
+  fixing bug 515762
+
+*rackspace-monitoring-cli-0.6.2 (17 Mar 2014)
+
+  17 Mar 2014; Matthew Thode <prometheanfire@gentoo.org>
+  +rackspace-monitoring-cli-0.6.2.ebuild:
+  bump
+
+*rackspace-monitoring-cli-0.5.2 (08 Feb 2014)
+
+  08 Feb 2014; Matthew Thode <prometheanfire@gentoo.org> +metadata.xml,
+  +rackspace-monitoring-cli-0.5.2.ebuild:
+  adding the cli for rackspace cloud monitoring stuffs

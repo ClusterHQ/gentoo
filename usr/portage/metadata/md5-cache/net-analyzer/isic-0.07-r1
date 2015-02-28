@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure prepare
+DEPEND=net-libs/libnet:1.1
+DESCRIPTION=IP Stack Integrity Checker
+EAPI=5
+HOMEPAGE=http://isic.sourceforge.net/
+KEYWORDS=amd64 ppc x86
+LICENSE=BSD
+RDEPEND=net-libs/libnet:1.1
+SLOT=0
+SRC_URI=mirror://sourceforge/isic/isic-0.07.tgz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=10dafee852ad1522c3ba2dfcb3b73e68

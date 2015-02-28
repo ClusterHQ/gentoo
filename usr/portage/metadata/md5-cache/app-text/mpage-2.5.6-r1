@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Many to one page printing utility
+EAPI=4
+HOMEPAGE=http://www.mesa.nl/
+KEYWORDS=amd64 ppc x86
+LICENSE=freedist
+SLOT=0
+SRC_URI=http://www.mesa.nl/pub/mpage/mpage-2.5.6.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=defb9a74b07f5e714fd5011f7eebaa4a

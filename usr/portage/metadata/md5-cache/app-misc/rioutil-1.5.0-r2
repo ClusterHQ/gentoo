@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=virtual/libusb:0
+DESCRIPTION=Command line tool for transfering mp3s to and from a Rio 600, 800, Rio Riot, and Nike PSA/Play
+EAPI=4
+HOMEPAGE=http://rioutil.sourceforge.net/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=LGPL-2.1
+RDEPEND=virtual/libusb:0
+SLOT=0
+SRC_URI=mirror://sourceforge/rioutil/rioutil-1.5.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=68767f4c130382c3e755f94a30e6f35c

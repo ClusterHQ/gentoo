@@ -1,0 +1,29 @@
+# ChangeLog for dev-python/biplist
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/biplist/ChangeLog,v 1.5 2014/04/01 03:05:08 idella4 Exp $
+
+*biplist-0.6 (01 Apr 2014)
+
+  01 Apr 2014; Ian Delaney <idella4@gentoo.org> +biplist-0.6.ebuild,
+  -biplist-0.5-r1.ebuild:
+  bump; Add pypy support, tidy deps, update test phase, rm old
+
+*biplist-0.5-r1 (29 May 2013)
+
+  29 May 2013; Ian Delaney <idella4@gentoo.org> +biplist-0.5-r1.ebuild,
+  -biplist-0.4.ebuild:
+  revbump, migrate -> distutils-r1, remove old ebuilds
+
+  14 Nov 2012; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  Updating maintainer, metadata.xml
+
+*biplist-0.5 (28 Jun 2012)
+
+  28 Jun 2012; Patrick Lauer <patrick@gentoo.org> +biplist-0.5.ebuild:
+  Bump
+
+*biplist-0.4 (25 Apr 2012)
+
+  25 Apr 2012; Theo Chatzimichos <tampakrap@gentoo.org> +biplist-0.4.ebuild,
+  +metadata.xml:
+  Initial commit, ebuild by idella4

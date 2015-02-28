@@ -1,0 +1,22 @@
+# ChangeLog for dev-haskell/profunctors
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/profunctors/ChangeLog,v 1.4 2014/07/25 08:58:55 slyfox Exp $
+
+  25 Jul 2014; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml:
+  Drop redundant '<maintainer>' field, leave only '<herd>'.
+
+*profunctors-4.0.4 (02 Jul 2014)
+
+  02 Jul 2014; Mark Wright <gienah@gentoo.org> +profunctors-4.0.4.ebuild:
+  Bump profunctors to 4.0.4
+
+*profunctors-4.0.1 (19 Oct 2013)
+
+  19 Oct 2013; Mark Wright <gienah@gentoo.org> +profunctors-4.0.1.ebuild:
+  Bump profunctors to 4.0.1
+
+*profunctors-3.3.0.1 (26 Aug 2013)
+
+  26 Aug 2013; Alexander Vershilov <qnikst@gentoo.org> +metadata.xml,
+  +profunctors-3.3.0.1.ebuild:
+  dev-haskell/profunctors: initial layout

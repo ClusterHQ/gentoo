@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install prepare setup
+DEPEND=dev-libs/expat dev-libs/libevent >=dev-libs/openssl-0.9.8 >=net-libs/ldns-1.6.13[ecdsa,ssl,gost?] selinux? ( sec-policy/selinux-bind ) python? ( python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) dev-lang/python-exec:=[python_targets_python2_7(-)?,python_single_target_python2_7(+)?] dev-lang/swig ) test? ( net-dns/ldns-utils[examples] dev-util/splint app-text/wdiff ) virtual/pkgconfig
+DESCRIPTION=A validating, recursive and caching DNS resolver
+EAPI=5
+HOMEPAGE=http://unbound.net/
+IUSE=debug gost python selinux static-libs test threads python_targets_python2_7 python_single_target_python2_7
+KEYWORDS=~alpha amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc x86 ~x64-macos
+LICENSE=BSD GPL-2
+RDEPEND=dev-libs/expat dev-libs/libevent >=dev-libs/openssl-0.9.8 >=net-libs/ldns-1.6.13[ecdsa,ssl,gost?] selinux? ( sec-policy/selinux-bind ) net-dns/dnssec-root
+REQUIRED_USE=python? ( python_single_target_python2_7? ( python_targets_python2_7 ) ^^ ( python_single_target_python2_7 ) )
+SLOT=0
+SRC_URI=http://unbound.net/downloads/unbound-1.4.21.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python-single-r1	a71a169a881e0a11d04a7fe12dc39f6e	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=f9ee0c0edb9d304b82c2626c591668da

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install setup unpack
+DEPEND=>=media-libs/libsndfile-1.0.0 sys-libs/ncurses caps? ( sys-libs/libcap ) alsa? ( >=media-libs/alsa-lib-0.9.1 ) netjack? ( media-libs/libsamplerate ) !media-sound/jack-cvs virtual/pkgconfig doc? ( app-doc/doxygen ) netjack? ( dev-util/scons ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13 >=sys-devel/automake-1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=A low-latency audio server
+HOMEPAGE=http://www.jackaudio.org
+IUSE=altivec alsa caps coreaudio doc debug mmx oss sse netjack cpudetection
+KEYWORDS=~ppc-macos
+LICENSE=GPL-2 LGPL-2.1
+RDEPEND=>=media-libs/libsndfile-1.0.0 sys-libs/ncurses caps? ( sys-libs/libcap ) alsa? ( >=media-libs/alsa-lib-0.9.1 ) netjack? ( media-libs/libsamplerate ) !media-sound/jack-cvs
+SLOT=0
+SRC_URI=mirror://sourceforge/jackit/jack-audio-connection-kit-0.109.2.tar.gz netjack? ( mirror://sourceforge/netjack/netjack-0.12.tar.bz2 )
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	linux-info	2b8c53f6065bdee2d757472215a3088f	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=6ff6adf7efb33afa358d7e7907b374d9

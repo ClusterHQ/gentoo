@@ -1,0 +1,33 @@
+# ChangeLog for app-doc/csound-manual
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-doc/csound-manual/ChangeLog,v 1.6 2014/05/28 05:27:50 radhermit Exp $
+
+*csound-manual-6.03 (28 May 2014)
+
+  28 May 2014; Tim Harder <radhermit@gentoo.org> +csound-manual-6.03.ebuild:
+  Version bump.
+
+*csound-manual-6.01 (05 Feb 2014)
+
+  05 Feb 2014; Tim Harder <radhermit@gentoo.org> +csound-manual-6.01.ebuild:
+  Version bump.
+
+*csound-manual-5.19 (17 Jan 2013)
+
+  17 Jan 2013; Tim Harder <radhermit@gentoo.org> +csound-manual-5.19.ebuild:
+  Version bump.
+
+  02 Sep 2012; Tim Harder <radhermit@gentoo.org> csound-manual-5.17.ebuild:
+  Fix SRC_URI.
+
+*csound-manual-5.18 (02 Sep 2012)
+
+  02 Sep 2012; Tim Harder <radhermit@gentoo.org> +csound-manual-5.18.ebuild:
+  Version bump.
+
+*csound-manual-5.17 (11 Apr 2012)
+
+  11 Apr 2012; Tim Harder <radhermit@gentoo.org> +csound-manual-5.17.ebuild,
+  +metadata.xml:
+  Initial import.
+

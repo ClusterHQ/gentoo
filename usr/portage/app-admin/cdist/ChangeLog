@@ -1,0 +1,34 @@
+# ChangeLog for app-admin/cdist
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-admin/cdist/ChangeLog,v 1.5 2014/04/16 20:51:59 hwoarang Exp $
+
+*cdist-3.1.2 (16 Apr 2014)
+
+  16 Apr 2014; Markos Chandras <hwoarang@gentoo.org> +cdist-3.1.2.ebuild:
+  Version bump. Bug #507586
+
+*cdist-3.0.9 (17 Feb 2014)
+
+  17 Feb 2014; Markos Chandras <hwoarang@gentoo.org> +cdist-3.0.9.ebuild:
+  Version bump. Thanks to Daniel Heule. Bug #500208
+
+*cdist-3.0.2 (26 Jan 2014)
+
+  26 Jan 2014; Sergey Popov <pinkbyte@gentoo.org> -cdist-3.0.0.ebuild,
+  cdist-3.0.1.ebuild, +cdist-3.0.2.ebuild:
+  Version bump, wrt bug #498702, thanks to Daniel Heule <nerve AT ipwar.ch>.
+  Drop reduntant dependencies for docs building - man and html pages comes
+  prebuilt in release tarballs. Drop old version
+
+*cdist-3.0.1 (14 Jan 2014)
+
+  14 Jan 2014; Tom Wijsman <TomWij@gentoo.org> +cdist-3.0.1.ebuild:
+  Version bump to 3.0.1; fixes bug #498052, proxied commit for Daniel Heule
+  (nerve).
+
+*cdist-3.0.0 (09 Jan 2014)
+
+  09 Jan 2014; Markos Chandras <hwoarang@gentoo.org> +cdist-3.0.0.ebuild,
+  +metadata.xml:
+  Initial commit. Ebuild by Daniel Heule <nerve@ipwar.ch> who will maintain it.
+  Bug #493108

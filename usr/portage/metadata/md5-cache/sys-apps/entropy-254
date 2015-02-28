@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst setup
+DEPEND=>=app-misc/pax-utils-0.7 dev-db/sqlite:3[soundex(+)] net-misc/rsync sys-apps/diffutils sys-apps/sandbox >=sys-apps/portage-2.1.9[python_targets_python2_7(-)?,python_single_target_python2_7(+)?] sys-devel/gettext python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite] ) dev-lang/python-exec:=[python_targets_python2_7(-)?,python_single_target_python2_7(+)?] dev-util/intltool
+DESCRIPTION=Entropy Package Manager foundation library
+EAPI=5
+HOMEPAGE=http://www.sabayon.org
+IUSE=python_targets_python2_7 python_single_target_python2_7
+KEYWORDS=~amd64 ~arm ~ia64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-misc/pax-utils-0.7 dev-db/sqlite:3[soundex(+)] net-misc/rsync sys-apps/diffutils sys-apps/sandbox >=sys-apps/portage-2.1.9[python_targets_python2_7(-)?,python_single_target_python2_7(+)?] sys-devel/gettext python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite] ) dev-lang/python-exec:=[python_targets_python2_7(-)?,python_single_target_python2_7(+)?]
+REQUIRED_USE=python_single_target_python2_7? ( python_targets_python2_7 ) ^^ ( python_single_target_python2_7 )
+SLOT=0
+SRC_URI=mirror://sabayon/sys-apps/entropy-254.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python-single-r1	a71a169a881e0a11d04a7fe12dc39f6e	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=56b7897b4ed3faae2f7b55bc5eab7c7d

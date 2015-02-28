@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=x11-libs/libX11 x11-libs/libXext ao? ( media-libs/libao ) openal? ( media-libs/openal ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio ) xv? ( x11-libs/libXv ) opengl? ( virtual/opengl ) sdl? ( media-libs/libsdl[X,joystick,video] ) !qt4? ( x11-libs/gtk+:2 ) qt4? ( >=dev-qt/qtgui-4.5:4 ) virtual/pkgconfig >=sys-apps/sed-4
+DESCRIPTION=A Nintendo multi-system emulator formerly known as bsnes
+EAPI=5
+HOMEPAGE=http://byuu.org/higan/ https://code.google.com/p/higan/
+IUSE=ao +alsa openal opengl oss profile_accuracy +profile_balanced profile_performance pulseaudio qt4 +sdl xv
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=x11-libs/libX11 x11-libs/libXext ao? ( media-libs/libao ) openal? ( media-libs/openal ) alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio ) xv? ( x11-libs/libXv ) opengl? ( virtual/opengl ) sdl? ( media-libs/libsdl[X,joystick,video] ) !qt4? ( x11-libs/gtk+:2 ) qt4? ( >=dev-qt/qtgui-4.5:4 )
+REQUIRED_USE=|| ( ao openal alsa pulseaudio oss ) || ( xv opengl sdl ) || ( profile_accuracy profile_balanced profile_performance )
+SLOT=0
+SRC_URI=http://higan.googlecode.com/files/higan_v092-source.tar.xz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=aa65d3cb188ba50457f4b370f62fc6bd

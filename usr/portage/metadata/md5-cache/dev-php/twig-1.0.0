@@ -1,0 +1,12 @@
+DEFINED_PHASES=install setup
+DEPEND=dev-lang/php >=dev-php/pear-1.9.0
+DESCRIPTION=PHP templating engine with syntax similar to Django
+EAPI=2
+HOMEPAGE=http://www.phing.info/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-lang/php >=dev-php/pear-1.9.0
+SLOT=0
+SRC_URI=http:///get/Twig-1.0.0.tgz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	php-pear-lib-r1	683c04445ce44b20b5df954b5050e387	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=cd9c750494c4b9f2038480dc47700c18

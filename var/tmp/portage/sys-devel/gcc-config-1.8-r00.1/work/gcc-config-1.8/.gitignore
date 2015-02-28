@@ -1,0 +1,12 @@
+a.out
+*~
+*.o
+
+*.diff
+*.patch
+*.rej
+*.orig
+
+/gcc-config-*.tar.*
+
+/wrapper

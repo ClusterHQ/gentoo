@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare setup unpack
+DEPEND=sys-apps/iproute2
+DESCRIPTION=Sets up Hierachical Token Bucket based traffic control (QoS) with iproute2
+EAPI=5
+HOMEPAGE=http://www.sourceforge.net/projects/htbinit
+IUSE=ipv6 esfq
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=sys-apps/iproute2
+SLOT=0
+SRC_URI=mirror://sourceforge/htbinit/htb.init-v0.8.5
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	linux-info	2b8c53f6065bdee2d757472215a3088f	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=6e46ee075320af49e516e13c5f6cc845

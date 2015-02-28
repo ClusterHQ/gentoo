@@ -1,0 +1,9 @@
+.\" This file is loaded after doc.tmac.
+.\" Put any local modifications to doc.tmac here.
+.if '\*[.T]'utf8' \{\
+.  char \- \N'45'
+.  char  - \N'45'
+.\}
+.ds volume-operating-system Gentoo Prefix
+.ds operating-system Gentoo Prefix/linux
+.ds default-operating-system Gentoo Prefix/linux

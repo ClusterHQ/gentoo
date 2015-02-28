@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=dev-libs/libg15 truetype? ( media-libs/freetype )
+DESCRIPTION=Small library for display text and graphics on a Logitech G15 keyboard
+EAPI=4
+HOMEPAGE=http://g15tools.sourceforge.net/
+IUSE=truetype
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libg15 truetype? ( media-libs/freetype )
+SLOT=0
+SRC_URI=mirror://sourceforge/g15tools/libg15render-1.2.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=cde6701b29acf89821d0d0f311b55790

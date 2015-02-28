@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare setup
+DEPEND=net-analyzer/net-snmp !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Additional Nagios plugins for monitoring SNMP capable devices
+EAPI=4
+HOMEPAGE=http://nagios.manubulon.com
+KEYWORDS=amd64 ~ppc ppc64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=net-analyzer/net-snmp
+SLOT=0
+SRC_URI=http://nagios.manubulon.com/nagios-plugins-snmp-0.6.0.tgz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=f75c754f7113c2417feb829b0f98a6e8

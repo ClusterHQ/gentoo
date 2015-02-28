@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=virtual/opengl >=media-libs/libsdl-1.2.5:0 amd64? ( app-emulation/emul-linux-x86-baselibs ) cdinstall? ( games-util/biounzip app-arch/unshield ) app-arch/unzip app-arch/p7zip
+DESCRIPTION=Neverwinter Nights Data Files
+EAPI=4
+HOMEPAGE=http://nwn.bioware.com/downloads/linuxclient.html
+IUSE=cdinstall hou nowin sou videos linguas_fr linguas_it linguas_es linguas_de linguas_en cdinstall
+KEYWORDS=amd64 x86
+LICENSE=NWN-EULA
+PROPERTIES=cdinstall? ( interactive )
+RDEPEND=virtual/opengl >=media-libs/libsdl-1.2.5:0 amd64? ( app-emulation/emul-linux-x86-baselibs )
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=http://nwdownloads.bioware.com/neverwinternights/linux/129/nwclient129.tar.gz nowin? ( http://files.bioware.com/neverwinternights/updates/linux/nwresources129.tar.gz http://bsd.mikulas.com/nwresources129.tar.gz http://163.22.12.40/FreeBSD/distfiles/nwresources129.tar.gz linguas_fr? ( http://files.bioware.com/neverwinternights/updates/linux/nwfrench129.tar.gz ) linguas_it? ( http://files.bioware.com/neverwinternights/updates/linux/nwitalian129.tar.gz ) linguas_es? ( http://files.bioware.com/neverwinternights/updates/linux/nwspanish129.tar.gz ) linguas_de? ( http://files.bioware.com/neverwinternights/updates/linux/nwgerman129.tar.gz ) ) !nowin? ( cdinstall? ( linguas_fr? ( http://files.bioware.com/neverwinternights/updates/linux/nwfrench129.tar.gz ) linguas_it? ( http://files.bioware.com/neverwinternights/updates/linux/nwitalian129.tar.gz ) linguas_es? ( http://files.bioware.com/neverwinternights/updates/linux/nwspanish129.tar.gz ) linguas_de? ( http://files.bioware.com/neverwinternights/updates/linux/nwgerman129.tar.gz ) ) ) mirror://gentoo/nwn.png
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cdrom	49b4b952fb5c83fac6c616b532723e60	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=c92364a27ee5af29154ffcbcb4c137ec

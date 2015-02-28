@@ -1,0 +1,10 @@
+ * Package:    sys-apps/which-2.20-r1
+ * Repository: gentoo_prefix
+ * Maintainer: base-system@gentoo.org
+ * USE:        abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox
+>>> Unpacking source...
+>>> Unpacking which-2.20.tar.gz to /home/core/gentoo/var/tmp/portage/sys-apps/which-2.20-r1/work
+>>> Source unpacked in /home/core/gentoo/var/tmp/portage/sys-apps/which-2.20-r1/work
+>>> Preparing source in /home/core/gentoo/var/tmp/portage/sys-apps/which-2.20-r1/work/which-2.20 ...
+>>> Source prepared.

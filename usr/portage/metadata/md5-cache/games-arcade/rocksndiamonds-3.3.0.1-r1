@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=X? ( x11-libs/libX11 ) !sdl? ( x11-libs/libX11 ) sdl? ( >=media-libs/libsdl-1.2.3[joystick,video] >=media-libs/sdl-mixer-1.2.4[mod,mp3,timidity] media-libs/sdl-net >=media-libs/sdl-image-1.2.2[gif] media-libs/smpeg ) app-arch/unzip X? ( x11-libs/libXt ) !sdl? ( x11-libs/libXt )
+DESCRIPTION=A Boulderdash clone
+EAPI=2
+HOMEPAGE=http://www.artsoft.org/rocksndiamonds/
+IUSE=X sdl
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=X? ( x11-libs/libX11 ) !sdl? ( x11-libs/libX11 ) sdl? ( >=media-libs/libsdl-1.2.3[joystick,video] >=media-libs/sdl-mixer-1.2.4[mod,mp3,timidity] media-libs/sdl-net >=media-libs/sdl-image-1.2.2[gif] media-libs/smpeg )
+SLOT=0
+SRC_URI=http://www.artsoft.org/RELEASES/unix/rocksndiamonds/rocksndiamonds-3.3.0.1.tar.gz http://www.artsoft.org/RELEASES/rocksndiamonds/levels/Contributions-1.2.0.zip http://www.artsoft.org/RELEASES/rocksndiamonds/levels/BD2K3-1.0.0.zip http://www.artsoft.org/RELEASES/rocksndiamonds/levels/Boulder_Dash_Dream-1.0.0.zip http://www.artsoft.org/RELEASES/rocksndiamonds/levels/rnd-contrib-1.0.0.tar.gz http://www.artsoft.org/RELEASES/rocksndiamonds/levels/Snake_Bite-1.0.0.zip http://www.artsoft.org/RELEASES/rocksndiamonds/levels/Sokoban-1.0.0.zip http://www.artsoft.org/RELEASES/unix/rocksndiamonds/levels/rockslevels-emc-1.0.tar.gz http://www.artsoft.org/RELEASES/unix/rocksndiamonds/levels/rockslevels-sp-1.0.tar.gz http://www.artsoft.org/RELEASES/unix/rocksndiamonds/levels/rockslevels-dx-1.0.tar.gz mirror://gentoo/rnd_jue-v8.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=7dfa45d7143b73b1fe507eb5b37ef2d8

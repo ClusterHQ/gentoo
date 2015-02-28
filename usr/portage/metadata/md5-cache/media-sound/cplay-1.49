@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DEPEND=sys-devel/gettext =dev-lang/python-2*
+DESCRIPTION=A Curses front-end for various audio players
+EAPI=2
+HOMEPAGE=http://mask.tf.hut.fi/~flu/hacks/cplay/
+IUSE=mp3 vorbis
+KEYWORDS=amd64 hppa ~ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=vorbis? ( media-sound/vorbis-tools ) mp3? ( || ( media-sound/mpg123 media-sound/mpg321 media-sound/madplay media-sound/splay ) ) =dev-lang/python-2*
+SLOT=0
+SRC_URI=http://mask.tf.hut.fi/~flu/cplay/cplay-1.49.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ca7f90d936d8831f6e168a11917fdb91

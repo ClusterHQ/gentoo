@@ -1,0 +1,58 @@
+# ChangeLog for dev-python/wsgiintercept
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/wsgiintercept/ChangeLog,v 1.12 2014/08/15 04:45:24 idella4 Exp $
+
+*wsgiintercept-0.8.1 (15 Aug 2014)
+
+  15 Aug 2014; Ian Delaney <idella4@gentoo.org> +wsgiintercept-0.8.1.ebuild:
+  bump; add IUSE doc, doc build, update test phase
+
+*wsgiintercept-0.7.0 (24 Jul 2014)
+
+  24 Jul 2014; Ian Delaney <idella4@gentoo.org> +wsgiintercept-0.7.0.ebuild:
+  bump; add new dep for test phase
+
+*wsgiintercept-0.6.5 (01 Jul 2014)
+
+  01 Jul 2014; Justin Lecher <jlec@gentoo.org> +wsgiintercept-0.6.5.ebuild:
+  Version Bump
+
+  10 Jun 2014; Ian Delaney <idella4@gentoo.org> -wsgiintercept-0.5.1.ebuild,
+  -wsgiintercept-0.6.0.ebuild, -wsgiintercept-0.6.1.ebuild,
+  -wsgiintercept-0.6.2.ebuild, wsgiintercept-0.6.4.ebuild:
+  cease using redundant patch, update dep, tidy test phase, rm olds
+
+*wsgiintercept-0.6.4 (09 Jun 2014)
+
+  09 Jun 2014; Justin Lecher <jlec@gentoo.org> +wsgiintercept-0.6.4.ebuild:
+  Version Bump
+
+*wsgiintercept-0.6.3 (24 May 2014)
+
+  24 May 2014; Ian Delaney <idella4@gentoo.org> +wsgiintercept-0.6.3.ebuild:
+  bump; drop py2.6 add py3.4, pypy support
+
+*wsgiintercept-0.6.2 (03 May 2014)
+
+  03 May 2014; Patrick Lauer <patrick@gentoo.org> +wsgiintercept-0.6.2.ebuild:
+  Bump
+
+*wsgiintercept-0.6.1 (03 Feb 2014)
+
+  03 Feb 2014; Justin Lecher <jlec@gentoo.org> +wsgiintercept-0.6.1.ebuild:
+  Version Bump
+
+  27 Nov 2013; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Add upstream information
+
+*wsgiintercept-0.6.0 (27 Nov 2013)
+
+  27 Nov 2013; Tiziano Müller <dev-zero@gentoo.org>
+  +files/0.6.0-fix-tests.patch, +wsgiintercept-0.6.0.ebuild:
+  Version bump, required for mwlib tests
+
+*wsgiintercept-0.5.1 (03 Jul 2013)
+
+  03 Jul 2013; Justin Lecher <jlec@gentoo.org> +wsgiintercept-0.5.1.ebuild,
+  +metadata.xml:
+  New addition written by me

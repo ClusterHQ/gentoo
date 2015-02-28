@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=A parodic fantasy module for Neverwinter Nights
+HOMEPAGE=http://pixelscapes.com/penultima
+KEYWORDS=-* amd64 x86
+LICENSE=freedist
+RDEPEND=games-rpg/nwn
+SLOT=0
+SRC_URI=http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1661/Penultima_0_Penultima_City.zip http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1665/Penultima_1_Pest_Control.zip http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1667/Penultima_2_Deweys_Decimal.zip http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1669/Penultima_3_Hazard_Pay.zip http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1671/Penultima_4_Clucking_Hositle.zip http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1673/Penultima_5_Home_Sweet_Home.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=0db67a4270684ae2fec72cf596e47b30

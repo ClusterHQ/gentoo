@@ -1,0 +1,47 @@
+# ChangeLog for dev-python/numba
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/numba/ChangeLog,v 1.8 2014/08/13 12:01:09 idella4 Exp $
+
+*numba-0.13.4 (13 Aug 2014)
+
+  13 Aug 2014; Ian Delaney <idella4@gentoo.org> +numba-0.13.4.ebuild:
+  bump
+
+*numba-0.13.3 (21 Jul 2014)
+
+  21 Jul 2014; Patrick Lauer <patrick@gentoo.org> +numba-0.13.3.ebuild:
+  Bump
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> numba-0.12.1.ebuild,
+  numba-0.12.2.ebuild, numba-0.13.0.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+*numba-0.13.2 (16 Jun 2014)
+
+  16 Jun 2014; Ian Delaney <idella4@gentoo.org> +numba-0.13.2.ebuild:
+  bump; drop py2.6 py3.2 add py 3.4, drop redundant dep requ'd for py2.6, add
+  IUSE doc for install of pdf file
+
+*numba-0.13.0 (14 Apr 2014)
+
+  14 Apr 2014; Sébastien Fabbro <bicatali@gentoo.org> +numba-0.13.0.ebuild,
+  metadata.xml:
+  Version bump
+
+*numba-0.12.2 (17 Mar 2014)
+
+  17 Mar 2014; Sébastien Fabbro <bicatali@gentoo.org> +numba-0.12.2.ebuild,
+  -numba-0.12.0.ebuild:
+  Version bump
+
+*numba-0.12.1 (23 Feb 2014)
+
+  23 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> +numba-0.12.1.ebuild:
+  Version bump
+
+*numba-0.12.0 (10 Feb 2014)
+
+  10 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> +metadata.xml,
+  +numba-0.12.0.ebuild:
+  Initial import

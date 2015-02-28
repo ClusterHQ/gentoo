@@ -1,0 +1,11 @@
+#!/bin/bash
+targs=(
+	""
+	x86_64-pc-linux-gnu
+	avr
+	powerpc64-unknown-linux-gnu
+	sh4-unknown-linux-gnu
+)
+for t in "${targs[@]}" ; do
+	gcc-config -c ${t} || exit 1
+done

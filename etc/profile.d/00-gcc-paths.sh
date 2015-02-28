@@ -1,0 +1,7 @@
+#!/bin/env bash
+# GCC specific variables
+unset GCC_SPECS GCC_EXEC_PREFIX
+# include path variables
+unset CPATH C_INCLUDE_PATH CPLUS_INCLUDE_PATH INCLUDE
+# library path variables
+unset LIBRARY_PATH LD_LIBRARY_PATH LIBPATH SHLIB_PATH LIB LD_LIBRARY_PATH_32 LD_LIBRARY_PATH_64

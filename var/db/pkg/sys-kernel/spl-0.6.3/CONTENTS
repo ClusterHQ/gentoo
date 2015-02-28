@@ -1,0 +1,172 @@
+dir /home/core/gentoo/lib
+dir /home/core/gentoo/lib/modules
+dir /home/core/gentoo/lib/modules/3.16.2+
+dir /home/core/gentoo/lib/modules/3.16.2+/extra
+dir /home/core/gentoo/lib/modules/3.16.2+/extra/spl
+obj /home/core/gentoo/lib/modules/3.16.2+/extra/spl/spl.ko b3f131f5629f2d48001833fe9c103f88 1411000588
+dir /home/core/gentoo/sbin
+obj /home/core/gentoo/sbin/splat b914f498ca12e4d0faed56e9c70130b2 1411000588
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/spl-0.6.3
+obj /home/core/gentoo/usr/share/doc/spl-0.6.3/README.markdown.bz2 a680956430f2677dd0df84f2c10ef67f 1411000588
+obj /home/core/gentoo/usr/share/doc/spl-0.6.3/DISCLAIMER.bz2 a3d0be3781ccd7c574a5d36b4edb96e6 1411000588
+obj /home/core/gentoo/usr/share/doc/spl-0.6.3/AUTHORS.bz2 143e259c9cc0a901282d97d8fff6add7 1411000588
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man5
+obj /home/core/gentoo/usr/share/man/man5/spl-module-parameters.5.bz2 44ba58c85a1810652fb97c37351f3198 1411000587
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/splat.1.bz2 c85188e8cd881f528158ec68df7268e2 1411000587
+dir /home/core/gentoo/usr/src
+dir /home/core/gentoo/usr/src/spl-0.6.3
+obj /home/core/gentoo/usr/src/spl-0.6.3/spl_config.h.in ac8b197b0d834ec8c81ebdecb5ceacda 1411000588
+obj /home/core/gentoo/usr/src/spl-0.6.3/spl.release.in f450380ff5f53c9a29793e9e6b47f533 1411000588
+dir /home/core/gentoo/usr/src/spl-0.6.3/3.16.2+
+obj /home/core/gentoo/usr/src/spl-0.6.3/3.16.2+/Module.symvers 1d7613e653e5ef05646acd40ebb90369 1411000588
+obj /home/core/gentoo/usr/src/spl-0.6.3/3.16.2+/spl_config.h bced7ed32e80a0dc0c2ddb8ecdaa6f4f 1411000588
+obj /home/core/gentoo/usr/src/spl-0.6.3/3.16.2+/spl.release fee967814a6ac36085c24b5198fff3ad 1411000588
+dir /home/core/gentoo/usr/src/spl-0.6.3/include
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/unistd.h b52206f34e076e828c5cf4bbb3db6421 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/strings.h 05e1af128d2249b06fbf5044ef331ed6 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/spl-trace.h 6d7b65e9f94b5fd7d05008290053bae8 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/spl-device.h a090577970d4b108e77efb4eb35a9e5a 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/spl-debug.h 310820403a223c8f9fea99d7a39c0686 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/spl-ctl.h 7267b6f5bdd92e93942556447ea807f6 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/splat-ctl.h b2cb75aade073c142892db5730b6eb52 1411000587
+dir /home/core/gentoo/usr/src/spl-0.6.3/include/vm
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/vm/seg_kmem.h 22faa3a3291d1265942c5c96c4ae7019 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/vm/pvn.h adbc7939469aebcda8cbe6740d5d3adf 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/vm/anon.h 16de6d8faaeada4f535c240d0899d46b 1411000587
+dir /home/core/gentoo/usr/src/spl-0.6.3/include/util
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/util/sscanf.h 2e6aecbe327834310c2e8a5d999b8682 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/util/qsort.h c63e26fa89f182ea2a42c57e0951fb5c 1411000587
+dir /home/core/gentoo/usr/src/spl-0.6.3/include/sys
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/zone.h 3fde33da0af1d12b550ee3575ba97881 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/zmod.h 8fc69ee96ea234d108acfc5bb5ebc9f0 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/vnode.h 020018c05b47ff53813030ceb713c903 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/vmsystm.h 3df34915967f7f313e9d59a5b6314ae9 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/vfs_opreg.h fe16bb76581781d880b022443836b51d 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/vfs.h 591588598e6516fb2f69cf5e693a4f8d 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/varargs.h e129e7e719557d0fff1e6d21379aa964 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/va_list.h b47c84c9b1422d8f6b147bda801103b0 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/utsname.h 043efdf4b73dc22b9d6d67dec34a059c 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/unistd.h b52206f34e076e828c5cf4bbb3db6421 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/uio.h 7b2a756f7220f9836373e056620bd449 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/u8_textprep.h c128642975be996cb1c22678d37c7807 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/types.h b8aadd1faa72f5dc4138008bf5c329f2 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/types32.h f8f8b926bef58ab0f689ab72116937bd 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/tsd.h 4d37b6276f3c50224740960921bed006 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/t_lock.h e70f3bd870efa34fdd28951fc1f6132c 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/timer.h bf53c8aa86661581020c7aea4944cca4 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/time.h c110450d18c3fdcadcc7a78f29754636 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/thread.h 9e739ae1ec4fa6bd380f496a153d559d 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/taskq.h ba9a083dbd09dbf5bdbd0f7bda5af9e1 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/systm.h c7d54f3f77dfd101fbcd31185611eb3d 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/systeminfo.h 7b2e4f154f21417ae30abdbcf8834406 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/sysmacros.h efdd020bcc0bcfa01a9f761756c2bd1c 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/sysevent.h 24c20ba2661135c49c373a63ab3af7e3 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/sysdc.h f565ad743d8992b025b9ede019571228 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/sunldi.h b50c320cf677e50c3257e7cf06bfc349 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/sunddi.h 7cf98ce368b19dabd68e796f846ed649 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/stropts.h a5d5692fe12d8d9007286498cdf4d2d5 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/stat.h b411a18356ee35707e189597583b6541 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/signal.h 61fd48b46766d49cc74ab96a7abeb72c 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/sid.h 81859ec23f1121c7a5e5a51396751538 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/sdt.h 684bbe122c5b7e80c963fe5a0d2b64ed 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/rwlock.h 91befc676c9f6ec2a2aba645c6a4b008 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/resource.h 612394ae191430edec95ac678a0a1d45 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/refstr.h 575b68d39d7432417148fcb0fb285329 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/random.h d95c793a50b5c62294508012953b2d85 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/pset.h c4e603fa0f6d5d319fd1ff8b9ee8d9b7 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/proc.h eaf6c77237d0b62407baf07c16c47be2 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/processor.h 9226024aae2e793dbc071173f02d9a74 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/priv_impl.h 3e85c689206a6cd534fbef991e9a1ae2 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/pool.h 51215136e5afbba350b4b557ac4227f4 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/policy.h f55aff921f882dc5cbbe1c0a0e00cce8 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/pathname.h 6a8180f7ee3bae1092c6f96e136df636 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/param.h 2d017b92714277ae8695fa54daed80f7 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/open.h 18b611e901b5c5d6f08a5224c5ac1598 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/note.h 893b96decba418740de06df3445c57a8 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/mutex.h 8d270b4645349b799b2675433cffdf30 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/mount.h 81cfdffd61efdfaed445c2b0d6bdc822 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/mode.h 3e21a05202add57aecbc5222cb6ee33f 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/modctl.h 68ec106d9a18ca987f7e6c8e590be33d 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/mntent.h 4aa91e48a4f63f2417a4d17419c21f4d 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/mkdev.h 293a19d9b6519f154caeb0a87c47678e 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/list.h 109f8854e3ea8517e921322fc5c0efdb 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/kstat.h 4c527fce42c3ed905e366c8d9ac74d71 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/kobj.h 8cd7a383d591cdbcb4a70826aaacc2e4 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/kmem.h 3bef57af24a23ceef661677d032c5718 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/kidmap.h 13a9c6baa7c0df3837c48a64b0d5a086 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/isa_defs.h 9af1e2f57a8051a1df52bc3f114ba9cb 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/inttypes.h 4b6ee5922a103449910db6ec577b9935 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/int_types.h 2b4e541c8d53ce384af41742d8f0e5f8 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/int_limits.h fe4efa981b16db514ac1046520cc1457 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/idmap.h 072e72cc1a7cd74fe3dc4a854b9b78c6 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/file.h aff37df5016104bd2ab8143f28443651 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/fcntl.h 15e125c6349f08c3dd9b31d2391a92f7 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/extdirent.h df8e6ac4256f4065207695017f34d40d 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/errno.h 07f53180b6521a02182a824f6024b530 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/efi_partition.h 3f11bbe3d8a0902ae054f3df12a3226d 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/dumphdr.h 8ca45993ae4945eb057f1e4167c264de 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/dnlc.h adb08afade9b6aac54870631615e78d0 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/dklabel.h 3d71823d7771e0b4903fbc1575f9eda1 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/dkio.h 0d345a1c9676c6eae6246e0533494ba0 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/disp.h 04374ec0710a9f394ecffb15600bf215 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/dirent.h 96d73be7810adfd2db095168eb3d1d78 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/debug.h f9662a75ee6b0e164f5eec4f2a72e074 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/ddi.h 6fdd8be8cf7dca64299858fa09e736a9 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/ctype.h c632d21670d62c7c8c7a1d230adabdbf 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/cred.h a936ce78805f0cc8dba9737b98fd63e9 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/crc32.h c0066ae50d154c58ba45dac84fdd8971 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/cpuvar.h 2d0365ede334f1d3524875fd94531806 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/cpupart.h 51d4adcdeabd0eb35f5b05b14e5a7c23 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/console.h 12657282d0568aa90cb61cc71d12d0e5 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/conf.h 50b53bcc681478bd55e3abd52c3a069b 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/condvar.h 8c954831ebe5073effae4b7fae5b4a6c 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/compress.h 1497f89ba968d53e52a44303c278e0a5 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/cmn_err.h 8663640b045b7e82f3d9ae41049c7462 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/callo.h b2f74fea0c8d5c1e0d2afbebdaa11c3d 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/callb.h e88064424b96dc67b801ea129975dee0 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/byteorder.h 650a26c34219bde1b135eb24139494a7 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/buf.h 373073e07ad6bd6a6aaf8aa1cc49ac08 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/bootprops.h 792f4853b204417fa8f0b2df983cca7c 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/bootconf.h b16eeef214f5b8e6e0f976c07215bfdd 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/bitmap.h e699a7b990cab8e04a14cad70339e889 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/attr.h ce4cae2be0479901c22f04d7cf7ebb4c 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/atomic.h 1b9c4db1d851bfc100d686191bf0953b 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/acl_impl.h 0712f16a182765519cc0173d1bcd519d 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/acl.h dc300c3146115515cd88e80996512b60 1411000587
+dir /home/core/gentoo/usr/src/spl-0.6.3/include/sys/sysevent
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/sysevent/eventdefs.h 0a614e0af780a04fa0c2da2ecbc0999f 1411000587
+dir /home/core/gentoo/usr/src/spl-0.6.3/include/sys/fs
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/fs/swapnode.h adf239234c8e755bd10f52546d9faa68 1411000587
+dir /home/core/gentoo/usr/src/spl-0.6.3/include/sys/fm
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/fm/util.h 513f040676521f93ec4e89b704b475f4 1411000587
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sys/fm/protocol.h 2675e2c7bd290764fc04021e059f6487 1411000587
+dir /home/core/gentoo/usr/src/spl-0.6.3/include/sharefs
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/sharefs/share.h dc3cc5469c915937c5ef257b9f839529 1411000586
+dir /home/core/gentoo/usr/src/spl-0.6.3/include/rpc
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/rpc/xdr.h 01d07e051de46f0a712f0beb5a78581f 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/rpc/types.h a98e1e2a4ddb60c86c94dbe979472b0e 1411000586
+dir /home/core/gentoo/usr/src/spl-0.6.3/include/linux
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/zlib_compat.h 3fa098bec23119d2670267da178536be 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/uaccess_compat.h 4c827b892ccbaa51bcb8b195bd7eddaf 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/time_compat.h 921715bfe0bea5029603c4fc45c47d57 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/sysctl_compat.h 38f20525d429587e95f9c08a2a75174f 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/smp_compat.h 2679a83afc3c0fad2496832fb423033d 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/rwsem_compat.h 17e76c7deb8c9270b3abfd06d5452965 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/proc_compat.h 72c4e9286bb9036fb43fad8792995fa7 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/mutex_compat.h d83ebb59e6e9c48c3b4777d79b6617b2 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/module_compat.h b28ed9e362c7d2a4c4625c66280dbcf0 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/mm_compat.h 3f76e2691e385d98d438af39e78de560 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/math64_compat.h 0a3fad0172bcb891a63bebfdaa2e0003 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/list_compat.h 7831f5f9caf0043e947a230ca7564ef6 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/kallsyms_compat.h 3b94baf14ecbdc1e7a52f0f5411d6a4d 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/file_compat.h 8f8d8ebd78321ba2a12549ae6ab3fb21 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/delay_compat.h c97628a7fcc495c56f515cb657033a59 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/compiler_compat.h 545f2f32de04e45cee935dd6070f9c55 1411000586
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/linux/bitops_compat.h 67acd473108143b3a6d0ef555d1a95e5 1411000586
+dir /home/core/gentoo/usr/src/spl-0.6.3/include/fs
+obj /home/core/gentoo/usr/src/spl-0.6.3/include/fs/fs_subr.h 99383995c5c0c7483c49a4d480d968af 1411000586

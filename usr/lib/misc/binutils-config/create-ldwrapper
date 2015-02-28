@@ -1,0 +1,97 @@
+#! /home/core/gentoo/bin/bash
+# Copyright 1999-2012 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# Author: Michael Haubenwallner <haubi@gentoo.org>
+
+VERSION="0.3.1723"
+BPREFIX="/home/core/gentoo"
+CFLAGS="-O2 -pipe -O2 -pipe"
+HOST_CC="x86_64-pc-linux-gnu-gcc"
+HOST="x86_64-pc-linux-gnu"
+BUILD="x86_64-pc-linux-gnu"
+NATIVELD="no"
+
+WRAPPERNAME=ld
+WRAPPERSOURCE=
+OUTPUT=
+HOST=
+TARGET=
+BINPATH=
+PLUGINS=
+DEBUG=no
+# reused from environment: ROOT TMPDIR EPREFIX
+
+for arg; do
+	case "${arg}" in
+	--wrapper-name=*)   WRAPPERNAME=${arg#*=} ;;
+	--wrapper-source=*) WRAPPERSOURCE=${arg#*=} ;;
+	--output-file=*)    OUTPUT=${arg#*=} ;;
+	--host=*)           HOST=${arg#*=} ;;
+	--target=*)         TARGET=${arg#*=} ;;
+	--binpath=*)        BINPATH=${arg#*=} ;;
+	--plugins=*)        PLUGINS=${arg#*=} ;;
+	--debug)            DEBUG=yes ;;
+	--debug=*)          DEBUG=${arg#*=} ;;
+	--tmpdir=*)         TMPDIR=${arg#*=} ;;
+	--root=*)           ROOT=${arg#*=} ;;
+	--eprefix=*)        EPREFIX=${arg#*=} ;;
+	esac
+done
+
+[[ ${DEBUG} == yes ]] && set -x
+: ${HOST:=${BUILD}}
+: ${TARGET:=${HOST}}
+
+doit() {
+	# remove symlink first if exists, to avoid overwriting
+	# the target in the cp that follows
+	local oldumask=$(umask)
+	umask 077
+	local ctargetstem="${TMPDIR:-${BPREFIX}/tmp}"/binutils-config-ctarget-$$
+	local plugins=
+	if [[ ${TARGET} != ${HOST} ]]; then
+		# cross linker
+		plugins="${plugins}${plugins:+,}gnu"
+		# allow debugging any plugin
+		[[ -z ${PLUGINS} ]] || plugins=${PLUGINS}
+	else
+		case ${TARGET}:${NATIVELD} in
+		*-darwin*) plugins="${plugins}${plugins:+,}darwin" ;;
+		*-aix*) plugins="${plugins}${plugins:+,}aix" ;;
+		*-hpux*) plugins="${plugins}${plugins:+,}hpux" ;;
+		*-solaris*:yes) plugins="${plugins}${plugins:+,}solaris" ;;
+		*-solaris*) plugins="${plugins}${plugins:+,}gnu" ;;
+		*-linux* | *-interix* | *-mint* | *-freebsd* | *-netbsd* | *-openbsd*) plugins="${plugins}${plugins:+,}gnu" ;;
+		*)	echo "unknown platform ${CTARGET}" >&2
+			exit 1
+			;;
+		esac
+	fi
+	rm -f "${ctargetstem}".*
+	(
+		echo "#include <binutils-config.h>"
+		echo "char const *CTARGET(void) { return \"${TARGET}\"; }"
+		echo "char const* LDPLUGINS() { return \"${plugins}\"; }"
+		[[ ${DEBUG} == yes ]] \
+			&& echo "int DEBUG(void) { return 1; }" \
+			|| echo "int DEBUG(void) { return 0; }"
+	) > "${ctargetstem}".c || return 1
+	umask ${oldumask} || return 1
+
+	if [[ -z ${ROOT%/} && ${TARGET} == ${HOST} && ${EPREFIX} == ${BPREFIX} ]]; then
+		# currently installed ld-wrapper config may be out-of-date,
+		# so configure it by environment.
+		export BINUTILS_CONFIG_LD="${EPREFIX}/${BINPATH}/${WRAPPERNAME}"
+		export BINUTILS_CONFIG_LDTARGET="${HOST}"
+		export BINUTILS_CONFIG_LDPLUGINS="${plugins}"
+	fi
+	rm -f "${OUTPUT}.new" > /dev/null || return 1
+	${CC:-${HOST_CC}} ${CFLAGS} -o "${OUTPUT}.new" \
+		"${ctargetstem}".c "-I${WRAPPERSOURCE}" \
+		"${WRAPPERSOURCE}/libbinutils-config.a" || return 1
+	[[ ${DEBUG} == yes ]] || rm -f "${ctargetstem}".* || return 1
+	rm -f "${OUTPUT}" || return 1
+	mv -f "${OUTPUT}"{.new,} || return 1
+}
+
+doit

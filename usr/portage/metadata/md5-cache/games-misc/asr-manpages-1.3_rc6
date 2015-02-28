@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=set of humorous manual pages developed on alt.sysadmin.recovery
+HOMEPAGE=http://debian.org/
+KEYWORDS=alpha amd64 arm hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86
+LICENSE=freedist
+RDEPEND=virtual/man
+SLOT=0
+SRC_URI=mirror://debian/pool/main/a/asr-manpages/asr-manpages_1.3.orig.tar.gz mirror://debian/pool/main/a/asr-manpages/asr-manpages_1.3-6.diff.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4fab72b3b0cea2ba877e5ac8d950ed15

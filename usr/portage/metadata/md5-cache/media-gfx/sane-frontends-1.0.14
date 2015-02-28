@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=media-gfx/sane-backends gimp? ( media-gfx/gimp )
+DESCRIPTION=Scanner Access Now Easy
+HOMEPAGE=http://www.sane-project.org
+IUSE=gimp
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=media-gfx/sane-backends gimp? ( media-gfx/gimp )
+SLOT=0
+SRC_URI=ftp://ftp.sane-project.org/pub/sane/sane-frontends-1.0.14/sane-frontends-1.0.14.tar.gz ftp://ftp.sane-project.org/pub/sane/old-versions/sane-frontends-1.0.14/sane-frontends-1.0.14.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c061c8e88cb5bfa80c81d1b6920e35fa

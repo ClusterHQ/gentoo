@@ -1,0 +1,12 @@
+app-arch/lz4
+app-misc/tmux
+app-portage/gentoolkit
+app-shells/bash
+dev-util/patchelf
+dev-util/strace
+sys-apps/kmod
+sys-devel/bc
+sys-fs/zfs
+sys-libs/glibc
+sys-libs/nss-usrfiles
+sys-process/htop

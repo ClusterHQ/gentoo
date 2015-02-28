@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst postrm preinst prepare setup test unpack
+DEPEND=!build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) deblob? ( =dev-lang/python-2* )
+DESCRIPTION=Full Linux 3.12 kernel sources with Con Kolivas' high performance patchset and Gentoo's genpatches
+EAPI=5
+HOMEPAGE=http://www.kernel.org/ http://www.gentoo.org/ http://dev.gentoo.org/~mpagano/genpatches/ http://users.on.net/~ckolivas/kernel/ http://www.fsfla.org/svnwiki/selibre/linux-libre/
+IUSE=bfsonly symlink build deblob
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 !deblob? ( freedist )
+PDEPEND=!build? ( virtual/dev-manager )
+RDEPEND=!build? ( >=sys-libs/ncurses-5.2 sys-devel/make dev-lang/perl sys-devel/bc )
+RESTRICT=binchecks strip
+SLOT=3.12.19
+SRC_URI=mirror://kernel/linux/kernel/v3.x/linux-3.12.tar.xz deblob? ( http://www.fsfla.org/svnwiki/selibre/linux-libre//download/releases/LATEST-3.12.N/deblob-3.12 http://www.fsfla.org/svnwiki/selibre/linux-libre//download/releases/LATEST-3.12.N/deblob-check -> deblob-check-3.12 ) mirror://gentoo/genpatches-3.12-20.base.tar.xz mirror://gentoo/genpatches-3.12-20.extras.tar.xz mirror://gentoo/genpatches-3.12-20.experimental.tar.xz !bfsonly? ( http://ck.kolivas.org/patches/3.0/3.12/3.12-ck2/patch-3.12-ck2.bz2 ) bfsonly? ( http://ck.kolivas.org/patches/3.0/3.12/3.12-ck2/patches/3.12-sched-bfs-444.patch )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	kernel-2	e499b064415eae70e307c8c4edcca831	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=014f37f5cf9404d217543f8f90e255f6

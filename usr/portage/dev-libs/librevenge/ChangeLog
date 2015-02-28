@@ -1,0 +1,28 @@
+# ChangeLog for dev-libs/librevenge
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/librevenge/ChangeLog,v 1.6 2014/08/28 09:28:11 kumba Exp $
+
+  28 Aug 2014; Joshua Kinard <kumba@gentoo.org> librevenge-0.0.1.ebuild:
+  Added ~mips to KEYWORDS, per #520692.
+
+  28 Aug 2014; Naohiro Aota <naota@gentoo.org> librevenge-0.0.1.ebuild:
+  Add ~x86-fbsd. #520692
+
+  23 Aug 2014; Jeroen Roovers <jer@gentoo.org> librevenge-0.0.1.ebuild:
+  Marked ~hppa (bug #520692).
+
+  17 Aug 2014; Tomáš Chvátal <scarabeus@gentoo.org> librevenge-0.0.1.ebuild,
+  librevenge-9999.ebuild:
+  Fix typo in desc. bug#520076
+
+  16 Aug 2014; Tomáš Chvátal <scarabeus@gentoo.org> librevenge-0.0.1.ebuild,
+  librevenge-9999.ebuild:
+  We do not need the cppunit on runtime, just for tests.
+
+*librevenge-9999 (15 Aug 2014)
+*librevenge-0.0.1 (15 Aug 2014)
+
+  15 Aug 2014; Tomáš Chvátal <scarabeus@gentoo.org> +librevenge-0.0.1.ebuild,
+  +librevenge-9999.ebuild, +metadata.xml:
+  Initial commit. Framework for new libwp* and other libreoffice support
+  libraries.

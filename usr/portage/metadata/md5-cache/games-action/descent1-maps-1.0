@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Descent 1 third-party multiplayer maps
+HOMEPAGE=https://web.archive.org/web/20010608230948/http://www.d3community.com/d3net/spaz/
+KEYWORDS=x86
+LICENSE=all-rights-reserved
+RDEPEND=games-action/d1x-rebirth
+RESTRICT=mirror bindist
+SLOT=0
+SRC_URI=http://www.pooterman.com/pooterman.com/ftp/descent/levels/minerva.zip http://www.pooterman.com/pooterman.com/ftp/descent/levels/nysa.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=ef6aee2f3025fd5e8d2a2d448c40c9db

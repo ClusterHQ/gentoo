@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=x11-libs/libXext x11-libs/libXmu x11-libs/libX11 x11-libs/libXt X? ( >=x11-libs/motif-2.3:0 )
+DESCRIPTION=Prepares molecular kinemages (input files for Mage & KiNG) from PDB-format coordinate files
+EAPI=2
+HOMEPAGE=http://kinemage.biochem.duke.edu/software/prekin.php
+IUSE=X
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+LICENSE=richardson
+RDEPEND=x11-libs/libXext x11-libs/libXmu x11-libs/libX11 x11-libs/libXt X? ( >=x11-libs/motif-2.3:0 )
+SLOT=0
+SRC_URI=http://kinemage.biochem.duke.edu/downloads/software/prekin/prekin.6.51.081122.src.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6bcd461cb39992e104695f3471a520a9

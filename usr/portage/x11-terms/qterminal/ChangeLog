@@ -1,0 +1,24 @@
+# ChangeLog for x11-terms/qterminal
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-terms/qterminal/ChangeLog,v 1.5 2014/09/13 16:44:30 kensington Exp $
+
+*qterminal-0.5.0_p20140913 (13 Sep 2014)
+
+  13 Sep 2014; Michael Palimaka <kensington@gentoo.org>
+  +qterminal-0.5.0_p20140913.ebuild:
+  Version bump fixing bug #519168.
+
+  08 Jun 2014; Manuel Rüger <mrueg@gentoo.org> qterminal-0.4.0.ebuild:
+  Add ~arm keyword. Tested with radxa rock (armv7).
+
+  02 Mar 2013; Markos Chandras <hwoarang@gentoo.org> qterminal-0.4.0.ebuild:
+  Move Qt dependencies to the new category
+
+  09 Jul 2012; Ben de Groot <yngwin@gentoo.org> qterminal-0.4.0.ebuild:
+  Update homepage, bug #425386
+
+*qterminal-0.4.0 (06 Jul 2012)
+
+  06 Jul 2012; Ben de Groot <yngwin@gentoo.org> +metadata.xml,
+  +qterminal-0.4.0.ebuild:
+  Initial commit. Ebuild based on live ebuild in qt overlay.

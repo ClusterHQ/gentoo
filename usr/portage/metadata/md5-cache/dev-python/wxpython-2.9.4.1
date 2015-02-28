@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup
+DEPEND=>=x11-libs/wxGTK-2.9.4.1:2.9[opengl?,tiff,X,aqua=] dev-libs/glib:2 dev-python/setuptools media-libs/libpng:0 media-libs/tiff:0 virtual/jpeg x11-libs/gtk+:2[aqua=] x11-libs/pango[X,aqua=] cairo? ( >=dev-python/pycairo-1.8.4 ) opengl? ( dev-python/pyopengl ) >=dev-lang/python-2.6[aqua=] virtual/pkgconfig || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+DESCRIPTION=A blending of the wxWindows C++ class library with Python
+EAPI=4
+HOMEPAGE=http://www.wxpython.org/
+IUSE=aqua cairo examples opengl
+KEYWORDS=~x86-freebsd ~x86-interix ~amd64-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+LICENSE=wxWinLL-3
+RDEPEND=>=x11-libs/wxGTK-2.9.4.1:2.9[opengl?,tiff,X,aqua=] dev-libs/glib:2 dev-python/setuptools media-libs/libpng:0 media-libs/tiff:0 virtual/jpeg x11-libs/gtk+:2[aqua=] x11-libs/pango[X,aqua=] cairo? ( >=dev-python/pycairo-1.8.4 ) opengl? ( dev-python/pyopengl ) >=dev-lang/python-2.6[aqua=] || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+SLOT=2.9
+SRC_URI=mirror://sourceforge/wxpython/wxPython-src-2.9.4.0.tar.bz2 examples? ( mirror://sourceforge/wxpython/wxPython-demo-2.9.4.0.tar.bz2 ) mirror://sourceforge/wxpython/wxPython-src-2.9.4.1.patch
+_eclasses_=alternatives	326031758c86cd08f5844f475f03ac01	distutils	34e0f373c466bb0e97ba194735f1acf2	eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	wxwidgets	6d6eec2685256d35511e7b6d5461bec9
+_md5_=190ceb9f9592df0769c32b66ad63a7ed

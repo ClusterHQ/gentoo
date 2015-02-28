@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install test unpack
+DEPEND=dev-libs/expat virtual/latex-base dev-texlive/texlive-latexextra app-text/ghostscript-gpl www-client/lynx dev-lang/perl
+DESCRIPTION=NuSMV: new symbolic model checker
+HOMEPAGE=http://nusmv.irst.itc.it/
+IUSE=minisat examples
+KEYWORDS=~x86 ~amd64
+LICENSE=LGPL-2.1
+RDEPEND=dev-libs/expat
+SLOT=0
+SRC_URI=mirror://gentoo/NuSMV-2.5.0.tar.gz http://nusmv.irst.itc.it/distrib/NuSMV-2.5.0.tar.gz minisat? ( mirror://gentoo/MiniSat_v1.14_src.zip )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6b261f6214495ef9d4e725f31eb2a031

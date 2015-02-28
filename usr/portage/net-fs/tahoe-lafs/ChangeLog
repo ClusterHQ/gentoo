@@ -1,0 +1,38 @@
+# ChangeLog for net-fs/tahoe-lafs
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-fs/tahoe-lafs/ChangeLog,v 1.8 2014/08/14 16:37:40 phajdan.jr Exp $
+
+  14 Aug 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  tahoe-lafs-1.10.0-r2.ebuild:
+  x86 stable wrt bug #518242
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> tahoe-lafs-1.10.0-r2.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+  26 Aug 2013; Julian Ospald <hasufell@gentoo.org> tahoe-lafs-1.10.0-r2.ebuild:
+  update deps for eclass conversion
+
+  25 Aug 2013; Julian Ospald <hasufell@gentoo.org> tahoe-lafs-1.10.0-r2.ebuild:
+  add optional dependencies to elog
+
+*tahoe-lafs-1.10.0-r2 (11 Aug 2013)
+
+  11 Aug 2013; Julian Ospald <hasufell@gentoo.org>
+  -tahoe-lafs-1.10.0-r1.ebuild, +tahoe-lafs-1.10.0-r2.ebuild:
+  fix doc install dir wrt #480518
+
+  03 Aug 2013; Michał Górny <mgorny@gentoo.org> tahoe-lafs-1.10.0-r1.ebuild:
+  Move dev-python/twisted to dev-python/twisted-core.
+
+*tahoe-lafs-1.10.0-r1 (01 Aug 2013)
+
+  01 Aug 2013; Julian Ospald <hasufell@gentoo.org> -tahoe-lafs-1.10.0.ebuild,
+  +tahoe-lafs-1.10.0-r1.ebuild, +files/tahoe-lafs-1.10.0-ifconfig.patch:
+  fix hardcoded path to /sbin/ifconfig
+
+*tahoe-lafs-1.10.0 (01 Aug 2013)
+
+  01 Aug 2013; Julian Ospald <hasufell@gentoo.org> +tahoe-lafs-1.10.0.ebuild,
+  +files/tahoe-lafs-1.10.0-setup.patch, +metadata.xml:
+  initial import wrt #220018

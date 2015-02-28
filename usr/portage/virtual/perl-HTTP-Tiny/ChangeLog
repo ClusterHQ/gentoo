@@ -1,0 +1,15 @@
+# ChangeLog for virtual/perl-HTTP-Tiny
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/virtual/perl-HTTP-Tiny/ChangeLog,v 1.2 2014/07/07 19:20:36 dilfridge Exp $
+
+*perl-HTTP-Tiny-0.43.0 (07 Jul 2014)
+
+  07 Jul 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  +perl-HTTP-Tiny-0.43.0.ebuild:
+  Add perl-5.20 version
+
+*perl-HTTP-Tiny-0.29.0 (05 Sep 2013)
+
+  05 Sep 2013; Patrick Lauer <patrick@gentoo.org> +metadata.xml,
+  +perl-HTTP-Tiny-0.29.0.ebuild:
+  Import from perl-experimental overlay

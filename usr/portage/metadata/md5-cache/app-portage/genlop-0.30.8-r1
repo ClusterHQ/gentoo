@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst unpack
+DEPEND=>=dev-lang/perl-5.8.0-r12 >=dev-perl/DateManip-5.40 dev-perl/libwww-perl
+DESCRIPTION=A nice emerge.log parser
+HOMEPAGE=http://www.gentoo.org/proj/en/perl
+IUSE=bash-completion
+KEYWORDS=~ppc-aix ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x86-solaris
+LICENSE=GPL-2
+PDEPEND=bash-completion? ( app-shells/bash-completion )
+RDEPEND=>=dev-lang/perl-5.8.0-r12 >=dev-perl/DateManip-5.40 dev-perl/libwww-perl bash-completion? ( app-admin/eselect )
+SLOT=0
+SRC_URI=mirror://gentoo//genlop-0.30.8.tar.gz
+_eclasses_=bash-completion	f913ed18b57a2d3372c4291680454db4	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c96fc303e3fffc7722ecc33120b40d32

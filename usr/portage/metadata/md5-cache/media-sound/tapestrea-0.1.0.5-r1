@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=jack? ( media-sound/jack-audio-connection-kit:0 ) alsa? ( >=media-libs/alsa-lib-0.9:0 ) media-libs/libsndfile:0 media-libs/freeglut:0 virtual/opengl:0 virtual/glu:0 x11-libs/gtk+:2 sys-devel/bison:0 sys-devel/flex:0
+DESCRIPTION=Techniques + Paradigms for Expressive Synthesis, Transformation, Rendering of Environmental Audio
+EAPI=5
+HOMEPAGE=http://taps.cs.princeton.edu/
+IUSE=+alsa doc jack oss
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=jack? ( media-sound/jack-audio-connection-kit:0 ) alsa? ( >=media-libs/alsa-lib-0.9:0 ) media-libs/libsndfile:0 media-libs/freeglut:0 virtual/opengl:0 virtual/glu:0 x11-libs/gtk+:2
+SLOT=0
+SRC_URI=http://taps.cs.princeton.edu/release/files/tapestrea-0.1.0.5.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ce645b57e3b831ea2a081437a18729ca

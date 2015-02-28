@@ -1,0 +1,20 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/m4-1.4.17
+obj /home/core/gentoo/usr/share/doc/m4-1.4.17/ChangeLog.bz2 4dc3fd1178be645c3f9d13eb38bf5670 1410959092
+obj /home/core/gentoo/usr/share/doc/m4-1.4.17/README.bz2 0f0580f702c6aefbae6d524a71616bca 1410959092
+obj /home/core/gentoo/usr/share/doc/m4-1.4.17/THANKS.bz2 9d830577b9af9b8d3b7e93cdc77e622f 1410959092
+obj /home/core/gentoo/usr/share/doc/m4-1.4.17/AUTHORS.bz2 cc9110f124a018f145d122d56113b3a9 1410959092
+obj /home/core/gentoo/usr/share/doc/m4-1.4.17/NEWS.bz2 61361e191f3a19649f04d4412591555b 1410959092
+obj /home/core/gentoo/usr/share/doc/m4-1.4.17/TODO.bz2 c7ae73c750db3d1e9ddaa74290b37f35 1410959092
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/m4.1.bz2 594746af18205e28a70b15061f4ee67f 1410959092
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/m4.info.bz2 16cdda82e6ecb9cf7148452b8e52956a 1410959092
+obj /home/core/gentoo/usr/share/info/m4.info-2.bz2 eada6d58ae339c62d8264c4eec3d70a7 1410959092
+obj /home/core/gentoo/usr/share/info/m4.info-1.bz2 46af2b72a5bebb8df9616bbe82055adb 1410959092
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/gm4 -> /home/core/gentoo/usr/bin/m4 1410959094
+obj /home/core/gentoo/usr/bin/m4 de6167beb010e6dc761ee9093c336732 1410959093

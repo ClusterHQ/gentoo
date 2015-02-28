@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=app-arch/xz-utils >=sys-apps/sed-4
+DESCRIPTION=Throw your toys into your fire, and play with them as they burn
+EAPI=5
+HOMEPAGE=http://tomorrowcorporation.com/
+IUSE=bundled-libs
+KEYWORDS=-* amd64 x86
+LICENSE=Gameplay-Group-EULA
+RDEPEND=virtual/opengl amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs !bundled-libs? ( app-emulation/emul-linux-x86-sdl app-emulation/emul-linux-x86-soundlibs ) ) x86? ( net-misc/curl x11-libs/libX11 !bundled-libs? ( media-libs/libogg media-libs/libvorbis media-libs/openal ) )
+RESTRICT=bindist fetch bundled-libs? ( splitdebug )
+SLOT=0
+SRC_URI=LittleInferno-20130509.sh
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=001995a9260f9f57f94b5352611605cd

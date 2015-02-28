@@ -1,0 +1,27 @@
+#!/bin/bash
+
+baseline=( {,${CHOST}-}{cpp,gcc} cc )
+gxx=( {,${CHOST}-}g++ )
+gfortran=( {,${CHOST}-}gfortran )
+
+for (( i = 1; i < 4; ++i )) ; do
+	gcc-config -C ${i} "$@" || exit 1
+
+	do_want=( "${baseline[@]}" )
+	dont_want=( )
+	case ${i} in
+	1)	do_want+=( "${gfortran[@]}" )
+		dont_want+=( "${gxx[@]}" ) ;;
+	2)	do_want+=( "${gxx[@]}" )
+		dont_want+=( "${gfortran[@]}" ) ;;
+	3)	dont_want+=( "${gfortran[@]}" "${gxx[@]}" ) ;;
+	esac
+
+	for b in "${do_want[@]}" ; do
+		[[ -e usr/bin/${b} ]] || exit 1
+	done
+	for b in "${dont_want[@]}" ; do
+		[[ -e usr/bin/${b} ]] && exit 1
+	done
+	[[ -e etc/env.d/04gcc-${CHOST} ]] || exit 1
+done

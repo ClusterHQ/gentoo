@@ -1,0 +1,107 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/zh_CN
+dir /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES/psmisc.mo db3249737cf05b6adbeaabf27ca12e0c 1410959958
+dir /home/core/gentoo/usr/share/locale/id
+dir /home/core/gentoo/usr/share/locale/id/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/id/LC_MESSAGES/psmisc.mo 6fe0a03bb691c3bb9f1f8ae5ad46a6c0 1410959958
+dir /home/core/gentoo/usr/share/locale/ru
+dir /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES/psmisc.mo 864d478ef68d196d2e1423b8acaee2e1 1410959958
+dir /home/core/gentoo/usr/share/locale/pt
+dir /home/core/gentoo/usr/share/locale/pt/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt/LC_MESSAGES/psmisc.mo 53dbc385a80c7a08e1bda1c1a459ea65 1410959958
+dir /home/core/gentoo/usr/share/locale/eu
+dir /home/core/gentoo/usr/share/locale/eu/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eu/LC_MESSAGES/psmisc.mo 4f4742f456759847589e87ffec6f114a 1410959958
+dir /home/core/gentoo/usr/share/locale/sv
+dir /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES/psmisc.mo 47e8a3a2c1de3169a89c4987e6107c64 1410959958
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/psmisc.mo 1c799364684c36e7d9b9ee68a2102fe3 1410959958
+dir /home/core/gentoo/usr/share/locale/zh_TW
+dir /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES/psmisc.mo 8258161c8796b29586fa3ab7d3243c41 1410959958
+dir /home/core/gentoo/usr/share/locale/el
+dir /home/core/gentoo/usr/share/locale/el/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/el/LC_MESSAGES/psmisc.mo 01e412383d96e17dcad914164a5336ea 1410959958
+dir /home/core/gentoo/usr/share/locale/uk
+dir /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES/psmisc.mo 155fc272980c4f64bbe2f4eaa87d1c13 1410959958
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/psmisc.mo f6a0afa5c2f3730cab25e1a3039a5ddb 1410959958
+dir /home/core/gentoo/usr/share/locale/ja
+dir /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES/psmisc.mo 339cedfccb18be300da41421b28449dd 1410959958
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/psmisc.mo b464c34cec297e9c2f1627de8ca604b7 1410959958
+dir /home/core/gentoo/usr/share/locale/da
+dir /home/core/gentoo/usr/share/locale/da/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/da/LC_MESSAGES/psmisc.mo c13ad0d5f315071e69e79fcb30afc3e9 1410959958
+dir /home/core/gentoo/usr/share/locale/sr
+dir /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES/psmisc.mo 874b78dfb9a71a2afeb1d2f23063ec8a 1410959958
+dir /home/core/gentoo/usr/share/locale/eo
+dir /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES/psmisc.mo 3cd3d596c2d8f2778ab0926b9e7f7080 1410959958
+dir /home/core/gentoo/usr/share/locale/ro
+dir /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES/psmisc.mo a62fa53a976a9ac019a44e0edeb99448 1410959958
+dir /home/core/gentoo/usr/share/locale/it
+dir /home/core/gentoo/usr/share/locale/it/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/it/LC_MESSAGES/psmisc.mo 142a254d0613ffd4d33f5c988dc338d9 1410959958
+dir /home/core/gentoo/usr/share/locale/ca
+dir /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES/psmisc.mo 04dacd7d09048b82f45b985c9e92ac45 1410959958
+dir /home/core/gentoo/usr/share/locale/hu
+dir /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES/psmisc.mo 9ef400f16f2e2360645f76ba48b8f993 1410959958
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/psmisc.mo 0c539fbaeba6c80b95e28f67ab6f46cb 1410959958
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/psmisc.mo 434e7bd5e6fed8e42720b7b592fb1e4a 1410959958
+dir /home/core/gentoo/usr/share/locale/bg
+dir /home/core/gentoo/usr/share/locale/bg/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/bg/LC_MESSAGES/psmisc.mo 6caf44f00725598a9cc13ca2e1dba7fe 1410959958
+dir /home/core/gentoo/usr/share/locale/hr
+dir /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES/psmisc.mo 5305db820b0fb435fa093f3f38f83de8 1410959958
+dir /home/core/gentoo/usr/share/locale/nb
+dir /home/core/gentoo/usr/share/locale/nb/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nb/LC_MESSAGES/psmisc.mo 7c32dabf916ad26e14853dde452dd9bd 1410959958
+dir /home/core/gentoo/usr/share/locale/nl
+dir /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES/psmisc.mo 02ecc34d23a129c28c0b261ae86f8f01 1410959958
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/psmisc.mo d0e8ffadefd4aa7d29203e4c26288002 1410959958
+dir /home/core/gentoo/usr/share/locale/cs
+dir /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES/psmisc.mo 174d3fc99775235a4a986bbbf2c42a7c 1410959958
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/psmisc-22.21
+obj /home/core/gentoo/usr/share/doc/psmisc-22.21/README.bz2 cb62b5678ddb70b014a98e2828d2d264 1410959958
+obj /home/core/gentoo/usr/share/doc/psmisc-22.21/ChangeLog.bz2 433e481ed95050fb515f986503fac6c6 1410959958
+obj /home/core/gentoo/usr/share/doc/psmisc-22.21/NEWS 31e82239cf1c405bbdc64aa807d6b36e 1410959958
+obj /home/core/gentoo/usr/share/doc/psmisc-22.21/AUTHORS.bz2 44ec8bad9d7df3c751215f72ba6a6cfa 1410959958
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/prtstat.1.bz2 0f51e8522cfbe319d3a138cde1a759bb 1410959958
+obj /home/core/gentoo/usr/share/man/man1/pstree.1.bz2 fd937de6664d3842bb815b145de7b388 1410959958
+obj /home/core/gentoo/usr/share/man/man1/peekfd.1.bz2 10fbcdf6d973fa2febbcce0fdf8fc796 1410959958
+obj /home/core/gentoo/usr/share/man/man1/killall.1.bz2 a0a5e19e583fb376c068f24cec083955 1410959958
+obj /home/core/gentoo/usr/share/man/man1/fuser.1.bz2 42001b31589ec399f4505226d180d5f9 1410959958
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/peekfd 853368c266b75edcce3fb66bd9c02fb5 1410959959
+obj /home/core/gentoo/usr/bin/pstree 57ee6c8185986522fadae58c8f6792fa 1410959959
+obj /home/core/gentoo/usr/bin/prtstat 88dfa715549e6db443c44ba3bdf6605c 1410959959
+obj /home/core/gentoo/usr/bin/killall b9dfa40ba0dbdbe8e4e054072f5937a8 1410959959
+dir /home/core/gentoo/bin
+obj /home/core/gentoo/bin/fuser b87dc78d70605a4fdf75fa5b2db24970 1410959959

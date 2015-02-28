@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install
+DEPEND=>=dev-lang/ocaml-3.10.2:=[tk?,ocamlopt?] x11-libs/libXext x11-libs/libXmu x11-libs/libX11 virtual/opengl virtual/glu glut? ( media-libs/freeglut ) tk? ( >=dev-lang/tcl-8.3 >=dev-lang/tk-8.3 )
+DESCRIPTION=Objective CAML interface for OpenGL
+EAPI=5
+HOMEPAGE=http://wwwfun.kurims.kyoto-u.ac.jp/soft/olabl/lablgl.html
+IUSE=doc glut +ocamlopt tk
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=>=dev-lang/ocaml-3.10.2:=[tk?,ocamlopt?] x11-libs/libXext x11-libs/libXmu x11-libs/libX11 virtual/opengl virtual/glu glut? ( media-libs/freeglut ) tk? ( >=dev-lang/tcl-8.3 >=dev-lang/tk-8.3 )
+SLOT=0/1.05
+SRC_URI=http://wwwfun.kurims.kyoto-u.ac.jp/soft/olabl/dist/lablgl-1.05.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4adf4759e46a9db23f2c5362297fc26f

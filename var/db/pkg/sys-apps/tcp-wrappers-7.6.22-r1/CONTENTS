@@ -1,0 +1,38 @@
+dir /home/core/gentoo/etc
+obj /home/core/gentoo/etc/hosts.allow da6fe337f8e6ddda00b5d52c588ca70a 1410880173
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+obj /home/core/gentoo/usr/lib/libwrap.so.0.7.6 1234260b46d73eeed0b4a021808301d6 1410958935
+sym /home/core/gentoo/usr/lib/libwrap.so -> libwrap.so.0 1410959035
+sym /home/core/gentoo/usr/lib/libwrap.so.0 -> libwrap.so.0.7.6 1410959035
+dir /home/core/gentoo/usr/sbin
+obj /home/core/gentoo/usr/sbin/safe_finger 1370e7d4917b28949514075d786c0b17 1410958935
+obj /home/core/gentoo/usr/sbin/try-from a0f4e3f568c9c75f27aafb151c591c61 1410958935
+obj /home/core/gentoo/usr/sbin/tcpdchk 948c9cf537f144c4c85b25096b789404 1410958935
+obj /home/core/gentoo/usr/sbin/tcpd 6318129e29e75fe723f6356519c78e6e 1410958935
+obj /home/core/gentoo/usr/sbin/tcpdmatch 01a04320d214ae1aac27f38ca1327118 1410958935
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/tcpd.h 04fd225d79bf57b7a3b2cd97287ab740 1410958934
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man8
+obj /home/core/gentoo/usr/share/man/man8/try-from.8.bz2 6e6d370df6df44164f8d02f338f6be56 1410958934
+obj /home/core/gentoo/usr/share/man/man8/tcpdmatch.8.bz2 39bec4155dbc4a1e4b3ff1e01a57c048 1410958934
+obj /home/core/gentoo/usr/share/man/man8/tcpdchk.8.bz2 473aa53ade7ac3ebc82aacd687aee77c 1410958934
+obj /home/core/gentoo/usr/share/man/man8/tcpd.8.bz2 33e05b379f9dce3a0921259031d59ac4 1410958934
+obj /home/core/gentoo/usr/share/man/man8/safe_finger.8.bz2 91abef36de2ae13d7be0af8fd822dd96 1410958934
+dir /home/core/gentoo/usr/share/man/man5
+sym /home/core/gentoo/usr/share/man/man5/hosts.allow.5.bz2 -> hosts_access.5.bz2 1410959035
+sym /home/core/gentoo/usr/share/man/man5/hosts.deny.5.bz2 -> hosts_access.5.bz2 1410959035
+obj /home/core/gentoo/usr/share/man/man5/hosts_options.5.bz2 1381c8529f174417a791462a0fa2623d 1410958934
+obj /home/core/gentoo/usr/share/man/man5/hosts_access.5.bz2 48a3636f53d67ba0ccff09762dc03554 1410958934
+dir /home/core/gentoo/usr/share/man/man3
+obj /home/core/gentoo/usr/share/man/man3/hosts_access.3.bz2 a77d4205f68bfdaf6011c556fb10434a 1410958934
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/tcp-wrappers-7.6.22-r1
+obj /home/core/gentoo/usr/share/doc/tcp-wrappers-7.6.22-r1/CHANGES.bz2 ba27a22eab300b6449a8553b42cc8a80 1410958935
+obj /home/core/gentoo/usr/share/doc/tcp-wrappers-7.6.22-r1/README.IRIX.bz2 531c491a76aa53e27588225fd2cd6b3a 1410958935
+obj /home/core/gentoo/usr/share/doc/tcp-wrappers-7.6.22-r1/README.bz2 e820b66b8b9c92b7224bc617bcaa8154 1410958935
+obj /home/core/gentoo/usr/share/doc/tcp-wrappers-7.6.22-r1/README.NIS.bz2 987d003da8067581b6beb0ffbd9dc4fd 1410958935
+obj /home/core/gentoo/usr/share/doc/tcp-wrappers-7.6.22-r1/DISCLAIMER.bz2 e927aadc505fea438df47f9e05ccbe49 1410958935
+obj /home/core/gentoo/usr/share/doc/tcp-wrappers-7.6.22-r1/BLURB.bz2 0926d7b557299ad1f64048e50178237a 1410958935

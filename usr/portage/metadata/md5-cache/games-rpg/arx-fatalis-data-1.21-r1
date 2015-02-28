@@ -1,0 +1,16 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare pretend setup unpack
+DEPEND=app-arch/cabextract app-arch/innoextract
+DESCRIPTION=Arx Fatalis data files
+EAPI=4
+HOMEPAGE=http://www.arkane-studios.com/uk/arx.php
+IUSE=linguas_de +linguas_en linguas_es linguas_fr linguas_it linguas_ru
+KEYWORDS=amd64 x86
+LICENSE=ArxFatalis-EULA-JoWooD
+PROPERTIES=interactive
+RDEPEND=games-rpg/arx-libertatis
+REQUIRED_USE=^^ ( linguas_de linguas_en linguas_es linguas_fr linguas_it linguas_ru )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://download.zenimax.com/arxfatalis/patches/1.21/ArxFatalis_1.21_MULTILANG.exe
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cdrom	49b4b952fb5c83fac6c616b532723e60	check-reqs	a7f404bfb16e0a996700c5d3ac4edad3	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=a54ed337610e259b77094a8160501ace

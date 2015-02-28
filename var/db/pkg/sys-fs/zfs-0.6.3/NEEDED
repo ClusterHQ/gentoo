@@ -1,0 +1,16 @@
+/home/core/gentoo/usr/lib/libuutil.so.1.0.1 librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6,ld-linux-x86-64.so.2
+/home/core/gentoo/usr/lib/libnvpair.so.1.0.1 libuutil.so.1,librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/libzpool.so.2.0.0 libnvpair.so.1,libuutil.so.1,librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/libzfs_core.so.1.0.0 libnvpair.so.1,libuutil.so.1,librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/libzfs.so.2.0.0 libzfs_core.so.1,libzpool.so.2,libnvpair.so.1,libuutil.so.1,librt.so.1,libm.so.6,libdl.so.2,libblkid.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/lib/udev/zvol_id libuuid.so.1,libz.so.1,libc.so.6
+/home/core/gentoo/sbin/zfs libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libzfs_core.so.1,libm.so.6,libdl.so.2,libblkid.so.1,librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/sbin/zpool libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libzfs_core.so.1,libm.so.6,libdl.so.2,librt.so.1,libblkid.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/sbin/zdb libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libzfs_core.so.1,libm.so.6,libdl.so.2,libblkid.so.1,librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/sbin/zhack libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libzfs_core.so.1,libm.so.6,libdl.so.2,libblkid.so.1,librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/sbin/zinject libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libzfs_core.so.1,libm.so.6,libdl.so.2,libblkid.so.1,librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/sbin/zstreamdump libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libzfs_core.so.1,libm.so.6,libdl.so.2,libblkid.so.1,librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/sbin/ztest libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libzfs_core.so.1,libblkid.so.1,librt.so.1,libm.so.6,libdl.so.2,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/sbin/zpios libuuid.so.1,libz.so.1,libc.so.6
+/home/core/gentoo/sbin/mount.zfs libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libzfs_core.so.1,libm.so.6,libdl.so.2,libblkid.so.1,librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/sbin/zed libnvpair.so.1,libzfs.so.2,libzfs_core.so.1,libzpool.so.2,libuutil.so.1,librt.so.1,libm.so.6,libdl.so.2,libblkid.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6

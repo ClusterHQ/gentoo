@@ -1,0 +1,19 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/bc-1.06.95-r1
+obj /home/core/gentoo/usr/share/doc/bc-1.06.95-r1/ChangeLog.bz2 d4541311887b65b0699cc0b0a399dd43 1410989557
+obj /home/core/gentoo/usr/share/doc/bc-1.06.95-r1/README.bz2 f8801984a52ccb904714d0e5d6632204 1410989557
+obj /home/core/gentoo/usr/share/doc/bc-1.06.95-r1/NEWS.bz2 1bfd01d5509c508f44ef69f733bf1694 1410989557
+obj /home/core/gentoo/usr/share/doc/bc-1.06.95-r1/FAQ.bz2 e546ad61d69cb365b3e19da83ad14b4f 1410989557
+obj /home/core/gentoo/usr/share/doc/bc-1.06.95-r1/AUTHORS.bz2 bd85627e0a94fa543bb00f37a63f67a8 1410989557
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/dc.info.bz2 cf9a542208a7bfa132a63f971c1818f9 1410989557
+obj /home/core/gentoo/usr/share/info/bc.info.bz2 64e3d22797b5f0b9bacf6ceb294bae6b 1410989557
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/dc.1.bz2 5c9c7dfddbc4fe44610da5eaa13ac437 1410989557
+obj /home/core/gentoo/usr/share/man/man1/bc.1.bz2 0f868a98144dc6e964381f2df0f21782 1410989557
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/dc a57560f0b7392371ae0b6a590c6ec5a9 1410989557
+obj /home/core/gentoo/usr/bin/bc bc1082cf5bce2537abee2279866cb5ae 1410989557

@@ -1,0 +1,13 @@
+# ChangeLog for dev-scheme/stalin
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-scheme/stalin/ChangeLog,v 1.2 2014/08/10 21:26:00 slyfox Exp $
+
+  10 Aug 2014; Sergei Trofimovich <slyfox@gentoo.org> stalin-0.11.ebuild:
+  QA: drop trailing '.' from DESCRIPTION
+
+*stalin-0.11 (01 Jun 2008)
+
+  01 Jun 2008; Panagiotis Christopoulos <pchrist@gentoo.org>
+  +stalin-0.11.ebuild:
+  Initial port of dev-scheme/stalin, version 0.11. Updated and moved from
+  the overlay to the main tree

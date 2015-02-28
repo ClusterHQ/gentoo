@@ -1,0 +1,1 @@
+>=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)] !<net-misc/openssh-5.9_p1-r4 !<net-libs/neon-0.29.6-r1

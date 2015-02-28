@@ -1,0 +1,66 @@
+dir /home/core/gentoo/var
+dir /home/core/gentoo/var/lib
+dir /home/core/gentoo/var/lib/gentoo
+dir /home/core/gentoo/var/lib/gentoo/news
+obj /home/core/gentoo/var/lib/gentoo/news/.keep_app-admin_eselect-0 d41d8cd98f00b204e9800998ecf8427e 1410959622
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/bash-completion
+dir /home/core/gentoo/usr/share/bash-completion/completions
+obj /home/core/gentoo/usr/share/bash-completion/completions/eselect 17798dea2adfdf8005ff29ddbafc6e89 1410959622
+dir /home/core/gentoo/usr/share/eselect
+dir /home/core/gentoo/usr/share/eselect/modules
+obj /home/core/gentoo/usr/share/eselect/modules/pager.eselect 570ac9058030f41e593a051e59e1dcef 1410959622
+obj /home/core/gentoo/usr/share/eselect/modules/modules.eselect 6eba713f7b722b07ed726853a7214427 1410959622
+obj /home/core/gentoo/usr/share/eselect/modules/kernel.eselect 1179e3c5f538a54178a38ade20e69555 1410959622
+obj /home/core/gentoo/usr/share/eselect/modules/editor.eselect e63163171deeb1eef042a7dbc34d8532 1410959622
+obj /home/core/gentoo/usr/share/eselect/modules/rc.eselect 9a2e62630c074b0c5d308691a003df95 1410959622
+obj /home/core/gentoo/usr/share/eselect/modules/locale.eselect b56a902e05c9010d32f62c63765affcd 1410959622
+obj /home/core/gentoo/usr/share/eselect/modules/binutils.eselect 1a887ecd79b48677fe07ea0817635f09 1410959622
+obj /home/core/gentoo/usr/share/eselect/modules/profile.eselect acae68415c7d22293df02071468c3048 1410959622
+obj /home/core/gentoo/usr/share/eselect/modules/env.eselect 1c71183ec7b4e3c8c4edea0c8ad63f1d 1410959622
+obj /home/core/gentoo/usr/share/eselect/modules/news.eselect 624bf41fd7fdb140dc77a0f4560f247f 1410959622
+obj /home/core/gentoo/usr/share/eselect/modules/visual.eselect b433e98336488a6bb716064a9d8fd33b 1410959622
+dir /home/core/gentoo/usr/share/eselect/libs
+obj /home/core/gentoo/usr/share/eselect/libs/manip.bash 632fe777c8edb85df121a9c796890f27 1410959622
+obj /home/core/gentoo/usr/share/eselect/libs/config.bash 3507e0fdcb416c10e03a23430f26da22 1410959622
+obj /home/core/gentoo/usr/share/eselect/libs/skel.bash 90f922da1b91e5a5674119d0fea4ef21 1410959622
+obj /home/core/gentoo/usr/share/eselect/libs/core.bash 64f28afc3334ad2eccff785855061f3e 1410959622
+obj /home/core/gentoo/usr/share/eselect/libs/path-manipulation.bash 4d97a9ec26e8fc06233b9cba3f957ca2 1410959622
+obj /home/core/gentoo/usr/share/eselect/libs/editor-variable.bash f7b9c84351d6efb5eacd579623c04dbd 1410959622
+obj /home/core/gentoo/usr/share/eselect/libs/tests.bash 661137f1e534e0e0761f1190afcb4b24 1410959622
+obj /home/core/gentoo/usr/share/eselect/libs/default.eselect 0db6c4f78e0268af5a65a22888a8a007 1410959622
+obj /home/core/gentoo/usr/share/eselect/libs/multilib.bash dea164d0d32338867ed7d2305d7b1d6a 1410959622
+obj /home/core/gentoo/usr/share/eselect/libs/package-manager.bash 3b469eb0978d6636a15d451663587e1e 1410959622
+obj /home/core/gentoo/usr/share/eselect/libs/output.bash 8ab27b7283221cf050da44315a758f14 1410959622
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/eselect-1.4.3
+obj /home/core/gentoo/usr/share/doc/eselect-1.4.3/developer-guide.txt.bz2 84504aeb350a9f6d23c86070c5213605 1410959622
+obj /home/core/gentoo/usr/share/doc/eselect-1.4.3/AUTHORS.bz2 fe7746c0313a9d1c18096803cdfd4b95 1410959622
+obj /home/core/gentoo/usr/share/doc/eselect-1.4.3/release-guide.txt.bz2 bda98668937e653bfe6e111a0a6680f1 1410959622
+obj /home/core/gentoo/usr/share/doc/eselect-1.4.3/README.bz2 427cdb053063d5d1fc4b3a07a37d054c 1410959622
+obj /home/core/gentoo/usr/share/doc/eselect-1.4.3/TODO.bz2 d9e0099a773c5db3dcf824613e099627 1410959622
+obj /home/core/gentoo/usr/share/doc/eselect-1.4.3/NEWS.bz2 cb0a66cdd2ec8ad79ff2924d04fcae03 1410959622
+obj /home/core/gentoo/usr/share/doc/eselect-1.4.3/user-guide.txt.bz2 9568dcba37f330af0138711b580ed662 1410959622
+obj /home/core/gentoo/usr/share/doc/eselect-1.4.3/ChangeLog.bz2 c6cc5a8e6bf9e186e887f3f0ed9fd2cb 1410959622
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+sym /home/core/gentoo/usr/share/man/man1/kernel-config.1.bz2 -> ../man5/kernel.eselect.5.bz2 1410959741
+sym /home/core/gentoo/usr/share/man/man1/rc-config.1.bz2 -> ../man5/rc.eselect.5.bz2 1410959741
+sym /home/core/gentoo/usr/share/man/man1/profile-config.1.bz2 -> ../man5/profile.eselect.5.bz2 1410959741
+obj /home/core/gentoo/usr/share/man/man1/eselect.1.bz2 9341ba02c6de752f27dacb93d9642046 1410959622
+dir /home/core/gentoo/usr/share/man/man5
+obj /home/core/gentoo/usr/share/man/man5/profile.eselect.5.bz2 9456c023dd286770b35b41e857d04e6e 1410959622
+obj /home/core/gentoo/usr/share/man/man5/editor.eselect.5.bz2 226194478102028c98882d9fe9d496d3 1410959622
+obj /home/core/gentoo/usr/share/man/man5/visual.eselect.5.bz2 92ee8b58679bc029fb7f1072da71e918 1410959622
+obj /home/core/gentoo/usr/share/man/man5/news.eselect.5.bz2 190a4e4935146c0646a0b4715c6679df 1410959622
+obj /home/core/gentoo/usr/share/man/man5/binutils.eselect.5.bz2 5863bb84da4e305136d732b88cae8049 1410959622
+obj /home/core/gentoo/usr/share/man/man5/kernel.eselect.5.bz2 33f1fb329347d74639f83e578c858148 1410959622
+obj /home/core/gentoo/usr/share/man/man5/rc.eselect.5.bz2 3757986cd9220a14a334f16a2781dc2e 1410959622
+obj /home/core/gentoo/usr/share/man/man5/pager.eselect.5.bz2 04cb10411e47273102f6ee8a95b1247b 1410959622
+obj /home/core/gentoo/usr/share/man/man5/env.eselect.5.bz2 f2462bb19b9bf589e315eb82865a47d0 1410959622
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/profile-config -> eselect 1410959741
+sym /home/core/gentoo/usr/bin/kernel-config -> eselect 1410959741
+obj /home/core/gentoo/usr/bin/eselect 338dea89b45577f749901a860032e494 1410959622
+sym /home/core/gentoo/usr/bin/rc-config -> eselect 1410959741

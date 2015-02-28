@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst setup
+DEPEND=net-nds/openldap sasl? ( dev-libs/cyrus-sasl ) kerberos? ( virtual/krb5 ) pam? ( virtual/pam ) !sys-auth/nss_ldap !sys-auth/pam_ldap
+DESCRIPTION=NSS module for name lookups using LDAP
+EAPI=4
+HOMEPAGE=http://arthurdejong.org/nss-pam-ldapd/
+IUSE=debug kerberos sasl +pam
+KEYWORDS=~x86 ~amd64
+LICENSE=LGPL-2.1
+RDEPEND=net-nds/openldap sasl? ( dev-libs/cyrus-sasl ) kerberos? ( virtual/krb5 ) pam? ( virtual/pam ) !sys-auth/nss_ldap !sys-auth/pam_ldap
+SLOT=0
+SRC_URI=http://arthurdejong.org/nss-pam-ldapd/nss-pam-ldapd-0.8.14.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=be4d481403db810445a9ce23c6217ac2

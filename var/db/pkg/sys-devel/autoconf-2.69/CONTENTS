@@ -1,0 +1,84 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/autoconf
+obj /home/core/gentoo/usr/share/autoconf/INSTALL ce6ce0281045fd70ce467094f18def1a 1410959339
+dir /home/core/gentoo/usr/share/autoconf/m4sugar
+obj /home/core/gentoo/usr/share/autoconf/m4sugar/m4sugar.m4f 1672e24907342f9dea40c04f8909e75d 1410959340
+obj /home/core/gentoo/usr/share/autoconf/m4sugar/m4sugar.m4 5b9c3591ef55c5d5afebdebc64fe6bd8 1410959340
+obj /home/core/gentoo/usr/share/autoconf/m4sugar/m4sh.m4 b647abee41e64a32499b99763abad888 1410959340
+obj /home/core/gentoo/usr/share/autoconf/m4sugar/m4sh.m4f f221a4b0dd6bd7a9c6a7eb14a6bdb293 1410959340
+obj /home/core/gentoo/usr/share/autoconf/m4sugar/version.m4 b13d513c4c1541180e3f212fe4534d4e 1410959340
+obj /home/core/gentoo/usr/share/autoconf/m4sugar/foreach.m4 1331030e9b1ec1531a9a63fb91c3c4ae 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autom4te.cfg bd21cccc510f8de1504191082a9bcde1 1410959340
+dir /home/core/gentoo/usr/share/autoconf/autotest
+obj /home/core/gentoo/usr/share/autoconf/autotest/autotest.m4f 974d542f528f641113493dd43de05ab5 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autotest/specific.m4 628d029049a03882d4d2729a5ae0ad2e 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autotest/autotest.m4 b84fdc70924c713f9dd226a77484b5c4 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autotest/general.m4 81dc4fcdfb840414a953eba840636b0e 1410959340
+dir /home/core/gentoo/usr/share/autoconf/Autom4te
+obj /home/core/gentoo/usr/share/autoconf/Autom4te/C4che.pm 4127faac7c3e9a70101af69ea3d2df67 1410959339
+obj /home/core/gentoo/usr/share/autoconf/Autom4te/Getopt.pm c9918ffdff756c91ac734824aebc60e7 1410959339
+obj /home/core/gentoo/usr/share/autoconf/Autom4te/Request.pm 6edb11ed176b6b7cfbbdc1935eb05bd9 1410959339
+obj /home/core/gentoo/usr/share/autoconf/Autom4te/Channels.pm e21a73685ef9d36617581e567ef008d2 1410959339
+obj /home/core/gentoo/usr/share/autoconf/Autom4te/XFile.pm fc8a5743d8b2396b3cbe1b6313f371f0 1410959339
+obj /home/core/gentoo/usr/share/autoconf/Autom4te/FileUtils.pm de1e8b79eaf2a5f96425aad07bac4b24 1410959339
+obj /home/core/gentoo/usr/share/autoconf/Autom4te/General.pm 35ac9e04ed149d7c5cdd48a5fde5b8a7 1410959339
+obj /home/core/gentoo/usr/share/autoconf/Autom4te/Configure_ac.pm 53a780b579f2bb58a679ae1b8a076d44 1410959339
+obj /home/core/gentoo/usr/share/autoconf/Autom4te/ChannelDefs.pm 241a179ccb52118121f19cceda6155b0 1410959339
+dir /home/core/gentoo/usr/share/autoconf/autoscan
+obj /home/core/gentoo/usr/share/autoconf/autoscan/autoscan.list 630b08235cd3df19e549b20c2885bfaa 1410959340
+dir /home/core/gentoo/usr/share/autoconf/autoconf
+obj /home/core/gentoo/usr/share/autoconf/autoconf/programs.m4 cbd91b6b850d9479260391c3926d5dfe 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/autoconf.m4 f8cda2c0bb3f94828350b77aac1e834a 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/headers.m4 8a08b7b69cf4d581bfcc7f2b99f92d69 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/autoscan.m4 52e7313124a53bdc959c11e331ec28f1 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/fortran.m4 49967451ce74fa270e119d6534140ad8 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/autoconf.m4f c6d6931846bd07f3435700e31b9028af 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/general.m4 c2e1e54ba42adb47cacf2c4ed519151d 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/lang.m4 04580bdc50623cdf8f4207aa172bc17a 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/erlang.m4 069e4c60419874989b5f36997b86c348 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/specific.m4 8dc5c47a1300ba2ee93ab2656bef9609 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/functions.m4 74a751e9dc477f94476b41896d634cf9 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/c.m4 0cb194c2c2eb63a8a0f748d22d9d9cc3 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/types.m4 a31ee5ed977e2557daf8860bce8fa0ac 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/autoheader.m4 2b6cb9598dfc9f3007c8c7a25df6ed83 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/oldnames.m4 d69b3e220049ff2249e20f3fdf6a8585 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/autotest.m4 062430bd78e078e60b44da107b02f099 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/status.m4 5c4d196ea3e056786b90d12129598882 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/libs.m4 96358447a9268023edba4484280e35cb 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/autoupdate.m4 86ef31b879c53ad90e8be1ff36b0ecf4 1410959340
+obj /home/core/gentoo/usr/share/autoconf/autoconf/go.m4 d6a37e03ed0837c0f21dac1beb3841d8 1410959340
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/autoupdate-2.69.1.bz2 b9acc734270ea1f52d45b4ce98f8919d 1410959340
+obj /home/core/gentoo/usr/share/man/man1/config.guess-2.69.1.bz2 f4a8edf4b0f62ee3cd493f12b8f5efa9 1410959340
+obj /home/core/gentoo/usr/share/man/man1/autoscan-2.69.1.bz2 694b95f44b6d23c28fd02581c249360d 1410959340
+obj /home/core/gentoo/usr/share/man/man1/config.sub-2.69.1.bz2 72a21edb6b76425cb877709150793e15 1410959340
+obj /home/core/gentoo/usr/share/man/man1/autoconf-2.69.1.bz2 338d85cccbe1e142f211a4fe5a06e3dd 1410959340
+obj /home/core/gentoo/usr/share/man/man1/autoreconf-2.69.1.bz2 15128044a433515de5736cb08d4c8242 1410959340
+obj /home/core/gentoo/usr/share/man/man1/autoheader-2.69.1.bz2 42151b49d531c631c42f1b480538a963 1410959340
+obj /home/core/gentoo/usr/share/man/man1/autom4te-2.69.1.bz2 f7907076394d0deb426f1e128cebfc75 1410959340
+obj /home/core/gentoo/usr/share/man/man1/ifnames-2.69.1.bz2 4f5125fc8a0e477494af047df6d8843c 1410959340
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/autoconf-2.69
+obj /home/core/gentoo/usr/share/doc/autoconf-2.69/ChangeLog.0.bz2 278adedcc8acf83239024b68bcf23406 1410959340
+obj /home/core/gentoo/usr/share/doc/autoconf-2.69/THANKS.bz2 a0fd15014e4e6079c20f792dc4a96e41 1410959340
+obj /home/core/gentoo/usr/share/doc/autoconf-2.69/ChangeLog.bz2 a5a50496ac1266952a56fffcfe513bab 1410959340
+obj /home/core/gentoo/usr/share/doc/autoconf-2.69/ChangeLog.1.bz2 9a93fe00074ed1acfb5b2240427735e0 1410959340
+obj /home/core/gentoo/usr/share/doc/autoconf-2.69/BUGS.bz2 ee2fd952713a059df8a85bd70b6bb9f4 1410959340
+obj /home/core/gentoo/usr/share/doc/autoconf-2.69/NEWS.bz2 0c0e5c1fb3ca064c2de45343ae53b89e 1410959340
+obj /home/core/gentoo/usr/share/doc/autoconf-2.69/README.bz2 dd1365e06e46ada4fdca3ae4261e331b 1410959340
+obj /home/core/gentoo/usr/share/doc/autoconf-2.69/TODO.bz2 c94d6f8f7c1e7a46507e89238a403710 1410959340
+obj /home/core/gentoo/usr/share/doc/autoconf-2.69/ChangeLog.2.bz2 90faf95cbfa94f3e434593de09072ead 1410959340
+obj /home/core/gentoo/usr/share/doc/autoconf-2.69/AUTHORS.bz2 63d3f75841eb7a353bcf63dd7d40bdba 1410959340
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/standards.info.bz2 3138a3bd95013a9ab8856252b4419ea3 1410959340
+obj /home/core/gentoo/usr/share/info/autoconf.info.bz2 962ffc10c2ad3e109c36047f517caf71 1410959340
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/autoheader-2.69 449661ee8a41d4ff1b93017ca12c799e 1410959339
+obj /home/core/gentoo/usr/bin/autom4te-2.69 a23f97ce94a84e4589707692032f7535 1410959339
+obj /home/core/gentoo/usr/bin/autoscan-2.69 5284f67fa62d06b78c84e27716fec218 1410959339
+obj /home/core/gentoo/usr/bin/ifnames-2.69 a3991cce17a95c38f43ab9058575b316 1410959339
+obj /home/core/gentoo/usr/bin/autoupdate-2.69 dc4177f584dae23b17d6a12c5d478be6 1410959339
+obj /home/core/gentoo/usr/bin/autoconf-2.69 262173c917cfe6ddf50f0f1668554ef2 1410959341
+obj /home/core/gentoo/usr/bin/autoreconf-2.69 a78db70c3d88a35fd44da0041363ee51 1410959339

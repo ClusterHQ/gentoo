@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=sys-libs/lib-compat app-arch/unzip
+DESCRIPTION=Futuristic FPS (a hack that runs on top of Unreal Tournament)
+HOMEPAGE=http://www.unreal.com/ http://icculus.org/~chunky/ut/unreal/
+IUSE=X opengl
+KEYWORDS=-* ~x86
+LICENSE=all-rights-reserved
+PROPERTIES=interactive
+RDEPEND=!amd64? ( x11-libs/libXext x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp =media-libs/libsdl-1.2* opengl? ( virtual/opengl ) ) amd64? ( app-emulation/emul-linux-x86-sdl app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs )
+RESTRICT=mirror bindist
+SLOT=0
+SRC_URI=http://www.icculus.org/%7Echunky/ut/unreal/unreali-install.run ftp://ftp.lokigames.com/pub/patches/ut/ut-install-436.run ftp://ftp.lokigames.com/pub/patches/ut/IpDrv-436-Linux-08-20-02.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cdrom	49b4b952fb5c83fac6c616b532723e60	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=881511846e3ae8dd4ddcb8e3893db891

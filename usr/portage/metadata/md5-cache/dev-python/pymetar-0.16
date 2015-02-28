@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst postrm prepare
+DEPEND==dev-lang/python-2*
+DESCRIPTION=Downloads, decodes and provides access to the weather report for a given station ID
+EAPI=2
+HOMEPAGE=http://www.schwarzvogel.de/software-pymetar.shtml
+KEYWORDS=~amd64 ~ia64 ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND==dev-lang/python-2*
+SLOT=0
+SRC_URI=http://www.schwarzvogel.de/pkgs/pymetar-0.16.tar.gz
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=1a6d0eb998ab2ba02b4f037556538493

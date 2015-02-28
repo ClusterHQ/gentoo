@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install nofetch postinst preinst setup unpack
+DEPEND=>=games-server/bf1942-lnxded-1.6_rc
+DESCRIPTION=modern day military modification for BattleField 1942
+HOMEPAGE=http://www.desertcombat.com/
+KEYWORDS=x86
+LICENSE=all-rights-reserved
+RDEPEND=>=games-server/bf1942-lnxded-1.6_rc
+RESTRICT=fetch bindist
+SLOT=0
+SRC_URI=desertcombat_0.7n-beta_full_install.run
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=3c12abb03c13a299514381cb8bb036b3

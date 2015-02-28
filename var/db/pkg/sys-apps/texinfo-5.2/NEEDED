@@ -1,0 +1,4 @@
+/home/core/gentoo/usr/bin/texindex libc.so.6
+/home/core/gentoo/usr/bin/infokey libc.so.6
+/home/core/gentoo/usr/bin/install-info libc.so.6
+/home/core/gentoo/usr/bin/info libncurses.so.5,libc.so.6

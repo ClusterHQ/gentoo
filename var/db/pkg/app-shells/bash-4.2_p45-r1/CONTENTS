@@ -1,0 +1,122 @@
+dir /home/core/gentoo/etc
+dir /home/core/gentoo/etc/skel
+obj /home/core/gentoo/etc/skel/.bash_logout 7d8a8ef90c1818a0cd66808ac2740638 1410959789
+obj /home/core/gentoo/etc/skel/.bash_profile d76b9aa6b733175df21c2bb6afe8900d 1410959789
+obj /home/core/gentoo/etc/skel/.bashrc d210b9cd7fc07420736480f2062d7d7f 1410959789
+dir /home/core/gentoo/etc/bash
+obj /home/core/gentoo/etc/bash/bashrc b423c97788fcfb8cfecddcabeafee9ba 1410959789
+obj /home/core/gentoo/etc/bash/bash_logout 229ccc2980a94877f2e87f957e9da7bf 1410959789
+dir /home/core/gentoo/bin
+sym /home/core/gentoo/bin/rbash -> bash 1410959794
+obj /home/core/gentoo/bin/bash aa0fc8f3158c3dbe1ca0ab1ebe11cdb3 1410959790
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/bashbug d8afae1c91704e05a57fb9117270ead2 1410959790
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/bashbug.1.bz2 e66d5c4a1d373a1591097b3d2e020120 1410959789
+obj /home/core/gentoo/usr/share/man/man1/rbash.1.bz2 c8370af7d2cba6984a624f80a9f75bb1 1410959789
+obj /home/core/gentoo/usr/share/man/man1/bash.1.bz2 37e925af31fcd1abeb4509fffa5f4bb3 1410959789
+obj /home/core/gentoo/usr/share/man/man1/builtins.1.bz2 678398ef9f80b31fa1cab5ba94c3b915 1410959789
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/zh_TW
+dir /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES/bash.mo a246f568678acd20676984ab6ed94682 1410959789
+dir /home/core/gentoo/usr/share/locale/nl
+dir /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES/bash.mo 765b61474f99d86acde273e036f7b4f9 1410959789
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/bash.mo ba1035a438e4700312ec0020733cf97d 1410959789
+dir /home/core/gentoo/usr/share/locale/zh_CN
+dir /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES/bash.mo b8bf185f11ad909a0201fc9f1d33dec6 1410959789
+dir /home/core/gentoo/usr/share/locale/af
+dir /home/core/gentoo/usr/share/locale/af/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/af/LC_MESSAGES/bash.mo 34d1c622b05b67b8dae9d53cbd5db938 1410959789
+dir /home/core/gentoo/usr/share/locale/lt
+dir /home/core/gentoo/usr/share/locale/lt/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/lt/LC_MESSAGES/bash.mo 046bceb0ab16030ad76129068fd17e05 1410959789
+dir /home/core/gentoo/usr/share/locale/cs
+dir /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES/bash.mo 37f1941f34735cb6c435c19bd6d000a3 1410959789
+dir /home/core/gentoo/usr/share/locale/en@quot
+dir /home/core/gentoo/usr/share/locale/en@quot/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/en@quot/LC_MESSAGES/bash.mo f222c4bb0ffd098c5e2a68e8fb056cbf 1410959789
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/bash.mo 125b9d08787584d931ef4628d39b2ad7 1410959789
+dir /home/core/gentoo/usr/share/locale/en@boldquot
+dir /home/core/gentoo/usr/share/locale/en@boldquot/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/en@boldquot/LC_MESSAGES/bash.mo 06340fe0091c47a5345e3697275cacda 1410959789
+dir /home/core/gentoo/usr/share/locale/es
+dir /home/core/gentoo/usr/share/locale/es/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/es/LC_MESSAGES/bash.mo df01622522c7516542f0367ebf6b4e16 1410959789
+dir /home/core/gentoo/usr/share/locale/hu
+dir /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES/bash.mo 31fdaa9ef6002b27e21410d6a957af47 1410959789
+dir /home/core/gentoo/usr/share/locale/bg
+dir /home/core/gentoo/usr/share/locale/bg/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/bg/LC_MESSAGES/bash.mo a9a8eb222a65d3549de4a4662703297c 1410959789
+dir /home/core/gentoo/usr/share/locale/et
+dir /home/core/gentoo/usr/share/locale/et/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/et/LC_MESSAGES/bash.mo d29dc3dba5274eca2c687732280bc5e4 1410959789
+dir /home/core/gentoo/usr/share/locale/ga
+dir /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES/bash.mo 07a28e656a57a2f08c8b24e6ba8be849 1410959789
+dir /home/core/gentoo/usr/share/locale/sk
+dir /home/core/gentoo/usr/share/locale/sk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sk/LC_MESSAGES/bash.mo fe860d970fc1cc04de3c32549d233d21 1410959789
+dir /home/core/gentoo/usr/share/locale/tr
+dir /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES/bash.mo 54436a8fecb4d3bc1dc1147515f8abf6 1410959789
+dir /home/core/gentoo/usr/share/locale/eo
+dir /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES/bash.mo a5ec861e50c52dd4bab17e276d3b80d7 1410959789
+dir /home/core/gentoo/usr/share/locale/ca
+dir /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES/bash.mo 123d4d0f708e3b79eacd0a6e059a1d19 1410959789
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/bash.mo ece1101e994a66cc112edc4dc80079f1 1410959789
+dir /home/core/gentoo/usr/share/locale/ro
+dir /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES/bash.mo a3ebccb9a9d551a7959c76ad12b123ef 1410959789
+dir /home/core/gentoo/usr/share/locale/ru
+dir /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES/bash.mo d9a412ed46146a94df4e5899501c85ac 1410959789
+dir /home/core/gentoo/usr/share/locale/id
+dir /home/core/gentoo/usr/share/locale/id/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/id/LC_MESSAGES/bash.mo 52ad997378e66fba8ac08aea1d75ec14 1410959789
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/bash.mo e82550f8743e03b95aa2f126a8cde990 1410959789
+dir /home/core/gentoo/usr/share/locale/sv
+dir /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES/bash.mo c99493560997feae17562c4ce54200a0 1410959789
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/bash.mo e37dcef70aab199760c977b43d261d98 1410959789
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/bash.mo b6b7889e4e7473b65dacf16dc13968a1 1410959789
+dir /home/core/gentoo/usr/share/locale/ja
+dir /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES/bash.mo fb8427dbf3c0efca2dba80a5d1cddc4b 1410959789
+dir /home/core/gentoo/usr/share/locale/uk
+dir /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES/bash.mo ac71ab435a147878a410479210172ba7 1410959789
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/bash-4.2_p45-r1
+obj /home/core/gentoo/usr/share/doc/bash-4.2_p45-r1/Y2K.bz2 a855386af727dc96e799cecc2a7f253c 1410959789
+obj /home/core/gentoo/usr/share/doc/bash-4.2_p45-r1/FAQ.bz2 63c5c21d8dd128b44c26eb2f7d0e48ea 1410959789
+obj /home/core/gentoo/usr/share/doc/bash-4.2_p45-r1/CHANGES.bz2 56689eedde7cedd5e865e265d4d406fb 1410959789
+obj /home/core/gentoo/usr/share/doc/bash-4.2_p45-r1/COMPAT.bz2 6a835fd50a101ec077b5f34f8d7ba8a1 1410959789
+obj /home/core/gentoo/usr/share/doc/bash-4.2_p45-r1/README.bz2 4ef4056a14700d56a7e210a49e564686 1410959789
+obj /home/core/gentoo/usr/share/doc/bash-4.2_p45-r1/NEWS.bz2 cfd224d4090a2e9477e5f6639e289105 1410959789
+obj /home/core/gentoo/usr/share/doc/bash-4.2_p45-r1/AUTHORS.bz2 5843a6738bcec4a1c7470b2921bcc8da 1410959789
+obj /home/core/gentoo/usr/share/doc/bash-4.2_p45-r1/INTRO.bz2 0adb1e98d3ad2a3a012d696ea17e5547 1410959789
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/bash.info.bz2 a5a748929209e357cdd964aa1e100f91 1410959789
+sym /home/core/gentoo/usr/share/info/bashref.info.bz2 -> bash.info.bz2 1410959794

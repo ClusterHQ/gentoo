@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst postrm preinst
+DEPEND=>=dev-libs/libxml2-2.4.0:2 gtk? ( >=x11-libs/gtk+-2.6:2 ) sys-devel/gettext virtual/pkgconfig >=sys-apps/sed-4
+DESCRIPTION=French conjugation system
+EAPI=5
+HOMEPAGE=http://sarrazip.com/dev/verbiste.html
+IUSE=gtk
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libxml2-2.4.0:2 gtk? ( >=x11-libs/gtk+-2.6:2 )
+SLOT=0
+SRC_URI=http://sarrazip.com/dev/verbiste-0.1.38.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e1b944c6b3a878228ea50eb9f4994425

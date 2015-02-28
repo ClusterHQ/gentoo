@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 app-arch/unzip ~dev-java/jdom-1.0 =dev-java/jaxen-1.1* dev-java/saxpath !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 )
+DESCRIPTION=Jaxen binding for jdom
+HOMEPAGE=http://www.jdom.org
+IUSE=elibc_FreeBSD
+KEYWORDS=amd64 ~arm ~ia64 ppc ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x86-solaris
+LICENSE=JDOM
+RDEPEND=>=virtual/jre-1.4 ~dev-java/jdom-1.0 =dev-java/jaxen-1.1* dev-java/saxpath !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 )
+SLOT=1.0
+SRC_URI=http://www.jdom.org/dist/source/jdom-1.0.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	java-pkg-2	65bbb59987d777c1106ae8aa4bf36e7b	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=11cb3b453c2c315dbbff093b5e7e63a1

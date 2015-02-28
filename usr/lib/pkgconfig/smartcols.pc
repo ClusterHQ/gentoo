@@ -1,0 +1,10 @@
+prefix=/home/core/gentoo/usr
+exec_prefix=/home/core/gentoo/usr
+libdir=/home/core/gentoo/usr/lib
+includedir=/home/core/gentoo/usr/include
+
+Name: smartcols
+Description: table or tree library
+Version: 2.25.0
+Cflags: -I${includedir}/libsmartcols
+Libs: -L${libdir} -lsmartcols

@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=app-arch/unzip virtual/httpd-php >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Web-based administration for VirtualBox in PHP
+EAPI=2
+HOMEPAGE=https://sourceforge.net/projects/phpvirtualbox/
+IUSE=vhosts
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/php[session,unicode,soap,gd] virtual/httpd-php >=app-admin/webapp-config-1.50.15
+SLOT=4.1.11
+SRC_URI=http://phpvirtualbox.googlecode.com/files/phpvirtualbox-4.1-11.zip
+_eclasses_=depend.php	dcdf301e07578788ea73af6c2012b66b	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	phpconfutils	3b141a267018096231e10dfbd1657b81	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=88a3ceaf9facc2b813e79dd880bc9977

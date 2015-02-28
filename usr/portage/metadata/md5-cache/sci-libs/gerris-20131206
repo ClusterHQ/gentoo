@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/glib:2 dev-games/ode sci-libs/netcdf sci-libs/gsl sci-libs/gts sci-libs/hypre[mpi?] sci-libs/lis[mpi?] sci-libs/proj >=sci-libs/fftw-3 virtual/lapack mpi? ( virtual/mpi ) virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Gerris Flow Solver
+EAPI=5
+HOMEPAGE=http://gfs.sourceforge.net/
+IUSE=examples mpi static-libs
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=dev-libs/glib:2 dev-games/ode sci-libs/netcdf sci-libs/gsl sci-libs/gts sci-libs/hypre[mpi?] sci-libs/lis[mpi?] sci-libs/proj >=sci-libs/fftw-3 virtual/lapack mpi? ( virtual/mpi )
+RESTRICT=test
+SLOT=0
+SRC_URI=http://gerris.dalembert.upmc.fr/gerris/tarballs/gerris-snapshot-131206.tar.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	autotools-utils	3727db64c7b960903d5033280f108080	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=2faebb2392eef66b08506c579eba1423

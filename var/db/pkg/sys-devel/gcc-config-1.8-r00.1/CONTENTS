@@ -1,0 +1,6 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/gcc-config 488b744a773dfe49a6699acc3bd27dcd 1410958914
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/misc
+obj /home/core/gentoo/usr/lib/misc/gcc-config 798513aa339a2ec0e176ff108f0ca15d 1410958913

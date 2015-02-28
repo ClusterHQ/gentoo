@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=tool for checking well known weaknesses in the TCP/IP protocol
+EAPI=5
+HOMEPAGE=http://lin.fsid.cvut.cz/~kra/index.html
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://lin.fsid.cvut.cz/~kra/hunt/hunt-1.5.tgz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c10eaea9b66f5ddf32faf6e7a08546eb

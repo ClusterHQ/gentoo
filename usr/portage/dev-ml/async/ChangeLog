@@ -1,0 +1,53 @@
+# ChangeLog for dev-ml/async
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ml/async/ChangeLog,v 1.10 2014/02/13 15:53:27 aballier Exp $
+
+*async-110.01.00 (13 Feb 2014)
+
+  13 Feb 2014; Alexis Ballier <aballier@gentoo.org> +async-110.01.00.ebuild:
+  version bump
+
+*async-109.60.00 (19 Jan 2014)
+
+  19 Jan 2014; Alexis Ballier <aballier@gentoo.org> +async-109.60.00.ebuild:
+  version bump
+
+*async-109.38.00 (19 Aug 2013)
+
+  19 Aug 2013; Alexis Ballier <aballier@gentoo.org> +async-109.38.00.ebuild:
+  version bump
+
+  16 Aug 2013; Alexis Ballier <aballier@gentoo.org> -async-109.27.00.ebuild,
+  -async-109.34.00.ebuild:
+  remove old
+
+*async-109.35.00 (01 Aug 2013)
+
+  01 Aug 2013; Alexis Ballier <aballier@gentoo.org> +async-109.35.00.ebuild:
+  version bump
+
+*async-109.34.00 (22 Jul 2013)
+
+  22 Jul 2013; Alexis Ballier <aballier@gentoo.org> +async-109.34.00.ebuild:
+  version bump
+
+  22 Jul 2013; Alexis Ballier <aballier@gentoo.org> -async-109.11.00.ebuild,
+  -async-109.22.00.ebuild:
+  remove old
+
+*async-109.27.00 (10 Jun 2013)
+
+  10 Jun 2013; Alexis Ballier <aballier@gentoo.org> +async-109.27.00.ebuild:
+  version bump
+
+*async-109.22.00 (24 May 2013)
+
+  24 May 2013; Alexis Ballier <aballier@gentoo.org> +async-109.22.00.ebuild:
+  version bump
+
+*async-109.11.00 (06 Mar 2013)
+
+  06 Mar 2013; Alexis Ballier <aballier@gentoo.org> +async-109.11.00.ebuild,
+  +metadata.xml:
+  initial import, ebuild by me
+

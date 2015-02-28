@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DEPEND=dev-db/sqlite:3 >=dev-games/irrlicht-1.8-r2 sys-libs/zlib curl? ( net-misc/curl ) !dedicated? ( app-arch/bzip2 media-libs/libpng:0 virtual/jpeg virtual/opengl x11-libs/libX11 x11-libs/libXxf86vm sound? ( media-libs/libogg media-libs/libvorbis media-libs/openal ) truetype? ( media-libs/freetype:2 ) ) leveldb? ( dev-libs/leveldb ) luajit? ( dev-lang/luajit:2 ) !luajit? ( >=dev-lang/lua-5.1.4[deprecated] ) nls? ( virtual/libintl ) redis? ( dev-libs/hiredis ) nls? ( sys-devel/gettext ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) >=sys-apps/sed-4
+DESCRIPTION=An InfiniMiner/Minecraft inspired game
+EAPI=5
+HOMEPAGE=http://minetest.net/
+IUSE=+curl dedicated leveldb luajit nls redis +server +sound +truetype
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1+ CC-BY-SA-3.0
+RDEPEND=dev-db/sqlite:3 >=dev-games/irrlicht-1.8-r2 sys-libs/zlib curl? ( net-misc/curl ) !dedicated? ( app-arch/bzip2 media-libs/libpng:0 virtual/jpeg virtual/opengl x11-libs/libX11 x11-libs/libXxf86vm sound? ( media-libs/libogg media-libs/libvorbis media-libs/openal ) truetype? ( media-libs/freetype:2 ) ) leveldb? ( dev-libs/leveldb ) luajit? ( dev-lang/luajit:2 ) !luajit? ( >=dev-lang/lua-5.1.4[deprecated] ) nls? ( virtual/libintl ) redis? ( dev-libs/hiredis )
+SLOT=0
+SRC_URI=http://github.com/minetest/minetest/tarball/0.4.10 -> minetest-0.4.10.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	vcs-snapshot	58b766562c9fbfb3268b04e33cdf2f66
+_md5_=52fe026f06d81535a49627e3a0a9ba12

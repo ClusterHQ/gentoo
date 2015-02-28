@@ -1,0 +1,107 @@
+dir /home/core/gentoo/bin
+sym /home/core/gentoo/bin/nisdomainname -> hostname 1410959153
+sym /home/core/gentoo/bin/ypdomainname -> hostname 1410959153
+obj /home/core/gentoo/bin/hostname 86bc5bf053b0bccbd5c6682982d076e7 1410959056
+sym /home/core/gentoo/bin/domainname -> hostname 1410959153
+sym /home/core/gentoo/bin/dnsdomainname -> hostname 1410959153
+obj /home/core/gentoo/bin/route fb0f3b7920641531acec11a071e01653 1410959056
+obj /home/core/gentoo/bin/ifconfig a345bfd943eb58d841f1025684a279ee 1410959056
+obj /home/core/gentoo/bin/netstat 0bf11e45480db9f7c5d03e114dbe22b3 1410959056
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/net-tools-1.60_p20130513023548-r1
+obj /home/core/gentoo/usr/share/doc/net-tools-1.60_p20130513023548-r1/README.ipv6.bz2 c0b0ad13afc52b51febe2b4dba6725cd 1410959056
+obj /home/core/gentoo/usr/share/doc/net-tools-1.60_p20130513023548-r1/README.bz2 86633a4a7802cf0a8855943f3b86d06e 1410959056
+obj /home/core/gentoo/usr/share/doc/net-tools-1.60_p20130513023548-r1/TODO.bz2 6a4284681bce51625f0c2726385a2efd 1410959056
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/et_EE
+dir /home/core/gentoo/usr/share/locale/et_EE/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/et_EE/LC_MESSAGES/net-tools.mo 9322e68a79450146d39ab019b8ac248b 1410959055
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/net-tools.mo ea69597096a077a59493b61153627ccb 1410959055
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/net-tools.mo 2caec2694e737a62fe431f52d7ee27a0 1410959055
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/net-tools.mo fb6ad9fe053f58f9e7f7c5f783d000d5 1410959055
+dir /home/core/gentoo/usr/share/locale/cs
+dir /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES/net-tools.mo 271151948faf722c732ccc6f5f53f2fd 1410959055
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/fr_FR
+dir /home/core/gentoo/usr/share/man/fr_FR/man1
+obj /home/core/gentoo/usr/share/man/fr_FR/man1/hostname.1.bz2 0cb86a30ffabe88b0086a6b0a0f759f4 1410959055
+obj /home/core/gentoo/usr/share/man/fr_FR/man1/domainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/fr_FR/man1/ypdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/fr_FR/man1/dnsdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/fr_FR/man1/nisdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+dir /home/core/gentoo/usr/share/man/fr_FR/man5
+obj /home/core/gentoo/usr/share/man/fr_FR/man5/ethers.5.bz2 62f32d0cff2a2db2bfc95c39752b9e2b 1410959055
+dir /home/core/gentoo/usr/share/man/fr_FR/man8
+obj /home/core/gentoo/usr/share/man/fr_FR/man8/rarp.8.bz2 c37e6c2f03a91899fdcb44d3264ffbd4 1410959055
+obj /home/core/gentoo/usr/share/man/fr_FR/man8/route.8.bz2 63941041cde46cb8a58c50ad99b7b27c 1410959055
+obj /home/core/gentoo/usr/share/man/fr_FR/man8/ifconfig.8.bz2 4cdfe7eec919bbbd27b17e5e3600d28b 1410959055
+obj /home/core/gentoo/usr/share/man/fr_FR/man8/slattach.8.bz2 0562b37a64bd57089134c8107959ca03 1410959055
+obj /home/core/gentoo/usr/share/man/fr_FR/man8/plipconfig.8.bz2 68c555a020c51de9b84055157a76cb1c 1410959055
+obj /home/core/gentoo/usr/share/man/fr_FR/man8/netstat.8.bz2 d78a738a391c86412fc3f4ff757c01a5 1410959055
+obj /home/core/gentoo/usr/share/man/fr_FR/man8/arp.8.bz2 5d0edcc6f39860ade75818a0e2679690 1410959055
+dir /home/core/gentoo/usr/share/man/de_DE
+dir /home/core/gentoo/usr/share/man/de_DE/man8
+obj /home/core/gentoo/usr/share/man/de_DE/man8/arp.8.bz2 53826184217505e732321b677cd1b5df 1410959055
+obj /home/core/gentoo/usr/share/man/de_DE/man8/route.8.bz2 60cf118a2e80d71170811da9ffcad127 1410959055
+obj /home/core/gentoo/usr/share/man/de_DE/man8/rarp.8.bz2 ca0a650021ca8152063f248ed697dd71 1410959055
+obj /home/core/gentoo/usr/share/man/de_DE/man8/netstat.8.bz2 7cf43f655f9747d13a4086cd9ac2a74d 1410959055
+obj /home/core/gentoo/usr/share/man/de_DE/man8/plipconfig.8.bz2 adba40eb52a744e651f41ca8291ccc6d 1410959055
+obj /home/core/gentoo/usr/share/man/de_DE/man8/ifconfig.8.bz2 185a201da449c20b7632adbf4d8e3272 1410959055
+obj /home/core/gentoo/usr/share/man/de_DE/man8/slattach.8.bz2 16eac0122a93ae4bc2ba14bfc943a013 1410959055
+dir /home/core/gentoo/usr/share/man/de_DE/man5
+obj /home/core/gentoo/usr/share/man/de_DE/man5/ethers.5.bz2 353c506eed4155325ac165133025b802 1410959055
+dir /home/core/gentoo/usr/share/man/de_DE/man1
+obj /home/core/gentoo/usr/share/man/de_DE/man1/ypdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/de_DE/man1/hostname.1.bz2 84db47217928c18ff1d8d469141e0646 1410959055
+obj /home/core/gentoo/usr/share/man/de_DE/man1/nisdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/de_DE/man1/dnsdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/de_DE/man1/domainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+dir /home/core/gentoo/usr/share/man/pt_BR
+dir /home/core/gentoo/usr/share/man/pt_BR/man8
+obj /home/core/gentoo/usr/share/man/pt_BR/man8/netstat.8.bz2 3db6e04ccb0d34285afc0ae90ff93cce 1410959055
+obj /home/core/gentoo/usr/share/man/pt_BR/man8/arp.8.bz2 28d2cddf9628a57ae9adc4e12e5ed8b5 1410959055
+obj /home/core/gentoo/usr/share/man/pt_BR/man8/rarp.8.bz2 692b5590c6aac4017c87e914ea1a739f 1410959055
+obj /home/core/gentoo/usr/share/man/pt_BR/man8/ifconfig.8.bz2 1ace31d2fb97f7e906ec5f64e077356e 1410959055
+obj /home/core/gentoo/usr/share/man/pt_BR/man8/route.8.bz2 84b46ba5e514bd16ed48f1e7cc734e9f 1410959055
+dir /home/core/gentoo/usr/share/man/pt_BR/man1
+obj /home/core/gentoo/usr/share/man/pt_BR/man1/domainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/pt_BR/man1/dnsdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/pt_BR/man1/nisdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/pt_BR/man1/hostname.1.bz2 7955046030fd1364dba637893a9ddc72 1410959055
+obj /home/core/gentoo/usr/share/man/pt_BR/man1/ypdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/nisdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/man1/dnsdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/man1/domainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/man1/ypdomainname.1 5cdb124540d178ea21f212b96af44b3b 1410959055
+obj /home/core/gentoo/usr/share/man/man1/hostname.1.bz2 313c29ae8061388a4056d7cb6994d652 1410959055
+dir /home/core/gentoo/usr/share/man/man8
+obj /home/core/gentoo/usr/share/man/man8/slattach.8.bz2 3f407761762596f8ef92ea5bc6ef5524 1410959055
+obj /home/core/gentoo/usr/share/man/man8/ifconfig.8.bz2 2000390ffd69c2f36874e304c850d7b2 1410959055
+obj /home/core/gentoo/usr/share/man/man8/mii-tool.8.bz2 d2e00994b5588fea467cc8b7a5a03b53 1410959055
+obj /home/core/gentoo/usr/share/man/man8/netstat.8.bz2 acb6d441cee0b49a1175877d3e79b6e9 1410959055
+obj /home/core/gentoo/usr/share/man/man8/rarp.8.bz2 bdea06163f21ff7ff05d153cc426ac34 1410959055
+obj /home/core/gentoo/usr/share/man/man8/nameif.8.bz2 0147c1f551ba9799d25207699d2cf234 1410959055
+obj /home/core/gentoo/usr/share/man/man8/route.8.bz2 7681043591bcef8e4014ee8365c16bcd 1410959055
+obj /home/core/gentoo/usr/share/man/man8/plipconfig.8.bz2 045ed7e0bccba28ffe374539698cb046 1410959055
+obj /home/core/gentoo/usr/share/man/man8/arp.8.bz2 09cde85a36e268f3d7ff59abe2acbd72 1410959055
+dir /home/core/gentoo/usr/share/man/man5
+obj /home/core/gentoo/usr/share/man/man5/ethers.5.bz2 6b0485a062ff2ab9423dcb5da18c25e4 1410959055
+dir /home/core/gentoo/sbin
+obj /home/core/gentoo/sbin/iptunnel 1e192bacd084a5d9b679e7e1e385fb74 1410959056
+obj /home/core/gentoo/sbin/rarp 00cc2e4470c1e62ab07ef6e52e2745c4 1410959056
+obj /home/core/gentoo/sbin/arp 67f83211942cbb42b4c6df8e628e55db 1410959056
+obj /home/core/gentoo/sbin/nameif f38c195cfd902a8bb0f3edb6862a724c 1410959056
+obj /home/core/gentoo/sbin/mii-tool e000ac03cdcd4cb1ef999d991e7f1ed2 1410959056
+obj /home/core/gentoo/sbin/slattach 6062422650f8330da28407cf32099f38 1410959056
+obj /home/core/gentoo/sbin/plipconfig eb6764d0a09ebcf91f45039853f9fb91 1410959056
+obj /home/core/gentoo/sbin/ipmaddr 3f5ebbaad5dedd2abcd4c29a946947f8 1410959056

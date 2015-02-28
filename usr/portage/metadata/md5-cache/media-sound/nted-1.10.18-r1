@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure prepare
+DEPEND=>=dev-libs/glib-2 media-libs/alsa-lib >=media-libs/freetype-2 x11-libs/cairo >=x11-libs/gdk-pixbuf-2 x11-libs/gtk+:2 x11-libs/libX11 x11-libs/pango virtual/pkgconfig doc? ( app-text/xmlto ) nls? ( sys-devel/gettext )
+DESCRIPTION=WYSIWYG score editor for GTK+
+EAPI=4
+HOMEPAGE=http://vsr.informatik.tu-chemnitz.de/staff/jan/nted/nted.xhtml
+IUSE=doc debug nls
+KEYWORDS=amd64 x86
+LICENSE=GPL-2 FDL-1.2 NTED_FONT
+RDEPEND=>=dev-libs/glib-2 media-libs/alsa-lib >=media-libs/freetype-2 x11-libs/cairo >=x11-libs/gdk-pixbuf-2 x11-libs/gtk+:2 x11-libs/libX11 x11-libs/pango
+SLOT=0
+SRC_URI=http://vsr.informatik.tu-chemnitz.de/staff/jan/nted/sources/nted-1.10.18.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4a50c3fb7e0ca8782e6481562a3d6ac7

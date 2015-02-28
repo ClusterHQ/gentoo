@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=sys-libs/ncurses[unicode?] >=dev-libs/glib-2:2 ao? ( media-libs/libao ) alsa? ( media-libs/alsa-lib ) http? ( net-misc/curl ) modplug? ( media-libs/libmodplug ) mp3? ( media-libs/libmad media-libs/libid3tag ) pulseaudio? ( media-sound/pulseaudio ) sndfile? ( media-libs/libsndfile ) vorbis? ( media-libs/libvorbis ) xspf? ( >=media-libs/libxspf-1.2 ) !ao? ( !alsa? ( !pulseaudio? ( !oss? ( !coreaudio? ( media-libs/alsa-lib ) ) ) ) ) nls? ( sys-devel/gettext ) virtual/pkgconfig
+DESCRIPTION=Herrie is a command line music player.
+EAPI=2
+HOMEPAGE=http://herrie.info/
+IUSE=ao alsa pulseaudio oss http modplug mp3 sndfile vorbis xspf unicode nls coreaudio linguas_ca linguas_da linguas_de linguas_es linguas_fi linguas_ga linguas_nl linguas_pl linguas_pt_BR linguas_ru linguas_sv linguas_tr linguas_vi linguas_zh_CN
+KEYWORDS=~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+LICENSE=BSD-2 GPL-2
+RDEPEND=sys-libs/ncurses[unicode?] >=dev-libs/glib-2:2 ao? ( media-libs/libao ) alsa? ( media-libs/alsa-lib ) http? ( net-misc/curl ) modplug? ( media-libs/libmodplug ) mp3? ( media-libs/libmad media-libs/libid3tag ) pulseaudio? ( media-sound/pulseaudio ) sndfile? ( media-libs/libsndfile ) vorbis? ( media-libs/libvorbis ) xspf? ( >=media-libs/libxspf-1.2 ) !ao? ( !alsa? ( !pulseaudio? ( !oss? ( !coreaudio? ( media-libs/alsa-lib ) ) ) ) )
+SLOT=0
+SRC_URI=http://herrie.info/distfiles/herrie-2.2.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=a8db51467a422e6a4752044ecec49e95

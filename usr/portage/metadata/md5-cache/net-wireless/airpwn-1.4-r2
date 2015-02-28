@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install setup
+DEPEND=dev-libs/libpcre dev-libs/openssl net-libs/libnet net-libs/libpcap net-wireless/lorcon-old || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* =dev-lang/python-2.4* )
+DESCRIPTION=a tool for generic packet injection on 802.11
+EAPI=5
+HOMEPAGE=http://airpwn.sf.net
+IUSE=+examples
+LICENSE=GPL-2
+RDEPEND=dev-libs/libpcre dev-libs/openssl net-libs/libnet net-libs/libpcap net-wireless/lorcon-old || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* =dev-lang/python-2.4* )
+SLOT=0
+SRC_URI=mirror://sourceforge/airpwn/airpwn-1.4.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=777b92078e847ad85b256a4219bbab92

@@ -1,0 +1,22 @@
+# ChangeLog for dev-python/whirlpool
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/whirlpool/ChangeLog,v 1.4 2014/07/06 12:51:04 mgorny Exp $
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> whirlpool-0.3-r1.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+  02 Jul 2014; Mike Gilbert <floppym@gentoo.org> whirlpool-0.3-r1.ebuild:
+  Depend on setuptools.
+
+*whirlpool-0.3-r1 (04 Jun 2013)
+
+  04 Jun 2013; Justin Lecher <jlec@gentoo.org> -whirlpool-0.3.ebuild,
+  +whirlpool-0.3-r1.ebuild:
+  Install data files into /usr/share/PN
+
+*whirlpool-0.3 (03 Jun 2013)
+
+  03 Jun 2013; Justin Lecher <jlec@gentoo.org> +whirlpool-0.3.ebuild,
+  +files/tests.py, +metadata.xml:
+  New addition

@@ -1,0 +1,15 @@
+# ChangeLog for sys-devel/systemd-m4
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-devel/systemd-m4/ChangeLog,v 1.3 2014/07/06 13:21:52 mgorny Exp $
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> systemd-m4-9999.ebuild:
+  Replace obsolete mirror://bitbucket with the real URI.
+
+  16 Oct 2013; Michał Górny <mgorny@gentoo.org> systemd-m4-9999.ebuild:
+  Switch to git-r3.
+
+*systemd-m4-9999 (11 Sep 2013)
+
+  11 Sep 2013; Michał Górny <mgorny@gentoo.org> +metadata.xml,
+  +systemd-m4-9999.ebuild:
+  Rename systemd-sdk to systemd-m4.

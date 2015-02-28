@@ -1,0 +1,105 @@
+# -*-eselect-*-  vim: ft=eselect
+# Copyright (c) 2005-2014 Gentoo Foundation
+#
+# This file is part of the 'eselect' tools framework.
+#
+# eselect is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 2 of the License, or (at your option) any later
+# version.
+#
+# eselect is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# eselect.  If not, see <http://www.gnu.org/licenses/>.
+
+DESCRIPTION="No description available"
+VERSION=""
+DEFAULT_ACTION="usage"
+
+describe_usage() {
+	echo "Display usage information"
+}
+
+do_usage() {
+	show_usage_message
+}
+
+show_usage_message() {
+	local action
+
+	echo "Usage: ${ESELECT_COMMAND} <action> <options>"
+	echo
+
+	write_list_start "Standard actions:"
+	for action in help usage version; do
+		local desc=""
+		is_function "describe_${action}" && desc=$(describe_${action})
+		write_kv_list_entry "${action}" "${desc:-(no description)}"
+	done
+
+	echo
+	write_list_start "Extra actions:"
+
+	# FIXME: can we do this using expansion somehow?
+	for action in $(set | \
+			sed -n -e '/^do_\S\+ ()\s*$/s/^do_\(\S\+\).*/\1/p' | \
+			grep -v 'action' | \
+			sort); do
+		case "${action}" in
+			help|usage|version)
+				continue
+				;;
+			?*)
+				local desc="" action_text line options
+				is_function "describe_${action}" && desc=$(describe_${action})
+
+				if is_function "describe_${action}_parameters"; then
+					action_text="${action} $(describe_${action}_parameters)"
+				else
+					action_text="${action}"
+				fi
+
+				write_kv_list_entry "${action_text}" "${desc:-(no description)}"
+
+				if is_function "describe_${action}_options"; then
+					options=$(describe_${action}_options)
+					local ifs_save=${IFS} IFS=$'\n'
+					for line in ${options}; do
+						write_kv_list_entry -p \
+							"  ${line%%*( ):*}" \
+							"  ${line##+([^:]):*( )}"
+					done
+					IFS=${ifs_save}
+				fi
+				;;
+		esac
+	done
+	true
+}
+
+describe_version() {
+	echo "Display version information"
+}
+
+do_version() {
+	[[ -n ${ESELECT_MODULE_NAME} && -n ${VERSION} ]] \
+		&& echo "${ESELECT_MODULE_NAME}.eselect ${VERSION}"
+	echo "${ESELECT_PROGRAM_NAME} ${ESELECT_VERSION}"
+}
+
+describe_help() {
+	echo "Display help text"
+}
+
+do_help() {
+	echo "${DESCRIPTION}"
+	show_usage_message
+	if is_function show_extra_help_text; then
+		echo
+		show_extra_help_text
+	fi
+	true
+}

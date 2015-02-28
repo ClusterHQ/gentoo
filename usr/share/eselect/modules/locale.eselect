@@ -1,0 +1,132 @@
+# -*-eselect-*-  vim: ft=eselect
+# Copyright 2005-2014 Gentoo Foundation
+# Distributed under the terms of the GNU GPL version 2 or later
+
+inherit config
+
+DESCRIPTION="Manage the LANG environment variable"
+MAINTAINER="matsuu@gentoo.org"
+
+# file name as documented in http://www.gentoo.org/doc/en/utf-8.xml
+LOCALE_ENVFILE="/etc/env.d/02locale"
+
+locale_list() {
+	"${EROOT}/usr/bin/locale" -a
+}
+
+validate_locale() {
+	local lang=$1
+	# exit status of locale is unreliable, check for output to stderr instead
+	[[ -z $(LC_ALL=${lang} "${EROOT}/usr/bin/locale" 2>&1 >/dev/null) ]]
+}
+
+# find a list of valid targets
+find_targets() {
+	local list cur
+
+	list=$(locale_list)
+	echo ${list}
+
+	# also output the current value if it isn't in our list
+	cur=$(read_env_value)
+	[[ -n ${cur} ]] && ! has "${cur}" ${list} && echo "${cur}"
+}
+
+# read variable value from config file
+read_env_value() {
+	load_config "${EROOT}${LOCALE_ENVFILE}" "LANG"
+}
+
+# write variable to config file
+write_env_value() {
+	[[ -w ${EROOT}${LOCALE_ENVFILE%/*} ]] \
+		|| die -q "You need root privileges!"
+	store_config "${EROOT}${LOCALE_ENVFILE}" "LANG" "$1"
+}
+
+### show action ###
+
+describe_show() {
+	echo "Show value of the LANG variable in profile"
+}
+
+do_show() {
+	[[ $# -gt 0 ]] && die -q "Too many parameters"
+
+	local cur=$(read_env_value)
+	write_list_start "LANG variable in profile:"
+	write_kv_list_entry "${cur:-(none)}"
+}
+
+### list action ###
+
+describe_list() {
+	echo "List available targets for the LANG variable"
+}
+
+do_list() {
+	[[ $# -gt 0 ]] && die -q "Too many parameters"
+
+	local cur targets i
+	cur=$(read_env_value)
+	targets=( $(find_targets) )
+
+	write_list_start "Available targets for the LANG variable:"
+	for (( i = 0; i < ${#targets[@]}; i = i + 1 )); do
+		targets[i]="${targets[i]}"
+		# display a star to indicate the currently chosen version
+		[[ ${targets[i]} = "${cur}" ]] \
+			&& targets[i]=$(highlight_marker "${targets[i]}")
+	done
+	write_numbered_list "${targets[@]}"
+
+	if is_output_mode brief; then
+		:
+	elif [[ ${#targets[@]} -eq 0 ]]; then
+		write_kv_list_entry "(none found)" ""
+	else
+		write_numbered_list_entry " " "(free form)"
+	fi
+}
+
+### set action ###
+
+describe_set() {
+	echo "Set the LANG variable in profile"
+}
+
+describe_set_options() {
+	echo "target : Target name or number (from 'list' action)"
+}
+
+describe_set_parameters() {
+	echo "<target>"
+}
+
+do_set() {
+	[[ -z $1 ]] && die -q "You didn't tell me what to set the variable to"
+	[[ $# -gt 1 ]] && die -q "Too many parameters"
+
+	local target=$1 targets=()
+
+	# target may be specified by its name or its index
+	if is_number "${target}"; then
+		targets=( $(find_targets) )
+		[[ ${target} -ge 1 && ${target} -le ${#targets[@]} ]] \
+			|| die -q "Number out of range: $1"
+		target=${targets[target-1]%%:*}
+	fi
+
+	validate_locale "${target}" \
+		|| die -q "Target \"${target}\" doesn't appear to be valid!"
+
+	echo "Setting LANG to ${target} ..."
+	write_env_value "${target}"
+
+	# update profile
+	do_action env update noldconfig
+	if [[ ${ROOT:-/} = / ]]; then
+		echo "Run \". ${EROOT}/etc/profile\" to update the variable" \
+			"in your shell."
+	fi
+}

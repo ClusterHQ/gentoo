@@ -1,0 +1,183 @@
+#!/home/core/gentoo/bin/bash
+# -*-eselect-*-  vim: ft=eselect
+# Copyright (c) 2005-2014 Gentoo Foundation
+#
+# This file is part of the 'eselect' tools framework.
+#
+# eselect is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 2 of the License, or (at your option) any later
+# version.
+#
+# eselect is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# eselect.  If not, see <http://www.gnu.org/licenses/>.
+
+# Where are our data?
+ESELECT_DATA_PATH="/home/core/gentoo/usr/share/eselect"
+
+# Where are modules installed by default?
+ESELECT_DEFAULT_MODULES_PATH="${ESELECT_DATA_PATH}/modules"
+
+# Look in these places for modules
+ESELECT_MODULES_PATH=( \
+	"${HOME}/.eselect/modules" \
+	"${ESELECT_DEFAULT_MODULES_PATH}" )
+
+# Look in this place for libraries
+ESELECT_CORE_PATH="${ESELECT_DATA_PATH}/libs"
+
+# Look here for the default contents of a module
+ESELECT_DEFAULT_ACTIONS="${ESELECT_CORE_PATH}/default.eselect"
+
+# Our program name and version
+ESELECT_PROGRAM_NAME="eselect"
+ESELECT_VERSION="1.4.3"
+
+# Invocation information
+ESELECT_BINARY_NAME="$0"
+ESELECT_KILL_TARGET="$$"
+
+# Support variables for Gentoo Prefix
+EPREFIX="/home/core/gentoo"
+EROOT="${ROOT%${EPREFIX:+/}}${EPREFIX}"
+
+# Remove all alias definitions. Unset functions and variables that are
+# known to cause trouble.
+"unalias" -a
+unset -f rm
+unset CDPATH GLOBIGNORE
+IFS=$' \t\n'
+
+shopt -s extglob
+shopt -s expand_aliases
+
+# Save stderr file descriptor
+if (( BASH_VERSINFO[0] == 4 && BASH_VERSINFO[1] >= 1 || BASH_VERSINFO[0] > 4 ))
+then
+	exec {ESELECT_STDERR}>&2	# >=bash-4.1
+fi
+
+# Load core functions
+source "${ESELECT_CORE_PATH}/core.bash" || exit 255
+# Load necessary functions for the main script
+inherit manip output path-manipulation tests
+
+# Sneaky trick to make die in subshells work. If you don't get
+# it, don't ask...
+trap 'echo "exiting" >&2; exit 250' 15
+
+# es_do_usage
+# Display eselect usage
+es_do_usage() {
+	echo "Usage: eselect <global options> <module name> <module options>"
+}
+
+# es_do_help
+# Display eselect help
+es_do_help() {
+	es_do_usage
+	echo
+	# display all recognized global options
+	write_list_start "Global options:"
+	write_kv_list_entry "--brief" "Make output shorter"
+	write_kv_list_entry "--colour=<yes|no|auto>" \
+		"Enable or disable colour output (default 'auto')"
+	echo
+	# display all available eselect modules
+	do_action modules list
+}
+
+# es_do_version
+# Display eselect version
+es_do_version() {
+	echo "eselect ${ESELECT_VERSION}"
+	echo
+	echo "Copyright (c) 2005-2014 Gentoo Foundation."
+	echo "Distributed under the terms of the GNU GPL version 2 or later."
+}
+
+### main code ###
+
+# figure out what the action is. we need to know whether we're
+# invoked as a something-config/something-update.
+action=""
+for suffix in config update{,r} tool manager reader; do
+	if [[ ${0%%-${suffix}} != "$0" ]]; then
+		action=$(basename "$0")
+		action=${action%%-${suffix}}
+		break
+	fi
+done
+unset suffix
+
+if [[ -z ${action} ]]; then
+	binname=$(basename "$0")
+	for prefix in config update{,r} manage 'read'; do
+		if [[ ${binname##${prefix}-} != ${binname} ]]; then
+			action=$(basename "$0")
+			action=${action##${prefix}-}
+			break
+		fi
+	done
+	unset binname prefix
+fi
+
+# parse global options
+while [[ ${1##--} != "$1" ]]; do
+	case ${1##--} in
+		brief)
+			set_output_mode brief
+			;;
+		colour=*|color=*|colour|color)
+			# accept all arguments that are valid for ls or emerge
+			case ${1#*=} in
+				yes|y|always|force|$1) colour=yes ;;
+				no|n|never|none) colour=no ;;
+				auto|tty|if-tty) colour="" ;;
+				*) die -q "Invalid argument for ${1%%=*} option" ;;
+			esac
+			;;
+		help|version)
+			[[ -z ${action} ]] || die -q "Too many parameters"
+			action=${1##--}
+			;;
+		"")
+			# -- indicates end of options
+			shift
+			break
+			;;
+		*)
+			die -q "Unknown option $1"
+			;;
+	esac
+	shift
+done
+
+if [[ -z ${action} && $# -gt 0 ]]; then
+	action=$1
+	shift
+fi
+
+# enable colour output and get width of terminal iff stdout is a tty
+if [[ -t 1 ]]; then
+	colours ${colour:-yes}
+	init_columns
+else
+	colours ${colour:-no}
+fi
+unset colour
+
+if [[ -n ${action} ]]; then
+	if is_function "es_do_${action}"; then
+		[[ $# -eq 0 ]] || die -q "Too many parameters"
+		es_do_${action}
+	else
+		do_action "${action}" "$@"
+	fi
+else
+	es_do_help
+fi

@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=>=net-libs/libosip-3.2.0 <net-libs/libosip-4 ssl? ( dev-libs/openssl )
+DESCRIPTION=library that hides the complexity of using the SIP protocol for multimedia session establishement
+EAPI=2
+HOMEPAGE=http://savannah.nongnu.org/projects/exosip/
+IUSE=+srv ssl
+KEYWORDS=amd64 ppc x86 ~ppc-macos ~x86-macos
+LICENSE=GPL-2
+RDEPEND=>=net-libs/libosip-3.2.0 <net-libs/libosip-4 ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=http://download.savannah.nongnu.org/releases/exosip/libeXosip2-3.5.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4501a6071c32444a35c5ce0de21443d6

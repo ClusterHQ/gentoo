@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst setup
+DEPEND=~www-apps/scgi-1.14 =www-servers/apache-2.2*
+DESCRIPTION=Apache module for a replacement of the CGI protocol, similar to FastCGI
+EAPI=3
+HOMEPAGE=http://python.ca/scgi/ http://pypi.python.org/pypi/scgi
+KEYWORDS=~amd64 hppa ~ppc x86
+LICENSE=CNRI
+RDEPEND=~www-apps/scgi-1.14 =www-servers/apache-2.2*
+SLOT=0
+SRC_URI=http://python.ca/scgi/releases/scgi-1.14.tar.gz
+_eclasses_=apache-module	5c4c90da2d68c2dc8391666824f1293c	depend.apache	41d01b539f56fa0a5269f3a8ce916981	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=df85334b6de5b4bfdd85a637d9256a2c

@@ -1,0 +1,18 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/strace-4.9
+obj /home/core/gentoo/usr/share/doc/strace-4.9/README-linux-ptrace.bz2 c702d71b64a19604ead3fd5c8bf0864d 1410964975
+obj /home/core/gentoo/usr/share/doc/strace-4.9/NEWS.bz2 2633917380f509381d9ed370280c74c3 1410964975
+obj /home/core/gentoo/usr/share/doc/strace-4.9/ChangeLog.bz2 b118a8843cfa68192482e424acbcc6f4 1410964975
+obj /home/core/gentoo/usr/share/doc/strace-4.9/README-linux.bz2 01917bfb65cb51a56485477c5259c970 1410964975
+obj /home/core/gentoo/usr/share/doc/strace-4.9/CREDITS.bz2 0a6b7794842ff7f0104a787e24eed2b9 1410964975
+obj /home/core/gentoo/usr/share/doc/strace-4.9/README.bz2 5ce0193b40388239519cb5c27e403a17 1410964975
+obj /home/core/gentoo/usr/share/doc/strace-4.9/AUTHORS 244c83afa7653a58281dcf8796165f6d 1410964975
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/strace.1.bz2 1c4d6247988a39c54751974b37189c38 1410964975
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/strace 83448ae3e36558cfed80e63ff4389eef 1410964976
+obj /home/core/gentoo/usr/bin/strace-log-merge b1a2bc10178b6e275f715de236d31b47 1410964976
+obj /home/core/gentoo/usr/bin/strace-graph 1b4ac9dd28432bf11cea38c89abcd902 1410964976

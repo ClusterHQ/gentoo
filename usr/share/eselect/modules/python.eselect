@@ -1,0 +1,412 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id: $
+
+DESCRIPTION="Manage Python symlinks"
+MAINTAINER="python@gentoo.org"
+SVN_DATE='$Date$'
+VERSION=$(svn_date_to_version "${SVN_DATE}" )
+
+ENV_D_PATH="${EROOT%/}/etc/env.d"
+INTERPRETER_PATH="${EROOT%/}/usr/bin/"
+MAN_PATH="${EROOT%/}/usr/share/man/man1/"
+
+PYTHON_INTERPRETERS_GROUP=""
+
+# Find a list of Python versions
+find_targets() {
+	local interpreter interpreters="python?.?"
+
+	if [[ "${PYTHON_INTERPRETERS_GROUP}" == "2" ]]; then
+		interpreters="python2.?"
+	elif [[ "${PYTHON_INTERPRETERS_GROUP}" == "3" ]]; then
+		interpreters="python3.?"
+	fi
+
+	# Think twice before adding jython to this list. /usr/bin/jython
+	# is a bash wrapper that calls java-config, which is a Python
+	# script, so you need a valid /usr/bin/python to start jython.
+	for interpreter in "${INTERPRETER_PATH}"${interpreters}; do
+		if [[ -f "${interpreter}" ]]; then
+			echo ${interpreter#${INTERPRETER_PATH}}
+		fi
+	done
+}
+
+set_python() {
+	local symlink="${INTERPRETER_PATH}python" target="${1}"
+	ln -s python-wrapper "${symlink}"
+	mkdir -p "${ENV_D_PATH}/python"
+	echo "${target}" > "${ENV_D_PATH}/python/config"
+}
+
+set_python_config() {
+	local script="${INTERPRETER_PATH}python-config" target="${1}"
+	cat << EOF > "${script}"
+#!/usr/bin/env bash
+# Gentoo python-config wrapper script
+
+[[ "\${EPYTHON}" =~ (/|^python\$) ]] && EPYTHON="${target/-config-/}"
+python_config="\${EPYTHON/python/python-config-}"
+"\${0%/*}/\${python_config:-${target}}" "\$@"
+EOF
+	chmod a+rx "${script}"
+}
+
+# Try to remove python and python.1 symlinks
+remove_symlinks() {
+	local symlink symlink_target symlink_target_found
+	if [[ "${SET_MAIN_ACTIVE_PYTHON_INTERPRETER}" == "1" ]]; then
+		rm -f "${INTERPRETER_PATH}"{idle,pydoc,python,python-config,pythonw} &> /dev/null || return 1
+		rm -f "${MAN_PATH}"python.1{,.gz,.bz2,.lzma,.xz} &> /dev/null || return 1
+	fi
+
+	for symlink in "${INTERPRETER_PATH}python"?; do
+		[[ ! -L "${symlink}" ]] && continue
+		symlink_target_found=0
+		for symlink_target in "${symlink}".?; do
+			[[ -f "${symlink_target}" ]] && symlink_target_found=1
+		done
+		if [[ "${symlink_target_found}" -eq 0 ]]; then
+			rm -f "${symlink}"
+		fi
+	done
+
+	# Files of Mac OS X framework
+	rm -f "${INTERPRETER_PATH%/bin/}/lib/Python.framework}"/{Headers,Python,Resources}
+}
+
+# Set a man page symlink
+set_man_symlink() {
+	local target="${1}" x extension
+
+	for x in ".1" ".1.bz2" ".1.gz" ".1.lzma" ".1.xz"; do
+		if [[ -e "${MAN_PATH}${target}${x}" ]]; then
+			extension="${x}"
+			break
+		fi
+	done
+
+	if [[ -z "${extension}" ]]; then
+		echo "Couldn't find a man page for ${target}; skipping." 1>&2
+		return 1
+	fi
+
+	pushd "${MAN_PATH}" 1> /dev/null
+	ln -nfs "${target}${extension}" "python${extension}"
+	popd 1> /dev/null
+}
+
+# Set python-config script and appropriate symlinks
+set_scripts_and_symlinks() {
+	local target="${1}" targets=($(find_targets))
+	if is_number "${target}" && [[ ${target} -ge 1 ]]; then
+		target=${targets[$((${target} - 1))]}
+	fi
+
+	if ! has ${target} "${targets[@]}"; then
+		die -q "Invalid target ${target}"
+	fi
+	if [[ -f "${INTERPRETER_PATH}${target}" ]]; then
+		if ! remove_symlinks; then
+			die -q "Cannot remove symlinks"
+		fi
+
+		if [[ "${SET_MAIN_ACTIVE_PYTHON_INTERPRETER}" == "1" ]]; then
+			set_man_symlink "${target}"
+		fi
+
+		pushd "${INTERPRETER_PATH}" 1> /dev/null
+
+		ln -nfs "${target}" "${target%.*}"
+		if [[ "${SET_MAIN_ACTIVE_PYTHON_INTERPRETER}" == "1" ]]; then
+			set_python "${target}"
+			set_python_config "${target/python/python-config-}"
+			ln -nfs "${target/python/pydoc}" pydoc
+			# idle is optionally installed
+			if [[ -f "${target/python/idle}" ]]; then
+				ln -nfs "${target/python/idle}" idle
+			fi
+			# 2to3 for >=2.6
+			if [[ -f "${target/python/2to3-}" ]]; then
+				ln -nfs "${target/python/2to3-}" 2to3
+			fi
+
+			# Wrapper for graphical applications on Mac OS X
+			if [[ -f "${target/python/pythonw}" ]] ; then
+				ln -nfs "${target/python/pythonw}" pythonw
+			fi
+
+			# Files of Mac OS X framework
+			local framework_dir="${INTERPRETER_PATH%/bin/}/lib/Python.framework"
+			if [[ -d "${framework_dir}" ]]; then
+				local version="${target#python}"
+				pushd "${framework_dir}" 1> /dev/null
+				ln -nfs "Versions/${version}/Headers"
+				ln -nfs "Versions/${version}/Python"
+				ln -nfs "Versions/${version}/Resources"
+				popd 1> /dev/null
+			fi
+		fi
+
+		popd 1> /dev/null
+	else
+		die -q "Target \"${1}\" doesn't appear to be valid!"
+	fi
+}
+
+# Set the content of /etc/env.d/65python-docs
+set_python_docs() {
+	local path target="${1#python}" variable
+	rm -f "${ENV_D_PATH}/65python-docs"
+	if [[ -f "${ENV_D_PATH}/60python-docs-${target}" ]]; then
+		variable="PYTHONDOCS_${target//./_}"
+		path="$(. "${ENV_D_PATH}/60python-docs-${target}"; echo -n "${!variable}")"
+		if [[ -d "${path}" ]]; then
+			echo "PYTHONDOCS=\"${path}\"" > "${ENV_D_PATH}/65python-docs"
+		fi
+	fi
+}
+
+### show action ###
+
+describe_show() {
+	echo "Show main active Python interpreter"
+}
+
+describe_show_options() {
+	echo "--ABI         : Show Python ABI in format of PYTHON_ABI variable"
+	echo "--python2     : Show active Python 2 interpreter"
+	echo "--python3     : Show active Python 3 interpreter"
+}
+
+do_show() {
+	local ABI="0" interpreter python2="0" python3="0"
+	while [[ $# > 0 ]]; do
+		case "$1" in
+			--ABI)
+				ABI="1"
+				;;
+			--python2)
+				python2="1"
+				;;
+			--python3)
+				python3="1"
+				;;
+			*)
+				die -q "Unrecognized argument '$1'"
+				;;
+		esac
+		shift
+	done
+
+	if [[ "${python2}" == "1" && "${python3}" == "1" ]]; then
+		die -q "'--python2' and '--python3' options cannot be specified simultaneously"
+	fi
+
+	if [[ "${python2}" == "1" ]]; then
+		interpreter="$(readlink "${INTERPRETER_PATH}python2")"
+	elif [[ "${python3}" == "1" ]]; then
+		interpreter="$(readlink "${INTERPRETER_PATH}python3")"
+	elif [[ -f "${ENV_D_PATH}/python/config" ]]; then
+		interpreter="$(<"${ENV_D_PATH}/python/config")"
+	fi
+
+	if [[ "${ABI}" == "1" ]]; then
+		echo -n "${interpreter#python}"
+	else
+		echo -n "${interpreter}"
+	fi
+
+	if [[ -n "${interpreter}" ]]; then
+		echo
+	fi
+}
+
+### list action ###
+
+describe_list() {
+	echo "List installed Python interpreters"
+}
+
+describe_list_options() {
+	echo "--python2     : List installed Python 2 interpreters"
+	echo "--python3     : List installed Python 3 interpreters"
+}
+
+do_list() {
+	local active i python_descriptive_name="Python" python_version_option= python2="0" python3="0" targets=()
+	while [[ $# > 0 ]]; do
+		case "$1" in
+			--python2)
+				python2="1"
+				python_descriptive_name="Python 2"
+				python_version_option="--python2"
+				PYTHON_INTERPRETERS_GROUP="2"
+				;;
+			--python3)
+				python3="1"
+				python_descriptive_name="Python 3"
+				python_version_option="--python3"
+				PYTHON_INTERPRETERS_GROUP="3"
+				;;
+			*)
+				die -q "Unrecognized argument '$1'"
+				;;
+		esac
+		shift
+	done
+
+	if [[ "${python2}" == "1" && "${python3}" == "1" ]]; then
+		die -q "'--python2' and '--python3' options cannot be specified simultaneously"
+	fi
+
+	targets=($(find_targets))
+
+	write_list_start "Available ${python_descriptive_name} interpreters:"
+
+	active="$(do_show ${python_version_option})"
+	for ((i = 0; i < ${#targets[@]}; i++)); do
+		if [[ ${targets[${i}]} == ${active} ]]; then
+			targets[${i}]="$(highlight_marker "${targets[${i}]}")"
+		fi
+	done
+	write_numbered_list -m "(none found)" "${targets[@]}"
+}
+
+### set action ###
+
+describe_set() {
+	echo "Set main active Python interpreter"
+}
+
+describe_set_options() {
+	echo "--python2     : Set active Python 2 interpreter without setting of main active Python interpreter if it is not set to Python 2"
+	echo "--python3     : Set active Python 3 interpreter without setting of main active Python interpreter if it is not set to Python 3"
+}
+
+describe_set_parameters() {
+	echo "<target>"
+}
+
+do_set() {
+	local main_active_python_interpreter python2="0" python3="0"
+	SET_MAIN_ACTIVE_PYTHON_INTERPRETER="1"
+	while [[ $# > 0 ]]; do
+		case "$1" in
+			--python2)
+				python2="1"
+				PYTHON_INTERPRETERS_GROUP="2"
+				;;
+			--python3)
+				python3="1"
+				PYTHON_INTERPRETERS_GROUP="3"
+				;;
+			*)
+				break
+				;;
+		esac
+		shift
+	done
+
+	if [[ "${python2}" == "1" && "${python3}" == "1" ]]; then
+		die -q "'--python2' and '--python3' options cannot be specified simultaneously"
+	fi
+
+	if [[ $# -lt 1 ]]; then
+		die -q "'eselect python set' requires Python interpreter filename"
+	elif [[ $# -gt 1 ]]; then
+		die -q "'eselect python set' requires 1 argument"
+	else
+		main_active_python_interpreter="$(do_show)"
+		if [[ "${python2}" == "1" && "${main_active_python_interpreter}" != "python2."* ]]; then
+			SET_MAIN_ACTIVE_PYTHON_INTERPRETER="0"
+		elif [[ "${python3}" == "1" && "${main_active_python_interpreter}" != "python3."* ]]; then
+			SET_MAIN_ACTIVE_PYTHON_INTERPRETER="0"
+		fi
+
+		if ! set_scripts_and_symlinks "${1}"; then
+			die -q "Can't set new provider"
+		fi
+
+		if [[ "${SET_MAIN_ACTIVE_PYTHON_INTERPRETER}" == "1" ]]; then
+			set_python_docs "${1}"
+		fi
+	fi
+}
+
+### update action ###
+
+describe_update() {
+	echo "Switch to the most recent CPython interpreter"
+}
+
+describe_update_options() {
+	echo "--if-unset    : Do not override existing implementation"
+	echo "--ignore SLOT : Ignore SLOT when setting symlinks"
+	echo "--python2     : Set active Python 2 interpreter without setting of main active Python interpreter if it is not set to Python 2"
+	echo "--python3     : Set active Python 3 interpreter without setting of main active Python interpreter if it is not set to Python 3"
+}
+
+do_update() {
+	local if_unset="0" ignored_slots=() interpreters="python?.?" python2="0" python3="0" python_version_option= slot= target targets=()
+	while [[ $# > 0 ]]; do
+		case "$1" in
+			--if-unset)
+				if_unset="1"
+				;;
+			--ignore)
+				ignored_slots+=("${2}")
+				shift;;
+			--python2)
+				python2="1"
+				python_version_option="--python2"
+				;;
+			--python3)
+				python3="1"
+				python_version_option="--python3"
+				;;
+			*)
+				die -q "Unrecognized argument '$1'"
+				;;
+		esac
+		shift
+	done
+
+	if [[ "${python2}" == "1" && "${python3}" == "1" ]]; then
+		die -q "'--python2' and '--python3' options cannot be specified simultaneously"
+	fi
+
+	if [[ "${if_unset}" == "1" && -f "${INTERPRETER_PATH}python" && -f "${ENV_D_PATH}/python/config" ]]; then
+		if [[ "${python2}" == "1" && -f "${INTERPRETER_PATH}python2" ]]; then
+			return
+		elif [[ "${python3}" == "1" && -f "${INTERPRETER_PATH}python3" ]]; then
+			return
+		elif [[ "${python2}" == "0" && "${python3}" == "0" ]]; then
+			return
+		fi
+	fi
+
+	if [[ "${python2}" == "1" ]]; then
+		interpreters="python2.?"
+	elif [[ "${python3}" == "1" ]]; then
+		interpreters="python3.?"
+	fi
+
+	targets=($(cd "${INTERPRETER_PATH}"; ls ${interpreters} 2> /dev/null | sort -r))
+
+	# Ignore slots
+	for slot in ${ignored_slots[@]}; do
+		targets=(${targets[@]/python${slot}/})
+	done
+
+	if [[ ${#targets[@]} -gt 0 ]]; then
+		target=${targets[0]}
+		echo "Switching to ${target}"
+		do_set ${python_version_option} ${target}
+	else
+		die -q "No Python interpreter available"
+	fi
+}
+
+# vim: set ft=eselect :

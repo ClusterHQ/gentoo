@@ -1,0 +1,7 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/aclocal
+obj /home/core/gentoo/usr/share/aclocal/.keep_sys-devel_automake-wrapper-0 d41d8cd98f00b204e9800998ecf8427e 1410958908
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/aclocal -> automake 1410958917
+obj /home/core/gentoo/usr/bin/automake f37cfc5da8a981cb731abfb0395291c0 1410958908

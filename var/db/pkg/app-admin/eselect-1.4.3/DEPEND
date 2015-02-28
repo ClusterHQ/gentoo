@@ -1,0 +1,1 @@
+sys-apps/sed || ( sys-apps/coreutils sys-freebsd/freebsd-bin app-misc/realpath ) app-arch/xz-utils

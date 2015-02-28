@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install postinst postrm prerm unpack
+DEPEND=>=app-text/sgml-common-0.6.1 >=app-text/sgml-common-0.6.3-r2
+DESCRIPTION=DTD for Gentoo-Guide Style XML Files
+HOMEPAGE=http://www.gentoo.org
+KEYWORDS=amd64 ppc s390 sparc x86
+LICENSE=GPL-2
+RDEPEND=>=app-text/sgml-common-0.6.1
+SLOT=0
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	sgml-catalog	115ce04390f5bb32de8fef875ea71b4b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=94c6e933d92814fbc0a4d21a69828cf3

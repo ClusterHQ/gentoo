@@ -1,0 +1,149 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/readelf.py -> ../lib/python-exec/python-exec2 1410960934
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/python2.7
+dir /home/core/gentoo/usr/lib/python2.7/site-packages
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/pyelftools-0.22-py2.7.egg-info b4201455c974a58d53e1e15056439222 1410960878
+dir /home/core/gentoo/usr/lib/python2.7/site-packages/elftools
+dir /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/__init__.pyc f2e598f658b29a9405bda4f331c92885 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/structs.pyo e9796cf46d7de36e4e377755c4ae1ffa 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/dynamic.pyo e7821a79dc55ab2e92ac30881066964d 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/enums.pyc 749ef288d8a6cef39cf85272b4f43667 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/segments.pyc e3393303258f384c518c9ee081153758 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/sections.pyo 10f2ca1e295079232a37781eeb383716 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/elffile.pyc 21cd795346532ba839a6e8583aff4474 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/sections.py 296d84c43b1cb4b23d97ce9f421d057f 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/gnuversions.pyc 1f2a8e15cff8d4d8a90db39d37844b44 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/constants.pyo eabcc084a1ade74727701ef4c825e2e1 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/relocation.pyc 8047894b297940bdaab1f4be593ddb2f 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/dynamic.py 0328cd5dd6cb72a2dd24c8e0e3775d3f 1410960877
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/descriptions.pyc 7cbfbb48bcb60511a4b37b1167ce4cc0 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/relocation.py cc80336a0c1954ea723b410914c0f9da 1388965859
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/__init__.pyo f2e598f658b29a9405bda4f331c92885 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/constants.py 2c819e11265bbee282cc9ea864b54f1b 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/enums.pyo 749ef288d8a6cef39cf85272b4f43667 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/structs.pyc 0c30cb90ad73a9183e3e232400278b2e 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/dynamic.pyc fe474e930c2a455dea8387612b1eb4cd 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/descriptions.py f062cae4255f79adac72700e6b581bca 1388155456
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/segments.py 6db2d603ea5c4706112e74780a1f1d06 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/segments.pyo 7016443b5c4095ed8ecf643e4f262c1a 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/enums.py 98a9a85c2abdb3ad3417ce9bf2dbeef2 1390054485
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/sections.pyc 4375eb02e567658e600b656b9e09b556 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/elffile.pyo 64dc882e225b0dde80e2cbf172fbe3c6 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/elffile.py 43be05e20858b79460efe0052e24092b 1390054552
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/gnuversions.py 4dfc926575ce2a03987679af08f7c6d2 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/gnuversions.pyo c83b58fe60c23ba9b5a963bf8ac8a803 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/__init__.py d41d8cd98f00b204e9800998ecf8427e 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/descriptions.pyo 7cbfbb48bcb60511a4b37b1167ce4cc0 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/structs.py 1c91ca5af84c21a974876a1b50ce1b89 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/relocation.pyo 5be2e2987090c853d9ab28b6fda28c08 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/elf/constants.pyc 018c3a0195a33276c5e9c327d2561e08 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/__init__.pyc 44ee4c8f7edc554449d326967de56a21 1410960878
+dir /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/compileunit.py 657fc9e864e5c7a0c210d16f32370863 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/enums.py 2f926851dff4bd6348fb3688ac6f0dc0 1390054946
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/dwarf_expr.pyc 4d00fa78040d59928ff382e63dacf5a7 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/ranges.pyo 859b6117dc7c51a200412092e4835d3b 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/__init__.pyc f765b52061af0f344733a2bae1a01f42 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/enums.pyc 6afd2e5ac54ad4c43d74cb5263c596b0 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/abbrevtable.py 80c0d17400821579e3c080973da0a8f2 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/lineprogram.py aeb1277e4a7ca851f6a62e1413bc1122 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/structs.pyo a402599613b7ba270ae454390f19025e 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/compileunit.pyc e1cd6f486da941a3591ac1f17807d231 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/descriptions.pyo b6eab3180c0b6e8555ec96de7af0c0c0 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/locationlists.pyo c373cc1e6305cc9bbfd63e87bd2f1492 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/dwarf_expr.py 7d246fe2881a8589363af8503ef1d68e 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/callframe.pyo 878c993a8e96e8f4c9f0285137ce0104 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/lineprogram.pyo c7948de3e07a1e0e54b9c9f8677f686d 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/dwarfinfo.pyo b7d773180c15a00407d91236f624f74e 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/constants.pyo f611d6d56cf84fbd9d34032432a9e2d8 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/abbrevtable.pyo a9372ccba377558d0aa183167bc3a584 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/die.pyo 3c96b792c444e901832d0aee82f2b7d0 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/dwarf_expr.pyo 5e1e3f11054cd5db2a6be0d975c7af0b 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/callframe.py c9ea96273594897dd33266f4b23288cb 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/ranges.pyc 352b1ff328d31b5ba1a0938a13edddab 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/structs.pyc 6d4729087f09ab2919905fb31d22c354 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/compileunit.pyo 598e9778406e75f804bd3b39f4b26150 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/constants.py 3ae01bc8643705016c3d96186fab01d8 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/enums.pyo 6afd2e5ac54ad4c43d74cb5263c596b0 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/__init__.pyo f765b52061af0f344733a2bae1a01f42 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/locationlists.py fc0fa106f41e2ef199431fa80959b3b1 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/locationlists.pyc abaaa8e8af3dad078aab20f10d99af29 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/descriptions.pyc 6a058568c80d89f4edb7b0c5009711bf 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/structs.py 6bf22013405e747b899281438edf6c16 1390054880
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/callframe.pyc b761334163958179f9f6f374a3120a66 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/lineprogram.pyc 9dabe135186a7b25013efec82761d448 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/die.py 102d6733f6c0dc14a35dd901cae4759a 1390055058
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/__init__.py d41d8cd98f00b204e9800998ecf8427e 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/ranges.py 5ee84e48a7425bdc5081270af5fcec5f 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/constants.pyc f611d6d56cf84fbd9d34032432a9e2d8 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/dwarfinfo.pyc 01ccca2a9652e68051a78407cbddb8b2 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/descriptions.py 01ff5364920e830a86acc4bf622ce186 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/dwarfinfo.py 3102bfef887d22553a8bf102ba6c5026 1390660964
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/die.pyc b655750fec10d0f0608ae13276be39bf 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/dwarf/abbrevtable.pyc ca4d8ad047817c31022d92f6a939e40a 1410960878
+dir /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/debug.pyo 1717ba390d3a727106e6ae815980e3de 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/adapters.pyo 4e48aab4d75d49587fbb5761c8626bff 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/__init__.py d73d0c5f6958f40d5e4719991c6b1e12 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/macros.py 83238f3ddb813ffd38e11fd387c98735 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/core.py 7a64c14d419b9ae6942bfb2b93bc7f92 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/macros.pyc 94bb1291edf0ab77231c8817ab1044ac 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/core.pyc bff9a3077421be9b9e912f10aad80cf7 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/__init__.pyc dd18bcbd75a9d3a796b98f1bb3438205 1410960878
+dir /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/binary.py 43e6a4a4032b54833be7f9e569a3920f 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/bitstream.pyo 928bcdd296adc0cb578a188878c56d78 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/bitstream.py 6a6b96cc2be6c4c11eab88e49f3b08b9 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/__init__.pyc 2ead913931057c62c77109825f0f6032 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/py3compat.pyo 4ffd938e5f80eb7fa45ad9122056fe79 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/binary.pyo 20e11769e96d9146aef90a12b64b9126 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/container.pyo ebd4b03eb78ed4e0921fa4734e7aef57 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/container.py 498c6d6d2df3412e84e64be2910c4b4e 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/hex.pyo db2e2e2e2eda87f923f8f0734ed595b7 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/py3compat.py 42e5f49c9d9c2ce4c5f2441611233b90 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/bitstream.pyc 928bcdd296adc0cb578a188878c56d78 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/__init__.pyo 2ead913931057c62c77109825f0f6032 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/py3compat.pyc 7b47bad92094786ff95ddb24429ba50e 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/hex.py 6c167438c2309317e7415becc6982a5e 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/container.pyc ed1d4ee4496f03163871869719002e60 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/binary.pyc fefeefaa9a4ad9ba64b23a355a58a1a2 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/__init__.py 7f515d5aa27ee3c3746fd2bfe2d8fbf0 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/lib/hex.pyc 6414c80081a4995f9f176829979142e9 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/debug.pyc d650b97249ee0124e63eeff8eae700c4 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/adapters.py f1326d615daa5258fbaecf542466b526 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/adapters.pyc d4b5717be6230b3e85da98d29de154df 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/debug.py 87197e46c76b4bb040f35b789a7b68c6 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/core.pyo 6e52c6bcb7959aeb6033aa883f6dec18 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/macros.pyo 2625f808f2702d9de2ad07e4dfb33cbb 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/construct/__init__.pyo a84b01f586be3a763cf134c6a596b89a 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/__init__.pyo 44ee4c8f7edc554449d326967de56a21 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/__init__.py 2a07897a2500f5b6507b94e2ffa8cec1 1396186942
+dir /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/__init__.py d41d8cd98f00b204e9800998ecf8427e 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/exceptions.pyo 3623157c88dbcf907e5feb9b70b9b557 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/ordereddict.pyc 0cbfdee2f8cdba2c0a0e8ddbcee91b29 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/utils.pyo 718bee62a58e1d9bf6973dcd3148bd53 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/__init__.pyo 71ec8cff674ec2d972e253878f6b7cdf 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/utils.py e2934cb78bff55419c7199b65f56e979 1390054720
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/ordereddict.py 737b4471417000a355798db104259151 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/py3compat.pyo 27ce151d99ba814d19f7fed87a8c56e1 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/construct_utils.pyc d865ac84175113b1a08c98eedf3e208d 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/exceptions.pyc 3623157c88dbcf907e5feb9b70b9b557 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/ordereddict.pyo b69d7567f22b488b9f11ced1195a2b07 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/exceptions.py ad11826ce34b5aeedf97991f433541c3 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/utils.pyc d8a6417f1f1675f3cadd33018bbc8380 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/__init__.pyc 71ec8cff674ec2d972e253878f6b7cdf 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/py3compat.py 4133e6fffd3dd2b80f04810a3981116b 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/construct_utils.py d38a1956f54e9f9aa39f6d39558f0622 1388102811
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/py3compat.pyc c95aefef46c1f68566e0ecef257263f9 1410960878
+obj /home/core/gentoo/usr/lib/python2.7/site-packages/elftools/common/construct_utils.pyo 0f43732f4a589daf882500ddc912f61a 1410960878
+dir /home/core/gentoo/usr/lib/python-exec
+dir /home/core/gentoo/usr/lib/python-exec/python2.7
+obj /home/core/gentoo/usr/lib/python-exec/python2.7/readelf.py 528cb47cd393cd7e29a527dd52153fef 1410960878
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/pyelftools-0.22
+obj /home/core/gentoo/usr/share/doc/pyelftools-0.22/CHANGES.bz2 1cf35f80a62fa1f7fa6fc11681bceb0e 1410960879

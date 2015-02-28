@@ -1,0 +1,22 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/bash-completion
+dir /home/core/gentoo/usr/share/bash-completion/completions
+obj /home/core/gentoo/usr/share/bash-completion/completions/tmux 8d19a4f61b5922a27c694ba1e336478c 1411043190
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/tmux-1.9a
+obj /home/core/gentoo/usr/share/doc/tmux-1.9a/TODO.bz2 fc2c1f0b6d6a42c0bf9317eb353bdbc9 1411043190
+obj /home/core/gentoo/usr/share/doc/tmux-1.9a/README.bz2 9c4dc0807716364403312c800786ddc2 1411043190
+obj /home/core/gentoo/usr/share/doc/tmux-1.9a/FAQ.bz2 018ed49dbdc316e40d8bd6bdece17e66 1411043190
+obj /home/core/gentoo/usr/share/doc/tmux-1.9a/CHANGES.bz2 54960213b748d5e6deb156e611cead80 1411043190
+dir /home/core/gentoo/usr/share/doc/tmux-1.9a/examples
+obj /home/core/gentoo/usr/share/doc/tmux-1.9a/examples/vim-keys.conf.bz2 45cebd868573bde27f8a3e2c90a04ae7 1411043190
+obj /home/core/gentoo/usr/share/doc/tmux-1.9a/examples/t-williams.conf.bz2 364df957e42ee7e447540269ecff5641 1411043190
+obj /home/core/gentoo/usr/share/doc/tmux-1.9a/examples/screen-keys.conf.bz2 94b480385ab6241befd41431a8291bc7 1411043190
+obj /home/core/gentoo/usr/share/doc/tmux-1.9a/examples/n-marriott.conf.bz2 79f97cb76d0cb3b8b7a73a0cf7f68081 1411043190
+obj /home/core/gentoo/usr/share/doc/tmux-1.9a/examples/h-boetes.conf.bz2 745245d46cf25427e45998eeaaaf1b55 1411043190
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/tmux.1.bz2 330682c8281a971a51520d000a89e0ca 1411043190
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/tmux 9461de6c6761f8407dd0700b8bec3a22 1411043190

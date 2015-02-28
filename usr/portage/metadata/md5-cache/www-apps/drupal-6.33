@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) >=app-admin/webapp-config-1.50.15
+DESCRIPTION=PHP-based open-source platform and content management system
+EAPI=5
+HOMEPAGE=http://drupal.org/
+IUSE=+mysql postgres vhosts
+KEYWORDS=~alpha ~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/httpd-php dev-lang/php[gd,pdo,postgres?,xml] mysql? ( || ( dev-lang/php[mysql] dev-lang/php[mysqli] ) ) >=app-admin/webapp-config-1.50.15
+REQUIRED_USE=|| ( mysql postgres )
+SLOT=6.33
+SRC_URI=http://drupal.org/files/projects/drupal-6.33.tar.gz
+_eclasses_=webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=344607a01fd6a0806a115bdc1b3ebff0

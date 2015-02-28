@@ -1,0 +1,31 @@
+# ChangeLog for app-misc/brewtarget
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-misc/brewtarget/ChangeLog,v 1.6 2014/05/24 20:48:08 pesa Exp $
+
+*brewtarget-2.0.2 (24 May 2014)
+
+  24 May 2014; Davide Pesavento <pesa@gentoo.org> +brewtarget-2.0.2.ebuild,
+  -brewtarget-1.2.4.ebuild, -brewtarget-2.0.1.ebuild,
+  -files/1.2.4-find-phonon.patch:
+  Version bump, which also fixes bug 464256. Remove old.
+
+*brewtarget-2.0.1 (17 Nov 2013)
+
+  17 Nov 2013; Davide Pesavento <pesa@gentoo.org> +brewtarget-2.0.1.ebuild,
+  metadata.xml:
+  Version bump, bug 468968.
+
+  18 Jul 2013; Chris Reffett <creffett@gentoo.org> brewtarget-1.2.4.ebuild:
+  Convert base_src_prepare to cmake-utils_src_prepare, bug 477196
+
+  10 May 2013; Patrick Lauer <patrick@gentoo.org> metadata.xml:
+  Fix metadata doctype
+
+  02 Mar 2013; Markos Chandras <hwoarang@gentoo.org> brewtarget-1.2.4.ebuild:
+  Move Qt dependencies to the new category
+
+*brewtarget-1.2.4 (14 Mar 2012)
+
+  14 Mar 2012; Davide Pesavento <pesa@gentoo.org> +brewtarget-1.2.4.ebuild,
+  +files/1.2.4-find-phonon.patch, +metadata.xml:
+  Initial commit, ebuild and patch by me.

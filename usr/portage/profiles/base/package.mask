@@ -1,0 +1,10 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: /var/cvsroot/gentoo-x86/profiles/base/package.mask,v 1.66 2014/07/21 22:34:56 blueness Exp $
+
+# Rick Farina <zerochaos@gentoo.org> (6 Jun 2013)
+# Pm-utils based hibernate and suspend support has discontinued.
+# For continued support, use the upower-pm-utils fork or systemd.
+# Systemd users can switch to a systemd profile or unmask <sys-power/upower-0.99.0
+# Openrc users can "emerge -C upower && emerge -1 upower-pm-utils"
+<sys-power/upower-0.99.0

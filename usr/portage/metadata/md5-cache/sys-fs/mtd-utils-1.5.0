@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=!sys-fs/mtd dev-libs/lzo sys-libs/zlib >=sys-apps/util-linux-2.16 xattr? ( sys-apps/acl )
+DESCRIPTION=MTD userspace tools (NFTL, JFFS2, NAND, FTL, UBI)
+EAPI=3
+HOMEPAGE=http://git.infradead.org/?p=mtd-utils.git;a=summary
+IUSE=xattr
+KEYWORDS=amd64 arm ~mips ppc x86 ~amd64-linux ~arm-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=!sys-fs/mtd dev-libs/lzo sys-libs/zlib >=sys-apps/util-linux-2.16
+SLOT=0
+SRC_URI=http://git.infradead.org/mtd-utils.git/snapshot/v1.5.0.tar.gz -> mtd-utils-1.5.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	vcs-snapshot	58b766562c9fbfb3268b04e33cdf2f66
+_md5_=8dc6ca4687850be20c652fcea308101b

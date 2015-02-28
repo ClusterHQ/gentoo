@@ -1,0 +1,1 @@
+virtual/perl-Scalar-List-Utils >=virtual/perl-version-0.77 !<perl-core/CPAN-Meta-2.120.920 dev-lang/perl:0/5.18=[-build(-)]

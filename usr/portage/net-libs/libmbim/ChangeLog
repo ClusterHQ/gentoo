@@ -1,0 +1,26 @@
+# ChangeLog for net-libs/libmbim
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-libs/libmbim/ChangeLog,v 1.6 2014/09/12 19:24:46 vincent Exp $
+
+  12 Sep 2014; Vicente Olivert Riera <vincent@gentoo.org> libmbim-1.6.0.ebuild:
+  Add ~mips keyword
+
+  20 Jul 2014; Alexey Shvetsov <alexxy@gentoo.org> libmbim-1.6.0.ebuild,
+  libmbim-9999.ebuild:
+  Add virtual/libgudev to depend
+
+  20 Jul 2014; Tobias Klausmann <klausman@gentoo.org> libmbim-1.6.0.ebuild:
+  Keyworded on alpha, bug #507490
+
+  04 May 2014; Pacho Ramos <pacho@gentoo.org> libmbim-1.6.0.ebuild:
+  x86 stable, bug 508862
+
+  04 May 2014; Pacho Ramos <pacho@gentoo.org> libmbim-1.6.0.ebuild:
+  amd64 stable, bug 508862
+
+*libmbim-9999 (20 Jan 2014)
+*libmbim-1.6.0 (20 Jan 2014)
+
+  20 Jan 2014; Alexey Shvetsov <alexxy@gentoo.org> +libmbim-1.6.0.ebuild,
+  +libmbim-9999.ebuild, +metadata.xml:
+  [net-libs/libmbim] Initial import as modemmanager dep

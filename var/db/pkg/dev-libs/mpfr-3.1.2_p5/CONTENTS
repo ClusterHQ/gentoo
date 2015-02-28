@@ -1,0 +1,27 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/AUTHORS.bz2 6022c011bdefd0ba1c5c9a711aeae8e5 1410959182
+dir /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/examples
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/examples/divworst.c.bz2 b1ee276c5ec14da551ff226771b79e8c 1410959182
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/examples/rndo-add.c.bz2 d3814e0c1aec1d6e645b8ce27b7fb507 1410959182
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/examples/sample.c.bz2 3808284e84dc880169df7d6def2dbd4c 1410959182
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/examples/version.c.bz2 4aca219b74be3b562f5aeec63db81873 1410959182
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/examples/ReadMe.bz2 58923c87d6b7be098fa21a359f9e479e 1410959182
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/README.bz2 f8e5c52829e86817e6e3977a382225a9 1410959182
+dir /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/html
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/html/FAQ.html 218da99f88c8b1412c24745e7e759429 1410959182
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/TODO.bz2 ebbe953335d8b8b09365fc48812fedc7 1410959182
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/ChangeLog.bz2 de1f3125379642740b8b55fe603e2707 1410959182
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/NEWS.bz2 7aaf33c9ca07a14b2d0aaaa384855d8c 1410959182
+obj /home/core/gentoo/usr/share/doc/mpfr-3.1.2_p5/BUGS.bz2 678ed8485f4d98ebde93a0a601f59417 1410959182
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/mpfr.info.bz2 32d8d9303da75bf684a6253a00677eb7 1410959182
+dir /home/core/gentoo/usr/lib
+sym /home/core/gentoo/usr/lib/libmpfr.so -> libmpfr.so.4.1.2 1410959189
+obj /home/core/gentoo/usr/lib/libmpfr.so.4.1.2 83e08924221eaab6e5b5a6cae8c9efc0 1410959183
+sym /home/core/gentoo/usr/lib/libmpfr.so.4 -> libmpfr.so.4.1.2 1410959189
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/mpf2mpfr.h 384d02948192bd63ef18780943958011 1410959182
+obj /home/core/gentoo/usr/include/mpfr.h 93d943f71afe6f2ddb57cc24ad81317a 1410959182

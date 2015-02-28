@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=|| ( gnome-base/gnome-panel[bonobo] <gnome-base/gnome-panel-2.32 ) x11-libs/gtk+:2 virtual/pkgconfig
+DESCRIPTION=Visualization of the Hard Disc Active Protection System State as Gnome applet
+EAPI=2
+HOMEPAGE=http://www.zen24593.zen.co.uk/hdaps/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=|| ( gnome-base/gnome-panel[bonobo] <gnome-base/gnome-panel-2.32 ) x11-libs/gtk+:2 app-laptop/hdapsd
+SLOT=0
+SRC_URI=http://www.zen24593.zen.co.uk/hdaps/gnome-hdaps-applet-20081204.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=8499454ab6500cb13b4c66522ad5b88c

@@ -1,0 +1,40 @@
+# ChangeLog for dev-perl/Config-AutoConf
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-perl/Config-AutoConf/ChangeLog,v 1.7 2014/06/14 12:35:25 mrueg Exp $
+
+*Config-AutoConf-0.305 (14 Jun 2014)
+
+  14 Jun 2014; Manuel Rüger <mrueg@gentoo.org> +Config-AutoConf-0.305.ebuild,
+  -Config-AutoConf-0.270.0.ebuild, -Config-AutoConf-0.302.0.ebuild:
+  Version bump. Cleanup old.
+
+*Config-AutoConf-0.304 (02 Jun 2014)
+
+  02 Jun 2014; Manuel Rüger <mrueg@gentoo.org> +Config-AutoConf-0.304.ebuild,
+  -Config-AutoConf-0.300.0.ebuild:
+  Version bump. Cleanup old.
+
+*Config-AutoConf-0.302.0 (29 May 2014)
+
+  29 May 2014; Manuel Rüger <mrueg@gentoo.org> +Config-AutoConf-0.302.0.ebuild:
+  Version bump.
+
+*Config-AutoConf-0.300.0 (25 May 2014)
+
+  25 May 2014; Manuel Rüger <mrueg@gentoo.org> +Config-AutoConf-0.300.0.ebuild:
+  Version bump.
+
+*Config-AutoConf-0.270.0 (07 May 2014)
+
+  07 May 2014; Manuel Rüger <mrueg@gentoo.org> +Config-AutoConf-0.270.0.ebuild,
+  -Config-AutoConf-0.22.ebuild:
+  Version bump. Cleanup old.
+
+  03 Aug 2013; Manuel Rüger <mrueg@gentoo.org> Config-AutoConf-0.22.ebuild:
+  Drop mirror restriction
+
+*Config-AutoConf-0.22 (03 Aug 2013)
+
+  03 Aug 2013; Manuel Rüger <mrueg@gentoo.org> +Config-AutoConf-0.22.ebuild,
+  +metadata.xml:
+  Initial version. Ebuild by Markus Oehme. Fixes bug #386801.

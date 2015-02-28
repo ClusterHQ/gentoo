@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=!x86-winnt? ( >=dev-java/java-config-2.1.9-r1 )
+DESCRIPTION=defeat the returning Titan horde in a series of epic ground battles
+EAPI=3
+HOMEPAGE=http://www.puppygames.net/revenge-of-the-titans/
+IUSE=elibc_FreeBSD
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=>=virtual/jre-1.6 virtual/opengl !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 )
+RESTRICT=mirror bindist strip
+SLOT=0
+SRC_URI=amd64? ( http://downloads.puppygames.net/RevengeOfTheTitans-amd64.tar.gz -> revenge-of-the-titans-1.80.12-amd64.tar.gz ) x86? ( http://downloads.puppygames.net/RevengeOfTheTitans-i386.tar.gz -> revenge-of-the-titans-1.80.12-i386.tar.gz )
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	java-pkg-2	65bbb59987d777c1106ae8aa4bf36e7b	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=04e36b15988f6fd9517931bc23a06ee6

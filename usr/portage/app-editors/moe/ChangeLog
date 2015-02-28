@@ -1,0 +1,28 @@
+# ChangeLog for app-editors/moe
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-editors/moe/ChangeLog,v 1.6 2014/07/15 14:54:58 zlogene Exp $
+
+*moe-1.6 (15 Jul 2014)
+
+  15 Jul 2014; Mikle Kolyada <zlogene@gentoo.org> +moe-1.6.ebuild:
+  Version bump
+
+  07 Jun 2013; Mikle Kolyada <zlogene@gentoo.org> moe-1.5.ebuild:
+  x86 stable wrt bug #472486
+
+  06 Jun 2013; Sergey Popov <pinkbyte@gentoo.org> moe-1.5.ebuild:
+  Stable on arm, wrt bug #472486
+
+  06 Jun 2013; Mikle Kolyada <zlogene@gentoo.org> moe-1.5.ebuild:
+  amd64 stable wrt bug #472486
+
+  06 Jun 2013; Sergey Popov <pinkbyte@gentoo.org> metadata.xml:
+  Reassigning due to Zlogene became Gentoo developer, remove proxy maintainers
+  herd
+
+*moe-1.5 (03 May 2013)
+
+  03 May 2013; Sergey Popov <pinkbyte@gentoo.org> +moe-1.5.ebuild,
+  +metadata.xml:
+  Initial commit, wrt bug #263658. Ebuild by Mikle Kolyada, who will maintain
+  this package through proxy maintainers

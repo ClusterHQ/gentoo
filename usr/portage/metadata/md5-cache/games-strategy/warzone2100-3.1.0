@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=>=dev-games/physfs-2[zip] dev-libs/fribidi media-libs/fontconfig media-libs/freetype:2 media-libs/glew media-libs/libogg media-libs/libpng:0 media-libs/libtheora media-libs/libvorbis media-libs/openal sys-libs/zlib virtual/glu virtual/opengl x11-libs/libX11 x11-libs/libXrandr dev-qt/qtcore:4 dev-qt/qtscript:4 nls? ( virtual/libintl ) qt4? ( dev-qt/qtgui:4 dev-qt/qtopengl:4 ) !qt4? ( media-libs/libsdl[opengl,video] ) sys-devel/bison sys-devel/flex app-arch/zip virtual/pkgconfig nls? ( sys-devel/gettext ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool >=sys-apps/sed-4
+DESCRIPTION=3D real-time strategy game
+EAPI=5
+HOMEPAGE=http://wz2100.net/
+IUSE=debug nls qt4 videos
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2 CC-BY-SA-3.0 public-domain
+RDEPEND=>=dev-games/physfs-2[zip] dev-libs/fribidi media-libs/fontconfig media-libs/freetype:2 media-libs/glew media-libs/libogg media-libs/libpng:0 media-libs/libtheora media-libs/libvorbis media-libs/openal sys-libs/zlib virtual/glu virtual/opengl x11-libs/libX11 x11-libs/libXrandr dev-qt/qtcore:4 dev-qt/qtscript:4 nls? ( virtual/libintl ) qt4? ( dev-qt/qtgui:4 dev-qt/qtopengl:4 ) !qt4? ( media-libs/libsdl[opengl,video] ) media-fonts/dejavu
+SLOT=0
+SRC_URI=mirror://sourceforge/warzone2100/warzone2100-3.1.0.tar.xz videos? ( mirror://sourceforge/warzone2100/warzone2100/Videos/2.2/high-quality-en/sequences.wz -> warzone2100-videos-2.2.wz )
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=c0e0a4b0385b6453733af99f019137c8

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=>=dev-libs/gmp-4.3:0 app-arch/unzip
+DESCRIPTION=A suite of algorithms to help factoring large integers
+EAPI=5
+HOMEPAGE=https://github.com/radii/ggnfs
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/gmp-4.3:0 app-arch/unzip !sci-mathematics/cado-nfs
+SLOT=0
+SRC_URI=http://dev.gentooexperimental.org/~dreeevil/ggnfs-0.77.1.zip http://stuff.mit.edu/afs/sipb/project/pari-gp/ggnfs/Linux/src/def-par.txt http://stuff.mit.edu/afs/sipb/project/pari-gp/ggnfs/Linux/src/def-nm-params.txt http://gentooexperimental.org/~patrick/ggnfs-doc.pdf
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=879ba4472b1db39e96377a265617da73

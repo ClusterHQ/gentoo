@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare setup
+DEPEND=sci-chemistry/ambertools
+DESCRIPTION=AnteChamber PYthon Parser interfacE
+EAPI=3
+HOMEPAGE=http://code.google.com/p/acpype/
+KEYWORDS=~amd64 ~x86 ~amd64-linux
+LICENSE=GPL-3
+RDEPEND=sci-chemistry/ambertools
+SLOT=0
+SRC_URI=mirror://gentoo/acpype-366.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=0096d78937da90464fe78ff22c9cf244

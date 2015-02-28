@@ -1,0 +1,1 @@
+>=app-misc/pax-utils-0.1.10 !<sys-apps/sandbox-1.6 !<sys-apps/portage-2.1.2 >=sys-devel/binutils-2.20 >=sys-devel/gcc-4.3 virtual/os-headers >=sys-libs/timezone-data-2012c sys-devel/gnuconfig virtual/pkgconfig

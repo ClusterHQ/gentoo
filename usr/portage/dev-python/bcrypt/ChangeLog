@@ -1,0 +1,32 @@
+# ChangeLog for dev-python/bcrypt
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/bcrypt/ChangeLog,v 1.7 2014/06/06 08:06:30 pinkbyte Exp $
+
+  06 Jun 2014; Sergey Popov <pinkbyte@gentoo.org> bcrypt-1.0.2-r1.ebuild:
+  Stable on amd64 and x86, wrt bug #509828
+
+  20 May 2014; Patrick Lauer <patrick@gentoo.org> bcrypt-1.0.2-r1.ebuild:
+  Add mock to test deps
+
+  12 May 2014; Ian Delaney <idella4@gentoo.org> bcrypt-1.0.2-r1.ebuild:
+  drop py2.6 add py3.4 support
+
+*bcrypt-1.0.2-r1 (08 May 2014)
+
+  08 May 2014; Michał Górny <mgorny@gentoo.org> +bcrypt-1.0.2-r1.ebuild,
+  -bcrypt-1.0.2.ebuild:
+  Add a slot operator on dev-python/cffi dep (bug #506552), and make it
+  conditional to CPython implementations (PyPy has built-in cffi).
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> bcrypt-1.0.2.ebuild:
+  Add support for the new PyPy slotting.
+
+  05 Jan 2014; Mike Gilbert <floppym@gentoo.org> bcrypt-1.0.2.ebuild:
+  Add blocker on dev-python/py-bcrypt.
+
+*bcrypt-1.0.2 (05 Jan 2014)
+
+  05 Jan 2014; Ian Delaney <idella4@gentoo.org> +bcrypt-1.0.2.ebuild,
+  +metadata.xml:
+  new package, dep for passlib, ebuild prepared by me and with testing by other
+  helpers

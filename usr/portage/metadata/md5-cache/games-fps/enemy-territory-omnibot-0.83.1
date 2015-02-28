@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Enemy Territory Omnibot - Bots for Ennemy Territory
+EAPI=2
+HOMEPAGE=http://www.omni-bot.com/
+IUSE=dedicated opengl
+KEYWORDS=~amd64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dedicated? ( games-fps/enemy-territory[dedicated] ) opengl? ( || ( games-fps/enemy-territory[opengl] games-fps/enemy-territory[-dedicated] ) ) !dedicated? ( !opengl? ( || ( games-fps/enemy-territory[opengl] games-fps/enemy-territory[-dedicated] ) ) )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=http://omni-bot.invisionzone.com/index.php?/files/getdownload/158-omni-bot-enemy-territory -> omni-bot_0_831_ET_linux.zip http://omni-bot.invisionzone.com/index.php?/files/getdownload/157-omni-bot-enemy-territory -> omni-bot_0_83_ET_waypoint_mod.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	games-mods	9d44c6f45289592ca9cf29d77424a048	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=6683f1ffd1da00dd282f02467929abd4

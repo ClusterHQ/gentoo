@@ -1,0 +1,261 @@
+# -*-eselect-*-  vim: ft=eselect
+# Copyright 2005-2014 Gentoo Foundation
+# Distributed under the terms of the GNU GPL version 2 or later
+
+inherit config package-manager
+
+DESCRIPTION="Manage installed versions of sys-devel/binutils"
+MAINTAINER="eselect@gentoo.org"
+
+BINUTILS_ENVFILE=${EROOT}/etc/env.d/05binutils
+
+# find_targets [patterns]
+# find all possible targets [that match one of ${@}]
+find_targets() {
+	local item file
+	local -a targets
+
+	[[ $# -eq 0 ]] && set -- "-*"
+	for item; do
+		item=${item%%-[1-9]*}
+		[[ ${item:0:1} == "-" ]] || item=-${item}
+		for file in "${EROOT}"/etc/env.d/binutils/config${item}; do
+			[[ -f ${file} ]] || continue
+			targets=("${targets[@]}" "${file##*/config-}")
+		done
+	done
+	echo "${targets[@]}"
+}
+
+# find_versions
+# find all installed version of installed binutils
+find_versions() {
+	local target file last_versions_count
+	local -a versions
+
+	for target in $(find_targets) ; do
+		last_version_count=${#versions[@]}
+		for file in "${EROOT}"/etc/env.d/binutils/${target}-* ; do
+			[[ -f ${file} ]] || continue
+			versions=(${versions[@]} "${file##*/}")
+		done
+		[[ ${last_version_count} == ${#versions[@]} ]] \
+			&& die -q "Please remove stray file: ${EROOT}/etc/env.d/binutils/config-${target}"
+	done
+	echo ${versions[@]}
+}
+
+# is_active $target $version
+# returns true if $version is currently used
+is_active() {
+	local current
+	[[ ${#@} -eq 2 ]] || die "Need exactly 2 arguments!"
+	current=$(load_config "${EROOT}/etc/env.d/binutils/config-${1}" CURRENT)
+	[[ ${current} == ${2} ]]
+}
+
+# is_valid $profile
+is_valid() {
+	[[ ${#@} -eq 1 && -e "${EROOT}/etc/env.d/binutils/${profile}" ]] \
+		|| die "Need exactly 1 argument!"
+}
+
+# swtich_profile $profile
+# switches binutils to $profile
+switch_profile() {
+	# set us up
+	[[ ${#@} -eq 1 ]] || die "Need exactly 1 argument!"
+	local profile=${1##*/}
+	local profile_file=${EROOT}/etc/env.d/binutils/${profile}
+	local target targets version binutilspath libpath chost
+	version=$(load_config ${profile_file} VER)
+	target=$(load_config ${profile_file} TARGET)
+	is_active ${target} ${version} \
+		&& die -q "Profile \"${profile}\" is already active!"
+	chost=$(envvar sys-devel/binutils CHOST)
+	libpath=$(load_config ${profile_file} LIBPATH)
+	libpath=${libpath:-${EPREFIX}/usr/lib/binutils/${TARGET}/${VER}}
+	faketargets=( $(load_config ${profile_file} FAKE_TARGETS) )
+
+	# Generate binary symlinks
+	echo "Switching to ${profile}..."
+	[[ -d  "${EROOT}/usr/${target}/binutils-bin/${version}" ]] \
+		|| die -q "Can't cd ${EROOT}/usr/${target}/binutils-bin/${version}!"
+	mkdir -p "${EROOT}/usr/${target}/bin" \
+		|| die -q "Can't create ${EROOT}/usr/${target}/bin!"
+
+	binutilspath=${EPREFIX}/usr/${target}/binutils-bin/${version}
+	for app in "${ROOT}${binutilspath}"/* ; do
+		app=${app##*/}
+		ln -sf \
+			"${binutilspath}/${app}" \
+			"${EROOT}/usr/${target}/bin/${app}" \
+			|| die -q "Linking ${ROOT}/${binutilspath}/${app} failed!"
+		ln -sf \
+			../${target}/bin/${app} \
+			"${EROOT}/usr/bin/${target}-${app}" \
+			|| die -q "Linking ${EROOT}/usr/bin/${target}-${app} failed!"
+		for fake in ${faketargets} ; do
+			[[ -f ${EROOT}/etc/env.d/binutils/config-${fake} ]] \
+				&& continue
+			ln -sf ../${target}/bin/${app} "${EROOT}/usr/bin/${fake}-${app}"
+		done
+		[[ ${chost} == ${target} ]] || continue
+		ln -sf \
+			${target}-${app} \
+			"${EROOT}/usr/bin/${app}" \
+			|| die -q "Linking ${EROOT}/usr/bin/${app} failed!"
+	done
+
+	# Generate library and ldscripts symlinks
+	mkdir -p "${EROOT}/usr/${target}/lib"
+	rm -r "${EROOT}/usr/${target}/lib/ldscripts"
+	ln -sf "${libpath}/ldscripts" "${EROOT}/usr/${target}/lib/ldscripts"
+	[[ ${target} == ${chost} ]] \
+		&& dest="${EROOT}/usr/${chost}/lib" \
+		|| dest="${EROOT}/usr/${chost}/${target}/lib"
+	mkdir -p "${dest}"
+	for lib in "${ROOT}${libpath}"/lib* ; do
+		ln -sf "${libpath}/${lib##*/}" "${dest}/${lib##*/}"
+	done
+
+	# Generate include symlink
+	[[ ${target} == ${chost} ]] \
+		&& dest="${EROOT}/usr/include" \
+		|| dest="${EROOT}/usr/${target}/include"
+	mkdir -p "${dest}"
+	for inc in "${ROOT}${libpath}"/include/* ; do
+		ln -sf "${inc##${ROOT}}" "${dest}/${inc##*/}"
+	done
+
+	# Update the environment
+	if [[ ${target} == ${chost} ]] ; then
+		datapath=${EPREFIX}/usr/share/binutils-data/${target}/${version}
+		[[ -d ${datapath}/man ]] \
+			&& store_config ${BINUTILS_ENVFILE} MANPATH "${datapath}/man"
+		[[ -d ${datapath}/info ]] \
+			&& store_config ${BINUTILS_ENVFILE} INFOPATH "${datapath}/info"
+		store_config ${BINUTILS_ENVFILE} LDPATH "${EPREFIX}/usr/${target}/lib"
+	fi
+
+	store_config \
+		"${EROOT}/etc/env.d/binutils/config-${target}" \
+		CURRENT ${version}
+	if [[ ${ROOT:-/} == / ]] && [[ ${target} == ${chost} ]] ; then
+		do_action env update
+		echo "Please remember to run:"
+		echo
+		echo "  # source /etc/profile"
+		echo
+		echo "in order to let changes take effect!"
+	fi
+}
+
+### list action
+
+describe_list() {
+	echo "List all installed version of binutils"
+}
+
+do_list() {
+	local targets i=0 version files last_processed_count
+	local -a processed
+	targets=( $(find_targets ${@}) )
+
+	[[ -z ${targets[@]} ]] \
+		&& die -q "Pattern ${@} does not match any installed version of binutils!"
+
+	for target in $(find_targets) ; do
+		[[ ${targets[@]/${target}/} == ${targets[@]} ]] \
+			|| write_list_start "Installed binutils for target $(highlight ${target})"
+		last_processed_count=${#processed[@]}
+		for file in "${EROOT}"/etc/env.d/binutils/${@:-*} ; do
+			[[ -f ${file} ]] || continue
+			version=${file##*/${target}-}
+			[[ ${version} == ${file} ]] && continue
+			[[ ${processed[@]/${file}/} == ${processed[@]} ]] || continue
+			processed=(${processed[@]} "${file}")
+			i=$(( i + 1 ))
+			[[ ${targets[@]/${target}/} == ${targets[@]} ]] && continue
+			is_active ${target} ${version} \
+				&& version=$(highlight_marker "${version}")
+			write_numbered_list_entry $i "${version}"
+		done
+		[[ ${last_processed_count} == ${#processed[@]} ]] \
+			&& die -q "Please remove stray file: ${EROOT}/etc/env.d/binutils/config-${target}"
+	done
+}
+
+### set action
+
+describe_set() {
+	echo "Activate one of the installed binutils"
+}
+
+describe_set_parameters() {
+	echo "<target>"
+}
+
+describe_set_options() {
+	echo "target : Target name or number (from 'list' action)"
+}
+
+do_set() {
+		[[ ${#@} == 1 ]] \
+			|| die -q "Please specify exactly one version to activate!"
+		local versions file fail=0
+		versions=( $(find_versions) )
+
+		for item in ${@} ; do
+			if is_number ${item} ; then
+				if [[ ${item} -ge 1 ]] && [[ ${item} -le $(( ${#versions[@]} + 2)) ]] ; then
+					switch_profile ${versions[$(( ${item} -1 ))]}
+				else
+					fail=1
+					echo "Item not in range 1-$((${#versions[@]} + 1)): ${item}"
+					continue
+				fi
+			else
+				file=( "${EROOT}"/etc/env.d/binutils/${item} )
+				if [[ ${#file[@]} -gt 1 ]] ; then
+					fail=1
+					echo "Ambigious pattern: ${item}"
+					continue
+				fi
+				if ! [[ -f ${file} ]] ; then
+					fail=1
+					echo "Pattern doesn't match anything: ${item}"
+					continue
+				fi
+				switch_profile ${file##*/}
+			fi
+		done
+
+		[[ ${fail} == 1 ]] && die -q "One or more actions have failed!"
+}
+
+### show action
+
+describe_show() {
+	echo "Print the currently active binutils version"
+}
+
+do_show() {
+	local chost=${1:-$(envvar sys-devel/binutils CHOST)} version config
+
+	[[ -n ${chost} ]] \
+		|| die -q "Portage returned empty CHOST!"
+
+	config=${EROOT}/etc/env.d/binutils/config-${chost}
+	[[ ${#config[@]} -eq 1 ]] \
+		|| return
+	[[ -e ${config} ]] \
+		|| return
+
+	version=$(load_config \
+		"${EROOT}/etc/env.d/binutils/config-${chost}" CURRENT)
+	[[ -e ${EROOT}/etc/env.d/binutils/${chost}-${version} ]] \
+		|| die "File \"${EROOT}/etc/env.d/binutils/${chost}-${version}\" is missing!"
+
+	echo "${chost}-${version}"
+}

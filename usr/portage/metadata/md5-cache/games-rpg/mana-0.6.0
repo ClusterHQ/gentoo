@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
+DEPEND=!=games-rpg/tmw-0.5.2 >=dev-games/physfs-1.0.0 dev-libs/libxml2 media-libs/sdl-mixer[vorbis] media-libs/sdl-image[png] media-libs/sdl-net media-libs/sdl-ttf net-misc/curl sys-libs/zlib media-libs/libpng media-fonts/dejavu >=dev-games/guichan-0.8.1[sdl] media-libs/libsdl[X,opengl?,video] media-libs/sdl-gfx x11-libs/libX11 nls? ( virtual/libintl ) opengl? ( virtual/opengl ) virtual/pkgconfig nls? ( sys-devel/gettext ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=A fully free and open source MMORPG game client
+EAPI=2
+HOMEPAGE=http://manasource.org/
+IUSE=nls opengl
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=!=games-rpg/tmw-0.5.2 >=dev-games/physfs-1.0.0 dev-libs/libxml2 media-libs/sdl-mixer[vorbis] media-libs/sdl-image[png] media-libs/sdl-net media-libs/sdl-ttf net-misc/curl sys-libs/zlib media-libs/libpng media-fonts/dejavu >=dev-games/guichan-0.8.1[sdl] media-libs/libsdl[X,opengl?,video] media-libs/sdl-gfx x11-libs/libX11 nls? ( virtual/libintl ) opengl? ( virtual/opengl )
+SLOT=0
+SRC_URI=http://manasource.org/files/mana-0.6.0.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=79087a9c9a55d801d236204bf14cb8cc

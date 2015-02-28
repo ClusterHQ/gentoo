@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=app-arch/tar app-arch/gzip virtual/pkgconfig
+DESCRIPTION=Open Handset Alliance's Android SDK
+EAPI=5
+HOMEPAGE=http://developer.android.com
+KEYWORDS=~amd64 ~x86
+LICENSE=android
+RDEPEND=>=virtual/jdk-1.5 >=dev-java/ant-core-1.6.5 || ( dev-java/swt:3.7[cairo] dev-java/swt:3.6[cairo] ) amd64? ( || ( app-emulation/emul-linux-x86-gtklibs:=[-abi_x86_32(-)] x11-libs/gtk+:2=[abi_x86_32(-)] ) ) x86? ( x11-libs/gtk+:2= )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://dl.google.com/android/android-sdk_r23-linux.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	udev	da001465a2e939c93f7ae16947ce3438	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=46d69b4fce4a4fef1a1d6ffb2bcacd71

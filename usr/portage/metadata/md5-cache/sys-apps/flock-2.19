@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-freebsd/freebsd-mk-defs virtual/pmake virtual/pmake
+DESCRIPTION=Manage locks from shell scripts
+EAPI=4
+HOMEPAGE=http://svnweb.freebsd.org/ports/head/sysutils/flock/
+IUSE=profile
+KEYWORDS=~amd64-fbsd ~x86-fbsd
+LICENSE=MIT
+SLOT=0
+SRC_URI=http://www.zonov.org/flock/flock-2.19.tar.gz
+_eclasses_=bsdmk	a5323161d86b178920afb5e31a9e5d3f	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	freebsd	9df2a927373191607071d802c1058c96	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=05d4d4ffd0eefda96f3036196bf7df44

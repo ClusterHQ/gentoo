@@ -1,0 +1,20 @@
+# ChangeLog for dev-python/sure
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/sure/ChangeLog,v 1.3 2014/03/31 21:04:24 mgorny Exp $
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> sure-1.2.3.ebuild,
+  sure-1.2.5.ebuild:
+  Add support for the new PyPy slotting.
+
+*sure-1.2.5 (25 Feb 2014)
+
+  25 Feb 2014; Tomáš Chvátal <scarabeus@gentoo.org> +sure-1.2.5.ebuild,
+  sure-1.2.3.ebuild:
+  Enable python3_3 build as it seems to work. While at it bump to latest version
+  that is available.
+
+*sure-1.2.3 (02 Dec 2013)
+
+  02 Dec 2013; Ian Delaney <idella4@gentoo.org> +metadata.xml,
+  +sure-1.2.3.ebuild:
+  new dep of test suite of new package httpretty, ebuild prepped by me

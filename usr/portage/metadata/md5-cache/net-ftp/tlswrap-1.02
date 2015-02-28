@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/openssl-0.9.7
+DESCRIPTION=TLSWRAP is a TLS/SSL FTP wrapper/proxy which allows to use TLS with every FTP client
+HOMEPAGE=http://tlswrap.sunsite.dk
+KEYWORDS=~x86
+LICENSE=BSD GPL-2
+RDEPEND=>=dev-libs/openssl-0.9.7
+SLOT=0
+SRC_URI=http://tlswrap.sunsite.dk/tlswrap-1.02.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=3f500cdbfcbea74a33c8e31d5b225b42

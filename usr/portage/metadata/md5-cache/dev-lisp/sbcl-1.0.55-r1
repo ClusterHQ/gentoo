@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=doc? ( sys-apps/texinfo >=media-gfx/graphviz-2.26.0 ) pax_kernel? ( sys-apps/paxctl )
+DESCRIPTION=Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp.
+EAPI=3
+HOMEPAGE=http://sbcl.sourceforge.net/
+IUSE=+asdf ldb source +threads +unicode debug doc pax_kernel
+KEYWORDS=~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x86-solaris
+LICENSE=MIT
+RDEPEND=asdf? ( >=dev-lisp/gentoo-init-0.1 )
+SLOT=0
+SRC_URI=mirror://sourceforge/sbcl/sbcl-1.0.55-source.tar.bz2 x86? ( mirror://sourceforge/sbcl/sbcl-1.0.37-x86-linux-binary.tar.bz2 ) amd64? ( mirror://sourceforge/sbcl/sbcl-1.0.37-x86-64-linux-binary.tar.bz2 ) ppc? ( mirror://sourceforge/sbcl/sbcl-1.0.28-powerpc-linux-binary.tar.bz2 ) sparc? ( mirror://sourceforge/sbcl/sbcl-1.0.28-sparc-linux-binary.tar.bz2 ) alpha? ( mirror://sourceforge/sbcl/sbcl-1.0.28-alpha-linux-binary.tar.bz2 ) ppc-macos? ( mirror://sourceforge/sbcl/sbcl-1.0.47-powerpc-darwin-binary.tar.bz2 ) x86-macos? ( mirror://sourceforge/sbcl/sbcl-1.0.55-x86-darwin-binary.tar.bz2 ) x64-macos? ( mirror://sourceforge/sbcl/sbcl-1.0.55-x86-64-darwin-binary.tar.bz2 ) x86-solaris? ( mirror://sourceforge/sbcl/sbcl-1.0.55-x86-solaris-binary.tar.bz2 )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	pax-utils	8257582809714b788173511f975d767d	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=8b03fb82dcb7f8de2d67cd61ab00f249

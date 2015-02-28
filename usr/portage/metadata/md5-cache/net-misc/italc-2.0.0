@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile config configure install postinst prepare setup test unpack
+DEPEND=dev-libs/lzo dev-libs/openssl sys-apps/tcp-wrappers sys-libs/zlib virtual/jpeg dev-qt/qtcore:4 dev-qt/qtxmlpatterns:4 x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libXtst x11-apps/xinput dev-qt/qtgui:4 x11-proto/inputproto sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Intelligent Teaching And Learning with Computers (iTALC) supports working with computers in school
+EAPI=4
+HOMEPAGE=http://italc.sourceforge.net/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+PROPERTIES=interactive
+RDEPEND=dev-libs/lzo dev-libs/openssl sys-apps/tcp-wrappers sys-libs/zlib virtual/jpeg dev-qt/qtcore:4 dev-qt/qtxmlpatterns:4 x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libXtst x11-apps/xinput dev-qt/qtgui:4
+SLOT=0
+SRC_URI=mirror://sourceforge/italc/italc-2.0.0.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	qmake-utils	40136c5fe0002a0d3937e869ae4ee0e2	qt4-r2	b40473dafd07d7c5fe4aef1c1b902f39	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=c2e3f45c33a24a1c4d46a3a8348661cd

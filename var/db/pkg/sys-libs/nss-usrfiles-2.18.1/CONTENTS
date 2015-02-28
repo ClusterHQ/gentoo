@@ -1,0 +1,3 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+obj /home/core/gentoo/usr/lib/libnss_usrfiles.so.2 b5f9182dd69f631d4f83904419310166 1410968094

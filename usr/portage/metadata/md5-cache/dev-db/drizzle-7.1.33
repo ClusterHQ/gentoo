@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=tcmalloc? ( dev-util/google-perftools ) sys-libs/readline sys-apps/util-linux dev-libs/libpcre >=dev-libs/libevent-1.4 >=dev-libs/protobuf-2.1.0 gearman? ( >=sys-cluster/gearmand-0.12 ) pam? ( sys-libs/pam ) curl? ( net-misc/curl ) memcache? ( >=dev-libs/libmemcached-0.39 ) md5? ( >=dev-libs/libgcrypt-1.4.2:0 ) haildb? ( >=dev-db/haildb-2.3.2 ) >=dev-libs/boost-1.32 ldap? ( net-nds/openldap ) !dev-db/libdrizzle sys-devel/gettext dev-util/intltool dev-util/gperf sys-devel/flex doc? ( app-doc/doxygen ) >=dev-util/boost-build-1.32 !<sys-devel/gettext-0.18.1.1-r3 =sys-devel/automake-1.11* >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Database optimized for Cloud and Net applications
+EAPI=2
+HOMEPAGE=http://drizzle.org
+IUSE=debug tcmalloc doc memcache curl pam gearman +md5 ldap haildb
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=tcmalloc? ( dev-util/google-perftools ) sys-libs/readline sys-apps/util-linux dev-libs/libpcre >=dev-libs/libevent-1.4 >=dev-libs/protobuf-2.1.0 gearman? ( >=sys-cluster/gearmand-0.12 ) pam? ( sys-libs/pam ) curl? ( net-misc/curl ) memcache? ( >=dev-libs/libmemcached-0.39 ) md5? ( >=dev-libs/libgcrypt-1.4.2:0 ) haildb? ( >=dev-db/haildb-2.3.2 ) >=dev-libs/boost-1.32 ldap? ( net-nds/openldap ) !dev-db/libdrizzle
+SLOT=0
+SRC_URI=http://launchpad.net/drizzle/7.1/7.1.33/+download/drizzle-7.1.33-stable.tar.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	pam	5e39d502488dd7c258289b7e4b482342	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=89db4aa2d6c466cf48296e802e648f30

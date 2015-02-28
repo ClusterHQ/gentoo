@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Live Source Client For IceCast
+EAPI=2
+HOMEPAGE=http://star.arm.ac.uk/~spm/software/liveice.html
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2+
+RDEPEND=media-sound/lame media-sound/mpg123
+SLOT=0
+SRC_URI=http://star.arm.ac.uk/~spm/software/liveice.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=987fde58472120b3e5b2cd50af28ecf3

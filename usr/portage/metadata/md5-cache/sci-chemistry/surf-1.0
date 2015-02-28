@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=!www-client/surf sys-apps/ed x11-misc/makedepend
+DESCRIPTION=Solvent accesible Surface calculator
+EAPI=4
+HOMEPAGE=http://www.ks.uiuc.edu/
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~x86-macos
+LICENSE=SURF
+SLOT=0
+SRC_URI=http://www.ks.uiuc.edu/Research/vmd/extsrcs/surf.tar.Z -> surf-1.0.tar.Z
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=2aff6aa242743f5a2eb2870e6207c072

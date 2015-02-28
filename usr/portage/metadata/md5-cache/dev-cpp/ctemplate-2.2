@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm setup
+DEPEND=test? ( =dev-lang/python-2* )
+DESCRIPTION=A simple but powerful template language for C++
+EAPI=4
+HOMEPAGE=http://code.google.com/p/ctemplate/
+IUSE=doc emacs vim-syntax static-libs test
+KEYWORDS=amd64 arm ppc x86 ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=vim-syntax? ( >=app-editors/vim-core-7 ) emacs? ( virtual/emacs )
+SLOT=0
+SRC_URI=http://ctemplate.googlecode.com/files/ctemplate-2.2.tar.gz
+_eclasses_=elisp-common	1aa23b3de5dae55456fa2071428eb5bf	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=42da700a6dd92d5bfb32c24ce82906ca

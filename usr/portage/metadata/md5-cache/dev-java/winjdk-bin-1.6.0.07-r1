@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DESCRIPTION=Sun's J2SE Development Kit, version 1.6.0.07
+HOMEPAGE=http://java.sun.com/javase/6/
+IUSE=doc examples
+KEYWORDS=-* ~x86-winnt
+LICENSE=dlj-1.1
+RDEPEND=doc? ( =dev-java/java-sdk-docs-1.6.0* )
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~mduft/java/jdk1.6.0_07-windows-i586.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=034176db0a582a82b0dab7f7e858574e

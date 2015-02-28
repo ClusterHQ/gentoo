@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst prepare setup unpack
+DEPEND=virtual/mysql =www-servers/apache-2.2*
+DESCRIPTION=Apache 2 module enabling HTTP authentication against MySQL databases.
+EAPI=5
+HOMEPAGE=http://packages.debian.org/source/mod-auth-mysql
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=Apache-1.1
+RDEPEND=virtual/mysql !www-apache/mod_auth_mysql =www-servers/apache-2.2*
+SLOT=0
+SRC_URI=mirror://debian/pool/main/m/mod-auth-mysql/mod-auth-mysql_4.3.9.orig.tar.gz mirror://debian/pool/main/m/mod-auth-mysql/mod-auth-mysql_4.3.9-13.diff.gz
+_eclasses_=apache-module	5c4c90da2d68c2dc8391666824f1293c	depend.apache	41d01b539f56fa0a5269f3a8ce916981	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=1cdff195ec0a080b8960246cdf60562f

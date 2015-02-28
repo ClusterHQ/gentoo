@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) dev-lang/python-exec:=[python_targets_python2_7(-)?,python_single_target_python2_7(+)?] dev-libs/apr dev-libs/apr-util dev-vcs/subversion x11-libs/wxGTK:2.8[X] doc? ( dev-libs/libxslt app-text/docbook-sgml-utils app-doc/doxygen app-text/docbook-xsl-stylesheets media-gfx/graphviz ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Cross-platform GUI front-end for the Subversion revision system
+EAPI=5
+HOMEPAGE=http://rapidsvn.tigris.org/
+IUSE=doc static-libs python_targets_python2_7 python_single_target_python2_7
+KEYWORDS=amd64 arm ppc ~ppc64 x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2 LGPL-2.1 FDL-1.2
+RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) dev-lang/python-exec:=[python_targets_python2_7(-)?,python_single_target_python2_7(+)?] dev-libs/apr dev-libs/apr-util dev-vcs/subversion x11-libs/wxGTK:2.8[X]
+REQUIRED_USE=python_single_target_python2_7? ( python_targets_python2_7 ) ^^ ( python_single_target_python2_7 )
+SLOT=0
+SRC_URI=http://www.rapidsvn.org/download/release/0.12.1/rapidsvn-0.12.1.tar.gz doc? ( http://dev.gentoo.org/~jlec/distfiles/svncpp.dox.xz )
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	autotools-utils	3727db64c7b960903d5033280f108080	eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	python-single-r1	a71a169a881e0a11d04a7fe12dc39f6e	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f	wxwidgets	6d6eec2685256d35511e7b6d5461bec9
+_md5_=3bd0bbb4ac804f5a5d566c78168b25b9

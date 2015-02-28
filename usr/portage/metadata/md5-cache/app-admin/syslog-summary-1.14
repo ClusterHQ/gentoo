@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare setup
+DEPEND=|| ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+DESCRIPTION=Summarizes the contents of a syslog log file
+EAPI=2
+HOMEPAGE=http://github.com/dpaleino/syslog-summary
+KEYWORDS=amd64 ~sparc x86
+LICENSE=GPL-3
+RDEPEND=|| ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+SLOT=0
+SRC_URI=mirror://github/dpaleino/syslog-summary/syslog-summary-1.14.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b819e5ae5d5df69e663f2776db61b850

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=dev-lang/tk dev-tcltk/itk dev-tcltk/iwidgets
+DESCRIPTION=A regular expression development and execution tool
+EAPI=4
+HOMEPAGE=http://www.billposer.org/Software/redet.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/tk dev-tcltk/itk dev-tcltk/iwidgets
+SLOT=0
+SRC_URI=http://www.billposer.org/Software/Downloads/redet-8.26.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4e30945db9d3db4094159498f436e0a5

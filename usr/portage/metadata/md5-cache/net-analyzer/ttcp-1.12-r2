@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Tool to test TCP and UDP throughput
+EAPI=5
+HOMEPAGE=http://ftp.arl.mil/~mike/ttcp.html http://www.netcore.fi/pekkas/linux/ipv6/
+KEYWORDS=amd64 ~hppa ~mips ppc ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=public-domain
+SLOT=0
+SRC_URI=mirror://gentoo/ttcp-1.12.tar.bz2 http://www.netcore.fi/pekkas/linux/ipv6/ttcp.c
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=9ef37844f7a6771bf40e27ce193722c4

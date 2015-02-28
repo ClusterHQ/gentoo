@@ -1,0 +1,68 @@
+# ChangeLog for dev-ruby/safe_yaml
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/safe_yaml/ChangeLog,v 1.14 2014/08/15 14:26:12 blueness Exp $
+
+  15 Aug 2014; Anthony G. Basile <blueness@gentoo.org> ChangeLog:
+  Fix failed gpg signature
+
+  15 Aug 2014; Anthony G. Basile <blueness@gentoo.org> safe_yaml-1.0.2.ebuild,
+  safe_yaml-1.0.3.ebuild:
+  Keyword ~ppc ~ppc64, bug #511424
+
+  14 Jun 2014; Manuel Rüger <mrueg@gentoo.org> -safe_yaml-0.9.7-r2.ebuild,
+  -safe_yaml-1.0.1.ebuild, safe_yaml-1.0.3.ebuild:
+  Cleanup old. Add ruby21.
+
+*safe_yaml-1.0.3 (25 Apr 2014)
+
+  25 Apr 2014; Manuel Rüger <mrueg@gentoo.org> +safe_yaml-1.0.3.ebuild:
+  Version bump.
+
+*safe_yaml-1.0.2 (07 Apr 2014)
+
+  07 Apr 2014; Manuel Rüger <mrueg@gentoo.org> +safe_yaml-1.0.2.ebuild,
+  safe_yaml-0.9.7-r2.ebuild, safe_yaml-1.0.1.ebuild:
+  Version bump. Remove ruby18.
+
+*safe_yaml-1.0.1 (19 Feb 2014)
+
+  19 Feb 2014; Manuel Rüger  <mrueg@gentoo.org> +safe_yaml-1.0.1.ebuild:
+  Version bump from ruby-overlay. Thanks to Peter Wilmott (p8952).
+
+*safe_yaml-0.9.7-r2 (20 Nov 2013)
+
+  20 Nov 2013; Manuel Rüger <mrueg@gentoo.org> +safe_yaml-0.9.7-r2.ebuild,
+  -safe_yaml-0.9.7-r1.ebuild:
+  Add jruby target. Cleanup old.
+
+  11 Nov 2013; Manuel Rüger <mrueg@gentoo.org> -safe_yaml-0.9.7.ebuild:
+  Cleanup old.
+
+*safe_yaml-0.9.7-r1 (02 Nov 2013)
+
+  02 Nov 2013; Manuel Rüger <mrueg@gentoo.org> +safe_yaml-0.9.7-r1.ebuild,
+  -safe_yaml-0.9.5.ebuild:
+  Add ruby20 target. Cleanup old.
+
+*safe_yaml-0.9.7 (17 Sep 2013)
+
+  17 Sep 2013; Manuel Rüger <mrueg@gentoo.org> +safe_yaml-0.9.7.ebuild,
+  -safe_yaml-0.9.4-r1.ebuild:
+  Version bump. Cleanup old.
+
+*safe_yaml-0.9.5 (07 Aug 2013)
+
+  07 Aug 2013; Hans de Graaff <graaff@gentoo.org> +safe_yaml-0.9.5.ebuild:
+  Version bump.
+
+*safe_yaml-0.9.4-r1 (31 Jul 2013)
+
+  31 Jul 2013; Manuel Rüger <mrueg@gentoo.org> +safe_yaml-0.9.4-r1.ebuild,
+  -safe_yaml-0.9.4.ebuild:
+  Fix USE=doc, fix dependencies
+
+*safe_yaml-0.9.4 (26 Jul 2013)
+
+  26 Jul 2013; Manuel Rüger <mrueg@gentoo.org> +metadata.xml,
+  +safe_yaml-0.9.4.ebuild:
+  Initial version, new dependency of dev-ruby/crack

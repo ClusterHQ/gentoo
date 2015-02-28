@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare prerm setup
+DEPEND=>=app-admin/webapp-config-1.50.15
+DESCRIPTION=PHP/MySQL/Web based bugtracking system
+EAPI=5
+HOMEPAGE=http://www.mantisbt.org/
+IUSE=vhosts
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=virtual/httpd-php virtual/httpd-cgi >=dev-php/adodb-5.10 >=app-admin/webapp-config-1.50.15
+SLOT=1.2.15-r1
+SRC_URI=mirror://sourceforge/mantisbt/mantisbt-1.2.15.tar.gz
+_eclasses_=depend.php	dcdf301e07578788ea73af6c2012b66b	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	phpconfutils	3b141a267018096231e10dfbd1657b81	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=e292663f67c3b482e62b59c542c7f4be

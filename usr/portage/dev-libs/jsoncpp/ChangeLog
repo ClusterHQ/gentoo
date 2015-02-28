@@ -1,0 +1,44 @@
+# ChangeLog for dev-libs/jsoncpp
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/jsoncpp/ChangeLog,v 1.10 2014/02/28 00:17:19 vapier Exp $
+
+*jsoncpp-0.6.0_rc2 (28 Feb 2014)
+
+  28 Feb 2014; Mike Frysinger <vapier@gentoo.org> +jsoncpp-0.6.0_rc2.ebuild:
+  Version bump #499612 by Zoltan Kovacs.
+
+  17 Nov 2013; Pawel Hajdan jr <phajdan.jr@gentoo.org> -jsoncpp-0.5.0.ebuild,
+  jsoncpp-0.5.0-r1.ebuild:
+  Only setup python for USE=doc, bug #487574 by mgorny. Also tested by John W.
+  Newman. Remove old.
+
+  04 Apr 2013; Agostino Sarubbo <ago@gentoo.org> jsoncpp-0.5.0-r1.ebuild:
+  Stable for x86, wrt bug #463426
+
+  04 Apr 2013; Agostino Sarubbo <ago@gentoo.org> jsoncpp-0.5.0-r1.ebuild:
+  Stable for amd64, wrt bug #463426
+
+*jsoncpp-0.5.0-r1 (28 Feb 2013)
+
+  28 Feb 2013; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  +jsoncpp-0.5.0-r1.ebuild:
+  Version bump to avoid file collisions, bug #452234.
+
+  25 Feb 2013; Pawel Hajdan jr <phajdan.jr@gentoo.org> jsoncpp-0.5.0.ebuild:
+  Keyword ~arm
+
+  28 Jan 2013; Justin Lecher <jlec@gentoo.org> jsoncpp-0.5.0.ebuild:
+  Add missing eclass
+
+  28 Jan 2013; Justin Lecher <jlec@gentoo.org> jsoncpp-0.5.0.ebuild,
+  metadata.xml:
+  Block colliding version, #452234
+
+  08 Jan 2013; Pawel Hajdan jr <phajdan.jr@gentoo.org> jsoncpp-0.5.0.ebuild:
+  Keyword ~amd64
+
+*jsoncpp-0.5.0 (29 Dec 2012)
+
+  29 Dec 2012; Pawel Hajdan jr <phajdan.jr@gentoo.org> +jsoncpp-0.5.0.ebuild,
+  +metadata.xml:
+  Initial import.

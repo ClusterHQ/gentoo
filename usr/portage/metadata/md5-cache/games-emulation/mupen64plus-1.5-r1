@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=virtual/opengl media-libs/freetype:2 media-libs/libpng media-libs/libsdl media-libs/sdl-ttf sys-libs/zlib x11-libs/gtk+:2 libsamplerate? ( media-libs/libsamplerate ) lirc? ( app-misc/lirc ) qt4? ( dev-qt/qtgui:4 dev-qt/qtcore:4 ) app-arch/xz-utils dev-lang/yasm virtual/pkgconfig
+DESCRIPTION=A fork of Mupen64 Nintendo 64 emulator
+EAPI=2
+HOMEPAGE=http://code.google.com/p/mupen64plus/
+IUSE=+gtk libsamplerate lirc qt4 sse
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl media-libs/freetype:2 media-libs/libpng media-libs/libsdl media-libs/sdl-ttf sys-libs/zlib x11-libs/gtk+:2 libsamplerate? ( media-libs/libsamplerate ) lirc? ( app-misc/lirc ) qt4? ( dev-qt/qtgui:4 dev-qt/qtcore:4 ) app-arch/xz-utils
+SLOT=0
+SRC_URI=http://mupen64plus.googlecode.com/files/Mupen64Plus-1-5-src.tar.gz mirror://gentoo/mupen64plus-1.5-patches-20091123.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=fced371f266d260feb2d2834921f281b

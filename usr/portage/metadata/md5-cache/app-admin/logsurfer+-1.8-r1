@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install postinst
+DESCRIPTION=Real Time Log Monitoring and Alerting
+EAPI=4
+HOMEPAGE=http://www.crypt.gen.nz/logsurfer/
+KEYWORDS=amd64 x86
+LICENSE=freedist GPL-2+
+RESTRICT=bindist
+SLOT=0
+SRC_URI=http://kerryt.orcon.net.nz/logsurfer-1.8.tar.gz http://www.crypt.gen.nz/logsurfer/logsurfer-1.8.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=495f9a7557e9041b8d13eb6495f70a16

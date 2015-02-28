@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=dev-libs/glib:2 x11-libs/gtk+:2 media-libs/hamlib
+DESCRIPTION=A tool for controlling amateur radios
+EAPI=4
+HOMEPAGE=http://groundstation.sourceforge.net/grig/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/glib:2 x11-libs/gtk+:2 media-libs/hamlib
+SLOT=0
+SRC_URI=mirror://sourceforge/groundstation/grig-0.8.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ead8940c33e559f45bf4d115804946f1

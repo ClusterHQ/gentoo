@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=x11-libs/gtk+:2 virtual/pkgconfig
+DESCRIPTION=Free software bass synthesizer step sequencer
+EAPI=2
+HOMEPAGE=http://freshmeat.net/releases/8834
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/gtk+:2
+SLOT=0
+SRC_URI=http://www.bitmechanic.com/projects/freebirth/freebirth-0.3.2.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=dc70d793056a899fdf39e4e7f9bdddea

@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst postrm preinst setup
+DEPEND=!app-arch/rpm dev-libs/beecrypt dev-libs/popt sys-apps/file acl? ( sys-apps/acl ) augeas? ( app-admin/augeas ) berkdb? ( sys-libs/db ) bzip2? ( app-arch/bzip2 ) crypt? ( dev-libs/libgcrypt:0 ) expat? ( dev-libs/expat ) keyutils? ( sys-apps/keyutils ) lua? ( dev-lang/lua ) lzma? ( app-arch/xz-utils ) pcre? ( dev-libs/libpcre ) perl? ( dev-lang/perl ) pkcs11? ( dev-libs/pakchois ) readline? ( sys-libs/readline:0 ) ruby? ( >=dev-lang/ruby-1.9 ) selinux? ( sys-libs/libselinux sys-libs/libsemanage sys-libs/libsepol ) sqlite? ( dev-db/sqlite:3 ) ssl? ( nss? ( dev-libs/nss ) openssl? ( dev-libs/openssl ) gnutls? ( dev-libs/libtasn1 net-libs/gnutls ) ) tcl? ( dev-lang/tcl ) uuid? ( dev-libs/ossp-uuid ) webdav-neon? ( net-libs/neon ) xar? ( app-arch/xar ) xattr? ( sys-apps/attr ) zlib? ( sys-libs/zlib ) virtual/pkgconfig virtual/yacc nls? ( sys-devel/gettext ) =dev-lang/python-2*
+DESCRIPTION=RPM Package Manager
+EAPI=4
+HOMEPAGE=http://rpm5.org/
+IUSE=acl augeas berkdb +bzip2 crypt debug expat gnutls keyutils lua lzma nls nss openssl pcre perl pkcs11 readline ruby selinux sqlite ssl tcl uuid webdav-neon xar xattr +zlib
+KEYWORDS=~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=GPL-2 LGPL-2
+RDEPEND=!app-arch/rpm dev-libs/beecrypt dev-libs/popt sys-apps/file acl? ( sys-apps/acl ) augeas? ( app-admin/augeas ) berkdb? ( sys-libs/db ) bzip2? ( app-arch/bzip2 ) crypt? ( dev-libs/libgcrypt:0 ) expat? ( dev-libs/expat ) keyutils? ( sys-apps/keyutils ) lua? ( dev-lang/lua ) lzma? ( app-arch/xz-utils ) pcre? ( dev-libs/libpcre ) perl? ( dev-lang/perl ) pkcs11? ( dev-libs/pakchois ) readline? ( sys-libs/readline:0 ) ruby? ( >=dev-lang/ruby-1.9 ) selinux? ( sys-libs/libselinux sys-libs/libsemanage sys-libs/libsepol ) sqlite? ( dev-db/sqlite:3 ) ssl? ( nss? ( dev-libs/nss ) openssl? ( dev-libs/openssl ) gnutls? ( dev-libs/libtasn1 net-libs/gnutls ) ) tcl? ( dev-lang/tcl ) uuid? ( dev-libs/ossp-uuid ) webdav-neon? ( net-libs/neon ) xar? ( app-arch/xar ) xattr? ( sys-apps/attr ) zlib? ( sys-libs/zlib ) =dev-lang/python-2*
+REQUIRED_USE=ssl? ( ^^ ( gnutls nss openssl ) )
+SLOT=0
+SRC_URI=http://rpm5.org/files/rpm/rpm-5.3/rpm-5.3.5.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=9e7e70bd0c7eed4f5bc81e5f22cf13af

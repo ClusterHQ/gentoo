@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc-config -c || exit 1
+gcc-config -c x86_64-pc-linux-gnu || exit 1

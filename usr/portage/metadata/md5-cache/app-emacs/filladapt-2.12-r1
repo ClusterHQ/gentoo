@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=virtual/emacs-23
+DESCRIPTION=Filladapt enhances the behavior of Emacs' fill functions
+EAPI=5
+HOMEPAGE=http://www.wonderworks.com/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2+
+RDEPEND=>=virtual/emacs-23
+SLOT=0
+SRC_URI=mirror://gentoo/filladapt-2.12.el.gz
+_eclasses_=elisp	b7ff113c97bf466ace6f3235f80af600	elisp-common	1aa23b3de5dae55456fa2071428eb5bf	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	readme.gentoo	106edea5533517715013de909a333abd	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=9576a5c1685938241f27aac5797dc254

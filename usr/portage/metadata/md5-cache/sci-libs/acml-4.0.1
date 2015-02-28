@@ -1,0 +1,13 @@
+DEFINED_PHASES=install nofetch postinst setup test unpack
+DEPEND=ifc? ( dev-lang/ifc ) app-admin/eselect-blas app-admin/eselect-lapack virtual/fortran
+DESCRIPTION=AMD Core Math Library (ACML) for x86_64 CPUs
+HOMEPAGE=http://developer.amd.com/acml.jsp
+IUSE=openmp ifc int64 doc examples
+KEYWORDS=~amd64
+LICENSE=ACML
+RDEPEND=ifc? ( dev-lang/ifc ) app-admin/eselect-blas app-admin/eselect-lapack doc? ( app-doc/blas-docs app-doc/lapack-docs ) virtual/fortran
+RESTRICT=strip fetch
+SLOT=0
+SRC_URI=ifc? ( acml-4-0-1-ifort-64bit.tgz ) !ifc? ( int64? ( acml-4-0-1-gfortran-64bit-int64.tgz ) !int64? ( acml-4-0-1-gfortran-64bit.tgz ) )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fortran-2	db8710b355fc5598015c4bc3aad3bdb0	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=32baea16cbbe086fb9eca5b9f15ffd69

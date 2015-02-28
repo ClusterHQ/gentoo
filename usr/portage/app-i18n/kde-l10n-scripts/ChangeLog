@@ -1,0 +1,30 @@
+# ChangeLog for app-i18n/kde-l10n-scripts
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-i18n/kde-l10n-scripts/ChangeLog,v 1.6 2014/08/10 17:48:24 slyfox Exp $
+
+  10 Aug 2014; Sergei Trofimovich <slyfox@gentoo.org>
+  kde-l10n-scripts-9999.ebuild:
+  QA: drop trailing '.' from DESCRIPTION
+
+  16 Dec 2013; Johannes Huber <johu@gentoo.org> kde-l10n-scripts-9999.ebuild:
+  Don't DEPEND on kde-base/kdesdk-misc as it is masked for removal. Use kde-
+  base/poxml instead.
+
+  08 Aug 2012; Tomáš Chvátal <scarabeus@gentoo.org>
+  kde-l10n-scripts-9999.ebuild:
+  More deps.
+
+  08 Aug 2012; Tomáš Chvátal <scarabeus@gentoo.org>
+  kde-l10n-scripts-9999.ebuild:
+  More deps.
+
+  06 Aug 2012; Tomáš Chvátal <scarabeus@gentoo.org>
+  kde-l10n-scripts-9999.ebuild:
+  Use proper path and not /usr/local/
+
+*kde-l10n-scripts-9999 (03 Aug 2012)
+
+  03 Aug 2012; Tomáš Chvátal <scarabeus@gentoo.org>
+  +kde-l10n-scripts-9999.ebuild, +metadata.xml:
+  Initial commit of the l10n toolkit we are using to manage czech translations.
+  WIP.

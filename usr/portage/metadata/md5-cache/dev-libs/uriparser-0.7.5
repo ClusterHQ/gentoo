@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=virtual/pkgconfig doc? ( >=app-doc/doxygen-1.5.8 qt4? ( dev-qt/qthelp:4 ) ) test? ( dev-util/cpptest ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Uriparser is a strictly RFC 3986 compliant URI parsing library in C
+EAPI=2
+HOMEPAGE=http://uriparser.sourceforge.net/
+IUSE=doc qt4 test
+KEYWORDS=amd64 ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
+LICENSE=BSD
+SLOT=0
+SRC_URI=mirror://sourceforge/uriparser/uriparser-0.7.5.tar.bz2
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=35cfad80b9174458cd6c985addd24679

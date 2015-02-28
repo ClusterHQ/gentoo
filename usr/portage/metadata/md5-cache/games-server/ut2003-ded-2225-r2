@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Unreal Tournament 2003 Linux Dedicated Server
+HOMEPAGE=http://www.ut2003.com/
+KEYWORDS=amd64 x86
+LICENSE=ut2003
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=http://games.gci.net/pub/UT2003/ut2003-lnxded-2225.tar.bz2 mirror://3dgamers/unrealtourn2/ut2003-lnxded-2225.tar.bz2 http://downloads.unrealadmin.org/UT2003/Server/Linux/ut2003-lnxded-2225.tar.bz2 mirror://gentoo/UT2003CrashFix.zip http://download.factoryunreal.com/mirror/UT2003CrashFix.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=781afe6cc86c80f7100f8673d8967db0

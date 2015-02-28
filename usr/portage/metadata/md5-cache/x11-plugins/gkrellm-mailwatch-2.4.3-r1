@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND==app-admin/gkrellm-2* virtual/pkgconfig
+DESCRIPTION=A GKrellM2 plugin that shows the status of additional mail boxes
+EAPI=3
+HOMEPAGE=http://gkrellm.luon.net/mailwatch.php
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND==app-admin/gkrellm-2*
+SLOT=2
+SRC_URI=http://gkrellm.luon.net/files/gkrellm-mailwatch-2.4.3.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	gkrellm-plugin	4599c73f33aed9a9988a7031f60d2ed8	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=3a3036f3fc2687eb57596e22fb0bf401

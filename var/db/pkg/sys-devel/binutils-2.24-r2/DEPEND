@@ -1,0 +1,1 @@
+sys-devel/gnuconfig >=sys-devel/binutils-config-1.9 sys-libs/zlib sys-devel/gettext sys-devel/flex virtual/yacc

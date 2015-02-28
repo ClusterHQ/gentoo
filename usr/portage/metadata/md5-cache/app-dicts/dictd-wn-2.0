@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=>=app-text/dictd-1.5.5
+DESCRIPTION=WordNet for dict
+HOMEPAGE=http://www.dict.org/
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-text/dictd-1.5.5
+SLOT=0
+SRC_URI=ftp://ftp.dict.org/pub/dict/dict-wn-2.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=62f8dd77dc967dde22d746a223fbde9a

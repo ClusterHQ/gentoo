@@ -1,0 +1,136 @@
+# ChangeLog for sys-kernel/raspberrypi-image
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/raspberrypi-image/ChangeLog,v 1.18 2013/12/14 11:14:05 xmw Exp $
+
+*raspberrypi-image-3.10.9999 (14 Dec 2013)
+*raspberrypi-image-3.10.24_pre-r20131212 (14 Dec 2013)
+
+  14 Dec 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.10.24_pre-r20131212.ebuild,
+  +raspberrypi-image-3.10.9999.ebuild,
+  -raspberrypi-image-3.10.10_pre-r20130830.ebuild,
+  -raspberrypi-image-3.10.4_pre-r20130802.ebuild,
+  -raspberrypi-image-3.10.6_pre-r20130805.ebuild,
+  -raspberrypi-image-3.10.7_pre-r20130815.ebuild,
+  -raspberrypi-image-3.10.9_pre-r20130820.ebuild,
+  -raspberrypi-image-3.11.0_pre-r20130904.ebuild,
+  -raspberrypi-image-3.11.1_pre-r20130915.ebuild,
+  -raspberrypi-image-3.6.11_p20130711.ebuild,
+  -raspberrypi-image-3.6.11_p20130722.ebuild,
+  -raspberrypi-image-3.6.9999.ebuild,
+  -raspberrypi-image-3.9.10_pre20130715.ebuild,
+  -raspberrypi-image-3.9.10_pre20130719.ebuild,
+  -raspberrypi-image-3.9.9999.ebuild:
+  Version bump as requested by Alexander Tsoy (bug 492832), drop old versions.
+
+*raspberrypi-image-3.11.2_pre-r20130926 (03 Oct 2013)
+
+  03 Oct 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.11.2_pre-r20130926.ebuild:
+  Version bump
+
+*raspberrypi-image-3.11.1_pre-r20130915 (28 Sep 2013)
+
+  28 Sep 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.11.1_pre-r20130915.ebuild:
+  Version bump
+
+*raspberrypi-image-3.11.0_pre-r20130904 (10 Sep 2013)
+
+  10 Sep 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.11.0_pre-r20130904.ebuild:
+  Version bump.
+
+*raspberrypi-image-3.10.11_pre-r20130907 (09 Sep 2013)
+
+  09 Sep 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.10.11_pre-r20130907.ebuild:
+  Version bump
+
+*raspberrypi-image-3.10.10_pre-r20130830 (05 Sep 2013)
+
+  05 Sep 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.10.10_pre-r20130830.ebuild:
+  Version bump.
+
+*raspberrypi-image-3.10.9_pre-r20130820 (23 Aug 2013)
+
+  23 Aug 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.10.9_pre-r20130820.ebuild:
+  Version bump
+
+*raspberrypi-image-3.10.7_pre-r20130815 (19 Aug 2013)
+
+  19 Aug 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.10.7_pre-r20130815.ebuild,
+  raspberrypi-image-3.10.4_pre-r20130802.ebuild,
+  raspberrypi-image-3.10.6_pre-r20130805.ebuild:
+  Version bump, fixing slots
+
+*raspberrypi-image-3.10.6_pre-r20130805 (14 Aug 2013)
+
+  14 Aug 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.10.6_pre-r20130805.ebuild,
+  -raspberrypi-image-3.10.1_pre-r20130719.ebuild:
+  Version bump
+
+*raspberrypi-image-3.10.4_pre-r20130802 (09 Aug 2013)
+
+  09 Aug 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.10.4_pre-r20130802.ebuild:
+  Version bump to cross-compiled snapshot
+
+*raspberrypi-image-3.9.11_pre20130801 (01 Aug 2013)
+
+  01 Aug 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.9.11_pre20130801.ebuild:
+  Version bump
+
+*raspberrypi-image-3.6.11_p20130730 (01 Aug 2013)
+
+  01 Aug 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.6.11_p20130730.ebuild:
+  Version bump
+
+*raspberrypi-image-3.10.1_pre-r20130719 (23 Jul 2013)
+
+  23 Jul 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.10.1_pre-r20130719.ebuild:
+  Add self compiled 3.10.1 version.
+
+*raspberrypi-image-3.9.10_pre20130719 (23 Jul 2013)
+*raspberrypi-image-3.6.11_p20130722 (23 Jul 2013)
+
+  23 Jul 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.6.11_p20130722.ebuild,
+  +raspberrypi-image-3.9.10_pre20130719.ebuild:
+  Version bump
+
+*raspberrypi-image-3.9.9999 (23 Jul 2013)
+*raspberrypi-image-3.6.9999 (23 Jul 2013)
+
+  23 Jul 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.6.9999.ebuild, +raspberrypi-image-3.9.9999.ebuild,
+  -raspberrypi-image-9999.3.6.ebuild, -raspberrypi-image-9999.3.9.ebuild:
+  Sanitize versioning scheme.
+
+*raspberrypi-image-9999.3.6 (17 Jul 2013)
+*raspberrypi-image-9999.3.9 (17 Jul 2013)
+*raspberrypi-image-3.9.10_pre20130715 (17 Jul 2013)
+
+  17 Jul 2013; Michael Weber <xmw@gentoo.org>
+  +raspberrypi-image-3.9.10_pre20130715.ebuild,
+  +raspberrypi-image-9999.3.6.ebuild, +raspberrypi-image-9999.3.9.ebuild,
+  -raspberrypi-image-9999.ebuild:
+  Version bump to next branch
+
+  15 Jul 2013; Michael Weber <xmw@gentoo.org>
+  raspberrypi-image-3.6.11_p20130711.ebuild:
+  Fix ${S} (thanks Pim Vullers, bug 476920)
+
+*raspberrypi-image-9999 (15 Jul 2013)
+*raspberrypi-image-3.6.11_p20130711 (15 Jul 2013)
+
+  15 Jul 2013; Michael Weber <xmw@gentoo.org> +metadata.xml,
+  +raspberrypi-image-3.6.11_p20130711.ebuild, +raspberrypi-image-9999.ebuild:
+  Initial import, replaces ::xmw, bug 421681.

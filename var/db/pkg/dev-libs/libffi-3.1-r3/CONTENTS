@@ -1,0 +1,28 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/pkgconfig
+obj /home/core/gentoo/usr/lib/pkgconfig/libffi.pc f6a6b5d479f1addccf70d873e67a5383 1410958945
+dir /home/core/gentoo/usr/lib/libffi-3.1
+dir /home/core/gentoo/usr/lib/libffi-3.1/include
+obj /home/core/gentoo/usr/lib/libffi-3.1/include/ffi.h c9fa3e899c496eac9285b90dbf1b9739 1410958945
+obj /home/core/gentoo/usr/lib/libffi-3.1/include/ffitarget.h 1ee238379253e581f913d81fb75a8c23 1410958945
+sym /home/core/gentoo/usr/lib/libffi.so.6 -> libffi.so.6.0.2 1410959038
+obj /home/core/gentoo/usr/lib/libffi.so.6.0.2 ea850aadfb1f1d99cbd5fe5363926d61 1410958946
+sym /home/core/gentoo/usr/lib/libffi.so -> libffi.so.6.0.2 1410959038
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man3
+obj /home/core/gentoo/usr/share/man/man3/ffi_prep_cif_var.3.bz2 a21bda3223914ad23ecd131ffbc66366 1410958945
+obj /home/core/gentoo/usr/share/man/man3/ffi_prep_cif.3.bz2 efd35af8d2a1a8d3ee90a10a9f0503c4 1410958945
+obj /home/core/gentoo/usr/share/man/man3/ffi.3.bz2 11dcbb53056191fca666b4f76484caa3 1410958945
+obj /home/core/gentoo/usr/share/man/man3/ffi_call.3.bz2 c75b51b6eec671f48fa801931348ce63 1410958945
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/libffi-3.1-r3
+obj /home/core/gentoo/usr/share/doc/libffi-3.1-r3/README.bz2 4619da89dcccb5a091e93d396ca4d0d8 1410958945
+obj /home/core/gentoo/usr/share/doc/libffi-3.1-r3/ChangeLog.libgcj.bz2 b1dce373406c33e3c71ad8ff92fc7b4e 1410958945
+obj /home/core/gentoo/usr/share/doc/libffi-3.1-r3/ChangeLog.v1.bz2 02d392f3aa70f3e93ed87a0e3b09a009 1410958945
+obj /home/core/gentoo/usr/share/doc/libffi-3.1-r3/ChangeLog.libffi-3.1.bz2 24abc3a87dd885393a2ef8e59f491b21 1410958945
+obj /home/core/gentoo/usr/share/doc/libffi-3.1-r3/ChangeLog.bz2 ab2b1ecece5ab500d58c8680e0fdffa6 1410958945
+obj /home/core/gentoo/usr/share/doc/libffi-3.1-r3/ChangeLog.libffi.bz2 5a9a0baf7513f52b2aaeb33dddb36b9f 1410958945
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/libffi.info.bz2 1fa76859a173087f34cac12fdc568a59 1410958945

@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXext x11-proto/xproto x11-proto/xextproto x11-misc/imake app-text/rman
+DESCRIPTION=WMnet is a dock.app network monitor
+HOMEPAGE=http://www.digitalkaos.net/linux/wmnet/
+KEYWORDS=x86 sparc alpha amd64 ppc
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXext
+SLOT=0
+SRC_URI=http://www.digitalkaos.net/linux/wmnet/download/wmnet-1.06.tar.gz mirror://gentoo/wmnet-1.06-misc.patch.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=8d2b6cdf7cde2f4ab993c30f782eb4cb

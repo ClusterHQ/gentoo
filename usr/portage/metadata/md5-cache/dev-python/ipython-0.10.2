@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare test
+DEPEND=test? ( dev-python/nose ) =dev-lang/python-2*
+DESCRIPTION=An interactive computing environment for Python
+EAPI=3
+HOMEPAGE=http://ipython.scipy.org/ http://pypi.python.org/pypi/ipython
+IUSE=doc emacs examples gnuplot readline smp test wxwidgets
+KEYWORDS=amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+LICENSE=BSD
+RDEPEND=dev-python/pexpect emacs? ( app-emacs/python-mode virtual/emacs ) gnuplot? ( dev-python/gnuplot-py ) readline? ( sys-libs/readline ) smp? ( dev-python/foolscap dev-python/pyopenssl net-zope/zope-interface ) wxwidgets? ( dev-python/wxpython ) =dev-lang/python-2*
+SLOT=0
+SRC_URI=http://ipython.scipy.org/dist/0.10.2/ipython-0.10.2.tar.gz
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	elisp-common	1aa23b3de5dae55456fa2071428eb5bf	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=fa5f7385da903b52cfc135ecaefc56ad

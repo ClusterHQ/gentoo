@@ -1,0 +1,33 @@
+# ChangeLog for dev-python/flask-testing
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/flask-testing/ChangeLog,v 1.7 2014/07/31 06:12:10 idella4 Exp $
+
+*flask-testing-0.4.2 (31 Jul 2014)
+
+  31 Jul 2014; Ian Delaney <idella4@gentoo.org> +flask-testing-0.4.2.ebuild,
+  flask-testing-0.4.ebuild:
+  bump
+
+  06 May 2014; Ian Delaney <idella4@gentoo.org> flask-testing-0.4.1.ebuild:
+  drop py2.6 add pypy support
+
+*flask-testing-0.4.1 (31 Mar 2014)
+
+  31 Mar 2014; Patrick Lauer <patrick@gentoo.org> +flask-testing-0.4.1.ebuild:
+  Bump
+
+  12 Sep 2013; Michał Górny <mgorny@gentoo.org> flask-testing-0.4.ebuild:
+  Remove dep on virtual/python-json. JSON is now built-in in all supported
+  implementations.
+
+  17 Jun 2013; Patrick Lauer <patrick@gentoo.org> flask-testing-0.4.ebuild:
+  Fix python targets as flask was downrated
+
+  28 Mar 2013; Mike Gilbert <floppym@gentoo.org> flask-testing-0.4.ebuild:
+  Depend on setuptools.
+
+*flask-testing-0.4 (28 Mar 2013)
+
+  28 Mar 2013; Mike Gilbert <floppym@gentoo.org> +flask-testing-0.4.ebuild,
+  +metadata.xml:
+  New ebuild.

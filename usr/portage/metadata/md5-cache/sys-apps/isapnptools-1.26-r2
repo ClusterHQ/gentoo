@@ -1,0 +1,9 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Tools for configuring ISA PnP devices
+HOMEPAGE=http://www.roestock.demon.co.uk/isapnptools/
+KEYWORDS=-* amd64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=ftp://metalab.unc.edu/pub/Linux/system/hardware/isapnptools-1.26.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=95b20baf5e0d8970e2ee80ad9365146b

@@ -1,0 +1,10 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/patchelf.1.bz2 a125545cecefd77a6476b149175b87ef 1410963535
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/patchelf-0.8
+obj /home/core/gentoo/usr/share/doc/patchelf-0.8/README.bz2 b81427a7669bdcb1acb1c9c2a2e6f579 1410963535
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/patchelf 646ce9b21d3140c2422a7aaeeeea738a 1410963535

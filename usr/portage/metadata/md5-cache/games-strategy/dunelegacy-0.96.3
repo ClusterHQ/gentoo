@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=media-libs/libsdl[X,alsa?,sound,pulseaudio?,video] media-libs/sdl-mixer[midi,mp3,vorbis] virtual/pkgconfig >=sys-apps/sed-4
+DESCRIPTION=Updated clone of Westood Studios' Dune2
+EAPI=5
+HOMEPAGE=http://dunelegacy.sourceforge.net
+IUSE=+alsa pulseaudio
+KEYWORDS=amd64 ~arm x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl[X,alsa?,sound,pulseaudio?,video] media-libs/sdl-mixer[midi,mp3,vorbis]
+REQUIRED_USE=|| ( alsa pulseaudio )
+SLOT=0
+SRC_URI=mirror://sourceforge/dunelegacy/dunelegacy-0.96.3-src.tar.bz2 http://dev.gentoo.org/~hasufell/distfiles/dunelegacy-0.96.3-no-autoreconf.patch.xz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=9e07367802e86a5d8f31a533edb530b9

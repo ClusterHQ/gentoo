@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=virtual/jpeg v4l? ( input_uvc? ( media-libs/libv4l ) ) input_testpicture? ( media-gfx/imagemagick )
+DESCRIPTION=MJPG-streamer takes JPGs from Linux-UVC compatible webcams
+EAPI=4
+HOMEPAGE=http://sourceforge.net/projects/mjpg-streamer
+IUSE=input_testpicture input_control +input_file input_uvc output_file output_udp +output_http output_autofocus output_rtsp www v4l
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=virtual/jpeg v4l? ( input_uvc? ( media-libs/libv4l ) )
+REQUIRED_USE=|| ( input_testpicture input_control input_file input_uvc ) || ( output_file output_udp output_http output_autofocus output_rtsp ) v4l? ( input_uvc )
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~aidecoe/distfiles/media-video/mjpg-streamer/mjpg-streamer-0_pre20120621.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=05bcde9841db487cea97a7dbbba7df97

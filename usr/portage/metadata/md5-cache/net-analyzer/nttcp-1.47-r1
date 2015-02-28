@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=tool to test TCP and UDP throughput
+EAPI=5
+HOMEPAGE=http://www.leo.org/~elmar/nttcp/
+KEYWORDS=amd64 ~mips ~ppc x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://www.leo.org/~elmar/nttcp/nttcp-1.47.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=57e1363387222a54534ee44ddac57288

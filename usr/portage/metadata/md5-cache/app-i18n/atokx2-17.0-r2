@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=>=x11-libs/gtk+-2.2:2 !dev-libs/libiiimcf !dev-libs/csconv !app-i18n/iiimgcf !dev-libs/libiiimp !app-i18n/iiimsf !app-i18n/iiimxcf >=sys-apps/sed-4
+DESCRIPTION=ATOK for Linux - The most famous Japanese Input Method Engine
+EAPI=1
+HOMEPAGE=http://www.justsystem.co.jp/linux/atok.html
+KEYWORDS=-* ~x86
+LICENSE=ATOK MIT GPL-2
+PROPERTIES=interactive
+RDEPEND=>=x11-libs/gtk+-2.2:2 !dev-libs/libiiimcf !dev-libs/csconv !app-i18n/iiimgcf !dev-libs/libiiimp !app-i18n/iiimsf !app-i18n/iiimxcf
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=http://www3.justsystem.co.jp/download/atok/up/lin/atokforlinux_update_17_0_2_1.tar.gz
+_eclasses_=cdrom	49b4b952fb5c83fac6c616b532723e60	eutils	06133990e861be0fe60c2b428fd025d9	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4c10a87bac845bf8ff9f047262142cd8

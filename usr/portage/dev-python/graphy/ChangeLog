@@ -1,0 +1,26 @@
+# ChangeLog for dev-python/graphy
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/graphy/ChangeLog,v 1.6 2014/03/31 21:02:43 mgorny Exp $
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> graphy-1.0-r1.ebuild:
+  Add support for the new PyPy slotting.
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> graphy-1.0-r1.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*graphy-1.0-r1 (31 Jul 2013)
+
+  31 Jul 2013; Michał Górny <mgorny@gentoo.org> +graphy-1.0-r1.ebuild:
+  Migrate to distutils-r1, bug #479292.
+
+  16 Jun 2012; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Drop maintainer as he is not able to maintain this anymore.
+
+  25 Mar 2012; Dirkjan Ochtman <djc@gentoo.org> metadata.xml:
+  Add python as a herd.
+
+*graphy-1.0 (24 Dec 2009)
+
+  24 Dec 2009; Mounir Lamouri <volkmar@gentoo.org> +graphy-1.0.ebuild,
+  +metadata.xml:
+  Initial commit

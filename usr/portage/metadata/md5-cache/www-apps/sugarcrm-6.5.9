@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=>=dev-lang/php-5.2.10[ssl,soap,unicode,xml,session,tokenizer,ldap?,mssql?,mysql?,mysqli?,zlib?,curl?,imap?,json?] dev-php/PEAR-DB dev-php/PEAR-Cache_Lite dev-php/PEAR-Mail_Mime virtual/httpd-cgi freetds? ( >=dev-db/freetds-0.64 mssql? ( >=dev-db/freetds-0.64[mssql] ) ) app-arch/unzip >=app-admin/webapp-config-1.50.15
+DESCRIPTION=A complete CRM and groupware system for businesses of all sizes
+EAPI=2
+HOMEPAGE=http://www.sugarforge.org/
+IUSE=curl imap +json +zlib +mysql +mysqli freetds ldap mssql vhosts
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/php-5.2.10[ssl,soap,unicode,xml,session,tokenizer,ldap?,mssql?,mysql?,mysqli?,zlib?,curl?,imap?,json?] dev-php/PEAR-DB dev-php/PEAR-Cache_Lite dev-php/PEAR-Mail_Mime virtual/httpd-cgi freetds? ( >=dev-db/freetds-0.64 mssql? ( >=dev-db/freetds-0.64[mssql] ) ) app-arch/unzip >=app-admin/webapp-config-1.50.15
+SLOT=6.5.9
+SRC_URI=mirror://sourceforge/project/sugarcrm/1%20-%20SugarCRM%206.5.X/SugarCommunityEdition-6.5.X/SugarCE-6.5.9.zip
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=2d02d9a99ba88927da58d2a6da55ccc2

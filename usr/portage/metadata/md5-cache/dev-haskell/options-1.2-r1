@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare prerm setup test
+DEPEND=>=dev-haskell/monads-tf-0.1:=[profile?] >=dev-haskell/transformers-0.2:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.8 test? ( >=dev-haskell/chell-0.3.1 <dev-haskell/chell-0.5 >=dev-haskell/chell-quickcheck-0.2 <dev-haskell/chell-quickcheck-0.3 >=dev-haskell/monads-tf-0.1 >=dev-haskell/transformers-0.2 ) doc? ( dev-haskell/haddock ) hscolour? ( dev-haskell/hscolour ) >=dev-haskell/cabal-1.1.4
+DESCRIPTION=A powerful and easy-to-use command-line option parser
+EAPI=5
+HOMEPAGE=https://john-millikin.com/software/haskell-options/
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-haskell/monads-tf-0.1:=[profile?] >=dev-haskell/transformers-0.2:=[profile?] >=dev-lang/ghc-7.4.1:=
+SLOT=0/1.2
+SRC_URI=mirror://hackage/packages/archive/options/1.2/options-1.2.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	ghc-package	9dd58db252d8252779bb74ed015196e3	haskell-cabal	b6154aeaa4dfbbc6d8a66d7f739c22d1	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=50d4ec9bc0cef2bfcec0fa69747ad224

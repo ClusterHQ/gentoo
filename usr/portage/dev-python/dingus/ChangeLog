@@ -1,0 +1,28 @@
+# ChangeLog for dev-python/dingus
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/dingus/ChangeLog,v 1.6 2014/03/31 21:09:45 mgorny Exp $
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> dingus-0.3.4-r1.ebuild:
+  Add support for the new PyPy slotting.
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> dingus-0.3.4-r1.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*dingus-0.3.4-r1 (19 May 2013)
+
+  19 May 2013; Ian Delaney <idella4@gentoo.org> +dingus-0.3.4-r1.ebuild,
+  -dingus-0.3.4.ebuild:
+  drop old form, revbump, migration -> distutils-r1
+
+  14 Nov 2012; Ian Delaney <idella4@gentoo.org> metadata.xml:
+  Updating maintainer, metadata.xml
+
+  28 Apr 2012; Kacper Kowalik <xarthisius@gentoo.org> dingus-0.3.4.ebuild:
+  Reorder variables, don't install doc files straight to /usr wrt #413769 by
+  James Rowe <jnrowe@gmail.com>
+
+*dingus-0.3.4 (18 Apr 2012)
+
+  18 Apr 2012; Theo Chatzimichos <tampakrap@gentoo.org> +dingus-0.3.4.ebuild,
+  +metadata.xml:
+  Initial commit, ebuild by idella4

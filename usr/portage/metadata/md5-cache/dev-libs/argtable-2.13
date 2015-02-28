@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure install
+DESCRIPTION=An ANSI C library for parsing GNU-style command-line options with minimal fuss
+EAPI=3
+HOMEPAGE=http://argtable.sourceforge.net/
+IUSE=doc debug examples static-libs
+KEYWORDS=amd64 x86
+LICENSE=LGPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/argtable/argtable2-13.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=4f9db02efc000a4dfceef3b6646197f9

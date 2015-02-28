@@ -1,0 +1,18 @@
+ * Package:    app-misc/mime-types-9
+ * Repository: gentoo_prefix
+ * Maintainer: djc@gentoo.org net-mail@gentoo.org
+ * USE:        abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox
+>>> Unpacking source...
+>>> Unpacking mime-types-9.tar.bz2 to /home/core/gentoo/var/tmp/portage/app-misc/mime-types-9/work
+>>> Source unpacked in /home/core/gentoo/var/tmp/portage/app-misc/mime-types-9/work
+>>> Compiling source in /home/core/gentoo/var/tmp/portage/app-misc/mime-types-9/work/mime-types-9 ...
+>>> Source compiled.
+>>> Test phase [not enabled]: app-misc/mime-types-9
+
+>>> Install mime-types-9 into /home/core/gentoo/var/tmp/portage/app-misc/mime-types-9/image/ category app-misc
+>>> Completed installing mime-types-9 into /home/core/gentoo/var/tmp/portage/app-misc/mime-types-9/image/
+
+
+/home/core/gentoo/usr/portage/app-misc/mime-types/mime-types-9.ebuild: src_install aborted; exiting.
+

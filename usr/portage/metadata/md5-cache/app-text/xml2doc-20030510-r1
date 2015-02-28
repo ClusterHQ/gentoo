@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=>=dev-libs/libxml2-2.5
+DESCRIPTION=Tool to convert simple XML to a variety of formats (pdf, html, txt, manpage)
+EAPI=4
+HOMEPAGE=http://xml2doc.sourceforge.net
+KEYWORDS=alpha amd64 ~hppa ia64 ~mips ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libxml2-2.5
+SLOT=0
+SRC_URI=mirror://sourceforge/xml2doc/xml2doc-20030510.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=aee97e8455f08d981b562d57b6511fc9

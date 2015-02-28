@@ -1,0 +1,63 @@
+# "/home/core/gentoo"/etc/profile: login shell setup
+#
+# That this file is used by any Bourne-shell derivative to setup the
+# environment for login shells.
+#
+
+# Load environment settings from profile.env, which is created by
+# env-update from the files in "/home/core/gentoo"/etc/env.d
+if [ -e "/home/core/gentoo"/etc/profile.env ] ; then
+	. "/home/core/gentoo"/etc/profile.env
+fi
+
+# You should override these in your ~/.bashrc (or equivalent) for per-user
+# settings.  For system defaults, you can add a new file in "/home/core/gentoo"/etc/profile.d/.
+export EDITOR=${EDITOR:-"/home/core/gentoo"/bin/nano}
+export PAGER=${PAGER:-"/home/core/gentoo"/usr/bin/less}
+
+# 077 would be more secure, but 022 is generally quite realistic
+umask 022
+
+# Set up PATH depending on whether we're root or a normal user.
+# There's no real reason to exclude sbin paths from the normal user,
+# but it can make tab-completion easier when they aren't in the
+# user's PATH to pollute the executable namespace.
+#
+# It is intentional in the following line to use || instead of -o.
+# This way the evaluation can be short-circuited and calling whoami is
+# avoided.
+if [ "$EUID" = "0" ] || [ "$USER" = "root" ] ; then
+	PATH="/home/core/gentoo/usr/local/sbin:/home/core/gentoo/usr/local/bin:/home/core/gentoo/usr/sbin:/home/core/gentoo/usr/bin:/home/core/gentoo/sbin:/home/core/gentoo/bin:${ROOTPATH}:/usr/sbin:/sbin:/usr/bin:/bin"
+else
+	PATH="/home/core/gentoo/usr/local/bin:/home/core/gentoo/usr/bin:/home/core/gentoo/bin:${PATH}:/usr/bin:/bin"
+fi
+export PATH
+unset ROOTPATH
+
+if [ -n "${BASH_VERSION}" ] ; then
+	# Newer bash ebuilds include "/home/core/gentoo"/etc/bash/bashrc which will setup PS1
+	# including color.  We leave out color here because not all
+	# terminals support it.
+	if [ -f "/home/core/gentoo"/etc/bash/bashrc ] ; then
+		# Bash login shells run only "/home/core/gentoo"/etc/profile
+		# Bash non-login shells run only "/home/core/gentoo"/etc/bash/bashrc
+		# Since we want to run "/home/core/gentoo"/etc/bash/bashrc regardless, we source it 
+		# from here.  It is unfortunate that there is no way to do 
+		# this *after* the user's .bash_profile runs (without putting 
+		# it in the user's dot-files), but it shouldn't make any 
+		# difference.
+		. "/home/core/gentoo"/etc/bash/bashrc
+	else
+		PS1='\u@\h \w \$ '
+	fi
+else
+	# Setup a bland default prompt.  Since this prompt should be useable
+	# on color and non-color terminals, as well as shells that don't
+	# understand sequences such as \h, don't put anything special in it.
+	PS1="${USER:-$(whoami 2>/dev/null)}@$(uname -n 2>/dev/null) \$ "
+fi
+
+for sh in "/home/core/gentoo"/etc/profile.d/*.sh ; do
+	[ -r "$sh" ] && . "$sh"
+done
+unset sh

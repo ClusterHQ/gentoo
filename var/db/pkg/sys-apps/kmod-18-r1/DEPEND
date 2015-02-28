@@ -1,0 +1,1 @@
+!sys-apps/module-init-tools !sys-apps/modutils !<sys-apps/openrc-0.12 >=sys-libs/zlib-1.2.6 virtual/pkgconfig

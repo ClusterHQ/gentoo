@@ -1,0 +1,103 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/make -> gmake 1410959603
+obj /home/core/gentoo/usr/bin/gmake 8f336c8623aa00a8290e8624a57449c8 1410959491
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/make.mo 70c72324903d378aee42bf213ce6c42e 1410959490
+dir /home/core/gentoo/usr/share/locale/es
+dir /home/core/gentoo/usr/share/locale/es/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/es/LC_MESSAGES/make.mo de2b9ca2b1fd289551e9178fa1990549 1410959490
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/make.mo 9a0b778262bb8eac10e4c2cffefd0334 1410959490
+dir /home/core/gentoo/usr/share/locale/gl
+dir /home/core/gentoo/usr/share/locale/gl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/gl/LC_MESSAGES/make.mo d95fa6257a89d3a05b9f54c5898c5079 1410959490
+dir /home/core/gentoo/usr/share/locale/ga
+dir /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES/make.mo 34c1541eaab80915b9a39c5ba9950375 1410959490
+dir /home/core/gentoo/usr/share/locale/hr
+dir /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES/make.mo 9bcfbf6b49bdc8af72e9858b4aa1ae0a 1410959490
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/make.mo 07ccc14135c3343aa51e2ce2a15642fe 1410959490
+dir /home/core/gentoo/usr/share/locale/nl
+dir /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES/make.mo a34ed25a760dc8ddc0a171daf48d5c91 1410959490
+dir /home/core/gentoo/usr/share/locale/cs
+dir /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES/make.mo 4ded1d95ea2674a1eddc609564ceb0d3 1410959490
+dir /home/core/gentoo/usr/share/locale/lt
+dir /home/core/gentoo/usr/share/locale/lt/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/lt/LC_MESSAGES/make.mo 1b143dfc7634974ef27b15b713c2f049 1410959490
+dir /home/core/gentoo/usr/share/locale/he
+dir /home/core/gentoo/usr/share/locale/he/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/he/LC_MESSAGES/make.mo 3d4d3b5e52f14a361117de9ebe3d4b5e 1410959490
+dir /home/core/gentoo/usr/share/locale/ko
+dir /home/core/gentoo/usr/share/locale/ko/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ko/LC_MESSAGES/make.mo e8fda3ff8fec3a2050fca93edcc4e1f6 1410959490
+dir /home/core/gentoo/usr/share/locale/sv
+dir /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES/make.mo f954db943d989addc54d18b3961b0717 1410959490
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/make.mo 5606d04240efa8f7934fb22ac6ef1262 1410959490
+dir /home/core/gentoo/usr/share/locale/zh_CN
+dir /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES/make.mo 619ceaee66298caa6330ec7d672c1c00 1410959490
+dir /home/core/gentoo/usr/share/locale/id
+dir /home/core/gentoo/usr/share/locale/id/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/id/LC_MESSAGES/make.mo 82ff1e1e8df3f22d77bd1586e1e2fbf4 1410959490
+dir /home/core/gentoo/usr/share/locale/ru
+dir /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES/make.mo d20062984634541c6a75d244153ea216 1410959490
+dir /home/core/gentoo/usr/share/locale/uk
+dir /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES/make.mo 960ca963209024796f1fbc72dcf5a28d 1410959490
+dir /home/core/gentoo/usr/share/locale/ja
+dir /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES/make.mo 6eb26ce32ed8b48def98de8eb0f49a24 1410959490
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/make.mo 24c46fbb6e69b050db083bfdbfc7a2cd 1410959490
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/make.mo eecf39563278062db91809f08d9391b7 1410959490
+dir /home/core/gentoo/usr/share/locale/be
+dir /home/core/gentoo/usr/share/locale/be/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/be/LC_MESSAGES/make.mo 8fb87cb25c2a0c6f859a7bf2fab382a8 1410959490
+dir /home/core/gentoo/usr/share/locale/tr
+dir /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES/make.mo a143852ff2ae2a9a5c99ea30bd499a5f 1410959490
+dir /home/core/gentoo/usr/share/locale/da
+dir /home/core/gentoo/usr/share/locale/da/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/da/LC_MESSAGES/make.mo ccabde6a727be3ebe83f22d824ff2466 1410959490
+dir /home/core/gentoo/usr/share/locale/it
+dir /home/core/gentoo/usr/share/locale/it/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/it/LC_MESSAGES/make.mo f49ef39c212d34b593fd524e42c89742 1410959490
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/make.info-2.bz2 7ba09116b21cb91f843281eeadd90070 1410959490
+obj /home/core/gentoo/usr/share/info/make.info.bz2 835de49ab7232bfc6ac339061a2fd1b2 1410959490
+obj /home/core/gentoo/usr/share/info/make.info-1.bz2 747c203a2f5ed3a1f03633ac1c04cd85 1410959490
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/gmake.1.bz2 56b7a66fe74ff947138c7a170573f3a6 1410959490
+sym /home/core/gentoo/usr/share/man/man1/make.1.bz2 -> gmake.1.bz2 1410959603
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/make-4.0-r1
+obj /home/core/gentoo/usr/share/doc/make-4.0-r1/README.Amiga.bz2 5548924b8d3fe3f551e0e6520e7a1a67 1410959490
+obj /home/core/gentoo/usr/share/doc/make-4.0-r1/README.bz2 e234a22afd5d466e152a9288543e9baf 1410959490
+obj /home/core/gentoo/usr/share/doc/make-4.0-r1/NEWS.bz2 5730a9320f408e0a58543fbae3b3fd0e 1410959490
+obj /home/core/gentoo/usr/share/doc/make-4.0-r1/ChangeLog.bz2 dba90cee81a29b1a3253c0a4fa5ee531 1410959490
+obj /home/core/gentoo/usr/share/doc/make-4.0-r1/README.W32.bz2 78849f74adcc3b7281554e6c9dd9cbbf 1410959490
+obj /home/core/gentoo/usr/share/doc/make-4.0-r1/README.DOS.bz2 fe1726f5e8ce83d9915c5c0aa1175938 1410959490
+obj /home/core/gentoo/usr/share/doc/make-4.0-r1/AUTHORS.bz2 9717cf96510f8f1752dd402c7dc4b32f 1410959490
+obj /home/core/gentoo/usr/share/doc/make-4.0-r1/README.VMS.bz2 bc2d5dcddff6a4b3b1967632cb69816f 1410959490
+obj /home/core/gentoo/usr/share/doc/make-4.0-r1/README.OS2.bz2 3d095141d5925033b90247b45f3ca7bf 1410959490
+obj /home/core/gentoo/usr/share/doc/make-4.0-r1/README.customs.bz2 4ee7753ab3b75cb7b6d33f63a2af9f31 1410959490
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/gnumake.h accf5c0de707e5305c7067fc39d0a2e5 1410959490

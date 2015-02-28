@@ -1,0 +1,41 @@
+# ChangeLog for dev-python/click
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/click/ChangeLog,v 1.7 2014/09/10 05:50:01 idella4 Exp $
+
+*click-3.3 (10 Sep 2014)
+
+  10 Sep 2014; Ian Delaney <idella4@gentoo.org> +click-3.3.ebuild,
+  -click-2.4.ebuild, -click-2.5.ebuild, -click-3.1.ebuild, -click-3.2.ebuild:
+  bump; remove old
+
+*click-3.2 (04 Sep 2014)
+
+  04 Sep 2014; Ian Delaney <idella4@gentoo.org> +click-3.2.ebuild:
+  bump
+
+*click-3.1 (18 Aug 2014)
+
+  18 Aug 2014; Ian Delaney <idella4@gentoo.org> +click-3.1.ebuild:
+  bump
+
+*click-2.0 (06 Aug 2014)
+
+  06 Aug 2014; Ian Delaney <idella4@gentoo.org> +click-2.0.ebuild:
+  Re-add -2.0, reverse dep on blohg
+
+*click-2.5 (06 Aug 2014)
+
+  06 Aug 2014; Ian Delaney <idella4@gentoo.org> +click-2.5.ebuild,
+  -click-2.0.ebuild, click-2.4.ebuild:
+  bump, rm old
+
+*click-2.4 (17 Jul 2014)
+
+  17 Jul 2014; Ian Delaney <idella4@gentoo.org> +click-2.4.ebuild:
+  bump; add IUSE doc examples test, missing dep and corresponding phases
+
+*click-2.0 (08 Jun 2014)
+
+  08 Jun 2014; Rafael G. Martins <rafaelmartins@gentoo.org> +click-2.0.ebuild,
+  +metadata.xml:
+  initial import

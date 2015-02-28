@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst setup
+DEPEND=dev-libs/libxml2 sys-libs/zlib !gnutls? ( || ( >=dev-libs/openssl-1.0.1f:0[static-libs?] ( >=dev-libs/openssl-1.0.1:0[static-libs?] <dev-libs/openssl-1.0.1d:0[static-libs?] ) <dev-libs/openssl-1.0.0k:0[static-libs?] ) ) gnutls? ( >=net-libs/gnutls-3[static-libs?] dev-libs/nettle app-misc/ca-certificates ) libproxy? ( net-libs/libproxy ) nls? ( virtual/libintl ) virtual/pkgconfig doc? ( || ( >=dev-lang/python-2.7.5-r2:2.7[xml] ) ) java? ( virtual/jdk ) nls? ( sys-devel/gettext )
+DESCRIPTION=Free client for Cisco AnyConnect SSL VPN software
+EAPI=5
+HOMEPAGE=http://www.infradead.org/openconnect.html
+IUSE=doc +gnutls java libproxy nls static-libs linguas_ar linguas_cs linguas_de linguas_el linguas_en_GB linguas_en_US linguas_es linguas_fi linguas_fr linguas_gl linguas_id linguas_lt linguas_nl linguas_pa linguas_pl linguas_pt linguas_pt_BR linguas_sk linguas_sl linguas_ug linguas_uk linguas_zh_CN linguas_zh_TW
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=LGPL-2.1 GPL-2
+RDEPEND=dev-libs/libxml2 sys-libs/zlib !gnutls? ( || ( >=dev-libs/openssl-1.0.1f:0[static-libs?] ( >=dev-libs/openssl-1.0.1:0[static-libs?] <dev-libs/openssl-1.0.1d:0[static-libs?] ) <dev-libs/openssl-1.0.0k:0[static-libs?] ) ) gnutls? ( >=net-libs/gnutls-3[static-libs?] dev-libs/nettle app-misc/ca-certificates ) libproxy? ( net-libs/libproxy ) nls? ( virtual/libintl ) sys-apps/iproute2 java? ( virtual/jre )
+SLOT=0
+SRC_URI=ftp://ftp.infradead.org/pub/openconnect/openconnect-5.99.tar.gz http://dev.gentoo.org/~hasufell/distfiles/openconnect-script-20130310115608.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	linux-info	2b8c53f6065bdee2d757472215a3088f	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python-any-r1	4560effd96d3d2a82e50af7cf87166da	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=8f200ae8ac392f4ad27fd4b76332bbef

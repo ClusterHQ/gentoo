@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare prerm setup
+DEPEND=dev-vcs/git sys-libs/zlib dev-libs/openssl:0 virtual/httpd-cgi highlight? ( || ( dev-python/pygments app-text/highlight ) ) lua? ( jit? ( dev-lang/luajit ) !jit? ( dev-lang/lua ) ) !<www-apps/cgit-0.8.3.3 doc? ( app-text/docbook-xsl-stylesheets >=app-text/asciidoc-8.5.1 ) >=app-admin/webapp-config-1.50.15
+DESCRIPTION=a fast web-interface for git repositories
+EAPI=4
+HOMEPAGE=http://git.zx2c4.com/cgit/about
+IUSE=doc +highlight +lua +jit vhosts
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-vcs/git sys-libs/zlib dev-libs/openssl:0 virtual/httpd-cgi highlight? ( || ( dev-python/pygments app-text/highlight ) ) lua? ( jit? ( dev-lang/luajit ) !jit? ( dev-lang/lua ) ) >=app-admin/webapp-config-1.50.15
+SLOT=0
+SRC_URI=mirror://kernel/software/scm/git/git-1.9.0.tar.xz http://git.zx2c4.com/cgit/snapshot/cgit-0.10.1.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=8077f873ba950fb4ad2c63dbf44b1d9b

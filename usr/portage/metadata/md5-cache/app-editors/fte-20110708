@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare
+DEPEND=>=sys-libs/ncurses-5.2 X? ( x11-libs/libXdmcp x11-libs/libXau x11-libs/libX11 x11-libs/libXpm ) gpm? ( >=sys-libs/gpm-1.20 ) slang? ( >=sys-libs/slang-2.1.3 ) app-arch/unzip
+DESCRIPTION=Lightweight text-mode editor
+EAPI=5
+HOMEPAGE=http://fte.sourceforge.net
+IUSE=gpm slang X
+KEYWORDS=~alpha ~amd64 ~ppc -sparc ~x86 ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=|| ( GPL-2 Artistic )
+RDEPEND=>=sys-libs/ncurses-5.2 X? ( x11-libs/libXdmcp x11-libs/libXau x11-libs/libX11 x11-libs/libXpm ) gpm? ( >=sys-libs/gpm-1.20 )
+SLOT=0
+SRC_URI=mirror://sourceforge/fte/fte-20110708-src.zip mirror://sourceforge/fte/fte-20110708-common.zip
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e28e9151b49e7cb324fc8c89587a2d4e

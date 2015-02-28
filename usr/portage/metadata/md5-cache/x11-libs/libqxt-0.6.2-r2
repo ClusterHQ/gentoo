@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare unpack
+DEPEND=dev-qt/qtcore:4[ssl] || ( ( >=dev-qt/qtgui-4.8.5:4 dev-qt/designer:4 ) <dev-qt/qtgui-4.8.5:4 ) x11-libs/libXrandr berkdb? ( >=sys-libs/db-4.6 ) sql? ( dev-qt/qtsql:4 ) zeroconf? ( net-dns/avahi[mdnsresponder-compat] ) doc? ( dev-qt/qthelp:4 )
+DESCRIPTION=The Qt eXTension library provides cross-platform utility classes for the Qt toolkit
+EAPI=5
+HOMEPAGE=http://libqxt.org/
+IUSE=berkdb debug doc sql web xscreensaver zeroconf
+KEYWORDS=amd64 x86
+LICENSE=|| ( CPL-1.0 LGPL-2.1 )
+RDEPEND=dev-qt/qtcore:4[ssl] || ( ( >=dev-qt/qtgui-4.8.5:4 dev-qt/designer:4 ) <dev-qt/qtgui-4.8.5:4 ) x11-libs/libXrandr berkdb? ( >=sys-libs/db-4.6 ) sql? ( dev-qt/qtsql:4 ) zeroconf? ( net-dns/avahi[mdnsresponder-compat] ) xscreensaver? ( x11-libs/libXScrnSaver )
+SLOT=0
+SRC_URI=http://dev.libqxt.org/libqxt/get/v0.6.2.tar.bz2 -> libqxt-0.6.2.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	qmake-utils	40136c5fe0002a0d3937e869ae4ee0e2	qt4-r2	b40473dafd07d7c5fe4aef1c1b902f39	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=67472cbe142720497c7b35ad71f560e6

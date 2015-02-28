@@ -1,0 +1,45 @@
+# ChangeLog for dev-python/doit
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/doit/ChangeLog,v 1.9 2014/03/31 21:15:38 mgorny Exp $
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> doit-0.20.0.ebuild,
+  doit-0.23.0-r1.ebuild, doit-0.23.0.ebuild:
+  Add support for the new PyPy slotting.
+
+  23 Mar 2014; Ian Delaney <idella4@gentoo.org> doit-0.23.0-r1.ebuild:
+  Correct deps, set test phase pypy capable and adjust for failures under pypy &
+  py2.6, all wrt to the Bug #503616.  Thx to Chicago for test support in irc.
+  New release due in coming days set to fix most failed tests
+
+*doit-0.23.0-r1 (21 Mar 2014)
+
+  21 Mar 2014; Ian Delaney <idella4@gentoo.org> +doit-0.23.0-r1.ebuild,
+  -files/doit-0.16.1-setup.py-encoding.patch:
+  revbump; update deps, rm old patch, fix test phase, fixes Bug 503616 by eroen
+
+*doit-0.23.0 (06 Oct 2013)
+
+  06 Oct 2013; Ben de Groot <yngwin@gentoo.org> +doit-0.23.0.ebuild:
+  version bump
+
+  22 Jul 2013; Michał Górny <mgorny@gentoo.org> -doit-0.16.1.ebuild:
+  Drop the old version using long-deprecated python-distutils-ng.eclass.
+
+  29 May 2013; Ian Delaney <idella4@gentoo.org> doit-0.20.0.ebuild:
+  add pypy support, test phase
+
+*doit-0.20.0 (02 Feb 2013)
+
+  02 Feb 2013; Ben de Groot <yngwin@gentoo.org> +doit-0.20.0.ebuild:
+  version bump
+
+  29 Aug 2012; Marien Zwart <marienz@gentoo.org>
+  +files/doit-0.16.1-setup.py-encoding.patch, doit-0.16.1.ebuild:
+  Make setup.py work in a non-utf8 locale (bug #430034, thanks to Flameeyes for
+  reporting).
+
+*doit-0.16.1 (27 Jun 2012)
+
+  27 Jun 2012; Ben de Groot <yngwin@gentoo.org> +doit-0.16.1.ebuild,
+  +metadata.xml:
+  Initial commit. Needed as dep for www-apps/nikola.

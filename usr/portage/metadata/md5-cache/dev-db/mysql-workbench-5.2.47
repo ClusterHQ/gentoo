@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=dev-db/sqlite:3 >=x11-libs/gtk+-2.6:2 dev-libs/glib:2 gnome-base/libglade:2.0 dev-libs/libsigc++:2 dev-libs/boost >=dev-cpp/ctemplate-0.95 >=dev-libs/libxml2-2.6.2:2 >=dev-cpp/glibmm-2.14:2 >=dev-cpp/gtkmm-2.14:2.4 dev-db/libiodbc dev-libs/libzip >=virtual/mysql-5.1 dev-libs/libpcre virtual/opengl >=dev-lang/lua-5.1[deprecated] x11-libs/pango || ( sys-libs/e2fsprogs-libs dev-libs/ossp-uuid ) >=x11-libs/cairo-1.5.12[svg] dev-python/pexpect >=dev-python/paramiko-1.7.4 gnome-keyring? ( gnome-base/libgnome-keyring ) nls? ( sys-devel/gettext ) virtual/pkgconfig app-arch/xz-utils >=sys-apps/sed-4 =dev-lang/python-2* doc? ( =dev-lang/python-2*[sqlite] ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=MySQL Workbench
+EAPI=5
+HOMEPAGE=http://dev.mysql.com/workbench/
+IUSE=debug doc gnome-keyring nls static-libs
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=dev-db/sqlite:3 >=x11-libs/gtk+-2.6:2 dev-libs/glib:2 gnome-base/libglade:2.0 dev-libs/libsigc++:2 dev-libs/boost >=dev-cpp/ctemplate-0.95 >=dev-libs/libxml2-2.6.2:2 >=dev-cpp/glibmm-2.14:2 >=dev-cpp/gtkmm-2.14:2.4 dev-db/libiodbc dev-libs/libzip >=virtual/mysql-5.1 dev-libs/libpcre virtual/opengl >=dev-lang/lua-5.1[deprecated] x11-libs/pango || ( sys-libs/e2fsprogs-libs dev-libs/ossp-uuid ) >=x11-libs/cairo-1.5.12[svg] dev-python/pexpect >=dev-python/paramiko-1.7.4 gnome-keyring? ( gnome-base/libgnome-keyring ) nls? ( sys-devel/gettext ) app-admin/sudo >=sys-apps/net-tools-1.60_p20120127084908 =dev-lang/python-2* doc? ( =dev-lang/python-2*[sqlite] )
+SLOT=0
+SRC_URI=mirror://mysql/Downloads/MySQLGUITools/mysql-workbench-gpl-5.2.47-src.tar.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnome.org	8fef8f967214f56e08fa92d61163d891	gnome2	9637c29fc715b17a6328f24251129557	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=80b34d8a3e5cc8fe11fe412c4f7f3d49

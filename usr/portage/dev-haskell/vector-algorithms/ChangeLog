@@ -1,0 +1,19 @@
+# ChangeLog for dev-haskell/vector-algorithms
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/vector-algorithms/ChangeLog,v 1.3 2014/07/25 08:59:23 slyfox Exp $
+
+  25 Jul 2014; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml:
+  Drop redundant '<maintainer>' field, leave only '<herd>'.
+
+*vector-algorithms-0.6.0.1 (09 Mar 2014)
+
+  09 Mar 2014; Mark Wright <gienah@gentoo.org>
+  +vector-algorithms-0.6.0.1.ebuild, metadata.xml:
+  Bump vector-algorithms to 0.6.0.1
+
+*vector-algorithms-0.5.4.2 (25 Aug 2013)
+
+  25 Aug 2013; Alexander Vershilov <qnikst@gentoo.org>
+  +files/vector-algorithms-0.5.4.1-ghc-7.4.patch, +metadata.xml,
+  +vector-algorithms-0.5.4.2.ebuild:
+  dev-haskell/vector-algorithms: 0.5.4.2

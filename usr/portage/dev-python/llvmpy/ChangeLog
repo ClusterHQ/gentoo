@@ -1,0 +1,42 @@
+# ChangeLog for dev-python/llvmpy
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/llvmpy/ChangeLog,v 1.8 2014/08/13 00:06:30 idella4 Exp $
+
+*llvmpy-0.12.7 (12 Aug 2014)
+
+  12 Aug 2014; Ian Delaney <idella4@gentoo.org> +llvmpy-0.12.7.ebuild:
+  bump; add pypy support, fix fix to qa build issue, thanks to Arfrever for the
+  fix
+
+*llvmpy-0.12.6 (16 Jun 2014)
+
+  16 Jun 2014; Ian Delaney <idella4@gentoo.org> +llvmpy-0.12.6.ebuild:
+  bump; drop py2.6 add py3.4 support
+
+*llvmpy-0.12.5 (03 May 2014)
+
+  03 May 2014; Patrick Lauer <patrick@gentoo.org> +llvmpy-0.12.5.ebuild:
+  Bump
+
+*llvmpy-0.12.4 (14 Apr 2014)
+
+  14 Apr 2014; Sébastien Fabbro <bicatali@gentoo.org> +llvmpy-0.12.4.ebuild:
+  Version bump
+
+*llvmpy-0.12.3 (22 Feb 2014)
+
+  22 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> +llvmpy-0.12.3.ebuild,
+  llvmpy-0.12.2.ebuild:
+  Version bump
+
+  11 Feb 2014; Patrick Lauer <patrick@gentoo.org> llvmpy-0.12.2.ebuild:
+  Whitespace
+
+  10 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org> llvmpy-0.12.2.ebuild:
+  Fixed syntax in dependencies
+
+*llvmpy-0.12.2 (10 Feb 2014)
+
+  10 Feb 2014; Sébastien Fabbro <bicatali@gentoo.org>
+  +files/llvmpy-0.12.2-return-type.patch, +llvmpy-0.12.2.ebuild, +metadata.xml:
+  Initial import

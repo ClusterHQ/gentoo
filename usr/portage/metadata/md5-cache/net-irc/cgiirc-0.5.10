@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) >=app-admin/webapp-config-1.50.15
+DESCRIPTION=A perl/CGI program to use IRC from a web browser
+EAPI=5
+HOMEPAGE=http://cgiirc.org/
+IUSE=vhosts
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-admin/webapp-config-1.50.15
+SLOT=0.5.10
+SRC_URI=http://cgiirc.org/releases/cgiirc-0.5.10.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=f6d749658a8bc0347cfd509002ab44e1

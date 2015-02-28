@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=macbook? ( sys-libs/libsmbios sys-apps/pciutils ) >=dev-libs/glib-2.6 doc? ( app-doc/doxygen ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13 >=sys-devel/automake-1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Handles power management and special keys on laptops
+HOMEPAGE=http://pbbuttons.berlios.de
+IUSE=acpi alsa debug doc ibam macbook oss
+KEYWORDS=~amd64 ppc ~x86
+LICENSE=GPL-2
+RDEPEND=alsa? ( >=media-libs/alsa-lib-1.0 ) >=dev-libs/glib-2.6
+SLOT=0
+SRC_URI=mirror://sourceforge/pbbuttons/pbbuttonsd-0.8.1.tar.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=1d25cec78b19ed730917f176f7162c82

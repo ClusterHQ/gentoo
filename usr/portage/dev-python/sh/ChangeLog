@@ -1,0 +1,29 @@
+# ChangeLog for dev-python/sh
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/sh/ChangeLog,v 1.6 2014/03/26 15:21:21 jlec Exp $
+
+  26 Mar 2014; Justin Lecher <jlec@gentoo.org> sh-1.09.ebuild:
+  Add ~x86
+
+*sh-1.09 (08 Feb 2014)
+
+  08 Feb 2014; Justin Lecher <jlec@gentoo.org> sh-1.08.ebuild, +sh-1.09.ebuild:
+  Version Bump
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> sh-1.07.ebuild, sh-1.08.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+  28 Mar 2013; Justin Lecher <jlec@gentoo.org> sh-1.08.ebuild:
+  Keyword for ~-linux
+
+*sh-1.08 (28 Mar 2013)
+
+  28 Mar 2013; Justin Lecher <jlec@gentoo.org> sh-1.07.ebuild, +sh-1.08.ebuild,
+  metadata.xml:
+  Version Bump
+
+*sh-1.07 (24 Jan 2013)
+
+  24 Jan 2013; Patrick McLean <chutzpah@gentoo.org> +metadata.xml,
+  +sh-1.07.ebuild:
+  New package. dev-python/sh another subprocess interface library.

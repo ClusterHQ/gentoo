@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=gtk? ( dev-libs/glib:2 x11-libs/gdk-pixbuf:2 x11-libs/gtk+:2 )
+DESCRIPTION=An implementation of the Optimized Link State Routing protocol
+EAPI=5
+HOMEPAGE=http://www.olsr.org/
+IUSE=gtk
+KEYWORDS=amd64 x86
+LICENSE=BSD LGPL-2.1
+RDEPEND=gtk? ( dev-libs/glib:2 x11-libs/gdk-pixbuf:2 x11-libs/gtk+:2 )
+SLOT=0
+SRC_URI=http://www.olsr.org/releases/0.6/olsrd-0.6.4.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=64c14d3b2ade179202560d4a20f19d83

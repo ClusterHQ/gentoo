@@ -1,0 +1,15 @@
+# ChangeLog for app-editors/mousepad
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-editors/mousepad/ChangeLog,v 1.30 2013/04/11 18:08:23 ago Exp $
+
+  11 Apr 2013; Agostino Sarubbo <ago@gentoo.org> mousepad-0.3.0.ebuild:
+  Stable for x86, wrt bug #465286
+
+  11 Apr 2013; Agostino Sarubbo <ago@gentoo.org> mousepad-0.3.0.ebuild:
+  Stable for amd64, wrt bug #465286
+
+*mousepad-0.3.0 (30 Dec 2012)
+
+  30 Dec 2012; Samuli Suominen <ssuominen@gentoo.org> +mousepad-0.3.0.ebuild,
+  +files/mousepad-0.3.0-validate.patch:
+  Initial commit.

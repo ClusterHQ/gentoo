@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst
+DESCRIPTION=Configuration to be used in conjunction with the freetype-infinality subpixel hinting
+EAPI=5
+HOMEPAGE=http://www.infinality.net/blog/infinality-freetype-patches/
+IUSE=+nyx
+KEYWORDS=amd64 x86
+LICENSE=MIT
+PDEPEND=media-libs/freetype:2[infinality]
+RDEPEND=app-admin/eselect-fontconfig app-admin/eselect-infinality app-admin/eselect-lcdfilter >=x11-libs/libXft-2.3.0 nyx? ( media-fonts/croscorefonts )
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~yngwin/distfiles/fontconfig-infinality-20130404.tar.xz nyx? ( http://dev.gentoo.org/~yngwin/distfiles/fontconfig-nyx-2.tar.xz )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	readme.gentoo	106edea5533517715013de909a333abd	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=3246aa3d85f2c8d98a63ecd3c8a2717e

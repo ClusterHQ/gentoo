@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DEPEND=>=dev-lang/lua-5.1 dev-libs/libxml2 media-libs/fontconfig media-libs/freetype media-libs/libsdl[X,sound,joystick,opengl,video] media-libs/libvorbis media-libs/openal net-libs/gnutls >=net-libs/libircclient-1.6-r1 sys-libs/zlib virtual/opengl virtual/glu x11-libs/libX11 x11-libs/libXext editor? ( x11-libs/wxGTK:2.8[X,opengl] ) model-viewer? ( x11-libs/wxGTK:2.8[X] ) !static? ( dev-libs/xerces-c[icu] media-libs/ftgl media-libs/glew media-libs/libogg media-libs/libpng:0 net-libs/miniupnpc net-misc/curl virtual/jpeg ) sys-apps/help2man virtual/pkgconfig editor? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost ) model-viewer? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost ) static? ( dev-libs/xerces-c[icu,static-libs] media-libs/ftgl[static-libs] media-libs/glew[static-libs] media-libs/libogg[static-libs] media-libs/libpng:0[static-libs] net-libs/miniupnpc[static-libs] net-misc/curl[static-libs] virtual/jpeg[static-libs] ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) >=sys-apps/sed-4
+DESCRIPTION=Cross-platform 3D realtime strategy game
+EAPI=4
+HOMEPAGE=http://megaglest.org/
+IUSE=debug +editor sse sse2 sse3 static +streflop +tools +unicode wxuniversal +model-viewer
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PDEPEND=~games-strategy/megaglest-data-3.6.0.3
+RDEPEND=>=dev-lang/lua-5.1 dev-libs/libxml2 media-libs/fontconfig media-libs/freetype media-libs/libsdl[X,sound,joystick,opengl,video] media-libs/libvorbis media-libs/openal net-libs/gnutls >=net-libs/libircclient-1.6-r1 sys-libs/zlib virtual/opengl virtual/glu x11-libs/libX11 x11-libs/libXext editor? ( x11-libs/wxGTK:2.8[X,opengl] ) model-viewer? ( x11-libs/wxGTK:2.8[X] ) !static? ( dev-libs/xerces-c[icu] media-libs/ftgl media-libs/glew media-libs/libogg media-libs/libpng:0 net-libs/miniupnpc net-misc/curl virtual/jpeg )
+SLOT=0
+SRC_URI=mirror://sourceforge/megaglest/megaglest-source-3.6.0.3.tar.xz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	virtualx	73cfc129b4b9ba23aed1abb10c825d86	wxwidgets	6d6eec2685256d35511e7b6d5461bec9
+_md5_=78a255a9ce53ff66a68bf126d87f3e83

@@ -1,0 +1,17 @@
+# ChangeLog for dev-python/natsort
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/natsort/ChangeLog,v 1.3 2014/08/02 03:22:07 idella4 Exp $
+
+*natsort-3.4.0 (02 Aug 2014)
+
+  02 Aug 2014; Ian Delaney <idella4@gentoo.org> +natsort-3.4.0.ebuild:
+  bump; add IUSE test, dep and phase
+
+  06 Jun 2014; Ian Delaney <idella4@gentoo.org> natsort-3.2.0.ebuild:
+  add ia64 keyword, tested by D. Schridde, see Bug 512244
+
+*natsort-3.2.0 (05 Jun 2014)
+
+  05 Jun 2014; Ian Delaney <idella4@gentoo.org> +metadata.xml,
+  +natsort-3.2.0.ebuild:
+  new ebuild, dep to nikola-7.0.0 wrt, and closes, Bug #512244 by D. Schridde

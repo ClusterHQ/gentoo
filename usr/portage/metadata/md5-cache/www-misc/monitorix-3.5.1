@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=sys-apps/sed virtual/pkgconfig
+DESCRIPTION=A lightweight system monitoring tool
+EAPI=5
+HOMEPAGE=http://www.monitorix.org/
+IUSE=apcupsd evms hddtemp httpd lm_sensors postfix
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-perl/config-general dev-perl/DBI dev-perl/HTTP-Server-Simple dev-perl/IO-Socket-SSL dev-perl/libwww-perl dev-perl/MIME-Lite dev-perl/XML-Simple net-analyzer/rrdtool[perl] virtual/perl-CGI apcupsd? ( sys-power/apcupsd ) evms? ( sys-fs/evms ) hddtemp? ( app-admin/hddtemp ) httpd? ( virtual/httpd-cgi ) lm_sensors? ( sys-apps/lm_sensors ) postfix? ( net-mail/pflogsumm dev-perl/MailTools )
+SLOT=0
+SRC_URI=http://www.monitorix.org/monitorix-3.5.1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=f3f253f8079f9c5f2a4be7f6c0e35443

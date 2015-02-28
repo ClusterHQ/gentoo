@@ -1,0 +1,48 @@
+dir /home/core/gentoo/etc
+dir /home/core/gentoo/etc/init.d
+obj /home/core/gentoo/etc/init.d/kmod-static-nodes f57f7299f11ce57b27a980d83d8ba408 1411000756
+dir /home/core/gentoo/sbin
+dir /home/core/gentoo/lib
+obj /home/core/gentoo/lib/libkmod.so.2.2.8 c0169684400127cc72126d3635c7bde1 1411000756
+dir /home/core/gentoo/lib/modprobe.d
+obj /home/core/gentoo/lib/modprobe.d/usb-load-ehci-first.conf 76166c8e368b6a5d3d792322b4cb30d4 1411000755
+sym /home/core/gentoo/lib/libkmod.so.2 -> libkmod.so.2.2.8 1411000757
+dir /home/core/gentoo/bin
+obj /home/core/gentoo/bin/kmod 1c15fe7a71e8be11f28729fe6b53e4fd 1411000756
+sym /home/core/gentoo/bin/modinfo -> kmod 1411000757
+sym /home/core/gentoo/bin/lsmod -> kmod 1411000757
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/libkmod.h 6471ea832964e8178af452ac4bd6a6bd 1411000755
+dir /home/core/gentoo/usr/lib
+sym /home/core/gentoo/usr/lib/libkmod.so -> ../../../../../home/core/gentoo/lib/libkmod.so.2.2.8 1411000757
+dir /home/core/gentoo/usr/lib/pkgconfig
+obj /home/core/gentoo/usr/lib/pkgconfig/libkmod.pc 3e84b235147187c4c578ae47f119df39 1411000755
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/kmod-18-r1
+obj /home/core/gentoo/usr/share/doc/kmod-18-r1/TODO.bz2 445bab6e5cbf84f5a017d97a94ebeb25 1411000755
+obj /home/core/gentoo/usr/share/doc/kmod-18-r1/README.bz2 248c67fac24cfad99d8dbfc9e5cbabfa 1411000755
+obj /home/core/gentoo/usr/share/doc/kmod-18-r1/NEWS.bz2 dd07e1675efa8a69de650a2f74c98b7b 1411000755
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man5
+obj /home/core/gentoo/usr/share/man/man5/modules.dep.5.bz2 a0cbd0c85a3fe36a0fcc1605a50e2682 1411000755
+obj /home/core/gentoo/usr/share/man/man5/modprobe.d.5.bz2 37741079f238308f0f6d37a444b1d73e 1411000755
+obj /home/core/gentoo/usr/share/man/man5/depmod.d.5.bz2 c92c10895954ef6e8416404ee3e972bd 1411000755
+obj /home/core/gentoo/usr/share/man/man5/modules.dep.bin.5 3f538fe2f595f2886732d38ff592e1c2 1411000755
+dir /home/core/gentoo/usr/share/man/man8
+obj /home/core/gentoo/usr/share/man/man8/modinfo.8.bz2 ef0d3a8698e9072d7fee9b0c30144250 1411000755
+obj /home/core/gentoo/usr/share/man/man8/modprobe.8.bz2 c55e0b0fc8fb50dcdc568a3d53304aa0 1411000755
+obj /home/core/gentoo/usr/share/man/man8/rmmod.8.bz2 84c0cc67d0eb2904298b1c530c825983 1411000755
+obj /home/core/gentoo/usr/share/man/man8/lsmod.8.bz2 43839202f8f51328f9db9146a6ccd803 1411000755
+obj /home/core/gentoo/usr/share/man/man8/insmod.8.bz2 bef4703825eedf8c6560435da8e227d1 1411000755
+obj /home/core/gentoo/usr/share/man/man8/depmod.8.bz2 b009656e0ab0a9725c486132dc6319db 1411000755
+dir /home/core/gentoo/usr/share/bash-completion
+dir /home/core/gentoo/usr/share/bash-completion/completions
+obj /home/core/gentoo/usr/share/bash-completion/completions/kmod 3592da55a19f765ee35dffc6f8fa0215 1411000755
+sym /home/core/gentoo/sbin/depmod -> /home/core/gentoo/bin/kmod 1411000757
+sym /home/core/gentoo/sbin/insmod -> /home/core/gentoo/bin/kmod 1411000757
+sym /home/core/gentoo/sbin/lsmod -> /home/core/gentoo/bin/kmod 1411000757
+sym /home/core/gentoo/sbin/modinfo -> /home/core/gentoo/bin/kmod 1411000757
+sym /home/core/gentoo/sbin/modprobe -> /home/core/gentoo/bin/kmod 1411000757
+sym /home/core/gentoo/sbin/rmmod -> /home/core/gentoo/bin/kmod 1411000757

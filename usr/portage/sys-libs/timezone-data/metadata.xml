@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <herd>toolchain</herd>
+  <maintainer>
+    <email>djc@gentoo.org</email>
+    <name>Dirkjan Ochtman</name>
+  </maintainer>
+  <use>
+    <flag name='right_timezone'>
+      Install the set of "right" timezones; these timezones include leap seconds
+      when counting seconds since the epoch (while posix does not)
+    </flag>
+  </use>
+</pkgmetadata>

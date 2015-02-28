@@ -1,0 +1,5 @@
+/home/core/gentoo/usr/lib/libgdbm_compat.so.4.0.0 libgdbm.so.4,libc.so.6
+/home/core/gentoo/usr/lib/libgdbm.so.4.0.0 libc.so.6
+/home/core/gentoo/usr/bin/gdbm_load libgdbm.so.4,libc.so.6
+/home/core/gentoo/usr/bin/gdbmtool libgdbm.so.4,libc.so.6
+/home/core/gentoo/usr/bin/gdbm_dump libgdbm.so.4,libc.so.6

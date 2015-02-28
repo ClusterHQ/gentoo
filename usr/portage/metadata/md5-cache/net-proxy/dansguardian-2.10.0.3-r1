@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=sys-libs/zlib pcre? ( >=dev-libs/libpcre-8.32 ) clamav? ( >=app-antivirus/clamav-0.93 ) virtual/pkgconfig
+DESCRIPTION=Web content filtering via proxy
+HOMEPAGE=http://dansguardian.org
+IUSE=clamav kaspersky debug ntlm pcre
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib pcre? ( >=dev-libs/libpcre-8.32 ) clamav? ( >=app-antivirus/clamav-0.93 )
+SLOT=0
+SRC_URI=http://dansguardian.org/downloads/2/Stable/dansguardian-2.10.0.3.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=a46b20d367f43560f9068179fd8936ad

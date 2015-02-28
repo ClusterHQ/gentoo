@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst setup
+DEPEND=>=dev-vcs/cvs-1.11.6 tcpd? ( >=sys-apps/tcp-wrappers-7.6 )
+DESCRIPTION=CVS pserver daemon
+HOMEPAGE=http://ch.tudelft.nl/~arthur/cvsd/
+IUSE=tcpd
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-vcs/cvs-1.11.6 tcpd? ( >=sys-apps/tcp-wrappers-7.6 ) >=dev-lang/perl-5.8.0
+SLOT=0
+SRC_URI=http://ch.tudelft.nl/~arthur/cvsd/cvsd-1.0.17.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=c6957497082411413197895db41471f7

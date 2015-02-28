@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup
+DEPEND=nls? ( dev-util/intltool sys-devel/gettext ) || ( =dev-lang/python-2.7* =dev-lang/python-2.6* ) || ( =dev-lang/python-2.7*[sqlite] =dev-lang/python-2.6*[sqlite] )
+DESCRIPTION=a media player aiming to be similar to AmaroK, but for GTK+
+EAPI=3
+HOMEPAGE=http://www.exaile.org/
+IUSE=cddb libnotify nls
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2 GPL-3
+RDEPEND=dev-python/dbus-python >=media-libs/mutagen-1.10 >=dev-python/pygtk-2.17 >=dev-python/pygobject-2.18:2 dev-python/gst-python:0.10 media-libs/gst-plugins-good:0.10 media-plugins/gst-plugins-meta:0.10 libnotify? ( dev-python/notify-python ) cddb? ( dev-python/cddb-py ) || ( =dev-lang/python-2.7* =dev-lang/python-2.6* ) || ( =dev-lang/python-2.7*[sqlite] =dev-lang/python-2.6*[sqlite] )
+RESTRICT=test
+SLOT=0
+SRC_URI=http://launchpad.net/exaile/0.3.2/0.3.2.1/+download/exaile-0.3.2.1.tar.gz
+_eclasses_=fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=8f29609bcf14fc84a1c0dc854d741d95

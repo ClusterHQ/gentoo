@@ -1,0 +1,23 @@
+# ChangeLog for net-misc/vpncwatch
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-misc/vpncwatch/ChangeLog,v 1.3 2013/04/01 13:14:16 jlec Exp $
+
+*vpncwatch-1.8.1 (01 Apr 2013)
+
+  01 Apr 2013; Justin Lecher <jlec@gentoo.org> +vpncwatch-1.8.1.ebuild,
+  +files/vpncwatch-1.8.1-Makefile.patch, metadata.xml:
+  Version BUmp
+
+*vpncwatch-1.8 (07 Oct 2011)
+
+  07 Oct 2011; Justin Lecher <jlec@gentoo.org> vpncwatch-1.7.ebuild,
+  +vpncwatch-1.8.ebuild, +files/vpncwatch-1.8-Makefile.patch, metadata.xml:
+  Version Bump, #382843
+
+*vpncwatch-1.7 (03 Oct 2010)
+
+  03 Oct 2010; Justin Lecher <jlec@gentoo.org> +vpncwatch-1.7.ebuild,
+  +files/vpncwatch-1.7-Makefile.patch, +files/vpncwatch-1.7-gcc4.3.patch,
+  +files/vpncwatch-1.7-literal.patch, +metadata.xml:
+  Imported from sunrise overlay, 258150
+

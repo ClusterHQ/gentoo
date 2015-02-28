@@ -1,0 +1,55 @@
+# ChangeLog for dev-java/guava
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-java/guava/ChangeLog,v 1.12 2014/04/25 05:53:38 radhermit Exp $
+
+  25 Apr 2014; Tim Harder <radhermit@gentoo.org> -guava-16.0.ebuild:
+  Remove old.
+
+*guava-17.0 (25 Apr 2014)
+
+  25 Apr 2014; Tim Harder <radhermit@gentoo.org> +guava-17.0.ebuild:
+  Version bump.
+
+*guava-16.0.1 (13 Feb 2014)
+
+  13 Feb 2014; Tim Harder <radhermit@gentoo.org> +guava-16.0.1.ebuild:
+  Version bump.
+
+*guava-16.0 (25 Jan 2014)
+
+  25 Jan 2014; Tim Harder <radhermit@gentoo.org> +guava-16.0.ebuild:
+  Version bump.
+
+*guava-15.0 (25 Sep 2013)
+
+  25 Sep 2013; Tim Harder <radhermit@gentoo.org> +guava-15.0.ebuild:
+  Version bump (bug #486034).
+
+*guava-14.0.1 (26 Mar 2013)
+
+  26 Mar 2013; Tim Harder <radhermit@gentoo.org> +guava-14.0.1.ebuild:
+  Version bump.
+
+*guava-13.0.1 (07 Mar 2013)
+
+  07 Mar 2013; Tim Harder <radhermit@gentoo.org> +guava-13.0.1.ebuild:
+  Version bump.
+
+  30 Jan 2013; Agostino Sarubbo <ago@gentoo.org> guava-07.ebuild:
+  Stable for x86, wrt bug #451630
+
+  14 Jan 2013; Agostino Sarubbo <ago@gentoo.org> guava-07.ebuild:
+  Stable for amd64, wrt bug #451630
+
+  30 Nov 2011; Fabian Groffen <grobian@gentoo.org> guava-07.ebuild:
+  Add Prefix keywords for bug #390017
+
+  15 Nov 2011; Ralph Sennhauser <sera@gentoo.org> guava-07.ebuild:
+  Require 1.6 JDK for building. Bug #390579
+
+*guava-07 (09 Nov 2011)
+
+  09 Nov 2011; Ralph Sennhauser <sera@gentoo.org> +guava-07.ebuild,
+  +metadata.xml:
+  Initial import. Thanks to James Le Cuirot <chewi@aura-online.co.uk> for the
+  initial ebuild submitted to java-overlay.

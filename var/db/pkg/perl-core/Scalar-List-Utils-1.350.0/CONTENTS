@@ -1,0 +1,21 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/perl5
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto/List
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto/List/Util
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto/List/Util/Util.so 3e4c99cbfb89ae7fc96301cb1de84260 1410959365
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/Scalar
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/Scalar/Util.pm 0d2f3708727acc4809fd5d6e3a1f0a9a 1410959364
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/List
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/List/Util
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/List/Util/XS.pm d0e3216b0950b89c52a5c5d35972ee65 1410959364
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/List/Util.pm b82820043e6bf43b89d7e857b7333bc5 1410959364
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/Scalar-List-Utils-1.350.0
+obj /home/core/gentoo/usr/share/doc/Scalar-List-Utils-1.350.0/Changes.bz2 ff8c6bc0fea910c7f04d3901f364b5d1 1410959364
+obj /home/core/gentoo/usr/share/doc/Scalar-List-Utils-1.350.0/README.bz2 85bf9e8332ac656627fc393ef56784f9 1410959365

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=the hyped indie game of the year. By the Uplink creators
+HOMEPAGE=http://www.darwinia.co.uk/support/linux.html
+IUSE=cdinstall
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=Introversion
+PROPERTIES=cdinstall? ( interactive )
+RDEPEND=~virtual/libstdc++-3.3 x86? ( virtual/opengl virtual/glu media-libs/libsdl media-libs/libvorbis ) amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-medialibs app-emulation/emul-linux-x86-sdl )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=http://www.introversion.co.uk/darwinia/downloads/darwinia-full-1.4.0b9.sh
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cdrom	49b4b952fb5c83fac6c616b532723e60	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=c19d7a622bbef0bd4af672019f6a7b2d

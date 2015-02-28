@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=readline? ( sys-libs/readline ) virtual/libusb:0
+DESCRIPTION=A free debugger for use with MSP430 MCUs
+EAPI=5
+HOMEPAGE=http://mspdebug.sourceforge.net/
+IUSE=readline
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=readline? ( sys-libs/readline ) virtual/libusb:0
+SLOT=0
+SRC_URI=mirror://sourceforge/mspdebug/mspdebug-0.21.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4ab853d062ea7f9615c6d06b39df08cf

@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=>=dev-lang/tcl-8.3[-threads] >=dev-tcltk/tclx-8.3 dev-tcltk/tcllib dev-tcltk/mysqltcl ssl? ( >=dev-tcltk/tls-1.4.1 ) ssl? ( dev-libs/openssl )
+DESCRIPTION=Daemon for Sguil Network Security Monitoring
+EAPI=5
+HOMEPAGE=http://sguil.sourceforge.net
+IUSE=ssl ssl
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 QPL
+RDEPEND=>=dev-lang/tcl-8.3[-threads] >=dev-tcltk/tclx-8.3 dev-tcltk/tcllib dev-tcltk/mysqltcl ssl? ( >=dev-tcltk/tls-1.4.1 ) net-analyzer/p0f net-analyzer/tcpflow net-misc/openssh
+SLOT=0
+SRC_URI=mirror://sourceforge/sguil/sguil-server-0.8.0.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	ssl-cert	6698abb0c28e144e92c4ff1e33341684	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=95c4f62af8a8193f3b4fd14a441cfb17

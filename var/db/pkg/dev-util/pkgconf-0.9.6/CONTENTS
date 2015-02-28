@@ -1,0 +1,16 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/x86_64-pc-linux-gnu-pkgconf edac7a5ef07261fb65357b7a4273d2c7 1410958921
+sym /home/core/gentoo/usr/bin/pkgconf -> x86_64-pc-linux-gnu-pkgconf 1410958923
+sym /home/core/gentoo/usr/bin/pkg-config -> x86_64-pc-linux-gnu-pkg-config 1410958923
+sym /home/core/gentoo/usr/bin/x86_64-pc-linux-gnu-pkg-config -> x86_64-pc-linux-gnu-pkgconf 1410958923
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/pkgconf.1.bz2 695cbb598b60cd2d36fdfe5b9d73dde2 1410958919
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/pkgconf-0.9.6
+obj /home/core/gentoo/usr/share/doc/pkgconf-0.9.6/AUTHORS.bz2 9692f78d442cb7b0bb9e16384d75ab6f 1410958920
+obj /home/core/gentoo/usr/share/doc/pkgconf-0.9.6/README.md.bz2 ab8cd37cc289f63b65b806f15d39b03d 1410958920
+dir /home/core/gentoo/usr/share/aclocal
+obj /home/core/gentoo/usr/share/aclocal/pkg.m4 e9a6c6125c77eb28f8caeb3d32073ccd 1410958919

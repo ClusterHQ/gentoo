@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=ARM software emulator
+HOMEPAGE=http://softgun.sourceforge.net/
+KEYWORDS=~amd64 ~x86 ~ppc
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/softgun/softgun-0.16.tgz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=276e6f8e6a81fcf5b394325a8f2b197b

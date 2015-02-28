@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.5 app-arch/unzip dev-java/istack-commons-runtime:0 dev-java/istack-commons-tools:0 dev-java/jaxb:2 dev-java/jaxb-tools:2 dev-java/txw2-runtime:0 dev-java/jsr173:0 >=dev-java/jsr181-1.0:0 dev-java/jax-ws-api:2 dev-java/jax-ws:2 dev-java/codemodel:2 dev-java/apt-mirror:0 !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 >=sys-apps/portage-2.1.2.7 ) source? ( app-arch/zip ) >=dev-java/ant-core-1.8.2 >=sys-apps/portage-2.1.2.7 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Reference implementation of the Java API for XML Web Services
+EAPI=1
+HOMEPAGE=http://jax-ws.dev.java.net/
+IUSE=elibc_FreeBSD source elibc_FreeBSD
+KEYWORDS=amd64 ppc x86
+LICENSE=CDDL
+RDEPEND=>=virtual/jre-1.5 dev-java/istack-commons-runtime:0 dev-java/istack-commons-tools:0 dev-java/jaxb:2 dev-java/jaxb-tools:2 dev-java/txw2-runtime:0 dev-java/jsr173:0 >=dev-java/jsr181-1.0:0 dev-java/jax-ws-api:2 dev-java/jax-ws:2 dev-java/codemodel:2 dev-java/apt-mirror:0 !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 >=sys-apps/portage-2.1.2.7 ) source? ( app-arch/zip )
+SLOT=2
+SRC_URI=https://jax-ws.dev.java.net/jax-ws-201-m1/JAXWS2.0.1m1_source_20060817.jar
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	java-ant-2	7d26b85ec9c11fb0a78ac321e23ac384	java-pkg-2	65bbb59987d777c1106ae8aa4bf36e7b	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=ba0b5aa9b28a2ff1faf3ef30ed4d7a03

@@ -1,0 +1,60 @@
+# ChangeLog for dev-python/translationstring
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/translationstring/ChangeLog,v 1.13 2014/08/21 01:22:27 idella4 Exp $
+
+  21 Aug 2014; Ian Delaney <idella4@gentoo.org> translationstring-1.1-r1.ebuild:
+  drop py2.6 pypy2_0 add py3.4
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> translationstring-1.1-r1.ebuild:
+  Add support for the new PyPy slotting.
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> translationstring-1.1-r1.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+  16 Aug 2013; Michał Górny <mgorny@gentoo.org> translationstring-1.1-r1.ebuild:
+  Enable python3.3.
+
+*translationstring-1.1-r1 (11 Apr 2013)
+
+  11 Apr 2013; Ian Delaney <idella4@gentoo.org>
+  +translationstring-1.1-r1.ebuild:
+  revbump, migration -> distutils-r1
+
+  22 Feb 2012; Marien Zwart <marienz@gentoo.org> translationstring-1.1.ebuild:
+  Fix unnecessarily strict PYTHON_DEPEND.
+
+*translationstring-1.1 (22 Feb 2012)
+
+  22 Feb 2012; Marien Zwart <marienz@gentoo.org> +translationstring-1.1.ebuild:
+  Version bump.
+  Support python 3.
+  Stop building documentation, as upstream's preferred theme does not work
+  offline.
+  Drop unnecessary test dependency.
+
+*translationstring-0.4 (08 Feb 2012)
+
+  08 Feb 2012; Patrick Lauer <patrick@gentoo.org> +translationstring-0.4.ebuild:
+  Bump for #401953
+
+  30 Jul 2011; Rafael G. Martins <rafaelmartins@gentoo.org>
+  translationstring-0.3.ebuild:
+  Fixed dependency again. :(
+
+  30 Jul 2011; Rafael G. Martins <rafaelmartins@gentoo.org>
+  translationstring-0.3.ebuild:
+  Added setuptools dependency.
+
+  30 Jul 2011; Rafael G. Martins <rafaelmartins@gentoo.org>
+  translationstring-0.3.ebuild:
+  Added missing dependencies.
+
+  30 Jul 2011; Rafael G. Martins <rafaelmartins@gentoo.org>
+  translationstring-0.3.ebuild:
+  Re-added missing USE flag: test
+
+*translationstring-0.3 (30 Jul 2011)
+
+  30 Jul 2011; Rafael G. Martins <rafaelmartins@gentoo.org>
+  +translationstring-0.3.ebuild, +metadata.xml:
+  Initial version. Based on ebuild by Jan Matějka (bug #353769).

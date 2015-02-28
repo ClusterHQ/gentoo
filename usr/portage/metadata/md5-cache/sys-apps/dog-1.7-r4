@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Dog is better than cat
+EAPI=3
+HOMEPAGE=http://packages.gentoo.org/package/sys-apps/dog
+KEYWORDS=alpha amd64 ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc64-solaris
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://gentoo/dog-1.7.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ce350161bbb8de7b042b285422f3759c

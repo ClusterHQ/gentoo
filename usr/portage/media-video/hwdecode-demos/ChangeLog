@@ -1,0 +1,44 @@
+# ChangeLog for media-video/hwdecode-demos
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-video/hwdecode-demos/ChangeLog,v 1.9 2013/06/22 17:50:48 scarabeus Exp $
+
+  22 Jun 2013; Tomáš Chvátal <scarabeus@gentoo.org> +files/libav9.patch,
+  hwdecode-demos-0.9.5.ebuild:
+  Fix libav9 build. Fixes bug#443430. Also fix the new gl api while at it.
+
+  17 Jan 2013; Alexis Ballier <aballier@gentoo.org>
+  hwdecode-demos-0.9.5.ebuild, +files/ffmpeg-1.patch:
+  Fix build with latest ffmpeg. Part of bug #443430
+
+  26 Nov 2012; Tomáš Chvátal <scarabeus@gentoo.org> metadata.xml:
+  Update to global useflag.
+
+  05 May 2012; Jeff Horelick <jdhore@gentoo.org> hwdecode-demos-0.9.5.ebuild:
+  dev-util/pkgconfig -> virtual/pkgconfig
+
+  20 Apr 2011; Alexis Ballier <aballier@gentoo.org>
+  hwdecode-demos-0.9.5.ebuild, +files/ffmpeg.patch:
+  convert to virtual/ffmpeg and to new ffmpeg/libav api
+
+  27 Feb 2011; Alexis Ballier <aballier@gentoo.org>
+  -hwdecode-demos-0.9.3.ebuild, -hwdecode-demos-0.9.4.ebuild:
+  remove old
+
+*hwdecode-demos-0.9.5 (27 Feb 2011)
+
+  27 Feb 2011; Alexis Ballier <aballier@gentoo.org>
+  +hwdecode-demos-0.9.5.ebuild:
+  version bump
+
+*hwdecode-demos-0.9.4 (10 Oct 2010)
+
+  10 Oct 2010; Alexis Ballier <aballier@gentoo.org>
+  +hwdecode-demos-0.9.4.ebuild:
+  version bump
+
+*hwdecode-demos-0.9.3 (11 May 2010)
+
+  11 May 2010; Alexis Ballier <aballier@gentoo.org>
+  +hwdecode-demos-0.9.3.ebuild, +metadata.xml:
+  initial import, very useful for testing hardware video decoding, ebuild by
+  me

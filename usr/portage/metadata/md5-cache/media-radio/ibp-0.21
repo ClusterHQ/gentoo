@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=sys-libs/ncurses X? ( x11-libs/libX11 ) X? ( x11-misc/imake )
+DESCRIPTION=Shows currently transmitting beacons of the International Beacon Project (IBP)
+EAPI=4
+HOMEPAGE=http://wwwhome.cs.utwente.nl/~ptdeboer/ham/ibp.html
+IUSE=X
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses X? ( x11-libs/libX11 )
+SLOT=0
+SRC_URI=http://wwwhome.cs.utwente.nl/~ptdeboer/ham/ibp-0.21.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=0ae716562ce0a0da38d46b3030756717

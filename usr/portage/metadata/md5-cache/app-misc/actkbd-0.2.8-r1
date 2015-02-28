@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install postinst prepare setup
+DESCRIPTION=A keyboard shortcut daemon
+EAPI=5
+HOMEPAGE=http://users.softlab.ece.ntua.gr/~thkala/projects/actkbd/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://users.softlab.ece.ntua.gr/~thkala/projects/actkbd/files/actkbd-0.2.8.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	linux-info	2b8c53f6065bdee2d757472215a3088f	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=fd5865cd93907eaa9e18a3d7b6339b89

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DEPEND=!<dev-games/cegui-0.7.6-r1 <dev-games/cegui-0.8[ogre] >=dev-games/ogre-1.7.4-r1[freeimage,opengl] !>=dev-games/ogre-1.9 dev-games/ois dev-games/physfs =dev-lang/lua-5.1* >=dev-libs/tinyxml-2.6.2-r2 media-libs/freealut media-libs/openal media-libs/libogg media-libs/libvorbis >=net-libs/enet-1.3.0 x11-libs/libXrandr tools? ( dev-libs/poco ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) >=sys-apps/sed-4
+DESCRIPTION=a multi-player, 3D action role-playing game
+EAPI=4
+HOMEPAGE=http://sumwars.org
+IUSE=+tools debug linguas_de linguas_en linguas_it linguas_pl linguas_pt linguas_ru linguas_uk
+KEYWORDS=amd64 x86
+LICENSE=GPL-3 CC-BY-SA-3.0
+RDEPEND=!<dev-games/cegui-0.7.6-r1 <dev-games/cegui-0.8[ogre] >=dev-games/ogre-1.7.4-r1[freeimage,opengl] !>=dev-games/ogre-1.9 dev-games/ois dev-games/physfs =dev-lang/lua-5.1* >=dev-libs/tinyxml-2.6.2-r2 media-libs/freealut media-libs/openal media-libs/libogg media-libs/libvorbis >=net-libs/enet-1.3.0 x11-libs/libXrandr tools? ( dev-libs/poco )
+SLOT=0
+SRC_URI=mirror://sourceforge/sumwars/sumwars-0.5.6-src.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=fd44b932104d4230bb52943a086e1117

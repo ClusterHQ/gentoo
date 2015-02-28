@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gcc-config -C 4.6.2
+touch usr/bin/gcj
+gcc-config -C 4.7.0
+[[ ! -e usr/bin/gcj ]]

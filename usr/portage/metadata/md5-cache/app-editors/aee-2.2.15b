@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=X? ( x11-libs/libX11 )
+DESCRIPTION=An easy to use text editor
+EAPI=4
+HOMEPAGE=http://mahon.cwx.net/
+IUSE=X
+KEYWORDS=amd64 x86 ~amd64-linux
+LICENSE=Artistic
+RDEPEND=X? ( x11-libs/libX11 )
+SLOT=0
+SRC_URI=http://mahon.cwx.net/sources/aee-2.2.15b.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e3d67bee3534c5499525ab8e705e667a

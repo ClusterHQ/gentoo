@@ -1,0 +1,11 @@
+# Copyright 1999-2011 Gentoo Foundation.
+# Distributed under the terms of the GNU General Public License v2
+# $Header: /var/cvsroot/gentoo-x86/profiles/desc/php_targets.desc,v 1.4 2014/01/28 09:47:35 olemarkus Exp $
+
+# This file contains descriptions of the PHP_TARGETS USE_EXPAND flags
+
+php5-6 - Build against PHP 5.6
+php5-5 - Build against PHP 5.5
+php5-4 - Build against PHP 5.4
+php5-3 - Build against PHP 5.3
+php5-2 - Build against PHP 5.2

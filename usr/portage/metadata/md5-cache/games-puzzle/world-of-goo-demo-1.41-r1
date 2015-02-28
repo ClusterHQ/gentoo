@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install nofetch postinst preinst prepare setup unpack
+DESCRIPTION=A puzzle game with a strong emphasis on physics
+EAPI=2
+HOMEPAGE=http://2dboy.com/
+KEYWORDS=amd64 x86
+LICENSE=2dboy-EULA
+RDEPEND=media-libs/libsdl[sound,opengl,video] media-libs/sdl-mixer[vorbis] sys-libs/glibc virtual/opengl virtual/glu >=sys-devel/gcc-3.4
+RESTRICT=fetch strip
+SLOT=0
+SRC_URI=WorldOfGooDemo.1.41.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=6d2b7cbb0aa874dde82b8dd7a6e5b92f

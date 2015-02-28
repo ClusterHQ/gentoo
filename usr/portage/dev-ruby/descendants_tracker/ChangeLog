@@ -1,0 +1,24 @@
+# ChangeLog for dev-ruby/descendants_tracker
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/descendants_tracker/ChangeLog,v 1.4 2014/08/26 20:12:49 blueness Exp $
+
+  26 Aug 2014; Anthony G. Basile <blueness@gentoo.org>
+  descendants_tracker-0.0.4.ebuild:
+  Keyword ~ppc ~ppc64, bug #521036
+
+  01 Aug 2014; Manuel Rüger <mrueg@gentoo.org>
+  -descendants_tracker-0.0.3.ebuild:
+  Cleanup old.
+
+*descendants_tracker-0.0.4 (07 May 2014)
+
+  07 May 2014; Manuel Rüger <mrueg@gentoo.org>
+  +descendants_tracker-0.0.4.ebuild:
+  Version bump.
+
+*descendants_tracker-0.0.3 (05 May 2014)
+
+  05 May 2014; Hans de Graaff <graaff@gentoo.org>
+  +descendants_tracker-0.0.3.ebuild, +metadata.xml:
+  Initial import. New dependency for github_api. Ebuild by p8952 in the ruby
+  overlay.

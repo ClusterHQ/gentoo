@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=!sys-cluster/cman-headers !sys-cluster/cman-kernel !=sys-cluster/cman-1*
+DESCRIPTION=A library for cluster management common to the various pieces of Cluster Suite
+HOMEPAGE=http://sources.redhat.com/cluster/wiki/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=!sys-cluster/cman-headers !sys-cluster/cman-kernel !=sys-cluster/cman-1*
+SLOT=0
+SRC_URI=ftp://sources.redhat.com/pub/cluster/releases/cluster-2.03.09.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=9aa6716cf308361a5ea58d037e81e0fa

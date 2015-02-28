@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-util/icmake
+DESCRIPTION=Your Own Document Language: a pre-document language and tools to process it
+EAPI=5
+HOMEPAGE=http://yodl.sourceforge.net/
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=mirror://sourceforge/yodl/yodl_3.03.0.orig.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=46beb2aa64a3fccfea8fe065eeeff4d8

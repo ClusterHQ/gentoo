@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install unpack
+DEPEND=>=media-gfx/iscan-2.28.0 >=app-arch/rpm2targz-9.0.0.3g
+DESCRIPTION=Plugin for 'epkowa' backend for image manipulation
+EAPI=4
+HOMEPAGE=http://download.ebz.epson.net/dsc/search/01/search/?OSC=L
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=AVASYS
+RDEPEND=>=media-gfx/iscan-2.28.0
+SLOT=0
+SRC_URI=amd64? ( http://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-esdip-1.0.0-5.ltdl7.x86_64.rpm ) x86? ( http://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-esdip-1.0.0-5.ltdl7.i386.rpm )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	rpm	b94b54b44f14d6bee3e966c8f5c86fba	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=3eeca22346c7c525e0bd38364f76e39f

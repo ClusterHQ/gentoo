@@ -1,0 +1,2 @@
+/home/core/gentoo/bin/run-parts libc.so.6
+/home/core/gentoo/bin/tempfile libc.so.6

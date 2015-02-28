@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup
+DEPEND=dev-python/setuptools twisted? ( dev-python/twisted-core dev-python/twisted-web ) =dev-lang/python-2*
+DESCRIPTION=Web Services for Python
+EAPI=3
+HOMEPAGE=http://pywebsvcs.sourceforge.net/zsi.html
+IUSE=doc examples twisted
+KEYWORDS=amd64 ppc x86
+LICENSE=BSD MIT
+RDEPEND=dev-python/setuptools twisted? ( dev-python/twisted-core dev-python/twisted-web ) =dev-lang/python-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/pywebsvcs/ZSI-2.1-a1.tar.gz
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=9ce0f2c01a775318b3a8696bdd22e262

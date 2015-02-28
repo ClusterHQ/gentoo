@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=!>=gnome-extra/zeitgeist-0.9.12 dev-libs/libzeitgeist >=dev-libs/json-glib-0.14.0 dev-libs/glib:2 x11-libs/gtk+:2 telepathy? ( >=net-libs/telepathy-glib-0.18.0 ) || ( dev-lang/vala:0.24 dev-lang/vala:0.22 dev-lang/vala:0.20 dev-lang/vala:0.18 dev-lang/vala:0.16 ) virtual/pkgconfig
+DESCRIPTION=Provides passive plugins to insert events into zeitgeist
+EAPI=4
+HOMEPAGE=http://launchpad.net/zeitgeist-datahub
+IUSE=download telepathy
+KEYWORDS=~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-3
+PDEPEND=gnome-extra/zeitgeist
+RDEPEND=!>=gnome-extra/zeitgeist-0.9.12 dev-libs/libzeitgeist >=dev-libs/json-glib-0.14.0 dev-libs/glib:2 x11-libs/gtk+:2 telepathy? ( >=net-libs/telepathy-glib-0.18.0 )
+SLOT=0
+SRC_URI=http://launchpad.net/zeitgeist-datahub/0.9/0.9.5/+download/zeitgeist-datahub-0.9.5.tar.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	autotools-utils	3727db64c7b960903d5033280f108080	eutils	06133990e861be0fe60c2b428fd025d9	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	vala	d8f392783fdc2395fc64af046f2ca961	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=b03dfbabd6e13ac1999436cb8a35fb5d

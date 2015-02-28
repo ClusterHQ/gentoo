@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure
+DEPEND=gtk3? ( >app-i18n/ibus-1.4.0[gtk3] x11-libs/gtk+:3 ) !gtk3? ( >=app-i18n/ibus-1.4.0 >=x11-libs/gtk+-2.12:2 ) x11-libs/libX11 virtual/pkgconfig dev-util/intltool >=sys-devel/gettext-0.17
+DESCRIPTION=Vietnamese Input Method Engine for IBUS using Unikey IME
+EAPI=4
+HOMEPAGE=http://code.google.com/p/ibus-unikey/
+IUSE=gtk3
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=gtk3? ( >app-i18n/ibus-1.4.0[gtk3] x11-libs/gtk+:3 ) !gtk3? ( >=app-i18n/ibus-1.4.0 >=x11-libs/gtk+-2.12:2 ) x11-libs/libX11
+SLOT=0
+SRC_URI=http://ibus-unikey.googlecode.com/files/ibus-unikey-0.6.1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7536967afb11cab439388285bbdcd701

@@ -1,0 +1,27 @@
+# ChangeLog for app-admin/procinfo-ng
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-admin/procinfo-ng/ChangeLog,v 1.6 2014/08/10 01:37:39 patrick Exp $
+
+  10 Aug 2014; Patrick Lauer <patrick@gentoo.org> procinfo-ng-2.0.304.ebuild:
+  Fix description for more repoman happy
+
+  12 Jul 2010; Christian Faulhammer <fauli@gentoo.org>
+  procinfo-ng-2.0.304.ebuild:
+  stable x86, bug 325229
+
+  28 Jun 2010; Jeroen Roovers <jer@gentoo.org> procinfo-ng-2.0.304.ebuild:
+  Stable for HPPA too.
+
+  24 Jun 2010; Pacho Ramos <pacho@gentoo.org> procinfo-ng-2.0.304.ebuild:
+  stable amd64, bug 325229
+
+  24 Jun 2010; Jeroen Roovers <jer@gentoo.org> procinfo-ng-2.0.304.ebuild:
+  Marked ~hppa too.
+
+*procinfo-ng-2.0.304 (13 Feb 2010)
+
+  13 Feb 2010; Justin Lecher (jlec) <jlec@gentoo.org>
+  +procinfo-ng-2.0.304.ebuild, +files/procinfo-ng-2.0.304-as-needed.patch,
+  +metadata.xml:
+  Imported from sunrise, bug 235494, thanks Lars Wendler (Polynomial-C) for
+  initial ebuild

@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+# Copyright 2009-2011 Gentoo Foundation
+# Distributed under the terms of the MIT/X11 license
+
+# Wrapper script, executes ${EDITOR} with arguments $@
+
+if [ -z "${EDITOR}" ]; then
+    # Try to get EDITOR from system profile
+    EDITOR=$(. "/home/core/gentoo/etc/profile" >/dev/null 2>&1; echo "${EDITOR}")
+fi
+
+if [ -z "${EDITOR}" ]; then
+    echo "$0: The EDITOR variable must be set" >&2
+    exit 1
+fi
+
+exec ${EDITOR} "$@"

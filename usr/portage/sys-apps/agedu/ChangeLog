@@ -1,0 +1,23 @@
+# ChangeLog for sys-apps/agedu
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/agedu/ChangeLog,v 1.4 2014/02/05 20:38:34 blueness Exp $
+
+  05 Feb 2014; Anthony G. Basile <blueness@gentoo.org> Manifest:
+  Fix manifest, bug #499556
+
+*agedu-10126 (27 Jan 2014)
+
+  27 Jan 2014; Anthony G. Basile <blueness@gentoo.org> +agedu-10126.ebuild,
+  -agedu-9671.ebuild:
+  Version bump, remove older unstable
+
+*agedu-9723 (08 Jan 2013)
+
+  08 Jan 2013; Anthony G. Basile <blueness@gentoo.org> +agedu-9723.ebuild:
+  Version bump
+
+*agedu-9671 (21 Oct 2012)
+
+  21 Oct 2012; Anthony G. Basile <blueness@gentoo.org>
+  +files/agedu-r9671-fix-automagic.patch, +agedu-9671.ebuild, +metadata.xml:
+  Initial commit

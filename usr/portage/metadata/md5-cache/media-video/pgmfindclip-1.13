@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=automatically find a clipping border for a sequence of pgm images
+HOMEPAGE=http://www.lallafa.de/bp/pgmfindclip.html
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.lallafa.de/bp/files/pgmfindclip-1.13.tgz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=16aa932ef61c6cd8aa5fd00edf296378

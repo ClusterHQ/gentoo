@@ -1,0 +1,12 @@
+# ChangeLog for dev-ruby/ruby-feedparser
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/ruby-feedparser/ChangeLog,v 1.2 2014/07/25 02:22:19 mrueg Exp $
+
+  25 Jul 2014; Manuel Rüger <mrueg@gentoo.org> ruby-feedparser-0.9.3.ebuild:
+  Add ruby20, ruby21 targets. Use Rake tests.
+
+*ruby-feedparser-0.9.3 (07 Mar 2014)
+
+  07 Mar 2014; Manuel Rüger <mrueg@gentoo.org> +metadata.xml,
+  +ruby-feedparser-0.9.3.ebuild:
+  Original ebuild imported from sunrise overlay.

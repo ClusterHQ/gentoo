@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=threadsafe? ( dev-libs/nspr )
+DESCRIPTION=Stand-alone JavaScript C library
+HOMEPAGE=http://www.mozilla.org/js/spidermonkey/
+IUSE=threadsafe
+KEYWORDS=alpha amd64 ~arm ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=NPL-1.1
+RDEPEND=threadsafe? ( dev-libs/nspr )
+SLOT=0
+SRC_URI=ftp://ftp.mozilla.org/pub/mozilla.org/js/js-1.7.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e90d847100f9561172324d04e387788a

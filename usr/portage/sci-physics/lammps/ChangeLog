@@ -1,0 +1,185 @@
+# ChangeLog for sci-physics/lammps
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sci-physics/lammps/ChangeLog,v 1.39 2014/08/30 16:47:10 nimiux Exp $
+
+  30 Aug 2014; Chema Alonso <nimiux@gentoo.org> lammps-20140628.ebuild:
+  Stable for amd64 wrt bug #519320
+
+  20 Aug 2014; Christoph Junghans <ottxor@gentoo.org> lammps-20140815.ebuild:
+  fixed build with newer lapack/blas version
+
+  20 Aug 2014; Nicolas Bock <nicolasbock@gentoo.org> lammps-20140815.ebuild:
+  sci-physics/lammps-20140815: Fix linker error.
+
+*lammps-20140815 (17 Aug 2014)
+
+  17 Aug 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140815.ebuild:
+  sci-physics/lammps-20140815: Added new version.
+
+*lammps-20140808 (12 Aug 2014)
+
+  12 Aug 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140808.ebuild:
+  sys-physics/lammps-20140808: Added new version.
+
+*lammps-20140806 (07 Aug 2014)
+
+  07 Aug 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140806.ebuild:
+  sci-physics/lammps-20140806: Added new version.
+
+*lammps-20140711 (14 Jul 2014)
+
+  14 Jul 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140711.ebuild:
+  sci-physics/lammps-20140711: Version bump.
+
+*lammps-20140628 (03 Jul 2014)
+
+  03 Jul 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140628.ebuild:
+  sci-physics/lammps: Version bump to 2014-06-28.
+
+*lammps-20140614 (19 Jun 2014)
+
+  19 Jun 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140614.ebuild:
+  sci-physics/lammps-20140614: Version bump.
+
+*lammps-20140320 (31 Mar 2014)
+
+  31 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140320.ebuild:
+  sci-physics/lammps-20140320: Version bump.
+
+  17 Mar 2014; Christoph Junghans <ottxor@gentoo.org> lammps-20140314.ebuild:
+  added ~x86 (tested by me)
+
+*lammps-20140314 (15 Mar 2014)
+
+  15 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140314.ebuild:
+  sci-physics/lammps-20140314: Version bump.
+
+*lammps-20140312 (12 Mar 2014)
+
+  12 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140312.ebuild:
+  sci-physics/lammps-20140312: Version bump.
+
+*lammps-20140310 (11 Mar 2014)
+
+  11 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140310.ebuild:
+  sci-physics/lammps-20140310: Version bump.
+
+*lammps-20140304 (06 Mar 2014)
+
+  06 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140304.ebuild:
+  sci-physics/lammps-20140304: Version bump.
+
+  04 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org> -lammps-20140122.ebuild,
+  -lammps-20140129.ebuild:
+  sci-physics/lammps: removing old versions now that 20140201 is stable.
+
+  03 Mar 2014; Pacho Ramos <pacho@gentoo.org> lammps-20140201.ebuild:
+  amd64 stable, bug #500564
+
+  01 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org> -lammps-20131201.ebuild,
+  -lammps-20131216.ebuild, -lammps-20131217.ebuild:
+  sci-physics/lammps: Removing old versions.
+
+*lammps-20140226 (01 Mar 2014)
+
+  01 Mar 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140226.ebuild:
+  sci-physics/lammps-20140226: Version bump.
+
+*lammps-20140214-r2 (27 Feb 2014)
+
+  27 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140214-r2.ebuild,
+  metadata.xml:
+  sci-physics/lammps-20140214-r2: Add Voronoi package.
+
+  19 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> lammps-20140214-r1.ebuild:
+  sci-physics/lammps-20140214-r1: Fixed some issues:  * Fixed file collision of
+  header files by installing them into /usr/include/lammps * Fixed missing .so
+  name by adding proper linker flag.
+
+*lammps-20140214-r1 (19 Feb 2014)
+
+  19 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140214-r1.ebuild,
+  lammps-20140214.ebuild:
+  sci-physics/lammps-20140214: Revision bump...
+
+  19 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> lammps-20140214.ebuild:
+  sci-physics/lammps-20140214: Change location of examples.
+
+  19 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> lammps-20140214.ebuild:
+  sci-physics/lammps-20140214: Install header files.
+
+  19 Feb 2014; Christoph Junghans <ottxor@gentoo.org> lammps-20140214.ebuild:
+  added static-libs use flag
+
+*lammps-20140214 (18 Feb 2014)
+
+  18 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140214.ebuild,
+  metadata.xml:
+  sci-physics/lammps-20140214: Version bump.  Removed the package related USE
+  flags. The packages are now always built.
+
+  18 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> lammps-20140212.ebuild:
+  sci-physics/lammps-20140212: Simplify USE flag logic.
+
+  15 Feb 2014; Christoph Junghans <ottxor@gentoo.org> lammps-20140212.ebuild:
+  fixed lammps-package-{mean,reax} logic
+
+*lammps-20140212 (14 Feb 2014)
+
+  14 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140212.ebuild,
+  metadata.xml:
+  sci-physics/lammps: Version bump to 20140212.  This ebuild now builds the
+  library version of lammps. I have also added the optional reax package.
+
+*lammps-20140201 (06 Feb 2014)
+
+  06 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140201.ebuild,
+  lammps-20131201.ebuild, lammps-20131216.ebuild, lammps-20131217.ebuild,
+  lammps-20140122.ebuild, lammps-20140129.ebuild:
+  sci-physics/lammps: Moved lammps-20140201 from sci overlay to portage.  This
+  version is considered "stable" by upstream, as opposed to the normal frequent
+  snapshot releases. I had originally placed the stable version in a new slot,
+  but after discussing this with ottxor, decided to move 20140201 back into slot
+  0 and open a stabilization request for it.
+
+  05 Feb 2014; Nicolas Bock <nicolasbock@gentoo.org> lammps-20140129.ebuild:
+  sci-physics/lammps: Trying to add blocker, ottxor beat me to it :)
+
+  05 Feb 2014; Christoph Junghans <ottxor@gentoo.org> lammps-20131201.ebuild,
+  lammps-20131216.ebuild, lammps-20131217.ebuild, lammps-20140122.ebuild,
+  lammps-20140129.ebuild:
+  block stable slot
+
+*lammps-20140122 (22 Jan 2014)
+
+  22 Jan 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20140122.ebuild:
+  sci-physics/lammps: Version bump.
+
+  02 Jan 2014; Nicolas Bock <nicolasbock@gentoo.org> -lammps-20130526.ebuild:
+  sci-physics/lammps: Removing old version.
+
+*lammps-20131217 (02 Jan 2014)
+
+  02 Jan 2014; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20131217.ebuild,
+  lammps-20131201.ebuild, lammps-20131216.ebuild:
+  sci-physics/lammps-20131217: Version bump.
+
+  22 Dec 2013; Christoph Junghans <ottxor@gentoo.org> lammps-20130526.ebuild,
+  lammps-20131201.ebuild, lammps-20131216.ebuild:
+  remove elog message
+
+*lammps-20131201 (17 Dec 2013)
+*lammps-20131216 (17 Dec 2013)
+
+  17 Dec 2013; Nicolas Bock <nicolasbock@gentoo.org> +lammps-20131201.ebuild,
+  +lammps-20131216.ebuild:
+  sci-physics/lammps: Adding recent versions of the code.
+
+  13 Dec 2013; Nicolas Bock <nicolasbock@gentoo.org> metadata.xml:
+  sci-physics/lammps: Updated maintainer email to gentoo.org
+
+*lammps-20130526 (26 Jun 2013)
+
+  26 Jun 2013; Christoph Junghans <ottxor@gentoo.org> +lammps-20130526.ebuild,
+  +metadata.xml:
+  initial import from sci overlay

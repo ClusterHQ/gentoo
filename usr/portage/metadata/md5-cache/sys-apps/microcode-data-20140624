@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Intel IA32 microcode update data
+EAPI=4
+HOMEPAGE=http://inertiawar.com/microcode/ https://downloadcenter.intel.com/Detail_Desc.aspx?DwnldID=23984
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=intel-ucode
+RDEPEND=!<sys-apps/microcode-ctl-1.17-r2
+SLOT=0
+SRC_URI=http://downloadmirror.intel.com/23984/eng/microcode-20140624.tgz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c960c2378a98bd265cb8de4d4c5ef50a

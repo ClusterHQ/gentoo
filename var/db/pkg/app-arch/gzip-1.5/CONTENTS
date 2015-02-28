@@ -1,0 +1,43 @@
+dir /home/core/gentoo/bin
+sym /home/core/gentoo/bin/uncompress -> gunzip 1410959610
+obj /home/core/gentoo/bin/zcat d36586ce4efb3556722cc3db296eaefd 1410959543
+obj /home/core/gentoo/bin/gunzip 44f4962ec7c084a812775c886962f2f5 1410959544
+obj /home/core/gentoo/bin/gzip 3cd59e6286cecc9353d1cc552a0c439a 1410959545
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/gzip-1.5
+obj /home/core/gentoo/usr/share/doc/gzip-1.5/README.bz2 f8289732da4e831bb660bb76ea3875fc 1410959544
+obj /home/core/gentoo/usr/share/doc/gzip-1.5/TODO.bz2 3b33c13afde39115bff0a3f2caa11178 1410959544
+obj /home/core/gentoo/usr/share/doc/gzip-1.5/NEWS.bz2 0c573f9c01873d515d97bcb511fbdc9a 1410959544
+obj /home/core/gentoo/usr/share/doc/gzip-1.5/ChangeLog.bz2 d8934f9757248614875e5f4c3c0de92f 1410959544
+obj /home/core/gentoo/usr/share/doc/gzip-1.5/THANKS.bz2 499e45c81d519bf807d9b1e7c6577cbd 1410959544
+dir /home/core/gentoo/usr/share/doc/gzip-1.5/txt
+obj /home/core/gentoo/usr/share/doc/gzip-1.5/txt/algorithm.doc.bz2 74030ade23bda4bf08d9e49862adef00 1410959544
+obj /home/core/gentoo/usr/share/doc/gzip-1.5/txt/gzip.doc.bz2 2df5f407fd6033b51d122d6708bf350b 1410959544
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/zcat.1 75206d5b43cee105871317c932cc3be7 1410959543
+obj /home/core/gentoo/usr/share/man/man1/zcmp.1 1420f6a43af2ee86d401a4c7b042bea7 1410959543
+obj /home/core/gentoo/usr/share/man/man1/zdiff.1.bz2 01f4f9af4b2ca803a183d687959f25e5 1410959543
+obj /home/core/gentoo/usr/share/man/man1/zmore.1.bz2 ca337e6a3d089de135d2c5115aaa8c74 1410959543
+obj /home/core/gentoo/usr/share/man/man1/gunzip.1 75206d5b43cee105871317c932cc3be7 1410959543
+obj /home/core/gentoo/usr/share/man/man1/gzip.1.bz2 4948d00e96fb3f7346e8453dd1712e95 1410959543
+obj /home/core/gentoo/usr/share/man/man1/zless.1.bz2 e0395a3aa13126615e4fbda091916a55 1410959543
+obj /home/core/gentoo/usr/share/man/man1/zforce.1.bz2 73c2b3f839babab08eb8456216324239 1410959543
+obj /home/core/gentoo/usr/share/man/man1/gzexe.1.bz2 7f44e2485bef446f16ad1dc743e0472b 1410959543
+obj /home/core/gentoo/usr/share/man/man1/znew.1.bz2 c9d99ef2f5241c65c407ecd3058ca736 1410959543
+obj /home/core/gentoo/usr/share/man/man1/zgrep.1.bz2 8a7bf874b9834d0845b13859de9a71a3 1410959543
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/gzip.info.bz2 9b5dcfc0fcacb4da4db78e0343da477e 1410959543
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/znew bbbf006bbc613352a61f05319b8b6184 1410959543
+obj /home/core/gentoo/usr/bin/zmore 91ffb9ea71fe1a54aad95eaffbf85b2c 1410959543
+obj /home/core/gentoo/usr/bin/zgrep 7fc7e9c2ad613eb1f579b59a2aaeed57 1410959543
+obj /home/core/gentoo/usr/bin/zfgrep 6adee118713e305040b83b38d4a92ea2 1410959543
+obj /home/core/gentoo/usr/bin/zforce 8392d553709a6e9faa8e779c5b96e6f1 1410959543
+obj /home/core/gentoo/usr/bin/zdiff 89502992b227298ea8a3d4d1b7aca171 1410959543
+obj /home/core/gentoo/usr/bin/gzexe 54bf5c6d36857f8a755739105d6ac75d 1410959543
+obj /home/core/gentoo/usr/bin/zcmp 8a38549de336a102e77714f6df4a773b 1410959543
+obj /home/core/gentoo/usr/bin/zegrep 689142116f05c89db733b628520aff23 1410959543
+obj /home/core/gentoo/usr/bin/zless 3b00b4a2bf1f843573f270b1ebae584c 1410959543

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=>=dev-libs/glib-2.4:2 >=gnome-base/nautilus-2.10 sys-devel/gettext virtual/pkgconfig app-arch/xz-utils >=sys-apps/sed-4
+DESCRIPTION=A nautilus plugin to easily share folders over the SMB protocol
+EAPI=4
+HOMEPAGE=http://gentoo.ovibes.net/nautilus-share http://packages.debian.org/unstable/nautilus-share
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.4:2 >=gnome-base/nautilus-2.10 net-fs/samba
+SLOT=0
+SRC_URI=mirror://debian/pool/main/n/nautilus-share/nautilus-share_0.7.3.orig.tar.bz2 mirror://debian/pool/main/n/nautilus-share/nautilus-share_0.7.3-1.debian.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	gnome.org	8fef8f967214f56e08fa92d61163d891	gnome2	9637c29fc715b17a6328f24251129557	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=99144bae2bfa029b89b85df507cbbaaa

@@ -1,0 +1,42 @@
+# ChangeLog for dev-ruby/heredoc_unindent
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/heredoc_unindent/ChangeLog,v 1.8 2014/08/15 14:24:14 blueness Exp $
+
+  15 Aug 2014; Anthony G. Basile <blueness@gentoo.org>
+  heredoc_unindent-1.1.2-r3.ebuild:
+  Keyword ~ppc ~ppc64, bug #511424
+
+  24 May 2014; Hans de Graaff <graaff@gentoo.org>
+  heredoc_unindent-1.1.2-r3.ebuild:
+  Fix tests with newer minitest. Add ruby21.
+
+  21 May 2014; Manuel Rüger <mrueg@gentoo.org> heredoc_unindent-1.1.2-r3.ebuild:
+  Remove ruby18 target.
+
+*heredoc_unindent-1.1.2-r3 (20 Nov 2013)
+
+  20 Nov 2013; Manuel Rüger <mrueg@gentoo.org>
+  +heredoc_unindent-1.1.2-r3.ebuild, -heredoc_unindent-1.1.2-r2.ebuild:
+  Add jruby target.
+
+  03 Nov 2013; Manuel Rüger <mrueg@gentoo.org>
+  -heredoc_unindent-1.1.2-r1.ebuild:
+  Cleanup old.
+
+*heredoc_unindent-1.1.2-r2 (04 Oct 2013)
+
+  04 Oct 2013; Manuel Rüger <mrueg@gentoo.org>
+  +heredoc_unindent-1.1.2-r2.ebuild:
+  Add ruby20 target.
+
+*heredoc_unindent-1.1.2-r1 (31 Jul 2013)
+
+  31 Jul 2013; Manuel Rüger <mrueg@gentoo.org>
+  +heredoc_unindent-1.1.2-r1.ebuild, -heredoc_unindent-1.1.2.ebuild:
+  Fix USE=doc
+
+*heredoc_unindent-1.1.2 (26 Jul 2013)
+
+  26 Jul 2013; Manuel Rüger <mrueg@gentoo.org> +heredoc_unindent-1.1.2.ebuild,
+  +metadata.xml:
+  Initial version, dependency of safe_yaml

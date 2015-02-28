@@ -1,0 +1,142 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/find-maint.info.bz2 280674719198614d0875cd3a239b2bba 1410959576
+obj /home/core/gentoo/usr/share/info/find.info-1.bz2 455dc64e61d80ce571b213b5af93d81a 1410959576
+obj /home/core/gentoo/usr/share/info/find.info-2.bz2 14e91cb825970755a9dcd255f88cccaf 1410959576
+obj /home/core/gentoo/usr/share/info/find.info.bz2 e32cb18c632fabc4f0893cbebc528427 1410959576
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/xargs.1.bz2 3542c62f69e5d1f17a4746c02fd08c21 1410959576
+obj /home/core/gentoo/usr/share/man/man1/find.1.bz2 f9ffb881a01c32fe93f6d748ae083bd9 1410959576
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/findutils-4.5.14-r1
+obj /home/core/gentoo/usr/share/doc/findutils-4.5.14-r1/THANKS.bz2 a047c651db69f078e739540a3d7b1202 1410959577
+obj /home/core/gentoo/usr/share/doc/findutils-4.5.14-r1/README-alpha.bz2 02d60bef6a551decfc3cc400a698b956 1410959576
+obj /home/core/gentoo/usr/share/doc/findutils-4.5.14-r1/README-hacking.bz2 63d3b650c506547e47df1c1d811ae3eb 1410959576
+obj /home/core/gentoo/usr/share/doc/findutils-4.5.14-r1/ChangeLog.bz2 c2cc234757167a802cd4f1a44578002e 1410959577
+obj /home/core/gentoo/usr/share/doc/findutils-4.5.14-r1/NEWS.bz2 62324cbfafc0a3c3a586ae3d7b9a0347 1410959577
+obj /home/core/gentoo/usr/share/doc/findutils-4.5.14-r1/README.bz2 1a6372aa64156554b5fb595aefa3d5df 1410959576
+obj /home/core/gentoo/usr/share/doc/findutils-4.5.14-r1/TODO.bz2 9f288e95a4466d0e21971884371a26a5 1410959577
+obj /home/core/gentoo/usr/share/doc/findutils-4.5.14-r1/AUTHORS.bz2 5d68bcfd3f1f89db4403a52643415011 1410959577
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/rw
+dir /home/core/gentoo/usr/share/locale/rw/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/rw/LC_MESSAGES/findutils.mo 82640bb6bb629accb40510cd05e31c86 1410959576
+dir /home/core/gentoo/usr/share/locale/cs
+dir /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES/findutils.mo 200592e2592adf328478632b2e952f64 1410959576
+dir /home/core/gentoo/usr/share/locale/lt
+dir /home/core/gentoo/usr/share/locale/lt/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/lt/LC_MESSAGES/findutils.mo 490ae797b309503bdf3f51bf834be962 1410959576
+dir /home/core/gentoo/usr/share/locale/lg
+dir /home/core/gentoo/usr/share/locale/lg/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/lg/LC_MESSAGES/findutils.mo 454ec70e34d3340ac2d7773a4a886589 1410959576
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/findutils.mo c6bdb68fcbbe70eb042ac72e48fae5eb 1410959576
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/findutils.mo 0cc15de02a416dcd4cd99d1b82696a52 1410959576
+dir /home/core/gentoo/usr/share/locale/nl
+dir /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES/findutils.mo 3938e62eae07231fc4c37c4dedf2d95a 1410959576
+dir /home/core/gentoo/usr/share/locale/ga
+dir /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES/findutils.mo 1885926c1344ec174a5313903a114baa 1410959576
+dir /home/core/gentoo/usr/share/locale/hr
+dir /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES/findutils.mo 92101177747684feca33ab3fe1dae753 1410959576
+dir /home/core/gentoo/usr/share/locale/bg
+dir /home/core/gentoo/usr/share/locale/bg/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/bg/LC_MESSAGES/findutils.mo c4ca136ce1645fcc6f2a6d8be88a8792 1410959576
+dir /home/core/gentoo/usr/share/locale/et
+dir /home/core/gentoo/usr/share/locale/et/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/et/LC_MESSAGES/findutils.mo 5b1f2c83e0e316a8529dfe19fa7e1e36 1410959576
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/findutils.mo e86680b09c934c94a97289c0d7c3caf1 1410959576
+dir /home/core/gentoo/usr/share/locale/es
+dir /home/core/gentoo/usr/share/locale/es/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/es/LC_MESSAGES/findutils.mo 12f85eaff272a3d26b6e59a34ad8832a 1410959576
+dir /home/core/gentoo/usr/share/locale/hu
+dir /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES/findutils.mo bbe32d82750598c67323363e07928b92 1410959576
+dir /home/core/gentoo/usr/share/locale/ms
+dir /home/core/gentoo/usr/share/locale/ms/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ms/LC_MESSAGES/findutils.mo ab3f6f9ff81d35a05c6d3893f1fb9d72 1410959576
+dir /home/core/gentoo/usr/share/locale/gl
+dir /home/core/gentoo/usr/share/locale/gl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/gl/LC_MESSAGES/findutils.mo f2a99eca430dd5b7442a5fdac269b570 1410959576
+dir /home/core/gentoo/usr/share/locale/ca
+dir /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES/findutils.mo 4d2994d43227fec18dcb29cd5d6ac3f4 1410959576
+dir /home/core/gentoo/usr/share/locale/it
+dir /home/core/gentoo/usr/share/locale/it/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/it/LC_MESSAGES/findutils.mo e9398f46477250774c274dcb4496c534 1410959576
+dir /home/core/gentoo/usr/share/locale/ro
+dir /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES/findutils.mo 6a6b4558cc357f3369fb045b9bdf3172 1410959576
+dir /home/core/gentoo/usr/share/locale/eo
+dir /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES/findutils.mo bc600d93335772bbe3c1833b888e5d8a 1410959576
+dir /home/core/gentoo/usr/share/locale/zh_TW
+dir /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES/findutils.mo bf2b1fd8eea9f6f91d80e750a289c3d9 1410959576
+dir /home/core/gentoo/usr/share/locale/sr
+dir /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES/findutils.mo 3fb0a0a6cd8bf1438a3860a933e7a8fd 1410959576
+dir /home/core/gentoo/usr/share/locale/sl
+dir /home/core/gentoo/usr/share/locale/sl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sl/LC_MESSAGES/findutils.mo 2ac9df23137c65b27b3b7855091d5d40 1410959576
+dir /home/core/gentoo/usr/share/locale/sk
+dir /home/core/gentoo/usr/share/locale/sk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sk/LC_MESSAGES/findutils.mo dd6b28417a655312a573e56476e084b1 1410959576
+dir /home/core/gentoo/usr/share/locale/tr
+dir /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES/findutils.mo ab9f7047604d4cc1dff00b3f33a928a5 1410959576
+dir /home/core/gentoo/usr/share/locale/be
+dir /home/core/gentoo/usr/share/locale/be/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/be/LC_MESSAGES/findutils.mo 4fe0895d3c1746222d9e4cd9f209b999 1410959576
+dir /home/core/gentoo/usr/share/locale/zh_CN
+dir /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES/findutils.mo 9ed6b17e6b27ded73034dcd687ac9651 1410959576
+dir /home/core/gentoo/usr/share/locale/da
+dir /home/core/gentoo/usr/share/locale/da/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/da/LC_MESSAGES/findutils.mo 1328c829b2fe1fc0753a5e1ca318b303 1410959576
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/findutils.mo 88957e02c221b2321ddcf925737f5bc7 1410959576
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/findutils.mo b10fc2d460d673922e072b6089fc3cc5 1410959576
+dir /home/core/gentoo/usr/share/locale/ja
+dir /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES/findutils.mo 2377fc387eb692213a6004a779b7432e 1410959576
+dir /home/core/gentoo/usr/share/locale/uk
+dir /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES/findutils.mo 5e25ab0ffb3cc88409fbeb9e12454584 1410959576
+dir /home/core/gentoo/usr/share/locale/el
+dir /home/core/gentoo/usr/share/locale/el/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/el/LC_MESSAGES/findutils.mo 3ecfb4a0196b0f750235357e9329dca6 1410959576
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/findutils.mo e455ab8dcfbe5e0bbb3d38dd37b2c243 1410959576
+dir /home/core/gentoo/usr/share/locale/sv
+dir /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES/findutils.mo ad268190f0e6884c2642df0ca7fc668c 1410959576
+dir /home/core/gentoo/usr/share/locale/ko
+dir /home/core/gentoo/usr/share/locale/ko/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ko/LC_MESSAGES/findutils.mo 4064e6ed79e95ab39d6eeac3380da90f 1410959576
+dir /home/core/gentoo/usr/share/locale/pt
+dir /home/core/gentoo/usr/share/locale/pt/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt/LC_MESSAGES/findutils.mo a137de420191200cf0c178af211138cb 1410959576
+dir /home/core/gentoo/usr/share/locale/ru
+dir /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES/findutils.mo 8edc35c35e7f70a881041a29957b1fb9 1410959576
+dir /home/core/gentoo/usr/share/locale/id
+dir /home/core/gentoo/usr/share/locale/id/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/id/LC_MESSAGES/findutils.mo 033e25d7b89befd755b713110d91d08b 1410959576
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/xargs f57f7711f79bb7adda895941f826b6d7 1410959577
+obj /home/core/gentoo/usr/bin/find 6e6d2b6bc0d220bf9a56d0f3d4dd28fe 1410959577

@@ -1,0 +1,20 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/symtree 427110fa61464b5fe7ec5846ba1f644e 1410960952
+obj /home/core/gentoo/usr/bin/pspax 6fd386f2fe4a0472b20964d0046f0027 1410960952
+obj /home/core/gentoo/usr/bin/dumpelf 0f5af132b990a7bb642c655840a8a578 1410960952
+obj /home/core/gentoo/usr/bin/scanmacho 65c514e1c844cd1670b2920037ebd60c 1410960952
+obj /home/core/gentoo/usr/bin/scanelf d8bd45d3b7e7a63a3e56a8d418ea4b40 1410960952
+obj /home/core/gentoo/usr/bin/lddtree a447d69eeba936e22f198d69f8de1702 1410960952
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/pax-utils-0.8.1
+obj /home/core/gentoo/usr/share/doc/pax-utils-0.8.1/BUGS.bz2 0b99c47ea222937bff1676459969839e 1410960952
+obj /home/core/gentoo/usr/share/doc/pax-utils-0.8.1/TODO.bz2 5daeb30ee0ae3c7ed3092134dafc88ff 1410960952
+obj /home/core/gentoo/usr/share/doc/pax-utils-0.8.1/README.bz2 20271379593ba4e5b1932d71eeea7910 1410960952
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/pspax.1.bz2 bcc1e45bf67e5ae6e18bb59166e9ee4b 1410960952
+obj /home/core/gentoo/usr/share/man/man1/scanelf.1.bz2 4f5bc29a09a5f99469cfe425174cb5e0 1410960952
+obj /home/core/gentoo/usr/share/man/man1/dumpelf.1.bz2 0694d0ffd6dea4e3761a192e2577fba0 1410960952
+obj /home/core/gentoo/usr/share/man/man1/scanmacho.1.bz2 07df350dcd459a74e083a71eb4ae7bf5 1410960952

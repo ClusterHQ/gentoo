@@ -1,0 +1,1 @@
+debug gnutls idn ipv6 nls ntlm pcre +ssl static uuid zlib

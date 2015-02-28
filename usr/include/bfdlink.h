@@ -1,0 +1,1 @@
+/home/core/gentoo///usr/lib/binutils/x86_64-pc-linux-gnu/2.24/include/bfdlink.h

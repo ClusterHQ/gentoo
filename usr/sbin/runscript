@@ -1,0 +1,4 @@
+#!/home/core/gentoo/bin/sh
+
+echo "runscript not supported by Gentoo Prefix Base System release 2.2" 1>&2
+exit 1

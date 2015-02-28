@@ -1,0 +1,12 @@
+# ChangeLog for media-sound/aucdtect
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-sound/aucdtect/ChangeLog,v 1.2 2014/09/05 11:27:29 ulm Exp $
+
+  05 Sep 2014; Ulrich Müller <ulm@gentoo.org> aucdtect-0.8.2.ebuild:
+  QA: Remove unnecessary dependency on emul-linux-x86-compat, bug 522002.
+
+*aucdtect-0.8.2 (29 Oct 2012)
+
+  29 Oct 2012; Ben de Groot <yngwin@gentoo.org> +aucdtect-0.8.2.ebuild,
+  +metadata.xml:
+  Initial commit from bug #320291 and #437554

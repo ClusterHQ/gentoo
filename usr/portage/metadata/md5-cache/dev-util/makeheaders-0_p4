@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=simple utility that will automatically generate header files
+EAPI=3
+HOMEPAGE=http://www.hwaci.com/sw/mkhdr/
+KEYWORDS=amd64 ~ppc ~sparc x86
+LICENSE=BSD-2
+SLOT=0
+SRC_URI=http://www.hwaci.com/sw/mkhdr/makeheaders.c -> makeheaders-0_p4.c http://www.hwaci.com/sw/mkhdr/makeheaders.html -> makeheaders-0_p4.html
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=3bb6763b79544ff13e3e7aa45a2689b3

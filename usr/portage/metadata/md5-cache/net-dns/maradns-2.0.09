@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare setup
+DEPEND=virtual/pkgconfig
+DESCRIPTION=A security-aware DNS server
+EAPI=5
+HOMEPAGE=http://www.maradns.org/
+IUSE=authonly ipv6
+KEYWORDS=amd64 ~mips ppc x86
+LICENSE=BSD-2
+SLOT=0
+SRC_URI=http://www.maradns.org/download/2.0/2.0.09/maradns-2.0.09.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=bb1357be4ebed996735bfb241e7f5574

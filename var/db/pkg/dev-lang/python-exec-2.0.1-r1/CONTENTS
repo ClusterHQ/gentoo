@@ -1,0 +1,9 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/python-exec-2.0.1-r1
+obj /home/core/gentoo/usr/share/doc/python-exec-2.0.1-r1/NEWS.bz2 765a4a7d8e75dd2f42a96c295404efe3 1410958924
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/python-exec
+obj /home/core/gentoo/usr/lib/python-exec/python-exec2 87c27b07314fd822ddfaf99213b1c568 1410958924
+obj /home/core/gentoo/usr/lib/python-exec/python-exec2-c 27790db4f7fb979446b6a9a2758acdd8 1410958925

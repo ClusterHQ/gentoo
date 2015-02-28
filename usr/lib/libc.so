@@ -1,0 +1,5 @@
+/* GNU ld script
+   Use the shared library, but some functions are only in
+   the static library, so try that secondarily.  */
+OUTPUT_FORMAT(elf64-x86-64)
+GROUP ( /home/core/gentoo/lib/libc.so.6 /home/core/gentoo/usr/lib/libc_nonshared.a  AS_NEEDED ( /home/core/gentoo/lib/ld-linux-x86-64.so.2 ) )

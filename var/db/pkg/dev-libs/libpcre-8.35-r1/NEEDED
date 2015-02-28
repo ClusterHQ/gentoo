@@ -1,0 +1,5 @@
+/home/core/gentoo/usr/bin/pcretest libreadline.so.6,libpcre.so.1,libpcreposix.so.0,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/pcregrep libz.so.1,libbz2.so.1,libpcre.so.1,libpcreposix.so.0,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/libpcreposix.so.0.0.2 libpcre.so.1,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/libpcre.so.1.2.3 libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/libpcrecpp.so.0.0.0 libpcre.so.1,libstdc++.so.6,libm.so.6,libc.so.6,libgcc_s.so.1

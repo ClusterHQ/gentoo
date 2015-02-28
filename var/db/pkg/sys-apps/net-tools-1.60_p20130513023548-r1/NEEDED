@@ -1,0 +1,12 @@
+/home/core/gentoo/sbin/ipmaddr libc.so.6
+/home/core/gentoo/sbin/plipconfig libc.so.6
+/home/core/gentoo/sbin/slattach libc.so.6
+/home/core/gentoo/sbin/mii-tool libc.so.6
+/home/core/gentoo/sbin/nameif libc.so.6
+/home/core/gentoo/sbin/arp libc.so.6
+/home/core/gentoo/sbin/rarp libc.so.6
+/home/core/gentoo/sbin/iptunnel libc.so.6
+/home/core/gentoo/bin/netstat libc.so.6
+/home/core/gentoo/bin/ifconfig libc.so.6
+/home/core/gentoo/bin/route libc.so.6
+/home/core/gentoo/bin/hostname libc.so.6

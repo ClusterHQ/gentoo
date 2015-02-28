@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare test
+DEPEND=<sys-devel/autogen-5.16 dev-libs/libdnet >=net-libs/libpcap-0.9 tcpdump? ( net-analyzer/tcpdump ) pcapnav? ( net-libs/libpcapnav )
+DESCRIPTION=replay saved tcpdump or snoop files at arbitrary speeds
+EAPI=2
+HOMEPAGE=http://tcpreplay.synfin.net/
+IUSE=debug pcapnav +tcpdump
+KEYWORDS=amd64 ~sparc x86
+LICENSE=BSD
+RDEPEND=<sys-devel/autogen-5.16 dev-libs/libdnet >=net-libs/libpcap-0.9 tcpdump? ( net-analyzer/tcpdump ) pcapnav? ( net-libs/libpcapnav )
+SLOT=0
+SRC_URI=mirror://sourceforge/tcpreplay/tcpreplay-3.4.4.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7773470985e00ddc2cb9c38d4f25fc48

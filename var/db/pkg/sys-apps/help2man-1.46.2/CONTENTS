@@ -1,0 +1,125 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/eo
+dir /home/core/gentoo/usr/share/man/eo/man1
+obj /home/core/gentoo/usr/share/man/eo/man1/help2man.1.bz2 6fd538760ac2db718fcb6a750a06e4e0 1410959621
+dir /home/core/gentoo/usr/share/man/sr
+dir /home/core/gentoo/usr/share/man/sr/man1
+obj /home/core/gentoo/usr/share/man/sr/man1/help2man.1.bz2 037666bc0f4c57963683e51350d85ef9 1410959621
+dir /home/core/gentoo/usr/share/man/pt_BR
+dir /home/core/gentoo/usr/share/man/pt_BR/man1
+obj /home/core/gentoo/usr/share/man/pt_BR/man1/help2man.1.bz2 171c974196b85b3b544edfba62ec02ac 1410959621
+dir /home/core/gentoo/usr/share/man/it
+dir /home/core/gentoo/usr/share/man/it/man1
+obj /home/core/gentoo/usr/share/man/it/man1/help2man.1.bz2 1d8fd6ff409f1b2759861cd90bd39c04 1410959621
+dir /home/core/gentoo/usr/share/man/ru
+dir /home/core/gentoo/usr/share/man/ru/man1
+obj /home/core/gentoo/usr/share/man/ru/man1/help2man.1.bz2 9fbb6d23ba5fcccb6421984aac726949 1410959621
+dir /home/core/gentoo/usr/share/man/fi
+dir /home/core/gentoo/usr/share/man/fi/man1
+obj /home/core/gentoo/usr/share/man/fi/man1/help2man.1.bz2 b8507f9f1bd7ee4bbc5123895daab343 1410959621
+dir /home/core/gentoo/usr/share/man/sv
+dir /home/core/gentoo/usr/share/man/sv/man1
+obj /home/core/gentoo/usr/share/man/sv/man1/help2man.1.bz2 f4177904117f7137804f447147289293 1410959621
+dir /home/core/gentoo/usr/share/man/el
+dir /home/core/gentoo/usr/share/man/el/man1
+obj /home/core/gentoo/usr/share/man/el/man1/help2man.1.bz2 1b6c697987f172338cec802117213889 1410959621
+dir /home/core/gentoo/usr/share/man/vi
+dir /home/core/gentoo/usr/share/man/vi/man1
+obj /home/core/gentoo/usr/share/man/vi/man1/help2man.1.bz2 a80bee9bce58044d3dbb2d361ac492cd 1410959621
+dir /home/core/gentoo/usr/share/man/de
+dir /home/core/gentoo/usr/share/man/de/man1
+obj /home/core/gentoo/usr/share/man/de/man1/help2man.1.bz2 60c1f84fcd47bbca2487a19778d162b7 1410959621
+dir /home/core/gentoo/usr/share/man/ja
+dir /home/core/gentoo/usr/share/man/ja/man1
+obj /home/core/gentoo/usr/share/man/ja/man1/help2man.1.bz2 455814f297401e10f4ef845160998e6a 1410959621
+dir /home/core/gentoo/usr/share/man/uk
+dir /home/core/gentoo/usr/share/man/uk/man1
+obj /home/core/gentoo/usr/share/man/uk/man1/help2man.1.bz2 3e6d5478882b9caf202be6b54458579c 1410959621
+dir /home/core/gentoo/usr/share/man/fr
+dir /home/core/gentoo/usr/share/man/fr/man1
+obj /home/core/gentoo/usr/share/man/fr/man1/help2man.1.bz2 f9a74dcc80cdcb45d657106616de69a2 1410959621
+dir /home/core/gentoo/usr/share/man/pl
+dir /home/core/gentoo/usr/share/man/pl/man1
+obj /home/core/gentoo/usr/share/man/pl/man1/help2man.1.bz2 45943fe01220e6f77cb41c32f83a2f56 1410959621
+dir /home/core/gentoo/usr/share/man/hu
+dir /home/core/gentoo/usr/share/man/hu/man1
+obj /home/core/gentoo/usr/share/man/hu/man1/help2man.1.bz2 860d547755fd83b8bc2fb65e03a54b1e 1410959621
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/help2man.1.bz2 0c14b090a53bca02a04ed3e0bf6c43b7 1410959621
+dir /home/core/gentoo/usr/share/man/hr
+dir /home/core/gentoo/usr/share/man/hr/man1
+obj /home/core/gentoo/usr/share/man/hr/man1/help2man.1.bz2 308432ca644dae50e6386bef827b8641 1410959621
+dir /home/core/gentoo/usr/share/man/nb
+dir /home/core/gentoo/usr/share/man/nb/man1
+obj /home/core/gentoo/usr/share/man/nb/man1/help2man.1.bz2 d83ffebd3488c4ab01146e12e08a3fb3 1410959621
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/help2man-1.46.2
+obj /home/core/gentoo/usr/share/doc/help2man-1.46.2/NEWS.bz2 b789302db0d98d12920472a6c75bb862 1410959622
+obj /home/core/gentoo/usr/share/doc/help2man-1.46.2/README.bz2 8129659a7970fcf38dd201990389cbc7 1410959622
+obj /home/core/gentoo/usr/share/doc/help2man-1.46.2/THANKS.bz2 4599d683dc4a3b584197deb91bbd9f4f 1410959622
+obj /home/core/gentoo/usr/share/doc/help2man-1.46.2/changelog.bz2 65838675dcc607c99edcd3ffa5a2251e 1410959622
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/hr
+dir /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES/help2man.mo 1fc20daa6d7b8ec8c4b1f8fb2aa76bbf 1410959621
+dir /home/core/gentoo/usr/share/locale/nb
+dir /home/core/gentoo/usr/share/locale/nb/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nb/LC_MESSAGES/help2man.mo 2c7679376bf35361e2b7fdbb47d9b860 1410959621
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/help2man.mo 8af1f8a860e5b7861f6d59efbc6207d9 1410959621
+dir /home/core/gentoo/usr/share/locale/hu
+dir /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES/help2man.mo 2001d2ff41d506065db861db9ef9a1aa 1410959621
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/help2man.mo d2ab9240b8c952fe83efdb8bd26d6f93 1410959621
+dir /home/core/gentoo/usr/share/locale/el
+dir /home/core/gentoo/usr/share/locale/el/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/el/LC_MESSAGES/help2man.mo 823fe8c425e98cf251ba4dd4af8ce232 1410959621
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/help2man.mo da0aeb1c9c4462302bdc289184d93741 1410959621
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/help2man.mo 496a48e4a8dfe7a68cf91db6cad40e18 1410959621
+dir /home/core/gentoo/usr/share/locale/ja
+dir /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES/help2man.mo c8be7e0a8a26841798ce39792aaf648e 1410959621
+dir /home/core/gentoo/usr/share/locale/uk
+dir /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES/help2man.mo 00a9697914d8a2156ca1260b2eed3f8a 1410959621
+dir /home/core/gentoo/usr/share/locale/ru
+dir /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES/help2man.mo edd53e64a7a73e871f991c9d8f96d0a4 1410959621
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/help2man.mo 944b133169d485c27ea72f768fa984c5 1410959621
+dir /home/core/gentoo/usr/share/locale/sv
+dir /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES/help2man.mo 62c780b7368e7fafe4cb5a18e8b2ec98 1410959621
+dir /home/core/gentoo/usr/share/locale/eo
+dir /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES/help2man.mo 18e1a13cc38d41c0a038a535c7bd9259 1410959621
+dir /home/core/gentoo/usr/share/locale/sr
+dir /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES/help2man.mo e8ff7e17d0a83b430f4af1374a6dad92 1410959621
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/help2man.mo 2ccd3deed4ab7c9edb186dd7d6cdd15a 1410959621
+dir /home/core/gentoo/usr/share/locale/it
+dir /home/core/gentoo/usr/share/locale/it/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/it/LC_MESSAGES/help2man.mo bc8f52fe34a71760595c670c0e08928f 1410959621
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/help2man-uk.info.bz2 9e28923c2f8a82c8c31409bab519b3ab 1410959622
+obj /home/core/gentoo/usr/share/info/help2man-pl.info.bz2 bffacdd695f70950eda3a60aa4ae3756 1410959622
+obj /home/core/gentoo/usr/share/info/help2man-fr.info.bz2 caff8255a2d82e2b64d2e21cdca1d8ef 1410959621
+obj /home/core/gentoo/usr/share/info/help2man.info.bz2 2bcf3f593e32932ced9a60fa11b23e86 1410959621
+obj /home/core/gentoo/usr/share/info/help2man-de.info.bz2 e98d101ba373c71e7d587c528d665a9f 1410959621
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/help2man
+obj /home/core/gentoo/usr/lib/help2man/bindtextdomain.so d066b19cc792dcf7eeef92080c49560c 1410959622
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/help2man 0e29fe8a66b700849372f88b48df4861 1410959621

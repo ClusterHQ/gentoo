@@ -1,0 +1,265 @@
+From a1b163f0d5d42c7e6e8f5a76c618276fad564b14 Mon Sep 17 00:00:00 2001
+From: Richard Yao <richard.yao@clusterhq.com>
+Date: Fri, 29 Aug 2014 11:53:09 -0400
+Subject: [PATCH 1/4] Kernel header installation should respect --prefix
+
+This is the upstream component of work that enables preliminary support
+for building Gentoo's ZFS packaging on other Linux systems via Gentoo
+Prefix.
+
+Signed-off-by: Richard Yao <richard.yao@clusterhq.com>
+---
+ Makefile.am                   | 4 ++--
+ include/Makefile.am           | 2 +-
+ include/linux/Makefile.am     | 2 +-
+ include/sys/Makefile.am       | 2 +-
+ include/sys/fm/Makefile.am    | 2 +-
+ include/sys/fm/fs/Makefile.am | 2 +-
+ include/sys/fs/Makefile.am    | 2 +-
+ 7 files changed, 8 insertions(+), 8 deletions(-)
+
+diff --git a/Makefile.am b/Makefile.am
+index 5f0ee64..49b417a 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -12,10 +12,10 @@ endif
+ if CONFIG_KERNEL
+ SUBDIRS += module
+ 
+-extradir = /usr/src/zfs-$(VERSION)
++extradir = @prefix@/src/zfs-$(VERSION)
+ extra_HEADERS = zfs.release.in zfs_config.h.in
+ 
+-kerneldir = /usr/src/zfs-$(VERSION)/$(LINUX_VERSION)
++kerneldir = @prefix@/src/zfs-$(VERSION)/$(LINUX_VERSION)
+ nodist_kernel_HEADERS = zfs.release zfs_config.h module/$(LINUX_SYMBOLS)
+ endif
+ 
+diff --git a/include/Makefile.am b/include/Makefile.am
+index 2e1c31a..a94cad5 100644
+--- a/include/Makefile.am
++++ b/include/Makefile.am
+@@ -29,6 +29,6 @@ libzfs_HEADERS = $(COMMON_H) $(USER_H)
+ endif
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/zfs-$(VERSION)/include
++kerneldir = @prefix@/src/zfs-$(VERSION)/include
+ kernel_HEADERS = $(COMMON_H) $(KERNEL_H)
+ endif
+diff --git a/include/linux/Makefile.am b/include/linux/Makefile.am
+index c2a7491..2ec428b 100644
+--- a/include/linux/Makefile.am
++++ b/include/linux/Makefile.am
+@@ -16,6 +16,6 @@ libzfs_HEADERS = $(COMMON_H) $(USER_H)
+ endif
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/zfs-$(VERSION)/include/linux
++kerneldir = @prefix@/src/zfs-$(VERSION)/include/linux
+ kernel_HEADERS = $(COMMON_H) $(KERNEL_H)
+ endif
+diff --git a/include/sys/Makefile.am b/include/sys/Makefile.am
+index 8f01660..a755b39 100644
+--- a/include/sys/Makefile.am
++++ b/include/sys/Makefile.am
+@@ -99,6 +99,6 @@ libzfs_HEADERS = $(COMMON_H) $(USER_H)
+ endif
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/zfs-$(VERSION)/include/sys
++kerneldir = @prefix@/src/zfs-$(VERSION)/include/sys
+ kernel_HEADERS = $(COMMON_H) $(KERNEL_H)
+ endif
+diff --git a/include/sys/fm/Makefile.am b/include/sys/fm/Makefile.am
+index 4dc5894..8bca5d8 100644
+--- a/include/sys/fm/Makefile.am
++++ b/include/sys/fm/Makefile.am
+@@ -16,6 +16,6 @@ libzfs_HEADERS = $(COMMON_H) $(USER_H)
+ endif
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/zfs-$(VERSION)/include/sys/fm
++kerneldir = @prefix@/src/zfs-$(VERSION)/include/sys/fm
+ kernel_HEADERS = $(COMMON_H) $(KERNEL_H)
+ endif
+diff --git a/include/sys/fm/fs/Makefile.am b/include/sys/fm/fs/Makefile.am
+index 76b525f..fdc9eb5 100644
+--- a/include/sys/fm/fs/Makefile.am
++++ b/include/sys/fm/fs/Makefile.am
+@@ -13,6 +13,6 @@ libzfs_HEADERS = $(COMMON_H) $(USER_H)
+ endif
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/zfs-$(VERSION)/include/sys/fm/fs
++kerneldir = @prefix@/src/zfs-$(VERSION)/include/sys/fm/fs
+ kernel_HEADERS = $(COMMON_H) $(KERNEL_H)
+ endif
+diff --git a/include/sys/fs/Makefile.am b/include/sys/fs/Makefile.am
+index c9fdf12..0859b9f 100644
+--- a/include/sys/fs/Makefile.am
++++ b/include/sys/fs/Makefile.am
+@@ -13,6 +13,6 @@ libzfs_HEADERS = $(COMMON_H) $(USER_H)
+ endif
+ 
+ if CONFIG_KERNEL
+-kerneldir = /usr/src/zfs-$(VERSION)/include/sys/fs
++kerneldir = @prefix@/src/zfs-$(VERSION)/include/sys/fs
+ kernel_HEADERS = $(COMMON_H) $(KERNEL_H)
+ endif
+
+From a413459424b00d90e0862e4927a98418c061e336 Mon Sep 17 00:00:00 2001
+From: Richard Yao <richard.yao@clusterhq.com>
+Date: Fri, 29 Aug 2014 13:09:52 -0400
+Subject: [PATCH 2/4] Search /usr/local/src for SPL Object Directory
+
+Since we changed the default location for the kernel headers to respect
+--prefix in the SPL, we must search that location to prevent user builds
+from breaking.
+
+Signed-off-by: Richard Yao <richard.yao@clusterhq.com>
+---
+ config/kernel.m4 | 14 ++++++++++----
+ 1 file changed, 10 insertions(+), 4 deletions(-)
+
+diff --git a/config/kernel.m4 b/config/kernel.m4
+index 67a4ef6..c4bedd5 100644
+--- a/config/kernel.m4
++++ b/config/kernel.m4
+@@ -272,10 +272,12 @@ AC_DEFUN([ZFS_AC_SPL], [
+ 	dnl # source directory.  In order of preference:
+ 	dnl #
+ 	splsrc0="/var/lib/dkms/spl/${VERSION}/build"
+-	splsrc1="/usr/src/spl-${VERSION}/${LINUX_VERSION}"
+-	splsrc2="/usr/src/spl-${VERSION}"
+-	splsrc3="../spl/"
+-	splsrc4="$LINUX"
++	splsrc1="/usr/local/src/spl-${VERSION}/${LINUX_VERSION}"
++	splsrc2="/usr/local/src/spl-${VERSION}"
++	splsrc3="/usr/src/spl-${VERSION}/${LINUX_VERSION}"
++	splsrc4="/usr/src/spl-${VERSION}"
++	splsrc5="../spl/"
++	splsrc6="$LINUX"
+ 
+ 	AC_MSG_CHECKING([spl source directory])
+ 	AS_IF([test -z "${splsrc}"], [
+@@ -289,6 +291,10 @@ AC_DEFUN([ZFS_AC_SPL], [
+ 			splsrc=$(readlink -f "${splsrc3}")
+ 		], [ test -e "${splsrc4}/spl.release.in" ], [
+ 			splsrc=${splsrc4}
++		], [ test -e "${splsrc5}/spl.release.in"], [
++			splsrc=$(readlink -f "${splsrc5}")
++		], [ test -e "${splsrc6}/spl.release.in" ], [
++			splsrc=${splsrc6}
+ 		], [
+ 			splsrc="[Not found]"
+ 		])
+
+From 9c8a54f7c83254b211162220e6a661180601de9b Mon Sep 17 00:00:00 2001
+From: Richard Yao <richard.yao@clusterhq.com>
+Date: Fri, 29 Aug 2014 14:16:41 -0400
+Subject: [PATCH 3/4] Make directory into which mount.zfs is installed
+ configurable
+
+Installing outside of the prefix is not permissible under Gentoo Prefix.
+The package manager will cause the installation process to fail if/when
+it sees this. I could script a workaround inside the ebuild, but it
+seemed to make more sense to make this more configurable.
+
+Signed-off-by: Richard Yao <richard.yao@clusterhq.com>
+---
+ cmd/mount_zfs/Makefile.am | 2 +-
+ config/mount-helper.m4    | 8 ++++++++
+ config/user.m4            | 1 +
+ 3 files changed, 10 insertions(+), 1 deletion(-)
+ create mode 100644 config/mount-helper.m4
+
+diff --git a/cmd/mount_zfs/Makefile.am b/cmd/mount_zfs/Makefile.am
+index e5f3d08..ec4aad7 100644
+--- a/cmd/mount_zfs/Makefile.am
++++ b/cmd/mount_zfs/Makefile.am
+@@ -8,7 +8,7 @@ DEFAULT_INCLUDES += \
+ # Ignore the prefix for the mount helper.  It must be installed in /sbin/
+ # because this path is hardcoded in the mount(8) for security reasons.
+ #
+-sbindir=/sbin
++sbindir=@mounthelperdir@
+ sbin_PROGRAMS = mount.zfs
+ 
+ mount_zfs_SOURCES = \
+diff --git a/config/mount-helper.m4 b/config/mount-helper.m4
+new file mode 100644
+index 0000000..216efc8
+--- /dev/null
++++ b/config/mount-helper.m4
+@@ -0,0 +1,8 @@
++AC_DEFUN([ZFS_AC_CONFIG_USER_MOUNT_HELPER], [
++	AC_ARG_WITH(mounthelper-dir,
++		AC_HELP_STRING([--with-mounthelper-dir=DIR],
++		[install mount.zfs in dir [[/sbin]]]),
++		mounthelperdir=$withval)
++
++	AC_SUBST(mounthelperdir)
++])
+diff --git a/config/user.m4 b/config/user.m4
+index d7ac3f2..7f79420 100644
+--- a/config/user.m4
++++ b/config/user.m4
+@@ -2,6 +2,7 @@ dnl #
+ dnl # Default ZFS user configuration
+ dnl #
+ AC_DEFUN([ZFS_AC_CONFIG_USER], [
++	ZFS_AC_CONFIG_USER_MOUNT_HELPER
+ 	ZFS_AC_CONFIG_USER_UDEV
+ 	ZFS_AC_CONFIG_USER_SYSTEMD
+ 	ZFS_AC_CONFIG_USER_SYSVINIT
+
+From ada6403cd01514e97aa1e2eb3f007f6ec2b4b0a9 Mon Sep 17 00:00:00 2001
+From: Richard Yao <richard.yao@clusterhq.com>
+Date: Thu, 18 Sep 2014 09:47:16 -0400
+Subject: [PATCH 4/4] Make systemd-modules-load.service file directory
+ configurable
+
+Installing outside of the prefix is not permissible under Gentoo Prefix.
+The package manager will cause the installation process to fail if/when
+it sees this. We could handle this by disabling systemd support on
+prefix because systemd does not check these paths, but the Gentoo
+Council decided that small files such as these should be installed.
+That means disabling systemd support on prefix is not an acceptable
+workaround. As a consequence, we need some way of control the directory
+into which these files are installed.
+
+Making this configurable increases our compliance with the
+freedesktop.org specification, which allows these files to be installed
+into /etc/modules-load.d:
+
+http://www.freedesktop.org/software/systemd/man/modules-load.d.html
+
+Signed-off-by: Richard Yao <richard.yao@clusterhq.com>
+---
+ config/user-systemd.m4 | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+diff --git a/config/user-systemd.m4 b/config/user-systemd.m4
+index 5988945..c2105ab 100644
+--- a/config/user-systemd.m4
++++ b/config/user-systemd.m4
+@@ -14,11 +14,17 @@ AC_DEFUN([ZFS_AC_CONFIG_USER_SYSTEMD], [
+ 		[install systemd preset files in dir [[/usr/lib/systemd/system-preset]]]),
+ 		systemdpresetdir=$withval,systemdpresetdir=/usr/lib/systemd/system-preset)
+ 
++	AC_ARG_WITH(systemdmodulesloaddir,
++		AC_HELP_STRING([--with-systemdmodulesloaddir=DIR],
++		[install systemd module load files into dir [[/usr/lib/modules-load.d]]]),
++		systemdmoduleloaddir=$withval,systemdmodulesloaddir=/usr/lib/modules-load.d)
++
++
+ 	AS_IF([test "x$enable_systemd" = xyes],
+ 		[
+ 		ZFS_INIT_SYSTEMD=systemd
+ 		ZFS_MODULE_LOAD=modules-load.d
+-		modulesloaddir=/usr/lib/modules-load.d
++		modulesloaddir=$systemdmodulesloaddir
+ 		])
+ 
+ 	AC_SUBST(ZFS_INIT_SYSTEMD)

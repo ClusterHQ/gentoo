@@ -1,0 +1,11 @@
+prefix=/home/core/gentoo/usr
+exec_prefix=/home/core/gentoo/usr
+libdir=/home/core/gentoo/usr/lib
+includedir=/home/core/gentoo/usr/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 18
+Libs: -L${libdir} -lkmod
+Libs.private:  -lz  
+Cflags: -I${includedir}

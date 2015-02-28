@@ -1,0 +1,25 @@
+# ChangeLog for dev-ruby/countdownlatch
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/countdownlatch/ChangeLog,v 1.5 2014/05/21 01:50:31 mrueg Exp $
+
+  21 May 2014; Manuel Rüger <mrueg@gentoo.org> countdownlatch-1.0.0-r1.ebuild,
+  countdownlatch-1.0.0.ebuild:
+  Remove ruby18 target.
+
+  28 Dec 2013; Hans de Graaff <graaff@gentoo.org>
+  countdownlatch-1.0.0-r1.ebuild:
+  Add ruby21.
+
+*countdownlatch-1.0.0-r1 (29 Oct 2013)
+
+  29 Oct 2013; Manuel Rüger <mrueg@gentoo.org> +countdownlatch-1.0.0-r1.ebuild:
+  Add ruby20 target.
+
+  26 Jul 2013; Manuel Rüger <mrueg@gentoo.org> countdownlatch-1.0.0.ebuild:
+  Silence repoman, fix DESC length. Update EAPI
+
+*countdownlatch-1.0.0 (04 Nov 2012)
+
+  04 Nov 2012; Hans de Graaff <graaff@gentoo.org> +countdownlatch-1.0.0.ebuild,
+  +metadata.xml:
+  Initial import. Forthcoming dependency for dev-ruby/adhearsion.

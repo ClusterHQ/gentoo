@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DEPEND=media-libs/freetype media-libs/libsdl[X,video,opengl] media-libs/openal sys-libs/zlib virtual/opengl crash-reporter? ( dev-qt/qtcore:4[ssl] dev-qt/qtgui:4 ) !static? ( media-libs/glew ) dev-libs/boost virtual/pkgconfig static? ( media-libs/glew[static-libs] ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) >=sys-apps/sed-4
+DESCRIPTION=Cross-platform port of Arx Fatalis, a first-person role-playing game
+EAPI=5
+HOMEPAGE=http://arx-libertatis.org/
+IUSE=c++0x debug +unity-build crash-reporter static tools
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=media-libs/freetype media-libs/libsdl[X,video,opengl] media-libs/openal sys-libs/zlib virtual/opengl crash-reporter? ( dev-qt/qtcore:4[ssl] dev-qt/qtgui:4 ) !static? ( media-libs/glew ) crash-reporter? ( sys-devel/gdb )
+SLOT=0
+SRC_URI=mirror://sourceforge/arx/arx-libertatis-1.1.1/arx-libertatis-1.1.1.tar.xz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=513908546cff76c52d794f38498eba26

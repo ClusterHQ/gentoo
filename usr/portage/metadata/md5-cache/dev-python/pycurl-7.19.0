@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare test
+DEPEND=>=net-misc/curl-7.19.0 =dev-lang/python-2*
+DESCRIPTION=python binding for curl/libcurl
+EAPI=3
+HOMEPAGE=http://pycurl.sourceforge.net/ http://pypi.python.org/pypi/pycurl
+IUSE=examples
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~x86-fbsd ~x86-interix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+LICENSE=LGPL-2.1
+RDEPEND=>=net-misc/curl-7.19.0 =dev-lang/python-2*
+SLOT=0
+SRC_URI=http://pycurl.sourceforge.net/download/pycurl-7.19.0.tar.gz
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6341d7a58cff726573011154f66b6e93

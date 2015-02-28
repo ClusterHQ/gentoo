@@ -1,0 +1,91 @@
+# ChangeLog for net-misc/lldpd
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-misc/lldpd/ChangeLog,v 1.17 2014/07/08 23:17:39 chutzpah Exp $
+
+*lldpd-0.7.9-r3 (08 Jul 2014)
+
+  08 Jul 2014; Patrick McLean <chutzpah@gentoo.org> -lldpd-0.7.9-r2.ebuild,
+  +lldpd-0.7.9-r3.ebuild, -files/lldpd-initd-2, +files/lldpd-initd-3:
+  Another revision bump, this one to fix the init script so the rundir gets
+  created properly.
+
+*lldpd-0.7.9-r2 (08 Jul 2014)
+
+  08 Jul 2014; Patrick McLean <chutzpah@gentoo.org> -lldpd-0.7.9.ebuild,
+  -lldpd-0.7.9-r1.ebuild, +lldpd-0.7.9-r2.ebuild,
+  +files/lldpd-0.7.9-seccomp-add-syscalls.patch:
+  Revision bump, add a patch to whitelist some more syscalls in seccomp and
+  remove the pidfile patch.
+
+*lldpd-0.7.9-r1 (07 Jul 2014)
+
+  07 Jul 2014; Patrick McLean <chutzpah@gentoo.org> +lldpd-0.7.9-r1.ebuild,
+  +files/lldpd-0.7.9-dont-fork-after-making-pidfile.patch,
+  +files/lldpd-initd-2:
+  Revision bump, add patch to make pidfile creation work properly with
+  privilege separation. Rework init script to be much more robust.
+
+*lldpd-0.7.9 (01 Jul 2014)
+
+  01 Jul 2014; Patrick McLean <chutzpah@gentoo.org> +lldpd-0.7.9.ebuild,
+  +files/lldpd.service:
+  Version bump. Add systemd unit (bug #515644).
+
+  03 Mar 2014; Pacho Ramos <pacho@gentoo.org> lldpd-0.7.6.ebuild:
+  amd64 stable, bug #495876
+
+  24 Feb 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> lldpd-0.7.6.ebuild:
+  x86 stable wrt bug #495876
+
+*lldpd-0.7.7 (21 Feb 2014)
+
+  21 Feb 2014; Patrick McLean <chutzpah@gentoo.org> +lldpd-0.7.7.ebuild,
+  +files/lldpd-0.7.7-fix-readline-wrapper.patch, metadata.xml:
+  Version bump (bug #501994), add seccomp USE flag.
+
+*lldpd-0.7.6 (05 Aug 2013)
+
+  05 Aug 2013; Patrick McLean <chutz@gentoo.org> +lldpd-0.7.6.ebuild,
+  +files/lldpd-0.7.6-include-unistd.patch:
+  Version bump. Add static-libs USE flag (bug #461724), remove unnecessary .la
+  files.
+
+  28 Mar 2013; Patrick McLean <chutzpah@gentoo.org> -lldpd-0.5.6.ebuild,
+  -lldpd-0.5.7.ebuild, lldpd-0.7.1.ebuild:
+  HOMEPAGE update (bug #463634). Clean out old versions.
+
+  14 Mar 2013; Agostino Sarubbo <ago@gentoo.org> lldpd-0.7.1.ebuild:
+  Stable for x86, wrt bug #461672
+
+  14 Mar 2013; Agostino Sarubbo <ago@gentoo.org> lldpd-0.7.1.ebuild:
+  Stable for amd64, wrt bug #461672
+
+  16 Jan 2013; Patrick McLean <chutzpah@gentoo.org> lldpd-0.7.1.ebuild:
+  Don't try to build docs unless the doc USE flag is enabled
+
+*lldpd-0.7.1 (15 Jan 2013)
+
+  15 Jan 2013; Patrick McLean <chutzpah@gentoo.org> +lldpd-0.7.1.ebuild,
+  metadata.xml:
+  Version bump (bug #452024). Add USE flags for building doxygen docs, and new
+  USE flags for JSON and readline support.
+
+*lldpd-0.5.7 (16 Oct 2012)
+
+  16 Oct 2012; Patrick McLean <chutzpah@gentoo.org> +lldpd-0.5.7.ebuild,
+  metadata.xml:
+  Version bump (bug #407867). Add USE flags for extra protocols supported by
+  lldpd.
+
+  08 Oct 2012; Diego E. Pettenò <flameeyes@gentoo.org> lldpd-0.5.6.ebuild:
+  Fix dependency on net-snmp as the new ebuilds don't have an extensible USE
+  flag any longer; also inherit user eclass for enewuser/enewgroup.
+
+  26 Feb 2012; Ulrich Müller <ulm@gentoo.org> lldpd-0.5.6.ebuild:
+  Fix LICENSE, lldpd is the same as ISC, bug 403973.
+
+*lldpd-0.5.6 (09 Feb 2012)
+
+  09 Feb 2012; Patrick McLean <chutzpah@gentoo.org> +files/lldpd-confd-1,
+  +files/lldpd-initd-1, +lldpd-0.5.6.ebuild, +metadata.xml:
+  added new package net-misc/lldpd

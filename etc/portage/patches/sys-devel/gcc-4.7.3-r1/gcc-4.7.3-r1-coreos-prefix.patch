@@ -1,0 +1,55 @@
+diff --git a/gcc/config/gnu-user.h b/gcc/config/gnu-user.h
+index cb45749..26da6d7 100644
+--- a/gcc/config/gnu-user.h
++++ b/gcc/config/gnu-user.h
+@@ -43,11 +43,11 @@ see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
+    
+ #if defined HAVE_LD_PIE
+ #define GNU_USER_TARGET_STARTFILE_SPEC \
+-  "%{!shared: %{pg|p|profile:gcrt1.o%s;pie:Scrt1.o%s;:crt1.o%s}} \
++  "%{!shared: %{pg|p|profile:gcrt1.o%s;pie:Scrt1.o%s;:/home/core/gentoo/usr/lib/crt1.o%s}} \
+    crti.o%s %{static:crtbeginT.o%s;shared|pie:crtbeginS.o%s;:crtbegin.o%s}"
+ #else
+ #define GNU_USER_TARGET_STARTFILE_SPEC \
+-  "%{!shared: %{pg|p|profile:gcrt1.o%s;:crt1.o%s}} \
++  "%{!shared: %{pg|p|profile:gcrt1.o%s;:/home/core/gentoo/usr/lib/crt1.o%s}} \
+    crti.o%s %{static:crtbeginT.o%s;shared|pie:crtbeginS.o%s;:crtbegin.o%s}"
+ #endif
+ #undef  STARTFILE_SPEC
+diff --git a/gcc/config/i386/gnu-user.h b/gcc/config/i386/gnu-user.h
+index 91318a4..bcd471c 100644
+--- a/gcc/config/i386/gnu-user.h
++++ b/gcc/config/i386/gnu-user.h
+@@ -112,7 +112,7 @@ along with GCC; see the file COPYING3.  If not see
+    %{mpc32:crtprec32.o%s} \
+    %{mpc64:crtprec64.o%s} \
+    %{mpc80:crtprec80.o%s} \
+-   %{shared|pie:crtendS.o%s;:crtend.o%s} crtn.o%s"
++   %{shared|pie:crtendS.o%s;:crtend.o%s} /home/core/gentoo/usr/lib/crtn.o%s"
+ 
+ /* A C statement (sans semicolon) to output to the stdio stream
+    FILE the assembler definition of uninitialized global DECL named
+diff --git a/gcc/config/i386/gnu-user64.h b/gcc/config/i386/gnu-user64.h
+index fd96df4..e75052c 100644
+--- a/gcc/config/i386/gnu-user64.h
++++ b/gcc/config/i386/gnu-user64.h
+@@ -92,7 +92,7 @@ see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
+    %{mpc32:crtprec32.o%s} \
+    %{mpc64:crtprec64.o%s} \
+    %{mpc80:crtprec80.o%s} \
+-   %{shared|pie:crtendS.o%s;:crtend.o%s} crtn.o%s"
++   %{shared|pie:crtendS.o%s;:crtend.o%s} /home/core/gentoo/usr/lib/crtn.o%s"
+ 
+ #if TARGET_64BIT_DEFAULT
+ #define MULTILIB_DEFAULTS { "m64" }
+diff --git a/gcc/config/i386/linux64.h b/gcc/config/i386/linux64.h
+index 5b0a212..fee95bf 100644
+--- a/gcc/config/i386/linux64.h
++++ b/gcc/config/i386/linux64.h
+@@ -29,5 +29,5 @@ see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
+ #define GNU_USER_LINK_EMULATIONX32 "elf32_x86_64"
+ 
+ #define GLIBC_DYNAMIC_LINKER32 "/lib/ld-linux.so.2"
+-#define GLIBC_DYNAMIC_LINKER64 "/lib64/ld-linux-x86-64.so.2"
++#define GLIBC_DYNAMIC_LINKER64 "/home/core/gentoo/usr/lib/ld-linux-x86-64.so.2"
+ #define GLIBC_DYNAMIC_LINKERX32 "/libx32/ld-linux-x32.so.2"

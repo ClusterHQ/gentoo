@@ -1,0 +1,97 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/lex -> flex 1410959533
+obj /home/core/gentoo/usr/bin/flex 1284a7c3333abac967373575ae94cf41 1410959530
+sym /home/core/gentoo/usr/bin/flex++ -> flex 1410959533
+dir /home/core/gentoo/usr/lib
+obj /home/core/gentoo/usr/lib/libfl_pic.a e109c4fcbfaf3a39f0252a644cde62b1 1410959530
+obj /home/core/gentoo/usr/lib/libfl.a e109c4fcbfaf3a39f0252a644cde62b1 1410959530
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/flex.1.bz2 04f41baae450a39331232b35e14aa59d 1410959527
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/flex-2.5.39-r1
+obj /home/core/gentoo/usr/share/doc/flex-2.5.39-r1/NEWS.bz2 fc8f983068dd4bb3f5e660c6db851b2d 1410959529
+obj /home/core/gentoo/usr/share/doc/flex-2.5.39-r1/AUTHORS.bz2 6c84e299a94ac991be7ad59f73f9346b 1410959529
+obj /home/core/gentoo/usr/share/doc/flex-2.5.39-r1/README.bz2 1cf128fea9ebacb9f3eda36cdb746b5a 1410959529
+obj /home/core/gentoo/usr/share/doc/flex-2.5.39-r1/TODO.bz2 17392a907bc68533622ba13e80bb4f3e 1410959529
+obj /home/core/gentoo/usr/share/doc/flex-2.5.39-r1/THANKS.bz2 98d4ac560e01bafefdf660d044a08a63 1410959529
+obj /home/core/gentoo/usr/share/doc/flex-2.5.39-r1/ONEWS.bz2 6b292c62a2bc5b7bba1c59cff8ce856d 1410959529
+obj /home/core/gentoo/usr/share/doc/flex-2.5.39-r1/ChangeLog.bz2 67a5c4fe430dfaafddd71f6aa8386e77 1410959529
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/flex.info-2.bz2 9e16bd95b4cced69cc666ce40e81517a 1410959527
+obj /home/core/gentoo/usr/share/info/flex.info.bz2 9dfca53453e27b240c351fe0afde1fa0 1410959527
+obj /home/core/gentoo/usr/share/info/flex.info-1.bz2 fb94927bd94f175c20c68a647ec82d31 1410959527
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/es
+dir /home/core/gentoo/usr/share/locale/es/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/es/LC_MESSAGES/flex.mo 7adda09b2e785d41f90fdd42b2b27cbf 1410959527
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/flex.mo 10be3bac2fe2b3b2a284b2a15cda0170 1410959527
+dir /home/core/gentoo/usr/share/locale/en@boldquot
+dir /home/core/gentoo/usr/share/locale/en@boldquot/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/en@boldquot/LC_MESSAGES/flex.mo 16400f1ac73f20d3f4b46a4e98f63d03 1410959527
+dir /home/core/gentoo/usr/share/locale/ga
+dir /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES/flex.mo 3e34ce5d668c022eb06d8880c30bb349 1410959527
+dir /home/core/gentoo/usr/share/locale/hr
+dir /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES/flex.mo 4f6e7326edd863c8ddd60d8f6c247d3b 1410959527
+dir /home/core/gentoo/usr/share/locale/zh_CN
+dir /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES/flex.mo 98f9bc70355a9a80781465c416c6348a 1410959527
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/flex.mo bf768809f59e3f0a1a3205d38ce611b5 1410959527
+dir /home/core/gentoo/usr/share/locale/nl
+dir /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES/flex.mo 40bda47e8063e87d719649ecd582068c 1410959527
+dir /home/core/gentoo/usr/share/locale/zh_TW
+dir /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES/flex.mo 03ee79dd0bed017b02dece16a3c16e5d 1410959527
+dir /home/core/gentoo/usr/share/locale/sv
+dir /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES/flex.mo 1bf7d79f591a462551348c26ad9bec9e 1410959527
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/flex.mo db6a1c14565c217e45cd0eda31487084 1410959527
+dir /home/core/gentoo/usr/share/locale/ko
+dir /home/core/gentoo/usr/share/locale/ko/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ko/LC_MESSAGES/flex.mo 204b60112f58c0ccd133f97834920234 1410959527
+dir /home/core/gentoo/usr/share/locale/ru
+dir /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES/flex.mo a3af8b45b09a35d56351a6d6df5f1689 1410959527
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/flex.mo b653fedb761d734f3627407a80145b03 1410959527
+dir /home/core/gentoo/usr/share/locale/en@quot
+dir /home/core/gentoo/usr/share/locale/en@quot/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/en@quot/LC_MESSAGES/flex.mo e3b7a2ab989ed17922182e4205a1aa9c 1410959527
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/flex.mo c1a42b9e34b03be34cd1d00a99076324 1410959527
+dir /home/core/gentoo/usr/share/locale/tr
+dir /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES/flex.mo e729eee31dba0715bf5e38ba9c0ad400 1410959527
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/flex.mo 5cf2c5780bcfe2b26f64006b8d6f631a 1410959527
+dir /home/core/gentoo/usr/share/locale/da
+dir /home/core/gentoo/usr/share/locale/da/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/da/LC_MESSAGES/flex.mo 3220844d7c619b882bd39c8dbcbbc259 1410959527
+dir /home/core/gentoo/usr/share/locale/ca
+dir /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES/flex.mo d8eac75cc06aa798f5835325e6ece7e8 1410959527
+dir /home/core/gentoo/usr/share/locale/ro
+dir /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES/flex.mo 0bfe4ce25d087d17ca3bf82f99e98871 1410959527
+dir /home/core/gentoo/usr/share/locale/eo
+dir /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES/flex.mo 67d47c50ec1c21d1f14804f3c267f2df 1410959527
+dir /home/core/gentoo/usr/share/locale/sr
+dir /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES/flex.mo 68f8cd594eae8867290012122507f164 1410959527
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/FlexLexer.h 09b454bc31eefe6c9c7ed6d172d4dde3 1410959526

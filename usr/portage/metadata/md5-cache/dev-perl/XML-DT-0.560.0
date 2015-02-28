@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/libwww-perl-1.35 >=dev-perl/XML-LibXML-1.60 >=dev-perl/XML-DTDParser-2.00 test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage ) || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+DESCRIPTION=A perl XML down translate module
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/XML-DT/
+IUSE=test
+KEYWORDS=alpha amd64 hppa ppc x86
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=>=dev-perl/libwww-perl-1.35 >=dev-perl/XML-LibXML-1.60 >=dev-perl/XML-DTDParser-2.00 || ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AM/AMBS/XML/XML-DT-0.56.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	a6a2d5c77bdaeba2794b167689cafb7a	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=9ac327c3559ad721e05bd0720c3ba66d

@@ -1,0 +1,24 @@
+dir /home/core/gentoo/sbin
+obj /home/core/gentoo/sbin/installkernel 494332d5b6532ed2d487bb92a2d5a8c8 1410959923
+dir /home/core/gentoo/etc
+dir /home/core/gentoo/etc/kernel
+dir /home/core/gentoo/etc/kernel/postinst.d
+obj /home/core/gentoo/etc/kernel/postinst.d/.keep_sys-apps_debianutils-0 d41d8cd98f00b204e9800998ecf8427e 1410959922
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/tempfile.1.bz2 d8cfb575721d45c3b41398f4b710234f 1410959922
+dir /home/core/gentoo/usr/share/man/man8
+obj /home/core/gentoo/usr/share/man/man8/installkernel.8.bz2 431b9edd0b9b58f91ffc52c3e4c309e0 1410959922
+obj /home/core/gentoo/usr/share/man/man8/savelog.8.bz2 a5e04d21d261d9913dfe16c2fe13864f 1410959922
+obj /home/core/gentoo/usr/share/man/man8/run-parts.8.bz2 3f4094e0427341993e486ee231f601d8 1410959922
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/debianutils-4.3.4
+obj /home/core/gentoo/usr/share/doc/debianutils-4.3.4/control.bz2 9dd48bff72f32a29e6aa10565e57491d 1410959922
+obj /home/core/gentoo/usr/share/doc/debianutils-4.3.4/changelog.bz2 208a7be57ea829c4cdfb773840984448 1410959922
+dir /home/core/gentoo/usr/sbin
+obj /home/core/gentoo/usr/sbin/savelog b9cff0db0fda832bc79e9575dc1d62ed 1410959923
+dir /home/core/gentoo/bin
+obj /home/core/gentoo/bin/tempfile 4772db0f7340d8ca21e6e981a234b3ae 1410959923
+obj /home/core/gentoo/bin/run-parts aaaba4f489df24fd1f971604d696056a 1410959923

@@ -1,0 +1,20 @@
+# ChangeLog for dev-java/svgsalamander
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-java/svgsalamander/ChangeLog,v 1.3 2014/03/08 16:06:04 tomwij Exp $
+
+*svgsalamander-0.0-r1 (08 Mar 2014)
+
+  08 Mar 2014; Tom Wijsman <TomWij@gentoo.org> +svgsalamander-0.0-r1.ebuild,
+  -svgsalamander-0.0.ebuild:
+  Revision bump. EAPI 5.
+
+  29 Jan 2008; Miroslav Šulc <fordfrog@gentoo.org>
+  svgsalamander-0.0.ebuild:
+  ~amd64 keyword added
+
+*svgsalamander-0.0 (28 Jan 2008)
+
+  28 Jan 2008; Petteri Räty <betelgeuse@gentoo.org> +metadata.xml,
+  +svgsalamander-0.0.ebuild:
+  Initial addition. Needed for dev-java/flyingsaucer. Fixes bug #207928.
+  Ebuild written by me.

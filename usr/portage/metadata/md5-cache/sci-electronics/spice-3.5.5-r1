@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-libs/ncurses x11-libs/libXaw >=app-misc/editor-wrapper-3 x11-proto/xproto
+DESCRIPTION=general-purpose circuit simulation program
+HOMEPAGE=http://bwrc.eecs.berkeley.edu/Classes/IcBook/SPICE/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=BSD
+RDEPEND=sys-libs/ncurses x11-libs/libXaw >=app-misc/editor-wrapper-3
+SLOT=0
+SRC_URI=http://www.ibiblio.org/pub/Linux/apps/circuits/spice3f5sfix.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=afe89b7a0fd2dc963607e7e2bae4fa4d

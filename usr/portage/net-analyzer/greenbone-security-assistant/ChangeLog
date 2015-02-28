@@ -1,0 +1,40 @@
+# ChangeLog for net-analyzer/greenbone-security-assistant
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-analyzer/greenbone-security-assistant/ChangeLog,v 1.7 2014/06/19 13:38:01 hanno Exp $
+
+*greenbone-security-assistant-5.0.1 (19 Jun 2014)
+
+  19 Jun 2014; Hanno Boeck <hanno@gentoo.org>
+  +greenbone-security-assistant-5.0.1.ebuild:
+  Bump.
+
+*greenbone-security-assistant-4.0.2 (10 Nov 2013)
+
+  10 Nov 2013; Hanno Boeck <hanno@gentoo.org>
+  +greenbone-security-assistant-4.0.2.ebuild:
+  Bump.
+
+  15 Sep 2013; Markus Meier <maekke@gentoo.org>
+  greenbone-security-assistant-4.0.1.ebuild:
+  add ~arm, bug #389453
+
+*greenbone-security-assistant-4.0.1 (01 Jul 2013)
+
+  01 Jul 2013; Hanno Boeck <hanno@gentoo.org>
+  +greenbone-security-assistant-4.0.1.ebuild:
+  Bump, EAPI 5 port, remove old workarounds.
+
+  04 May 2012; Jeff Horelick <jdhore@gentoo.org>
+  greenbone-security-assistant-2.0.1.ebuild:
+  dev-util/pkgconfig -> virtual/pkgconfig
+
+  27 Mar 2012; Tomáš Chvátal <scarabeus@gentoo.org> files/gsad,
+  greenbone-security-assistant-2.0.1.ebuild:
+  Do not build with werror. Use cmake-utils eclass properly. Fix header line in
+  the initscript. Bug found in Sabayon.
+
+*greenbone-security-assistant-2.0.1 (09 Oct 2011)
+
+  09 Oct 2011; Hanno Boeck <hanno@gentoo.org>
+  +greenbone-security-assistant-2.0.1.ebuild, +files/gsad, +metadata.xml:
+  Initial commit of Greenbone Security Assistant, part of openvas.

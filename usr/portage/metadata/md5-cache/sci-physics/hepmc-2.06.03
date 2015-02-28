@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=doc? ( app-doc/doxygen )
+DESCRIPTION=Event Record for Monte Carlo Generators
+EAPI=2
+HOMEPAGE=https://savannah.cern.ch/projects/hepmc/
+IUSE=doc examples gev cm static-libs
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://lcgapp.cern.ch/project/simu/HepMC/download/HepMC-2.06.03.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=1b415bcfb149817c4ef10eb0d526e9a6

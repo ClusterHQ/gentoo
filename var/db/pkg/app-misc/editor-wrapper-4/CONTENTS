@@ -1,0 +1,4 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/libexec
+obj /home/core/gentoo/usr/libexec/editor 7505251d2dcb944d5b04552137133aee 1410958909
+obj /home/core/gentoo/usr/libexec/pager 8bfcf1746cac58eabeb8217c3a72b65b 1410958909

@@ -1,0 +1,8 @@
+PATCH: /home/core/gentoo/usr/portage/sys-devel/gcc-config/files/gcc-config-prefix-1.8-r221.patch
+CMD: patch -p2 -g0 -E --no-backup-if-mismatch 
+PWD: /home/core/gentoo/var/tmp/portage/sys-devel/gcc-config-1.8-r00.1/work/gcc-config-1.8
+
+PATCH: /home/core/gentoo/usr/portage/sys-devel/gcc-config/files/gcc-config-1.8-copy-gcc-libs.patch
+CMD: patch -p1 -g0 -E --no-backup-if-mismatch 
+PWD: /home/core/gentoo/var/tmp/portage/sys-devel/gcc-config-1.8-r00.1/work/gcc-config-1.8
+

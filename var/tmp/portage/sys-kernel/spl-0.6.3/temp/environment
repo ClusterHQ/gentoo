@@ -1,0 +1,5353 @@
+declare -x ABI="amd64"
+declare -x ABI_X86="64"
+declare -a ALL_AUTOTOOLS_MACROS='([0]="AC_PROG_LIBTOOL" [1]="AM_PROG_LIBTOOL" [2]="LT_INIT" [3]="AC_CONFIG_HEADERS" [4]="AC_CONFIG_HEADER" [5]="AM_CONFIG_HEADERS" [6]="AM_CONFIG_HEADER" [7]="AC_CONFIG_SUBDIRS" [8]="AC_CONFIG_AUX_DIR" [9]="AC_CONFIG_MACRO_DIR" [10]="AM_INIT_AUTOMAKE" [11]="AM_GLIB_GNU_GETTEXT" [12]="AM_GNU_GETTEXT_VERSION" [13]="AC_PROG_INTLTOOL" [14]="IT_PROG_INTLTOOL" [15]="GTK_DOC_CHECK" [16]="GNOME_DOC_INIT")'
+declare -x ALSA_CARDS=""
+declare -x APACHE2_MODULES="authn_core authz_core socache_shmcb unixd actions alias auth_basic authn_alias authn_anon authn_dbm authn_default authn_file authz_dbm authz_default authz_groupfile authz_host authz_owner authz_user autoindex cache cgi cgid dav dav_fs dav_lock deflate dir disk_cache env expires ext_filter file_cache filter headers include info log_config logio mem_cache mime mime_magic negotiation rewrite setenvif speling status unique_id userdir usertrack vhost_alias"
+declare -x ARCH="amd64"
+declare -- AT_M4DIR="config"
+declare -- AT_SYS_M4DIR=""
+declare -- AUTOTOOLS_AUTORECONF="1"
+declare -- AUTOTOOLS_AUTO_DEPEND="yes"
+declare -- AUTOTOOLS_DEPEND="!<sys-devel/gettext-0.18.1.1-r3
+	|| ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14  )
+	>=sys-devel/autoconf-2.68
+	sys-devel/libtool"
+declare -- AUTOTOOLS_IN_SOURCE_BUILD="1"
+declare -x BOOTSTRAP_USE="cxx unicode internal-glib python_targets_python3_3 python_targets_python2_7 multilib multilib"
+declare -x CALLIGRA_FEATURES="kexi words flow plan sheets stage tables krita karbon braindump author"
+declare -x CAMERAS="ptp2"
+declare -x CBUILD="x86_64-pc-linux-gnu"
+declare -x CFLAGS="-O2 -pipe -O2 -pipe"
+declare -x CFLAGS_amd64="-m64"
+declare -x CFLAGS_default
+declare -x CFLAGS_x32="-mx32"
+declare -x CFLAGS_x86="-m32"
+declare -x CHOST="x86_64-pc-linux-gnu"
+declare -x CHOST_amd64="x86_64-pc-linux-gnu"
+declare -x CHOST_default="x86_64-pc-linux-gnu"
+declare -x CHOST_x32="x86_64-pc-linux-gnux32"
+declare -x CHOST_x86="i686-pc-linux-gnu"
+declare -x COLLECTD_PLUGINS="df interface irq load memory rrdtool swap syslog"
+declare -- COMMON_DEPEND="dev-lang/perl
+	virtual/awk"
+declare -x CONFIGURE_EPREFIX="/home/core/gentoo"
+declare -- CONFIG_CHECK="
+		!DEBUG_LOCK_ALLOC
+		!GRKERNSEC_HIDESYM
+		MODULES
+		KALLSYMS
+		!PAX_KERNEXEC_PLUGIN_METHOD_OR
+		ZLIB_DEFLATE
+		ZLIB_INFLATE
+	"
+declare -x CONFIG_SHELL="/home/core/gentoo/bin/bash"
+declare -x CTARGET_default="x86_64-pc-linux-gnu"
+declare -x CXXFLAGS="-O2 -pipe -O2 -pipe"
+declare -x DEFAULT_ABI="amd64"
+declare -x DEFINED_PHASES=" compile configure install postinst postrm preinst prepare setup test"
+declare DEPEND="dev-lang/perl
+	virtual/awk  kernel_linux? ( virtual/modutils ) 
+     
+	sys-apps/sed
+	kernel_linux? ( virtual/linux-sources )
+	 !<sys-devel/gettext-0.18.1.1-r3
+	|| ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14  )
+	>=sys-devel/autoconf-2.68
+	sys-devel/libtool"
+declare DESCRIPTION="The Solaris Porting Layer is a Linux kernel module which provides many of the Solaris kernel APIs"
+declare -x DESTTREE="/usr"
+declare -x DIROPTIONS="-m0755"
+declare -x EAPI="4"
+declare -- EBUILD_DEATH_HOOKS=" "
+declare -x ELIBC="glibc"
+declare -x ELT_APPLIED_PATCHES=""
+declare -- EPATCH_COMMON_OPTS="-g0 -E --no-backup-if-mismatch"
+declare -- EPATCH_EXCLUDE=""
+declare -- EPATCH_FORCE="no"
+declare -- EPATCH_MULTI_MSG="Applying various patches (bugfixes/updates) ..."
+declare -- EPATCH_OPTS=""
+declare -- EPATCH_SINGLE_MSG=""
+declare -- EPATCH_SOURCE="/home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/patch"
+declare -- EPATCH_SUFFIX="patch.bz2"
+declare -x EXEOPTIONS="-m0755"
+declare -x EXTRA_ECONF="--with-linux=/home/core/kernel-coreos-3.16.2"
+declare -x FCFLAGS="-O2 -pipe"
+declare -x FETCHCOMMAND_SSH="bash -c \"x=\\\${2#ssh://} ; host=\\\${x%%/*} ; port=\\\${host##*:} ; host=\\\${host%:*} ; [[ \\\${host} = \\\${port} ]] && port=22 ; exec rsync --rsh=\\\"ssh -p\\\${port} \\\${3}\\\" -avP \\\"\\\${host}:/\\\${x#*/}\\\" \\\"\\\$1\\\"\" rsync \"\${DISTDIR}/\${FILE}\" \"\${URI}\" \"\${PORTAGE_SSH_OPTS}\""
+declare -x FFLAGS="-O2 -pipe"
+declare -x GCC_SPECS=""
+declare -x GPSD_PROTOCOLS="ashtech aivdm earthmate evermore fv18 garmin garmintxt gpsclock itrax mtk3301 nmea ntrip navcom oceanserver oldstyle oncore rtcm104v2 rtcm104v3 sirf superstar2 timing tsip tripmate tnt ublox ubx"
+declare -x GRUB_PLATFORMS=""
+declare HDEPEND=""
+declare HOMEPAGE="http://zfsonlinux.org/"
+declare -x INHERITED=" multilib prefix toolchain-funcs eutils flag-o-matic versionator linux-info linux-mod libtool multiprocessing autotools autotools-utils"
+declare -x INPUT_DEVICES="keyboard mouse evdev"
+declare -x INSDESTTREE=""
+declare -x INSOPTIONS="-m0644"
+declare IUSE="custom-cflags debug debug-log kernel_linux "
+declare -x IUSE_IMPLICIT="abi_x86_64 prefix"
+declare -x KERNEL="linux"
+declare -x KERNEL_ABI="amd64"
+declare -- KERNEL_DIR="/usr/src/linux"
+declare -x KEYWORDS="~amd64"
+declare -- KV_EXTRA="+"
+declare -- KV_FULL="3.16.2+"
+declare -- KV_MAJOR="3"
+declare -- KV_MINOR="16"
+declare -x KV_OUT_DIR="/home/core/kernel-coreos-3.16.2"
+declare -- KV_PATCH="2"
+declare -x LCD_DEVICES=""
+declare -x LC_MESSAGES="C"
+declare -x LDFLAGS="-Wl,-O1"
+declare -x LDFLAGS_amd64="-m elf_x86_64"
+declare -x LDFLAGS_default
+declare -x LDFLAGS_x32="-m elf32_x86_64"
+declare -x LDFLAGS_x86="-m elf_i386"
+declare -x LIBDIR_amd64="lib"
+declare -x LIBDIR_amd64_fbsd="lib64"
+declare -x LIBDIR_arm="lib"
+declare -x LIBDIR_arm64="lib64"
+declare -x LIBDIR_default="lib"
+declare -x LIBDIR_n32="lib32"
+declare -x LIBDIR_n64="lib64"
+declare -x LIBDIR_o32="lib"
+declare -x LIBDIR_ppc="lib32"
+declare -x LIBDIR_ppc64="lib64"
+declare -x LIBDIR_s390="lib32"
+declare -x LIBDIR_s390x="lib64"
+declare -x LIBDIR_sparc32="lib32"
+declare -x LIBDIR_sparc64="lib64"
+declare -x LIBDIR_x32="libx32"
+declare -x LIBDIR_x86="lib32"
+declare -x LIBDIR_x86_fbsd="lib32"
+declare -x LIBOPTIONS="-m0644"
+declare -x LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer"
+declare -x LICENSE="GPL-2"
+declare -x LINUX_CONFIG_EXISTS_DONE=""
+declare -x MACOSSANDBOX_PATHS="/dev/fd/ /private/tmp/ /private/var/tmp/ @@PORTAGE_BUILDDIR@@/ @@PORTAGE_ACTUAL_DISTDIR@@/"
+declare -x MACOSSANDBOX_PATHS_CONTENT_ONLY="/dev/null /dev/dtracehelper /dev/tty /private/var/run/syslog"
+declare -x MAKEOPTS=""
+declare -x MULTILIB_ABIS="amd64"
+declare -x MULTILIB_STRICT_DENY="64-bit.*shared object"
+declare -x MULTILIB_STRICT_DIRS="/lib32 /lib /usr/lib32 /usr/lib /usr/kde/*/lib32 /usr/kde/*/lib /usr/qt/*/lib32 /usr/qt/*/lib /usr/X11R6/lib32 /usr/X11R6/lib"
+declare -x MULTILIB_STRICT_EXEMPT="(perl5|gcc|gcc-lib|binutils|eclipse-3|debug|portage|udev|systemd|clang|python-exec)"
+declare -- MY_PV="0.6.3"
+declare -x NETBEANS="apisupport cnd groovy gsf harness ide identity j2ee java mobility nb php profiler soa visualweb webcommon websvccommon xml"
+declare -x OFFICE_IMPLEMENTATION="libreoffice"
+declare -x PATH="/home/core/gentoo/usr/lib/portage/bin/ebuild-helpers/unprivileged:/home/core/gentoo/usr/lib/portage/bin/ebuild-helpers:/home/core/gentoo/usr/sbin:/home/core/gentoo/usr/bin:/home/core/gentoo/sbin:/home/core/gentoo/bin:/home/core/gentoo/opt/bin:/home/core/gentoo/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3:/usr/bin:/bin"
+declare PDEPEND=""
+declare -x PHP_TARGETS=""
+declare -a PORTAGE_DOCOMPRESS='([0]="/usr/share/doc" [1]="/usr/share/info" [2]="/usr/share/man")'
+declare -x PORTAGE_DOCOMPRESS_SIZE_LIMIT="128"
+declare -a PORTAGE_DOCOMPRESS_SKIP='([0]="/usr/share/doc/spl-0.6.3/html")'
+declare -x PORTAGE_ROOT_USER="core"
+declare -x PREFIX_DISABLE_GEN_USR_LDSCRIPT="yes"
+declare -x PROFILE_ONLY_VARIABLES="ARCH ELIBC IUSE_IMPLICIT KERNEL USERLAND USE_EXPAND_IMPLICIT USE_EXPAND_UNPREFIXED USE_EXPAND_VALUES_ARCH USE_EXPAND_VALUES_ELIBC USE_EXPAND_VALUES_KERNEL USE_EXPAND_VALUES_USERLAND"
+declare -x PROPERTIES=""
+declare -x PROVIDE=""
+declare -x PYTHONDONTWRITEBYTECODE="1"
+declare -x PYTHON_SINGLE_TARGET=""
+declare -x PYTHON_TARGETS=""
+declare RDEPEND="dev-lang/perl
+	virtual/awk
+	!sys-devel/spl  kernel_linux? ( virtual/modutils )  "
+declare REPOSITORY
+declare REQUIRED_USE=""
+declare -x RESTRICT="test"
+declare -x RESUMECOMMAND_SSH="bash -c \"x=\\\${2#ssh://} ; host=\\\${x%%/*} ; port=\\\${host##*:} ; host=\\\${host%:*} ; [[ \\\${host} = \\\${port} ]] && port=22 ; exec rsync --rsh=\\\"ssh -p\\\${port} \\\${3}\\\" -avP \\\"\\\${host}:/\\\${x#*/}\\\" \\\"\\\$1\\\"\" rsync \"\${DISTDIR}/\${FILE}\" \"\${URI}\" \"\${PORTAGE_SSH_OPTS}\""
+declare -x RUBY_TARGETS=""
+declare -x S="/home/core/gentoo/var/tmp/portage/sys-kernel/spl-0.6.3/work/spl-spl-0.6.3"
+declare -x SANDBOX_DENY=""
+declare -x SANDBOX_PREDICT=""
+declare -x SANDBOX_READ="/:/home/core/gentoo/var/tmp"
+declare -x SANDBOX_WRITE="/home/core/gentoo/var/tmp"
+declare -x SHELL="/home/core/gentoo/bin/bash"
+declare -x SLOT="0"
+declare SRC_URI="https://github.com/zfsonlinux/spl/archive/spl-0.6.3.tar.gz"
+declare -x SYMLINK_LIB=""
+declare -x TMUX="/tmp/tmux-500/default,11948,0"
+declare -x TMUX_PANE="%1"
+declare -x USE="abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU"
+declare -x USERLAND="GNU"
+declare -x USE_EXPAND_IMPLICIT="ARCH ELIBC KERNEL USERLAND"
+declare -x USE_EXPAND_UNPREFIXED="ARCH"
+declare -x USE_EXPAND_VALUES_ARCH="alpha amd64 amd64-fbsd amd64-linux arm arm-linux arm64 hppa hppa-hpux ia64 ia64-hpux ia64-linux m68k m68k-mint mips ppc ppc64 ppc64-linux ppc-aix ppc-macos ppc-openbsd s390 sh sparc sparc64-freebsd sparc64-solaris sparc-fbsd sparc-solaris x64-freebsd x64-macos x64-openbsd x64-solaris x86 x86-cygwin x86-fbsd x86-freebsd x86-interix x86-linux x86-macos x86-netbsd x86-openbsd x86-solaris x86-winnt"
+declare -x USE_EXPAND_VALUES_ELIBC="AIX Cygwin Darwin DragonFly FreeBSD glibc HPUX Interix mintlib musl NetBSD OpenBSD SunOS uclibc Winnt"
+declare -x USE_EXPAND_VALUES_KERNEL="AIX Cygwin Darwin FreeBSD freemint HPUX Interix linux NetBSD OpenBSD SunOS Winnt"
+declare -x USE_EXPAND_VALUES_USERLAND="BSD GNU"
+declare -x USE_PYTHON="2.7"
+declare -- VERS="17"
+declare -x VIDEO_CARDS=""
+declare -x WANT_AUTOCONF="2.5"
+declare -x WANT_AUTOMAKE="1.14"
+declare -x WANT_LIBTOOL="latest"
+declare -x XTABLES_ADDONS="quota2 psd pknock lscan length2 ipv4options ipset ipp2p iface geoip fuzzy condition tee tarpit sysrq steal rawnat logmark ipmark dhcpmac delude chaos account"
+declare -- _AUTOTOOLS_ECLASS="1"
+declare -- _ELT_NOTED_TMP="true"
+declare -a _ESTACK_evar_='()'
+declare -- _EUTILS_ECLASS="1"
+declare -x _E_DOCDESTTREE_=""
+declare -x _E_EXEDESTTREE_=""
+declare -a _LATEST_AUTOMAKE='([0]="1.13:1.13" [1]="1.14:1.14")'
+declare -- _LIBTOOL_ECLASS="1"
+declare -- _LIBTOOL_ECLASSDIR_LOCAL="/home/core/gentoo/usr/portage/eclass"
+declare -x _LINUX_CONFIG_EXISTS_DONE="1"
+declare -- _MULTILIB_ECLASS="1"
+declare -- _MULTIPROCESSING_ECLASS="1"
+declare -- _VERSIONATOR_ECLASS="1"
+declare -- ___ECLASS_ONCE_FLAG_O_MATIC="recur -_+^+_- spank"
+declare -- ___ECLASS_ONCE_TOOLCHAIN_FUNCS="recur -_+^+_- spank"
+declare -- _libtool_atom="sys-devel/libtool"
+declare -- get_version_warning_done="1"
+declare -- mj_max_jobs="1"
+declare -- mj_num_jobs="0"
+declare -- mj_read_fd="11"
+declare -- mj_write_fd="10"
+declare -- phase_func
+ELT_libtool_version () 
+{ 
+    ( unset VERSION;
+    eval $(grep -e '^[[:space:]]*VERSION=' "$1");
+    echo "${VERSION:-0}" )
+}
+ELT_try_and_apply_patch () 
+{ 
+    local ret=0;
+    local file=$1;
+    local patch=$2;
+    local src=$3;
+    local disp="${src} patch";
+    local log="${T}/elibtool.log";
+    if [[ -z ${_ELT_NOTED_TMP} ]]; then
+        _ELT_NOTED_TMP=true;
+        printf 'temp patch: %s\n' "${patch}" > "${log}";
+    fi;
+    printf '\nTrying %s\n' "${disp}" >> "${log}";
+    if [[ ! -e ${file} ]]; then
+        echo "File not found: ${file}" >> "${log}";
+        return 1;
+    fi;
+    local perms="$(find ${file} -maxdepth 0 -printf '%m')";
+    if patch -p0 --dry-run "${file}" "${patch}" >> "${log}" 2>&1; then
+        einfo "  Applying ${disp} ...";
+        patch -p0 -g0 --no-backup-if-mismatch "${file}" "${patch}" >> "${log}" 2>&1;
+        ret=$?;
+        export ELT_APPLIED_PATCHES="${ELT_APPLIED_PATCHES} ${src}";
+    else
+        ret=1;
+    fi;
+    chmod "${perms}" "${file}";
+    return "${ret}"
+}
+ELT_walk_patches () 
+{ 
+    local patch tmp;
+    local ret=1;
+    local file=$1;
+    local patch_set=$2;
+    local patch_dir="$(elt_patch_dir)/${patch_set}";
+    local rem_int_dep=$3;
+    [[ -z ${patch_set} ]] && return 1;
+    [[ ! -d ${patch_dir} ]] && return 1;
+    local sed_args=(-e "s:@GENTOO_LIBDIR@:$(get_libdir):g");
+    if [[ -n ${rem_int_dep} ]]; then
+        sed_args+=(-e "s|@REM_INT_DEP@|${rem_int_dep}|g");
+    fi;
+    pushd "$(elt_patch_dir)" > /dev/null || die;
+    for patch in $(find "${patch_set}" -maxdepth 1 -type f | LC_ALL=C sort -r);
+    do
+        tmp="${T}/libtool-elt.patch";
+        sed "${sed_args[@]}" "${patch}" > "${tmp}" || die;
+        if ELT_try_and_apply_patch "${file}" "${tmp}" "${patch}"; then
+            ret=0;
+            break;
+        fi;
+    done;
+    popd > /dev/null;
+    return ${ret}
+}
+VER_major () 
+{ 
+    [[ -z $1 ]] && return 1;
+    local VER=$@;
+    echo "${VER%%[^[:digit:]]*}"
+}
+VER_micro () 
+{ 
+    [[ -z $1 ]] && return 1;
+    local VER=$@;
+    VER=${VER#*.*.};
+    echo "${VER%%[^[:digit:]]*}"
+}
+VER_minor () 
+{ 
+    [[ -z $1 ]] && return 1;
+    local VER=$@;
+    VER=${VER#*.};
+    echo "${VER%%[^[:digit:]]*}"
+}
+VER_to_int () 
+{ 
+    [[ -z $1 ]] && return 1;
+    local VER_MAJOR=$(VER_major "$1");
+    local VER_MINOR=$(VER_minor "$1");
+    local VER_MICRO=$(VER_micro "$1");
+    local VER_int=$(( VER_MAJOR * 65536 + VER_MINOR * 256 + VER_MICRO ));
+    if [[ ${VER_int} -ge 65536 ]]; then
+        echo "${VER_int}";
+        return 0;
+    fi;
+    echo 1;
+    return 1
+}
+__bashpid () 
+{ 
+    sh -c 'echo ${PPID}'
+}
+__call-ebuildshell () 
+{ 
+    if ! has ebuildshell ${FEATURES}; then
+        "$@";
+        return $?;
+    fi;
+    ( umask 002;
+    ( ( set;
+    declare -p;
+    declare -fp;
+    shopt -p;
+    if [[ ${BASH_VERSINFO[0]} == 3 ]]; then
+        export;
+    fi ) | __filter_readonly_variables --filter-for-subshell;
+    echo 'declare -r $PORTAGE_READONLY_METADATA $PORTAGE_READONLY_VARS';
+    echo "export PS1='EBUILD ${PN} $1 \$ '";
+    echo 'unset ENV';
+    echo "type $1";
+    echo "echo WANTED: $@";
+    echo "trap '";
+    echo "umask 002";
+    echo "(";
+    echo "	set";
+    echo "	declare -p";
+    echo "	declare -fp";
+    echo "	shopt -p | grep -v extdebug$";
+    if [[ ${BASH_VERSINFO[0]} == 3 ]]; then
+        echo "	export";
+    fi;
+    echo -n ")";
+    echo -n " | __filter_readonly_variables --filter-metadata";
+    echo " > ${T}/ebuildshell-environment-outcome' 0";
+    echo "shopt -u extdebug";
+    echo "trap - DEBUG" ) > ${T}/ebuildshell-environment;
+    chown ${PORTAGE_USER:-portage}:${PORTAGE_GROUP:-portage} "${T}/ebuildshell-environment" &>/dev/null;
+    chmod g+w "${T}/ebuildshell-environment" &>/dev/null );
+    rm -f "${T}/ebuildshell-environment-outcome" &>/dev/null;
+    unset BASH_ENV;
+    env -i ${BASH} --rcfile "${T}/ebuildshell-environment" -i || die;
+    chown ${PORTAGE_USER:-portage}:${PORTAGE_GROUP:-portage} "${T}/ebuildshell-environment-outcome" &>/dev/null;
+    chmod g+w "${T}/ebuildshell-environment-outcome" &>/dev/null;
+    source "${T}/ebuildshell-environment-outcome" &>/dev/null
+}
+_at_uses_autoheader () 
+{ 
+    _at_uses_pkg A{C,M}_CONFIG_HEADER{S,}
+}
+_at_uses_automake () 
+{ 
+    _at_uses_pkg AM_INIT_AUTOMAKE
+}
+_at_uses_gettext () 
+{ 
+    _at_uses_pkg AM_GNU_GETTEXT_VERSION
+}
+_at_uses_glibgettext () 
+{ 
+    _at_uses_pkg AM_GLIB_GNU_GETTEXT
+}
+_at_uses_gnomedoc () 
+{ 
+    _at_uses_pkg GNOME_DOC_INIT
+}
+_at_uses_gtkdoc () 
+{ 
+    _at_uses_pkg GTK_DOC_CHECK
+}
+_at_uses_intltool () 
+{ 
+    _at_uses_pkg {AC,IT}_PROG_INTLTOOL
+}
+_at_uses_libtool () 
+{ 
+    _at_uses_pkg A{C,M}_PROG_LIBTOOL LT_INIT
+}
+_at_uses_pkg () 
+{ 
+    if [[ -n $(autotools_check_macro "$@") ]]; then
+        return 0;
+    else
+        local macro args=();
+        for macro in "$@";
+        do
+            args+=(-e "^[[:space:]]*${macro}\>");
+        done;
+        egrep -q "${args[@]}" configure.??;
+    fi
+}
+_automake_version () 
+{ 
+    autotools_run_tool automake --version 2> /dev/null | sed -n -e '1{s:.*(GNU automake) ::p;q}'
+}
+_autotools_m4dir_include () 
+{ 
+    local x include_opts flag;
+    [[ ${WANT_AUTOCONF} == "2.1" ]] && flag="l" || flag="I";
+    for x in "$@";
+    do
+        case ${x} in 
+            -${flag})
+
+            ;;
+            *)
+                [[ ! -d ${x} ]] && ewarn "autotools.eclass: '${x}' does not exist";
+                include_opts+=" -${flag} ${x}"
+            ;;
+        esac;
+    done;
+    echo ${include_opts}
+}
+_check_build_dir () 
+{ 
+    : ${ECONF_SOURCE:=${S}};
+    if [[ ! -n ${BUILD_DIR} && -n ${AUTOTOOLS_BUILD_DIR} ]]; then
+        eqawarn "The AUTOTOOLS_BUILD_DIR variable has been renamed to BUILD_DIR.";
+        eqawarn "Please migrate the ebuild to use the new one.";
+        _RESPECT_AUTOTOOLS_BUILD_DIR=1;
+    fi;
+    if [[ -n ${_RESPECT_AUTOTOOLS_BUILD_DIR} ]]; then
+        BUILD_DIR=${AUTOTOOLS_BUILD_DIR:-${WORKDIR}/${P}_build};
+    else
+        if [[ -n ${AUTOTOOLS_IN_SOURCE_BUILD} ]]; then
+            : ${BUILD_DIR:=${ECONF_SOURCE}};
+        else
+            : ${BUILD_DIR:=${WORKDIR}/${P}_build};
+        fi;
+    fi;
+    AUTOTOOLS_BUILD_DIR=${BUILD_DIR};
+    echo ">>> Working in BUILD_DIR: \"${BUILD_DIR}\""
+}
+_elibtoolize () 
+{ 
+    local LIBTOOLIZE=${LIBTOOLIZE:-$(type -P glibtoolize > /dev/null && echo glibtoolize || echo libtoolize)};
+    [[ -f GNUmakefile.am || -f Makefile.am ]] && set -- "$@" --automake;
+    if [[ $1 == "--install" ]]; then
+        ${LIBTOOLIZE} -n --install &>/dev/null || shift;
+    fi;
+    autotools_run_tool ${LIBTOOLIZE} "$@"
+}
+_epatch_draw_line () 
+{ 
+    [[ -z $1 ]] && set "$(printf "%65s" '')";
+    echo "${1//?/=}"
+}
+_eutils_eprefix_init () 
+{ 
+    has "${EAPI:-0}" 0 1 2 && : ${ED:=${D}} ${EPREFIX:=} ${EROOT:=${ROOT}}
+}
+_filter-hardened () 
+{ 
+    local f;
+    for f in "$@";
+    do
+        case "${f}" in 
+            -fPIC | -fpic | -fPIE | -fpie | -Wl,pie | -pie)
+                gcc-specs-pie || continue;
+                is-flagq -nopie || append-flags -nopie
+            ;;
+            -fstack-protector)
+                gcc-specs-ssp || continue;
+                is-flagq -fno-stack-protector || append-flags $(test-flags -fno-stack-protector)
+            ;;
+            -fstack-protector-all)
+                gcc-specs-ssp-to-all || continue;
+                is-flagq -fno-stack-protector-all || append-flags $(test-flags -fno-stack-protector-all)
+            ;;
+            -fno-strict-overflow)
+                gcc-specs-nostrict || continue;
+                is-flagq -fstrict-overflow || append-flags $(test-flags -fstrict-overflow)
+            ;;
+        esac;
+    done
+}
+_filter-var () 
+{ 
+    local f x var=$1 new=();
+    shift;
+    for f in ${!var};
+    do
+        for x in "$@";
+        do
+            [[ ${f} == ${x} ]] && continue 2;
+        done;
+        new+=("${f}");
+    done;
+    eval export ${var}=\""${new[*]}"\"
+}
+_gcc-install-dir () 
+{ 
+    echo "$(LC_ALL=C $(tc-getCC) -print-search-dirs 2> /dev/null |		awk '$1=="install:" {print $2}')"
+}
+_gcc-specs-directive_raw () 
+{ 
+    local cc=$(tc-getCC);
+    local specfiles=$(LC_ALL=C ${cc} -v 2>&1 | awk '$1=="Reading" {print $NF}');
+    ${cc} -dumpspecs 2> /dev/null | cat - ${specfiles} | awk -v directive=$1 'BEGIN	{ pspec=""; spec=""; outside=1 }
+$1=="*"directive":"  { pspec=spec; spec=""; outside=0; next }
+	outside || NF==0 || ( substr($1,1,1)=="*" && substr($1,length($1),1)==":" ) { outside=1; next }
+	spec=="" && substr($0,1,1)=="+" { spec=pspec " " substr($0,2); next }
+	{ spec=spec $0 }
+END	{ print spec }';
+    return 0
+}
+_gcc-specs-exists () 
+{ 
+    [[ -f $(_gcc-install-dir)/$1 ]]
+}
+_gcc_fullversion () 
+{ 
+    local ver="$1";
+    shift;
+    set -- `$(tc-getCPP "$@") -E -P - <<<"__GNUC__ __GNUC_MINOR__ __GNUC_PATCHLEVEL__"`;
+    eval echo "$ver"
+}
+_iconins () 
+{ 
+    ( local funcname=$1;
+    shift;
+    local size dir;
+    local context=apps;
+    local theme=hicolor;
+    while [[ $# -gt 0 ]]; do
+        case $1 in 
+            -s | --size)
+                if [[ ${2%%x*}x${2%%x*} == "$2" ]]; then
+                    size=${2%%x*};
+                else
+                    size=${2};
+                fi;
+                case ${size} in 
+                    16 | 22 | 24 | 32 | 36 | 48 | 64 | 72 | 96 | 128 | 192 | 256)
+                        size=${size}x${size}
+                    ;;
+                    scalable)
+
+                    ;;
+                    *)
+                        eerror "${size} is an unsupported icon size!";
+                        exit 1
+                    ;;
+                esac;
+                shift 2
+            ;;
+            -t | --theme)
+                theme=${2};
+                shift 2
+            ;;
+            -c | --context)
+                context=${2};
+                shift 2
+            ;;
+            *)
+                if [[ -z ${size} ]]; then
+                    insinto /usr/share/pixmaps;
+                else
+                    insinto /usr/share/icons/${theme}/${size}/${context};
+                fi;
+                if [[ ${funcname} == doicon ]]; then
+                    if [[ -f $1 ]]; then
+                        doins "${1}";
+                    else
+                        if [[ -d $1 ]]; then
+                            shopt -s nullglob;
+                            doins "${1}"/*.{png,svg};
+                            shopt -u nullglob;
+                        else
+                            eerror "${1} is not a valid file/directory!";
+                            exit 1;
+                        fi;
+                    fi;
+                else
+                    break;
+                fi;
+                shift 1
+            ;;
+        esac;
+    done;
+    if [[ ${funcname} == newicon ]]; then
+        newins "$@";
+    fi ) || die
+}
+_is_flagq () 
+{ 
+    local x var;
+    eval var=\""\${$1[*]}"\";
+    for x in ${var};
+    do
+        [[ ${x} == $2 ]] && return 0;
+    done;
+    return 1
+}
+_multijob_fork () 
+{ 
+    [[ $# -eq 1 ]] || die "incorrect number of arguments";
+    local ret=0;
+    [[ $1 == "post" ]] && : $(( ++mj_num_jobs ));
+    if [[ ${mj_num_jobs} -ge ${mj_max_jobs} ]]; then
+        multijob_finish_one;
+        ret=$?;
+    fi;
+    [[ $1 == "pre" ]] && : $(( ++mj_num_jobs ));
+    return ${ret}
+}
+_tc-getPROG () 
+{ 
+    local tuple=$1;
+    local v var vars=$2;
+    local prog=$3;
+    var=${vars%% *};
+    for v in ${vars};
+    do
+        if [[ -n ${!v} ]]; then
+            export ${var}="${!v}";
+            echo "${!v}";
+            return 0;
+        fi;
+    done;
+    local search=;
+    [[ -n $4 ]] && search=$(type -p "$4-${prog}");
+    [[ -z ${search} && -n ${!tuple} ]] && search=$(type -p "${!tuple}-${prog}");
+    [[ -n ${search} ]] && prog=${search##*/};
+    export ${var}=${prog};
+    echo "${!var}"
+}
+all-flag-vars () 
+{ 
+    echo {C,CPP,CXX,CCAS,F,FC,LD}FLAGS
+}
+append-cflags () 
+{ 
+    [[ $# -eq 0 ]] && return 0;
+    export CFLAGS+=" $*";
+    return 0
+}
+append-cppflags () 
+{ 
+    [[ $# -eq 0 ]] && return 0;
+    export CPPFLAGS+=" $*";
+    return 0
+}
+append-cxxflags () 
+{ 
+    [[ $# -eq 0 ]] && return 0;
+    export CXXFLAGS+=" $*";
+    return 0
+}
+append-fflags () 
+{ 
+    [[ $# -eq 0 ]] && return 0;
+    export FFLAGS+=" $*";
+    export FCFLAGS+=" $*";
+    return 0
+}
+append-flags () 
+{ 
+    [[ $# -eq 0 ]] && return 0;
+    case " $* " in 
+        *' '-[DIU]*)
+            eqawarn 'please use append-cppflags for preprocessor flags'
+        ;;
+        *' '-L* | *' '-Wl,*)
+            eqawarn 'please use append-ldflags for linker flags'
+        ;;
+    esac;
+    append-cflags "$@";
+    append-cxxflags "$@";
+    append-fflags "$@";
+    return 0
+}
+append-ldflags () 
+{ 
+    [[ $# -eq 0 ]] && return 0;
+    local flag;
+    for flag in "$@";
+    do
+        [[ ${flag} == -l* ]] && eqawarn "Appending a library link instruction (${flag}); libraries to link to should not be passed through LDFLAGS";
+    done;
+    export LDFLAGS="${LDFLAGS} $*";
+    return 0
+}
+append-lfs-flags () 
+{ 
+    [[ $# -ne 0 ]] && die "append-lfs-flags takes no arguments";
+    case ${CHOST} in 
+        *-aix*)
+            append-cppflags -D_LARGE_FILES -D_LARGE_FILE_API
+        ;;
+        *)
+            append-cppflags -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE
+        ;;
+    esac
+}
+append-libs () 
+{ 
+    [[ $# -eq 0 ]] && return 0;
+    local flag;
+    for flag in "$@";
+    do
+        case $flag in 
+            -[lL]*)
+                export LIBS="${LIBS} ${flag}"
+            ;;
+            -*)
+                eqawarn "Appending non-library to LIBS (${flag}); Other linker flags should be passed via LDFLAGS";
+                export LIBS="${LIBS} ${flag}"
+            ;;
+            *)
+                export LIBS="${LIBS} -l${flag}"
+            ;;
+        esac;
+    done;
+    return 0
+}
+at_checksum () 
+{ 
+    find '(' -name 'Makefile.am' -o -name 'configure.ac' -o -name 'configure.in' ')' -exec cksum {} + | sort -k2
+}
+autotools-utils_src_compile () 
+{ 
+    debug-print-function ${FUNCNAME} "$@";
+    _check_build_dir;
+    pushd "${BUILD_DIR}" > /dev/null || die;
+    emake "$@" || die 'emake failed';
+    popd > /dev/null || die
+}
+autotools-utils_src_configure () 
+{ 
+    debug-print-function ${FUNCNAME} "$@";
+    [[ -z ${myeconfargs+1} || $(declare -p myeconfargs) == 'declare -a'* ]] || die 'autotools-utils.eclass: myeconfargs has to be an array.';
+    [[ ${EAPI} == 2 ]] && ! use prefix && EPREFIX=;
+    local econfargs=();
+    _check_build_dir;
+    if "${ECONF_SOURCE}"/configure --help 2>&1 | grep -q '^ *--docdir='; then
+        econfargs+=(--docdir="${EPREFIX}"/usr/share/doc/${PF});
+    fi;
+    if in_iuse static-libs; then
+        econfargs+=(--enable-shared $(use_enable static-libs static));
+    fi;
+    econfargs+=("${myeconfargs[@]}");
+    mkdir -p "${BUILD_DIR}" || die;
+    pushd "${BUILD_DIR}" > /dev/null || die;
+    econf "${econfargs[@]}" "$@";
+    popd > /dev/null || die
+}
+autotools-utils_src_install () 
+{ 
+    debug-print-function ${FUNCNAME} "$@";
+    _check_build_dir;
+    pushd "${BUILD_DIR}" > /dev/null || die;
+    emake DESTDIR="${D}" "$@" install || die "emake install failed";
+    popd > /dev/null || die;
+    if [[ ${EAPI} == [23] ]] && path_exists "${D}${EPREFIX}"/usr/share/doc/${PF}/*; then
+        if [[ -n $(find "${D}${EPREFIX}"/usr/share/doc/${PF}/* -type d) ]]; then
+            eqawarn "autotools-utils: directories in docdir require at least EAPI 4";
+        else
+            mkdir "${T}"/temp-docdir;
+            mv "${D}${EPREFIX}"/usr/share/doc/${PF}/* "${T}"/temp-docdir/ || die "moving docs to tempdir failed";
+            dodoc "${T}"/temp-docdir/* || die "docdir dodoc failed";
+            rm -r "${T}"/temp-docdir || die;
+        fi;
+    fi;
+    if declare -p DOCS &>/dev/null; then
+        if [[ -n ${DOCS[@]} ]]; then
+            if [[ ${EAPI} == [23] ]]; then
+                dodoc "${DOCS[@]}" || die;
+            else
+                dodoc -r "${DOCS[@]}";
+            fi;
+        fi;
+    else
+        local f;
+        for f in README* ChangeLog AUTHORS NEWS TODO CHANGES THANKS BUGS FAQ CREDITS CHANGELOG;
+        do
+            if [[ -s ${f} ]]; then
+                dodoc "${f}" || die "(default) dodoc ${f} failed";
+            fi;
+        done;
+    fi;
+    if [[ -n ${HTML_DOCS} ]]; then
+        dohtml -r "${HTML_DOCS[@]}" || die "dohtml failed";
+    fi;
+    local prune_ltfiles=${AUTOTOOLS_PRUNE_LIBTOOL_FILES};
+    if [[ ${prune_ltfiles} != none ]]; then
+        prune_libtool_files ${prune_ltfiles:+--${prune_ltfiles}};
+    fi
+}
+autotools-utils_src_prepare () 
+{ 
+    debug-print-function ${FUNCNAME} "$@";
+    local want_autoreconf=${AUTOTOOLS_AUTORECONF};
+    [[ -n ${PATCHES} ]] && epatch "${PATCHES[@]}";
+    function at_checksum () 
+    { 
+        find '(' -name 'Makefile.am' -o -name 'configure.ac' -o -name 'configure.in' ')' -exec cksum {} + | sort -k2
+    };
+    [[ ! -n ${want_autoreconf} ]] && local checksum=$(at_checksum);
+    epatch_user;
+    if [[ ! -n ${want_autoreconf} ]]; then
+        if [[ ${checksum} != $(at_checksum) ]]; then
+            einfo 'Will autoreconfigure due to user patches applied.';
+            want_autoreconf=yep;
+        fi;
+    fi;
+    [[ -n ${want_autoreconf} ]] && eautoreconf;
+    elibtoolize --patch-only
+}
+autotools-utils_src_test () 
+{ 
+    debug-print-function ${FUNCNAME} "$@";
+    _check_build_dir;
+    pushd "${BUILD_DIR}" > /dev/null || die;
+    if make -ni check "${@}" &>/dev/null; then
+        emake check "${@}" || die 'emake check failed.';
+    else
+        if make -ni test "${@}" &>/dev/null; then
+            emake test "${@}" || die 'emake test failed.';
+        fi;
+    fi;
+    popd > /dev/null || die
+}
+autotools_check_macro () 
+{ 
+    [[ -f configure.ac || -f configure.in ]] || return 0;
+    local trace_file=".__autoconf_trace_data";
+    if [[ ! -e ${trace_file} ]] || [[ ! aclocal.m4 -ot ${trace_file} ]]; then
+        WANT_AUTOCONF="2.5" autoconf $(autotools_m4dir_include) ${ALL_AUTOTOOLS_MACROS[@]/#/--trace=} > ${trace_file} 2> /dev/null;
+    fi;
+    local macro args=();
+    for macro in "$@";
+    do
+        has ${macro} ${ALL_AUTOTOOLS_MACROS[@]} || die "internal error: add ${macro} to ALL_AUTOTOOLS_MACROS";
+        args+=(-e ":${macro}:");
+    done;
+    grep "${args[@]}" ${trace_file}
+}
+autotools_check_macro_val () 
+{ 
+    local macro scan_out;
+    for macro in "$@";
+    do
+        autotools_check_macro "${macro}" | gawk -v macro="${macro}" '($0 !~ /^[[:space:]]*(#|dnl)/) {
+					if (match($0, macro ":(.*)$", res))
+						print res[1]
+				}' | uniq;
+    done;
+    return 0
+}
+autotools_env_setup () 
+{ 
+    if [[ ${WANT_AUTOMAKE} == "latest" ]] && ROOT=/ has_version "sys-devel/automake"; then
+        local pv;
+        for pv in ${_LATEST_AUTOMAKE[@]/#*:};
+        do
+            ROOT=/ has_version "=sys-devel/automake-${pv}*" && export WANT_AUTOMAKE="${pv}";
+        done;
+        [[ ${WANT_AUTOMAKE} == "latest" ]] && die "Cannot find the latest automake! Tried ${_LATEST_AUTOMAKE}";
+    fi;
+    [[ ${WANT_AUTOMAKE} == "latest" ]] && export WANT_AUTOMAKE=${_LATEST_AUTOMAKE[0]#*:};
+    [[ ${WANT_AUTOCONF} == "latest" ]] && export WANT_AUTOCONF=2.5
+}
+autotools_m4dir_include () 
+{ 
+    _autotools_m4dir_include ${AT_M4DIR}
+}
+autotools_m4sysdir_include () 
+{ 
+    _autotools_m4dir_include $(eval echo ${AT_SYS_M4DIR})
+}
+autotools_run_tool () 
+{ 
+    local autofail=true m4flags=false missing_ok=false;
+    while [[ -n $1 ]]; do
+        case $1 in 
+            --at-no-fail)
+                autofail=false
+            ;;
+            --at-m4flags)
+                m4flags=true
+            ;;
+            --at-missing)
+                missing_ok=true
+            ;;
+            *)
+                break
+            ;;
+        esac;
+        shift;
+    done;
+    if [[ ${EBUILD_PHASE} != "unpack" && ${EBUILD_PHASE} != "prepare" ]]; then
+        ewarn "QA Warning: running $1 in ${EBUILD_PHASE} phase";
+    fi;
+    if ${missing_ok} && ! type -P ${1} > /dev/null; then
+        einfo "Skipping '$*' due $1 not installed";
+        return 0;
+    fi;
+    autotools_env_setup;
+    local STDERR_TARGET="${T}/$1.out";
+    if [[ -e ${STDERR_TARGET} ]]; then
+        local i=1;
+        while :; do
+            STDERR_TARGET="${T}/$1-${i}.out";
+            [[ -e ${STDERR_TARGET} ]] || break;
+            : $(( i++ ));
+        done;
+    fi;
+    if ${m4flags}; then
+        set -- "${1}" $(autotools_m4dir_include) "${@:2}" $(autotools_m4sysdir_include);
+    fi;
+    printf "***** $1 *****\n***** PWD: ${PWD}\n***** $*\n\n" > "${STDERR_TARGET}";
+    ebegin "Running $@";
+    "$@" >> "${STDERR_TARGET}" 2>&1;
+    if ! eend $? && ${autofail}; then
+        echo;
+        eerror "Failed Running $1 !";
+        eerror;
+        eerror "Include in your bugreport the contents of:";
+        eerror;
+        eerror "  ${STDERR_TARGET}";
+        echo;
+        die "Failed Running $1 !";
+    fi
+}
+bashpid () 
+{ 
+    sh -c 'echo ${PPID}'
+}
+built_with_use () 
+{ 
+    _eutils_eprefix_init;
+    local hidden="no";
+    if [[ $1 == "--hidden" ]]; then
+        hidden="yes";
+        shift;
+    fi;
+    local missing_action="die";
+    if [[ $1 == "--missing" ]]; then
+        missing_action=$2;
+        shift;
+        shift;
+        case ${missing_action} in 
+            true | false | die)
+
+            ;;
+            *)
+                die "unknown action '${missing_action}'"
+            ;;
+        esac;
+    fi;
+    local opt=$1;
+    [[ ${opt:0:1} = "-" ]] && shift || opt="-a";
+    local PKG=$(best_version $1);
+    [[ -z ${PKG} ]] && die "Unable to resolve $1 to an installed package";
+    shift;
+    local USEFILE=${EROOT}/var/db/pkg/${PKG}/USE;
+    local IUSEFILE=${EROOT}/var/db/pkg/${PKG}/IUSE;
+    if [[ ! -e ${USEFILE} ]] || [[ ! -e ${IUSEFILE} && ${hidden} == "no" ]]; then
+        case ${missing_action} in 
+            true)
+                return 0
+            ;;
+            false)
+                return 1
+            ;;
+            die)
+                die "Unable to determine what USE flags $PKG was built with"
+            ;;
+        esac;
+    fi;
+    if [[ ${hidden} == "no" ]]; then
+        local IUSE_BUILT=($(<"${IUSEFILE}"));
+        local expand;
+        for expand in $(echo ${USE_EXPAND} | tr '[:upper:]' '[:lower:]');
+        do
+            if [[ $1 == ${expand}_* ]]; then
+                expand="";
+                break;
+            fi;
+        done;
+        if [[ -n ${expand} ]]; then
+            if ! has $1 ${IUSE_BUILT[@]#[-+]}; then
+                case ${missing_action} in 
+                    true)
+                        return 0
+                    ;;
+                    false)
+                        return 1
+                    ;;
+                    die)
+                        die "$PKG does not actually support the $1 USE flag!"
+                    ;;
+                esac;
+            fi;
+        fi;
+    fi;
+    local USE_BUILT=$(<${USEFILE});
+    while [[ $# -gt 0 ]]; do
+        if [[ ${opt} = "-o" ]]; then
+            has $1 ${USE_BUILT} && return 0;
+        else
+            has $1 ${USE_BUILT} || return 1;
+        fi;
+        shift;
+    done;
+    [[ ${opt} = "-a" ]]
+}
+check_extra_config () 
+{ 
+    local config negate die error reworkmodulenames;
+    local soft_errors_count=0 hard_errors_count=0 config_required=0;
+    local old_LINUX_CONFIG_EXISTS_DONE="${_LINUX_CONFIG_EXISTS_DONE}";
+    linux-info_get_any_version;
+    for config in ${CONFIG_CHECK};
+    do
+        if [[ "${config:0:1}" != "~" ]]; then
+            config_required=1;
+            break;
+        fi;
+    done;
+    if [[ ${config_required} == 0 ]]; then
+        if ! linux_config_exists; then
+            ewarn "Unable to check for the following kernel config options due";
+            ewarn "to absence of any configured kernel sources or compiled";
+            ewarn "config:";
+            for config in ${CONFIG_CHECK};
+            do
+                local_error="ERROR_${config#\~}";
+                msg="${!local_error}";
+                if [[ "x${msg}" == "x" ]]; then
+                    local_error="WARNING_${config#\~}";
+                    msg="${!local_error}";
+                fi;
+                ewarn " - ${config#\~}${msg:+ - }${msg}";
+            done;
+            ewarn "You're on your own to make sure they are set if needed.";
+            export LINUX_CONFIG_EXISTS_DONE="${old_LINUX_CONFIG_EXISTS_DONE}";
+            return 0;
+        fi;
+    else
+        require_configured_kernel;
+    fi;
+    einfo "Checking for suitable kernel configuration options...";
+    for config in ${CONFIG_CHECK};
+    do
+        die=1;
+        error=0;
+        negate=0;
+        reworkmodulenames=0;
+        if [[ ${config:0:1} == "~" ]]; then
+            die=0;
+            config=${config:1};
+        else
+            if [[ ${config:0:1} == "@" ]]; then
+                die=0;
+                reworkmodulenames=1;
+                config=${config:1};
+            fi;
+        fi;
+        if [[ ${config:0:1} == "!" ]]; then
+            negate=1;
+            config=${config:1};
+        fi;
+        if [[ ${negate} == 1 ]]; then
+            linux_chkconfig_present ${config} && error=2;
+        else
+            if [[ ${reworkmodulenames} == 1 ]]; then
+                local temp_config="${config//*:}" i n;
+                config="${config//:*}";
+                if linux_chkconfig_present ${config}; then
+                    for i in ${MODULE_NAMES};
+                    do
+                        n="${i//${temp_config}}";
+                        [[ -z ${n//\(*} ]] && MODULE_IGNORE="${MODULE_IGNORE} ${temp_config}";
+                    done;
+                    error=2;
+                fi;
+            else
+                linux_chkconfig_present ${config} || error=1;
+            fi;
+        fi;
+        if [[ ${error} > 0 ]]; then
+            local report_func="eerror" local_error;
+            local_error="ERROR_${config}";
+            local_error="${!local_error}";
+            if [[ -z "${local_error}" ]]; then
+                local_error="${config}_ERROR";
+                local_error="${!local_error}";
+            fi;
+            if [[ ${die} == 0 && -z "${local_error}" ]]; then
+                local_error="WARNING_${config}";
+                local_error="${!local_error}";
+                if [[ -n "${local_error}" ]]; then
+                    report_func="ewarn";
+                fi;
+            fi;
+            if [[ -z "${local_error}" ]]; then
+                [[ ${error} == 1 ]] && local_error="is not set when it should be." || local_error="should not be set. But it is.";
+                local_error="CONFIG_${config}:\t ${local_error}";
+            fi;
+            if [[ ${die} == 0 ]]; then
+                ${report_func} "  ${local_error}";
+                soft_errors_count=$[soft_errors_count + 1];
+            else
+                ${report_func} "  ${local_error}";
+                hard_errors_count=$[hard_errors_count + 1];
+            fi;
+        fi;
+    done;
+    if [[ ${hard_errors_count} > 0 ]]; then
+        eerror "Please check to make sure these options are set correctly.";
+        eerror "Failure to do so may cause unexpected problems.";
+        eerror "Once you have satisfied these options, please try merging";
+        eerror "this package again.";
+        export LINUX_CONFIG_EXISTS_DONE="${old_LINUX_CONFIG_EXISTS_DONE}";
+        die "Incorrect kernel configuration options";
+    else
+        if [[ ${soft_errors_count} > 0 ]]; then
+            ewarn "Please check to make sure these options are set correctly.";
+            ewarn "Failure to do so may cause unexpected problems.";
+        else
+            eend 0;
+        fi;
+    fi;
+    export LINUX_CONFIG_EXISTS_DONE="${old_LINUX_CONFIG_EXISTS_DONE}"
+}
+check_kernel_built () 
+{ 
+    require_configured_kernel;
+    get_version;
+    local versionh_path;
+    if kernel_is -ge 3 7; then
+        versionh_path="include/generated/uapi/linux/version.h";
+    else
+        versionh_path="include/linux/version.h";
+    fi;
+    if [ ! -f "${KV_OUT_DIR}/${versionh_path}" ]; then
+        eerror "These sources have not yet been prepared.";
+        eerror "We cannot build against an unprepared tree.";
+        eerror "To resolve this, please type the following:";
+        eerror;
+        eerror "# cd ${KV_DIR}";
+        eerror "# make oldconfig";
+        eerror "# make modules_prepare";
+        eerror;
+        eerror "Then please try merging this module again.";
+        die "Kernel sources need compiling first";
+    fi
+}
+check_license () 
+{ 
+    die "you no longer need this as portage supports ACCEPT_LICENSE itself"
+}
+check_modules_supported () 
+{ 
+    require_configured_kernel;
+    get_version;
+    if ! linux_chkconfig_builtin "MODULES"; then
+        eerror "These sources do not support loading external modules.";
+        eerror "to be able to use this module please enable \"Loadable modules support\"";
+        eerror "in your kernel, recompile and then try merging this module again.";
+        die "No support for external modules in ${KV_FULL} config";
+    fi
+}
+check_vermagic () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    local curr_gcc_ver=$(gcc -dumpversion);
+    local tmpfile old_chost old_gcc_ver result=0;
+    [ -n "${MODULES_OPTIONAL_USE}" ] && use !${MODULES_OPTIONAL_USE} && return;
+    tmpfile=`find "${KV_DIR}/" -iname "*.o.cmd" -exec grep usr/lib/gcc {} \; -quit`;
+    tmpfile=${tmpfile//*usr/lib};
+    tmpfile=${tmpfile//\/include*};
+    old_chost=${tmpfile//*gcc\/};
+    old_chost=${old_chost//\/*};
+    old_gcc_ver=${tmpfile//*\/};
+    if [[ -z ${old_gcc_ver} || -z ${old_chost} ]]; then
+        ewarn "";
+        ewarn "Unable to detect what version of GCC was used to compile";
+        ewarn "the kernel. Build will continue, but you may experience problems.";
+    else
+        if [[ ${curr_gcc_ver} != ${old_gcc_ver} ]]; then
+            ewarn "";
+            ewarn "The version of GCC you are using (${curr_gcc_ver}) does";
+            ewarn "not match the version of GCC used to compile the";
+            ewarn "kernel (${old_gcc_ver}).";
+            result=1;
+        else
+            if [[ ${CHOST} != ${old_chost} ]]; then
+                ewarn "";
+                ewarn "The current CHOST (${CHOST}) does not match the chost";
+                ewarn "used when compiling the kernel (${old_chost}).";
+                result=1;
+            fi;
+        fi;
+    fi;
+    if [[ ${result} -gt 0 ]]; then
+        ewarn "";
+        ewarn "Build will not continue, because you will experience problems.";
+        ewarn "To fix this either change the version of GCC you wish to use";
+        ewarn "to match the kernel, or recompile the kernel first.";
+        die "GCC Version Mismatch.";
+    fi
+}
+check_zlibinflate () 
+{ 
+    require_configured_kernel;
+    get_version;
+    local INFLATE;
+    local DEFLATE;
+    einfo "Determining the usability of ZLIB_INFLATE support in your kernel";
+    ebegin "checking ZLIB_INFLATE";
+    linux_chkconfig_builtin CONFIG_ZLIB_INFLATE;
+    eend $?;
+    [ "$?" != 0 ] && die;
+    ebegin "checking ZLIB_DEFLATE";
+    linux_chkconfig_builtin CONFIG_ZLIB_DEFLATE;
+    eend $?;
+    [ "$?" != 0 ] && die;
+    local LINENO_START;
+    local LINENO_END;
+    local SYMBOLS;
+    local x;
+    LINENO_END="$(grep -n 'CONFIG_ZLIB_INFLATE y' ${KV_DIR}/lib/Config.in | cut -d : -f 1)";
+    LINENO_START="$(head -n $LINENO_END ${KV_DIR}/lib/Config.in | grep -n 'if \[' | tail -n 1 | cut -d : -f 1)";
+    (( LINENO_AMOUNT = $LINENO_END - $LINENO_START ));
+    (( LINENO_END = $LINENO_END - 1 ));
+    SYMBOLS="$(head -n $LINENO_END ${KV_DIR}/lib/Config.in | tail -n $LINENO_AMOUNT | sed -e 's/^.*\(CONFIG_[^\" ]*\).*/\1/g;')";
+    for x in $SYMBOLS;
+    do
+        if [ "${!x}" = "y" ]; then
+            einfo "${x} ensures zlib is linked into your kernel - excellent";
+            return 0;
+        fi;
+    done;
+    eerror;
+    eerror "This kernel module requires ZLIB library support.";
+    eerror "You have enabled zlib support in your kernel, but haven't enabled";
+    eerror "enabled any option that will ensure that zlib is linked into your";
+    eerror "kernel.";
+    eerror;
+    eerror "Please ensure that you enable at least one of these options:";
+    eerror;
+    for x in $SYMBOLS;
+    do
+        eerror "  * $x";
+    done;
+    eerror;
+    eerror "Please remember to recompile and install your kernel, and reboot";
+    eerror "into your new kernel before attempting to load this kernel module.";
+    die "Kernel doesn't include zlib support"
+}
+config_rpath_update () 
+{ 
+    local dst src=$(type -P gettext | sed 's:bin/gettext:share/gettext/config.rpath:');
+    [[ $# -eq 0 ]] && set -- $(find -name config.rpath);
+    [[ $# -eq 0 ]] && return 0;
+    einfo "Updating all config.rpath files";
+    for dst in "$@";
+    do
+        einfo "   ${dst}";
+        cp "${src}" "${dst}" || die;
+    done
+}
+convert_to_m () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    if use_m; then
+        [ ! -f "${1}" ] && die "convert_to_m() requires a filename as an argument";
+        ebegin "Converting ${1/${WORKDIR}\//} to use M= instead of SUBDIRS=";
+        sed -i 's:SUBDIRS=:M=:g' "${1}";
+        eend $?;
+    fi
+}
+darwintoolize () 
+{ 
+    die "Use elibtoolize"
+}
+delete_all_version_separators () 
+{ 
+    replace_all_version_separators "" "${1}"
+}
+delete_version_separator () 
+{ 
+    replace_version_separator "${1}" "" "${2}"
+}
+doicon () 
+{ 
+    _iconins ${FUNCNAME} "$@"
+}
+domenu () 
+{ 
+    ( local i j ret=0;
+    insinto /usr/share/applications;
+    for i in "$@";
+    do
+        if [[ -f ${i} ]]; then
+            doins "${i}";
+            ((ret+=$?));
+        else
+            if [[ -d ${i} ]]; then
+                for j in "${i}"/*.desktop;
+                do
+                    doins "${j}";
+                    ((ret+=$?));
+                done;
+            else
+                ((++ret));
+            fi;
+        fi;
+    done;
+    exit ${ret} )
+}
+eaclocal () 
+{ 
+    [[ ! -f aclocal.m4 || -n $(grep -e 'generated.*by aclocal' aclocal.m4) ]] && autotools_run_tool --at-m4flags aclocal "$@" $(eaclocal_amflags)
+}
+eaclocal_amflags () 
+{ 
+    local aclocal_opts amflags_file;
+    for amflags_file in GNUmakefile.am Makefile.am GNUmakefile.in Makefile.in;
+    do
+        [[ -e ${amflags_file} ]] || continue;
+        autotools_env_setup;
+        aclocal_opts=$(sed -n 			"/^ACLOCAL_AMFLAGS[[:space:]]*=/{ 			  # match the first line
+			  s:[^=]*=::p; 			  # then gobble up all escaped lines
+			  : nextline /\\\\$/{ n; p; b nextline; } 			}" ${amflags_file});
+        eval aclocal_opts=\""${aclocal_opts}"\";
+        break;
+    done;
+    echo ${aclocal_opts}
+}
+eautoconf () 
+{ 
+    if [[ ! -f configure.ac && ! -f configure.in ]]; then
+        echo;
+        eerror "No configure.{ac,in} present in '${PWD}'!";
+        echo;
+        die "No configure.{ac,in} present!";
+    fi;
+    autotools_run_tool --at-m4flags autoconf "$@"
+}
+eautoheader () 
+{ 
+    _at_uses_autoheader || return 0;
+    autotools_run_tool --at-no-fail --at-m4flags autoheader "$@"
+}
+eautomake () 
+{ 
+    local extra_opts=();
+    local makefile_name;
+    for makefile_name in {GNUmakefile,{M,m}akefile}.am "";
+    do
+        [[ -f ${makefile_name} ]] && break;
+    done;
+    function _automake_version () 
+    { 
+        autotools_run_tool automake --version 2> /dev/null | sed -n -e '1{s:.*(GNU automake) ::p;q}'
+    };
+    if [[ -z ${makefile_name} ]]; then
+        _at_uses_automake || return 0;
+    else
+        if [[ -z ${FROM_EAUTORECONF} && -f ${makefile_name%.am}.in ]]; then
+            local used_automake;
+            local installed_automake;
+            installed_automake=$(WANT_AUTOMAKE= _automake_version);
+            used_automake=$(head -n 1 < ${makefile_name%.am}.in | 			sed -e 's:.*by automake \(.*\) from .*:\1:');
+            if [[ ${installed_automake} != ${used_automake} ]]; then
+                einfo "Automake used for the package (${used_automake}) differs from";
+                einfo "the installed version (${installed_automake}).";
+                eautoreconf;
+                return 0;
+            fi;
+        fi;
+    fi;
+    [[ -f INSTALL && -f AUTHORS && -f ChangeLog && -f NEWS && -f README ]] || extra_opts+=(--foreign);
+    case $(_automake_version) in 
+        1.4 | 1.4[.-]*)
+
+        ;;
+        *)
+            extra_opts+=(--force-missing)
+        ;;
+    esac;
+    autotools_run_tool automake --add-missing --copy "${extra_opts[@]}" "$@"
+}
+eautopoint () 
+{ 
+    autotools_run_tool autopoint "$@"
+}
+eautoreconf () 
+{ 
+    local x g multitop;
+    if [[ -z ${AT_TOPLEVEL_EAUTORECONF} ]]; then
+        AT_TOPLEVEL_EAUTORECONF="yes";
+        multitop="yes";
+        multijob_init;
+    fi;
+    if [[ -z ${AT_NO_RECURSIVE} ]]; then
+        for x in $(autotools_check_macro_val AC_CONFIG_SUBDIRS);
+        do
+            if [[ -d ${x} ]]; then
+                pushd "${x}" > /dev/null;
+                if [[ -z ${PAST_TOPLEVEL_EAUTORECONF} ]]; then
+                    PAST_TOPLEVEL_EAUTORECONF="yes" AT_NOELIBTOOLIZE="yes" multijob_child_init eautoreconf || die;
+                else
+                    AT_NOELIBTOOLIZE="yes" eautoreconf || die;
+                fi;
+                popd > /dev/null;
+            fi;
+        done;
+    fi;
+    einfo "Running eautoreconf in '${PWD}' ...";
+    local m4dirs=$(autotools_check_macro_val AC_CONFIG_{AUX,MACRO}_DIR);
+    [[ -n ${m4dirs} ]] && mkdir -p ${m4dirs};
+    local i tools=(glibgettext false "autotools_run_tool glib-gettextize --copy --force" gettext false "autotools_run_tool --at-missing autopoint --force" intltool false "autotools_run_tool intltoolize --automake --copy --force" gtkdoc false "autotools_run_tool --at-missing gtkdocize --copy" gnomedoc false "autotools_run_tool --at-missing gnome-doc-prepare --copy --force" libtool false "_elibtoolize --install --copy --force");
+    for ((i = 0; i < ${#tools[@]}; i += 3 ))
+    do
+        if _at_uses_${tools[i]}; then
+            tools[i+1]=true;
+            ${tools[i+2]};
+        fi;
+    done;
+    local rerun_aclocal=false;
+    eaclocal;
+    for ((i = 0; i < ${#tools[@]}; i += 3 ))
+    do
+        if ! ${tools[i+1]} && _at_uses_${tools[i]}; then
+            ${tools[i+2]};
+            rerun_aclocal=true;
+        fi;
+    done;
+    ${rerun_aclocal} && eaclocal;
+    eautoconf;
+    eautoheader;
+    [[ ${AT_NOEAUTOMAKE} != "yes" ]] && FROM_EAUTORECONF="yes" eautomake ${AM_OPTS};
+    if [[ ${AT_NOELIBTOOLIZE} != "yes" ]]; then
+        elibtoolize --force "${PWD}";
+    fi;
+    if [[ -n ${multitop} ]]; then
+        unset AT_TOPLEVEL_EAUTORECONF;
+        multijob_finish || die;
+    fi;
+    return 0
+}
+ebeep () 
+{ 
+    ewarn "QA Notice: ebeep is not defined in EAPI=${EAPI}, please file a bug at http://bugs.gentoo.org"
+}
+econf_build () 
+{ 
+    tc-env_build econf --build=${CBUILD:-${CHOST}} "$@"
+}
+ecvs_clean () 
+{ 
+    [[ -z $* ]] && set -- .;
+    find "$@" -type d -name 'CVS' -prune -print0 | xargs -0 rm -rf;
+    find "$@" -type f -name '.cvs*' -print0 | xargs -0 rm -rf
+}
+edos2unix () 
+{ 
+    [[ $# -eq 0 ]] && return 0;
+    sed -i 's/\r$//' -- "$@" || die
+}
+einstalldocs () 
+{ 
+    debug-print-function ${FUNCNAME} "${@}";
+    local dodoc_opts=-r;
+    has ${EAPI} 0 1 2 3 && dodoc_opts=;
+    if ! declare -p DOCS &>/dev/null; then
+        local d;
+        for d in README* ChangeLog AUTHORS NEWS TODO CHANGES THANKS BUGS FAQ CREDITS CHANGELOG;
+        do
+            if [[ -s ${d} ]]; then
+                dodoc "${d}" || die;
+            fi;
+        done;
+    else
+        if [[ $(declare -p DOCS) == "declare -a"* ]]; then
+            if [[ -n ${DOCS[@]} ]]; then
+                dodoc ${dodoc_opts} "${DOCS[@]}" || die;
+            fi;
+        else
+            if [[ -n ${DOCS} ]]; then
+                dodoc ${dodoc_opts} ${DOCS} || die;
+            fi;
+        fi;
+    fi;
+    if [[ $(declare -p HTML_DOCS 2>/dev/null) == "declare -a"* ]]; then
+        if [[ -n ${HTML_DOCS[@]} ]]; then
+            dohtml -r "${HTML_DOCS[@]}" || die;
+        fi;
+    else
+        if [[ -n ${HTML_DOCS} ]]; then
+            dohtml -r ${HTML_DOCS} || die;
+        fi;
+    fi;
+    return 0
+}
+elibtoolize () 
+{ 
+    local x;
+    local dirs=();
+    local do_portage="no";
+    local do_reversedeps="no";
+    local do_only_patches="no";
+    local do_uclibc="yes";
+    local deptoremove=;
+    local do_shallow="no";
+    local force="false";
+    local elt_patches="install-sh ltmain portage relink max_cmd_len sed test tmp cross as-needed target-nm";
+    for x in "$@";
+    do
+        case ${x} in 
+            --portage)
+                do_portage="yes"
+            ;;
+            --reverse-deps)
+                do_reversedeps="yes";
+                elt_patches+=" fix-relink"
+            ;;
+            --patch-only)
+                do_only_patches="yes"
+            ;;
+            --remove-internal-dep=*)
+                deptoremove=${x#--remove-internal-dep=};
+                [[ -n ${deptoremove} ]] && elt_patches+=" rem-int-dep"
+            ;;
+            --shallow)
+                do_shallow="yes"
+            ;;
+            --no-uclibc)
+                do_uclibc="no"
+            ;;
+            --force)
+                force="true"
+            ;;
+            -*)
+                eerror "Invalid elibtoolize option: ${x}";
+                die "elibtoolize called with ${x} ??"
+            ;;
+            *)
+                dirs+=("${x}")
+            ;;
+        esac;
+    done;
+    [[ ${do_uclibc} == "yes" ]] && elt_patches+=" uclibc-conf uclibc-ltconf";
+    case ${CHOST} in 
+        *-aix*)
+            elt_patches+=" hardcode aixrtl"
+        ;;
+        *-darwin*)
+            elt_patches+=" darwin-ltconf darwin-ltmain darwin-conf"
+        ;;
+        *-solaris*)
+            elt_patches+=" sol2-conf sol2-ltmain"
+        ;;
+        *-freebsd*)
+            elt_patches+=" fbsd-conf fbsd-ltconf"
+        ;;
+        *-hpux*)
+            elt_patches+=" hpux-conf deplibs hc-flag-ld hardcode hardcode-relink relink-prog no-lc"
+        ;;
+        *-irix*)
+            elt_patches+=" irix-ltmain"
+        ;;
+        *-mint*)
+            elt_patches+=" mint-conf"
+        ;;
+    esac;
+    if $(tc-getLD) --version 2>&1 | grep -qs 'GNU gold'; then
+        elt_patches+=" gold-conf";
+    fi;
+    if [[ ${do_shallow} == "yes" ]]; then
+        [[ ${#dirs[@]} -ne 0 ]] && die "Using --shallow with explicit dirs doesn't make sense";
+        [[ -f ${S}/ltmain.sh || -f ${S}/configure ]] && dirs+=("${S}");
+    else
+        [[ ${#dirs[@]} -eq 0 ]] && dirs+=("${S}");
+        dirs=($(find "${dirs[@]}" '(' -name ltmain.sh -o -name configure ')' -printf '%h\n' | sort -u));
+    fi;
+    local d p ret;
+    for d in "${dirs[@]}";
+    do
+        export ELT_APPLIED_PATCHES=;
+        if [[ -f ${d}/.elibtoolized ]]; then
+            ${force} || continue;
+        fi;
+        local outfunc="einfo";
+        [[ -f ${d}/.elibtoolized ]] && outfunc="ewarn";
+        ${outfunc} "Running elibtoolize in: ${d#${WORKDIR}/}/";
+        if [[ ${outfunc} == "ewarn" ]]; then
+            ewarn "  We've already been run in this tree; you should";
+            ewarn "  avoid this if possible (perhaps by filing a bug)";
+        fi;
+        [[ -f ${d}/ltmain.sh ]] && for p in ${elt_patches};
+        do
+            ret=0;
+            case ${p} in 
+                portage)
+                    if ! grep -qs 'We do not want portage' "${d}/ltmain.sh"; then
+                        ELT_walk_patches "${d}/ltmain.sh" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                rem-int-dep)
+                    ELT_walk_patches "${d}/ltmain.sh" "${p}" "${deptoremove}";
+                    ret=$?
+                ;;
+                fix-relink)
+                    if grep -qs 'inst_prefix_dir' "${d}/ltmain.sh"; then
+                        ELT_walk_patches "${d}/ltmain.sh" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                max_cmd_len)
+                    if grep -qs 'max_cmd_len' "${d}/ltmain.sh"; then
+                        ELT_walk_patches "${d}/ltmain.sh" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                as-needed)
+                    ELT_walk_patches "${d}/ltmain.sh" "${p}";
+                    ret=$?
+                ;;
+                uclibc-ltconf)
+                    if [[ -s ${d}/ltconfig ]]; then
+                        ELT_walk_patches "${d}/ltconfig" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                fbsd-ltconf)
+                    if [[ -s ${d}/ltconfig ]]; then
+                        ELT_walk_patches "${d}/ltconfig" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                darwin-ltconf)
+                    if [[ -s ${d}/ltconfig ]]; then
+                        ELT_walk_patches "${d}/ltconfig" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                darwin-ltmain)
+                    if [[ -e ${d}/ltmain.sh ]] && ! grep -qs 'verstring="-compatibility_version' "${d}/ltmain.sh"; then
+                        ELT_walk_patches "${d}/ltmain.sh" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                install-sh)
+                    ELT_walk_patches "${d}/install-sh" "${p}";
+                    ret=$?
+                ;;
+                cross)
+                    if tc-is-cross-compiler; then
+                        ELT_walk_patches "${d}/ltmain.sh" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                *)
+                    ELT_walk_patches "${d}/ltmain.sh" "${p}";
+                    ret=$?
+                ;;
+            esac;
+            if [[ ${ret} -ne 0 ]]; then
+                case ${p} in 
+                    relink)
+                        local version=$(ELT_libtool_version "${d}/ltmain.sh");
+                        if ! grep -qs 'inst_prefix_dir' "${d}/ltmain.sh" && [[ $(VER_to_int "${version}") -ge $(VER_to_int "1.4.0") ]]; then
+                            ewarn "  Could not apply relink.patch!";
+                        fi
+                    ;;
+                    portage)
+                        if [[ ${do_portage} == "yes" ]]; then
+                            if ! grep -qs 'We do not want portage' "${d}/ltmain.sh"; then
+                                echo;
+                                eerror "Portage patch requested, but failed to apply!";
+                                eerror "Please file a bug report to add a proper patch.";
+                                die "Portage patch requested, but failed to apply!";
+                            fi;
+                        else
+                            if grep -qs 'We do not want portage' "${d}/ltmain.sh"; then
+                                :;
+                            else
+                                local version=$(ELT_libtool_version "${d}"/ltmain.sh);
+                                echo;
+                                eerror "Portage patch failed to apply (ltmain.sh version ${version})!";
+                                eerror "Please file a bug report to add a proper patch.";
+                                die "Portage patch failed to apply!";
+                            fi;
+                            ELT_APPLIED_PATCHES="portage";
+                        fi
+                    ;;
+                    darwin-*)
+                        [[ ${CHOST} == *"-darwin"* ]] && ewarn "  Darwin patch set '${p}' failed to apply!"
+                    ;;
+                esac;
+            fi;
+        done;
+        [[ -f ${d}/ltmain.sh ]] && if [[ -z ${ELT_APPLIED_PATCHES} ]]; then
+            if [[ ${do_portage} == "no" && ${do_reversedeps} == "no" && ${do_only_patches} == "no" && ${deptoremove} == "" ]]; then
+                ewarn "Cannot apply any patches, please file a bug about this";
+                die;
+            fi;
+        fi;
+        [[ -f ${d}/configure ]] && for p in ${elt_patches};
+        do
+            ret=0;
+            case ${p} in 
+                uclibc-conf)
+                    if grep -qs 'Transform linux' "${d}/configure"; then
+                        ELT_walk_patches "${d}/configure" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                fbsd-conf)
+                    if grep -qs 'version_type=freebsd-' "${d}/configure"; then
+                        ELT_walk_patches "${d}/configure" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                darwin-conf)
+                    if grep -qs '&& echo \.so ||' "${d}/configure"; then
+                        ELT_walk_patches "${d}/configure" "${p}";
+                        ret=$?;
+                    fi
+                ;;
+                aixrtl | hpux-conf)
+                    ret=1;
+                    local subret=0;
+                    while [[ $subret -eq 0 ]]; do
+                        subret=1;
+                        if [[ -e ${d}/configure ]]; then
+                            ELT_walk_patches "${d}/configure" "${p}";
+                            subret=$?;
+                        fi;
+                        if [[ $subret -eq 0 ]]; then
+                            ret=0;
+                        fi;
+                    done
+                ;;
+                mint-conf | gold-conf | sol2-conf)
+                    ELT_walk_patches "${d}/configure" "${p}";
+                    ret=$?
+                ;;
+                target-nm)
+                    ELT_walk_patches "${d}/configure" "${p}";
+                    ret=$?
+                ;;
+                *)
+
+                ;;
+            esac;
+            if [[ ${ret} -ne 0 ]]; then
+                case ${p} in 
+                    uclibc-*)
+                        [[ ${CHOST} == *-uclibc ]] && ewarn "  uClibc patch set '${p}' failed to apply!"
+                    ;;
+                    fbsd-*)
+                        if [[ ${CHOST} == *-freebsd* ]]; then
+                            if [[ -z $(grep 'Handle Gentoo/FreeBSD as it was Linux' 								"${d}/configure" 2>/dev/null) ]]; then
+                                eerror "  FreeBSD patch set '${p}' failed to apply!";
+                                die "FreeBSD patch set '${p}' failed to apply!";
+                            fi;
+                        fi
+                    ;;
+                    darwin-*)
+                        [[ ${CHOST} == *"-darwin"* ]] && ewarn "  Darwin patch set '${p}' failed to apply!"
+                    ;;
+                esac;
+            fi;
+        done;
+        rm -f "${d}/libtool";
+         > "${d}/.elibtoolized";
+    done
+}
+elt_patch_dir () 
+{ 
+    local d="${ECLASSDIR}/ELT-patches";
+    if [[ ! -d ${d} ]]; then
+        d="${_LIBTOOL_ECLASSDIR_LOCAL}/ELT-patches";
+    fi;
+    echo "${d}"
+}
+emktemp () 
+{ 
+    local exe="touch";
+    [[ $1 == -d ]] && exe="mkdir" && shift;
+    local topdir=$1;
+    if [[ -z ${topdir} ]]; then
+        [[ -z ${T} ]] && topdir="/tmp" || topdir=${T};
+    fi;
+    if ! type -P mktemp > /dev/null; then
+        local tmp=/;
+        while [[ -e ${tmp} ]]; do
+            tmp=${topdir}/tmp.${RANDOM}.${RANDOM}.${RANDOM};
+        done;
+        ${exe} "${tmp}" || ${exe} -p "${tmp}";
+        echo "${tmp}";
+    else
+        if [[ ${exe} == "touch" ]]; then
+            TMPDIR="${topdir}" mktemp -t tmp.XXXXXXXXXX;
+        else
+            TMPDIR="${topdir}" mktemp -dt tmp.XXXXXXXXXX;
+        fi;
+    fi
+}
+epatch () 
+{ 
+    function _epatch_draw_line () 
+    { 
+        [[ -z $1 ]] && set "$(printf "%65s" '')";
+        echo "${1//?/=}"
+    };
+    unset P4CONFIG P4PORT P4USER;
+    local EPATCH_OPTS=(${EPATCH_OPTS[*]});
+    while [[ $# -gt 0 ]]; do
+        case $1 in 
+            -*)
+                EPATCH_OPTS+=("$1")
+            ;;
+            *)
+                break
+            ;;
+        esac;
+        shift;
+    done;
+    if [[ $# -gt 1 ]]; then
+        local m;
+        for m in "$@";
+        do
+            epatch "${m}";
+        done;
+        return 0;
+    fi;
+    local SINGLE_PATCH="no";
+    [[ $# -eq 0 ]] && set -- "${EPATCH_SOURCE}";
+    if [[ -f $1 ]]; then
+        SINGLE_PATCH="yes";
+        set -- "$1";
+        local EPATCH_SUFFIX=$1;
+    else
+        if [[ -d $1 ]]; then
+            evar_push_set LC_COLLATE C;
+            set -- "$1"/*${EPATCH_SUFFIX:+."${EPATCH_SUFFIX}"};
+            evar_pop;
+        else
+            if [[ -f ${EPATCH_SOURCE}/$1 ]]; then
+                epatch "${EPATCH_SOURCE}/$1";
+                return $?;
+            else
+                [[ $# -ne 0 ]] && EPATCH_SOURCE=$1;
+                echo;
+                eerror "Cannot find \$EPATCH_SOURCE!  Value for \$EPATCH_SOURCE is:";
+                eerror;
+                eerror "  ${EPATCH_SOURCE}";
+                eerror "  ( ${EPATCH_SOURCE##*/} )";
+                echo;
+                die "Cannot find \$EPATCH_SOURCE!";
+            fi;
+        fi;
+    fi;
+    EPATCH_OPTS="${EPATCH_COMMON_OPTS} ${EPATCH_OPTS[*]}";
+    local PIPE_CMD;
+    case ${EPATCH_SUFFIX##*\.} in 
+        xz)
+            PIPE_CMD="xz -dc"
+        ;;
+        lzma)
+            PIPE_CMD="lzma -dc"
+        ;;
+        bz2)
+            PIPE_CMD="bzip2 -dc"
+        ;;
+        gz | Z | z)
+            PIPE_CMD="gzip -dc"
+        ;;
+        ZIP | zip)
+            PIPE_CMD="unzip -p"
+        ;;
+        *)
+
+        ;;
+    esac;
+    [[ ${SINGLE_PATCH} == "no" ]] && einfo "${EPATCH_MULTI_MSG}";
+    local x;
+    for x in "$@";
+    do
+        [[ ! -f ${x} ]] && continue;
+        local patchname=${x##*/};
+        local a=${patchname#*_};
+        a=${a%%_*};
+        if ! [[ ${SINGLE_PATCH} == "yes" || ${EPATCH_FORCE} == "yes" || ${a} == all || ${a} == ${ARCH} ]]; then
+            continue;
+        fi;
+        if [[ -n ${EPATCH_EXCLUDE} ]]; then
+            eshopts_push -o noglob;
+            local ex;
+            for ex in ${EPATCH_EXCLUDE};
+            do
+                if [[ ${patchname} == ${ex} ]]; then
+                    einfo "  Skipping ${patchname} due to EPATCH_EXCLUDE ...";
+                    eshopts_pop;
+                    continue 2;
+                fi;
+            done;
+            for ex in ${EPATCH_USER_EXCLUDE};
+            do
+                if [[ ${patchname} == ${ex} ]]; then
+                    einfo "  Skipping ${patchname} due to EPATCH_USER_EXCLUDE ...";
+                    eshopts_pop;
+                    continue 2;
+                fi;
+            done;
+            eshopts_pop;
+        fi;
+        if [[ ${SINGLE_PATCH} == "yes" ]]; then
+            if [[ -n ${EPATCH_SINGLE_MSG} ]]; then
+                einfo "${EPATCH_SINGLE_MSG}";
+            else
+                einfo "Applying ${patchname} ...";
+            fi;
+        else
+            einfo "  ${patchname} ...";
+        fi;
+        local STDERR_TARGET="${T}/${patchname}.out";
+        if [[ -e ${STDERR_TARGET} ]]; then
+            STDERR_TARGET="${T}/${patchname}-$$.out";
+        fi;
+        printf "***** %s *****\nPWD: %s\n\n" "${patchname}" "${PWD}" > "${STDERR_TARGET}";
+        local count=0;
+        local PATCH_TARGET;
+        if [[ -n ${PIPE_CMD} ]]; then
+            PATCH_TARGET="${T}/$$.patch";
+            echo "PIPE_COMMAND:  ${PIPE_CMD} ${x} > ${PATCH_TARGET}" >> "${STDERR_TARGET}";
+            if ! ( ${PIPE_CMD} "${x}" > "${PATCH_TARGET}" ) >> "${STDERR_TARGET}" 2>&1; then
+                echo;
+                eerror "Could not extract patch!";
+                count=5;
+                break;
+            fi;
+        else
+            PATCH_TARGET=${x};
+        fi;
+        local abs_paths=$(egrep -n '^[-+]{3} /' "${PATCH_TARGET}" | awk '$2 != "/dev/null" { print }');
+        if [[ -n ${abs_paths} ]]; then
+            count=1;
+            printf "NOTE: skipping -p0 due to absolute paths in patch:\n%s\n" "${abs_paths}" >> "${STDERR_TARGET}";
+        fi;
+        local rel_paths=$(egrep -n '^[-+]{3} [^	]*[.][.]/' "${PATCH_TARGET}");
+        if [[ -n ${rel_paths} ]]; then
+            echo;
+            eerror "Rejected Patch: ${patchname} !";
+            eerror " ( ${PATCH_TARGET} )";
+            eerror;
+            eerror "Your patch uses relative paths '../':";
+            eerror "${rel_paths}";
+            echo;
+            die "you need to fix the relative paths in patch";
+        fi;
+        local patch_cmd;
+        local patch="patch";
+        eval $(alias patch 2>/dev/null | sed 's:^alias ::');
+        while [[ ${count} -lt 5 ]]; do
+            patch_cmd="${patch} -p${count} ${EPATCH_OPTS}";
+            ( _epatch_draw_line "***** ${patchname} *****";
+            echo;
+            echo "PATCH COMMAND:  ${patch_cmd} < '${PATCH_TARGET}'";
+            echo;
+            _epatch_draw_line "***** ${patchname} *****";
+            ${patch_cmd} --dry-run -f < "${PATCH_TARGET}" 2>&1;
+            ret=$?;
+            echo;
+            echo "patch program exited with status ${ret}";
+            exit ${ret} ) >> "${STDERR_TARGET}";
+            if [ $? -eq 0 ]; then
+                ( _epatch_draw_line "***** ${patchname} *****";
+                echo;
+                echo "ACTUALLY APPLYING ${patchname} ...";
+                echo;
+                _epatch_draw_line "***** ${patchname} *****";
+                ${patch_cmd} < "${PATCH_TARGET}" 2>&1;
+                ret=$?;
+                echo;
+                echo "patch program exited with status ${ret}";
+                exit ${ret} ) >> "${STDERR_TARGET}";
+                if [ $? -ne 0 ]; then
+                    echo;
+                    eerror "A dry-run of patch command succeeded, but actually";
+                    eerror "applying the patch failed!";
+                    count=5;
+                fi;
+                break;
+            fi;
+            : $(( count++ ));
+        done;
+        if [[ -n ${PIPE_CMD} ]]; then
+            rm -f "${PATCH_TARGET}";
+        fi;
+        if [[ ${count} -ge 5 ]]; then
+            echo;
+            eerror "Failed Patch: ${patchname} !";
+            eerror " ( ${PATCH_TARGET} )";
+            eerror;
+            eerror "Include in your bugreport the contents of:";
+            eerror;
+            eerror "  ${STDERR_TARGET}";
+            echo;
+            die "Failed Patch: ${patchname}!";
+        fi;
+        rm -f "${STDERR_TARGET}";
+        cat >> "${T}/epatch.log"  <<-EOF
+PATCH: ${x}
+CMD: ${patch_cmd}
+PWD: ${PWD}
+
+EOF
+
+        eend 0;
+    done;
+    [[ ${SINGLE_PATCH} == "no" ]] && einfo "Done with patching";
+    :
+}
+epatch_user () 
+{ 
+    [[ $# -ne 0 ]] && die "epatch_user takes no options";
+    local applied="${T}/epatch_user.log";
+    [[ -e ${applied} ]] && return 2;
+    local EPATCH_SOURCE check base=${PORTAGE_CONFIGROOT%/}/etc/portage/patches;
+    for check in ${CATEGORY}/{${P}-${PR},${P},${PN}}{,:${SLOT}};
+    do
+        EPATCH_SOURCE=${base}/${CTARGET}/${check};
+        [[ -r ${EPATCH_SOURCE} ]] || EPATCH_SOURCE=${base}/${CHOST}/${check};
+        [[ -r ${EPATCH_SOURCE} ]] || EPATCH_SOURCE=${base}/${check};
+        if [[ -d ${EPATCH_SOURCE} ]]; then
+            EPATCH_SOURCE=${EPATCH_SOURCE} EPATCH_SUFFIX="patch" EPATCH_FORCE="yes" EPATCH_MULTI_MSG="Applying user patches from ${EPATCH_SOURCE} ..." epatch;
+            echo "${EPATCH_SOURCE}" > "${applied}";
+            return 0;
+        fi;
+    done;
+    echo "none" > "${applied}";
+    return 1
+}
+epause () 
+{ 
+    ewarn "QA Notice: epause is not defined in EAPI=${EAPI}, please file a bug at http://bugs.gentoo.org"
+}
+eprefixify () 
+{ 
+    [[ $# -lt 1 ]] && die "at least one argument required";
+    einfo "Adjusting to prefix ${EPREFIX:-/}";
+    local x;
+    for x in "$@";
+    do
+        if [[ -e ${x} ]]; then
+            ebegin "  ${x##*/}";
+            sed -i -e "s|@GENTOO_PORTAGE_EPREFIX@|${EPREFIX}|g" "${x}";
+            eend $? || die "failed to eprefixify ${x}";
+        else
+            die "${x} does not exist";
+        fi;
+    done;
+    return 0
+}
+epunt_cxx () 
+{ 
+    local dir=$1;
+    [[ -z ${dir} ]] && dir=${S};
+    ebegin "Removing useless C++ checks";
+    local f p any_found;
+    while IFS= read -r -d '' f; do
+        for p in "${PORTDIR}"/eclass/ELT-patches/nocxx/*.patch;
+        do
+            if patch --no-backup-if-mismatch -p1 "${f}" "${p}" > /dev/null; then
+                any_found=1;
+                break;
+            fi;
+        done;
+    done < <(find "${dir}" -name configure -print0);
+    if [[ -z ${any_found} ]]; then
+        eqawarn "epunt_cxx called unnecessarily (no C++ checks to punt).";
+    fi;
+    eend 0
+}
+eshopts_pop () 
+{ 
+    local s;
+    estack_pop eshopts s || die "${FUNCNAME}: unbalanced push";
+    if [[ ${s} == "shopt -"* ]]; then
+        eval "${s}" || die "${FUNCNAME}: sanity: invalid shopt options: ${s}";
+    else
+        set +$- || die "${FUNCNAME}: sanity: invalid shell settings: $-";
+        set -${s} || die "${FUNCNAME}: sanity: unable to restore saved shell settings: ${s}";
+    fi
+}
+eshopts_push () 
+{ 
+    if [[ $1 == -[su] ]]; then
+        estack_push eshopts "$(shopt -p)";
+        [[ $# -eq 0 ]] && return 0;
+        shopt "$@" || die "${FUNCNAME}: bad options to shopt: $*";
+    else
+        estack_push eshopts $-;
+        [[ $# -eq 0 ]] && return 0;
+        set "$@" || die "${FUNCNAME}: bad options to set: $*";
+    fi
+}
+estack_pop () 
+{ 
+    [[ $# -eq 0 || $# -gt 2 ]] && die "estack_pop: incorrect # of arguments";
+    local _estack_name="_ESTACK_$1_";
+    shift;
+    local _estack_retvar=$1;
+    shift;
+    eval local _estack_i=\${#${_estack_name}\[@\]};
+    [[ $(( --_estack_i )) -eq -1 ]] && return 1;
+    if [[ -n ${_estack_retvar} ]]; then
+        eval ${_estack_retvar}=\"\${${_estack_name}\[${_estack_i}\]}\";
+    fi;
+    eval unset ${_estack_name}\[${_estack_i}\]
+}
+estack_push () 
+{ 
+    [[ $# -eq 0 ]] && die "estack_push: incorrect # of arguments";
+    local stack_name="_ESTACK_$1_";
+    shift;
+    eval ${stack_name}+=\( \"\$@\" \)
+}
+esvn_clean () 
+{ 
+    [[ -z $* ]] && set -- .;
+    find "$@" -type d -name '.svn' -prune -print0 | xargs -0 rm -rf
+}
+eumask_pop () 
+{ 
+    [[ $# -eq 0 ]] || die "${FUNCNAME}: we take no options";
+    local s;
+    estack_pop eumask s || die "${FUNCNAME}: unbalanced push";
+    umask ${s} || die "${FUNCNAME}: sanity: could not restore umask: ${s}"
+}
+eumask_push () 
+{ 
+    estack_push eumask "$(umask)";
+    umask "$@" || die "${FUNCNAME}: bad options to umask: $*"
+}
+evar_pop () 
+{ 
+    local cnt=${1:-bad};
+    case $# in 
+        0)
+            cnt=1
+        ;;
+        1)
+            isdigit "${cnt}" || die "${FUNCNAME}: first arg must be a number: $*"
+        ;;
+        *)
+            die "${FUNCNAME}: only accepts one arg: $*"
+        ;;
+    esac;
+    local var val;
+    while (( cnt-- )); do
+        estack_pop evar val || die "${FUNCNAME}: unbalanced push";
+        estack_pop evar var || die "${FUNCNAME}: unbalanced push";
+        [[ ${val} == "unset_76fc3c462065bb4ca959f939e6793f94" ]] && unset ${var} || printf -v "${var}" '%s' "${val}";
+    done
+}
+evar_push () 
+{ 
+    local var val;
+    for var in "$@";
+    do
+        [[ ${!var+set} == "set" ]] && val=${!var} || val="unset_76fc3c462065bb4ca959f939e6793f94";
+        estack_push evar "${var}" "${val}";
+    done
+}
+evar_push_set () 
+{ 
+    local var=$1;
+    evar_push ${var};
+    case $# in 
+        1)
+            unset ${var}
+        ;;
+        2)
+            printf -v "${var}" '%s' "$2"
+        ;;
+        *)
+            die "${FUNCNAME}: incorrect # of args: $*"
+        ;;
+    esac
+}
+filter-flags () 
+{ 
+    _filter-hardened "$@";
+    local v;
+    for v in $(all-flag-vars);
+    do
+        _filter-var ${v} "$@";
+    done;
+    return 0
+}
+filter-ldflags () 
+{ 
+    _filter-var LDFLAGS "$@";
+    return 0
+}
+filter-lfs-flags () 
+{ 
+    [[ $# -ne 0 ]] && die "filter-lfs-flags takes no arguments";
+    filter-flags -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_LARGE_FILES -D_LARGE_FILE_API
+}
+filter-mfpmath () 
+{ 
+    local orig_mfpmath new_math prune_math;
+    orig_mfpmath=$(get-flag -mfpmath);
+    new_math=$(get-flag mfpmath);
+    new_math=${new_math/both/387,sse};
+    new_math=" ${new_math//[,+]/ } ";
+    prune_math="";
+    for prune_math in "$@";
+    do
+        new_math=${new_math/ ${prune_math} / };
+    done;
+    new_math=$(echo ${new_math});
+    new_math=${new_math// /,};
+    if [[ -z ${new_math} ]]; then
+        filter-flags ${orig_mfpmath};
+    else
+        replace-flags ${orig_mfpmath} -mfpmath=${new_math};
+    fi;
+    return 0
+}
+find_module_params () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    local matched_offset=0 matched_opts=0 test="${@}" temp_var result;
+    local i=0 y=0 z=0;
+    for ((i=0; i<=${#test}; i++))
+    do
+        case ${test:${i}:1} in 
+            \()
+                matched_offset[0]=${i}
+            ;;
+            \:)
+                matched_opts=$((${matched_opts} + 1));
+                matched_offset[${matched_opts}]="${i}"
+            ;;
+            \))
+                matched_opts=$((${matched_opts} + 1));
+                matched_offset[${matched_opts}]="${i}"
+            ;;
+        esac;
+    done;
+    for ((i=0; i<=${matched_opts}; i++))
+    do
+        case ${i} in 
+            0)
+                tempvar=${test:0:${matched_offset[0]}}
+            ;;
+            *)
+                y=$((${matched_offset[$((${i} - 1))]} + 1));
+                z=$((${matched_offset[${i}]} - ${matched_offset[$((${i} - 1))]}));
+                z=$((${z} - 1));
+                tempvar=${test:${y}:${z}}
+            ;;
+        esac;
+        case ${i} in 
+            0)
+                result="${result} modulename:${tempvar}"
+            ;;
+            1)
+                result="${result} libdir:${tempvar}"
+            ;;
+            2)
+                result="${result} srcdir:${tempvar}"
+            ;;
+            3)
+                result="${result} objdir:${tempvar}"
+            ;;
+        esac;
+    done;
+    echo ${result}
+}
+gcc-fullversion () 
+{ 
+    _gcc_fullversion '$1.$2.$3' "$@"
+}
+gcc-major-version () 
+{ 
+    _gcc_fullversion '$1' "$@"
+}
+gcc-micro-version () 
+{ 
+    _gcc_fullversion '$3' "$@"
+}
+gcc-minor-version () 
+{ 
+    _gcc_fullversion '$2' "$@"
+}
+gcc-specs-directive () 
+{ 
+    local directive subdname subdirective;
+    directive="$(_gcc-specs-directive_raw $1)";
+    while [[ ${directive} == *%\(*\)* ]]; do
+        subdname=${directive/*%\(};
+        subdname=${subdname/\)*};
+        subdirective="$(_gcc-specs-directive_raw ${subdname})";
+        directive="${directive//\%(${subdname})/${subdirective}}";
+    done;
+    echo "${directive}";
+    return 0
+}
+gcc-specs-nostrict () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive cc1);
+    return $([[ "${directive/\{!fstrict-overflow:}" != "${directive}" ]])
+}
+gcc-specs-now () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive link_command);
+    return $([[ "${directive/\{!nonow:}" != "${directive}" ]])
+}
+gcc-specs-pie () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive cc1);
+    return $([[ "${directive/\{!nopie:}" != "${directive}" ]])
+}
+gcc-specs-relro () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive link_command);
+    return $([[ "${directive/\{!norelro:}" != "${directive}" ]])
+}
+gcc-specs-ssp () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive cc1);
+    return $([[ "${directive/\{!fno-stack-protector:}" != "${directive}" ]])
+}
+gcc-specs-ssp-to-all () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive cc1);
+    return $([[ "${directive/\{!fno-stack-protector-all:}" != "${directive}" ]])
+}
+gcc-version () 
+{ 
+    _gcc_fullversion '$1.$2' "$@"
+}
+gen_usr_ldscript () 
+{ 
+    local lib libdir=$(get_libdir) output_format="" auto=false suffix=$(get_libname);
+    [[ -z ${ED+set} ]] && local ED=${D%/}${EPREFIX}/;
+    tc-is-static-only && return;
+    [[ -n ${PREFIX_DISABLE_GEN_USR_LDSCRIPT} ]] && return;
+    case ${CTARGET:-${CHOST}} in 
+        *-darwin*)
+            type -P scanmacho > /dev/null || return
+        ;;
+        *linux* | *-freebsd* | *-openbsd* | *-netbsd* | *-solaris*)
+            type -P scanelf > /dev/null || return
+        ;;
+        *)
+            return 0
+        ;;
+    esac;
+    dodir /usr/${libdir};
+    if [[ $1 == "-a" ]]; then
+        auto=true;
+        shift;
+        dodir /${libdir};
+    fi;
+    local flags=(${CFLAGS} ${LDFLAGS} -Wl,--verbose);
+    if $(tc-getLD) --version | grep -q 'GNU gold'; then
+        local d="${T}/bfd-linker";
+        mkdir -p "${d}";
+        ln -sf $(which ${CHOST}-ld.bfd) "${d}"/ld;
+        flags+=(-B"${d}");
+    fi;
+    output_format=$($(tc-getCC) "${flags[@]}" 2>&1 | sed -n 's/^OUTPUT_FORMAT("\([^"]*\)",.*/\1/p');
+    [[ -n ${output_format} ]] && output_format="OUTPUT_FORMAT ( ${output_format} )";
+    for lib in "$@";
+    do
+        local tlib;
+        if ${auto}; then
+            lib="lib${lib}${suffix}";
+        else
+            [[ -r ${ED}/${libdir}/${lib} ]] || continue;
+        fi;
+        case ${CTARGET:-${CHOST}} in 
+            *-darwin*)
+                if ${auto}; then
+                    tlib=$(scanmacho -qF'%S#F' "${ED}"/usr/${libdir}/${lib});
+                else
+                    tlib=$(scanmacho -qF'%S#F' "${ED}"/${libdir}/${lib});
+                fi;
+                if [[ -z ${tlib} ]]; then
+                    ewarn "gen_usr_ldscript: unable to read install_name from ${lib}";
+                    tlib=${lib};
+                fi;
+                tlib=${tlib##*/};
+                if ${auto}; then
+                    mv "${ED}"/usr/${libdir}/${lib%${suffix}}.*${suffix#.} "${ED}"/${libdir}/ || die;
+                    if [[ ${tlib} != ${lib%${suffix}}.*${suffix#.} ]]; then
+                        mv "${ED}"/usr/${libdir}/${tlib%${suffix}}.*${suffix#.} "${ED}"/${libdir}/ || die;
+                    fi;
+                    [[ ${tlib} != ${lib} ]] && rm -f "${ED}"/${libdir}/${lib};
+                fi;
+                if [[ ! -w "${ED}/${libdir}/${tlib}" ]]; then
+                    chmod u+w "${ED}${libdir}/${tlib}";
+                    local nowrite=yes;
+                fi;
+                install_name_tool -id "${EPREFIX}"/${libdir}/${tlib} "${ED}"/${libdir}/${tlib} || die "install_name_tool failed";
+                [[ -n ${nowrite} ]] && chmod u-w "${ED}${libdir}/${tlib}";
+                local l obj needed lib;
+                scanmacho -qyRF '%p;%n' "${D}" | { 
+                    while IFS= read l; do
+                        obj=${l%%;*};
+                        needed=${l#*;};
+                        for lib in ${needed//,/ };
+                        do
+                            if [[ ${lib} == */usr/lib*/${tlib} ]]; then
+                                local s=${lib%usr/*}${lib##*/usr/};
+                                [[ ${lib} != ${s} ]] || continue;
+                                einfo "gen_usr_ldscript: correcting install_name from ${lib} to ${s} in ${obj}";
+                                install_name_tool -change "${lib}" "${s}" "${D}${obj}";
+                            fi;
+                        done;
+                    done
+                };
+                pushd "${ED}/usr/${libdir}" > /dev/null;
+                ln -snf "../../${libdir}/${tlib}" "${lib}";
+                popd > /dev/null
+            ;;
+            *)
+                if ${auto}; then
+                    tlib=$(scanelf -qF'%S#F' "${ED}"/usr/${libdir}/${lib});
+                    if [[ -z ${tlib} ]]; then
+                        ewarn "gen_usr_ldscript: unable to read SONAME from ${lib}";
+                        tlib=${lib};
+                    fi;
+                    mv "${ED}"/usr/${libdir}/${lib}* "${ED}"/${libdir}/ || die;
+                    if [[ ${tlib} != ${lib}* ]]; then
+                        mv "${ED}"/usr/${libdir}/${tlib}* "${ED}"/${libdir}/ || die;
+                    fi;
+                    [[ ${tlib} != ${lib} ]] && rm -f "${ED}"/${libdir}/${lib};
+                else
+                    tlib=${lib};
+                fi;
+                cat > "${ED}/usr/${libdir}/${lib}"  <<-END_LDSCRIPT
+/* GNU ld script
+   Since Gentoo has critical dynamic libraries in /lib, and the static versions
+   in /usr/lib, we need to have a "fake" dynamic lib in /usr/lib, otherwise we
+   run into linking problems.  This "fake" dynamic lib is a linker script that
+   redirects the linker to the real lib.  And yes, this works in the cross-
+   compiling scenario as the sysroot-ed linker will prepend the real path.
+
+   See bug http://bugs.gentoo.org/4411 for more info.
+ */
+${output_format}
+GROUP ( ${EPREFIX}/${libdir}/${tlib} )
+END_LDSCRIPT
+
+            ;;
+        esac
+        fperms a+x "/usr/${libdir}/${lib}" || die "could not change perms on ${lib}";
+    done
+}
+generate_modulesd () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    [ -n "${MODULES_OPTIONAL_USE}" ] && use !${MODULES_OPTIONAL_USE} && return;
+    local currm_path currm currm_t t myIFS myVAR;
+    local module_docs module_enabled module_aliases module_additions module_examples module_modinfo module_opts;
+    for currm_path in ${@};
+    do
+        currm=${currm_path//*\/};
+        currm=$(echo ${currm} | tr '[:lower:]' '[:upper:]');
+        currm_t=${currm};
+        while [[ -z ${currm_t//*-*} ]]; do
+            currm_t=${currm_t/-/_};
+        done;
+        module_docs="$(eval echo \${MODULESD_${currm_t}_DOCS})";
+        module_enabled="$(eval echo \${MODULESD_${currm_t}_ENABLED})";
+        module_aliases="$(eval echo \${#MODULESD_${currm_t}_ALIASES[*]})";
+        module_additions="$(eval echo \${#MODULESD_${currm_t}_ADDITIONS[*]})";
+        module_examples="$(eval echo \${#MODULESD_${currm_t}_EXAMPLES[*]})";
+        [[ ${module_aliases} -eq 0 ]] && unset module_aliases;
+        [[ ${module_additions} -eq 0 ]] && unset module_additions;
+        [[ ${module_examples} -eq 0 ]] && unset module_examples;
+        [[ ${module_enabled} == no ]] && return 0;
+        for t in ${!module_*};
+        do
+            [[ -z ${!t} ]] && unset ${t};
+        done;
+        [[ -z ${!module_*} ]] && return 0;
+        module_modinfo="$(modinfo -p ${currm_path}.${KV_OBJ})";
+        module_config="${T}/modulesd-${currm}";
+        ebegin "Preparing file for modprobe.d";
+        echo "# modprobe.d configuration file for ${currm}" >> "${module_config}";
+        [[ -n ${module_docs} ]] && echo "# For more information please read:" >> "${module_config}";
+        for t in ${module_docs};
+        do
+            echo "#    ${t//*\/}" >> "${module_config}";
+        done;
+        echo >> "${module_config}";
+        if [[ ${module_aliases} -gt 0 ]]; then
+            echo "# Internal Aliases - Do not edit" >> "${module_config}";
+            echo "# ------------------------------" >> "${module_config}";
+            for ((t=0; t<${module_aliases}; t++))
+            do
+                echo "alias $(eval echo \${MODULESD_${currm}_ALIASES[$t]})" >> "${module_config}";
+            done;
+            echo '' >> "${module_config}";
+        fi;
+        if [[ -n ${module_modinfo} ]]; then
+            echo >> "${module_config}";
+            echo "# Configurable module parameters" >> "${module_config}";
+            echo "# ------------------------------" >> "${module_config}";
+            myIFS="${IFS}";
+            IFS="$(echo -en "\n\b")";
+            for t in ${module_modinfo};
+            do
+                myVAR="$(echo ${t#*:}  | grep -o "[^ ]*[0-9][ =][^ ]*" | tail -1  | grep -o "[0-9]")";
+                if [[ -n ${myVAR} ]]; then
+                    module_opts="${module_opts} ${t%%:*}:${myVAR}";
+                fi;
+                echo -e "# ${t%%:*}:\t${t#*:}" >> "${module_config}";
+            done;
+            IFS="${myIFS}";
+            echo '' >> "${module_config}";
+        fi;
+        if [[ $(eval echo \${MODULESD_${currm}_ALIASES[0]}) == guess ]]; then
+            if [[ -n ${module_opts} ]]; then
+                echo "# For Example..." >> "${module_config}";
+                echo "# --------------" >> "${module_config}";
+                for t in ${module_opts};
+                do
+                    echo "# options ${currm} ${t//:*}=${t//*:}" >> "${module_config}";
+                done;
+                echo '' >> "${module_config}";
+            fi;
+        else
+            if [[ ${module_examples} -gt 0 ]]; then
+                echo "# For Example..." >> "${module_config}";
+                echo "# --------------" >> "${module_config}";
+                for ((t=0; t<${module_examples}; t++))
+                do
+                    echo "options $(eval echo \${MODULESD_${currm}_EXAMPLES[$t]})" >> "${module_config}";
+                done;
+                echo '' >> "${module_config}";
+            fi;
+        fi;
+        if [[ ${module_additions} -gt 0 ]]; then
+            for ((t=0; t<${module_additions}; t++))
+            do
+                echo "$(eval echo \${MODULESD_${currm}_ADDITIONS[$t]})" >> "${module_config}";
+            done;
+            echo '' >> "${module_config}";
+        fi;
+        insinto /etc/modprobe.d;
+        newins "${module_config}" "${currm_path//*\/}.conf";
+        [[ -n ${module_docs} ]] && dodoc ${module_docs};
+    done;
+    eend 0;
+    return 0
+}
+get-KERNEL_CC () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    if [[ -n ${KERNEL_CC} ]]; then
+        echo "${KERNEL_CC}";
+        return;
+    fi;
+    local kernel_cc;
+    if [ -n "${KERNEL_ABI}" ]; then
+        kernel_cc="$(tc-getCC $(ABI=${KERNEL_ABI} get_abi_CHOST))";
+    else
+        kernel_cc=$(tc-getCC);
+    fi;
+    echo "${kernel_cc}"
+}
+get-flag () 
+{ 
+    local f var findflag="$1";
+    for var in $(all-flag-vars);
+    do
+        for f in ${!var};
+        do
+            if [ "${f/${findflag}}" != "${f}" ]; then
+                printf "%s\n" "${f/-${findflag}=}";
+                return 0;
+            fi;
+        done;
+    done;
+    return 1
+}
+get_abi_CFLAGS () 
+{ 
+    get_abi_var CFLAGS "$@"
+}
+get_abi_CHOST () 
+{ 
+    get_abi_var CHOST "$@"
+}
+get_abi_CTARGET () 
+{ 
+    get_abi_var CTARGET "$@"
+}
+get_abi_FAKE_TARGETS () 
+{ 
+    get_abi_var FAKE_TARGETS "$@"
+}
+get_abi_LDFLAGS () 
+{ 
+    get_abi_var LDFLAGS "$@"
+}
+get_abi_LIBDIR () 
+{ 
+    get_abi_var LIBDIR "$@"
+}
+get_abi_var () 
+{ 
+    local flag=$1;
+    local abi=${2:-${ABI:-${DEFAULT_ABI:-default}}};
+    local var="${flag}_${abi}";
+    echo ${!var}
+}
+get_after_major_version () 
+{ 
+    echo $(get_version_component_range 2- "${1:-${PV}}")
+}
+get_all_abis () 
+{ 
+    local x order="" mvar dvar;
+    mvar="MULTILIB_ABIS";
+    dvar="DEFAULT_ABI";
+    if [[ -n $1 ]]; then
+        mvar="$1_${mvar}";
+        dvar="$1_${dvar}";
+    fi;
+    if [[ -z ${!mvar} ]]; then
+        echo "default";
+        return 0;
+    fi;
+    for x in ${!mvar};
+    do
+        if [[ ${x} != ${!dvar} ]]; then
+            order="${order:+${order} }${x}";
+        fi;
+    done;
+    order="${order:+${order} }${!dvar}";
+    echo ${order};
+    return 0
+}
+get_all_libdirs () 
+{ 
+    local libdirs abi;
+    for abi in ${MULTILIB_ABIS};
+    do
+        libdirs+=" $(get_abi_LIBDIR ${abi})";
+    done;
+    [[ " ${libdirs} " != *" lib "* ]] && libdirs+=" lib";
+    echo "${libdirs}"
+}
+get_all_version_components () 
+{ 
+    eshopts_push -s extglob;
+    local ver_str=${1:-${PV}} result;
+    result=();
+    if [[ ${VERSIONATOR_CACHE_VER_STR} == ${ver_str} ]]; then
+        echo ${VERSIONATOR_CACHE_RESULT};
+        eshopts_pop;
+        return;
+    fi;
+    export VERSIONATOR_CACHE_VER_STR=${ver_str};
+    while [[ -n $ver_str ]]; do
+        case "${ver_str::1}" in 
+            [[:digit:]])
+                result+=("${ver_str%%[^[:digit:]]*}");
+                ver_str=${ver_str##+([[:digit:]])}
+            ;;
+            [-_.])
+                result+=("${ver_str::1}");
+                ver_str=${ver_str:1}
+            ;;
+            [[:alpha:]])
+                local not_match=${ver_str##+([[:alpha:]])*([[:digit:]])};
+                result+=("${ver_str::${#ver_str} - ${#not_match}}");
+                ver_str=${not_match}
+            ;;
+            *)
+                result+=("${ver_str::1}");
+                ver_str=${ver_str:1}
+            ;;
+        esac;
+    done;
+    export VERSIONATOR_CACHE_RESULT=${result[*]};
+    echo ${result[@]};
+    eshopts_pop
+}
+get_install_abis () 
+{ 
+    local x order="";
+    if [[ -z ${MULTILIB_ABIS} ]]; then
+        echo "default";
+        return 0;
+    fi;
+    if [[ ${EMULTILIB_PKG} == "true" ]]; then
+        for x in ${MULTILIB_ABIS};
+        do
+            if [[ ${x} != "${DEFAULT_ABI}" ]]; then
+                has ${x} ${ABI_DENY} || order="${order} ${x}";
+            fi;
+        done;
+        has ${DEFAULT_ABI} ${ABI_DENY} || order="${order} ${DEFAULT_ABI}";
+        if [[ -n ${ABI_ALLOW} ]]; then
+            local ordera="";
+            for x in ${order};
+            do
+                if has ${x} ${ABI_ALLOW}; then
+                    ordera="${ordera} ${x}";
+                fi;
+            done;
+            order=${ordera};
+        fi;
+    else
+        order=${DEFAULT_ABI};
+    fi;
+    if [[ -z ${order} ]]; then
+        die "The ABI list is empty.  Are you using a proper multilib profile?  Perhaps your USE flags or MULTILIB_ABIS are too restrictive for this package.";
+    fi;
+    echo ${order};
+    return 0
+}
+get_last_version_component_index () 
+{ 
+    echo $(($(get_version_component_count "${1:-${PV}}" ) - 1))
+}
+get_libdir () 
+{ 
+    local CONF_LIBDIR;
+    if [ -n "${CONF_LIBDIR_OVERRIDE}" ]; then
+        echo ${CONF_LIBDIR_OVERRIDE};
+    else
+        get_abi_LIBDIR;
+    fi
+}
+get_libname () 
+{ 
+    local libname;
+    local ver=$1;
+    case ${CHOST} in 
+        *-cygwin | mingw* | *-mingw*)
+            libname="dll"
+        ;;
+        *-darwin*)
+            libname="dylib"
+        ;;
+        *-mint*)
+            libname="irrelevant"
+        ;;
+        hppa*-hpux*)
+            libname="sl"
+        ;;
+        *)
+            libname="so"
+        ;;
+    esac;
+    if [[ -z $* ]]; then
+        echo ".${libname}";
+    else
+        for ver in "$@";
+        do
+            case ${CHOST} in 
+                *-darwin*)
+                    echo ".${ver}.${libname}"
+                ;;
+                *-mint*)
+                    echo ".${libname}"
+                ;;
+                *)
+                    echo ".${libname}.${ver}"
+                ;;
+            esac;
+        done;
+    fi
+}
+get_localversion () 
+{ 
+    local lv_list i x;
+    for i in $(ls ${1}/localversion* 2>/dev/null);
+    do
+        [[ -n ${i//*~*} ]] && lv_list="${lv_list} ${i}";
+    done;
+    for i in ${lv_list};
+    do
+        x="${x}$(<${i})";
+    done;
+    x=${x/ /};
+    echo ${x}
+}
+get_major_version () 
+{ 
+    local c=($(get_all_version_components "${1:-${PV}}"));
+    echo ${c[0]}
+}
+get_makefile_extract_function () 
+{ 
+    local a='' b='' mkfunc='getfilevar';
+    a="$(getfilevar VERSION ${KERNEL_MAKEFILE})";
+    b="$(getfilevar_noexec VERSION ${KERNEL_MAKEFILE})";
+    [[ "${a}" != "${b}" ]] && mkfunc='getfilevar_noexec';
+    echo "${mkfunc}"
+}
+get_modname () 
+{ 
+    local modname;
+    local ver=$1;
+    case ${CHOST} in 
+        *-darwin*)
+            modname="bundle"
+        ;;
+        *)
+            modname="so"
+        ;;
+    esac;
+    echo ".${modname}"
+}
+get_running_version () 
+{ 
+    KV_FULL=$(uname -r);
+    if [[ -f ${ROOT}/lib/modules/${KV_FULL}/source/Makefile && -f ${ROOT}/lib/modules/${KV_FULL}/build/Makefile ]]; then
+        KERNEL_DIR=$(readlink -f ${ROOT}/lib/modules/${KV_FULL}/source);
+        KBUILD_OUTPUT=$(readlink -f ${ROOT}/lib/modules/${KV_FULL}/build);
+        unset KV_FULL;
+        get_version;
+        return $?;
+    else
+        if [[ -f ${ROOT}/lib/modules/${KV_FULL}/source/Makefile ]]; then
+            KERNEL_DIR=$(readlink -f ${ROOT}/lib/modules/${KV_FULL}/source);
+            unset KV_FULL;
+            get_version;
+            return $?;
+        else
+            if [[ -f ${ROOT}/lib/modules/${KV_FULL}/build/Makefile ]]; then
+                KERNEL_DIR=$(readlink -f ${ROOT}/lib/modules/${KV_FULL}/build);
+                unset KV_FULL;
+                get_version;
+                return $?;
+            else
+                local kv_full=${KV_FULL//[-+_]*};
+                KV_MAJOR=$(get_version_component_range 1 ${kv_full});
+                KV_MINOR=$(get_version_component_range 2 ${kv_full});
+                KV_PATCH=$(get_version_component_range 3 ${kv_full});
+                KV_EXTRA="${KV_FULL#${KV_MAJOR}.${KV_MINOR}${KV_PATCH:+.${KV_PATCH}}}";
+                : ${KV_PATCH:=0};
+            fi;
+        fi;
+    fi;
+    return 0
+}
+get_version () 
+{ 
+    local tmplocal;
+    [ -n "${KV_FULL}" ] && return 0;
+    unset KV_DIR;
+    [ -z "${get_version_warning_done}" ] && qeinfo "Determining the location of the kernel source code";
+    [ -h "${KERNEL_DIR}" ] && KV_DIR="$(readlink -f ${KERNEL_DIR})";
+    [ -d "${KERNEL_DIR}" ] && KV_DIR="${KERNEL_DIR}";
+    if [ -z "${KV_DIR}" ]; then
+        if [ -z "${get_version_warning_done}" ]; then
+            get_version_warning_done=1;
+            qewarn "Unable to find kernel sources at ${KERNEL_DIR}";
+            if [ "${KERNEL_DIR}" == "/usr/src/linux" ]; then
+                qeinfo "Please make sure that ${KERNEL_DIR} points at your running kernel, ";
+                qeinfo "(or the kernel you wish to build against).";
+                qeinfo "Alternatively, set the KERNEL_DIR environment variable to the kernel sources location";
+            else
+                qeinfo "Please ensure that the KERNEL_DIR environment variable points at full Linux sources of the kernel you wish to compile against.";
+            fi;
+        fi;
+        return 1;
+    fi;
+    if [ -z "${KBUILD_OUTPUT}" -a -L "${KERNEL_DIR}/source" ]; then
+        KBUILD_OUTPUT=${KERNEL_DIR};
+        KERNEL_DIR=$(readlink -f "${KERNEL_DIR}/source");
+        KV_DIR=${KERNEL_DIR};
+    fi;
+    if [ -z "${get_version_warning_done}" ]; then
+        qeinfo "Found kernel source directory:";
+        qeinfo "    ${KV_DIR}";
+    fi;
+    if [ ! -s "${KV_DIR}/Makefile" ]; then
+        if [ -z "${get_version_warning_done}" ]; then
+            get_version_warning_done=1;
+            qeerror "Could not find a Makefile in the kernel source directory.";
+            qeerror "Please ensure that ${KERNEL_DIR} points to a complete set of Linux sources";
+        fi;
+        return 1;
+    fi;
+    local OUTPUT_DIR=${KBUILD_OUTPUT};
+    KERNEL_MAKEFILE="${KV_DIR}/Makefile";
+    if [[ -z ${OUTPUT_DIR} ]]; then
+        local mkfunc=$(get_makefile_extract_function "${KERNEL_MAKEFILE}");
+        OUTPUT_DIR=$(${mkfunc} KBUILD_OUTPUT "${KERNEL_MAKEFILE}");
+    fi;
+    KV_MAJOR=$(getfilevar_noexec VERSION "${KERNEL_MAKEFILE}");
+    KV_MINOR=$(getfilevar_noexec PATCHLEVEL "${KERNEL_MAKEFILE}");
+    KV_PATCH=$(getfilevar_noexec SUBLEVEL "${KERNEL_MAKEFILE}");
+    KV_EXTRA=$(getfilevar_noexec EXTRAVERSION "${KERNEL_MAKEFILE}");
+    if [ -z "${KV_MAJOR}" -o -z "${KV_MINOR}" -o -z "${KV_PATCH}" ]; then
+        if [ -z "${get_version_warning_done}" ]; then
+            get_version_warning_done=1;
+            qeerror "Could not detect kernel version.";
+            qeerror "Please ensure that ${KERNEL_DIR} points to a complete set of Linux sources.";
+        fi;
+        return 1;
+    fi;
+    OUTPUT_DIR="${OUTPUT_DIR:-/lib/modules/${KV_MAJOR}.${KV_MINOR}.${KV_PATCH}${KV_EXTRA}/build}";
+    [ -h "${OUTPUT_DIR}" ] && KV_OUT_DIR="$(readlink -f ${OUTPUT_DIR})";
+    [ -d "${OUTPUT_DIR}" ] && KV_OUT_DIR="${OUTPUT_DIR}";
+    if [ -n "${KV_OUT_DIR}" ]; then
+        qeinfo "Found kernel object directory:";
+        qeinfo "    ${KV_OUT_DIR}";
+    fi;
+    KV_OUT_DIR="${KV_OUT_DIR:-${KV_DIR}}";
+    if [ -s "${KV_OUT_DIR}"/include/config/kernel.release ]; then
+        KV_LOCAL=$(<"${KV_OUT_DIR}"/include/config/kernel.release);
+    else
+        if [ -s "${KV_OUT_DIR}"/.kernelrelease ]; then
+            KV_LOCAL=$(<"${KV_OUT_DIR}"/.kernelrelease);
+        else
+            KV_LOCAL=;
+        fi;
+    fi;
+    tmplocal=${KV_LOCAL#${KV_MAJOR}.${KV_MINOR}.${KV_PATCH}${KV_EXTRA}};
+    if [ "$KV_LOCAL" = "$tmplocal" ]; then
+        KV_LOCAL=;
+    else
+        KV_LOCAL=$tmplocal;
+    fi;
+    KV_FULL="${KV_MAJOR}.${KV_MINOR}.${KV_PATCH}${KV_EXTRA}${KV_LOCAL}";
+    qeinfo "Found sources for kernel version:";
+    qeinfo "    ${KV_FULL}";
+    return 0
+}
+get_version_component_count () 
+{ 
+    local a=($(get_version_components "${1:-${PV}}"));
+    echo ${#a[@]}
+}
+get_version_component_range () 
+{ 
+    eshopts_push -s extglob;
+    local c v="${2:-${PV}}" range="${1}" range_start range_end;
+    local -i i=-1 j=0;
+    c=($(get_all_version_components "${v}"));
+    range_start=${range%-*};
+    range_start=${range_start:-1};
+    range_end=${range#*-};
+    range_end=${range_end:-${#c[@]}};
+    while ((j < range_start)); do
+        i+=1;
+        ((i > ${#c[@]})) && eshopts_pop && return;
+        [[ -n "${c[i]//[-._]}" ]] && j+=1;
+    done;
+    while ((j <= range_end)); do
+        echo -n ${c[i]};
+        ((i > ${#c[@]})) && eshopts_pop && return;
+        [[ -n "${c[i]//[-._]}" ]] && j+=1;
+        i+=1;
+    done;
+    eshopts_pop
+}
+get_version_components () 
+{ 
+    local c=$(get_all_version_components "${1:-${PV}}");
+    echo ${c//[-._]/ }
+}
+getfilevar () 
+{ 
+    local ERROR basefname basedname myARCH="${ARCH}" M="${S}";
+    ERROR=0;
+    [ -z "${1}" ] && ERROR=1;
+    [ ! -f "${2}" ] && ERROR=1;
+    if [ "${ERROR}" = 1 ]; then
+        echo -e "\n";
+        eerror "getfilevar requires 2 variables, with the second a valid file.";
+        eerror "   getfilevar <VARIABLE> <CONFIGFILE>";
+    else
+        basefname="$(basename ${2})";
+        basedname="$(dirname ${2})";
+        unset ARCH;
+        [[ ${EAPI:-0} == [0123] ]] && function nonfatal () 
+        { 
+            "$@"
+        };
+        case ${EBUILD_PHASE_FUNC} in 
+            pkg_info | pkg_nofetch | pkg_pretend)
+                M="${T}"
+            ;;
+        esac;
+        echo -e "e:\\n\\t@echo \$(${1})\\ninclude ${basefname}" | nonfatal emake -C "${basedname}" M="${M}" ${BUILD_FIXES} -s -f - 2> /dev/null;
+        ARCH=${myARCH};
+    fi
+}
+getfilevar_noexec () 
+{ 
+    local ERROR basefname basedname mycat myARCH="${ARCH}";
+    ERROR=0;
+    mycat='cat';
+    [ -z "${1}" ] && ERROR=1;
+    [ ! -f "${2}" ] && ERROR=1;
+    [ "${2%.gz}" != "${2}" ] && mycat='zcat';
+    if [ "${ERROR}" = 1 ]; then
+        echo -e "\n";
+        eerror "getfilevar_noexec requires 2 variables, with the second a valid file.";
+        eerror "   getfilevar_noexec <VARIABLE> <CONFIGFILE>";
+    else
+        ${mycat} "${2}" | sed -n -e "/^[[:space:]]*${1}[[:space:]]*:\\?=[[:space:]]*\(.*\)\$/{
+			s,^[^=]*[[:space:]]*=[[:space:]]*,,g ;
+			s,[[:space:]]*\$,,g ;
+			p
+		}";
+    fi
+}
+has_m32 () 
+{ 
+    die "${FUNCNAME}: don't use this anymore"
+}
+has_m64 () 
+{ 
+    eqawarn "${FUNCNAME}: don't use this anymore";
+    local temp="$(emktemp)";
+    echo "int main() { return(0); }" > "${temp}".c;
+    MY_CC=$(tc-getCC);
+    ${MY_CC/ .*/} -m64 -o "$(emktemp)" "${temp}".c > /dev/null 2>&1;
+    local ret=$?;
+    rm -f "${temp}".c;
+    [[ ${ret} != 1 ]] && return 0;
+    return 1
+}
+has_multilib_profile () 
+{ 
+    [ -n "${MULTILIB_ABIS}" -a "${MULTILIB_ABIS}" != "${MULTILIB_ABIS/ /}" ]
+}
+in_iuse () 
+{ 
+    debug-print-function ${FUNCNAME} "${@}";
+    [[ ${#} -eq 1 ]] || die "Invalid args to ${FUNCNAME}()";
+    local flag=${1};
+    local liuse=(${IUSE});
+    has "${flag}" "${liuse[@]#[+-]}"
+}
+is-flag () 
+{ 
+    is-flagq "$@" && echo true
+}
+is-flagq () 
+{ 
+    [[ -n $2 ]] && die "Usage: is-flag <flag>";
+    local var;
+    for var in $(all-flag-vars);
+    do
+        _is_flagq ${var} "$1" && return 0;
+    done;
+    return 1
+}
+is-ldflag () 
+{ 
+    is-ldflagq "$@" && echo true
+}
+is-ldflagq () 
+{ 
+    [[ -n $2 ]] && die "Usage: is-ldflag <flag>";
+    _is_flagq LDFLAGS $1
+}
+is_final_abi () 
+{ 
+    has_multilib_profile || return 0;
+    set -- $(get_install_abis);
+    local LAST_ABI=$#;
+    [[ ${!LAST_ABI} == ${ABI} ]]
+}
+isdigit () 
+{ 
+    local d;
+    for d in "$@";
+    do
+        [[ ${d:-bad} == *[!0-9]* ]] && return 1;
+    done;
+    return 0
+}
+kernel_is () 
+{ 
+    linux-info_get_any_version;
+    local operator test value;
+    case ${1#-} in 
+        lt)
+            operator="-lt";
+            shift
+        ;;
+        gt)
+            operator="-gt";
+            shift
+        ;;
+        le)
+            operator="-le";
+            shift
+        ;;
+        ge)
+            operator="-ge";
+            shift
+        ;;
+        eq)
+            operator="-eq";
+            shift
+        ;;
+        *)
+            operator="-eq"
+        ;;
+    esac;
+    [[ $# -gt 3 ]] && die "Error in kernel-2_kernel_is(): too many parameters";
+    : $(( test = (KV_MAJOR << 16) + (KV_MINOR << 8) + KV_PATCH ));
+    : $(( value = (${1:-${KV_MAJOR}} << 16) + (${2:-${KV_MINOR}} << 8) + ${3:-${KV_PATCH}} ));
+    [ ${test} ${operator} ${value} ]
+}
+linux-info_get_any_version () 
+{ 
+    get_version;
+    if [[ $? -ne 0 ]]; then
+        ewarn "Unable to calculate Linux Kernel version for build, attempting to use running version";
+        get_running_version;
+    fi
+}
+linux-info_pkg_setup () 
+{ 
+    linux-info_get_any_version;
+    if kernel_is 2 4; then
+        if [ "$( gcc-major-version )" -eq "4" ]; then
+            echo;
+            ewarn "Be warned !! >=sys-devel/gcc-4.0.0 isn't supported with";
+            ewarn "linux-2.4 (or modules building against a linux-2.4 kernel)!";
+            echo;
+            ewarn "Either switch to another gcc-version (via gcc-config) or use a";
+            ewarn "newer kernel that supports gcc-4.";
+            echo;
+            ewarn "Also be aware that bugreports about gcc-4 not working";
+            ewarn "with linux-2.4 based ebuilds will be closed as INVALID!";
+            echo;
+            epause 10;
+        fi;
+    fi;
+    [ -n "${CONFIG_CHECK}" ] && check_extra_config
+}
+linux-mod_pkg_postinst () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    [ -n "${MODULES_OPTIONAL_USE}" ] && use !${MODULES_OPTIONAL_USE} && return;
+    ${UPDATE_DEPMOD} && update_depmod;
+    ${UPDATE_MODULEDB} && update_moduledb
+}
+linux-mod_pkg_postrm () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    [ -n "${MODULES_OPTIONAL_USE}" ] && use !${MODULES_OPTIONAL_USE} && return;
+    remove_moduledb
+}
+linux-mod_pkg_preinst () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    [ -n "${MODULES_OPTIONAL_USE}" ] && use !${MODULES_OPTIONAL_USE} && return;
+    [ -d "${D}lib/modules" ] && UPDATE_DEPMOD=true || UPDATE_DEPMOD=false;
+    [ -d "${D}lib/modules" ] && UPDATE_MODULEDB=true || UPDATE_MODULEDB=false
+}
+linux-mod_pkg_setup () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    [ -n "${MODULES_OPTIONAL_USE}" ] && use !${MODULES_OPTIONAL_USE} && return;
+    local is_bin="${MERGE_TYPE}";
+    if has ${EAPI} 0 1 2 3; then
+        is_bin=${EMERGE_FROM};
+    fi;
+    if [[ ${is_bin} == binary ]]; then
+        linux-mod_pkg_setup_binary;
+        return;
+    fi;
+    linux-info_pkg_setup;
+    require_configured_kernel;
+    check_kernel_built;
+    strip_modulenames;
+    [[ -n ${MODULE_NAMES} ]] && check_modules_supported;
+    set_kvobj
+}
+linux-mod_pkg_setup_binary () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    local new_CONFIG_CHECK;
+    for config in $CONFIG_CHECK;
+    do
+        optional='~';
+        [[ ${config:0:1} == "~" ]] && optional='';
+        new_CONFIG_CHECK="${new_CONFIG_CHECK} ${optional}${config}";
+    done;
+    export CONFIG_CHECK="${new_CONFIG_CHECK}";
+    linux-info_pkg_setup
+}
+linux-mod_src_compile () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    [ -n "${MODULES_OPTIONAL_USE}" ] && use !${MODULES_OPTIONAL_USE} && return;
+    local modulename libdir srcdir objdir i n myABI="${ABI}";
+    set_arch_to_kernel;
+    ABI="${KERNEL_ABI}";
+    BUILD_TARGETS=${BUILD_TARGETS:-clean module};
+    strip_modulenames;
+    cd "${S}";
+    touch Module.symvers;
+    for i in ${MODULE_NAMES};
+    do
+        unset libdir srcdir objdir;
+        for n in $(find_module_params ${i});
+        do
+            eval ${n/:*}=${n/*:/};
+        done;
+        libdir=${libdir:-misc};
+        srcdir=${srcdir:-${S}};
+        objdir=${objdir:-${srcdir}};
+        if [ ! -f "${srcdir}/.built" ]; then
+            cd "${srcdir}";
+            ln -s "${S}"/Module.symvers Module.symvers;
+            einfo "Preparing ${modulename} module";
+            if [[ -n ${ECONF_PARAMS} ]]; then
+                econf ${ECONF_PARAMS} || die "Unable to run econf ${ECONF_PARAMS}";
+            fi;
+            eval "emake HOSTCC=\"$(tc-getBUILD_CC)\" 						CROSS_COMPILE=${CHOST}- 						LDFLAGS=\"$(get_abi_LDFLAGS)\" 						${BUILD_FIXES} 						${BUILD_PARAMS} 						${BUILD_TARGETS} " || die "Unable to emake HOSTCC="$(tc-getBUILD_CC)" CROSS_COMPILE=${CHOST}- LDFLAGS="$(get_abi_LDFLAGS)" ${BUILD_FIXES} ${BUILD_PARAMS} ${BUILD_TARGETS}";
+            cd "${OLDPWD}";
+            touch "${srcdir}"/.built;
+        fi;
+    done;
+    set_arch_to_portage;
+    ABI="${myABI}"
+}
+linux-mod_src_install () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    [ -n "${MODULES_OPTIONAL_USE}" ] && use !${MODULES_OPTIONAL_USE} && return;
+    local modulename libdir srcdir objdir i n;
+    strip_modulenames;
+    for i in ${MODULE_NAMES};
+    do
+        unset libdir srcdir objdir;
+        for n in $(find_module_params ${i});
+        do
+            eval ${n/:*}=${n/*:/};
+        done;
+        libdir=${libdir:-misc};
+        srcdir=${srcdir:-${S}};
+        objdir=${objdir:-${srcdir}};
+        einfo "Installing ${modulename} module";
+        cd "${objdir}" || die "${objdir} does not exist";
+        insinto /lib/modules/${KV_FULL}/${libdir};
+        doins ${modulename}.${KV_OBJ} || die "doins ${modulename}.${KV_OBJ} failed";
+        cd "${OLDPWD}";
+        generate_modulesd "${objdir}/${modulename}";
+    done
+}
+linux_chkconfig_builtin () 
+{ 
+    linux_config_qa_check linux_chkconfig_builtin;
+    [[ $(getfilevar_noexec "CONFIG_$1" "$(linux_config_path)") == y ]]
+}
+linux_chkconfig_module () 
+{ 
+    linux_config_qa_check linux_chkconfig_module;
+    [[ $(getfilevar_noexec "CONFIG_$1" "$(linux_config_path)") == m ]]
+}
+linux_chkconfig_present () 
+{ 
+    linux_config_qa_check linux_chkconfig_present;
+    [[ $(getfilevar_noexec "CONFIG_$1" "$(linux_config_path)") == [my] ]]
+}
+linux_chkconfig_string () 
+{ 
+    linux_config_qa_check linux_chkconfig_string;
+    getfilevar_noexec "CONFIG_$1" "$(linux_config_path)"
+}
+linux_config_bin_exists () 
+{ 
+    export _LINUX_CONFIG_EXISTS_DONE=1;
+    [[ -s /proc/config.gz ]]
+}
+linux_config_exists () 
+{ 
+    linux_config_src_exists || linux_config_bin_exists
+}
+linux_config_path () 
+{ 
+    if linux_config_src_exists; then
+        echo "${KV_OUT_DIR}/.config";
+    else
+        if linux_config_bin_exists; then
+            echo "/proc/config.gz";
+        else
+            return 1;
+        fi;
+    fi
+}
+linux_config_qa_check () 
+{ 
+    local f="$1";
+    if [ -z "${_LINUX_CONFIG_EXISTS_DONE}" ]; then
+        ewarn "QA: You called $f before any linux_config_exists!";
+        ewarn "QA: The return value of $f will NOT guaranteed later!";
+    fi
+}
+linux_config_src_exists () 
+{ 
+    export _LINUX_CONFIG_EXISTS_DONE=1;
+    [[ -n ${KV_OUT_DIR} && -s ${KV_OUT_DIR}/.config ]]
+}
+make_desktop_entry () 
+{ 
+    [[ -z $1 ]] && die "make_desktop_entry: You must specify the executable";
+    local exec=${1};
+    local name=${2:-${PN}};
+    local icon=${3:-${PN}};
+    local type=${4};
+    local fields=${5};
+    if [[ -z ${type} ]]; then
+        local catmaj=${CATEGORY%%-*};
+        local catmin=${CATEGORY##*-};
+        case ${catmaj} in 
+            app)
+                case ${catmin} in 
+                    accessibility)
+                        type="Utility;Accessibility"
+                    ;;
+                    admin)
+                        type=System
+                    ;;
+                    antivirus)
+                        type=System
+                    ;;
+                    arch)
+                        type="Utility;Archiving"
+                    ;;
+                    backup)
+                        type="Utility;Archiving"
+                    ;;
+                    cdr)
+                        type="AudioVideo;DiscBurning"
+                    ;;
+                    dicts)
+                        type="Office;Dictionary"
+                    ;;
+                    doc)
+                        type=Documentation
+                    ;;
+                    editors)
+                        type="Utility;TextEditor"
+                    ;;
+                    emacs)
+                        type="Development;TextEditor"
+                    ;;
+                    emulation)
+                        type="System;Emulator"
+                    ;;
+                    laptop)
+                        type="Settings;HardwareSettings"
+                    ;;
+                    office)
+                        type=Office
+                    ;;
+                    pda)
+                        type="Office;PDA"
+                    ;;
+                    vim)
+                        type="Development;TextEditor"
+                    ;;
+                    xemacs)
+                        type="Development;TextEditor"
+                    ;;
+                esac
+            ;;
+            dev)
+                type="Development"
+            ;;
+            games)
+                case ${catmin} in 
+                    action | fps)
+                        type=ActionGame
+                    ;;
+                    arcade)
+                        type=ArcadeGame
+                    ;;
+                    board)
+                        type=BoardGame
+                    ;;
+                    emulation)
+                        type=Emulator
+                    ;;
+                    kids)
+                        type=KidsGame
+                    ;;
+                    puzzle)
+                        type=LogicGame
+                    ;;
+                    roguelike)
+                        type=RolePlaying
+                    ;;
+                    rpg)
+                        type=RolePlaying
+                    ;;
+                    simulation)
+                        type=Simulation
+                    ;;
+                    sports)
+                        type=SportsGame
+                    ;;
+                    strategy)
+                        type=StrategyGame
+                    ;;
+                esac;
+                type="Game;${type}"
+            ;;
+            gnome)
+                type="Gnome;GTK"
+            ;;
+            kde)
+                type="KDE;Qt"
+            ;;
+            mail)
+                type="Network;Email"
+            ;;
+            media)
+                case ${catmin} in 
+                    gfx)
+                        type=Graphics
+                    ;;
+                    *)
+                        case ${catmin} in 
+                            radio)
+                                type=Tuner
+                            ;;
+                            sound)
+                                type=Audio
+                            ;;
+                            tv)
+                                type=TV
+                            ;;
+                            video)
+                                type=Video
+                            ;;
+                        esac;
+                        type="AudioVideo;${type}"
+                    ;;
+                esac
+            ;;
+            net)
+                case ${catmin} in 
+                    dialup)
+                        type=Dialup
+                    ;;
+                    ftp)
+                        type=FileTransfer
+                    ;;
+                    im)
+                        type=InstantMessaging
+                    ;;
+                    irc)
+                        type=IRCClient
+                    ;;
+                    mail)
+                        type=Email
+                    ;;
+                    news)
+                        type=News
+                    ;;
+                    nntp)
+                        type=News
+                    ;;
+                    p2p)
+                        type=FileTransfer
+                    ;;
+                    voip)
+                        type=Telephony
+                    ;;
+                esac;
+                type="Network;${type}"
+            ;;
+            sci)
+                case ${catmin} in 
+                    astro*)
+                        type=Astronomy
+                    ;;
+                    bio*)
+                        type=Biology
+                    ;;
+                    calc*)
+                        type=Calculator
+                    ;;
+                    chem*)
+                        type=Chemistry
+                    ;;
+                    elec*)
+                        type=Electronics
+                    ;;
+                    geo*)
+                        type=Geology
+                    ;;
+                    math*)
+                        type=Math
+                    ;;
+                    physics)
+                        type=Physics
+                    ;;
+                    visual*)
+                        type=DataVisualization
+                    ;;
+                esac;
+                type="Education;Science;${type}"
+            ;;
+            sys)
+                type="System"
+            ;;
+            www)
+                case ${catmin} in 
+                    client)
+                        type=WebBrowser
+                    ;;
+                esac;
+                type="Network;${type}"
+            ;;
+            *)
+                type=
+            ;;
+        esac;
+    fi;
+    if [ "${SLOT}" == "0" ]; then
+        local desktop_name="${PN}";
+    else
+        local desktop_name="${PN}-${SLOT}";
+    fi;
+    local desktop="${T}/$(echo ${exec} | sed 's:[[:space:]/:]:_:g')-${desktop_name}.desktop";
+    type=${type%;}${type:+;};
+    eshopts_push -s extglob;
+    if [[ -n ${icon} && ${icon} != /* ]] && [[ ${icon} == *.xpm || ${icon} == *.png || ${icon} == *.svg ]]; then
+        ewarn "As described in the Icon Theme Specification, icon file extensions are not";
+        ewarn "allowed in .desktop files if the value is not an absolute path.";
+        icon=${icon%.@(xpm|png|svg)};
+    fi;
+    eshopts_pop;
+    cat > "${desktop}"  <<-EOF
+[Desktop Entry]
+Name=${name}
+Type=Application
+Comment=${DESCRIPTION}
+Exec=${exec}
+TryExec=${exec%% *}
+Icon=${icon}
+Categories=${type}
+EOF
+
+    if [[ ${fields:-=} != *=* ]]; then
+        ewarn "make_desktop_entry: update your 5th arg to read Path=${fields}";
+        fields="Path=${fields}";
+    fi;
+    [[ -n ${fields} ]] && printf '%b\n' "${fields}" >> "${desktop}";
+    ( insinto /usr/share/applications;
+    doins "${desktop}" ) || die "installing desktop file failed"
+}
+make_session_desktop () 
+{ 
+    [[ -z $1 ]] && eerror "$0: You must specify the title" && return 1;
+    [[ -z $2 ]] && eerror "$0: You must specify the command" && return 1;
+    local title=$1;
+    local command=$2;
+    local desktop=${T}/${wm:-${PN}}.desktop;
+    shift 2;
+    cat > "${desktop}"  <<-EOF
+[Desktop Entry]
+Name=${title}
+Comment=This session logs you into ${title}
+Exec=${command} $*
+TryExec=${command}
+Type=XSession
+EOF
+
+    ( insinto /usr/share/xsessions;
+    doins "${desktop}" )
+}
+make_wrapper () 
+{ 
+    _eutils_eprefix_init;
+    local wrapper=$1 bin=$2 chdir=$3 libdir=$4 path=$5;
+    local tmpwrapper=$(emktemp);
+    ( echo '#!/bin/sh';
+    [[ -n ${chdir} ]] && printf 'cd "%s"\n' "${EPREFIX}${chdir}";
+    if [[ -n ${libdir} ]]; then
+        local var;
+        if [[ ${CHOST} == *-darwin* ]]; then
+            var=DYLD_LIBRARY_PATH;
+        else
+            var=LD_LIBRARY_PATH;
+        fi;
+        cat  <<-EOF
+if [ "\${${var}+set}" = "set" ] ; then
+export ${var}="\${${var}}:${EPREFIX}${libdir}"
+else
+export ${var}="${EPREFIX}${libdir}"
+fi
+EOF
+
+    fi
+    printf 'exec %s "$@"\n' "${bin/#\//${EPREFIX}\/}" ) > "${tmpwrapper}";
+    chmod go+rx "${tmpwrapper}";
+    if [[ -n ${path} ]]; then
+        ( exeinto "${path}";
+        newexe "${tmpwrapper}" "${wrapper}" ) || die;
+    else
+        newbin "${tmpwrapper}" "${wrapper}" || die;
+    fi
+}
+makeopts_jobs () 
+{ 
+    [[ $# -eq 0 ]] && set -- ${MAKEOPTS};
+    local jobs=$(echo " $* " | sed -r -n 		-e 's:.*[[:space:]](-j|--jobs[=[:space:]])[[:space:]]*([0-9]+).*:\2:p' 		-e 's:.*[[:space:]](-j|--jobs)[[:space:]].*:999:p');
+    echo ${jobs:-1}
+}
+makeopts_loadavg () 
+{ 
+    [[ $# -eq 0 ]] && set -- ${MAKEOPTS};
+    local lavg=$(echo " $* " | sed -r -n 		-e 's:.*[[:space:]](-l|--load-average[=[:space:]])[[:space:]]*([0-9]+|[0-9]+\.[0-9]+)[^0-9.]*:\2:p' 		-e 's:.*[[:space:]](-l|--load-average)[[:space:]].*:999:p');
+    echo ${lavg:-1}
+}
+move_old_moduledb () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    local OLDDIR="${ROOT}"/usr/share/module-rebuild/;
+    local NEWDIR="${ROOT}"/var/lib/module-rebuild/;
+    if [[ -f "${OLDDIR}"/moduledb ]]; then
+        [[ ! -d "${NEWDIR}" ]] && mkdir -p "${NEWDIR}";
+        [[ ! -f "${NEWDIR}"/moduledb ]] && mv "${OLDDIR}"/moduledb "${NEWDIR}"/moduledb;
+        rm -f "${OLDDIR}"/*;
+        rmdir "${OLDDIR}";
+    fi
+}
+multijob_child_init () 
+{ 
+    local mode="pre";
+    case $1 in 
+        --pre)
+            mode="pre";
+            shift
+        ;;
+        --post)
+            mode="post";
+            shift
+        ;;
+    esac;
+    if [[ $# -eq 0 ]]; then
+        trap 'echo ${BASHPID:-$(bashpid)} $? >&'${mj_write_fd} EXIT;
+        trap 'exit 1' INT TERM;
+    else
+        local ret;
+        [[ ${mode} == "pre" ]] && { 
+            multijob_pre_fork;
+            ret=$?
+        };
+        ( multijob_child_init;
+        "$@" ) & [[ ${mode} == "post" ]] && { 
+            multijob_post_fork;
+            ret=$?
+        };
+        return ${ret};
+    fi
+}
+multijob_finish () 
+{ 
+    local ret=0;
+    while [[ ${mj_num_jobs} -gt 0 ]]; do
+        multijob_finish_one;
+        : $(( ret |= $? ));
+    done;
+    wait;
+    [[ $# -eq 0 ]] || die "${FUNCNAME} takes no arguments";
+    EBUILD_DEATH_HOOKS=${EBUILD_DEATH_HOOKS/ wait / };
+    return ${ret}
+}
+multijob_finish_one () 
+{ 
+    [[ $# -eq 0 ]] || die "${FUNCNAME} takes no arguments";
+    local pid ret;
+    read -r -u ${mj_read_fd} pid ret || die;
+    : $(( --mj_num_jobs ));
+    return ${ret}
+}
+multijob_init () 
+{ 
+    has wait ${EBUILD_DEATH_HOOKS} || EBUILD_DEATH_HOOKS+=" wait ";
+    local pipe="${T}/multijob.pipe";
+    mkfifo -m 600 "${pipe}";
+    redirect_alloc_fd mj_write_fd "${pipe}";
+    redirect_alloc_fd mj_read_fd "${pipe}";
+    rm -f "${pipe}";
+    mj_max_jobs=$(makeopts_jobs "$@");
+    mj_num_jobs=0
+}
+multijob_post_fork () 
+{ 
+    _multijob_fork post "$@"
+}
+multijob_pre_fork () 
+{ 
+    _multijob_fork pre "$@"
+}
+multilib_env () 
+{ 
+    local CTARGET=${1:-${CTARGET}};
+    local cpu=${CTARGET%%*-};
+    case ${cpu} in 
+        aarch64*)
+            export CFLAGS_arm=${CFLAGS_arm-};
+            case ${cpu} in 
+                aarch64*be)
+                    export CHOST_arm="armv8b-${CTARGET#*-}"
+                ;;
+                *)
+                    export CHOST_arm="armv8l-${CTARGET#*-}"
+                ;;
+            esac;
+            CHOST_arm=${CHOST_arm/%-gnu/-gnueabi};
+            export CTARGET_arm=${CHOST_arm};
+            export LIBDIR_arm="lib";
+            export CFLAGS_arm64=${CFLAGS_arm64-};
+            export CHOST_arm64=${CTARGET};
+            export CTARGET_arm64=${CHOST_arm64};
+            export LIBDIR_arm64="lib64";
+            : ${MULTILIB_ABIS=arm64};
+            : ${DEFAULT_ABI=arm64}
+        ;;
+        x86_64*)
+            export CFLAGS_x86=${CFLAGS_x86--m32};
+            export CHOST_x86=${CTARGET/x86_64/i686};
+            CHOST_x86=${CHOST_x86/%-gnux32/-gnu};
+            export CTARGET_x86=${CHOST_x86};
+            if [[ ${SYMLINK_LIB} == "yes" ]]; then
+                export LIBDIR_x86="lib32";
+            else
+                export LIBDIR_x86="lib";
+            fi;
+            export CFLAGS_amd64=${CFLAGS_amd64--m64};
+            export CHOST_amd64=${CTARGET/%-gnux32/-gnu};
+            export CTARGET_amd64=${CHOST_amd64};
+            export LIBDIR_amd64="lib64";
+            export CFLAGS_x32=${CFLAGS_x32--mx32};
+            export CHOST_x32=${CTARGET/%-gnu/-gnux32};
+            export CTARGET_x32=${CHOST_x32};
+            export LIBDIR_x32="libx32";
+            case ${CTARGET} in 
+                *-gnux32)
+                    : ${MULTILIB_ABIS=x32 amd64 x86};
+                    : ${DEFAULT_ABI=x32}
+                ;;
+                *)
+                    : ${MULTILIB_ABIS=amd64 x86};
+                    : ${DEFAULT_ABI=amd64}
+                ;;
+            esac
+        ;;
+        mips64*)
+            export CFLAGS_o32=${CFLAGS_o32--mabi=32};
+            export CHOST_o32=${CTARGET/mips64/mips};
+            export CTARGET_o32=${CHOST_o32};
+            export LIBDIR_o32="lib";
+            export CFLAGS_n32=${CFLAGS_n32--mabi=n32};
+            export CHOST_n32=${CTARGET};
+            export CTARGET_n32=${CHOST_n32};
+            export LIBDIR_n32="lib32";
+            export CFLAGS_n64=${CFLAGS_n64--mabi=64};
+            export CHOST_n64=${CTARGET};
+            export CTARGET_n64=${CHOST_n64};
+            export LIBDIR_n64="lib64";
+            : ${MULTILIB_ABIS=n64 n32 o32};
+            : ${DEFAULT_ABI=n32}
+        ;;
+        powerpc64*)
+            export CFLAGS_ppc=${CFLAGS_ppc--m32};
+            export CHOST_ppc=${CTARGET/powerpc64/powerpc};
+            export CTARGET_ppc=${CHOST_ppc};
+            export LIBDIR_ppc="lib";
+            export CFLAGS_ppc64=${CFLAGS_ppc64--m64};
+            export CHOST_ppc64=${CTARGET};
+            export CTARGET_ppc64=${CHOST_ppc64};
+            export LIBDIR_ppc64="lib64";
+            : ${MULTILIB_ABIS=ppc64 ppc};
+            : ${DEFAULT_ABI=ppc64}
+        ;;
+        s390x*)
+            export CFLAGS_s390=${CFLAGS_s390--m31};
+            export CHOST_s390=${CTARGET/s390x/s390};
+            export CTARGET_s390=${CHOST_s390};
+            export LIBDIR_s390="lib";
+            export CFLAGS_s390x=${CFLAGS_s390x--m64};
+            export CHOST_s390x=${CTARGET};
+            export CTARGET_s390x=${CHOST_s390x};
+            export LIBDIR_s390x="lib64";
+            : ${MULTILIB_ABIS=s390x s390};
+            : ${DEFAULT_ABI=s390x}
+        ;;
+        sparc64*)
+            export CFLAGS_sparc32=${CFLAGS_sparc32--m32};
+            export CHOST_sparc32=${CTARGET/sparc64/sparc};
+            export CTARGET_sparc32=${CHOST_sparc32};
+            export LIBDIR_sparc32="lib";
+            export CFLAGS_sparc64=${CFLAGS_sparc64--m64};
+            export CHOST_sparc64=${CTARGET};
+            export CTARGET_sparc64=${CHOST_sparc64};
+            export LIBDIR_sparc64="lib64";
+            : ${MULTILIB_ABIS=sparc64 sparc32};
+            : ${DEFAULT_ABI=sparc64}
+        ;;
+        *)
+            : ${MULTILIB_ABIS=default};
+            : ${DEFAULT_ABI=default}
+        ;;
+    esac;
+    export MULTILIB_ABIS DEFAULT_ABI
+}
+multilib_toolchain_setup () 
+{ 
+    local v vv;
+    export ABI=$1;
+    if [[ ${_DEFAULT_ABI_SAVED} == "true" ]]; then
+        for v in CHOST CBUILD AS CC CXX LD PKG_CONFIG_{LIBDIR,PATH};
+        do
+            vv="_abi_saved_${v}";
+            [[ ${!vv+set} == "set" ]] && export ${v}="${!vv}" || unset ${v};
+            unset ${vv};
+        done;
+        unset _DEFAULT_ABI_SAVED;
+    fi;
+    if [[ ${ABI} != ${DEFAULT_ABI} ]]; then
+        for v in CHOST CBUILD AS CC CXX LD PKG_CONFIG_{LIBDIR,PATH};
+        do
+            vv="_abi_saved_${v}";
+            [[ ${!v+set} == "set" ]] && export ${vv}="${!v}" || unset ${vv};
+        done;
+        export _DEFAULT_ABI_SAVED="true";
+        export CHOST=$(get_abi_CHOST ${DEFAULT_ABI});
+        export CC="$(tc-getCC) $(get_abi_CFLAGS)";
+        export CXX="$(tc-getCXX) $(get_abi_CFLAGS)";
+        export LD="$(tc-getLD) $(get_abi_LDFLAGS)";
+        export CHOST=$(get_abi_CHOST $1);
+        export CBUILD=$(get_abi_CHOST $1);
+        export PKG_CONFIG_LIBDIR=${EPREFIX}/usr/$(get_libdir)/pkgconfig;
+        export PKG_CONFIG_PATH=${EPREFIX}/usr/share/pkgconfig;
+    fi
+}
+newicon () 
+{ 
+    _iconins ${FUNCNAME} "$@"
+}
+newmenu () 
+{ 
+    ( insinto /usr/share/applications;
+    newins "$@" )
+}
+no-as-needed () 
+{ 
+    case $($(tc-getLD) -v 2>&1 </dev/null) in 
+        *GNU*)
+            echo "-Wl,--no-as-needed"
+        ;;
+    esac
+}
+number_abis () 
+{ 
+    set -- `get_install_abis`;
+    echo $#
+}
+optfeature () 
+{ 
+    debug-print-function ${FUNCNAME} "$@";
+    local i j msg;
+    local desc=$1;
+    local flag=0;
+    shift;
+    for i in "$@";
+    do
+        for j in ${i};
+        do
+            if has_version "${j}"; then
+                flag=1;
+            else
+                flag=0;
+                break;
+            fi;
+        done;
+        if [[ ${flag} -eq 1 ]]; then
+            break;
+        fi;
+    done;
+    if [[ ${flag} -eq 0 ]]; then
+        for i in "$@";
+        do
+            msg=" ";
+            for j in ${i};
+            do
+                msg+=" ${j} and";
+            done;
+            msg="${msg:0: -4} for ${desc}";
+            elog "${msg}";
+        done;
+    fi
+}
+path_exists () 
+{ 
+    local opt=$1;
+    [[ ${opt} == -[ao] ]] && shift || opt="-a";
+    [[ $# -eq 0 ]] && return 1;
+    local p r=0;
+    for p in "$@";
+    do
+        [[ -e ${p} ]];
+        : $(( r += $? ));
+    done;
+    case ${opt} in 
+        -a)
+            return $(( r != 0 ))
+        ;;
+        -o)
+            return $(( r == $# ))
+        ;;
+    esac
+}
+pkg_nofetch () 
+{ 
+    __eapi0_pkg_nofetch "$@"
+}
+pkg_postinst () 
+{ 
+    linux-mod_pkg_postinst;
+    if [ -d "${EROOT}lib/modules/${KV_FULL}/addon/spl" ]; then
+        ewarn "${PN} now installs modules in ${EROOT}lib/modules/${KV_FULL}/extra/spl";
+        ewarn "Old modules were detected in ${EROOT}lib/modules/${KV_FULL}/addon/spl";
+        ewarn "Automatically removing old modules to avoid problems.";
+        rm -r "${EROOT}lib/modules/${KV_FULL}/addon/spl" || die "Cannot remove modules";
+        rmdir --ignore-fail-on-non-empty "${EROOT}lib/modules/${KV_FULL}/addon";
+    fi
+}
+pkg_postrm () 
+{ 
+    linux-mod_pkg_postrm "$@"
+}
+pkg_preinst () 
+{ 
+    linux-mod_pkg_preinst "$@"
+}
+pkg_setup () 
+{ 
+    linux-info_pkg_setup;
+    CONFIG_CHECK="
+		!DEBUG_LOCK_ALLOC
+		!GRKERNSEC_HIDESYM
+		MODULES
+		KALLSYMS
+		!PAX_KERNEXEC_PLUGIN_METHOD_OR
+		ZLIB_DEFLATE
+		ZLIB_INFLATE
+	";
+    use debug && CONFIG_CHECK="${CONFIG_CHECK}
+		FRAME_POINTER
+		DEBUG_INFO
+		!DEBUG_INFO_REDUCED
+	";
+    kernel_is ge 2 6 26 || die "Linux 2.6.26 or newer required";
+    [ ${PV} != "9999" ] && { 
+        kernel_is le 3 16 || die "Linux 3.16 is the latest supported version."
+    };
+    check_extra_config
+}
+post_src_install () 
+{ 
+    prefix-post_src_install
+}
+prefix-post_src_install () 
+{ 
+    local f;
+    if [[ ${PN} != "libiconv" && -n $(ls "${ED}"/usr/lib*/charset.alias 2>/dev/null) ]]; then
+        einfo "automatically removing charset.alias";
+        rm -f "${ED}"/usr/lib*/charset.alias;
+    fi
+}
+preserve_old_lib () 
+{ 
+    _eutils_eprefix_init;
+    if [[ ${EBUILD_PHASE} != "preinst" ]]; then
+        eerror "preserve_old_lib() must be called from pkg_preinst() only";
+        die "Invalid preserve_old_lib() usage";
+    fi;
+    [[ -z $1 ]] && die "Usage: preserve_old_lib <library to preserve> [more libraries to preserve]";
+    has preserve-libs ${FEATURES} && return 0;
+    local lib dir;
+    for lib in "$@";
+    do
+        [[ -e ${EROOT}/${lib} ]] || continue;
+        dir=${lib%/*};
+        dodir ${dir} || die "dodir ${dir} failed";
+        cp "${EROOT}"/${lib} "${ED}"/${lib} || die "cp ${lib} failed";
+        touch "${ED}"/${lib};
+    done
+}
+preserve_old_lib_notify () 
+{ 
+    if [[ ${EBUILD_PHASE} != "postinst" ]]; then
+        eerror "preserve_old_lib_notify() must be called from pkg_postinst() only";
+        die "Invalid preserve_old_lib_notify() usage";
+    fi;
+    has preserve-libs ${FEATURES} && return 0;
+    _eutils_eprefix_init;
+    local lib notice=0;
+    for lib in "$@";
+    do
+        [[ -e ${EROOT}/${lib} ]] || continue;
+        if [[ ${notice} -eq 0 ]]; then
+            notice=1;
+            ewarn "Old versions of installed libraries were detected on your system.";
+            ewarn "In order to avoid breaking packages that depend on these old libs,";
+            ewarn "the libraries are not being removed.  You need to run revdep-rebuild";
+            ewarn "in order to remove these old dependencies.  If you do not have this";
+            ewarn "helper program, simply emerge the 'gentoolkit' package.";
+            ewarn;
+        fi;
+        ewarn "  # revdep-rebuild --library '${lib}' && rm '${lib}'";
+    done
+}
+profile-post_src_install () 
+{ 
+    prefix-post_src_install
+}
+prune_libtool_files () 
+{ 
+    debug-print-function ${FUNCNAME} "$@";
+    local removing_all removing_modules opt;
+    _eutils_eprefix_init;
+    for opt in "$@";
+    do
+        case "${opt}" in 
+            --all)
+                removing_all=1;
+                removing_modules=1
+            ;;
+            --modules)
+                removing_modules=1
+            ;;
+            *)
+                die "Invalid argument to ${FUNCNAME}(): ${opt}"
+            ;;
+        esac;
+    done;
+    local f;
+    local queue=();
+    while IFS= read -r -d '' f; do
+        local archivefile=${f/%.la/.a};
+        if ! sed -n -e '/^# Generated by .*libtool/q0;4q1' "${f}"; then
+            continue;
+        fi;
+        [[ ${f} != ${archivefile} ]] || die 'regex sanity check failed';
+        local reason pkgconfig_scanned;
+        local snotlink=$(sed -n -e 's:^shouldnotlink=::p' "${f}");
+        if [[ ${snotlink} == yes ]]; then
+            if [[ -f ${archivefile} ]]; then
+                einfo "Removing unnecessary ${archivefile#${D%/}} (static plugin)";
+                queue+=("${archivefile}");
+            fi;
+            if [[ -n ${removing_modules} ]]; then
+                reason='module';
+            fi;
+        else
+            if [[ -n ${removing_all} ]]; then
+                reason='requested';
+            else
+                if [[ ! -f ${archivefile} ]]; then
+                    reason='no static archive';
+                else
+                    if [[ ! -n $(sed -nre 					"s/^(dependency_libs|inherited_linker_flags)='(.*)'$/\2/p" 					"${f}") ]]; then
+                        reason='no libs & flags';
+                    else
+                        if [[ ! -n ${pkgconfig_scanned} ]]; then
+                            local pc_libs=();
+                            if [[ ! -n ${removing_all} ]]; then
+                                local pc;
+                                local tf=${T}/prune-lt-files.pc;
+                                local pkgconf=$(tc-getPKG_CONFIG);
+                                while IFS= read -r -d '' pc; do
+                                    local arg libs;
+                                    if ${pkgconf} --exists "${pc}" &>/dev/null; then
+                                        sed -e '/^Requires:/d' "${pc}" > "${tf}";
+                                        libs=$(${pkgconf} --libs "${tf}");
+                                    else
+                                        libs=$(sed -ne 's/^Libs://p' "${pc}");
+                                    fi;
+                                    for arg in ${libs};
+                                    do
+                                        if [[ ${arg} == -l* ]]; then
+                                            if [[ ${arg} == '*$*' ]]; then
+                                                eqawarn "${FUNCNAME}: variable substitution likely failed in ${pc}";
+                                                eqawarn "(arg: ${arg})";
+                                                eqawarn "Most likely, you need to add virtual/pkgconfig to DEPEND.";
+                                            fi;
+                                            pc_libs+=(lib${arg#-l}.la);
+                                        fi;
+                                    done;
+                                done < <(find "${D}" -type f -name '*.pc' -print0);
+                                rm -f "${tf}";
+                            fi;
+                            pkgconfig_scanned=1;
+                        fi;
+                        has "${f##*/}" "${pc_libs[@]}" && reason='covered by .pc';
+                    fi;
+                fi;
+            fi;
+        fi;
+        if [[ -n ${reason} ]]; then
+            einfo "Removing unnecessary ${f#${D%/}} (${reason})";
+            queue+=("${f}");
+        fi;
+    done < <(find "${ED}" -xtype f -name '*.la' -print0);
+    if [[ -n ${queue[@]} ]]; then
+        rm -f "${queue[@]}";
+    fi
+}
+qeerror () 
+{ 
+    qout eerror "${@}"
+}
+qeinfo () 
+{ 
+    qout einfo "${@}"
+}
+qewarn () 
+{ 
+    qout ewarn "${@}"
+}
+qout () 
+{ 
+    local outputmsg type;
+    type=${1};
+    shift;
+    outputmsg="${@}";
+    case "${EBUILD_PHASE}" in 
+        depend)
+            unset outputmsg
+        ;;
+        clean)
+            unset outputmsg
+        ;;
+        preinst)
+            unset outputmsg
+        ;;
+    esac;
+    [ -n "${outputmsg}" ] && ${type} "${outputmsg}"
+}
+raw-ldflags () 
+{ 
+    local x input="$@";
+    [[ -z ${input} ]] && input=${LDFLAGS};
+    set --;
+    for x in ${input};
+    do
+        case ${x} in 
+            -Wl,*)
+                x=${x#-Wl,};
+                set -- "$@" ${x//,/ }
+            ;;
+            *)
+
+            ;;
+        esac;
+    done;
+    echo "$@"
+}
+redirect_alloc_fd () 
+{ 
+    local var=$1 file=$2 redir=${3:-"<>"};
+    if [[ ! -L /dev/fd && ${CBUILD} == *linux* ]]; then
+        eerror "You're missing a /dev/fd symlink to /proc/self/fd.";
+        eerror "Please fix the symlink and check your boot scripts (udev/etc...).";
+        die "/dev/fd is broken";
+    fi;
+    if [[ $(( (BASH_VERSINFO[0] << 8) + BASH_VERSINFO[1] )) -ge $(( (4 << 8) + 1 )) ]]; then
+        eval "exec {${var}}${redir}'${file}'";
+    else
+        local fd=10;
+        while :; do
+            if [[ ! -e /dev/fd/${fd} ]] && [[ ! -L /dev/fd/${fd} ]]; then
+                eval "exec ${fd}${redir}'${file}'" && break;
+            fi;
+            [[ ${fd} -gt 1024 ]] && die 'could not locate a free temp fd !?';
+            : $(( ++fd ));
+        done;
+        : $(( ${var} = fd ));
+    fi
+}
+remove_libtool_files () 
+{ 
+    debug-print-function ${FUNCNAME} "$@";
+    local removing_all;
+    eqawarn "The remove_libtool_files() function was deprecated.";
+    eqawarn "Please use prune_libtool_files() from eutils eclass instead.";
+    [[ ${#} -le 1 ]] || die "Invalid number of args to ${FUNCNAME}()";
+    if [[ ${#} -eq 1 ]]; then
+        case "${1}" in 
+            all)
+                removing_all=1
+            ;;
+            *)
+                die "Invalid argument to ${FUNCNAME}(): ${1}"
+            ;;
+        esac;
+    fi;
+    local pc_libs=();
+    if [[ ! -n ${removing_all} ]]; then
+        local arg;
+        for arg in $(find "${D}" -name '*.pc' -exec 					sed -n -e 's;^Libs:;;p' {} +);
+        do
+            [[ ${arg} == -l* ]] && pc_libs+=(lib${arg#-l}.la);
+        done;
+    fi;
+    local f;
+    find "${D}" -type f -name '*.la' -print0 | while read -r -d '' f; do
+        local shouldnotlink=$(sed -ne '/^shouldnotlink=yes$/p' "${f}");
+        local archivefile=${f/%.la/.a};
+        [[ "${f}" != "${archivefile}" ]] || die 'regex sanity check failed';
+        if [[ -n ${shouldnotlink} ]]; then
+            einfo "Removing unnecessary ${archivefile#${D%/}}";
+            rm -f "${archivefile}" || die;
+            [[ -n ${removing_all} ]] || continue;
+        fi;
+        local removing;
+        if [[ -n ${removing_all} ]]; then
+            removing='forced';
+        else
+            if [[ ! -f ${archivefile} ]]; then
+                removing='no static archive';
+            else
+                if has "$(basename "${f}")" "${pc_libs[@]}"; then
+                    removing='covered by .pc';
+                else
+                    if [[ ! -n $(sed -n -e 			"s/^\(dependency_libs\|inherited_linker_flags\)='\(.*\)'$/\2/p" 			"${f}") ]]; then
+                        removing='no libs & flags';
+                    fi;
+                fi;
+            fi;
+        fi;
+        if [[ -n ${removing} ]]; then
+            einfo "Removing unnecessary ${f#${D%/}} (${removing})";
+            rm -f "${f}" || die;
+        fi;
+    done
+}
+remove_moduledb () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    local MODULEDB_DIR="${ROOT}"/var/lib/module-rebuild/;
+    move_old_moduledb;
+    if grep -qs ${CATEGORY}/${PN}-${PVR} "${MODULEDB_DIR}"/moduledb; then
+        einfo "Removing ${CATEGORY}/${PN}-${PVR} from moduledb.";
+        sed -i -e "/.*${CATEGORY}\/${PN}-${PVR}.*/d" "${MODULEDB_DIR}"/moduledb;
+    fi
+}
+replace-cpu-flags () 
+{ 
+    local newcpu="$#";
+    newcpu="${!newcpu}";
+    while [ $# -gt 1 ]; do
+        replace-flags "-march=${1}" "-march=${newcpu}";
+        replace-flags "-mcpu=${1}" "-mcpu=${newcpu}";
+        replace-flags "-mtune=${1}" "-mtune=${newcpu}";
+        shift;
+    done;
+    return 0
+}
+replace-flags () 
+{ 
+    [[ $# != 2 ]] && die "Usage: replace-flags <old flag> <new flag>";
+    local f var new;
+    for var in $(all-flag-vars);
+    do
+        new=();
+        for f in ${!var};
+        do
+            [[ ${f} == ${1} ]] && f=${2};
+            new+=("${f}");
+        done;
+        eval export ${var}=\""${new[*]}"\";
+    done;
+    return 0
+}
+replace-sparc64-flags () 
+{ 
+    local SPARC64_CPUS="ultrasparc3 ultrasparc v9";
+    if [ "${CFLAGS/mtune}" != "${CFLAGS}" ]; then
+        for x in ${SPARC64_CPUS};
+        do
+            CFLAGS="${CFLAGS/-mcpu=${x}/-mcpu=v8}";
+        done;
+    else
+        for x in ${SPARC64_CPUS};
+        do
+            CFLAGS="${CFLAGS/-mcpu=${x}/-mcpu=v8 -mtune=${x}}";
+        done;
+    fi;
+    if [ "${CXXFLAGS/mtune}" != "${CXXFLAGS}" ]; then
+        for x in ${SPARC64_CPUS};
+        do
+            CXXFLAGS="${CXXFLAGS/-mcpu=${x}/-mcpu=v8}";
+        done;
+    else
+        for x in ${SPARC64_CPUS};
+        do
+            CXXFLAGS="${CXXFLAGS/-mcpu=${x}/-mcpu=v8 -mtune=${x}}";
+        done;
+    fi;
+    export CFLAGS CXXFLAGS
+}
+replace_all_version_separators () 
+{ 
+    local c=($(get_all_version_components "${2:-${PV}}"));
+    c=${c[@]//[-._]/$1};
+    echo ${c// }
+}
+replace_version_separator () 
+{ 
+    eshopts_push -s extglob;
+    local w c v="${3:-${PV}}";
+    declare -i i found=0;
+    w=${1:-1};
+    c=($(get_all_version_components ${v}));
+    if [[ ${w} != *[[:digit:]]* ]]; then
+        for ((i = 0; i < ${#c[@]}; i++))
+        do
+            if [[ ${c[i]} == ${w} ]]; then
+                c[i]=${2};
+                break;
+            fi;
+        done;
+    else
+        for ((i = 0; i < ${#c[@]}; i++))
+        do
+            if [[ -n "${c[i]//[^-._]}" ]]; then
+                found+=1;
+                if ((found == w)); then
+                    c[i]=${2};
+                    break;
+                fi;
+            fi;
+        done;
+    fi;
+    c=${c[*]};
+    echo ${c// };
+    eshopts_pop
+}
+require_configured_kernel () 
+{ 
+    if ! linux_config_src_exists; then
+        qeerror "Could not find a usable .config in the kernel source directory.";
+        qeerror "Please ensure that ${KERNEL_DIR} points to a configured set of Linux sources.";
+        qeerror "If you are using KBUILD_OUTPUT, please set the environment var so that";
+        qeerror "it points to the necessary object directory so that it might find .config.";
+        die "Kernel not configured; no .config found in ${KV_OUT_DIR}";
+    fi
+}
+set_arch_to_kernel () 
+{ 
+    export ARCH=$(tc-arch-kernel)
+}
+set_arch_to_portage () 
+{ 
+    export ARCH=$(tc-arch)
+}
+set_kvobj () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    if kernel_is ge 2 6; then
+        KV_OBJ="ko";
+    else
+        KV_OBJ="o";
+    fi
+}
+setup-allowed-flags () 
+{ 
+    ALLOWED_FLAGS="-pipe";
+    ALLOWED_FLAGS+=" -O -O1 -O2 -Os -mcpu -march -mtune";
+    ALLOWED_FLAGS+=" -fstack-protector -fstack-protector-all";
+    ALLOWED_FLAGS+=" -fbounds-checking -fno-strict-overflow";
+    ALLOWED_FLAGS+=" -fno-PIE -fno-pie -fno-unit-at-a-time";
+    ALLOWED_FLAGS+=" -g -g[0-9] -ggdb -ggdb[0-9] -gstabs -gstabs+";
+    ALLOWED_FLAGS+=" -fno-ident -fpermissive -frecord-gcc-switches";
+    ALLOWED_FLAGS+=" -fdiagnostics*";
+    ALLOWED_FLAGS+=" -W* -w";
+    ALLOWED_FLAGS+=" -fno-stack-protector -fno-stack-protector-all 		-fno-strict-aliasing -fno-bounds-checking -fstrict-overflow 		-fno-omit-frame-pointer -fno-builtin*";
+    ALLOWED_FLAGS+=" -mregparm -mno-app-regs -mapp-regs -mno-mmx -mno-sse 		-mno-sse2 -mno-sse3 -mno-ssse3 -mno-sse4 -mno-sse4.1 -mno-sse4.2 		-mno-avx -mno-aes -mno-pclmul -mno-sse4a -mno-3dnow -mno-popcnt 		-mno-abm -mips1 -mips2 -mips3 -mips4 -mips32 -mips64 -mips16 -mplt 		-msoft-float -mno-soft-float -mhard-float -mno-hard-float -mfpu 		-mieee -mieee-with-inexact -mschedule -mfloat-gprs -mspe -mno-spe 		-mtls-direct-seg-refs -mno-tls-direct-seg-refs -mflat -mno-flat 		-mno-faster-structs -mfaster-structs -m32 -m64 -mx32 -mabi 		-mlittle-endian -mbig-endian -EL -EB -fPIC -mlive-g0 -mcmodel 		-mstack-bias -mno-stack-bias -msecure-plt -m*-toc -mfloat-abi 		-D* -U*";
+    ALLOWED_FLAGS+=" -mno-fma4 -mno-movbe -mno-xop -mno-lwp";
+    ALLOWED_FLAGS+=" -mno-fsgsbase -mno-rdrnd -mno-f16c -mno-bmi -mno-tbm";
+    ALLOWED_FLAGS+=" -mno-avx2 -mno-bmi2 -mno-fma -mno-lzcnt";
+    ALLOWED_FLAGS+=" -mno-fxsr -mno-rtm -mno-xsave -mno-xsaveopt";
+    ALLOWED_FLAGS+=" -mno-avx512cd -mno-avx512er -mno-avx512f -mno-avx512pf -mno-sha";
+    ALLOWED_FLAGS+=" -I* -L* -R* -Wl,*";
+    export ALLOWED_FLAGS;
+    return 0
+}
+src_compile () 
+{ 
+    autotools-utils_src_compile "$@"
+}
+src_configure () 
+{ 
+    use custom-cflags || strip-flags;
+    filter-ldflags -Wl,*;
+    set_arch_to_kernel;
+    local myeconfargs=(--bindir="${EPREFIX}/bin" --sbindir="${EPREFIX}/sbin" --with-config=all --with-linux="${KV_DIR}" --with-linux-obj="${KV_OUT_DIR}" $(use_enable debug) $(use_enable debug-log));
+    autotools-utils_src_configure
+}
+src_install () 
+{ 
+    autotools-utils_src_install INSTALL_MOD_PATH=${INSTALL_MOD_PATH:-$EROOT};
+    dodoc AUTHORS DISCLAIMER README.markdown
+}
+src_prepare () 
+{ 
+    sed -i "s|/sbin/lsmod|/bin/lsmod|" "${S}/scripts/check.sh" || die "Cannot patch check.sh";
+    use debug || sed -e 's/^subdir-m += splat$//' -i "${S}/module/Makefile.in";
+    [ ${PV} != "9999" ] && { 
+        sed -i "s/\(Release:\)\(.*\)1/\1\2${PR}-gentoo/" "${S}/META" || die "Could not set Gentoo release"
+    };
+    autotools-utils_src_prepare
+}
+src_test () 
+{ 
+    autotools-utils_src_test "$@"
+}
+src_unpack () 
+{ 
+    __eapi0_src_unpack "$@"
+}
+strip-flags () 
+{ 
+    local x y var;
+    setup-allowed-flags;
+    set -f;
+    for var in $(all-flag-vars);
+    do
+        local new=();
+        for x in ${!var};
+        do
+            local flag=${x%%=*};
+            for y in ${ALLOWED_FLAGS};
+            do
+                if [[ -z ${flag%%${y}} ]]; then
+                    new+=("${x}");
+                    break;
+                fi;
+            done;
+        done;
+        if _is_flagq ${var} "-O*" && ! _is_flagq new "-O*"; then
+            new+=(-O2);
+        fi;
+        if [[ ${!var} != "${new[*]}" ]]; then
+            einfo "strip-flags: ${var}: changed '${!var}' to '${new[*]}'";
+        fi;
+        eval export ${var}=\""${new[*]}"\";
+    done;
+    set +f;
+    return 0
+}
+strip-linguas () 
+{ 
+    local ls newls nols;
+    if [[ $1 == "-i" ]] || [[ $1 == "-u" ]]; then
+        local op=$1;
+        shift;
+        ls=$(find "$1" -name '*.po' -exec basename {} .po ';');
+        shift;
+        local d f;
+        for d in "$@";
+        do
+            if [[ ${op} == "-u" ]]; then
+                newls=${ls};
+            else
+                newls="";
+            fi;
+            for f in $(find "$d" -name '*.po' -exec basename {} .po ';');
+            do
+                if [[ ${op} == "-i" ]]; then
+                    has ${f} ${ls} && newls="${newls} ${f}";
+                else
+                    has ${f} ${ls} || newls="${newls} ${f}";
+                fi;
+            done;
+            ls=${newls};
+        done;
+    else
+        ls="$@";
+    fi;
+    nols="";
+    newls="";
+    for f in ${LINGUAS};
+    do
+        if has ${f} ${ls}; then
+            newls="${newls} ${f}";
+        else
+            nols="${nols} ${f}";
+        fi;
+    done;
+    [[ -n ${nols} ]] && einfo "Sorry, but ${PN} does not support the LINGUAS:" ${nols};
+    export LINGUAS=${newls:1}
+}
+strip-unsupported-flags () 
+{ 
+    export CFLAGS=$(test-flags-CC ${CFLAGS});
+    export CXXFLAGS=$(test-flags-CXX ${CXXFLAGS});
+    export FFLAGS=$(test-flags-F77 ${FFLAGS});
+    export FCFLAGS=$(test-flags-FC ${FCFLAGS})
+}
+strip_modulenames () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    local i;
+    for i in ${MODULE_IGNORE};
+    do
+        MODULE_NAMES=${MODULE_NAMES//${i}(*};
+    done
+}
+tc-arch () 
+{ 
+    tc-ninja_magic_to_arch portage "$@"
+}
+tc-arch-kernel () 
+{ 
+    tc-ninja_magic_to_arch kern "$@"
+}
+tc-endian () 
+{ 
+    local host=$1;
+    [[ -z ${host} ]] && host=${CTARGET:-${CHOST}};
+    host=${host%%-*};
+    case ${host} in 
+        aarch64*be)
+            echo big
+        ;;
+        aarch64)
+            echo little
+        ;;
+        alpha*)
+            echo big
+        ;;
+        arm*b*)
+            echo big
+        ;;
+        arm*)
+            echo little
+        ;;
+        cris*)
+            echo little
+        ;;
+        hppa*)
+            echo big
+        ;;
+        i?86*)
+            echo little
+        ;;
+        ia64*)
+            echo little
+        ;;
+        m68*)
+            echo big
+        ;;
+        mips*l*)
+            echo little
+        ;;
+        mips*)
+            echo big
+        ;;
+        powerpc*)
+            echo big
+        ;;
+        s390*)
+            echo big
+        ;;
+        sh*b*)
+            echo big
+        ;;
+        sh*)
+            echo little
+        ;;
+        sparc*)
+            echo big
+        ;;
+        x86_64*)
+            echo little
+        ;;
+        *)
+            echo wtf
+        ;;
+    esac
+}
+tc-env_build () 
+{ 
+    tc-export_build_env;
+    CFLAGS=${BUILD_CFLAGS} CXXFLAGS=${BUILD_CXXFLAGS} CPPFLAGS=${BUILD_CPPFLAGS} LDFLAGS=${BUILD_LDFLAGS} AR=$(tc-getBUILD_AR) AS=$(tc-getBUILD_AS) CC=$(tc-getBUILD_CC) CPP=$(tc-getBUILD_CPP) CXX=$(tc-getBUILD_CXX) LD=$(tc-getBUILD_LD) NM=$(tc-getBUILD_NM) PKG_CONFIG=$(tc-getBUILD_PKG_CONFIG) RANLIB=$(tc-getBUILD_RANLIB) "$@"
+}
+tc-export () 
+{ 
+    local var;
+    for var in "$@";
+    do
+        [[ $(type -t tc-get${var}) != "function" ]] && die "tc-export: invalid export variable '${var}'";
+        eval tc-get${var} > /dev/null;
+    done
+}
+tc-export_build_env () 
+{ 
+    tc-export "$@";
+    : ${BUILD_CFLAGS:=-O1 -pipe};
+    : ${BUILD_CXXFLAGS:=-O1 -pipe};
+    : ${BUILD_CPPFLAGS:=};
+    : ${BUILD_LDFLAGS:=};
+    export BUILD_{C,CXX,CPP,LD}FLAGS;
+    local v;
+    for v in BUILD_{C,CXX,CPP,LD}FLAGS;
+    do
+        export ${v#BUILD_}_FOR_BUILD="${!v}";
+    done
+}
+tc-getAR () 
+{ 
+    tc-getPROG AR ar "$@"
+}
+tc-getAS () 
+{ 
+    tc-getPROG AS as "$@"
+}
+tc-getBUILD_AR () 
+{ 
+    tc-getBUILD_PROG AR ar "$@"
+}
+tc-getBUILD_AS () 
+{ 
+    tc-getBUILD_PROG AS as "$@"
+}
+tc-getBUILD_CC () 
+{ 
+    tc-getBUILD_PROG CC gcc "$@"
+}
+tc-getBUILD_CPP () 
+{ 
+    tc-getBUILD_PROG CPP cpp "$@"
+}
+tc-getBUILD_CXX () 
+{ 
+    tc-getBUILD_PROG CXX g++ "$@"
+}
+tc-getBUILD_LD () 
+{ 
+    tc-getBUILD_PROG LD ld "$@"
+}
+tc-getBUILD_NM () 
+{ 
+    tc-getBUILD_PROG NM nm "$@"
+}
+tc-getBUILD_OBJCOPY () 
+{ 
+    tc-getBUILD_PROG OBJCOPY objcopy "$@"
+}
+tc-getBUILD_PKG_CONFIG () 
+{ 
+    tc-getBUILD_PROG PKG_CONFIG pkg-config "$@"
+}
+tc-getBUILD_PROG () 
+{ 
+    _tc-getPROG CBUILD "BUILD_$1 $1_FOR_BUILD HOST$1" "${@:2}"
+}
+tc-getBUILD_RANLIB () 
+{ 
+    tc-getBUILD_PROG RANLIB ranlib "$@"
+}
+tc-getBUILD_STRIP () 
+{ 
+    tc-getBUILD_PROG STRIP strip "$@"
+}
+tc-getCC () 
+{ 
+    tc-getPROG CC gcc "$@"
+}
+tc-getCPP () 
+{ 
+    tc-getPROG CPP cpp "$@"
+}
+tc-getCXX () 
+{ 
+    tc-getPROG CXX g++ "$@"
+}
+tc-getDLLWRAP () 
+{ 
+    tc-getPROG DLLWRAP dllwrap "$@"
+}
+tc-getF77 () 
+{ 
+    tc-getPROG F77 gfortran "$@"
+}
+tc-getFC () 
+{ 
+    tc-getPROG FC gfortran "$@"
+}
+tc-getGCJ () 
+{ 
+    tc-getPROG GCJ gcj "$@"
+}
+tc-getLD () 
+{ 
+    tc-getPROG LD ld "$@"
+}
+tc-getNM () 
+{ 
+    tc-getPROG NM nm "$@"
+}
+tc-getOBJCOPY () 
+{ 
+    tc-getPROG OBJCOPY objcopy "$@"
+}
+tc-getPKG_CONFIG () 
+{ 
+    tc-getPROG PKG_CONFIG pkg-config "$@"
+}
+tc-getPROG () 
+{ 
+    _tc-getPROG CHOST "$@"
+}
+tc-getRANLIB () 
+{ 
+    tc-getPROG RANLIB ranlib "$@"
+}
+tc-getRC () 
+{ 
+    tc-getPROG RC windres "$@"
+}
+tc-getSTRIP () 
+{ 
+    tc-getPROG STRIP strip "$@"
+}
+tc-has-openmp () 
+{ 
+    local base="${T}/test-tc-openmp";
+    cat > "${base}.c"  <<-EOF
+#include <omp.h>
+int main() {
+int nthreads, tid, ret = 0;
+#pragma omp parallel private(nthreads, tid)
+{
+tid = omp_get_thread_num();
+nthreads = omp_get_num_threads(); ret += tid + nthreads;
+}
+return ret;
+}
+EOF
+
+    $(tc-getCC "$@") -fopenmp "${base}.c" -o "${base}" &>/dev/null;
+    local ret=$?;
+    rm -f "${base}"*;
+    return ${ret}
+}
+tc-has-tls () 
+{ 
+    local base="${T}/test-tc-tls";
+    cat > "${base}.c"  <<-EOF
+int foo(int *i) {
+static __thread int j = 0;
+return *i ? j : *i;
+}
+EOF
+
+    local flags;
+    case $1 in 
+        -s)
+            flags="-S"
+        ;;
+        -c)
+            flags="-c"
+        ;;
+        -l)
+
+        ;;
+        -*)
+            die "Usage: tc-has-tls [-c|-l] [toolchain prefix]"
+        ;;
+    esac;
+    : ${flags:=-fPIC -shared -Wl,-z,defs};
+    [[ $1 == -* ]] && shift;
+    $(tc-getCC "$@") ${flags} "${base}.c" -o "${base}" &>/dev/null;
+    local ret=$?;
+    rm -f "${base}"*;
+    return ${ret}
+}
+tc-is-cross-compiler () 
+{ 
+    return $([[ ${CBUILD:-${CHOST}} != ${CHOST} ]])
+}
+tc-is-softfloat () 
+{ 
+    local CTARGET=${CTARGET:-${CHOST}};
+    case ${CTARGET} in 
+        bfin* | h8300*)
+            echo "only"
+        ;;
+        *)
+            if [[ ${CTARGET//_/-} == *-softfloat-* ]]; then
+                echo "yes";
+            else
+                if [[ ${CTARGET//_/-} == *-softfp-* ]]; then
+                    echo "softfp";
+                else
+                    echo "no";
+                fi;
+            fi
+        ;;
+    esac
+}
+tc-is-static-only () 
+{ 
+    local host=${CTARGET:-${CHOST}};
+    return $([[ ${host} == *-mint* ]])
+}
+tc-ninja_magic_to_arch () 
+{ 
+    function ninj () 
+    { 
+        [[ ${type} == "kern" ]] && echo $1 || echo $2
+    };
+    local type=$1;
+    local host=$2;
+    [[ -z ${host} ]] && host=${CTARGET:-${CHOST}};
+    local KV=${KV:-${KV_FULL}};
+    use kernel_linux && [[ ${type} == "kern" ]] && [[ -z ${KV} ]] && ewarn "QA: Kernel version could not be determined, please inherit kernel-2 or linux-info";
+    case ${host} in 
+        powerpc-apple-darwin*)
+            echo ppc-macos
+        ;;
+        powerpc64-apple-darwin*)
+            echo ppc64-macos
+        ;;
+        i?86-apple-darwin*)
+            echo x86-macos
+        ;;
+        x86_64-apple-darwin*)
+            echo x64-macos
+        ;;
+        sparc-sun-solaris*)
+            echo sparc-solaris
+        ;;
+        sparcv9-sun-solaris*)
+            echo sparc64-solaris
+        ;;
+        i?86-pc-solaris*)
+            echo x86-solaris
+        ;;
+        x86_64-pc-solaris*)
+            echo x64-solaris
+        ;;
+        powerpc-ibm-aix*)
+            echo ppc-aix
+        ;;
+        mips-sgi-irix*)
+            echo mips-irix
+        ;;
+        ia64w-hp-hpux*)
+            echo ia64w-hpux
+        ;;
+        ia64-hp-hpux*)
+            echo ia64-hpux
+        ;;
+        hppa*64*-hp-hpux*)
+            echo hppa64-hpux
+        ;;
+        hppa*-hp-hpux*)
+            echo hppa-hpux
+        ;;
+        i?86-pc-freebsd*)
+            echo x86-freebsd
+        ;;
+        x86_64-pc-freebsd*)
+            echo x64-freebsd
+        ;;
+        powerpc-unknown-openbsd*)
+            echo ppc-openbsd
+        ;;
+        i?86-pc-openbsd*)
+            echo x86-openbsd
+        ;;
+        x86_64-pc-openbsd*)
+            echo x64-openbsd
+        ;;
+        i?86-pc-netbsd*)
+            echo x86-netbsd
+        ;;
+        i?86-pc-interix*)
+            echo x86-interix
+        ;;
+        i?86-pc-winnt*)
+            echo x86-winnt
+        ;;
+        aarch64*)
+            ninj arm64 arm
+        ;;
+        alpha*)
+            echo alpha
+        ;;
+        arm*)
+            echo arm
+        ;;
+        avr*)
+            ninj avr32 avr
+        ;;
+        bfin*)
+            ninj blackfin bfin
+        ;;
+        c6x)
+            echo c6x
+        ;;
+        cris*)
+            echo cris
+        ;;
+        frv)
+            echo frv
+        ;;
+        hexagon)
+            echo hexagon
+        ;;
+        hppa*)
+            ninj parisc hppa
+        ;;
+        i?86*)
+            if [[ ${type} == "kern" ]] && [[ $(KV_to_int ${KV}) -lt $(KV_to_int 2.6.24) || ${host} == *freebsd* ]]; then
+                echo i386;
+            else
+                echo x86;
+            fi
+        ;;
+        ia64*)
+            echo ia64
+        ;;
+        m68*)
+            echo m68k
+        ;;
+        metag)
+            echo metag
+        ;;
+        mips*)
+            echo mips
+        ;;
+        nios2*)
+            echo nios2
+        ;;
+        nios*)
+            echo nios
+        ;;
+        or32)
+            echo openrisc
+        ;;
+        powerpc*)
+            if [[ ${type} == "kern" ]] && [[ $(KV_to_int ${KV}) -ge $(KV_to_int 2.6.16) ]]; then
+                echo powerpc;
+            else
+                if [[ ${type} == "kern" ]] && [[ $(KV_to_int ${KV}) -eq $(KV_to_int 2.6.15) ]]; then
+                    if [[ ${host} == powerpc64* ]] || [[ ${PROFILE_ARCH} == "ppc64" ]]; then
+                        echo powerpc;
+                    else
+                        echo ppc;
+                    fi;
+                else
+                    if [[ ${host} == powerpc64* ]]; then
+                        echo ppc64;
+                    else
+                        if [[ ${PROFILE_ARCH} == "ppc64" ]]; then
+                            ninj ppc64 ppc;
+                        else
+                            echo ppc;
+                        fi;
+                    fi;
+                fi;
+            fi
+        ;;
+        s390*)
+            echo s390
+        ;;
+        score)
+            echo score
+        ;;
+        sh64*)
+            ninj sh64 sh
+        ;;
+        sh*)
+            echo sh
+        ;;
+        sparc64*)
+            ninj sparc64 sparc
+        ;;
+        sparc*)
+            [[ ${PROFILE_ARCH} == "sparc64" ]] && ninj sparc64 sparc || echo sparc
+        ;;
+        tile*)
+            echo tile
+        ;;
+        vax*)
+            echo vax
+        ;;
+        x86_64*freebsd*)
+            echo amd64
+        ;;
+        x86_64*)
+            if [[ ${type} == "kern" ]] && [[ $(KV_to_int ${KV}) -ge $(KV_to_int 2.6.24) ]]; then
+                echo x86;
+            else
+                ninj x86_64 amd64;
+            fi
+        ;;
+        xtensa*)
+            echo xtensa
+        ;;
+        *)
+            echo unknown
+        ;;
+    esac
+}
+test-flag-CC () 
+{ 
+    test-flag-PROG "CC" c "$1"
+}
+test-flag-CXX () 
+{ 
+    test-flag-PROG "CXX" c++ "$1"
+}
+test-flag-F77 () 
+{ 
+    test-flag-PROG "F77" f77 "$1"
+}
+test-flag-FC () 
+{ 
+    test-flag-PROG "FC" f95 "$1"
+}
+test-flag-PROG () 
+{ 
+    local comp=$1;
+    local lang=$2;
+    local flag=$3;
+    [[ -z ${comp} || -z ${flag} ]] && return 1;
+    local src=${T}/tf-${comp}-${SECONDS}.${lang};
+    echo "int main() { return 0; }" > "${src}";
+    local PROG=$(tc-get${comp});
+    ${PROG} "${flag}" -c -o "${src}.o" "${src}" > /dev/null 2>&1;
+    local ret=$?;
+    rm -f "${src}"{,.o};
+    [[ ${ret} == 0 ]] && true || false
+}
+test-flags () 
+{ 
+    test-flags-CC "$@"
+}
+test-flags-CC () 
+{ 
+    test-flags-PROG "CC" "$@"
+}
+test-flags-CXX () 
+{ 
+    test-flags-PROG "CXX" "$@"
+}
+test-flags-F77 () 
+{ 
+    test-flags-PROG "F77" "$@"
+}
+test-flags-FC () 
+{ 
+    test-flags-PROG "FC" "$@"
+}
+test-flags-PROG () 
+{ 
+    local comp=$1;
+    local flags=();
+    local x;
+    shift;
+    [[ -z ${comp} ]] && return 1;
+    for x in "$@";
+    do
+        test-flag-${comp} "${x}" && flags+=("${x}");
+    done;
+    echo "${flags[*]}";
+    [[ ${#flags[@]} -gt 0 ]]
+}
+test_version_info () 
+{ 
+    if [[ $($(tc-getCC) --version 2>&1) == *$1* ]]; then
+        return 0;
+    else
+        return 1;
+    fi
+}
+uclibctoolize () 
+{ 
+    die "Use elibtoolize"
+}
+update_depmod () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    get_version;
+    ebegin "Updating module dependencies for ${KV_FULL}";
+    if [ -r "${KV_OUT_DIR}"/System.map ]; then
+        depmod -ae -F "${KV_OUT_DIR}"/System.map -b "${ROOT}" ${KV_FULL};
+        eend $?;
+    else
+        ewarn;
+        ewarn "${KV_OUT_DIR}/System.map not found.";
+        ewarn "You must manually update the kernel module dependencies using depmod.";
+        eend 1;
+        ewarn;
+    fi
+}
+update_moduledb () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    local MODULEDB_DIR="${ROOT}"/var/lib/module-rebuild/;
+    move_old_moduledb;
+    if [[ ! -f "${MODULEDB_DIR}"/moduledb ]]; then
+        [[ ! -d "${MODULEDB_DIR}" ]] && mkdir -p "${MODULEDB_DIR}";
+        touch "${MODULEDB_DIR}"/moduledb;
+    fi;
+    if ! grep -qs ${CATEGORY}/${PN}-${PVR} "${MODULEDB_DIR}"/moduledb; then
+        einfo "Adding module to moduledb.";
+        echo "a:1:${CATEGORY}/${PN}-${PVR}" >> "${MODULEDB_DIR}"/moduledb;
+    fi
+}
+use_if_iuse () 
+{ 
+    in_iuse $1 || return 1;
+    use $1
+}
+use_m () 
+{ 
+    debug-print-function ${FUNCNAME} $*;
+    get_version;
+    [ ${KV_MAJOR} -eq 3 ] && return 0;
+    [ ${KV_MAJOR} -eq 2 -a ${KV_MINOR} -gt 5 -a ${KV_PATCH} -gt 5 ] && return 0 || return 1
+}
+usex () 
+{ 
+    use "$1" && echo "${2-yes}$4" || echo "${3-no}$5"
+}
+validate_desktop_entries () 
+{ 
+    _eutils_eprefix_init;
+    if [[ -x "${EPREFIX}"/usr/bin/desktop-file-validate ]]; then
+        einfo "Checking desktop entry validity";
+        local directories="";
+        for d in /usr/share/applications $@;
+        do
+            [[ -d ${ED}${d} ]] && directories="${directories} ${ED}${d}";
+        done;
+        if [[ -n ${directories} ]]; then
+            for FILE in $(find ${directories} -name "*\.desktop" 							-not -path '*.hidden*' | sort -u 2>/dev/null);
+            do
+                local temp=$(desktop-file-validate ${FILE} | grep -v "warning:" | 								sed -e "s|error: ||" -e "s|${FILE}:|--|g" );
+                [[ -n $temp ]] && elog ${temp/--/${FILE/${ED}/}:};
+            done;
+        fi;
+        echo "";
+    else
+        einfo "Passing desktop entry validity check. Install dev-util/desktop-file-utils, if you want to help to improve Gentoo.";
+    fi
+}
+version_compare () 
+{ 
+    eshopts_push -s extglob;
+    local ver_a=${1} ver_b=${2} parts_a parts_b;
+    local cur_tok_a cur_tok_b num_part_a num_part_b;
+    local -i cur_idx_a=0 cur_idx_b=0 prev_idx_a prev_idx_b;
+    parts_a=($(get_all_version_components "${ver_a}" ));
+    parts_b=($(get_all_version_components "${ver_b}" ));
+    local -i inf_loop=0;
+    while true; do
+        inf_loop+=1;
+        ((inf_loop > 20)) && die "versionator compare bug [numbers, ${ver_a}, ${ver_b}]";
+        prev_idx_a=cur_idx_a;
+        prev_idx_b=cur_idx_b;
+        cur_tok_a=${parts_a[cur_idx_a]};
+        cur_tok_b=${parts_b[cur_idx_b]};
+        if [[ -n ${cur_tok_a} ]] && [[ -z ${cur_tok_a//[[:digit:]]} ]]; then
+            cur_idx_a+=1;
+            [[ ${parts_a[cur_idx_a]} == . ]] && cur_idx_a+=1;
+        else
+            cur_tok_a=;
+        fi;
+        if [[ -n ${cur_tok_b} ]] && [[ -z ${cur_tok_b//[[:digit:]]} ]]; then
+            cur_idx_b+=1;
+            [[ ${parts_b[cur_idx_b]} == . ]] && cur_idx_b+=1;
+        else
+            cur_tok_b=;
+        fi;
+        [[ -z ${cur_tok_a} && -z ${cur_tok_b} ]] && break;
+        [[ -z ${cur_tok_a} ]] && eshopts_pop && return 1;
+        [[ -z ${cur_tok_b} ]] && eshopts_pop && return 3;
+        if (( prev_idx_a != 0 && prev_idx_b != 0 )) && [[ ${cur_tok_a} == 0* || ${cur_tok_b} == 0* ]]; then
+            cur_tok_a=${cur_tok_a%%+(0)};
+            cur_tok_b=${cur_tok_b%%+(0)};
+            [[ ${cur_tok_a} < ${cur_tok_b} ]] && eshopts_pop && return 1;
+            [[ ${cur_tok_a} > ${cur_tok_b} ]] && eshopts_pop && return 3;
+        else
+            cur_tok_a=${cur_tok_a##+(0)};
+            cur_tok_b=${cur_tok_b##+(0)};
+            : ${cur_tok_a:=0};
+            : ${cur_tok_b:=0};
+            ((cur_tok_a < cur_tok_b)) && eshopts_pop && return 1;
+            ((cur_tok_a > cur_tok_b)) && eshopts_pop && return 3;
+        fi;
+    done;
+    local letter_a=;
+    letter_a=${parts_a[cur_idx_a]};
+    if [[ ${#letter_a} -eq 1 && -z ${letter_a/[a-z]} ]]; then
+        cur_idx_a+=1;
+    else
+        letter_a=@;
+    fi;
+    local letter_b=;
+    letter_b=${parts_b[cur_idx_b]};
+    if [[ ${#letter_b} -eq 1 && -z ${letter_b/[a-z]} ]]; then
+        cur_idx_b+=1;
+    else
+        letter_b=@;
+    fi;
+    [[ ${letter_a} < ${letter_b} ]] && eshopts_pop && return 1;
+    [[ ${letter_a} > ${letter_b} ]] && eshopts_pop && return 3;
+    inf_loop=0;
+    while true; do
+        inf_loop+=1;
+        ((inf_loop > 20)) && die "versionator compare bug [numbers, ${ver_a}, ${ver_b}]";
+        [[ ${parts_a[cur_idx_a]} == _ ]] && ((cur_idx_a++));
+        [[ ${parts_b[cur_idx_b]} == _ ]] && ((cur_idx_b++));
+        cur_tok_a=${parts_a[cur_idx_a]};
+        cur_tok_b=${parts_b[cur_idx_b]};
+        num_part_a=0;
+        num_part_b=0;
+        if has ${cur_tok_a%%+([0-9])} "alpha" "beta" "pre" "rc" "p"; then
+            cur_idx_a+=1;
+            num_part_a=${cur_tok_a##+([a-z])};
+            num_part_a=${num_part_a##+(0)};
+            : ${num_part_a:=0};
+            cur_tok_a=${cur_tok_a%%+([0-9])};
+        else
+            cur_tok_a=;
+        fi;
+        if has ${cur_tok_b%%+([0-9])} alpha beta pre rc p; then
+            cur_idx_b+=1;
+            num_part_b=${cur_tok_b##+([a-z])};
+            num_part_b=${num_part_b##+(0)};
+            : ${num_part_b:=0};
+            cur_tok_b=${cur_tok_b%%+([0-9])};
+        else
+            cur_tok_b=;
+        fi;
+        if [[ ${cur_tok_a} != ${cur_tok_b} ]]; then
+            local suffix;
+            for suffix in alpha beta pre rc "" p;
+            do
+                [[ ${cur_tok_a} == ${suffix} ]] && eshopts_pop && return 1;
+                [[ ${cur_tok_b} == ${suffix} ]] && eshopts_pop && return 3;
+            done;
+        else
+            if [[ -z ${cur_tok_a} && -z ${cur_tok_b} ]]; then
+                break;
+            else
+                ((num_part_a < num_part_b)) && eshopts_pop && return 1;
+                ((num_part_a > num_part_b)) && eshopts_pop && return 3;
+            fi;
+        fi;
+    done;
+    [[ ${parts_a[cur_idx_a]} == - ]] && ((cur_idx_a++));
+    [[ ${parts_b[cur_idx_b]} == - ]] && ((cur_idx_b++));
+    if [[ -n ${parts_a[cur_idx_a]/r+([0-9])} || -n ${parts_b[cur_idx_b]/r+([0-9])} ]]; then
+        die "versionator compare bug [revisions, ${ver_a}, ${ver_b}]";
+    fi;
+    num_part_a=${parts_a[cur_idx_a]#r};
+    num_part_a=${num_part_a##+(0)};
+    : ${num_part_a:=0};
+    num_part_b=${parts_b[cur_idx_b]#r};
+    num_part_b=${num_part_b##+(0)};
+    : ${num_part_b:=0};
+    ((num_part_a < num_part_b)) && eshopts_pop && return 1;
+    ((num_part_a > num_part_b)) && eshopts_pop && return 3;
+    eshopts_pop;
+    return 2
+}
+version_format_string () 
+{ 
+    local fstr=$1;
+    shift;
+    set -- $(get_version_components "$@");
+    eval echo "${fstr}"
+}
+version_is_at_least () 
+{ 
+    local want_s="$1" have_s="${2:-${PVR}}" r;
+    version_compare "${want_s}" "${have_s}";
+    r=$?;
+    case $r in 
+        1 | 2)
+            return 0
+        ;;
+        3)
+            return 1
+        ;;
+        *)
+            die "versionator compare bug [atleast, ${want_s}, ${have_s}, ${r}]"
+        ;;
+    esac
+}
+version_sort () 
+{ 
+    eshopts_push -s extglob;
+    local items=;
+    local -i left=0;
+    items=("$@");
+    while ((left < ${#items[@]})); do
+        local -i lowest_idx=left;
+        local -i idx=lowest_idx+1;
+        while ((idx < ${#items[@]})); do
+            version_compare "${items[lowest_idx]}" "${items[idx]}";
+            [[ $? -eq 3 ]] && lowest_idx=idx;
+            idx+=1;
+        done;
+        local tmp=${items[lowest_idx]};
+        items[lowest_idx]=${items[left]};
+        items[left]=${tmp};
+        left+=1;
+    done;
+    echo ${items[@]};
+    eshopts_pop
+}

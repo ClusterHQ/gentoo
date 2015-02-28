@@ -1,0 +1,5 @@
+ * Package:    sys-libs/gdbm-1.11
+ * Repository: gentoo_prefix
+ * Maintainer: base-system@gentoo.org
+ * USE:        abi_x86_64 amd64 berkdb elibc_glibc kernel_linux nls prefix userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox

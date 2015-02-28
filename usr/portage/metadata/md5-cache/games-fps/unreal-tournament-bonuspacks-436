@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip || ( games-fps/unreal-tournament games-fps/unreal-tournament-goty ) games-util/umodpack
+DESCRIPTION=Futuristic FPS (bonus packs)
+HOMEPAGE=http://www.unrealtournament.com/
+KEYWORDS=-* amd64 x86
+LICENSE=all-rights-reserved
+RDEPEND=|| ( games-fps/unreal-tournament games-fps/unreal-tournament-goty )
+RESTRICT=mirror bindist
+SLOT=0
+SRC_URI=http://fileserver.talkware.net/ut/bonuspacks/UTBonusPack4.zip http://www.dices.de/dices/files/UTBonusPack4.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=b8d35c326dcc109005a9bc8b3e1c3a52

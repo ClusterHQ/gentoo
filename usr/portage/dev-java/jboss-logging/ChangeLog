@@ -1,0 +1,26 @@
+# ChangeLog for dev-java/jboss-logging
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-java/jboss-logging/ChangeLog,v 1.4 2014/05/10 12:34:44 tomwij Exp $
+
+*jboss-logging-3.1.4 (10 May 2014)
+
+  10 May 2014; Tom Wijsman <TomWij@gentoo.org> +jboss-logging-3.1.4.ebuild:
+  Version bump to 3.1.4.
+
+  10 May 2014; Tom Wijsman <TomWij@gentoo.org> jboss-logging-3.1.3-r1.ebuild:
+  Temporarily restrict the version of the slf4j-api dependency to <1.7.7;
+  temporarily fixes bug #509602, reported by Victor Orozco, until a patch is
+  available.
+
+*jboss-logging-3.1.3-r1 (08 May 2014)
+
+  08 May 2014; Tom Wijsman <TomWij@gentoo.org>
+  +files/jboss-logging-3.1.3-r1-build.xml, +jboss-logging-3.1.3-r1.ebuild:
+  Revision bump, thorough review to use java-pkg-2 and fix up common mistakes;
+  could fix bug #509602, reported by Victor Orozo.
+
+*jboss-logging-3.1.3 (26 Sep 2013)
+
+  26 Sep 2013; Johann Schmitz <ercpe@gentoo.org> +jboss-logging-3.1.3.ebuild,
+  +metadata.xml:
+  Ebuild for jboss-logging - JBoss' logging framework

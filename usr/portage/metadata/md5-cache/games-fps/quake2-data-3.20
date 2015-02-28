@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=iD Software's Quake 2 ... the data files
+EAPI=2
+HOMEPAGE=http://www.idsoftware.com/
+IUSE=videos
+KEYWORDS=~alpha amd64 ~ia64 ppc sparc x86 ~x86-fbsd
+LICENSE=Q2EULA
+PROPERTIES=interactive
+SLOT=0
+SRC_URI=mirror://idsoftware/quake2/q2-3.20-x86-full-ctf.exe
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cdrom	49b4b952fb5c83fac6c616b532723e60	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=9162e4e01ac3e29494c9bdc22e13971d

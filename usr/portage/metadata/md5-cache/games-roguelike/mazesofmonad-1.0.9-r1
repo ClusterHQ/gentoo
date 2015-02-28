@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare prerm setup test unpack
+DEPEND=>=dev-libs/gmp-5:0 virtual/libffi >=dev-lang/ghc-7.4.1 >=dev-haskell/cabal-1.6 dev-haskell/hunit dev-haskell/mtl dev-haskell/random dev-haskell/regex-posix >=dev-haskell/cabal-1.1.4
+DESCRIPTION=Console-based roguelike Role Playing Game similar to nethack
+EAPI=5
+HOMEPAGE=https://github.com/JPMoresmau/MazesOfMonad http://hackage.haskell.org/package/MazesOfMonad
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+RDEPEND=>=dev-libs/gmp-5:0 virtual/libffi
+SLOT=0
+SRC_URI=mirror://hackage/packages/archive/MazesOfMonad/1.0.9/MazesOfMonad-1.0.9.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	ghc-package	9dd58db252d8252779bb74ed015196e3	haskell-cabal	b6154aeaa4dfbbc6d8a66d7f739c22d1	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=8b4d9f757efa88e6b0850d91231e4b96

@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=net-wireless/kismet-2011.03.2-r1:= >=net-wireless/ubertooth-9999:= >=net-libs/libbtbb-9999:= virtual/libusb:1 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Provides basic bluetooth support in kismet
+EAPI=5
+HOMEPAGE=http://ubertooth.sourceforge.net/
+LICENSE=GPL-2
+RDEPEND=>=net-wireless/kismet-2011.03.2-r1:= >=net-wireless/ubertooth-9999:= >=net-libs/libbtbb-9999:= virtual/libusb:1
+SLOT=0/9999
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	git-r3	6ebae45064cb04482f3c702632dd9528	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=3ef3d8665c35b6efc8c128b0d5aff3c9

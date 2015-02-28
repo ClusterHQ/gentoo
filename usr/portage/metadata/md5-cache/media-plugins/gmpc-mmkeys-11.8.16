@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=dev-libs/dbus-glib >=media-sound/gmpc-11.8.16 || ( dev-lang/vala:0.24 dev-lang/vala:0.22 dev-lang/vala:0.20 dev-lang/vala:0.18 ) virtual/pkgconfig
+DESCRIPTION=Bind multimedia keys via gnome settings daemon
+EAPI=4
+HOMEPAGE=http://gmpc.wikia.com/wiki/Plugins
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/dbus-glib >=media-sound/gmpc-11.8.16
+SLOT=0
+SRC_URI=http://download.sarine.nl/Programs/gmpc/11.8/gmpc-mmkeys-11.8.16.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	vala	d8f392783fdc2395fc64af046f2ca961
+_md5_=0afbfb42b4c8faea3e936572e278b893

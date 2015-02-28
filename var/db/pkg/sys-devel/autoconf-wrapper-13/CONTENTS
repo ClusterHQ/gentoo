@@ -1,0 +1,12 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/misc
+obj /home/core/gentoo/usr/lib/misc/ac-wrapper.sh 338230803d4e847c2f34548067edae93 1410958912
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/autoreconf -> ../lib/misc/ac-wrapper.sh 1410958917
+sym /home/core/gentoo/usr/bin/autoconf -> ../lib/misc/ac-wrapper.sh 1410958917
+sym /home/core/gentoo/usr/bin/autoscan -> ../lib/misc/ac-wrapper.sh 1410958917
+sym /home/core/gentoo/usr/bin/ifnames -> ../lib/misc/ac-wrapper.sh 1410958917
+sym /home/core/gentoo/usr/bin/autoheader -> ../lib/misc/ac-wrapper.sh 1410958917
+sym /home/core/gentoo/usr/bin/autom4te -> ../lib/misc/ac-wrapper.sh 1410958917
+sym /home/core/gentoo/usr/bin/autoupdate -> ../lib/misc/ac-wrapper.sh 1410958917

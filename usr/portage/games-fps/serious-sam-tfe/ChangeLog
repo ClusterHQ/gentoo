@@ -1,0 +1,15 @@
+# ChangeLog for games-fps/serious-sam-tfe
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/games-fps/serious-sam-tfe/ChangeLog,v 1.2 2014/05/15 16:45:59 ulm Exp $
+
+  15 May 2014; Ulrich Müller <ulm@gentoo.org> serious-sam-tfe-1_beta3.ebuild:
+  Fix USE dependency on media-libs/libsdl, "audio" USE flag was renamed to
+  "sound", bug 357661.
+
+*serious-sam-tfe-1_beta3 (22 Sep 2012)
+
+  22 Sep 2012; Sergey Popov <pinkbyte@gentoo.org>
+  +serious-sam-tfe-1_beta3.ebuild, +metadata.xml:
+  Initial commit wrt bug #71436. Thanks to all those people who helps writing
+  this ebuild
+

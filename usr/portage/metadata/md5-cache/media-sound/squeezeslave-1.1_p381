@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=media-libs/libmad media-libs/flac tremor? ( media-libs/tremor ) !tremor? ( media-libs/libvorbis ) media-libs/libogg media-libs/portaudio[alsa?] aac? ( virtual/ffmpeg ) wma? ( virtual/ffmpeg ) display? ( app-misc/lirc ) app-arch/xz-utils virtual/pkgconfig
+DESCRIPTION=A lightweight streaming audio player for Logitech Media Server
+EAPI=5
+HOMEPAGE=http://squeezeslave.googlecode.com
+IUSE=aac +alsa display tremor wma zones
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libmad media-libs/flac tremor? ( media-libs/tremor ) !tremor? ( media-libs/libvorbis ) media-libs/libogg media-libs/portaudio[alsa?] aac? ( virtual/ffmpeg ) wma? ( virtual/ffmpeg ) display? ( app-misc/lirc )
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~radhermit/dist/squeezeslave-1.1_p381.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ce112d6b00bc28488f390f192ea79fc3

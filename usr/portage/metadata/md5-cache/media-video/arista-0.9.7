@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml] ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=An easy to use multimedia transcoder for the GNOME Desktop
+EAPI=5
+HOMEPAGE=http://www.transcoder.org
+IUSE=+faac kde nautilus +x264 +xvid python_targets_python2_7 linguas_ar linguas_ast linguas_bg linguas_ca linguas_cs linguas_da linguas_de linguas_el linguas_en_GB linguas_es linguas_et linguas_eu linguas_fi linguas_fr linguas_gl linguas_hu linguas_ia linguas_id linguas_it linguas_ja linguas_jv linguas_kn linguas_lt linguas_nl linguas_pl linguas_pt linguas_pt_BR linguas_ro linguas_ru linguas_sk linguas_sl linguas_sr linguas_sv linguas_th linguas_tr linguas_uk linguas_zh_CN linguas_zh_TW
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=>=x11-libs/gtk+-2.16:2 >=dev-python/pygtk-2.16:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pygobject:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/gconf-python:2 dev-python/dbus-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/python-gudev gnome-base/librsvg >=media-libs/gstreamer-0.10.22:0.10 dev-python/gst-python:0.10[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] media-libs/gst-plugins-base:0.10 media-libs/gst-plugins-good:0.10 media-libs/gst-plugins-bad:0.10 media-plugins/gst-plugins-meta:0.10 media-plugins/gst-plugins-ffmpeg:0.10 x11-themes/gnome-icon-theme nautilus? ( dev-python/nautilus-python ) kde? ( dev-python/librsvg-python ) faac? ( media-plugins/gst-plugins-faac:0.10 ) x264? ( media-plugins/gst-plugins-x264:0.10 ) xvid? ( media-plugins/gst-plugins-xvid:0.10 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml] ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=http://programmer-art.org/media/releases/arista-transcoder/arista-0.9.7.tar.gz
+_eclasses_=distutils-r1	90e7008a7d21e3b1597bea444bb85827	eutils	06133990e861be0fe60c2b428fd025d9	l10n	33bde4fb0cfd3a21a277b66bfd837e19	multibuild	46527a4656956da3d58acff72c9b59b1	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	python-r1	75e5c82b55dcb208a0a8f4ab8847e731	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=cfbbd83a40558aab1a5388a15feaea5e

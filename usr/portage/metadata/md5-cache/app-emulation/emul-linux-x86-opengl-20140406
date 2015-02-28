@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prepare
+DEPEND=app-admin/eselect-opengl >=app-admin/eselect-mesa-0.0.9 >=sys-apps/findutils-4.2.26
+DESCRIPTION=Provides precompiled 32bit libraries
+EAPI=5
+HOMEPAGE=http://dev.gentoo.org/~pacho/emul.html
+IUSE=abi_x86_32 +development
+KEYWORDS=-* amd64 ~amd64-linux
+LICENSE=!abi_x86_32? ( BSD MIT LGPL-3 SGI-B-2.0 ) abi_x86_32? ( metapackage )
+RDEPEND=>=app-emulation/emul-linux-x86-xlibs-20100611 !<app-emulation/emul-linux-x86-xlibs-20100611 media-libs/mesa !abi_x86_32? ( !media-libs/freeglut[abi_x86_32(-)] !media-libs/glew[abi_x86_32(-)] !media-libs/glu[abi_x86_32(-)] !media-libs/mesa[abi_x86_32(-)] ) abi_x86_32? ( >=media-libs/freeglut-2.8.1[abi_x86_32(-)] >=media-libs/glew-1.10.0-r1[abi_x86_32(-)] >=media-libs/glu-9.0.0-r1[abi_x86_32(-)] >=media-libs/mesa-9.1.6[abi_x86_32(-)] )
+RESTRICT=strip
+SLOT=0
+SRC_URI=!abi_x86_32? ( http://dev.gentoo.org/~pacho/emul/emul-linux-x86-opengl-20140406.tar.xz )
+_eclasses_=emul-linux-x86	21b03579b81acf650f0077bfd9fc2586	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=10b7c241fde7e5749a3be36ba76ad38e

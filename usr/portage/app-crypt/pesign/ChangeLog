@@ -1,0 +1,18 @@
+# ChangeLog for app-crypt/pesign
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-crypt/pesign/ChangeLog,v 1.4 2014/05/13 02:22:31 patrick Exp $
+
+  13 May 2014; Patrick Lauer <patrick@gentoo.org> pesign-0.108.ebuild:
+  Quoting
+
+  10 Sep 2013; Patrick Lauer <patrick@gentoo.org> pesign-0.108.ebuild:
+  Whitespace
+
+  30 Aug 2013; Greg Kroah-Hartman <gregkh@gentoo.org> metadata.xml:
+  fixed metadata.xml to point to me
+
+*pesign-0.108 (29 Aug 2013)
+
+  29 Aug 2013; Greg Kroah-Hartman <gregkh@gentoo.org> +files/destdir.patch,
+  +metadata.xml, +pesign-0.108.ebuild:
+  0.108 pesign added

@@ -1,0 +1,25 @@
+# ChangeLog for dev-php/PEAR-Var_Dump
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-php/PEAR-Var_Dump/ChangeLog,v 1.4 2014/08/10 20:57:15 slyfox Exp $
+
+  10 Aug 2014; Sergei Trofimovich <slyfox@gentoo.org>
+  PEAR-Var_Dump-1.0.3-r1.ebuild, PEAR-Var_Dump-1.0.4.ebuild:
+  QA: drop trailing '.' from DESCRIPTION
+
+*PEAR-Var_Dump-1.0.4 (21 Mar 2011)
+
+  21 Mar 2011; Ole Markus With <olemarkus@gentoo.org>
+  +PEAR-Var_Dump-1.0.4.ebuild:
+  Version bump. Thanks to Denny. Bug #359633
+
+*PEAR-Var_Dump-1.0.3-r1 (17 Jun 2010)
+
+  17 Jun 2010; <mabi@gentoo.org> -PEAR-Var_Dump-1.0.3.ebuild,
+  +PEAR-Var_Dump-1.0.3-r1.ebuild:
+  eapi bump for php-5.3 (bug #298205)
+
+*PEAR-Var_Dump-1.0.3 (22 Aug 2009)
+
+  22 Aug 2009; Steve Dibb <beandog@gentoo.org> +PEAR-Var_Dump-1.0.3.ebuild,
+  +metadata.xml:
+  Initial commit

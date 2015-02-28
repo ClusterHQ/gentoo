@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=x11-libs/libX11 x11-libs/libXft
+DESCRIPTION=A fractal generator
+EAPI=4
+HOMEPAGE=http://www.fractint.org
+KEYWORDS=amd64 ppc x86
+LICENSE=freedist
+RDEPEND=x11-libs/libX11
+SLOT=0
+SRC_URI=http://www.fractint.org/ftp/current/linux/xfractint-20.04p12.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b333d0ec3062b30c6ff78892bd0f5569

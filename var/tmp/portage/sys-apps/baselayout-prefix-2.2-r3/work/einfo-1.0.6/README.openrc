@@ -1,0 +1,89 @@
+OpenRC README
+
+
+Installation
+------------
+make install
+Yup, that simple. Works with GNU make.
+
+You may wish to tweak the installation with the below arguments
+PROGLDFLAGS=-static
+LIBNAME=lib64
+DESTDIR=/tmp/openrc-image
+MKNET=oldnet
+MKPAM=pam
+MKPREFIX=yes
+MKPKGCONFIG=no
+MKSELINUX=yes
+MKSTATICLIBS=no
+MKTERMCAP=ncurses
+MKTERMCAP=termcap
+MKTOOLS=yes
+PKG_PREFIX=/usr/pkg
+LOCAL_PREFIX=/usr/local
+PREFIX=/usr/local
+
+We don't support building a static OpenRC with PAM.
+You may need to use PROGLDFLAGS=-Wl,-Bstatic on glibc instead of just -static.
+If you debug memory under valgrind, add -DDEBUG_MEMORY to your CPPFLAGS
+so that all malloc memory should be freed at exit.
+If you are building OpenRC for a Gentoo Prefix installation, add
+MKPREFIX=yes.
+
+You can also brand OpenRC if you so wish like so
+BRANDING=\"Gentoo/$(uname -s)\"
+
+PKG_PREFIX should be set to where packages install to by default.
+LOCAL_PREFIX should be set when to where user maintained packages are.
+Only set LOCAL_PREFIX if different from PKG_PREFIX.
+PREFIX should be set when OpenRC is not installed to /.
+
+If any of the following files exist then we do not overwrite them
+/etc/devd.conf
+/etc/rc
+/etc/rc.shutdown
+/etc/conf.d/*
+
+rc and rc.shutdown are the hooks from the BSD init into OpenRC.
+devd.conf is modified from FreeBSD to call /etc/rc.devd which is a generic
+hook into OpenRC.
+inittab is the same, but for SysVInit as used by most Linux distributions.
+This can be found in the support folder.
+Obviously, if you're installing this onto a system that does not use OpenRC
+by default then you may wish to backup the above listed files, remove them
+and then install so that the OS hooks into OpenRC.
+
+init.d.misc is not installed by default as the scripts will need
+tweaking on a per distro basis. They are also non essential to the operation
+of the system.
+
+
+Reporting Bugs
+--------------
+Since Gentoo Linux is hosting OpenRC development, Bugs should go to
+the Gentoo Bugzilla:
+	http://bugs.gentoo.org/
+They should be filed under the "Gentoo Hosted Projects" product and
+the "openrc" component.
+
+
+History - by Roy Marples
+------------------------
+I became a Gentoo/Linux developer in 2004 and wrote the modular network
+scripts for the Gentoo baselayout package. baselayout is a collection of
+bash scripts to bring up your computer and its services.
+Then towards the end of 2005 I found myself as the primary maintainer
+for baselayout.
+
+At the start of 2007, baselayout-2 is announced to the world, re-writing the
+core of baselayout in C and allowing POSIX sh init scripts instead of
+forcing the use of bash. By Mid 2007 I have re-written everything, including
+init scripts, and alpha and pre baselayout-2 snapshots where put into Gentoo.
+Towards the end of 2007 I retired as a Gentoo developer for reasons I won't
+go into here. baselayout-2 was still in the pre stage, and aside from the
+fbsd users, it was masked everywhere. However, I also desired to keep the
+baselayout-2 project alive, but outside of Gentoo and into other projects
+such as FreeBSD.
+
+As such, the Gentoo Council have allowed the creation of OpenRC under the
+2 clause BSD license, managed by me as an external project.

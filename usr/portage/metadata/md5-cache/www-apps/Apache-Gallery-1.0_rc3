@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare prerm setup test unpack
+DEPEND==dev-lang/perl-5* =www-apache/libapreq2-2*[perl] >=media-libs/imlib2-1.0.6-r1 dev-perl/URI >=dev-perl/ImageInfo-1.04-r2 >=dev-perl/ImageSize-2.99-r1 dev-perl/text-template >=virtual/perl-CGI-3.08 dev-perl/Image-Imlib2 =www-servers/apache-2* dev-lang/perl:=[-build(-)] >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Apache gallery for mod_perl
+EAPI=5
+HOMEPAGE=http://apachegallery.dk/
+IUSE=vhosts
+KEYWORDS=amd64 ppc x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND==www-servers/apache-2* dev-lang/perl:=[-build(-)] >=app-admin/webapp-config-1.50.15
+SLOT=0
+SRC_URI=http://apachegallery.dk/download/Apache-Gallery-1.0RC3.tar.gz
+_eclasses_=depend.apache	41d01b539f56fa0a5269f3a8ce916981	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	a6a2d5c77bdaeba2794b167689cafb7a	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=01c1db04cbab0abd0882b835958d06a9

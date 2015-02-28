@@ -1,0 +1,27 @@
+# ChangeLog for dev-ruby/evented-spec
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/evented-spec/ChangeLog,v 1.7 2014/08/05 16:01:00 mrueg Exp $
+
+  05 Aug 2014; Manuel Rüger <mrueg@gentoo.org> evented-spec-0.9.0.ebuild:
+  Remove trailing '.' from DESCRIPTION.
+
+  22 Jun 2014; Hans de Graaff <graaff@gentoo.org> evented-spec-0.9.0.ebuild:
+  Add ruby21.
+
+  26 May 2014; Manuel Rüger <mrueg@gentoo.org> evented-spec-0.9.0.ebuild:
+  Remove ruby18 target.
+
+  03 Dec 2013; Hans de Graaff <graaff@gentoo.org> evented-spec-0.9.0.ebuild:
+  EAPI=5. Add ruby20.
+
+  14 Aug 2012; Diego E. Pettenò <flameeyes@gentoo.org> metadata.xml:
+  Update metadata.xml so that it's the same as most other packages.
+
+  29 Jul 2012; Hans de Graaff <graaff@gentoo.org> evented-spec-0.9.0.ebuild:
+  Add x86 keyword since all this code was part of amqp before.
+
+*evented-spec-0.9.0 (28 Jul 2012)
+
+  28 Jul 2012; Hans de Graaff <graaff@gentoo.org> +evented-spec-0.9.0.ebuild,
+  +metadata.xml:
+  Initial import. New dependency for amq-client.

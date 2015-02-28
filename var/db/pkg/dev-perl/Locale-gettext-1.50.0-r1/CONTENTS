@@ -1,0 +1,16 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/perl5
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/Locale
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/Locale/gettext.pm 101c89ecc8054565d39e57d06c02fa60 1410959546
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto/Locale
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto/Locale/gettext
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto/Locale/gettext/gettext.so f28e8884b12ad6907cd9a60944502ab0 1410959546
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/Locale-gettext-1.50.0-r1
+obj /home/core/gentoo/usr/share/doc/Locale-gettext-1.50.0-r1/README.bz2 1efbc2b335e58db04b5d062f5a1b4abf 1410959546

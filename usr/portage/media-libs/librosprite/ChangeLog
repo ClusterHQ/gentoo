@@ -1,0 +1,36 @@
+# ChangeLog for media-libs/librosprite
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-libs/librosprite/ChangeLog,v 1.7 2014/01/05 19:09:35 grobian Exp $
+
+  05 Jan 2014; Fabian Groffen <grobian@gentoo.org> librosprite-0.1.0.ebuild:
+  Marked ~m68k-mint, bug #494512
+
+  23 Jun 2013; Michael Weber <xmw@gentoo.org> librosprite-0.1.0.ebuild:
+  Migrate to netsurf.eclass
+
+*librosprite-0.1.0 (17 Jun 2013)
+
+  17 Jun 2013; Michael Weber <xmw@gentoo.org> +librosprite-0.1.0.ebuild,
+  -librosprite-9999.ebuild:
+  Version bump (bug 470720), multilib build, preparations for netsurf eclass.
+
+  28 Feb 2013; Michael Weber <xmw@gentoo.org> librosprite-0.0.2.ebuild,
+  librosprite-9999.ebuild:
+  ebuild update
+
+*librosprite-0.0.2 (18 Jul 2012)
+
+  18 Jul 2012; Michael Weber <xmw@gentoo.org> +librosprite-0.0.2.ebuild,
+  -librosprite-0_pre20111015.ebuild:
+  Version bump to netsurf-2.9 tarball, drop old
+
+  18 Jul 2012; Michael Weber <xmw@gentoo.org> librosprite-0_pre20111015.ebuild,
+  librosprite-9999.ebuild:
+  add get_libdir
+
+*librosprite-0_pre20111015 (18 Jul 2012)
+*librosprite-9999 (18 Jul 2012)
+
+  18 Jul 2012; Michael Weber <xmw@gentoo.org> +librosprite-0_pre20111015.ebuild,
+  +librosprite-9999.ebuild, +metadata.xml:
+  Initial import

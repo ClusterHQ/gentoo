@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=>=media-libs/libsndfile-1.0.0 sys-libs/ncurses caps? ( sys-libs/libcap ) alsa? ( >=media-libs/alsa-lib-1.0.18 ) media-libs/libsamplerate !media-sound/jack-cvs virtual/pkgconfig doc? ( app-doc/doxygen )
+DESCRIPTION=A low-latency audio server
+EAPI=2
+HOMEPAGE=http://www.jackaudio.org
+IUSE=3dnow altivec alsa coreaudio doc debug examples mmx oss sse cpudetection pam
+KEYWORDS=~ppc-macos
+LICENSE=GPL-2 LGPL-2.1
+RDEPEND=>=media-libs/libsndfile-1.0.0 sys-libs/ncurses caps? ( sys-libs/libcap ) alsa? ( >=media-libs/alsa-lib-1.0.18 ) media-libs/libsamplerate !media-sound/jack-cvs alsa? ( sys-process/lsof ) pam? ( sys-auth/realtime-base )
+SLOT=0
+SRC_URI=http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.121.3.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=cf5c12e10f174ca38c2bb765600df600

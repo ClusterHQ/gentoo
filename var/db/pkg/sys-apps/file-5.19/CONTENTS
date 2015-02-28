@@ -1,0 +1,25 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/misc
+obj /home/core/gentoo/usr/share/misc/magic.mgc 31c90307a671ca7c50bf34f66b4782cd 1410959077
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/file.1.bz2 7ecdf171bdceb0b7553cd6336cffae89 1410959077
+dir /home/core/gentoo/usr/share/man/man5
+dir /home/core/gentoo/usr/share/man/man4
+obj /home/core/gentoo/usr/share/man/man4/magic.4.bz2 1bcdd74a6bd9a9a98d9438bb3fc5b600 1410959077
+dir /home/core/gentoo/usr/share/man/man3
+obj /home/core/gentoo/usr/share/man/man3/libmagic.3.bz2 a115b3638961c68e54601a890e26e96e 1410959077
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/file-5.19
+obj /home/core/gentoo/usr/share/doc/file-5.19/README.bz2 b4ce09336026a4c8c95b100380624931 1410959078
+obj /home/core/gentoo/usr/share/doc/file-5.19/MAINT.bz2 baf15f2406fd73dc7f880fdca80a96b1 1410959078
+obj /home/core/gentoo/usr/share/doc/file-5.19/ChangeLog.bz2 2bbfb75828e7996ad0aee0e1f102f652 1410959078
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/file 041c88f72b8194e3adda7eb3ffd8b686 1410959078
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/magic.h fe09abe5f6f09ff629318b251a09a4ac 1410959077
+dir /home/core/gentoo/usr/lib
+sym /home/core/gentoo/usr/lib/libmagic.so.1 -> libmagic.so.1.0.0 1410959155
+obj /home/core/gentoo/usr/lib/libmagic.so.1.0.0 d60978e50b4295ecc993b825b11402a1 1410959078
+sym /home/core/gentoo/usr/lib/libmagic.so -> libmagic.so.1.0.0 1410959155

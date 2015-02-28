@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/libxml2 dev-libs/libxslt dev-lang/perl
+DESCRIPTION=modern style C++ library that provides a simple and easy interface to libxml2
+HOMEPAGE=http://sourceforge.net/projects/xmlwrapp/
+IUSE=doc test
+KEYWORDS=alpha amd64 arm hppa ~ia64 ~mips ppc ~ppc64 ~s390 ~sh sparc x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND=dev-libs/libxml2 dev-libs/libxslt
+SLOT=0
+SRC_URI=mirror://sourceforge/xmlwrapp/xmlwrapp-0.5.0.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=451cb4fe9cddf91de902c6a002f2fcf5

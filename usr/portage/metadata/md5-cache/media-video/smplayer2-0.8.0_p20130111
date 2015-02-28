@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
+DEPEND=dev-qt/qtcore:4 dev-qt/qtgui:4 dbus? ( dev-qt/qtdbus:4 ) download-subs? ( dev-libs/quazip ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) >=sys-apps/sed-4
+DESCRIPTION=Qt4 GUI front-end for mplayer2
+EAPI=5
+HOMEPAGE=https://github.com/lachs0r/SMPlayer2
+IUSE=dbus debug +download-subs linguas_bg linguas_ca linguas_cs linguas_da linguas_de linguas_en_US linguas_es linguas_et linguas_eu linguas_fi linguas_fr linguas_gl linguas_hu linguas_it linguas_ja linguas_ka linguas_ko linguas_ku linguas_lt linguas_mk linguas_nl linguas_pl linguas_pt linguas_pt_BR linguas_sk linguas_sr linguas_sv linguas_tr linguas_zh_CN linguas_zh_TW linguas_ar linguas_el linguas_ro linguas_ru linguas_sl linguas_uk linguas_vi
+KEYWORDS=amd64 ~arm ~hppa x86
+LICENSE=GPL-2
+RDEPEND=dev-qt/qtcore:4 dev-qt/qtgui:4 dbus? ( dev-qt/qtdbus:4 ) download-subs? ( dev-libs/quazip ) >=media-video/mplayer2-2.0_p20121128[libass,png]
+SLOT=0
+SRC_URI=https://rion-overlay.googlecode.com/files/smplayer2-0.8.0_p20130111.tar.xz
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=5c758aaec74ec4d77f224f1735838cb8

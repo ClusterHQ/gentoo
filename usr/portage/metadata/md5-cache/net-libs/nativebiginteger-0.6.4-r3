@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install preinst prepare setup
+DEPEND=dev-libs/gmp >=virtual/jdk-1.4 !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 )
+DESCRIPTION=NativeBigInteger libs for Freenet taken from i2p
+EAPI=2
+HOMEPAGE=http://www.i2p2.de
+IUSE=elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( public-domain BSD MIT )
+RDEPEND=dev-libs/gmp !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 )
+SLOT=0
+SRC_URI=mirror://gentoo/nativebiginteger-0.6.4.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	java-pkg-2	65bbb59987d777c1106ae8aa4bf36e7b	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=8924238a97f4e953ede5d6215b7742c8

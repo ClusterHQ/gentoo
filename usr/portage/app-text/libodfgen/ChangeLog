@@ -1,0 +1,62 @@
+# ChangeLog for app-text/libodfgen
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-text/libodfgen/ChangeLog,v 1.13 2014/09/13 20:33:06 dilfridge Exp $
+
+*libodfgen-0.1.1 (13 Sep 2014)
+
+  13 Sep 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  +libodfgen-0.1.1.ebuild:
+  Version bump. Thanks to Andreas Sturmlechner.
+
+  13 Sep 2014; Andreas K. Huettel <dilfridge@gentoo.org>
+  -libodfgen-0.0.2.ebuild:
+  Remove old
+
+  29 Jun 2014; Agostino Sarubbo <ago@gentoo.org> libodfgen-0.0.4.ebuild:
+  Stable for x86, wrt bug #514886
+
+  25 May 2014; Mikle Kolyada <zlogene@gentoo.org> libodfgen-0.0.4.ebuild:
+  amd64 stable wrt bug #511144
+
+*libodfgen-0.0.4 (15 Dec 2013)
+
+  15 Dec 2013; Tomáš Chvátal <scarabeus@gentoo.org> +libodfgen-0.0.4.ebuild,
+  -libodfgen-0.0.3.ebuild:
+  Version bump to latest release with bugfixes only.
+
+  08 Nov 2013; Tomáš Chvátal <scarabeus@gentoo.org> libodfgen-0.0.3.ebuild:
+  Add missing dep.
+
+*libodfgen-0.0.3 (08 Nov 2013)
+
+  08 Nov 2013; Tomáš Chvátal <scarabeus@gentoo.org> +libodfgen-0.0.3.ebuild:
+  Version bump to 0.0.3
+
+  27 Oct 2013; Agostino Sarubbo <ago@gentoo.org> libodfgen-0.0.2.ebuild:
+  Stable for x86, wrt bug #486204
+
+  20 Oct 2013; Tony Vroon <chainsaw@gentoo.org> libodfgen-0.0.2.ebuild:
+  Marked stable on AMD64 based on arch testing by Elijah "Armageddon" El
+  Lazkani in bug #486204.
+
+*libodfgen-0.0.2 (23 May 2013)
+
+  23 May 2013; Tomáš Chvátal <scarabeus@gentoo.org> +libodfgen-0.0.2.ebuild,
+  -libodfgen-0.0.1.ebuild:
+  Version bump to latest.
+
+*libodfgen-0.0.1 (07 May 2013)
+
+  07 May 2013; Tomáš Chvátal <scarabeus@gentoo.org> +libodfgen-0.0.1.ebuild,
+  -libodfgen-0.0.0.ebuild:
+  Version bump to 0.0.1.
+
+  06 May 2013; Tomáš Chvátal <scarabeus@gentoo.org> libodfgen-0.0.0.ebuild:
+  Fix description.
+
+*libodfgen-0.0.0 (06 May 2013)
+
+  06 May 2013; Tomáš Chvátal <scarabeus@gentoo.org> +libodfgen-0.0.0.ebuild,
+  +metadata.xml:
+  Initial commit. Code split out libreoffice-core so keeping the same keywords
+  as libo.

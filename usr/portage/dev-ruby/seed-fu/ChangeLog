@@ -1,0 +1,17 @@
+# ChangeLog for dev-ruby/seed-fu
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/seed-fu/ChangeLog,v 1.3 2014/08/06 06:16:23 mrueg Exp $
+
+*seed-fu-2.3.3 (06 Aug 2014)
+
+  06 Aug 2014; Manuel Rüger <mrueg@gentoo.org> +seed-fu-2.3.3.ebuild:
+  Version bump.
+
+  02 Aug 2014; Manuel Rüger <mrueg@gentoo.org> seed-fu-2.2.0.ebuild:
+  Add ruby20 target.
+
+*seed-fu-2.2.0 (13 Dec 2013)
+
+  13 Dec 2013; Manuel Rüger <mrueg@gentoo.org> +metadata.xml,
+  +seed-fu-2.2.0.ebuild:
+  Import from dev-zero's overlay. Added small changes.

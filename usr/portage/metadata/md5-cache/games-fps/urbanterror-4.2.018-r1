@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare pretend setup unpack
+DEPEND=!dedicated? ( virtual/opengl curl? ( net-misc/curl ) openal? ( media-libs/openal ) sdl? ( media-libs/libsdl[X,sound,joystick,opengl,video] ) !sdl? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXxf86dga x11-libs/libXxf86vm ) vorbis? ( media-libs/libogg media-libs/libvorbis ) ) app-arch/unzip dedicated? ( curl? ( net-misc/curl ) ) >=sys-apps/sed-4
+DESCRIPTION=Hollywood tactical shooter based on the ioquake3 engine
+EAPI=5
+HOMEPAGE=http://www.urbanterror.info/home/
+IUSE=+curl debug dedicated openal +sdl server smp vorbis
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2 Q3AEULA-20000111 urbanterror-4.2-maps
+RDEPEND=!dedicated? ( virtual/opengl curl? ( net-misc/curl ) openal? ( media-libs/openal ) sdl? ( media-libs/libsdl[X,sound,joystick,opengl,video] ) !sdl? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXxf86dga x11-libs/libXxf86vm ) vorbis? ( media-libs/libogg media-libs/libvorbis ) )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://cdn.urbanterror.info/urt/42/zips/UrbanTerror42_full017.zip https://github.com/Barbatos/ioq3-for-UrbanTerror-4/archive/release-4.2.018.tar.gz -> urbanterror-4.2.018.tar.gz http://upload.wikimedia.org/wikipedia/en/5/56/Urbanterror.svg -> urbanterror.svg http://cdn.urbanterror.info/urt/42/zips/UrbanTerror-4.2.017-to-4.2.018.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	check-reqs	a7f404bfb16e0a996700c5d3ac4edad3	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=809117d41a17a9da67fe7cbdd851fcd7

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<herd>proxy-maintainers</herd>
+<maintainer>
+	<email>arfrever.fta@gmail.com</email>
+	<description>Proxy maintainer</description>
+</maintainer>
+<use>
+  <flag name='secure-delete'>Overwrite deleted information with zeros in addition to marking the space as available for reuse. This causes a performance penalty.</flag>
+</use>
+<upstream>
+  <remote-id type="cpe">cpe:/a:sqlite:sqlite</remote-id>
+</upstream>
+</pkgmetadata>

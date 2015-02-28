@@ -1,0 +1,20 @@
+# ChangeLog for app-i18n/pyzy
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-i18n/pyzy/ChangeLog,v 1.4 2014/01/17 07:02:15 dlan Exp $
+
+  17 Jan 2014; Yixun Lan <dlan@gentoo.org> metadata.xml:
+  update maintainer email
+
+  06 Mar 2013; Naohiro Aota <naota@gentoo.org> metadata.xml:
+  Add proxy-mainters herd
+
+  03 Mar 2013; Naohiro Aota <naota@gentoo.org> metadata.xml:
+  Set proxy maintainership
+
+*pyzy-0.1.0 (01 Mar 2013)
+
+  01 Mar 2013; Naohiro Aota <naota@gentoo.org>
+  +files/pyzy-dont-download-dictionary-file.patch, +metadata.xml,
+  +pyzy-0.1.0.ebuild:
+  New package app-i18n/pyzy. Written by  Dennis 'dlan' Lan
+  <dennis.yxun@gmail.com>

@@ -1,0 +1,11 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/eselect
+dir /home/core/gentoo/usr/share/eselect/modules
+obj /home/core/gentoo/usr/share/eselect/modules/python.eselect 7f0fc0a56eadf2e0bd42f9b52cb94313 1410959166
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/python-wrapper 6d01cf801837f551126af1e011f923fc 1410959166
+dir /home/core/gentoo/etc
+dir /home/core/gentoo/etc/env.d
+dir /home/core/gentoo/etc/env.d/python
+obj /home/core/gentoo/etc/env.d/python/.keep_app-admin_eselect-python-0 d41d8cd98f00b204e9800998ecf8427e 1410959166

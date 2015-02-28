@@ -1,0 +1,1 @@
+>=virtual/perl-CPAN-Meta-Requirements-2.121.0 >=virtual/perl-CPAN-Meta-YAML-0.8.0 >=virtual/perl-JSON-PP-2.272.0 >=virtual/perl-Parse-CPAN-Meta-1.440.300 virtual/perl-Scalar-List-Utils >=virtual/perl-version-0.82 dev-lang/perl:0/5.18=[-build(-)]

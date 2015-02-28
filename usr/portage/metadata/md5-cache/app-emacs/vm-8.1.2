@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=bbdb? ( app-emacs/bbdb ) >=virtual/emacs-23
+DESCRIPTION=The VM mail reader for Emacs
+EAPI=4
+HOMEPAGE=http://www.nongnu.org/viewmail/
+IUSE=bbdb ssl
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2+
+RDEPEND=!app-emacs/u-vm-color bbdb? ( app-emacs/bbdb ) ssl? ( net-misc/stunnel ) >=virtual/emacs-23
+SLOT=0
+SRC_URI=http://launchpad.net/vm/8.1.x/8.1.2/+download/vm-8.1.2.tgz
+_eclasses_=elisp	b7ff113c97bf466ace6f3235f80af600	elisp-common	1aa23b3de5dae55456fa2071428eb5bf	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=fb61902204c42591ae6e355b1a179211

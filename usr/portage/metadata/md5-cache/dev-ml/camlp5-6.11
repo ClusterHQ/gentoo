@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=>=dev-lang/ocaml-3.10:=[ocamlopt?] >=dev-ml/findlib-1.0.4-r1
+DESCRIPTION=A preprocessor-pretty-printer of ocaml
+EAPI=5
+HOMEPAGE=http://pauillac.inria.fr/~ddr/camlp5/
+IUSE=doc +ocamlopt
+KEYWORDS=amd64 ppc x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND=>=dev-lang/ocaml-3.10:=[ocamlopt?]
+SLOT=0/6.11
+SRC_URI=http://pauillac.inria.fr/~ddr/camlp5/distrib/src/camlp5-6.11.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	findlib	9cf6020ee5481f39f1aa566a323f9868	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e0c8623ae0378d7a15ef7089719a8e06

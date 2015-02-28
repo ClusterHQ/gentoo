@@ -1,0 +1,1 @@
+/home/core/gentoo/usr/libexec/zfs/zed.d/resilver.finish-email.sh

@@ -1,0 +1,31 @@
+# ChangeLog for dev-ruby/bson
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/bson/ChangeLog,v 1.14 2014/08/13 02:08:03 mrueg Exp $
+
+  13 Aug 2014; Manuel Rüger <mrueg@gentoo.org> bson-1.6.2-r1.ebuild:
+  Add ruby21 target.
+
+*bson-2.3.0 (16 Jun 2014)
+
+  16 Jun 2014; Hans de Graaff <graaff@gentoo.org> -bson-2.2.4.ebuild,
+  +bson-2.3.0.ebuild:
+  Version bump with fixed SRC_URI. Remove old version with SRC_URI without
+  arrow.
+
+  16 Jun 2014; Hans de Graaff <graaff@gentoo.org> -bson-2.0.0.ebuild:
+  Cleanup.
+
+*bson-2.2.4 (01 Jun 2014)
+
+  01 Jun 2014; Hans de Graaff <graaff@gentoo.org> +bson-2.2.4.ebuild:
+  Version bump.
+
+  26 May 2014; Manuel Rüger <mrueg@gentoo.org> bson-1.6.2-r1.ebuild,
+  bson-2.0.0.ebuild:
+  Remove ruby18 target.
+
+*bson-2.0.0 (25 Dec 2013)
+
+  25 Dec 2013; Hans de Graaff <graaff@gentoo.org> +bson-2.0.0.ebuild:
+  Version bump. Upstream now releases one gem with the compiled extension
+  included.

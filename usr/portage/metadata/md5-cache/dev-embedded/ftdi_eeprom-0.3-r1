@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=dev-embedded/libftdi dev-libs/confuse
+DESCRIPTION=Utility to program external EEPROM for FTDI USB chips
+EAPI=4
+HOMEPAGE=http://www.intra2net.com/en/developer/libftdi/
+KEYWORDS=amd64 x86
+LICENSE=LGPL-2
+RDEPEND=dev-embedded/libftdi dev-libs/confuse
+SLOT=0
+SRC_URI=http://www.intra2net.com/en/developer/libftdi/download/ftdi_eeprom-0.3.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c0835d19a9b363132e183d7a5aecd756

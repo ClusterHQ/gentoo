@@ -1,0 +1,1 @@
+=sys-kernel/spl-0.6.3* dev-lang/perl virtual/awk virtual/modutils sys-apps/sed virtual/linux-sources !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

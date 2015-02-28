@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst setup
+DEPEND=>=dev-libs/protobuf-c-0.14 dev-libs/libconfig polarssl? ( >=net-libs/polarssl-1.0.0 ) !polarssl? ( dev-libs/openssl:0 ) virtual/pkgconfig
+DESCRIPTION=Minimalistic Murmur (Mumble server)
+EAPI=5
+HOMEPAGE=http://code.google.com/p/umurmur/
+IUSE=polarssl
+KEYWORDS=amd64 ~arm x86
+LICENSE=BSD
+RDEPEND=>=dev-libs/protobuf-c-0.14 dev-libs/libconfig polarssl? ( >=net-libs/polarssl-1.0.0 ) !polarssl? ( dev-libs/openssl:0 )
+SLOT=0
+SRC_URI=http://umurmur.googlecode.com/files/umurmur-0.2.14.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	readme.gentoo	106edea5533517715013de909a333abd	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=b545837a08515f106e73f09204c12815

@@ -1,0 +1,2363 @@
+------------------------------------------------------------------------
+r3203 | vapier | 2012-05-17 00:21:08 -0400 (Thu, 17 May 2012) | 1 line
+
+add /etc/os-release #388597 by Michał Górny
+------------------------------------------------------------------------
+r3202 | vapier | 2012-05-06 20:04:10 -0400 (Sun, 06 May 2012) | 1 line
+
+kerneli.org no longer exists, and the crypto core is now in the mainline tree
+------------------------------------------------------------------------
+r3201 | vapier | 2011-10-04 00:20:57 -0400 (Tue, 04 Oct 2011) | 1 line
+
+restore /var/lock and /var/run for BSD, and move /run and /run/lock into Linux-specific logic
+------------------------------------------------------------------------
+r3200 | vapier | 2011-09-30 15:49:52 -0400 (Fri, 30 Sep 2011) | 1 line
+
+symlink /var/run to /run and /var/lock to /run/lock
+------------------------------------------------------------------------
+r3199 | vapier | 2011-09-29 15:14:49 -0400 (Thu, 29 Sep 2011) | 1 line
+
+dynamic management of libdir paths is moving to ebuilds
+------------------------------------------------------------------------
+r3198 | vapier | 2011-09-29 15:10:31 -0400 (Thu, 29 Sep 2011) | 1 line
+
+drop unused LIB var
+------------------------------------------------------------------------
+r3197 | vapier | 2011-09-28 00:13:57 -0400 (Wed, 28 Sep 2011) | 1 line
+
+make sure /var/lock is g+w #377251 by Malte Starostik
+------------------------------------------------------------------------
+r3196 | vapier | 2011-07-03 02:47:05 -0400 (Sun, 03 Jul 2011) | 1 line
+
+profile: drop unnecessary `type` checking
+------------------------------------------------------------------------
+r3195 | vapier | 2011-06-26 23:34:09 -0400 (Sun, 26 Jun 2011) | 1 line
+
+drop unused BASE_DIRS logic
+------------------------------------------------------------------------
+r3194 | williamh | 2011-06-21 12:03:48 -0400 (Tue, 21 Jun 2011) | 3 lines
+
+Install the /run directory for bug #361349.
+This is needed for at least dracut, systemd and udev.
+
+------------------------------------------------------------------------
+r3193 | vapier | 2011-06-18 00:00:57 -0400 (Sat, 18 Jun 2011) | 1 line
+
+drop CVS_RSH now that it has been moved to dev-vcs/cvs #296823
+------------------------------------------------------------------------
+r3192 | vapier | 2011-06-17 23:51:18 -0400 (Fri, 17 Jun 2011) | 1 line
+
+use shorter bug url
+------------------------------------------------------------------------
+r3191 | vapier | 2011-06-17 23:44:10 -0400 (Fri, 17 Jun 2011) | 1 line
+
+install more skel dirs as required by fhs and our general usage
+------------------------------------------------------------------------
+r3190 | vapier | 2011-06-17 23:37:40 -0400 (Fri, 17 Jun 2011) | 1 line
+
+drop /usr/local/share/{doc,man} ... if packages use these dirs, they can create as they install, otherwise not much point to having empty ones
+------------------------------------------------------------------------
+r3189 | vapier | 2011-06-17 23:31:48 -0400 (Fri, 17 Jun 2011) | 1 line
+
+remove useless "|| exit" logic -- make itself will automatically exit upon failure
+------------------------------------------------------------------------
+r3188 | vapier | 2011-06-17 23:30:33 -0400 (Fri, 17 Jun 2011) | 1 line
+
+flatten dir list to make reading easier
+------------------------------------------------------------------------
+r3187 | vapier | 2011-06-17 23:23:16 -0400 (Fri, 17 Jun 2011) | 1 line
+
+update copyright for fun
+------------------------------------------------------------------------
+r3186 | vapier | 2011-03-18 16:44:31 -0400 (Fri, 18 Mar 2011) | 1 line
+
+auto generate ChangeLog
+------------------------------------------------------------------------
+r3181 | vapier | 2010-11-15 04:15:04 -0500 (Mon, 15 Nov 2010) | 1 line
+
+drop "games" user from "users" group since we dont have a "games" user by default, nor does it really need to be in the "users" group #345209
+------------------------------------------------------------------------
+r3173 | vapier | 2010-02-14 12:28:40 -0500 (Sun, 14 Feb 2010) | 1 line
+
+unify duplicate inputrc entries #303691 by Fabio Rossi
+------------------------------------------------------------------------
+r3172 | vapier | 2010-02-05 20:32:03 -0500 (Fri, 05 Feb 2010) | 1 line
+
+ignore touch failures when doing layout on live fs #232823
+------------------------------------------------------------------------
+r3171 | vapier | 2010-01-24 15:32:16 -0500 (Sun, 24 Jan 2010) | 1 line
+
+sync shadow/passwd files #301949 by Paweł Hajdan
+------------------------------------------------------------------------
+r3141 | vapier | 2009-06-26 12:31:53 -0400 (Fri, 26 Jun 2009) | 1 line
+
+import sqlexec ports for #267811
+------------------------------------------------------------------------
+r3140 | vapier | 2009-06-20 08:33:38 -0400 (Sat, 20 Jun 2009) | 1 line
+
+pull updates from iana (including sep->dccp fix #273733 by Alexander Dubov)
+------------------------------------------------------------------------
+r3139 | vapier | 2009-05-24 15:43:29 -0400 (Sun, 24 May 2009) | 1 line
+
+tweak ChangeLog sed statement to only grab first ver
+------------------------------------------------------------------------
+r3138 | vapier | 2009-05-24 15:41:44 -0400 (Sun, 24 May 2009) | 1 line
+
+update changelog
+------------------------------------------------------------------------
+r3137 | vapier | 2009-05-24 15:39:14 -0400 (Sun, 24 May 2009) | 1 line
+
+export to local tree for distsvn
+------------------------------------------------------------------------
+r3135 | vapier | 2009-05-06 12:14:48 -0400 (Wed, 06 May 2009) | 1 line
+
+rename to make modprobe happy
+------------------------------------------------------------------------
+r3128 | vapier | 2008-10-25 22:22:12 -0400 (Sat, 25 Oct 2008) | 1 line
+
+add missing ) to comment #241430 by Maryasin Semen
+------------------------------------------------------------------------
+r3126 | vapier | 2008-04-15 10:30:10 -0400 (Tue, 15 Apr 2008) | 1 line
+
+give hints at overriding default EDITOR/PAGER
+------------------------------------------------------------------------
+r3115 | vapier | 2008-03-22 21:40:55 -0400 (Sat, 22 Mar 2008) | 1 line
+
+simply the build system greatly
+------------------------------------------------------------------------
+r3114 | vapier | 2008-03-22 21:18:15 -0400 (Sat, 22 Mar 2008) | 1 line
+
+modules.d -> modprobe.d
+------------------------------------------------------------------------
+r3113 | vapier | 2008-03-22 21:17:14 -0400 (Sat, 22 Mar 2008) | 1 line
+
+modules.d -> modprobe.d
+------------------------------------------------------------------------
+r3112 | vapier | 2008-03-22 21:16:58 -0400 (Sat, 22 Mar 2008) | 1 line
+
+cleanup dist targets
+------------------------------------------------------------------------
+r3111 | vapier | 2008-03-22 20:55:42 -0400 (Sat, 22 Mar 2008) | 1 line
+
+merge updates from baselayout-1.12.x
+------------------------------------------------------------------------
+r3110 | vapier | 2008-03-22 20:35:59 -0400 (Sat, 22 Mar 2008) | 1 line
+
+finish merging openrc changes
+------------------------------------------------------------------------
+r3109 | vapier | 2008-03-22 20:28:02 -0400 (Sat, 22 Mar 2008) | 1 line
+
+punt things moved to openrc
+------------------------------------------------------------------------
+r3097 | vapier | 2008-01-08 14:27:49 -0500 (Tue, 08 Jan 2008) | 1 line
+
+add transition notice
+------------------------------------------------------------------------
+r3094 | vapier | 2007-11-14 03:06:11 -0500 (Wed, 14 Nov 2007) | 1 line
+
+set homedir of uucp to /var/spool/uucp
+------------------------------------------------------------------------
+r3093 | vapier | 2007-11-14 02:58:02 -0500 (Wed, 14 Nov 2007) | 1 line
+
+Move mail user/group and postmaster user to the mailbase package.
+------------------------------------------------------------------------
+r3092 | solar | 2007-11-04 05:13:48 -0500 (Sun, 04 Nov 2007) | 1 line
+
+initialize s
+------------------------------------------------------------------------
+r3091 | uberlord | 2007-11-02 13:03:29 -0400 (Fri, 02 Nov 2007) | 1 line
+
+Fix up display for tab delimited foo
+------------------------------------------------------------------------
+r3090 | uberlord | 2007-11-02 11:24:45 -0400 (Fri, 02 Nov 2007) | 1 line
+
+Fix example
+------------------------------------------------------------------------
+r3089 | uberlord | 2007-11-02 07:02:07 -0400 (Fri, 02 Nov 2007) | 1 line
+
+Fix ppp config, #197775.
+------------------------------------------------------------------------
+r3088 | uberlord | 2007-11-02 06:07:10 -0400 (Fri, 02 Nov 2007) | 1 line
+
+Fix an ifconfig calculation for shells that don't support the newer POSIX shell math expansion, #197856.
+------------------------------------------------------------------------
+r3087 | uberlord | 2007-11-02 03:26:51 -0400 (Fri, 02 Nov 2007) | 1 line
+
+Fixor IP comment and logic thanks to vapier
+------------------------------------------------------------------------
+r3086 | uberlord | 2007-11-01 18:25:53 -0400 (Thu, 01 Nov 2007) | 1 line
+
+Work cleanly with bridges on kernels without TCP, #197791.
+------------------------------------------------------------------------
+r3085 | uberlord | 2007-11-01 14:30:14 -0400 (Thu, 01 Nov 2007) | 1 line
+
+Fix rmnlogin for parallel startup
+------------------------------------------------------------------------
+r3084 | uberlord | 2007-11-01 14:15:30 -0400 (Thu, 01 Nov 2007) | 1 line
+
+Fix fallback, #197788.
+------------------------------------------------------------------------
+r3083 | uberlord | 2007-11-01 11:53:52 -0400 (Thu, 01 Nov 2007) | 1 line
+
+Fix some more, #180888.
+------------------------------------------------------------------------
+r3082 | uberlord | 2007-11-01 08:08:27 -0400 (Thu, 01 Nov 2007) | 1 line
+
+Document mdev
+------------------------------------------------------------------------
+r3081 | uberlord | 2007-10-31 18:56:53 -0400 (Wed, 31 Oct 2007) | 1 line
+
+Release rc6
+------------------------------------------------------------------------
+r3080 | uberlord | 2007-10-31 18:34:26 -0400 (Wed, 31 Oct 2007) | 1 line
+
+Fix starting state and clean some whitespace
+------------------------------------------------------------------------
+r3079 | uberlord | 2007-10-31 18:12:39 -0400 (Wed, 31 Oct 2007) | 1 line
+
+whitespace
+------------------------------------------------------------------------
+r3078 | uberlord | 2007-10-31 11:46:56 -0400 (Wed, 31 Oct 2007) | 6 lines
+
+You can now log baselayout-2 again, through the RC_LOGGER conf.d/rc
+setting. The log is temp stored in /lib/rc/init.d/rc.log and appended
+to /var/log/rc.log if it's writeable. sysinit cannot be logged in Linux
+as we rely on sysinit to bring the system up to a point where we can log.
+single user cannot be logged on FreeBSD due to waitpid(0,0,0) incorrectly
+waiting for the log daemon in another process group.
+------------------------------------------------------------------------
+r3077 | uberlord | 2007-10-30 09:17:27 -0400 (Tue, 30 Oct 2007) | 1 line
+
+Use default IFS here
+------------------------------------------------------------------------
+r3076 | uberlord | 2007-10-30 09:08:29 -0400 (Tue, 30 Oct 2007) | 1 line
+
+Fix vconfig and remove debug
+------------------------------------------------------------------------
+r3075 | uberlord | 2007-10-30 07:39:19 -0400 (Tue, 30 Oct 2007) | 1 line
+
+You can now spoof the source address for arping as the third parameter in gateways_eth0 if you have arping2 installed, #180888.
+------------------------------------------------------------------------
+r3074 | uberlord | 2007-10-30 07:38:46 -0400 (Tue, 30 Oct 2007) | 1 line
+
+Embed newlines in __IFS to save our identing
+------------------------------------------------------------------------
+r3073 | uberlord | 2007-10-30 07:38:23 -0400 (Tue, 30 Oct 2007) | 1 line
+
+Embed newlines in __IFS to save our identing
+------------------------------------------------------------------------
+r3072 | uberlord | 2007-10-30 07:37:49 -0400 (Tue, 30 Oct 2007) | 1 line
+
+Embed newlines in __IFS to save our identing
+------------------------------------------------------------------------
+r3070 | uberlord | 2007-10-29 12:02:18 -0400 (Mon, 29 Oct 2007) | 1 line
+
+rc --override foo will override the runlevel to load after boot or single user runlevels to avoid rc recursion, #196338
+------------------------------------------------------------------------
+r3069 | uberlord | 2007-10-29 09:58:40 -0400 (Mon, 29 Oct 2007) | 1 line
+
+Do an exact match on tmpfs
+------------------------------------------------------------------------
+r3068 | uberlord | 2007-10-29 09:53:21 -0400 (Mon, 29 Oct 2007) | 1 line
+
+/etc/mtab is now a true reflection on /proc/mounts. The only exception is that we punt any / on tmpfs entry, #194615.
+------------------------------------------------------------------------
+r3067 | uberlord | 2007-10-29 05:45:49 -0400 (Mon, 29 Oct 2007) | 1 line
+
+Network config arrays are now split by embedded new lines instead of being evaled into space separated values. This makes it easier to read, maintain and document as discussed on gentoo-dev.
+------------------------------------------------------------------------
+r3065 | uberlord | 2007-10-27 05:53:56 -0400 (Sat, 27 Oct 2007) | 1 line
+
+Indent fixes
+------------------------------------------------------------------------
+r3064 | uberlord | 2007-10-26 08:22:26 -0400 (Fri, 26 Oct 2007) | 1 line
+
+Fix the restarting of services depending on the script you're restarting
+------------------------------------------------------------------------
+r3063 | uberlord | 2007-10-25 05:11:18 -0400 (Thu, 25 Oct 2007) | 1 line
+
+Format the script correctly, and fix ssids with spaces in hopefully once and for all
+------------------------------------------------------------------------
+r3062 | uberlord | 2007-10-25 02:41:29 -0400 (Thu, 25 Oct 2007) | 1 line
+
+Fix BSD wireless script
+------------------------------------------------------------------------
+r3061 | uberlord | 2007-10-24 04:50:14 -0400 (Wed, 24 Oct 2007) | 1 line
+
+Advise not syncing time when running ntp daemons
+------------------------------------------------------------------------
+r3060 | uberlord | 2007-10-24 03:26:05 -0400 (Wed, 24 Oct 2007) | 1 line
+
+Simply the clock script even more. This makes us very similar to Debians now
+------------------------------------------------------------------------
+r3059 | uberlord | 2007-10-23 18:49:21 -0400 (Tue, 23 Oct 2007) | 1 line
+
+clock init script now works with busybox.
+------------------------------------------------------------------------
+r3058 | uberlord | 2007-10-23 17:00:56 -0400 (Tue, 23 Oct 2007) | 1 line
+
+Update ignore list
+------------------------------------------------------------------------
+r3057 | uberlord | 2007-10-23 16:48:06 -0400 (Tue, 23 Oct 2007) | 1 line
+
+Use -D_BSD_SOURCE -D_XOPEN_SOURCE=500 in place of -D_GNU_SOURCE
+------------------------------------------------------------------------
+r3056 | uberlord | 2007-10-23 16:43:45 -0400 (Tue, 23 Oct 2007) | 1 line
+
+Stop using asprintf
+------------------------------------------------------------------------
+r3055 | uberlord | 2007-10-23 16:00:08 -0400 (Tue, 23 Oct 2007) | 1 line
+
+clock init script now handles /etc/adjtime correctly. CLOCK_ADJTIME hinted that it could change the location of /etc/adjtime. This is not the case.
+------------------------------------------------------------------------
+r3054 | uberlord | 2007-10-23 11:23:10 -0400 (Tue, 23 Oct 2007) | 1 line
+
+interupt -> interrupt
+------------------------------------------------------------------------
+r3053 | uberlord | 2007-10-23 06:06:15 -0400 (Tue, 23 Oct 2007) | 1 line
+
+We can still update deptree if needed services are missing
+------------------------------------------------------------------------
+r3052 | uberlord | 2007-10-23 06:05:47 -0400 (Tue, 23 Oct 2007) | 1 line
+
+Fix tmp cleaning
+------------------------------------------------------------------------
+r3051 | uberlord | 2007-10-23 05:05:19 -0400 (Tue, 23 Oct 2007) | 1 line
+
+Allow half a second for a working pidfile to be created and a tenth of a second for a daemon to bail.
+------------------------------------------------------------------------
+r3050 | uberlord | 2007-10-22 16:24:00 -0400 (Mon, 22 Oct 2007) | 1 line
+
+Fix init.sh for shm again
+------------------------------------------------------------------------
+r3049 | uberlord | 2007-10-22 15:33:42 -0400 (Mon, 22 Oct 2007) | 1 line
+
+Wait for plugins to finish before moving on.
+------------------------------------------------------------------------
+r3048 | uberlord | 2007-10-22 12:28:38 -0400 (Mon, 22 Oct 2007) | 1 line
+
+When getting an ecolor, we should check that stdout is a tty
+------------------------------------------------------------------------
+r3047 | uberlord | 2007-10-22 12:19:12 -0400 (Mon, 22 Oct 2007) | 1 line
+
+whitespace
+------------------------------------------------------------------------
+r3046 | uberlord | 2007-10-19 02:57:41 -0400 (Fri, 19 Oct 2007) | 1 line
+
+Mount /dev/shm for Linux systems, even not when in /etc/fstab, #196345.
+------------------------------------------------------------------------
+r3045 | uberlord | 2007-10-18 08:44:40 -0400 (Thu, 18 Oct 2007) | 1 line
+
+Punt the voumns config file
+------------------------------------------------------------------------
+r3044 | uberlord | 2007-10-17 17:33:23 -0400 (Wed, 17 Oct 2007) | 1 line
+
+Fix old examples
+------------------------------------------------------------------------
+r3043 | uberlord | 2007-10-16 09:49:00 -0400 (Tue, 16 Oct 2007) | 1 line
+
+We now build and optionally work with static libraries.
+------------------------------------------------------------------------
+r3042 | uberlord | 2007-10-15 12:17:33 -0400 (Mon, 15 Oct 2007) | 1 line
+
+Update dependencies if we're allowed too
+------------------------------------------------------------------------
+r3041 | uberlord | 2007-10-15 12:03:49 -0400 (Mon, 15 Oct 2007) | 1 line
+
+This is probably better
+------------------------------------------------------------------------
+r3040 | uberlord | 2007-10-15 10:40:53 -0400 (Mon, 15 Oct 2007) | 1 line
+
+const correctness
+------------------------------------------------------------------------
+r3039 | uberlord | 2007-10-15 07:20:27 -0400 (Mon, 15 Oct 2007) | 1 line
+
+Add trace to depopts
+------------------------------------------------------------------------
+r3038 | uberlord | 2007-10-15 07:17:57 -0400 (Mon, 15 Oct 2007) | 1 line
+
+rc-status now orders services in start order, #195630
+------------------------------------------------------------------------
+r3037 | uberlord | 2007-10-12 06:09:04 -0400 (Fri, 12 Oct 2007) | 1 line
+
+Add link-local
+------------------------------------------------------------------------
+r3036 | uberlord | 2007-10-11 20:01:33 -0400 (Thu, 11 Oct 2007) | 1 line
+
+malloc over fatty buffers
+------------------------------------------------------------------------
+r3035 | uberlord | 2007-10-11 19:17:53 -0400 (Thu, 11 Oct 2007) | 1 line
+
+malloc data size, not pointer size
+------------------------------------------------------------------------
+r3034 | uberlord | 2007-10-11 15:24:53 -0400 (Thu, 11 Oct 2007) | 1 line
+
+net.eth0 and net.eth1 makes no sense, thanks to Marc Blumentritt
+------------------------------------------------------------------------
+r3033 | uberlord | 2007-10-11 11:39:08 -0400 (Thu, 11 Oct 2007) | 1 line
+
+Release rc5
+------------------------------------------------------------------------
+r3032 | uberlord | 2007-10-11 11:14:55 -0400 (Thu, 11 Oct 2007) | 1 line
+
+Only update mtab if /proc/mounts exists
+------------------------------------------------------------------------
+r3031 | uberlord | 2007-10-11 11:05:02 -0400 (Thu, 11 Oct 2007) | 1 line
+
+Bump librc and libeinfo to .so.1
+------------------------------------------------------------------------
+r3030 | uberlord | 2007-10-11 11:04:07 -0400 (Thu, 11 Oct 2007) | 1 line
+
+Fix checkroot and give info about mtab
+------------------------------------------------------------------------
+r3029 | uberlord | 2007-10-11 10:00:56 -0400 (Thu, 11 Oct 2007) | 1 line
+
+Yoiks, that comma shouldn't be there.
+------------------------------------------------------------------------
+r3028 | uberlord | 2007-10-11 09:56:38 -0400 (Thu, 11 Oct 2007) | 1 line
+
+No need for that include
+------------------------------------------------------------------------
+r3027 | uberlord | 2007-10-11 06:11:12 -0400 (Thu, 11 Oct 2007) | 1 line
+
+Fix deleting items from string lists.
+------------------------------------------------------------------------
+r3026 | uberlord | 2007-10-11 05:49:54 -0400 (Thu, 11 Oct 2007) | 1 line
+
+If / block device as in /etc/fstab does not exist, use /dev/root if it's available in checkroot, #171593.
+------------------------------------------------------------------------
+r3025 | uberlord | 2007-10-10 09:49:52 -0400 (Wed, 10 Oct 2007) | 1 line
+
+Fix rc.map
+------------------------------------------------------------------------
+r3024 | uberlord | 2007-10-10 09:11:35 -0400 (Wed, 10 Oct 2007) | 1 line
+
+rc_deptree_order_services -> rc_deptree_order
+------------------------------------------------------------------------
+r3023 | uberlord | 2007-10-10 07:55:55 -0400 (Wed, 10 Oct 2007) | 1 line
+
+Give more time to daemons
+------------------------------------------------------------------------
+r3022 | uberlord | 2007-10-10 02:24:08 -0400 (Wed, 10 Oct 2007) | 1 line
+
+Don't run the done hook twice
+------------------------------------------------------------------------
+r3021 | uberlord | 2007-10-09 17:20:10 -0400 (Tue, 09 Oct 2007) | 1 line
+
+We should only have one block of code that restores state
+------------------------------------------------------------------------
+r3020 | uberlord | 2007-10-09 17:13:08 -0400 (Tue, 09 Oct 2007) | 1 line
+
+Fix failed services a little, and make timeout more sane
+------------------------------------------------------------------------
+r3019 | uberlord | 2007-10-09 17:10:53 -0400 (Tue, 09 Oct 2007) | 1 line
+
+Always remount root rw if it's not
+------------------------------------------------------------------------
+r3018 | uberlord | 2007-10-09 13:41:53 -0400 (Tue, 09 Oct 2007) | 1 line
+
+Improve applet help a little. Also, if mountinfo as any mounts given, work explictly with --netdev/--nonetdev
+------------------------------------------------------------------------
+r3017 | uberlord | 2007-10-09 11:47:25 -0400 (Tue, 09 Oct 2007) | 1 line
+
+Foo, should be a mask
+------------------------------------------------------------------------
+r3016 | uberlord | 2007-10-09 11:44:22 -0400 (Tue, 09 Oct 2007) | 1 line
+
+Ensure that runscript returns 0 when service is started
+------------------------------------------------------------------------
+r3015 | uberlord | 2007-10-09 11:33:05 -0400 (Tue, 09 Oct 2007) | 1 line
+
+netmount, localmount, halt.sh and net scripts now check OS specific flags to see if a mount is network mounted (linux = fstab, *bsd = "local" in mount options) or not, #192772.
+------------------------------------------------------------------------
+r3014 | uberlord | 2007-10-09 08:52:09 -0400 (Tue, 09 Oct 2007) | 1 line
+
+Quiet some compile time warnings on uclibc
+------------------------------------------------------------------------
+r3013 | uberlord | 2007-10-09 06:18:13 -0400 (Tue, 09 Oct 2007) | 1 line
+
+Fix help
+------------------------------------------------------------------------
+r3012 | uberlord | 2007-10-09 05:56:45 -0400 (Tue, 09 Oct 2007) | 1 line
+
+txqueuelen_eth0= now works, #190538.
+------------------------------------------------------------------------
+r3011 | uberlord | 2007-10-09 05:25:32 -0400 (Tue, 09 Oct 2007) | 1 line
+
+Tidy up
+------------------------------------------------------------------------
+r3010 | uberlord | 2007-10-08 08:46:14 -0400 (Mon, 08 Oct 2007) | 1 line
+
+Don't stop reading dir contents on errors
+------------------------------------------------------------------------
+r3009 | uberlord | 2007-10-08 07:16:22 -0400 (Mon, 08 Oct 2007) | 1 line
+
+Wups, should be xstrdup
+------------------------------------------------------------------------
+r3008 | uberlord | 2007-10-08 07:11:21 -0400 (Mon, 08 Oct 2007) | 1 line
+
+Punt rc_ from xstrdup, xalloc, xrealloc and exists as they're not in librc anymore
+------------------------------------------------------------------------
+r3007 | uberlord | 2007-10-08 07:07:39 -0400 (Mon, 08 Oct 2007) | 1 line
+
+Move rc_env_filter and rc_env_config out of librc and into rc
+------------------------------------------------------------------------
+r3006 | uberlord | 2007-10-05 10:15:06 -0400 (Fri, 05 Oct 2007) | 1 line
+
+Don't unmount stuff in /dev or /sys
+------------------------------------------------------------------------
+r3005 | uberlord | 2007-10-05 09:37:57 -0400 (Fri, 05 Oct 2007) | 1 line
+
+Don't umount anything in /sys like we do for /proc and /dev
+------------------------------------------------------------------------
+r3004 | uberlord | 2007-10-05 08:04:19 -0400 (Fri, 05 Oct 2007) | 1 line
+
+rc doesn't and shouldn't use libkvm
+------------------------------------------------------------------------
+r3003 | uberlord | 2007-10-05 08:00:18 -0400 (Fri, 05 Oct 2007) | 1 line
+
+Don't bother holding the old errno
+------------------------------------------------------------------------
+r3002 | uberlord | 2007-10-05 07:31:17 -0400 (Fri, 05 Oct 2007) | 1 line
+
+Fix a few errors with the last few commits
+------------------------------------------------------------------------
+r3001 | uberlord | 2007-10-05 07:04:49 -0400 (Fri, 05 Oct 2007) | 1 line
+
+Punt rc_waitpid
+------------------------------------------------------------------------
+r3000 | uberlord | 2007-10-05 06:36:53 -0400 (Fri, 05 Oct 2007) | 1 line
+
+Punt rc_rm_dir
+------------------------------------------------------------------------
+r2999 | uberlord | 2007-10-05 06:16:14 -0400 (Fri, 05 Oct 2007) | 1 line
+
+Punt rc_ls_dir
+------------------------------------------------------------------------
+r2998 | uberlord | 2007-10-04 15:49:12 -0400 (Thu, 04 Oct 2007) | 1 line
+
+rc_service_daemon_set now returns bool
+------------------------------------------------------------------------
+r2997 | uberlord | 2007-10-04 15:43:01 -0400 (Thu, 04 Oct 2007) | 1 line
+
+rc_service_schedule_clear returns a bool on error now
+------------------------------------------------------------------------
+r2996 | uberlord | 2007-10-04 13:26:57 -0400 (Thu, 04 Oct 2007) | 1 line
+
+inline rc_xmalloc, rc_xrealloc and rc_xstrdup so that the library doesn't expose them.
+------------------------------------------------------------------------
+r2995 | uberlord | 2007-10-04 13:02:44 -0400 (Thu, 04 Oct 2007) | 1 line
+
+LS_DIRS -> LS_DIR
+------------------------------------------------------------------------
+r2994 | uberlord | 2007-10-04 13:00:56 -0400 (Thu, 04 Oct 2007) | 1 line
+
+Punt rc_exists from public interface, move to private static inline
+------------------------------------------------------------------------
+r2993 | uberlord | 2007-10-04 12:54:29 -0400 (Thu, 04 Oct 2007) | 1 line
+
+Punt rc_is_dir
+------------------------------------------------------------------------
+r2992 | uberlord | 2007-10-04 12:26:44 -0400 (Thu, 04 Oct 2007) | 1 line
+
+punt rc_is_exec
+------------------------------------------------------------------------
+r2991 | uberlord | 2007-10-04 12:21:53 -0400 (Thu, 04 Oct 2007) | 1 line
+
+punt rc_is_link
+------------------------------------------------------------------------
+r2990 | uberlord | 2007-10-04 12:16:06 -0400 (Thu, 04 Oct 2007) | 1 line
+
+Punt rc_is_file
+------------------------------------------------------------------------
+r2989 | uberlord | 2007-10-04 10:57:51 -0400 (Thu, 04 Oct 2007) | 1 line
+
+Document help and status
+------------------------------------------------------------------------
+r2988 | uberlord | 2007-10-04 10:44:13 -0400 (Thu, 04 Oct 2007) | 1 line
+
+Fix rc-help regarding per runlevel config files
+------------------------------------------------------------------------
+r2987 | uberlord | 2007-10-04 10:15:49 -0400 (Thu, 04 Oct 2007) | 1 line
+
+document rc_deptree_depends
+------------------------------------------------------------------------
+r2986 | uberlord | 2007-10-04 10:11:45 -0400 (Thu, 04 Oct 2007) | 1 line
+
+Revert making function private
+------------------------------------------------------------------------
+r2985 | uberlord | 2007-10-04 09:55:37 -0400 (Thu, 04 Oct 2007) | 1 line
+
+Remove debug
+------------------------------------------------------------------------
+r2984 | uberlord | 2007-10-04 09:51:57 -0400 (Thu, 04 Oct 2007) | 1 line
+
+__rc_service_daemon_set is now a private function
+------------------------------------------------------------------------
+r2983 | uberlord | 2007-10-04 09:38:47 -0400 (Thu, 04 Oct 2007) | 1 line
+
+depinfo and deptype are now internal use only. rc-depend cuddles up to getopt.
+------------------------------------------------------------------------
+r2982 | uberlord | 2007-10-03 11:46:02 -0400 (Wed, 03 Oct 2007) | 1 line
+
+librc.so and libeinfo.so now have symbol versions.
+------------------------------------------------------------------------
+r2981 | uberlord | 2007-10-03 10:48:50 -0400 (Wed, 03 Oct 2007) | 1 line
+
+rc_make_env -> rc_env_config, rc_filter_env -> rc_env_filter
+------------------------------------------------------------------------
+r2980 | uberlord | 2007-10-03 10:43:05 -0400 (Wed, 03 Oct 2007) | 1 line
+
+Rename config funcs
+------------------------------------------------------------------------
+r2979 | uberlord | 2007-10-03 10:31:16 -0400 (Wed, 03 Oct 2007) | 1 line
+
+reorg our header a little
+------------------------------------------------------------------------
+r2978 | uberlord | 2007-10-03 10:22:45 -0400 (Wed, 03 Oct 2007) | 1 line
+
+rc_service_option_set -> rc_service_value_set, rc_service_option_get -> rc_service_value_get
+------------------------------------------------------------------------
+r2977 | uberlord | 2007-10-03 10:18:52 -0400 (Wed, 03 Oct 2007) | 1 line
+
+rc_schedule_clear -> rc_service_schedule_clear, rc_schedule_start_service -> rc_service_schedule_start
+------------------------------------------------------------------------
+r2976 | uberlord | 2007-10-03 10:14:44 -0400 (Wed, 03 Oct 2007) | 1 line
+
+reorder header a little
+------------------------------------------------------------------------
+r2975 | uberlord | 2007-10-03 10:11:55 -0400 (Wed, 03 Oct 2007) | 1 line
+
+rc_get_runlevels -> rc_runlevel_list
+------------------------------------------------------------------------
+r2974 | uberlord | 2007-10-03 09:35:39 -0400 (Wed, 03 Oct 2007) | 1 line
+
+Default to tunctl so we can create the device as a specific user, #194588 thanks to Jaco Kroon.
+------------------------------------------------------------------------
+r2973 | uberlord | 2007-10-03 08:55:27 -0400 (Wed, 03 Oct 2007) | 1 line
+
+hide eprefix
+------------------------------------------------------------------------
+r2972 | uberlord | 2007-10-03 08:45:57 -0400 (Wed, 03 Oct 2007) | 1 line
+
+Align correctly when passing output to grep.
+------------------------------------------------------------------------
+r2971 | uberlord | 2007-10-03 08:43:50 -0400 (Wed, 03 Oct 2007) | 1 line
+
+Don't use colour when not a tty - like say when we're redirected to a file.
+------------------------------------------------------------------------
+r2970 | uberlord | 2007-10-03 07:53:20 -0400 (Wed, 03 Oct 2007) | 1 line
+
+Fix output for no colour
+------------------------------------------------------------------------
+r2969 | uberlord | 2007-10-03 07:49:08 -0400 (Wed, 03 Oct 2007) | 1 line
+
+Respect COLUMNS
+------------------------------------------------------------------------
+r2968 | uberlord | 2007-10-02 10:37:30 -0400 (Tue, 02 Oct 2007) | 1 line
+
+Compile fix
+------------------------------------------------------------------------
+r2967 | uberlord | 2007-10-02 05:57:23 -0400 (Tue, 02 Oct 2007) | 1 line
+
+rc_allow_plug -> rc_service_plugable
+------------------------------------------------------------------------
+r2966 | uberlord | 2007-10-02 05:04:10 -0400 (Tue, 02 Oct 2007) | 1 line
+
+rc_set_service_daemon -> rc_service_daemon_set
+------------------------------------------------------------------------
+r2965 | uberlord | 2007-10-02 05:02:08 -0400 (Tue, 02 Oct 2007) | 1 line
+
+rc_set_service_option -> rc_service_option_set, rc_get_service_option -> rc_service_option_get
+------------------------------------------------------------------------
+r2964 | uberlord | 2007-10-01 04:42:27 -0400 (Mon, 01 Oct 2007) | 1 line
+
+Compile on fbsd.
+------------------------------------------------------------------------
+r2963 | uberlord | 2007-09-30 10:35:41 -0400 (Sun, 30 Sep 2007) | 1 line
+
+Fix dns timeout comment, #19405 thanks to Patrik Wenger.
+------------------------------------------------------------------------
+r2962 | uberlord | 2007-09-30 10:35:12 -0400 (Sun, 30 Sep 2007) | 1 line
+
+Fix dns timeout comment, #19405 thanks to Patrik Wenger.
+------------------------------------------------------------------------
+r2961 | uberlord | 2007-09-29 13:20:52 -0400 (Sat, 29 Sep 2007) | 1 line
+
+Plug a leak
+------------------------------------------------------------------------
+r2960 | uberlord | 2007-09-29 13:03:38 -0400 (Sat, 29 Sep 2007) | 1 line
+
+rc_wait_service -> rc_service_wait
+------------------------------------------------------------------------
+r2959 | uberlord | 2007-09-29 13:03:21 -0400 (Sat, 29 Sep 2007) | 1 line
+
+librc doesn't use libeinfo
+------------------------------------------------------------------------
+r2958 | uberlord | 2007-09-29 12:54:58 -0400 (Sat, 29 Sep 2007) | 1 line
+
+Rationalise more functions into rc_service_
+------------------------------------------------------------------------
+r2957 | uberlord | 2007-09-29 12:42:08 -0400 (Sat, 29 Sep 2007) | 1 line
+
+librc no longer uses libeinfo. deptree function names are now all under rc_deptree_
+------------------------------------------------------------------------
+r2956 | uberlord | 2007-09-29 06:17:28 -0400 (Sat, 29 Sep 2007) | 1 line
+
+Ensure reading the console still works in parallel startup
+------------------------------------------------------------------------
+r2955 | uberlord | 2007-09-28 15:29:59 -0400 (Fri, 28 Sep 2007) | 1 line
+
+-C should force no colour as well
+------------------------------------------------------------------------
+r2954 | uberlord | 2007-09-28 11:04:15 -0400 (Fri, 28 Sep 2007) | 1 line
+
+Crashed is not a baselayout state as such
+------------------------------------------------------------------------
+r2953 | uberlord | 2007-09-28 10:53:38 -0400 (Fri, 28 Sep 2007) | 2 lines
+
+rc_service_state now returns the state as a mask, which means that we can do things with just the one call making is more efficient.
+
+------------------------------------------------------------------------
+r2952 | uberlord | 2007-09-28 08:54:48 -0400 (Fri, 28 Sep 2007) | 2 lines
+
+    keymaps now sets unicode keyboard on all defined ttys, #192442 
+    thanks to Pacho Ramos.
+------------------------------------------------------------------------
+r2951 | uberlord | 2007-09-28 08:46:59 -0400 (Fri, 28 Sep 2007) | 3 lines
+
+    net.sh now checks to see if root is net mounted if no predown function
+    exists, #194074.
+
+------------------------------------------------------------------------
+r2950 | uberlord | 2007-09-28 08:29:23 -0400 (Fri, 28 Sep 2007) | 1 line
+
+enums are now fixed to specific values and are in UPPER CASE.
+------------------------------------------------------------------------
+r2949 | uberlord | 2007-09-27 19:16:40 -0400 (Thu, 27 Sep 2007) | 1 line
+
+The rc_depinfo_t and rc_deptype_t structures are not for public consumption.
+------------------------------------------------------------------------
+r2948 | uberlord | 2007-09-27 18:14:23 -0400 (Thu, 27 Sep 2007) | 1 line
+
+Clean makefile for duplicate rules
+------------------------------------------------------------------------
+r2947 | uberlord | 2007-09-26 06:46:44 -0400 (Wed, 26 Sep 2007) | 1 line
+
+Fix Makefile for pmake, document s-s-d options and increase usage gap
+------------------------------------------------------------------------
+r2946 | uberlord | 2007-09-26 06:09:27 -0400 (Wed, 26 Sep 2007) | 1 line
+
+If it's in fstab, let mount work everything out instead of us.
+------------------------------------------------------------------------
+r2945 | uberlord | 2007-09-26 05:16:41 -0400 (Wed, 26 Sep 2007) | 1 line
+
+No need for bash here
+------------------------------------------------------------------------
+r2944 | vapier | 2007-09-26 05:08:07 -0400 (Wed, 26 Sep 2007) | 1 line
+
+use __ prefixes so we dont have to worry about user #defines causing havoc in the normal namespace
+------------------------------------------------------------------------
+r2943 | vapier | 2007-09-26 05:07:31 -0400 (Wed, 26 Sep 2007) | 1 line
+
+mark usage() as no return
+------------------------------------------------------------------------
+r2942 | vapier | 2007-09-26 04:44:39 -0400 (Wed, 26 Sep 2007) | 1 line
+
+add some tests to make sure our exported symbols are sane
+------------------------------------------------------------------------
+r2941 | uberlord | 2007-09-26 04:43:32 -0400 (Wed, 26 Sep 2007) | 1 line
+
+Duh, wrong way around
+------------------------------------------------------------------------
+r2940 | vapier | 2007-09-26 04:39:16 -0400 (Wed, 26 Sep 2007) | 1 line
+
+add hidden definition for rc_waitpid()
+------------------------------------------------------------------------
+r2939 | uberlord | 2007-09-26 04:05:49 -0400 (Wed, 26 Sep 2007) | 1 line
+
+passno needs an argument
+------------------------------------------------------------------------
+r2938 | uberlord | 2007-09-26 03:52:48 -0400 (Wed, 26 Sep 2007) | 1 line
+
+Fix rc_env_bool
+------------------------------------------------------------------------
+r2937 | uberlord | 2007-09-26 03:30:00 -0400 (Wed, 26 Sep 2007) | 1 line
+
+Handle fstab with spaces
+------------------------------------------------------------------------
+r2936 | uberlord | 2007-09-26 03:05:33 -0400 (Wed, 26 Sep 2007) | 1 line
+
+rc_is_env is now rc_env_bool and just works with boolean values.
+------------------------------------------------------------------------
+r2935 | vapier | 2007-09-25 19:17:25 -0400 (Tue, 25 Sep 2007) | 1 line
+
+unify verbose/quiet handling
+------------------------------------------------------------------------
+r2934 | vapier | 2007-09-25 18:57:32 -0400 (Tue, 25 Sep 2007) | 1 line
+
+display whether an option takes an argument in the usage output
+------------------------------------------------------------------------
+r2933 | uberlord | 2007-09-25 18:50:27 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Fix short opts
+------------------------------------------------------------------------
+r2932 | uberlord | 2007-09-25 18:45:57 -0400 (Tue, 25 Sep 2007) | 1 line
+
+fstabinto now behaves more like mountinfo with respect to --quiet
+------------------------------------------------------------------------
+r2931 | uberlord | 2007-09-25 18:21:28 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Rework fstabinfo so it makes more sense
+------------------------------------------------------------------------
+r2930 | uberlord | 2007-09-25 15:18:09 -0400 (Tue, 25 Sep 2007) | 1 line
+
+No need for that sed anymore
+------------------------------------------------------------------------
+r2929 | uberlord | 2007-09-25 13:32:12 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Use bools
+------------------------------------------------------------------------
+r2928 | uberlord | 2007-09-25 13:30:07 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Revert last patch
+------------------------------------------------------------------------
+r2927 | uberlord | 2007-09-25 13:19:02 -0400 (Tue, 25 Sep 2007) | 1 line
+
+We no longer use bool in our public headers, using int instead.
+------------------------------------------------------------------------
+r2926 | vapier | 2007-09-25 13:03:19 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Retain behavior where `rc-update del` warns if nothing changed.
+------------------------------------------------------------------------
+r2925 | vapier | 2007-09-25 12:42:59 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Retain behavior where `rc-update del foo` deletes foo from all runlevels.
+------------------------------------------------------------------------
+r2924 | vapier | 2007-09-25 12:26:03 -0400 (Tue, 25 Sep 2007) | 1 line
+
+ignore symlinks
+------------------------------------------------------------------------
+r2923 | vapier | 2007-09-25 12:21:38 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Add support for describing the options in the C programs.
+------------------------------------------------------------------------
+r2922 | vapier | 2007-09-25 11:55:47 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Skip consolefont setup when RC_TTY_NUMBER is set to 0.
+------------------------------------------------------------------------
+r2921 | uberlord | 2007-09-25 11:38:21 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Initial doxygen documentation for rc.h and einfo.h. Plus some header clean ups.
+------------------------------------------------------------------------
+r2920 | uberlord | 2007-09-25 08:22:48 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Use -t for -fstype to match mount to make vapier happy
+------------------------------------------------------------------------
+r2919 | uberlord | 2007-09-25 08:20:25 -0400 (Tue, 25 Sep 2007) | 1 line
+
+outdent properly
+------------------------------------------------------------------------
+r2918 | uberlord | 2007-09-25 08:20:00 -0400 (Tue, 25 Sep 2007) | 1 line
+
+Work with wpa_supplicant in /usr
+------------------------------------------------------------------------
+r2917 | vapier | 2007-09-24 22:29:56 -0400 (Mon, 24 Sep 2007) | 1 line
+
+Do not require portmap in netmount when nolock option is used with nfs mounts and fixup the test so that it actually works.
+------------------------------------------------------------------------
+r2916 | vapier | 2007-09-24 21:47:02 -0400 (Mon, 24 Sep 2007) | 1 line
+
+dump a useful error message if nothing happened
+------------------------------------------------------------------------
+r2915 | vapier | 2007-09-24 21:42:24 -0400 (Mon, 24 Sep 2007) | 1 line
+
+split links out into a sep target so implicit rules dont cause problems
+------------------------------------------------------------------------
+r2914 | uberlord | 2007-09-24 11:28:48 -0400 (Mon, 24 Sep 2007) | 1 line
+
+Use mkdir to test.
+------------------------------------------------------------------------
+r2913 | uberlord | 2007-09-24 11:27:06 -0400 (Mon, 24 Sep 2007) | 1 line
+
+Use mkdir to test. Also, quote for robustness
+------------------------------------------------------------------------
+r2912 | uberlord | 2007-09-24 08:11:50 -0400 (Mon, 24 Sep 2007) | 1 line
+
+Remove debug lines
+------------------------------------------------------------------------
+r2911 | uberlord | 2007-09-24 08:09:43 -0400 (Mon, 24 Sep 2007) | 1 line
+
+Split our rc commands out into general use vs service commands
+------------------------------------------------------------------------
+r2910 | uberlord | 2007-09-24 07:29:05 -0400 (Mon, 24 Sep 2007) | 1 line
+
+Default timezone to Factory
+------------------------------------------------------------------------
+r2909 | vapier | 2007-09-24 06:13:20 -0400 (Mon, 24 Sep 2007) | 1 line
+
+eat leading newline as the common clock has a proper trailing newline
+------------------------------------------------------------------------
+r2908 | uberlord | 2007-09-24 05:07:00 -0400 (Mon, 24 Sep 2007) | 1 line
+
+Plug some leaks
+------------------------------------------------------------------------
+r2907 | uberlord | 2007-09-24 02:57:40 -0400 (Mon, 24 Sep 2007) | 1 line
+
+Fix pppd metric, #193574 thanks to Martin Väth.
+------------------------------------------------------------------------
+r2906 | uberlord | 2007-09-21 07:52:37 -0400 (Fri, 21 Sep 2007) | 1 line
+
+Add extraopts to our usage
+------------------------------------------------------------------------
+r2905 | uberlord | 2007-09-21 04:54:36 -0400 (Fri, 21 Sep 2007) | 1 line
+
+No need for this convulted sed now our prefixed output is on a direct terminal again :)
+------------------------------------------------------------------------
+r2904 | uberlord | 2007-09-21 04:49:43 -0400 (Fri, 21 Sep 2007) | 9 lines
+
+    Use a pty for prefixed output instead of pipes for stdout/stderr. This
+    is so that programs can get information about the controlling terminal.
+    This change was triggered by bug #188506 where it's possible that
+    stdin, stdout and stderr didn't point to a terminal but ended up on one
+    via our pipes. Using a pty means that stdout and stderr always point to
+    a terminal, but we lose the ability to tell them apart.
+    If there is not a pty available then we use un-prefixed output as normal.
+    This change has also introduced the need for a signal pipe so that
+    SIGCHLD can exit the loop cleanly.
+------------------------------------------------------------------------
+r2903 | uberlord | 2007-09-20 18:45:16 -0400 (Thu, 20 Sep 2007) | 1 line
+
+Harden startup and shutdown
+------------------------------------------------------------------------
+r2902 | uberlord | 2007-09-20 07:53:10 -0400 (Thu, 20 Sep 2007) | 1 line
+
+whitespace
+------------------------------------------------------------------------
+r2901 | uberlord | 2007-09-20 07:47:04 -0400 (Thu, 20 Sep 2007) | 1 line
+
+libeinfo now works out the number of columns from stdout rather than stdin, #188506.
+------------------------------------------------------------------------
+r2900 | uberlord | 2007-09-19 13:18:43 -0400 (Wed, 19 Sep 2007) | 1 line
+
+Warn if file/directory mismatch
+------------------------------------------------------------------------
+r2899 | uberlord | 2007-09-19 13:08:25 -0400 (Wed, 19 Sep 2007) | 1 line
+
+Allow checkown to create files too.
+------------------------------------------------------------------------
+r2898 | uberlord | 2007-09-19 12:54:23 -0400 (Wed, 19 Sep 2007) | 1 line
+
+Move the error messages to the option parsing
+------------------------------------------------------------------------
+r2897 | uberlord | 2007-09-19 12:27:37 -0400 (Wed, 19 Sep 2007) | 4 lines
+
+    Added the checkown applet based on the work by Renato Caldas, #192682
+    checkdir ensures that the specified files (or directories) are owned
+    by the current user/group or as specified on the command line. You can
+    optionally check permissions too.
+------------------------------------------------------------------------
+r2896 | uberlord | 2007-09-19 09:55:01 -0400 (Wed, 19 Sep 2007) | 1 line
+
+Punt rc_xcalloc as nothing uses it
+------------------------------------------------------------------------
+r2895 | uberlord | 2007-09-19 09:53:40 -0400 (Wed, 19 Sep 2007) | 1 line
+
+/lib/rcscripts -> /lib/rc
+------------------------------------------------------------------------
+r2894 | uberlord | 2007-09-19 07:53:35 -0400 (Wed, 19 Sep 2007) | 1 line
+
+--opts to --options
+------------------------------------------------------------------------
+r2893 | uberlord | 2007-09-19 05:00:43 -0400 (Wed, 19 Sep 2007) | 2 lines
+
+    plugin hook function is now rc_plugin_hook instead of a name based
+    on the name of the plugin.
+------------------------------------------------------------------------
+r2892 | uberlord | 2007-09-18 13:37:35 -0400 (Tue, 18 Sep 2007) | 1 line
+
+var no longer used
+------------------------------------------------------------------------
+r2891 | uberlord | 2007-09-18 12:57:39 -0400 (Tue, 18 Sep 2007) | 1 line
+
+Hide errors caused by old splash plugin for the time being
+------------------------------------------------------------------------
+r2890 | uberlord | 2007-09-18 11:45:15 -0400 (Tue, 18 Sep 2007) | 1 line
+
+Only mount /sys if it's not mounted, #192436.
+------------------------------------------------------------------------
+r2889 | uberlord | 2007-09-18 11:43:19 -0400 (Tue, 18 Sep 2007) | 1 line
+
+Don't be an ass - don't free the 2nd list. Instead just empty it.
+------------------------------------------------------------------------
+r2888 | uberlord | 2007-09-18 10:18:22 -0400 (Tue, 18 Sep 2007) | 1 line
+
+Clarify strlist_join behaviour
+------------------------------------------------------------------------
+r2887 | uberlord | 2007-09-18 10:13:16 -0400 (Tue, 18 Sep 2007) | 1 line
+
+Whitespace
+------------------------------------------------------------------------
+r2886 | uberlord | 2007-09-18 10:08:56 -0400 (Tue, 18 Sep 2007) | 1 line
+
+Match the recent api change to rc_strlist_join also. We now free the 2nd list for ease of use.
+------------------------------------------------------------------------
+r2885 | uberlord | 2007-09-18 08:20:55 -0400 (Tue, 18 Sep 2007) | 1 line
+
+API change! rc_config_env is renamed to rc_make_env and takes no argument.
+------------------------------------------------------------------------
+r2884 | uberlord | 2007-09-18 08:08:04 -0400 (Tue, 18 Sep 2007) | 1 line
+
+Don't space separate the options
+------------------------------------------------------------------------
+r2883 | uberlord | 2007-09-18 08:04:51 -0400 (Tue, 18 Sep 2007) | 3 lines
+
+    API change! rc_ls_dir, rc_get_config and rc_get_list no longer take
+    a starting list as a first argument. Instead, use rc_strlist_join
+    to append or prepend the new list to an existing list.
+------------------------------------------------------------------------
+r2882 | uberlord | 2007-09-18 07:36:55 -0400 (Tue, 18 Sep 2007) | 8 lines
+
+    API change! rc_strlist_add and friends now take char *** instead of
+    char ** and return a pointer to the item added instead of the new
+    list head. This is so we can easily tell if the item was successfully
+    added or not instead of iterating through the list looking for it.
+
+    list = rc_strlist_add (list, item);
+    becomes
+    rc_strlist_add (&list, item);
+------------------------------------------------------------------------
+r2881 | uberlord | 2007-09-18 05:20:30 -0400 (Tue, 18 Sep 2007) | 1 line
+
+Re-work mountinfo so that we have a lot less OS specific code
+------------------------------------------------------------------------
+r2880 | uberlord | 2007-09-17 17:38:58 -0400 (Mon, 17 Sep 2007) | 1 line
+
+Fix fallback configurations
+------------------------------------------------------------------------
+r2879 | uberlord | 2007-09-17 16:59:55 -0400 (Mon, 17 Sep 2007) | 1 line
+
+Portability
+------------------------------------------------------------------------
+r2878 | uberlord | 2007-09-17 13:44:10 -0400 (Mon, 17 Sep 2007) | 1 line
+
+Document the preferance of wpa_supplicant, #192828.
+------------------------------------------------------------------------
+r2877 | uberlord | 2007-09-12 10:32:18 -0400 (Wed, 12 Sep 2007) | 1 line
+
+BSD will need a fixed gcc for --as-needed
+------------------------------------------------------------------------
+r2876 | uberlord | 2007-09-11 18:06:27 -0400 (Tue, 11 Sep 2007) | 1 line
+
+More --as-needed foo
+------------------------------------------------------------------------
+r2875 | uberlord | 2007-09-11 17:45:26 -0400 (Tue, 11 Sep 2007) | 1 line
+
+Work better with --as-needed
+------------------------------------------------------------------------
+r2874 | uberlord | 2007-09-10 17:26:13 -0400 (Mon, 10 Sep 2007) | 1 line
+
+librc should link against libeinfo too
+------------------------------------------------------------------------
+r2873 | vapier | 2007-09-09 12:49:40 -0400 (Sun, 09 Sep 2007) | 1 line
+
+revert EARLY_MOUNTS since everything in the boot runlevel depends on localmount already and anything that runs before it does not rely on things like /tmp or /var/run (and because i confused localmount with checkroot)
+------------------------------------------------------------------------
+r2872 | vapier | 2007-09-09 12:12:53 -0400 (Sun, 09 Sep 2007) | 1 line
+
+add BSD SPECIFIC OPTIONS marking
+------------------------------------------------------------------------
+r2871 | vapier | 2007-09-09 12:08:32 -0400 (Sun, 09 Sep 2007) | 1 line
+
+only do the X lock stuff in /tmp so people can overload WIPE_TMP_DIRS for a general "wipe this directory" option.  also force +t on /tmp and /var/tmp.
+------------------------------------------------------------------------
+r2870 | vapier | 2007-09-09 12:04:40 -0400 (Sun, 09 Sep 2007) | 1 line
+
+Allow people to specify a list of early mount points which will be mounted at the end of localmount so they can do tmpfs on things like /tmp #181527.
+------------------------------------------------------------------------
+r2869 | vapier | 2007-09-09 11:52:05 -0400 (Sun, 09 Sep 2007) | 1 line
+
+Allow people to specify a list of temp dirs to clean in bootmisc #191807.
+------------------------------------------------------------------------
+r2868 | uberlord | 2007-09-06 09:00:03 -0400 (Thu, 06 Sep 2007) | 1 line
+
+Makefile in src now supports pmake as used on the BSDs.
+------------------------------------------------------------------------
+r2867 | uberlord | 2007-09-06 04:59:35 -0400 (Thu, 06 Sep 2007) | 1 line
+
+strdup -> rc_xstrdup
+------------------------------------------------------------------------
+r2866 | uberlord | 2007-09-04 05:32:36 -0400 (Tue, 04 Sep 2007) | 3 lines
+
+    start-stop-daemon now works with userids correctly when a pidfile
+    is not specified, #191206.
+
+------------------------------------------------------------------------
+r2865 | uberlord | 2007-09-03 10:02:15 -0400 (Mon, 03 Sep 2007) | 1 line
+
+Add --quiet to mountinfo
+------------------------------------------------------------------------
+r2864 | vapier | 2007-09-02 23:10:42 -0400 (Sun, 02 Sep 2007) | 1 line
+
+Always attempt to mount /dev/pts when devpts is available as it may appear in some 2.4 setups.
+------------------------------------------------------------------------
+r2863 | uberlord | 2007-09-02 09:12:24 -0400 (Sun, 02 Sep 2007) | 1 line
+
+Release rc4
+------------------------------------------------------------------------
+r2862 | uberlord | 2007-09-02 09:09:34 -0400 (Sun, 02 Sep 2007) | 1 line
+
+RC_TTY_NUMBER now defaults to 12, #190996 thanks to Pacho Ramos.
+------------------------------------------------------------------------
+r2861 | uberlord | 2007-09-02 08:55:18 -0400 (Sun, 02 Sep 2007) | 1 line
+
+Don't use local here
+------------------------------------------------------------------------
+r2860 | uberlord | 2007-08-31 20:51:41 -0400 (Fri, 31 Aug 2007) | 1 line
+
+We may not always add to the array, so re-count it afterwards
+------------------------------------------------------------------------
+r2859 | uberlord | 2007-08-31 12:21:19 -0400 (Fri, 31 Aug 2007) | 1 line
+
+Only generate dependencies for Gentoo scripts, #190547.
+------------------------------------------------------------------------
+r2858 | uberlord | 2007-08-31 07:06:49 -0400 (Fri, 31 Aug 2007) | 1 line
+
+Don't add multiple entries to ld.so.conf
+------------------------------------------------------------------------
+r2857 | uberlord | 2007-08-28 12:28:33 -0400 (Tue, 28 Aug 2007) | 1 line
+
+More path fixes thanks to Thomas Pani
+------------------------------------------------------------------------
+r2856 | uberlord | 2007-08-28 09:10:07 -0400 (Tue, 28 Aug 2007) | 1 line
+
+Use correct defines
+------------------------------------------------------------------------
+r2855 | uberlord | 2007-08-28 09:06:44 -0400 (Tue, 28 Aug 2007) | 1 line
+
+Undocument pause action, fix --nodeps and --ifstarted, #190045.
+------------------------------------------------------------------------
+r2854 | uberlord | 2007-08-28 05:17:04 -0400 (Tue, 28 Aug 2007) | 1 line
+
+#define shutdown
+------------------------------------------------------------------------
+r2853 | uberlord | 2007-08-28 05:13:46 -0400 (Tue, 28 Aug 2007) | 1 line
+
+Move more stuff to #defines
+------------------------------------------------------------------------
+r2852 | uberlord | 2007-08-28 04:50:04 -0400 (Tue, 28 Aug 2007) | 1 line
+
+Fix ksoftlevel handling, #190420.
+------------------------------------------------------------------------
+r2851 | vapier | 2007-08-26 11:57:00 -0400 (Sun, 26 Aug 2007) | 1 line
+
+Add /etc/gentoo-release to CONFIG_PROTECT_MASK.
+------------------------------------------------------------------------
+r2850 | vapier | 2007-08-25 14:47:45 -0400 (Sat, 25 Aug 2007) | 1 line
+
+Punt PAGER and EDITOR.  People need to set this themselves now.
+------------------------------------------------------------------------
+r2849 | vapier | 2007-08-25 14:17:05 -0400 (Sat, 25 Aug 2007) | 1 line
+
+Make sure we list all config files in rc help output.
+------------------------------------------------------------------------
+r2848 | uberlord | 2007-08-23 06:25:09 -0400 (Thu, 23 Aug 2007) | 1 line
+
+Setup wtmp for BSD too
+------------------------------------------------------------------------
+r2847 | uberlord | 2007-08-22 10:10:46 -0400 (Wed, 22 Aug 2007) | 1 line
+
+Only open /proc/cmdline if it exists, #189686 thanks to Christian Affolter
+------------------------------------------------------------------------
+r2846 | uberlord | 2007-08-21 04:21:40 -0400 (Tue, 21 Aug 2007) | 1 line
+
+Fix pppd getting the interface metric.
+------------------------------------------------------------------------
+r2845 | uberlord | 2007-08-20 09:32:31 -0400 (Mon, 20 Aug 2007) | 1 line
+
+rc3
+------------------------------------------------------------------------
+r2844 | uberlord | 2007-08-20 05:10:24 -0400 (Mon, 20 Aug 2007) | 1 line
+
+As discussed on the -dev ml, RC_DEPEND_STRICT now defaults to yes.
+------------------------------------------------------------------------
+r2843 | uberlord | 2007-08-20 05:08:06 -0400 (Mon, 20 Aug 2007) | 1 line
+
+No point in having to lots of get the user code.
+------------------------------------------------------------------------
+r2842 | uberlord | 2007-08-17 09:23:43 -0400 (Fri, 17 Aug 2007) | 1 line
+
+Mark the right service as failed and only output a new line if we outputted anything at all for /etc/init.d/foo needsme
+------------------------------------------------------------------------
+r2841 | uberlord | 2007-08-17 09:23:02 -0400 (Fri, 17 Aug 2007) | 1 line
+
+needsme should always be valid too
+------------------------------------------------------------------------
+r2840 | uberlord | 2007-08-17 08:14:04 -0400 (Fri, 17 Aug 2007) | 1 line
+
+Stop un-needed services when changing runlevels, #189050.
+------------------------------------------------------------------------
+r2839 | uberlord | 2007-08-17 07:31:36 -0400 (Fri, 17 Aug 2007) | 1 line
+
+When shutting down, stop the service even if dependants failed.
+------------------------------------------------------------------------
+r2838 | uberlord | 2007-08-17 07:01:18 -0400 (Fri, 17 Aug 2007) | 1 line
+
+Intergrate our standard options
+------------------------------------------------------------------------
+r2837 | uberlord | 2007-08-17 06:54:04 -0400 (Fri, 17 Aug 2007) | 1 line
+
+Allow --user and --group to also mean --chuid and --chgrp
+------------------------------------------------------------------------
+r2836 | uberlord | 2007-08-17 05:46:01 -0400 (Fri, 17 Aug 2007) | 1 line
+
+Allow 'del' to work as a command
+------------------------------------------------------------------------
+r2835 | uberlord | 2007-08-16 13:09:57 -0400 (Thu, 16 Aug 2007) | 1 line
+
+Fully move esyslog into rc
+------------------------------------------------------------------------
+r2834 | uberlord | 2007-08-16 12:53:20 -0400 (Thu, 16 Aug 2007) | 1 line
+
+Add esyslog support
+------------------------------------------------------------------------
+r2833 | uberlord | 2007-08-15 13:47:25 -0400 (Wed, 15 Aug 2007) | 1 line
+
+whitespace
+------------------------------------------------------------------------
+r2832 | uberlord | 2007-08-15 12:58:51 -0400 (Wed, 15 Aug 2007) | 1 line
+
+Add config to rc-help.sh
+------------------------------------------------------------------------
+r2831 | uberlord | 2007-08-15 10:49:41 -0400 (Wed, 15 Aug 2007) | 2 lines
+
+    `config /etc/fstab' can now be used in depend() functions to show that
+    the deptree should be regenerated if /etc/fstab has changed.
+------------------------------------------------------------------------
+r2830 | uberlord | 2007-08-15 07:20:08 -0400 (Wed, 15 Aug 2007) | 1 line
+
+Add bzr port 4155 to /etc/services, #188970 thanks to Andrew Cowie.
+------------------------------------------------------------------------
+r2829 | uberlord | 2007-08-10 06:34:50 -0400 (Fri, 10 Aug 2007) | 1 line
+
+Need to specify table for busybox.
+------------------------------------------------------------------------
+r2828 | uberlord | 2007-08-09 10:33:20 -0400 (Thu, 09 Aug 2007) | 1 line
+
+Don't link to rt anymore as it makes dlopen leak - we now use nanosleeps to achieve the same goal (a loop + timeout). No longer put / at the end of directories, instead prefix like so RC_LIBDIR "/foo" to ensure more robust code.
+------------------------------------------------------------------------
+r2827 | uberlord | 2007-08-09 05:53:47 -0400 (Thu, 09 Aug 2007) | 1 line
+
+getoptify and simply the code even more.
+------------------------------------------------------------------------
+r2826 | uberlord | 2007-08-08 18:46:27 -0400 (Wed, 08 Aug 2007) | 1 line
+
+whitespace
+------------------------------------------------------------------------
+r2825 | uberlord | 2007-08-08 18:35:32 -0400 (Wed, 08 Aug 2007) | 1 line
+
+Add help to rc-update #188170 and tidy up the code a fair bit.
+------------------------------------------------------------------------
+r2824 | uberlord | 2007-08-08 08:39:05 -0400 (Wed, 08 Aug 2007) | 1 line
+
+Use the right dir from fstab
+------------------------------------------------------------------------
+r2823 | uberlord | 2007-08-07 23:07:42 -0400 (Tue, 07 Aug 2007) | 1 line
+
+Plug a leek for non selinux linux systems
+------------------------------------------------------------------------
+r2822 | uberlord | 2007-08-07 23:07:09 -0400 (Tue, 07 Aug 2007) | 2 lines
+
+    If given a pidfile, just match on that for seeing if we have crashed
+    or not, #186159.
+------------------------------------------------------------------------
+r2821 | uberlord | 2007-08-07 17:04:27 -0400 (Tue, 07 Aug 2007) | 1 line
+
+Return the next available ifindex for BSD too
+------------------------------------------------------------------------
+r2820 | uberlord | 2007-08-07 17:01:16 -0400 (Tue, 07 Aug 2007) | 1 line
+
+Always give ppp a defaultmetric
+------------------------------------------------------------------------
+r2819 | uberlord | 2007-08-07 16:51:08 -0400 (Tue, 07 Aug 2007) | 1 line
+
+Add a defaultmetric to ppp if we have metric_$IFACE
+------------------------------------------------------------------------
+r2818 | uberlord | 2007-08-07 16:23:38 -0400 (Tue, 07 Aug 2007) | 1 line
+
+More pppd fixes
+------------------------------------------------------------------------
+r2817 | uberlord | 2007-08-07 08:56:07 -0400 (Tue, 07 Aug 2007) | 1 line
+
+Fix chat connects for pppd
+------------------------------------------------------------------------
+r2816 | uberlord | 2007-08-07 03:25:24 -0400 (Tue, 07 Aug 2007) | 1 line
+
+Try and hide the terminal escape codes when they fail.
+------------------------------------------------------------------------
+r2815 | uberlord | 2007-08-04 16:35:05 -0400 (Sat, 04 Aug 2007) | 1 line
+
+Boot properly when we cannot set an early font, #187628.
+------------------------------------------------------------------------
+r2814 | uberlord | 2007-08-04 11:05:12 -0400 (Sat, 04 Aug 2007) | 1 line
+
+Fix rc-update, #187487 and release rc2.
+------------------------------------------------------------------------
+r2813 | uberlord | 2007-08-03 09:54:46 -0400 (Fri, 03 Aug 2007) | 1 line
+
+Fix adding multiple IP addresses, #187526.
+------------------------------------------------------------------------
+r2812 | uberlord | 2007-08-03 09:53:20 -0400 (Fri, 03 Aug 2007) | 1 line
+
+Fix static IPv6 routes, #187514.
+------------------------------------------------------------------------
+r2811 | uberlord | 2007-08-03 06:14:38 -0400 (Fri, 03 Aug 2007) | 1 line
+
+Wups, these definitions need to be in rc.h really
+------------------------------------------------------------------------
+r2810 | uberlord | 2007-08-02 07:09:09 -0400 (Thu, 02 Aug 2007) | 1 line
+
+rc1
+------------------------------------------------------------------------
+r2809 | uberlord | 2007-08-02 04:41:31 -0400 (Thu, 02 Aug 2007) | 1 line
+
+Ensure that /var/log exists too
+------------------------------------------------------------------------
+r2808 | vapier | 2007-08-01 09:20:05 -0400 (Wed, 01 Aug 2007) | 1 line
+
+Punt /dev/shm from default /etc/fstab as we handle it and add a helpful hint about the RC_USE_FSTAB option.
+------------------------------------------------------------------------
+r2807 | uberlord | 2007-08-01 07:33:07 -0400 (Wed, 01 Aug 2007) | 1 line
+
+Fix up einfo output a little
+------------------------------------------------------------------------
+r2806 | uberlord | 2007-07-31 14:23:56 -0400 (Tue, 31 Jul 2007) | 1 line
+
+Remove baselayout-1 stuff
+------------------------------------------------------------------------
+r2805 | uberlord | 2007-07-31 12:59:02 -0400 (Tue, 31 Jul 2007) | 1 line
+
+Wups, don't force those CFLAGS
+------------------------------------------------------------------------
+r2804 | uberlord | 2007-07-31 12:57:16 -0400 (Tue, 31 Jul 2007) | 1 line
+
+Force some stuff
+------------------------------------------------------------------------
+r2803 | uberlord | 2007-07-31 12:40:32 -0400 (Tue, 31 Jul 2007) | 1 line
+
+Fix building on uclibc thanks to Solar
+------------------------------------------------------------------------
+r2802 | uberlord | 2007-07-31 12:35:24 -0400 (Tue, 31 Jul 2007) | 1 line
+
+Fix building on Linux
+------------------------------------------------------------------------
+r2801 | uberlord | 2007-07-31 12:16:18 -0400 (Tue, 31 Jul 2007) | 1 line
+
+Link the right objects against rc
+------------------------------------------------------------------------
+r2800 | uberlord | 2007-07-31 12:06:21 -0400 (Tue, 31 Jul 2007) | 2 lines
+
+    All our binaries are now mulicalls into rc, which makes our on disk size
+    a lot smaller.
+------------------------------------------------------------------------
+r2799 | uberlord | 2007-07-31 12:05:56 -0400 (Tue, 31 Jul 2007) | 2 lines
+
+    All our binaries are now mulicalls into rc, which makes our on disk size
+    a lot smaller.
+------------------------------------------------------------------------
+r2798 | uberlord | 2007-07-30 07:31:29 -0400 (Mon, 30 Jul 2007) | 1 line
+
+Create needed dirs in bootmisc if they do not exist
+------------------------------------------------------------------------
+r2797 | uberlord | 2007-07-27 02:22:05 -0400 (Fri, 27 Jul 2007) | 1 line
+
+Duh, test it
+------------------------------------------------------------------------
+r2796 | uberlord | 2007-07-26 12:30:05 -0400 (Thu, 26 Jul 2007) | 1 line
+
+Fix bootmisc stopping for pam_console and write halt record correctly.
+------------------------------------------------------------------------
+r2794 | uberlord | 2007-07-25 16:58:23 -0400 (Wed, 25 Jul 2007) | 1 line
+
+Merge some of reb's OpenBSD fixes in
+------------------------------------------------------------------------
+r2792 | uberlord | 2007-07-23 07:36:12 -0400 (Mon, 23 Jul 2007) | 1 line
+
+appending noinitd=xdm will skip the xdm service when first booting, #181858.
+------------------------------------------------------------------------
+r2791 | uberlord | 2007-07-22 07:28:38 -0400 (Sun, 22 Jul 2007) | 1 line
+
+whitespace
+------------------------------------------------------------------------
+r2790 | uberlord | 2007-07-22 07:27:26 -0400 (Sun, 22 Jul 2007) | 1 line
+
+Had a brain fart - just echo to fd3
+------------------------------------------------------------------------
+r2789 | uberlord | 2007-07-22 07:23:56 -0400 (Sun, 22 Jul 2007) | 1 line
+
+Cater for einfo calls inside the depend function
+------------------------------------------------------------------------
+r2788 | uberlord | 2007-07-22 06:45:56 -0400 (Sun, 22 Jul 2007) | 2 lines
+
+    Harden gendepends.sh some more so we only capture the stdout we want from
+    the depend function, #186072.
+------------------------------------------------------------------------
+r2787 | uberlord | 2007-07-21 18:35:34 -0400 (Sat, 21 Jul 2007) | 1 line
+
+Work around a bash evaluation error
+------------------------------------------------------------------------
+r2786 | uberlord | 2007-07-21 08:49:51 -0400 (Sat, 21 Jul 2007) | 6 lines
+
+    RC_DEPEND_STRICT now controls dependency strictness.
+    If yes then we only use services in the boot and default runlevels,
+    regradless of service state.
+    If no then we take into account coldplugged services and the state
+    of currently running services.
+    Fixes #185640.
+------------------------------------------------------------------------
+r2785 | uberlord | 2007-07-19 17:44:55 -0400 (Thu, 19 Jul 2007) | 1 line
+
+Skip some files in env-update like portage env-update for more robustness
+------------------------------------------------------------------------
+r2784 | uberlord | 2007-07-16 13:07:15 -0400 (Mon, 16 Jul 2007) | 1 line
+
+Use printf so we don't put blank lines at the top of new files and fix mountinfo for nfs roots
+------------------------------------------------------------------------
+r2783 | uberlord | 2007-07-16 12:22:37 -0400 (Mon, 16 Jul 2007) | 1 line
+
+Allow zsh to work as our shell
+------------------------------------------------------------------------
+r2782 | uberlord | 2007-07-16 10:09:29 -0400 (Mon, 16 Jul 2007) | 1 line
+
+Yikes, removed that old bash gettextism
+------------------------------------------------------------------------
+r2781 | uberlord | 2007-07-16 08:22:53 -0400 (Mon, 16 Jul 2007) | 1 line
+
+Fix compile on FreeBSD
+------------------------------------------------------------------------
+r2780 | uberlord | 2007-07-16 03:19:32 -0400 (Mon, 16 Jul 2007) | 1 line
+
+env-update --fork-ldconfig really forks ldconfig and works now
+------------------------------------------------------------------------
+r2779 | uberlord | 2007-07-15 19:39:07 -0400 (Sun, 15 Jul 2007) | 1 line
+
+Remove hardcoded reference to iwi0
+------------------------------------------------------------------------
+r2778 | uberlord | 2007-07-15 15:23:11 -0400 (Sun, 15 Jul 2007) | 1 line
+
+adsl module now finds the correct exe, #185276 thanks to Marcello Laganà.
+------------------------------------------------------------------------
+r2777 | vapier | 2007-07-14 13:36:31 -0400 (Sat, 14 Jul 2007) | 1 line
+
+Add --remove-destination to example /dev recover command #40987.
+------------------------------------------------------------------------
+r2776 | uberlord | 2007-07-13 10:30:33 -0400 (Fri, 13 Jul 2007) | 1 line
+
+Don't use 'this' as a variable name as it confuses c++
+------------------------------------------------------------------------
+r2775 | uberlord | 2007-07-12 20:04:20 -0400 (Thu, 12 Jul 2007) | 1 line
+
+Use echo instead of touch - saves on forking
+------------------------------------------------------------------------
+r2774 | uberlord | 2007-07-12 10:13:30 -0400 (Thu, 12 Jul 2007) | 1 line
+
+Document how to detect if docked or not in example preup, #167742
+------------------------------------------------------------------------
+r2773 | uberlord | 2007-07-12 05:48:44 -0400 (Thu, 12 Jul 2007) | 1 line
+
+Punt the RC_TTY variable
+------------------------------------------------------------------------
+r2772 | uberlord | 2007-07-12 04:34:48 -0400 (Thu, 12 Jul 2007) | 1 line
+
+alpha4
+------------------------------------------------------------------------
+r2771 | uberlord | 2007-07-11 13:27:46 -0400 (Wed, 11 Jul 2007) | 1 line
+
+Don't unmount network filesystems in localmount or halt.sh, #175602.
+------------------------------------------------------------------------
+r2770 | uberlord | 2007-07-11 10:28:54 -0400 (Wed, 11 Jul 2007) | 1 line
+
+Fix restarting services with plugins
+------------------------------------------------------------------------
+r2769 | uberlord | 2007-07-11 09:02:05 -0400 (Wed, 11 Jul 2007) | 1 line
+
+Don't do interactive when changing init, #174141.
+------------------------------------------------------------------------
+r2768 | uberlord | 2007-07-11 08:06:37 -0400 (Wed, 11 Jul 2007) | 1 line
+
+Punt the dodgy ebuffer code. We now force prefixing for parallel starts which also reduces our variable pollution.
+------------------------------------------------------------------------
+r2767 | uberlord | 2007-07-11 08:05:25 -0400 (Wed, 11 Jul 2007) | 1 line
+
+Add the users group
+------------------------------------------------------------------------
+r2766 | uberlord | 2007-07-11 06:39:01 -0400 (Wed, 11 Jul 2007) | 1 line
+
+Only mount stuff if not already mounted
+------------------------------------------------------------------------
+r2765 | uberlord | 2007-07-10 16:11:42 -0400 (Tue, 10 Jul 2007) | 1 line
+
+Allow non root users to describe
+------------------------------------------------------------------------
+r2764 | uberlord | 2007-07-10 15:14:37 -0400 (Tue, 10 Jul 2007) | 1 line
+
+Rename variable
+------------------------------------------------------------------------
+r2763 | uberlord | 2007-07-10 15:09:41 -0400 (Tue, 10 Jul 2007) | 1 line
+
+init scripts and their extra options can now have descriptions, #184327.
+------------------------------------------------------------------------
+r2762 | uberlord | 2007-07-10 11:26:49 -0400 (Tue, 10 Jul 2007) | 1 line
+
+Support /etc/init.d/foo ineed and friends again.
+------------------------------------------------------------------------
+r2761 | uberlord | 2007-07-10 11:07:18 -0400 (Tue, 10 Jul 2007) | 1 line
+
+Fix ifconfig using some iproute2 commands.
+------------------------------------------------------------------------
+r2760 | uberlord | 2007-07-10 09:15:07 -0400 (Tue, 10 Jul 2007) | 1 line
+
+Remove a debug line
+------------------------------------------------------------------------
+r2759 | uberlord | 2007-07-10 07:42:56 -0400 (Tue, 10 Jul 2007) | 1 line
+
+We no longer care about numerical runlevels, #184733.
+------------------------------------------------------------------------
+r2758 | vapier | 2007-07-10 04:43:51 -0400 (Tue, 10 Jul 2007) | 1 line
+
+document qemu hacking
+------------------------------------------------------------------------
+r2756 | uberlord | 2007-07-09 06:39:35 -0400 (Mon, 09 Jul 2007) | 1 line
+
+Take no chances with PATH, use our env-update
+------------------------------------------------------------------------
+r2755 | uberlord | 2007-07-09 06:26:02 -0400 (Mon, 09 Jul 2007) | 1 line
+
+Add an option to fork ldconfig in env-update, #182794. Also, preserve the entire line in /etc/env.d/foo if it begins with $
+------------------------------------------------------------------------
+r2754 | uberlord | 2007-07-09 05:14:19 -0400 (Mon, 09 Jul 2007) | 1 line
+
+Fix iproute handling of -host and improve iwconfig scanning
+------------------------------------------------------------------------
+r2753 | uberlord | 2007-07-08 08:59:58 -0400 (Sun, 08 Jul 2007) | 1 line
+
+Fix netmount - thanks to Hollow
+------------------------------------------------------------------------
+r2751 | uberlord | 2007-07-06 14:03:17 -0400 (Fri, 06 Jul 2007) | 2 lines
+
+    Add and delete IPv6 addresses and routes correctly on FreeBSD, #184430
+    thanks to Friedrich Oslage.
+------------------------------------------------------------------------
+r2750 | uberlord | 2007-07-06 13:07:29 -0400 (Fri, 06 Jul 2007) | 1 line
+
+Of course, glibc does not have strlcpy
+------------------------------------------------------------------------
+r2749 | uberlord | 2007-07-06 11:50:40 -0400 (Fri, 06 Jul 2007) | 1 line
+
+Make the prefix length dynamic
+------------------------------------------------------------------------
+r2748 | uberlord | 2007-07-05 12:57:04 -0400 (Thu, 05 Jul 2007) | 1 line
+
+Add the audio group for the BSD's
+------------------------------------------------------------------------
+r2747 | uberlord | 2007-07-05 04:39:32 -0400 (Thu, 05 Jul 2007) | 1 line
+
+Don't trust the plugin
+------------------------------------------------------------------------
+r2746 | uberlord | 2007-07-04 14:11:01 -0400 (Wed, 04 Jul 2007) | 1 line
+
+Allow syncing of hwlock for BSD and make our config files look fairly similar.
+------------------------------------------------------------------------
+r2745 | uberlord | 2007-07-04 12:06:40 -0400 (Wed, 04 Jul 2007) | 1 line
+
+Flush the ebuffer before and after running a plugin.
+------------------------------------------------------------------------
+r2744 | uberlord | 2007-07-04 12:02:01 -0400 (Wed, 04 Jul 2007) | 1 line
+
+As we're running each plugin in a fork, we need to call our cleanup code so we don't leak memory. To this extent, we now have the global boolean rc_in_plugin and the cleanup code can act accordingly.
+------------------------------------------------------------------------
+r2743 | uberlord | 2007-07-04 10:56:59 -0400 (Wed, 04 Jul 2007) | 1 line
+
+We need the full path to the service before chdir /
+------------------------------------------------------------------------
+r2742 | uberlord | 2007-07-04 10:21:24 -0400 (Wed, 04 Jul 2007) | 1 line
+
+Up the interface after preup incase preup brings it down
+------------------------------------------------------------------------
+r2741 | uberlord | 2007-07-03 04:38:27 -0400 (Tue, 03 Jul 2007) | 1 line
+
+We still need to wait for services we need/use
+------------------------------------------------------------------------
+r2740 | uberlord | 2007-07-02 18:07:58 -0400 (Mon, 02 Jul 2007) | 1 line
+
+Don't wait for services that were inactive, #183667 thanks to Daniel Drake
+------------------------------------------------------------------------
+r2739 | uberlord | 2007-07-02 18:05:38 -0400 (Mon, 02 Jul 2007) | 1 line
+
+Make the provided code a little more readable and fix a bug when calculating provided services changing from single to default runlevel
+------------------------------------------------------------------------
+r2738 | uberlord | 2007-07-02 15:57:18 -0400 (Mon, 02 Jul 2007) | 1 line
+
+Fix error and only let root run init commands except for status and help
+------------------------------------------------------------------------
+r2736 | uberlord | 2007-07-01 04:45:23 -0400 (Sun, 01 Jul 2007) | 1 line
+
+Don't set an early font if consolefont isn't in a runlevel, #183773.
+------------------------------------------------------------------------
+r2735 | uberlord | 2007-06-28 11:44:38 -0400 (Thu, 28 Jun 2007) | 1 line
+
+Add --nocolor to more programs
+------------------------------------------------------------------------
+r2734 | uberlord | 2007-06-28 11:44:14 -0400 (Thu, 28 Jun 2007) | 1 line
+
+Add --nocolor to more programs
+------------------------------------------------------------------------
+r2733 | uberlord | 2007-06-27 08:35:43 -0400 (Wed, 27 Jun 2007) | 1 line
+
+Add --no-ldconfig option to env-update to match portage.
+------------------------------------------------------------------------
+r2732 | uberlord | 2007-06-26 05:20:42 -0400 (Tue, 26 Jun 2007) | 1 line
+
+Change pwd to / for all init scripts, #181224.
+------------------------------------------------------------------------
+r2731 | uberlord | 2007-06-26 04:47:46 -0400 (Tue, 26 Jun 2007) | 1 line
+
+Change pwd to / for all init scripts, #181224.
+------------------------------------------------------------------------
+r2730 | uberlord | 2007-06-26 04:39:02 -0400 (Tue, 26 Jun 2007) | 1 line
+
+--nocolor works again, #181011 thanks to Daniel Drake.
+------------------------------------------------------------------------
+r2728 | vapier | 2007-06-21 22:59:29 -0400 (Thu, 21 Jun 2007) | 1 line
+
+calc the files to install dynamically
+------------------------------------------------------------------------
+r2727 | vapier | 2007-06-21 22:57:40 -0400 (Thu, 21 Jun 2007) | 1 line
+
+Allow urandom location to be customized #134489.
+------------------------------------------------------------------------
+r2726 | vapier | 2007-06-21 22:50:34 -0400 (Thu, 21 Jun 2007) | 1 line
+
+add missing ChangeLog entry
+------------------------------------------------------------------------
+r2725 | vapier | 2007-06-02 08:23:43 -0400 (Sat, 02 Jun 2007) | 1 line
+
+Use -q option with modprobe rather than sending to /dev/null.
+------------------------------------------------------------------------
+r2724 | vapier | 2007-06-02 08:22:07 -0400 (Sat, 02 Jun 2007) | 1 line
+
+Fix from comio for /proc/filesystems typo in localmount #180621.
+------------------------------------------------------------------------
+r2723 | vapier | 2007-05-31 01:51:00 -0400 (Thu, 31 May 2007) | 1 line
+
+Don't warn about Factory clock when booting off of livecd.
+------------------------------------------------------------------------
+r2721 | uberlord | 2007-05-30 18:30:54 -0400 (Wed, 30 May 2007) | 2 lines
+
+    Use killall5 again so we can cleanly remount / readonly, #168977
+    and #177689.
+------------------------------------------------------------------------
+r2720 | uberlord | 2007-05-30 11:47:54 -0400 (Wed, 30 May 2007) | 1 line
+
+Don't use -f with mount
+------------------------------------------------------------------------
+r2719 | uberlord | 2007-05-30 11:24:21 -0400 (Wed, 30 May 2007) | 1 line
+
+Call umount with LC_ALL=C so that we can umount /usr
+------------------------------------------------------------------------
+r2718 | uberlord | 2007-05-30 08:17:35 -0400 (Wed, 30 May 2007) | 1 line
+
+Only call systohw in clock when we don't have adjfile or we aren't UTC.
+------------------------------------------------------------------------
+r2717 | uberlord | 2007-05-30 07:26:53 -0400 (Wed, 30 May 2007) | 1 line
+
+Always update mtab
+------------------------------------------------------------------------
+r2716 | uberlord | 2007-05-27 12:02:25 -0400 (Sun, 27 May 2007) | 1 line
+
+Improve spelling
+------------------------------------------------------------------------
+r2715 | uberlord | 2007-05-23 10:12:06 -0400 (Wed, 23 May 2007) | 1 line
+
+Harden testing of /proc being valid
+------------------------------------------------------------------------
+r2714 | uberlord | 2007-05-23 08:30:34 -0400 (Wed, 23 May 2007) | 1 line
+
+RC_SYS should now set XEN0 correctly
+------------------------------------------------------------------------
+r2713 | uberlord | 2007-05-22 08:25:43 -0400 (Tue, 22 May 2007) | 1 line
+
+Create a function for running init.sh and init-early.sh which saves on code and removes a gcc-4.2 warning
+------------------------------------------------------------------------
+r2712 | uberlord | 2007-05-18 16:09:10 -0400 (Fri, 18 May 2007) | 1 line
+
+Be more resilient when the nettree is invalid
+------------------------------------------------------------------------
+r2711 | uberlord | 2007-05-16 14:45:16 -0400 (Wed, 16 May 2007) | 1 line
+
+Default eend to SUCCESS if no options given
+------------------------------------------------------------------------
+r2710 | uberlord | 2007-05-16 10:53:47 -0400 (Wed, 16 May 2007) | 1 line
+
+busybox sysctl does not support -q
+------------------------------------------------------------------------
+r2709 | uberlord | 2007-05-16 07:28:45 -0400 (Wed, 16 May 2007) | 1 line
+
+Remove debug line
+------------------------------------------------------------------------
+r2708 | uberlord | 2007-05-16 07:05:42 -0400 (Wed, 16 May 2007) | 1 line
+
+Stop using getimeofday for timeouts incase the clock changes.
+------------------------------------------------------------------------
+r2707 | uberlord | 2007-05-16 02:33:25 -0400 (Wed, 16 May 2007) | 1 line
+
+Allow more modes to work.
+------------------------------------------------------------------------
+r2706 | uberlord | 2007-05-15 11:56:35 -0400 (Tue, 15 May 2007) | 1 line
+
+/etc/conf.d/rc.$runlevel now works, #177869.
+------------------------------------------------------------------------
+r2705 | uberlord | 2007-05-15 10:43:44 -0400 (Tue, 15 May 2007) | 1 line
+
+Don't enable syn cookies by default as support for them isn't enabled in the default kernel.
+------------------------------------------------------------------------
+r2704 | uberlord | 2007-05-14 15:50:13 -0400 (Mon, 14 May 2007) | 1 line
+
+Implement FreeBSD's dlfunc function to avoid ISO warnings on dlsym - thanks to drizztbsd for find public domain code :)
+------------------------------------------------------------------------
+r2703 | uberlord | 2007-05-14 13:05:55 -0400 (Mon, 14 May 2007) | 1 line
+
+Use correct function casts. Use dlfunc where available to remove ISO warnings :)
+------------------------------------------------------------------------
+r2702 | uberlord | 2007-05-14 11:05:56 -0400 (Mon, 14 May 2007) | 1 line
+
+Release alpha3
+------------------------------------------------------------------------
+r2701 | uberlord | 2007-05-14 10:47:07 -0400 (Mon, 14 May 2007) | 1 line
+
+Should fix this bug too
+------------------------------------------------------------------------
+r2700 | uberlord | 2007-05-14 08:48:37 -0400 (Mon, 14 May 2007) | 1 line
+
+RC_INTERACTIVE now works, #178331.
+------------------------------------------------------------------------
+r2699 | uberlord | 2007-05-14 08:37:13 -0400 (Mon, 14 May 2007) | 1 line
+
+Add --startas back to s-s-d, #175980, #175981.
+------------------------------------------------------------------------
+r2698 | uberlord | 2007-05-14 08:24:18 -0400 (Mon, 14 May 2007) | 2 lines
+
+    Allow time for pidfiles to be created, #178274.
+    Use int instead of char for getopt, #178084 thanks to drizztbsd.
+------------------------------------------------------------------------
+r2697 | uberlord | 2007-05-12 17:37:59 -0400 (Sat, 12 May 2007) | 1 line
+
+Fix forcing preferred APS
+------------------------------------------------------------------------
+r2696 | vapier | 2007-05-12 07:07:04 -0400 (Sat, 12 May 2007) | 1 line
+
+mount nfsd on /proc/fs/nfs automatically
+------------------------------------------------------------------------
+r2695 | uberlord | 2007-05-11 06:33:49 -0400 (Fri, 11 May 2007) | 1 line
+
+Store the defined random pool size, #177722 thanks to Yaroslav Isakov.
+------------------------------------------------------------------------
+r2693 | uberlord | 2007-05-11 04:58:58 -0400 (Fri, 11 May 2007) | 1 line
+
+Use auto for /mnt/cdrom, #177990.
+------------------------------------------------------------------------
+r2692 | uberlord | 2007-05-11 04:58:19 -0400 (Fri, 11 May 2007) | 1 line
+
+Use clock MONOTONIC to timeout, not localtime, #177514
+------------------------------------------------------------------------
+r2691 | uberlord | 2007-05-11 04:57:47 -0400 (Fri, 11 May 2007) | 1 line
+
+Only mount ro on Linux
+------------------------------------------------------------------------
+r2690 | uberlord | 2007-05-08 12:52:26 -0400 (Tue, 08 May 2007) | 1 line
+
+When we don't have an address return 1, #176577.
+------------------------------------------------------------------------
+r2689 | uberlord | 2007-05-05 17:22:46 -0400 (Sat, 05 May 2007) | 1 line
+
+Better fix
+------------------------------------------------------------------------
+r2688 | uberlord | 2007-05-05 16:27:50 -0400 (Sat, 05 May 2007) | 1 line
+
+Fix KV_to_int working with funky kernel versions, #177197.
+------------------------------------------------------------------------
+r2687 | uberlord | 2007-05-05 07:15:07 -0400 (Sat, 05 May 2007) | 1 line
+
+Remove reference to dm-crypt
+------------------------------------------------------------------------
+r2685 | uberlord | 2007-05-04 11:15:11 -0400 (Fri, 04 May 2007) | 3 lines
+
+    Fix unicode keymaps, #173528.
+    Some fonts show the currency symbol instead of the Euro when doing
+    AltGr-E, so we provide an easy setting to fix this. Release alpha2
+------------------------------------------------------------------------
+r2684 | uberlord | 2007-05-03 09:46:38 -0400 (Thu, 03 May 2007) | 1 line
+
+Always pass ttyname to sulogin
+------------------------------------------------------------------------
+r2683 | uberlord | 2007-05-03 08:19:18 -0400 (Thu, 03 May 2007) | 1 line
+
+Only use any when >1 interface
+------------------------------------------------------------------------
+r2682 | uberlord | 2007-05-03 07:43:16 -0400 (Thu, 03 May 2007) | 1 line
+
+Allow ip6to4 tunnels to use any derived address, #170290.
+------------------------------------------------------------------------
+r2681 | uberlord | 2007-05-03 07:21:26 -0400 (Thu, 03 May 2007) | 1 line
+
+dns_sortlist and dns_options now work as documented, #175367.
+------------------------------------------------------------------------
+r2680 | uberlord | 2007-05-03 04:08:59 -0400 (Thu, 03 May 2007) | 1 line
+
+Load the config file before the init script to stop badly coded init scripts from erroring, #176548
+------------------------------------------------------------------------
+r2679 | vapier | 2007-05-03 04:01:26 -0400 (Thu, 03 May 2007) | 1 line
+
+enable ecn cookies by default and disable ip forwarding
+------------------------------------------------------------------------
+r2678 | uberlord | 2007-05-02 11:17:03 -0400 (Wed, 02 May 2007) | 1 line
+
+Don't timeout waiting for checkfs and checkroot. Do a better fix later.
+------------------------------------------------------------------------
+r2677 | uberlord | 2007-05-02 09:07:00 -0400 (Wed, 02 May 2007) | 1 line
+
+We don't have console, so default to no for fsck
+------------------------------------------------------------------------
+r2676 | uberlord | 2007-05-02 08:33:56 -0400 (Wed, 02 May 2007) | 2 lines
+
+    SSD_NICELEVEL can now affect the nicelevel for daemons started
+    by start-stop-daemon, #175397.
+------------------------------------------------------------------------
+r2675 | uberlord | 2007-05-02 07:04:52 -0400 (Wed, 02 May 2007) | 1 line
+
+Correct tabs
+------------------------------------------------------------------------
+r2674 | uberlord | 2007-05-02 06:59:34 -0400 (Wed, 02 May 2007) | 1 line
+
+Don't delete addresses for PPP interfaces, #176764.
+------------------------------------------------------------------------
+r2673 | uberlord | 2007-05-02 06:43:43 -0400 (Wed, 02 May 2007) | 1 line
+
+Stop blindly assuming that a blank TERM is cons25. For cons25 terms we drop one column so we don't get an extra newline.
+------------------------------------------------------------------------
+r2672 | uberlord | 2007-05-01 05:37:14 -0400 (Tue, 01 May 2007) | 1 line
+
+s-s-d with dhcpcd still has some issues, revert until a fix for dhcpcd is made
+------------------------------------------------------------------------
+r2671 | vapier | 2007-04-30 12:22:19 -0400 (Mon, 30 Apr 2007) | 1 line
+
+debugfs support
+------------------------------------------------------------------------
+r2670 | uberlord | 2007-04-30 09:19:26 -0400 (Mon, 30 Apr 2007) | 1 line
+
+Stop using the [ -z "$@" ] test, use [ $# = 0 ] instead, #176554.
+------------------------------------------------------------------------
+r2669 | uberlord | 2007-04-30 09:18:42 -0400 (Mon, 30 Apr 2007) | 1 line
+
+restart/schedule stopped services when the trigger service goes inactive on a restart
+------------------------------------------------------------------------
+r2668 | uberlord | 2007-04-30 09:17:28 -0400 (Mon, 30 Apr 2007) | 1 line
+
+Fix carrier_timeout
+------------------------------------------------------------------------
+r2667 | uberlord | 2007-04-30 05:23:17 -0400 (Mon, 30 Apr 2007) | 1 line
+
+Fix style
+------------------------------------------------------------------------
+r2666 | uberlord | 2007-04-30 05:06:17 -0400 (Mon, 30 Apr 2007) | 2 lines
+
+    /etc/init.d/foo start and stop no longer exit when service is fully
+    started or stopped, #176452.
+------------------------------------------------------------------------
+r2665 | uberlord | 2007-04-27 07:24:05 -0400 (Fri, 27 Apr 2007) | 1 line
+
+env-update now respects COLON_SEPARATED and SPACE_SEPARATED env.d values, #176198.
+------------------------------------------------------------------------
+r2664 | uberlord | 2007-04-26 10:29:15 -0400 (Thu, 26 Apr 2007) | 1 line
+
+Don't dmesg for VPS systems
+------------------------------------------------------------------------
+r2663 | uberlord | 2007-04-26 10:22:54 -0400 (Thu, 26 Apr 2007) | 1 line
+
+Don't dmesg for VPS systems
+------------------------------------------------------------------------
+r2662 | uberlord | 2007-04-26 10:17:15 -0400 (Thu, 26 Apr 2007) | 1 line
+
+Don't sysctl for VPS systems
+------------------------------------------------------------------------
+r2661 | uberlord | 2007-04-26 09:08:34 -0400 (Thu, 26 Apr 2007) | 1 line
+
+File to configure our font as early as possible in init
+------------------------------------------------------------------------
+r2660 | uberlord | 2007-04-26 09:07:57 -0400 (Thu, 26 Apr 2007) | 1 line
+
+checkroot and checkfs now use more friendly generic options, #116016
+------------------------------------------------------------------------
+r2659 | uberlord | 2007-04-26 07:24:07 -0400 (Thu, 26 Apr 2007) | 1 line
+
+Set fonts in init-early.sh, don't stop services twice when shutting down and lock prefixed output.
+------------------------------------------------------------------------
+r2658 | uberlord | 2007-04-26 04:02:21 -0400 (Thu, 26 Apr 2007) | 1 line
+
+Fix early setting of font
+------------------------------------------------------------------------
+r2657 | uberlord | 2007-04-25 14:12:49 -0400 (Wed, 25 Apr 2007) | 1 line
+
+Don't abort select when on signals
+------------------------------------------------------------------------
+r2656 | uberlord | 2007-04-25 11:48:54 -0400 (Wed, 25 Apr 2007) | 1 line
+
+Don't pass $CONSOLE to sulogin and split rc_environ_fd on NULLs
+------------------------------------------------------------------------
+r2655 | uberlord | 2007-04-25 11:42:30 -0400 (Wed, 25 Apr 2007) | 1 line
+
+Fix vservers
+------------------------------------------------------------------------
+r2654 | uberlord | 2007-04-25 08:39:31 -0400 (Wed, 25 Apr 2007) | 1 line
+
+Now that dhcpcd-3 is stable on all arches, use it with start-stop-daemon.
+------------------------------------------------------------------------
+r2653 | uberlord | 2007-04-25 08:32:47 -0400 (Wed, 25 Apr 2007) | 1 line
+
+Fix Makefile to clean and remove .svn when making dist. rc-mount no longer appends -f for linux mount and uses -i instead to ignore helpers
+------------------------------------------------------------------------
+r2652 | uberlord | 2007-04-25 08:30:24 -0400 (Wed, 25 Apr 2007) | 3 lines
+
+    We now have an alternative to buffering stdout and stderr.
+    RC_PREFIX="yes" will put the service name as a prefix to all output
+    made by the service. Thanks to Ciaran McCreesh for the idea.
+------------------------------------------------------------------------
+r2651 | uberlord | 2007-04-25 04:46:41 -0400 (Wed, 25 Apr 2007) | 1 line
+
+quiet clip
+------------------------------------------------------------------------
+r2650 | uberlord | 2007-04-24 07:29:19 -0400 (Tue, 24 Apr 2007) | 1 line
+
+We now buffer stdout and stderr to a file and flush that when running in parallel. RC_PARALLEL_STARTUP has been renamed to RC_PARALLEL.
+------------------------------------------------------------------------
+r2649 | uberlord | 2007-04-23 16:20:40 -0400 (Mon, 23 Apr 2007) | 1 line
+
+Harden unicode settings
+------------------------------------------------------------------------
+r2648 | uberlord | 2007-04-23 13:19:43 -0400 (Mon, 23 Apr 2007) | 1 line
+
+Fix udhcpc for releasing
+------------------------------------------------------------------------
+r2647 | uberlord | 2007-04-23 12:43:52 -0400 (Mon, 23 Apr 2007) | 1 line
+
+Remove debug stuff
+------------------------------------------------------------------------
+r2646 | uberlord | 2007-04-23 12:41:32 -0400 (Mon, 23 Apr 2007) | 1 line
+
+Fix dhclient
+------------------------------------------------------------------------
+r2645 | uberlord | 2007-04-23 03:54:07 -0400 (Mon, 23 Apr 2007) | 1 line
+
+Attempt to fix clip
+------------------------------------------------------------------------
+r2644 | uberlord | 2007-04-21 05:23:37 -0400 (Sat, 21 Apr 2007) | 1 line
+
+error then unlink
+------------------------------------------------------------------------
+r2643 | uberlord | 2007-04-21 04:34:16 -0400 (Sat, 21 Apr 2007) | 1 line
+
+Don't free in vfork
+------------------------------------------------------------------------
+r2642 | uberlord | 2007-04-20 15:03:56 -0400 (Fri, 20 Apr 2007) | 1 line
+
+Style fixes
+------------------------------------------------------------------------
+r2641 | uberlord | 2007-04-20 14:58:42 -0400 (Fri, 20 Apr 2007) | 1 line
+
+Re-work the starting and stopping of services so we always know the pid so we can kill our children without the need for process groups which we cannot use as keyboard will not work in init.
+------------------------------------------------------------------------
+r2640 | uberlord | 2007-04-20 11:02:13 -0400 (Fri, 20 Apr 2007) | 1 line
+
+Fix rc-abort to notify the plugins we are aborting
+------------------------------------------------------------------------
+r2639 | uberlord | 2007-04-20 09:22:27 -0400 (Fri, 20 Apr 2007) | 1 line
+
+exec rc-abort
+------------------------------------------------------------------------
+r2638 | uberlord | 2007-04-20 09:12:21 -0400 (Fri, 20 Apr 2007) | 1 line
+
+Added the rc-abort command, #175106 thanks to Daniel Drake.
+------------------------------------------------------------------------
+r2637 | vapier | 2007-04-20 06:47:24 -0400 (Fri, 20 Apr 2007) | 1 line
+
+Automatically mount selinuxfs on /selinux in localmount.
+------------------------------------------------------------------------
+r2636 | uberlord | 2007-04-20 05:39:47 -0400 (Fri, 20 Apr 2007) | 1 line
+
+Plugins now run in a forked process for extra resliance.
+------------------------------------------------------------------------
+r2635 | uberlord | 2007-04-19 11:31:01 -0400 (Thu, 19 Apr 2007) | 1 line
+
+Fix fstabinfo -p /
+------------------------------------------------------------------------
+r2634 | uberlord | 2007-04-19 10:54:35 -0400 (Thu, 19 Apr 2007) | 1 line
+
+strdup -> rc_xstrdup
+------------------------------------------------------------------------
+r2633 | uberlord | 2007-04-19 10:41:10 -0400 (Thu, 19 Apr 2007) | 1 line
+
+Use RTLD_NOW instead of RTLD_LAZY
+------------------------------------------------------------------------
+r2632 | uberlord | 2007-04-19 09:05:07 -0400 (Thu, 19 Apr 2007) | 1 line
+
+Revert commit as we now remove the dhcp default for ppp links
+------------------------------------------------------------------------
+r2631 | uberlord | 2007-04-19 09:00:59 -0400 (Thu, 19 Apr 2007) | 1 line
+
+Remove default config for ppp
+------------------------------------------------------------------------
+r2630 | uberlord | 2007-04-19 08:55:35 -0400 (Thu, 19 Apr 2007) | 1 line
+
+document config_ppp0=null
+------------------------------------------------------------------------
+r2629 | uberlord | 2007-04-19 08:24:10 -0400 (Thu, 19 Apr 2007) | 1 line
+
+duh, idiot uber
+------------------------------------------------------------------------
+r2628 | uberlord | 2007-04-19 08:09:19 -0400 (Thu, 19 Apr 2007) | 1 line
+
+no need for the sed using printf
+------------------------------------------------------------------------
+r2627 | uberlord | 2007-04-19 08:05:25 -0400 (Thu, 19 Apr 2007) | 1 line
+
+use printf %s
+------------------------------------------------------------------------
+r2626 | uberlord | 2007-04-19 06:52:37 -0400 (Thu, 19 Apr 2007) | 1 line
+
+As pppd is mainly a link controller, move it's startup to pppd_pre_start and have pppd_start as a dummy function for old configs.
+------------------------------------------------------------------------
+r2625 | uberlord | 2007-04-19 03:37:59 -0400 (Thu, 19 Apr 2007) | 1 line
+
+printf is more portable than echo -n
+------------------------------------------------------------------------
+r2624 | uberlord | 2007-04-19 02:46:29 -0400 (Thu, 19 Apr 2007) | 1 line
+
+Fix bridge some more, remove superflous warning from vewarn and error when no interface correctly
+------------------------------------------------------------------------
+r2623 | uberlord | 2007-04-18 10:42:40 -0400 (Wed, 18 Apr 2007) | 1 line
+
+more pppd fixes
+------------------------------------------------------------------------
+r2622 | uberlord | 2007-04-18 10:23:50 -0400 (Wed, 18 Apr 2007) | 1 line
+
+get pppoa the right way around
+------------------------------------------------------------------------
+r2621 | uberlord | 2007-04-18 10:21:25 -0400 (Wed, 18 Apr 2007) | 1 line
+
+Try and fix pppd, thanks to zzam for the patch
+------------------------------------------------------------------------
+r2620 | uberlord | 2007-04-17 16:07:24 -0400 (Tue, 17 Apr 2007) | 1 line
+
+Duh, quote eval properly
+------------------------------------------------------------------------
+r2619 | vapier | 2007-04-17 09:00:05 -0400 (Tue, 17 Apr 2007) | 1 line
+
+remove APPLET check so we can create .depend
+------------------------------------------------------------------------
+r2618 | vapier | 2007-04-17 08:44:32 -0400 (Tue, 17 Apr 2007) | 1 line
+
+start unifying help handling
+------------------------------------------------------------------------
+r2617 | vapier | 2007-04-17 08:21:15 -0400 (Tue, 17 Apr 2007) | 1 line
+
+fix #if handling in get_term_columns
+------------------------------------------------------------------------
+r2616 | uberlord | 2007-04-17 07:27:47 -0400 (Tue, 17 Apr 2007) | 1 line
+
+Fix bridge, vlan and bonding modules to work together, #174792.
+------------------------------------------------------------------------
+r2615 | uberlord | 2007-04-17 05:32:18 -0400 (Tue, 17 Apr 2007) | 1 line
+
+Rationalise our colour usage a little.
+------------------------------------------------------------------------
+r2614 | uberlord | 2007-04-17 03:11:27 -0400 (Tue, 17 Apr 2007) | 1 line
+
+Allow user vars for colours in our shell scripts too
+------------------------------------------------------------------------
+r2613 | uberlord | 2007-04-17 03:06:04 -0400 (Tue, 17 Apr 2007) | 1 line
+
+env vars EINFO_GOOD and friends now override our hardcoded builtins.
+------------------------------------------------------------------------
+r2612 | vapier | 2007-04-16 20:07:09 -0400 (Mon, 16 Apr 2007) | 1 line
+
+Allow addons to pass up their exit status in import_addon.  Simplify /dev handling in init.sh and add mdev as an option.
+------------------------------------------------------------------------
+r2611 | uberlord | 2007-04-16 09:05:33 -0400 (Mon, 16 Apr 2007) | 2 lines
+
+    Punted the volumes init script. Volume handling will be handled by
+    init script that can be run at any point, even before checkroot.
+------------------------------------------------------------------------
+r2610 | uberlord | 2007-04-16 08:56:43 -0400 (Mon, 16 Apr 2007) | 1 line
+
+Don't search for a space after interface names in /proc/net, #174792 thanks to Mike Auty.
+------------------------------------------------------------------------
+r2608 | uberlord | 2007-04-14 05:27:29 -0400 (Sat, 14 Apr 2007) | 1 line
+
+ramfs has no special options
+------------------------------------------------------------------------
+r2607 | uberlord | 2007-04-13 12:00:25 -0400 (Fri, 13 Apr 2007) | 1 line
+
+More basename compliance.
+------------------------------------------------------------------------
+r2606 | uberlord | 2007-04-13 11:23:46 -0400 (Fri, 13 Apr 2007) | 1 line
+
+Punt .depend
+------------------------------------------------------------------------
+r2605 | uberlord | 2007-04-13 11:23:03 -0400 (Fri, 13 Apr 2007) | 1 line
+
+Ignore and clean .depend
+------------------------------------------------------------------------
+r2604 | uberlord | 2007-04-13 11:20:10 -0400 (Fri, 13 Apr 2007) | 1 line
+
+hug getopt_long some more
+------------------------------------------------------------------------
+r2603 | vapier | 2007-04-13 11:09:37 -0400 (Fri, 13 Apr 2007) | 1 line
+
+add basic --help
+------------------------------------------------------------------------
+r2602 | uberlord | 2007-04-13 10:59:51 -0400 (Fri, 13 Apr 2007) | 1 line
+
+ls -l ftw! 
+------------------------------------------------------------------------
+r2601 | vapier | 2007-04-13 10:41:46 -0400 (Fri, 13 Apr 2007) | 1 line
+
+expand dist into "normal" (clean svn), "working" (dirty svn, but export clean svn), and "testing" (export dirty svn)
+------------------------------------------------------------------------
+r2600 | vapier | 2007-04-13 10:36:30 -0400 (Fri, 13 Apr 2007) | 1 line
+
+make distforce a little more robust
+------------------------------------------------------------------------
+r2599 | vapier | 2007-04-13 10:33:22 -0400 (Fri, 13 Apr 2007) | 1 line
+
+use `svn export`
+------------------------------------------------------------------------
+r2598 | vapier | 2007-04-13 10:18:38 -0400 (Fri, 13 Apr 2007) | 1 line
+
+add hidden visibility support to libeinfo as well
+------------------------------------------------------------------------
+r2597 | vapier | 2007-04-13 10:08:16 -0400 (Fri, 13 Apr 2007) | 1 line
+
+kill off internal relocations for librc.so
+------------------------------------------------------------------------
+r2596 | uberlord | 2007-04-13 09:54:53 -0400 (Fri, 13 Apr 2007) | 1 line
+
+Use basename properly
+------------------------------------------------------------------------
+r2595 | vapier | 2007-04-13 09:21:27 -0400 (Fri, 13 Apr 2007) | 1 line
+
+make sure .depend gets regenerated automatically
+------------------------------------------------------------------------
+r2594 | vapier | 2007-04-13 09:20:26 -0400 (Fri, 13 Apr 2007) | 1 line
+
+add .depend / .PHONY support
+------------------------------------------------------------------------
+r2593 | vapier | 2007-04-13 09:06:53 -0400 (Fri, 13 Apr 2007) | 1 line
+
+use CPPFLAGS rather than CFLAGS where appropriate and make LDFLAGS/-rpath dynamic by only enabling when in .svn repo
+------------------------------------------------------------------------
+r2592 | vapier | 2007-04-13 08:59:12 -0400 (Fri, 13 Apr 2007) | 1 line
+
+revert previous commit
+------------------------------------------------------------------------
+r2591 | vapier | 2007-04-13 08:55:43 -0400 (Fri, 13 Apr 2007) | 1 line
+
+dont create .so links as they arent needed for runtime
+------------------------------------------------------------------------
+r2590 | vapier | 2007-04-13 08:39:14 -0400 (Fri, 13 Apr 2007) | 1 line
+
+use ln -sf rather than ln -s incase target exists
+------------------------------------------------------------------------
+r2589 | vapier | 2007-04-13 08:38:00 -0400 (Fri, 13 Apr 2007) | 1 line
+
+add a symlink for update-rc -> rc-update
+------------------------------------------------------------------------
+r2588 | uberlord | 2007-04-13 06:30:57 -0400 (Fri, 13 Apr 2007) | 1 line
+
+netmask -> CIDR is worked out correctly #174341.
+------------------------------------------------------------------------
+r2587 | uberlord | 2007-04-13 05:21:16 -0400 (Fri, 13 Apr 2007) | 1 line
+
+s-s-d now allows --signal to be used without --stop and --oknodo. man page updated accordingly
+------------------------------------------------------------------------
+r2586 | uberlord | 2007-04-13 02:43:00 -0400 (Fri, 13 Apr 2007) | 1 line
+
+Fix module loading, #174360. s-s-d now changes group when changing user, #174362.
+------------------------------------------------------------------------
+r2584 | uberlord | 2007-04-12 11:47:26 -0400 (Thu, 12 Apr 2007) | 1 line
+
+Include old file conf.d/wireless and warn the user
+------------------------------------------------------------------------
+r2583 | uberlord | 2007-04-12 11:44:05 -0400 (Thu, 12 Apr 2007) | 1 line
+
+merge wireless.example into net.example, #174282
+------------------------------------------------------------------------
+r2582 | uberlord | 2007-04-12 09:18:52 -0400 (Thu, 12 Apr 2007) | 1 line
+
+Style updates
+------------------------------------------------------------------------
+r2581 | uberlord | 2007-04-12 06:40:51 -0400 (Thu, 12 Apr 2007) | 1 line
+
+Fix getopt a little
+------------------------------------------------------------------------
+r2580 | uberlord | 2007-04-12 06:08:42 -0400 (Thu, 12 Apr 2007) | 1 line
+
+Hug getopt_long even though it's not POSIX. start-stop-daemon has always required this and all our supported platforms have it.
+------------------------------------------------------------------------
+r2579 | uberlord | 2007-04-11 11:00:22 -0400 (Wed, 11 Apr 2007) | 1 line
+
+Fix the modules init script
+------------------------------------------------------------------------
+r2578 | uberlord | 2007-04-11 10:52:13 -0400 (Wed, 11 Apr 2007) | 1 line
+
+Fix hotplugging of network cards
+------------------------------------------------------------------------
+r2577 | uberlord | 2007-04-11 08:44:47 -0400 (Wed, 11 Apr 2007) | 1 line
+
+Cuddle up to LKML C style
+------------------------------------------------------------------------
+r2576 | uberlord | 2007-04-11 06:47:35 -0400 (Wed, 11 Apr 2007) | 1 line
+
+Correct version
+------------------------------------------------------------------------
+r2575 | uberlord | 2007-04-11 06:46:56 -0400 (Wed, 11 Apr 2007) | 1 line
+
+Release alpha1 of baselayout-2
+------------------------------------------------------------------------
+r2574 | uberlord | 2007-04-11 06:40:53 -0400 (Wed, 11 Apr 2007) | 1 line
+
+Move carrier detection back into net.sh. Reserve a new hook numbers
+------------------------------------------------------------------------
+r2573 | uberlord | 2007-04-11 03:15:02 -0400 (Wed, 11 Apr 2007) | 1 line
+
+Add new service hooks, remove pmake stuff from our Makefile and fix rc_services_in_state for scheduled.
+------------------------------------------------------------------------
+r2572 | uberlord | 2007-04-10 12:11:20 -0400 (Tue, 10 Apr 2007) | 1 line
+
+Change veinfo and friends to einfov. Rationale - we may need veinfo to support va_list in the future.
+------------------------------------------------------------------------
+r2571 | uberlord | 2007-04-10 10:03:37 -0400 (Tue, 10 Apr 2007) | 1 line
+
+int -> time_t
+------------------------------------------------------------------------
+r2570 | uberlord | 2007-04-10 08:41:38 -0400 (Tue, 10 Apr 2007) | 1 line
+
+Fix scanning and clear wepkeys when we start
+------------------------------------------------------------------------
+r2569 | uberlord | 2007-04-10 07:24:58 -0400 (Tue, 10 Apr 2007) | 1 line
+
+Fix indentation
+------------------------------------------------------------------------
+r2568 | uberlord | 2007-04-10 06:50:07 -0400 (Tue, 10 Apr 2007) | 1 line
+
+Apply sysctl if we don't have an init script
+------------------------------------------------------------------------
+r2567 | uberlord | 2007-04-10 06:33:44 -0400 (Tue, 10 Apr 2007) | 1 line
+
+Misc network fixes so we work on my stable server. Splash plugin removed as splashtuils-1.4 now ships with its own.
+------------------------------------------------------------------------
+r2566 | uberlord | 2007-04-09 14:57:57 -0400 (Mon, 09 Apr 2007) | 1 line
+
+duh
+------------------------------------------------------------------------
+r2565 | uberlord | 2007-04-09 14:56:26 -0400 (Mon, 09 Apr 2007) | 1 line
+
+routes_SSID now works, as does iwconfig.sh for BSD
+------------------------------------------------------------------------
+r2564 | uberlord | 2007-04-09 13:11:18 -0400 (Mon, 09 Apr 2007) | 1 line
+
+rc does not need SIGCHLD handler. Also, always return 0 in /etc/rc as non zero for default may freeze system.
+------------------------------------------------------------------------
+r2563 | uberlord | 2007-04-09 12:53:21 -0400 (Mon, 09 Apr 2007) | 1 line
+
+Use names instead of numbers for reporting signals and trap signals in rc
+------------------------------------------------------------------------
+r2562 | uberlord | 2007-04-09 05:59:09 -0400 (Mon, 09 Apr 2007) | 1 line
+
+Ensure fbsd sets up $RUNLEVEL correctly when init changes
+------------------------------------------------------------------------
+r2561 | uberlord | 2007-04-08 13:39:59 -0400 (Sun, 08 Apr 2007) | 1 line
+
+Only use some gcc flags if gcc actually supports them.
+------------------------------------------------------------------------
+r2560 | uberlord | 2007-04-08 12:03:48 -0400 (Sun, 08 Apr 2007) | 1 line
+
+LIBDIR -> LIB. When interuppted, ensure service state is restored correctly. When stopping, don't uncoldplug too early.
+------------------------------------------------------------------------
+r2559 | uberlord | 2007-04-07 06:38:40 -0400 (Sat, 07 Apr 2007) | 1 line
+
+Move env-update back to /sbin as everything non baselayout expects it in $PATH, including our documentation
+------------------------------------------------------------------------
+r2558 | vapier | 2007-04-07 05:28:00 -0400 (Sat, 07 Apr 2007) | 1 line
+
+modules-update -> update-modules
+------------------------------------------------------------------------
+r2556 | uberlord | 2007-04-07 04:46:42 -0400 (Sat, 07 Apr 2007) | 1 line
+
+We don't use err.h
+------------------------------------------------------------------------
+r2555 | uberlord | 2007-04-06 19:04:38 -0400 (Fri, 06 Apr 2007) | 1 line
+
+Remove this until we can make it work properly - ie not hangup when cable goes in/out
+------------------------------------------------------------------------
+r2554 | uberlord | 2007-04-06 15:38:23 -0400 (Fri, 06 Apr 2007) | 1 line
+
+Use character classes in sed
+------------------------------------------------------------------------
+r2553 | uberlord | 2007-04-06 04:37:15 -0400 (Fri, 06 Apr 2007) | 1 line
+
+snprintf is better
+------------------------------------------------------------------------
+r2552 | uberlord | 2007-04-06 04:24:48 -0400 (Fri, 06 Apr 2007) | 1 line
+
+strcpy is bad
+------------------------------------------------------------------------
+r2551 | uberlord | 2007-04-05 21:07:10 -0400 (Thu, 05 Apr 2007) | 1 line
+
+Punt the rc-depend man page as it's been moved out of /usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.1.2:/usr/kde/3.5/bin:/usr/qt/3/bin:/usr/games/bin
+------------------------------------------------------------------------
+r2550 | uberlord | 2007-04-05 21:04:07 -0400 (Thu, 05 Apr 2007) | 1 line
+
+Misc fixes, plugged a memory leak in runscript.c and use va_copy to avoid nasty segfaults
+------------------------------------------------------------------------
+r2549 | uberlord | 2007-04-05 11:01:09 -0400 (Thu, 05 Apr 2007) | 1 line
+
+We now compile on OpenBSD (no idea if it works or not yet)
+------------------------------------------------------------------------
+r2548 | uberlord | 2007-04-05 07:42:21 -0400 (Thu, 05 Apr 2007) | 1 line
+
+Superfluous CFLAGS
+------------------------------------------------------------------------
+r2547 | uberlord | 2007-04-05 07:18:42 -0400 (Thu, 05 Apr 2007) | 21 lines
+
+    Rewrite the core parts in C. We now provide librc so other programs can
+    query runlevels, services and state without using bash. We also provide
+    libeinfo so other programs can easily use our informational functions.
+
+    As such, we have dropped the requirement of using bash as the init script
+    shell. We now use /bin/sh and have strived to make the scripts as portable
+    as possible. Shells that work are bash and dash. busybox works provided
+    you disable s-s-d. If you have WIPE_TMP set to yes in conf.d/bootmisc you
+    should disable find too.
+    zsh and ksh do not work at this time.
+
+    Networking support is currently being re-vamped also as it was heavily bash
+    array based. As such, a new config format is available like so
+    config_eth0="1.2.3.4/24 5.6.7.8/16"
+    or like so
+    config_eth0="'1.2.3.4 netmask 255.255.255.0' '5.6.7.8 netmask 255.255.0.0'"
+
+    We will still support the old bash array format provided that /bin/sh IS
+    a link it bash.
+
+    ChangeLog for baselayout-1 can be found in our SVN repo.
+------------------------------------------------------------------------

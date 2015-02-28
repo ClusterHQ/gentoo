@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install test unpack
+DEPEND=dev-db/cdb >=dev-libs/bglibs-1.041 mysql? ( virtual/mysql ) postgres? ( dev-db/postgresql-server ) test? ( app-editors/vim )
+DESCRIPTION=Credential Validation Modules by Bruce Guenter
+HOMEPAGE=http://untroubled.org/cvm/
+IUSE=mysql postgres test
+KEYWORDS=ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-db/cdb
+SLOT=0
+SRC_URI=http://untroubled.org/cvm/archive/cvm-0.76.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=360c0fbfdd9510a32d24514a0b258308

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 >=dev-java/jdom-1.0:1.0 >=dev-java/kunststoff-2.0.2:2.0 dev-java/poi:0 dev-java/sax:0 >=dev-java/xerces-2.7:2 dev-java/xml-commons:0 firebird? ( dev-java/jdbc-jaybird:0 ) mssql? ( >=dev-java/jtds-1.2:1.2 ) mysql? ( dev-java/jdbc-mysql:0 ) postgres? ( dev-java/jdbc-postgresql:0 ) !firebird? ( !mssql? ( !postgres? ( dev-java/jdbc-mysql:0 ) ) ) !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 >=sys-apps/portage-2.1.2.7 ) >=dev-java/ant-core-1.8.2 >=sys-apps/portage-2.1.2.7 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Java based Database Explorer
+EAPI=1
+HOMEPAGE=http://jxtray.sourceforge.net
+IUSE=doc firebird mssql mysql postgres elibc_FreeBSD elibc_FreeBSD
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.4 >=dev-java/jdom-1.0:1.0 >=dev-java/kunststoff-2.0.2:2.0 dev-java/poi:0 dev-java/sax:0 >=dev-java/xerces-2.7:2 dev-java/xml-commons:0 firebird? ( dev-java/jdbc-jaybird:0 ) mssql? ( >=dev-java/jtds-1.2:1.2 ) mysql? ( dev-java/jdbc-mysql:0 ) postgres? ( dev-java/jdbc-postgresql:0 ) !firebird? ( !mssql? ( !postgres? ( dev-java/jdbc-mysql:0 ) ) ) !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 >=sys-apps/portage-2.1.2.7 )
+SLOT=0
+SRC_URI=mirror://sourceforge/jxtray/jxtray-src-0.5.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	java-ant-2	7d26b85ec9c11fb0a78ac321e23ac384	java-pkg-2	65bbb59987d777c1106ae8aa4bf36e7b	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=1b4a12a41cadfba016529d0d96e5873c

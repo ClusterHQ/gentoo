@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=virtual/pkgconfig virtual/pkgconfig
+DESCRIPTION=Linux kernel laptop_mode user-space utilities
+EAPI=5
+HOMEPAGE=http://www.samwel.tk/laptop_mode/
+IUSE=+acpi apm bluetooth scsi
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=net-wireless/wireless-tools sys-apps/iproute2 sys-apps/ethtool sys-apps/hdparm sys-apps/which acpi? ( sys-power/acpid ) apm? ( sys-apps/apmd ) bluetooth? ( net-wireless/bluez:= ) scsi? ( sys-apps/sdparm )
+SLOT=0
+SRC_URI=http://www.samwel.tk/laptop_mode/tools/downloads/laptop-mode-tools_1.65.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	udev	da001465a2e939c93f7ae16947ce3438
+_md5_=96055cfda5b22f802b2821d50f30ccfd

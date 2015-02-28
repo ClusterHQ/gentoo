@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Perl extension for rxvt-unicode to change the font size on the fly
+EAPI=5
+HOMEPAGE=https://github.com/majutsushi/urxvt-font-size/
+KEYWORDS=amd64 ~x86
+LICENSE=MIT
+RDEPEND=x11-apps/xlsfonts x11-terms/rxvt-unicode[perl]
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~radhermit/dist/urxvt-font-size-20140501.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=9160e0529cbf55fa10f8da01cd75773d

@@ -1,0 +1,28 @@
+# ChangeLog for dev-python/websockify
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/websockify/ChangeLog,v 1.5 2013/09/05 20:44:13 prometheanfire Exp $
+
+*websockify-0.5.1 (05 Sep 2013)
+
+  05 Sep 2013; Matthew Thode <prometheanfire@gentoo.org>
+  +websockify-0.5.1.ebuild:
+  updating websockify to 0.5.1 for sys-cluster/nova
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> websockify-0.3.0.ebuild,
+  websockify-0.4.1.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*websockify-0.3.0 (09 Jun 2013)
+
+  09 Jun 2013; Matthew Thode <prometheanfire@gentoo.org>
+  +websockify-0.3.0.ebuild:
+  packaging the correct version for sys-cluster/nova-2013.1.x
+
+  26 Apr 2013; Patrick Lauer <patrick@gentoo.org> websockify-0.4.1.ebuild:
+  Use tarballs instead of pulling from git
+
+*websockify-0.4.1 (10 Apr 2013)
+
+  10 Apr 2013; Matthew Thode <prometheanfire@gentoo.org> +metadata.xml,
+  +websockify-0.4.1.ebuild:
+  adding websockify for nova

@@ -1,0 +1,24 @@
+# ChangeLog for sci-biology/fasttree
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sci-biology/fasttree/ChangeLog,v 1.4 2013/12/20 09:20:44 jlec Exp $
+
+*fasttree-2.1.7 (20 Dec 2013)
+
+  20 Dec 2013; Justin Lecher <jlec@gentoo.org> +fasttree-2.1.7.ebuild,
+  +files/CMakeLists.txt, metadata.xml:
+  Version BUmp, #494662
+
+  11 Mar 2013; Justin Lecher <jlec@gentoo.org> metadata.xml:
+  Drop Andrey as maintainer so that bugs get assigned to sci-biology directly
+
+  20 Jun 2010; Kacper Kowalik <xarthisius@gentoo.org> fasttree-2.0.1.ebuild,
+  +files/fasttree-2.0.1-asneeded.patch:
+  Respect FLAGS and fix as-needed issues wrt bug 295199. Thanks Diego for
+  reporting.
+
+*fasttree-2.0.1 (10 Sep 2009)
+
+  10 Sep 2009; Andrey Kislyuk <weaver@gentoo.org> +metadata.xml,
+  +fasttree-2.0.1.ebuild:
+  New package, ebuild written by me
+

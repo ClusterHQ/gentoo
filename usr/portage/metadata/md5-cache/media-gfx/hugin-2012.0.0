@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=!!dev-util/cocom app-arch/zip dev-cpp/tclap >=dev-libs/boost-1.49.0-r1 dev-libs/zthread >=media-gfx/enblend-4.0 media-gfx/exiv2 media-libs/freeglut media-libs/glew media-libs/lensfun >=media-libs/libpano13-2.9.18 media-libs/libpng media-libs/openexr media-libs/tiff sys-libs/zlib virtual/jpeg x11-libs/wxGTK:2.8[X,opengl,-odbc] lapack? ( virtual/lapack ) sift? ( media-gfx/autopano-sift-C ) virtual/pkgconfig python? ( >=dev-lang/swig-2.0.4 ) python? ( || ( =dev-lang/python-3* =dev-lang/python-2.7* =dev-lang/python-2.6* ) ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=GUI for the creation & processing of panoramic images
+EAPI=3
+HOMEPAGE=http://hugin.sf.net
+IUSE=lapack python sift linguas_bg linguas_ca linguas_cs linguas_da linguas_de linguas_en_GB linguas_es linguas_fi linguas_fr linguas_hu linguas_it linguas_ja linguas_ko linguas_nl linguas_pl linguas_pt_BR linguas_ro linguas_ru linguas_sk linguas_sl linguas_sv linguas_uk linguas_zh_CN linguas_zh_TW
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2 SIFT
+RDEPEND=!!dev-util/cocom app-arch/zip dev-cpp/tclap >=dev-libs/boost-1.49.0-r1 dev-libs/zthread >=media-gfx/enblend-4.0 media-gfx/exiv2 media-libs/freeglut media-libs/glew media-libs/lensfun >=media-libs/libpano13-2.9.18 media-libs/libpng media-libs/openexr media-libs/tiff sys-libs/zlib virtual/jpeg x11-libs/wxGTK:2.8[X,opengl,-odbc] lapack? ( virtual/lapack ) sift? ( media-gfx/autopano-sift-C ) media-libs/exiftool python? ( || ( =dev-lang/python-3* =dev-lang/python-2.7* =dev-lang/python-2.6* ) )
+SLOT=0
+SRC_URI=mirror://sourceforge/hugin/hugin-2012.0.0.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f	wxwidgets	6d6eec2685256d35511e7b6d5461bec9
+_md5_=80d698bdb5bb23718feb824323351612

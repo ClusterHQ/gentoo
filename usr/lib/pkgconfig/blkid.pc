@@ -1,0 +1,11 @@
+prefix=/home/core/gentoo/usr
+exec_prefix=/home/core/gentoo/usr
+libdir=/home/core/gentoo/usr/lib
+includedir=/home/core/gentoo/usr/include
+
+Name: blkid
+Description: Block device id library
+Version: 2.25.0
+Requires.private: uuid
+Cflags: -I${includedir}/blkid
+Libs: -L${libdir} -lblkid

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/libmikmod media-libs/libogg >=media-libs/libpng-1.4 media-libs/libsdl[X,sound,joystick,video] media-libs/libvorbis media-libs/sdl-image[png] sys-libs/zlib opengl? ( virtual/opengl ) virtual/pkgconfig
+DESCRIPTION=The Ur-Quan Masters: Port of Star Control 2
+EAPI=2
+HOMEPAGE=http://sc2.sourceforge.net/
+IUSE=music opengl remix voice
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libmikmod media-libs/libogg >=media-libs/libpng-1.4 media-libs/libsdl[X,sound,joystick,video] media-libs/libvorbis media-libs/sdl-image[png] sys-libs/zlib opengl? ( virtual/opengl )
+SLOT=0
+SRC_URI=mirror://sourceforge/sc2/uqm-0.7.0-source.tgz mirror://sourceforge/sc2/uqm-0.7.0-content.uqm music? ( mirror://sourceforge/sc2/uqm-0.7.0-3domusic.uqm ) voice? ( mirror://sourceforge/sc2/uqm-0.7.0-voice.uqm ) remix? ( mirror://sourceforge/sc2/uqm-remix-disc1.uqm mirror://sourceforge/sc2/uqm-remix-disc2.uqm mirror://sourceforge/sc2/uqm-remix-disc3.uqm )
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=b4e442a6ab4798bb6662994f8a1b1c7e

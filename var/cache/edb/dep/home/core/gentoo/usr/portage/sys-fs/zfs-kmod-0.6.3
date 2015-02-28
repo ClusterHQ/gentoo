@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
+DEPEND==sys-kernel/spl-0.6.3* dev-lang/perl virtual/awk kernel_linux? ( virtual/modutils ) sys-apps/sed kernel_linux? ( virtual/linux-sources ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=Linux ZFS kernel module for sys-fs/zfs
+EAPI=4
+HOMEPAGE=http://zfsonlinux.org/
+IUSE=custom-cflags debug +rootfs kernel_linux
+KEYWORDS=~amd64
+LICENSE=CDDL debug? ( GPL-2+ )
+RDEPEND==sys-kernel/spl-0.6.3* dev-lang/perl virtual/awk !sys-fs/zfs-fuse kernel_linux? ( virtual/modutils )
+RESTRICT=debug? ( strip ) test
+SLOT=0
+SRC_URI=https://github.com/zfsonlinux/zfs/archive/zfs-0.6.3.tar.gz
+_eclasses_=autotools	/home/core/gentoo/usr/portage/eclass	1407830722	autotools-utils	/home/core/gentoo/usr/portage/eclass	1406849488	eutils	/home/core/gentoo/usr/portage/eclass	1405067478	flag-o-matic	/home/core/gentoo/usr/portage/eclass	1400789085	libtool	/home/core/gentoo/usr/portage/eclass	1405067479	linux-info	/home/core/gentoo/usr/portage/eclass	1403942478	linux-mod	/home/core/gentoo/usr/portage/eclass	1389733280	multilib	/home/core/gentoo/usr/portage/eclass	1405067479	multiprocessing	/home/core/gentoo/usr/portage/eclass	1405067479	prefix	/home/core/gentoo/usr/portage/eclass	1263406269	toolchain-funcs	/home/core/gentoo/usr/portage/eclass	1390552132	versionator	/home/core/gentoo/usr/portage/eclass	1405067480
+_mtime_=1411046585

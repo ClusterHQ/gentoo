@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst postrm prepare
+DEPEND=virtual/latex-base dev-texlive/texlive-pstricks dev-texlive/texlive-pictures dev-texlive/texlive-latexextra dev-tex/xcolor emacs? ( virtual/emacs ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13:1.13 >=sys-devel/automake-1.14:1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=2- and 3-D plotter for creating images (to be used in LaTeX)
+EAPI=5
+HOMEPAGE=http://mathcs.holycross.edu/~ahwang/current/ePiX.html
+IUSE=doc emacs examples
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=virtual/latex-base dev-texlive/texlive-pstricks dev-texlive/texlive-pictures dev-texlive/texlive-latexextra dev-tex/xcolor emacs? ( virtual/emacs )
+SLOT=0
+SRC_URI=http://mathcs.holycross.edu/~ahwang/epix/epix-1.2.11_withpdf.tar.bz2
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	bash-completion-r1	c8399c7c7ecbcf7ed6e5bd3abb3d4af3	elisp-common	1aa23b3de5dae55456fa2071428eb5bf	eutils	06133990e861be0fe60c2b428fd025d9	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=fe3a3dac43f819a4816060620eaf5298

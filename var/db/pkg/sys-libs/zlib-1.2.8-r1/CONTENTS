@@ -1,0 +1,24 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/zlib-1.2.8-r1
+obj /home/core/gentoo/usr/share/doc/zlib-1.2.8-r1/rfc1952.txt.bz2 ad8beb5ec4ab80b62a9fcceec1cd16d8 1410958922
+obj /home/core/gentoo/usr/share/doc/zlib-1.2.8-r1/README.bz2 1a46f110ab033b71d5be3003e1b0e605 1410958922
+obj /home/core/gentoo/usr/share/doc/zlib-1.2.8-r1/algorithm.txt.bz2 61853746dec9ebb2221d220d350269cc 1410958922
+obj /home/core/gentoo/usr/share/doc/zlib-1.2.8-r1/txtvsbin.txt.bz2 7158d1948b3e84a3aab311f51ff23ce6 1410958922
+obj /home/core/gentoo/usr/share/doc/zlib-1.2.8-r1/FAQ.bz2 67829bfe237cad9747279a9413ea4a45 1410958922
+obj /home/core/gentoo/usr/share/doc/zlib-1.2.8-r1/ChangeLog.bz2 88b8c16318eae5826bada2296a60ea85 1410958922
+obj /home/core/gentoo/usr/share/doc/zlib-1.2.8-r1/rfc1951.txt.bz2 ae9d5af5197cb1212b22fe81259959a5 1410958922
+obj /home/core/gentoo/usr/share/doc/zlib-1.2.8-r1/rfc1950.txt.bz2 f8a202b177cd70b346552b82dda01d34 1410958922
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man3
+obj /home/core/gentoo/usr/share/man/man3/zlib.3.bz2 76d849f6d9a7015df0251569cb68076f 1410958921
+dir /home/core/gentoo/usr/lib
+sym /home/core/gentoo/usr/lib/libz.so.1 -> libz.so.1.2.8 1410959031
+obj /home/core/gentoo/usr/lib/libz.so.1.2.8 da4219585233e8dc6c54e86d6320ce67 1410958923
+sym /home/core/gentoo/usr/lib/libz.so -> libz.so.1.2.8 1410959031
+dir /home/core/gentoo/usr/lib/pkgconfig
+obj /home/core/gentoo/usr/lib/pkgconfig/zlib.pc f5076934f8e7611557f9480354d22fe7 1410958922
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/zlib.h 8fe6e3797b31d60fcf995cd3e5ccb8b8 1410958922
+obj /home/core/gentoo/usr/include/zconf.h 03797be958cc00f80a8d4486b11b8ab6 1410958922

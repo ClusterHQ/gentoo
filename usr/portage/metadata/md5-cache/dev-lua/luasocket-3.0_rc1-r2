@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install
+DEPEND=>=dev-lang/lua-5.1[deprecated] virtual/pkgconfig
+DESCRIPTION=Networking support library for the Lua language
+EAPI=5
+HOMEPAGE=http://www.tecgraf.puc-rio.br/~diego/professional/luasocket/
+IUSE=debug
+KEYWORDS=amd64 ~arm ~hppa ~mips x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/lua-5.1[deprecated]
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/diegonehab/luasocket/archive/v3.0-rc1.tar.gz -> luasocket-3.0_rc1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=10ff58a47fdeab4a32f664447aaa34cd

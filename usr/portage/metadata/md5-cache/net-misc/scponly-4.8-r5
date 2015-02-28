@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile config configure install postinst prepare
+DEPEND=sys-apps/sed net-misc/openssh quota? ( sys-fs/quota ) rsync? ( net-misc/rsync ) subversion? ( dev-vcs/subversion )
+DESCRIPTION=A tiny pseudoshell which only permits scp and sftp
+EAPI=5
+HOMEPAGE=http://www.sublimation.org/scponly/
+IUSE=+sftp scp winscp gftp rsync unison subversion wildcards quota passwd logging
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=BSD-2
+RDEPEND=sys-apps/sed net-misc/openssh quota? ( sys-fs/quota ) rsync? ( net-misc/rsync ) subversion? ( dev-vcs/subversion )
+REQUIRED_USE=|| ( sftp scp winscp rsync unison subversion )
+SLOT=0
+SRC_URI=mirror://sourceforge/scponly/scponly-4.8.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	readme.gentoo	106edea5533517715013de909a333abd	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=9ce21f4eb5e29df013c2184c6f02f143

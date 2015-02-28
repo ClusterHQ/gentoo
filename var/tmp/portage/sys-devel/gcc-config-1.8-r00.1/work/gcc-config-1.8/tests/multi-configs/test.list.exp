@@ -1,0 +1,10 @@
+Using gcc-config info in @ROOT@/
+ [1] arm-none-eabi-4.5.3
+
+ [2] arm-unknown-linux-gnu-4.5.3
+
+ [3] arm-unknown-linux-gnueabi-4.5.3
+
+ [4] x86_64-pc-linux-gnu-4.6.0
+ [5] x86_64-pc-linux-gnu-4.6.1
+ [6] x86_64-pc-linux-gnu-4.6.2 *

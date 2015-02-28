@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=x11-libs/libX11 amd64? ( >=app-emulation/emul-linux-x86-xlibs-1.0 )
+DESCRIPTION=PC remake of the spectrum game, Head Over Heels
+HOMEPAGE=http://retrospec.sgn.net/games/hoh/
+KEYWORDS=amd64 x86
+LICENSE=free-noncomm
+RDEPEND=x11-libs/libX11 amd64? ( >=app-emulation/emul-linux-x86-xlibs-1.0 )
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://retrospec.sgn.net/download.php?id=63\&path=games/hoh/bin/hohlin-101.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=5a0cafdd8e065f9c5351e8841b5388ce

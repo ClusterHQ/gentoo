@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prerm unpack
+DEPEND=>=dev-lisp/common-lisp-controller-4 doc? ( virtual/latex-base ) >=x11-libs/motif-2.3:0 sys-devel/bc
+DESCRIPTION=CMU Common Lisp is an implementation of ANSI Common Lisp
+EAPI=1
+HOMEPAGE=http://www.cons.org/cmucl/ http://packages.debian.org/unstable/devel/cmucl.html
+IUSE=doc nosource
+KEYWORDS=x86
+LICENSE=public-domain
+RDEPEND=>=dev-lisp/common-lisp-controller-4 doc? ( virtual/latex-base ) >=x11-libs/motif-2.3:0 sys-devel/bc
+SLOT=0
+SRC_URI=mirror://gentoo/cmucl_19c-release-20051115.orig.tar.gz mirror://gentoo/cmucl_19c-release-20051115-1.diff.gz mirror://gentoo/cmucl-19c-x86-linux.tar.bz2
+_eclasses_=common-lisp-common-2	fc84d1c8b8f834395bffa96a494aabe4	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=fbe5761e438153006408d17800b15d84

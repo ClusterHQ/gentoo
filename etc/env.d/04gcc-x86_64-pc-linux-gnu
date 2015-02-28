@@ -1,0 +1,6 @@
+PATH="/home/core/gentoo/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3"
+ROOTPATH="/home/core/gentoo/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3"
+GCC_SPECS=""
+MANPATH="/home/core/gentoo/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/man"
+INFOPATH="/home/core/gentoo/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/info"
+LDPATH="/home/core/gentoo/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3"

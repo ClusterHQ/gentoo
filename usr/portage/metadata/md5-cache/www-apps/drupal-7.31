@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) >=app-admin/webapp-config-1.50.15
+DESCRIPTION=PHP-based open-source platform and content management system
+EAPI=5
+HOMEPAGE=http://drupal.org/
+IUSE=+accelerator +mysql postgres sqlite +uploadprogress vhosts
+KEYWORDS=~alpha ~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/php[gd,hash,pdo,postgres?,simplexml,xml] virtual/httpd-php accelerator? ( || ( ( <dev-lang/php-5.5 dev-php/pecl-apc ) dev-php/xcache dev-php/eaccelerator ( >=dev-lang/php-5.5[opcache] dev-php/pecl-apcu ) ) ) uploadprogress? ( dev-php/pecl-uploadprogress ) mysql? ( || ( dev-lang/php[mysql] dev-lang/php[mysqli] ) ) sqlite? ( || ( dev-lang/php[sqlite] dev-lang/php[sqlite3] ) ) >=app-admin/webapp-config-1.50.15
+REQUIRED_USE=|| ( mysql postgres sqlite )
+SLOT=7.31
+SRC_URI=http://drupal.org/files/projects/drupal-7.31.tar.gz
+_eclasses_=webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=c5204d627bc4366608cea5b84dfe604a

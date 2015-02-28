@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=dev-lang/perl dev-vcs/subversion
+DESCRIPTION=Subversion output colorizer
+EAPI=3
+HOMEPAGE=http://colorsvn.tigris.org
+KEYWORDS=amd64 x86 ~x64-macos ~x86-macos
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl dev-vcs/subversion
+SLOT=0
+SRC_URI=http://www.console-colors.de/downloads/colorsvn/colorsvn-0.3.2.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=473ccc7c0b27455901682cd75da4b16d

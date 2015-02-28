@@ -1,0 +1,31 @@
+# ChangeLog for app-crypt/ophcrack-tables
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-crypt/ophcrack-tables/ChangeLog,v 1.6 2014/04/05 12:30:23 zerochaos Exp $
+
+  05 Apr 2014; Rick Farina <zerochaos@gentoo.org> ophcrack-tables-1.0-r2.ebuild:
+  at least one use flag required or there is nothing to install and it dies
+
+*ophcrack-tables-1.0-r2 (02 Apr 2014)
+
+  02 Apr 2014; Tom Wijsman <TomWij@gentoo.org> +ophcrack-tables-1.0-r2.ebuild,
+  -ophcrack-tables-1.0-r1.ebuild, -ophcrack-tables-1.0.ebuild:
+  [QA] Revision bump to 1.0-r2. EAPI 5 and Prefix support, added die to cd and
+  cp call.
+
+  31 Oct 2009; Mike Auty <ikelos@gentoo.org> ophcrack-tables-1.0.ebuild,
+  ophcrack-tables-1.0-r1.ebuild:
+  Add unzip to DEPEND for ophcrack-tables (bug 289545).
+
+*ophcrack-tables-1.0-r1 (14 Sep 2008)
+
+  14 Sep 2008; Mike Auty <ikelos@gentoo.org> +ophcrack-tables-1.0-r1.ebuild:
+  Fix up broken quoting that made the installs pointless.
+
+  24 Jul 2008; Doug Goldstein <cardoe@gentoo.org> metadata.xml:
+  add GLEP 56 USE flag desc from use.local.desc
+
+*ophcrack-tables-1.0 (21 Jul 2008)
+
+  21 Jul 2008; Mike Auty <ikelos@gentoo.org> +metadata.xml,
+  +ophcrack-tables-1.0.ebuild:
+  Initial commit of split-out ophcrack tables.

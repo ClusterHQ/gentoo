@@ -1,0 +1,14 @@
+#!/home/core/gentoo/bin/bash
+# Copyright 1999-2012 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+source "${PORTAGE_BIN_PATH:-/home/core/gentoo/usr/lib/portage/bin}"/isolated-functions.sh
+
+if ! ___eapi_has_prefix_variables; then
+	ED=${D}
+fi
+
+install -d ${DIROPTIONS} "${@/#/${ED}/}"
+ret=$?
+[[ $ret -ne 0 ]] && __helpers_die "${0##*/} failed"
+exit $ret

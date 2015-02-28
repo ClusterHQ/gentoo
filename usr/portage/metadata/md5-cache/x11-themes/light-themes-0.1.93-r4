@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DEPEND=app-arch/xz-utils
+DESCRIPTION=GTK2/GTK3 Ambiance and Radiance themes from Ubuntu
+EAPI=5
+HOMEPAGE=https://launchpad.net/light-themes
+IUSE=gtk3
+KEYWORDS=amd64 x86
+LICENSE=CC-BY-SA-3.0 CC-BY-SA-4.0
+RDEPEND=x11-themes/gtk-engines-murrine gtk3? ( x11-themes/gtk-engines-unico )
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/main/l/light-themes/light-themes_0.1.93.tar.gz http://dev.gentoo.org/~pacho/light-themes/Gentoo-Buttons-r1.tar.xz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=012591df634c533bea21138cd3a8cc9f

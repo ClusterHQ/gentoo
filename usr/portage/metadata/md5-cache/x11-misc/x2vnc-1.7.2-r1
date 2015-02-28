@@ -1,0 +1,12 @@
+DEFINED_PHASES=install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXScrnSaver x11-libs/libXext x11-libs/libXinerama x11-proto/scrnsaverproto x11-proto/xproto x11-proto/xineramaproto tk? ( dev-tcltk/expect )
+DESCRIPTION=Control a remote computer running VNC from X
+HOMEPAGE=http://fredrik.hubbe.net/x2vnc.html
+IUSE=tk
+KEYWORDS=alpha amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXScrnSaver x11-libs/libXext x11-libs/libXinerama
+SLOT=0
+SRC_URI=http://fredrik.hubbe.net/x2vnc/x2vnc-1.7.2.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7f29ef2da7bc3d8c060f39b802641c07

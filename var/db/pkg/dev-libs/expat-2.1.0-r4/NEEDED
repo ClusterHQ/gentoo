@@ -1,0 +1,4 @@
+/home/core/gentoo/usr/lib/libexpat.so.1.6.0 libc.so.6
+/home/core/gentoo/usr/lib/libexpatw.so.1.6.0 libc.so.6
+/home/core/gentoo/usr/lib/libexpatu.so.1.6.0 libc.so.6
+/home/core/gentoo/usr/bin/xmlwf libexpat.so.1,libc.so.6

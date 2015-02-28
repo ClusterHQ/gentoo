@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc-config -C -l "$@"
+[[ $? -ne 0 ]]

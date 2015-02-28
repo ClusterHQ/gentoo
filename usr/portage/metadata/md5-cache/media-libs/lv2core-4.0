@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install
+DESCRIPTION=LV2 is a simple but extensible successor of LADSPA
+EAPI=2
+HOMEPAGE=http://lv2plug.in/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=LGPL-2.1 MIT
+RDEPEND=!<media-libs/slv2-0.4.2
+SLOT=0
+SRC_URI=http://lv2plug.in/spec/lv2core-4.0.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=63fb48cd2fee7cb1b8fbbf69b6cf8f5e

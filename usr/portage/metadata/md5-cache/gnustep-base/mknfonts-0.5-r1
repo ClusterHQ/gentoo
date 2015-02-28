@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=gnustep-base/gnustep-gui >=media-libs/freetype-2.1
+DESCRIPTION=A tool to create .nfont packages for use with gnustep-back-art
+HOMEPAGE=http://packages.debian.org/mknfonts.tool
+IUSE=debug doc
+KEYWORDS=~alpha amd64 ppc sparc x86 ~amd64-linux ~x86-linux ~x86-solaris
+LICENSE=GPL-2
+RDEPEND=gnustep-base/gnustep-gui >=media-libs/freetype-2.1
+SLOT=0
+SRC_URI=mirror://debian/pool/main/m/mknfonts.tool/mknfonts.tool_0.5.orig.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnustep-base	94ae60344fbcafb38eebb75c0ad67909	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=a94c6c32f8386bec72da06412c882b8c

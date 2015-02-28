@@ -1,0 +1,1 @@
+>=sys-devel/binutils-2.18 >=sys-apps/sed-4 sys-devel/gnuconfig sys-libs/zlib sys-devel/gettext virtual/libiconv >=dev-libs/gmp-4.3.2 >=dev-libs/mpfr-2.4.2 >=dev-libs/mpc-0.8.1 >=sys-devel/bison-1.875 >=sys-devel/flex-2.5.4

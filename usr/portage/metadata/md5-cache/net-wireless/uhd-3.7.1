@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=virtual/libusb:1 dev-libs/boost:= dev-python/cheetah sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Universal Software Radio Peripheral (USRP) Hardware Driver
+EAPI=5
+HOMEPAGE=http://code.ettus.com/redmine/ettus/projects/uhd/wiki
+IUSE=python_targets_python2_7 python_single_target_python2_7
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=GPL-3
+RDEPEND=virtual/libusb:1 dev-libs/boost:=
+SLOT=0/1
+SRC_URI=https://github.com/EttusResearch/uhd/archive/release_003_007_001.tar.gz -> EttusResearch-UHD-3.7.1.tar.gz http://files.ettus.com/binaries/maint_images/archive/uhd-images_003.007.001-release.tar.gz
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python-single-r1	a71a169a881e0a11d04a7fe12dc39f6e	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=92fb46880a27f7fbd30469e56a2823cf

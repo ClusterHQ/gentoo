@@ -1,0 +1,22 @@
+# ChangeLog for net-libs/libprotoident
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/net-libs/libprotoident/ChangeLog,v 1.4 2014/07/18 15:24:36 jer Exp $
+
+  18 Jul 2014; Jeroen Roovers <jer@gentoo.org> -libprotoident-2.0.6.ebuild,
+  libprotoident-2.0.7.ebuild:
+  Old.
+
+*libprotoident-2.0.7 (06 Nov 2013)
+
+  06 Nov 2013; Tim Harder <radhermit@gentoo.org> +libprotoident-2.0.7.ebuild:
+  Version bump.
+
+  29 Jan 2013; Tim Harder <radhermit@gentoo.org> metadata.xml:
+  Fix metadata.
+
+*libprotoident-2.0.6 (27 Jan 2013)
+
+  27 Jan 2013; Tim Harder <radhermit@gentoo.org> +libprotoident-2.0.6.ebuild,
+  +metadata.xml:
+  Initial import.
+

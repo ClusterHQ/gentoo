@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=nids? ( net-libs/libnids net-libs/libnet net-libs/libpcap ) pcap? ( net-libs/libpcap )
+DESCRIPTION=Scanlogd - detects and logs TCP port scans
+HOMEPAGE=http://www.openwall.com/scanlogd/
+IUSE=nids pcap
+KEYWORDS=~amd64 ppc x86
+LICENSE=Openwall GPL-2
+RDEPEND=nids? ( net-libs/libnids net-libs/libnet net-libs/libpcap ) pcap? ( net-libs/libpcap )
+SLOT=0
+SRC_URI=http://www.openwall.com/scanlogd/scanlogd-2.2.6.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=105e2c64c9a9835b4e1ff11fe95f7123

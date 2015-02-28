@@ -1,0 +1,44 @@
+# ChangeLog for dev-python/backports-lzma
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/backports-lzma/ChangeLog,v 1.9 2014/03/06 23:18:42 radhermit Exp $
+
+  06 Mar 2014; Tim Harder <radhermit@gentoo.org>
+  backports-lzma-0.0.2-r1.ebuild:
+  Remove python3_3 since lzma support was added to the standard library in that
+  version.
+
+  06 Mar 2014; Tim Harder <radhermit@gentoo.org> -backports-lzma-0.0.1.ebuild,
+  -backports-lzma-0.0.2.ebuild:
+  Remove old.
+
+*backports-lzma-0.0.2-r1 (26 Jan 2014)
+
+  26 Jan 2014; Tim Harder <radhermit@gentoo.org>
+  +backports-lzma-0.0.2-r1.ebuild:
+  Use dev-python/backports for main namespace.
+
+  13 Oct 2013; Pacho Ramos <pacho@gentoo.org> backports-lzma-0.0.2.ebuild:
+  Also compatible with python3_3
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> backports-lzma-0.0.1.ebuild,
+  backports-lzma-0.0.2.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+  11 Apr 2013; Tim Harder <radhermit@gentoo.org> backports-lzma-0.0.2.ebuild:
+  Make test failure message more descriptive and remove blank IUSE.
+
+  11 Apr 2013; Justin Lecher <jlec@gentoo.org> backports-lzma-0.0.1.ebuild,
+  backports-lzma-0.0.2.ebuild:
+  Keyword for ~-linux, tested by me
+
+*backports-lzma-0.0.2 (11 Apr 2013)
+
+  11 Apr 2013; Justin Lecher <jlec@gentoo.org> +backports-lzma-0.0.2.ebuild,
+  metadata.xml:
+  Version Bump
+
+*backports-lzma-0.0.1 (31 Jan 2013)
+
+  31 Jan 2013; Tim Harder <radhermit@gentoo.org> +backports-lzma-0.0.1.ebuild,
+  +metadata.xml:
+  Initial import, ebuild by me.

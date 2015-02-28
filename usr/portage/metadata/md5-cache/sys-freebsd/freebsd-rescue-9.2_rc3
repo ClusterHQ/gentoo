@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare setup unpack
+DEPEND=sys-devel/flex app-arch/xz-utils[static-libs] sys-libs/ncurses[static-libs] dev-libs/expat[static-libs] app-arch/bzip2[static-libs] dev-libs/libedit[static-libs] dev-libs/libxml2:2[static-libs] dev-libs/openssl[static-libs] sys-libs/zlib[static-libs] sys-libs/readline[static-libs] =sys-freebsd/freebsd-lib-9.2*[atm?,netware?] =sys-freebsd/freebsd-sources-9.2* =sys-freebsd/freebsd-mk-defs-9.2* zfs? ( =sys-freebsd/freebsd-cddl-9.2* ) virtual/pmake virtual/pmake
+DESCRIPTION=FreeBSD's rescue binaries
+EAPI=5
+HOMEPAGE=http://www.freebsd.org/
+IUSE=atm netware nis zfs profile
+KEYWORDS=~amd64-fbsd ~x86-fbsd
+LICENSE=BSD zfs? ( CDDL )
+SLOT=0
+SRC_URI=mirror://gentoo/freebsd-ubin-9.2_rc3.tar.bz2 mirror://gentoo/freebsd-contrib-9.2_rc3.tar.bz2 mirror://gentoo/freebsd-lib-9.2_rc3.tar.bz2 mirror://gentoo/freebsd-bin-9.2_rc3.tar.bz2 mirror://gentoo/freebsd-sbin-9.2_rc3.tar.bz2 mirror://gentoo/freebsd-usbin-9.2_rc3.tar.bz2 mirror://gentoo/freebsd-gnu-9.2_rc3.tar.bz2 mirror://gentoo/freebsd-sys-9.2_rc3.tar.bz2 mirror://gentoo/freebsd-libexec-9.2_rc3.tar.bz2 mirror://gentoo/freebsd-rescue-9.2_rc3.tar.bz2 zfs? ( mirror://gentoo/freebsd-cddl-9.2_rc3.tar.bz2 )
+_eclasses_=bsdmk	a5323161d86b178920afb5e31a9e5d3f	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	freebsd	9df2a927373191607071d802c1058c96	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=25a3371df9ced5c506c210005f14204a

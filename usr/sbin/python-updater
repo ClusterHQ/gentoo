@@ -1,0 +1,948 @@
+#!/home/core/gentoo/bin/bash
+# vim: set et sw=4 sts=4 tw=80:
+# Copyright 2007-2011 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+# A bit of hackery to update everything that is humanly possible
+# that maybe related to an older version of Python. This script can
+# be run as many times as you like.
+#
+# OLD_PYTHON_VERSIONS = Old Python versions we are upgrading from.
+# NEW_PYTHON_VERSION  = New Python version we are upgrading to.
+# PKGS_EXCEPTIONS     = Packages that should NOT be re-emerged for any reason.
+# PKGS_MANUAL         = Packages that should be re-emerged even if they don't fit
+#                       the criteria (eg. ones that have Python compiled statically).
+#
+# Runtime Variables:
+#
+# PKGS_TO_REMERGE     = List of packages we deem to need re-emerging.
+# PKGS_OK             = List of packages that should be merged without any problems.
+# PKGS_MISSING        = List of packages that are installed, but cannot be merged,
+#                       because they have been pruned from portage.
+
+if [[ "${BASH_VERSINFO[0]}" -lt 4 ]]; then
+	echo "${0##*/}: Bash >=4.0 required" >&2
+	exit 1
+fi
+
+VERSION="0.10"
+OLD_PYTHON_VERSIONS=""
+OLD_PYTHON2_VERSIONS=""
+OLD_PYTHON3_VERSIONS=""
+NEW_PYTHON_VERSION="$("/home/core/gentoo"/usr/bin/python -c 'from sys import version_info; print(".".join([str(x) for x in version_info[:2]]))')"
+NEW_PYTHON2_VERSION=""
+NEW_PYTHON3_VERSION=""
+
+PKGS_EXCEPTIONS="dev-lang/python sys-apps/portage"
+PKGS_MANUAL=""
+
+PRETEND=0
+REINSTALL_IDENTICAL_VERSIONS=0
+VERBOSE=0
+PKGS_TO_REMERGE=""
+PKGS_COUNT_REMERGE=0
+PYTHON2_VERSIONS="2.1 2.2 2.3 2.4 2.5 2.6 2.7"
+PYTHON3_VERSIONS="3.0 3.1 3.2 3.3 3.4"
+PYTHON_VERSIONS="${PYTHON2_VERSIONS} ${PYTHON3_VERSIONS}"
+
+SUPPORTED_PMS="portage pkgcore paludis"
+PMS_COMMAND=( "emerge" "pmerge" "cave" )
+PMS_OPTIONS=( "-Dv1 --keep-going" "-Do" "resolve --execute --preserve-world" )
+PMS_PRETENDING_OPTIONS=( "-p" "-p" "--no-execute" )
+PMS_INDEX=0
+CUSTOM_PMS_COMMAND=""
+ADDITIONAL_OPTIONS=""
+
+# Checks.
+CHECK_MANUAL="1"
+CHECK_NEED_REBUILD="1"
+CHECK_PYLIBDIR="1"
+CHECK_PYTHON_ABIS="1"
+CHECK_SHARED_LINKING="1"
+CHECK_STATIC_LINKING="1"
+
+# Load the Gentoo-style info macros, but hack to get around it thinking this is an rc script.
+EBUILD="1" . "/home/core/gentoo"/etc/init.d/functions.sh
+
+# Portage variables.
+PKG_DBDIR="/home/core/gentoo/var/db/pkg"
+
+shopt -s expand_aliases
+
+# usage()
+# display usage
+usage() {
+	cat <<EOF_USAGE
+${0##*/} -- Find & rebuild packages broken due to a Python upgrade
+
+Usage: python-updater [OPTION]
+
+Options:
+    -h, --help      Print usage
+    -V, --version   Print version
+    -p, --pretend   Pretend (don't do anything)
+    -v, --verbose   Increase verbosity (may be specified multiple times)
+    --reinstall-identical-versions
+                    Reinstall identical versions of packages
+    -P PM, --package-manager PM
+                    Use package manager PM, where PM can be one of:
+$(for p in ${SUPPORTED_PMS}; do
+	echo -e "\t\t    * ${p}$([[ "${p}" == "portage" ]] && echo " (Default)")"
+done)
+    -c CMD, --command CMD
+                    Pipe found packages to command CMD instead of invoking package
+                    manager. Only for debug and script use.
+    --package-manager-command CMD
+                    Call CMD instead of the default command for the specified
+                    package manager.
+    -eCHECK --enable-CHECK
+                    Enable CHECK where CHECK can be one of:
+                    * all
+                    * manual         (Enabled by default)
+                    * need_rebuild   (Enabled by default)
+                    * pylibdir       (Enabled by default)
+                    * PYTHON_ABIS    (Enabled by default)
+                    * shared_linking (Enabled by default)
+                    * static_linking (Enabled by default)
+    -dCHECK --disable-CHECK
+                    Disable CHECK. See --enable option for a list of checks
+    -- OPTIONS      Pass additional options to package manager
+
+See CHECKS section in the manpage for explanations about checks and
+EXAMPLES section to learn how to use them.
+EOF_USAGE
+}
+
+# veinfo(verbosity, message)
+# einfo message if VERBOSE is bigger than verbosity.
+veinfo() {
+	if [[ "${VERBOSE}" -ge "${1}" ]]; then
+		shift
+		einfo "${@}"
+	fi
+}
+
+# die(message)
+# Print error message and exit.
+die() {
+	eerror "${@}"
+	exit 1
+}
+
+# has(checked_element, list)
+has() {
+	local checked_element="${1}"
+	shift
+
+	local argument
+	for argument in "${@}"; do
+		[[ "${checked_element}" == "${argument}" ]] && return 0
+	done
+
+	return 1
+}
+
+# has_version(cpv)
+has_version() {
+	if [[ "${PMS_COMMAND[${PMS_INDEX}]}" == "emerge" ]]; then
+		"/home/core/gentoo"/usr/bin/portageq has_version "/home/core/gentoo"/ "${1}"
+	elif [[ "${PMS_COMMAND[${PMS_INDEX}]}" == "pmerge" ]]; then
+		pquery --vdb "${1}"
+	else
+		cave has-version "${1}"
+	fi
+}
+
+# get_ebuild_path(CATEGORY, PN, SLOT)
+get_ebuild_path() {
+	# These manual calls to Portage API are 2 times faster than 'portageq get_repo_path / "$(portageq metadata / ebuild "$(portageq best_visible / "${1}")" repository)"'.
+	"/home/core/gentoo"/usr/bin/python -c "
+import sys
+
+if '' in sys.path:
+	sys.path.remove('')
+
+import portage
+
+dbapi = portage.db['/home/core/gentoo/']['porttree'].dbapi
+pkg_list = dbapi.match('${1}/${2}${3:+:}${3}')
+if pkg_list:
+	best_visible = portage.best(pkg_list)
+	if best_visible:
+		repository = dbapi.aux_get(best_visible, ['repository'])
+		if repository:
+			repository_location = dbapi.getRepositoryPath(repository[0])
+			if repository_location:
+				print(repository_location + '/${1}/${2}/' + best_visible.split('/')[1] + '.ebuild')"
+}
+
+# get_ebuild_variable(CATEGORY, PN, SLOT, variable)
+get_ebuild_variable() {
+	if [[ "${PMS_COMMAND[${PMS_INDEX}]}" =~ ^(emerge|pmerge)$ ]]; then
+		local ebuild_path="$(get_ebuild_path "${1}" "${2}" "${3}")"
+		if [[ -f "${ebuild_path}" ]]; then
+			grep "^${4}=" "${ebuild_path}" | sed -e "s/${4}=[\"']\(.*\)[\"']/\1/"
+		fi
+	else
+		cave print-id-environment-variable "${1}/${2}${3:+:}${3}::/?" --best --format %v --variable-name ${4}
+	fi
+}
+
+# get_vdb_variable(variable, environment_file)
+get_vdb_variable() {
+	local variable="${1}"
+	local environment_file="${2}"
+
+	unset "${variable}"
+	local output
+	output="$(bzip2 -cd "${environment_file}" | grep -E "^declare (-[[:alnum:]-]+ )?${variable}=")"
+	if [[ -z "${output}" ]]; then
+		output="$(bzip2 -cd "${environment_file}" | grep -E "^(declare (-[[:alnum:]-]+ )?)?${variable}=")"
+	fi
+	if [[ -n "${output}" ]]; then
+		output="$(echo "${output}" | sed -e "s/^\(declare \(-[[:alnum:]-]\+ \)\?\)\?${variable}=\(\"\)\?//;s/\(\"\)\?$//")"
+		if [[ "${output}" == "'"*"'" ]]; then
+			output="${output:1:$((${#output}-2))}"
+		fi
+		eval "${variable}=\"\${output}\""
+		return 0
+	else
+		return 1
+	fi
+}
+
+# set_unless_changed(variable=value)
+# This function can be used in /etc/portage/env.
+set_unless_changed() {
+	if [[ $# -lt 1 ]]; then
+		die "${FUNCNAME}() requires at least 1 argument: VARIABLE=VALUE"
+	fi
+
+	local argument value variable
+	for argument in "$@"; do
+		if [[ ${argument} != *=* ]]; then
+			die "${FUNCNAME}(): Argument '${argument}' has incorrect syntax"
+		fi
+		variable="${argument%%=*}"
+		value="${argument#*=}"
+		if eval "[[ \${${variable}} == \$(env -u ${variable} /usr/bin/portageq envvar ${variable}) ]]"; then
+			eval "${variable}=\"\${value}\""
+		fi
+	done
+}
+
+# unset_unless_changed(variable)
+# This function can be used in /etc/portage/env.
+unset_unless_changed() {
+	if [[ $# -lt 1 ]]; then
+		die "${FUNCNAME}() requires at least 1 argument: VARIABLE"
+	fi
+
+	local variable
+	for variable in "$@"; do
+		if eval "[[ \${${variable}} == \$(env -u ${variable} "/home/core/gentoo"/usr/bin/portageq envvar ${variable}) ]]"; then
+			unset ${variable}
+		fi
+	done
+}
+
+global_USE_PYTHON=""
+
+# get_USE_PYTHON(CATEGORY, PN, SLOT)
+get_USE_PYTHON() {
+	if [[ "${PMS_COMMAND[${PMS_INDEX}]}" =~ ^(emerge|pmerge)$ ]]; then
+		if [[ -z "${global_USE_PYTHON}" ]]; then
+			global_USE_PYTHON="$("/home/core/gentoo"/usr/bin/portageq envvar USE_PYTHON)"
+		fi
+		USE_PYTHON="${global_USE_PYTHON}"
+		if [[ -f "/home/core/gentoo/etc/portage/env/${1}/${2}" ]]; then
+			USE_PYTHON="$(. "/home/core/gentoo/etc/portage/env/${1}/${2}"; echo "${USE_PYTHON}")"
+		fi
+		if [[ -f "/home/core/gentoo/etc/portage/env/${1}/${2}:${3}" ]]; then
+			USE_PYTHON="$(. "/home/core/gentoo/etc/portage/env/${1}/${2}:${3}"; echo "${USE_PYTHON}")"
+		fi
+	else
+		USE_PYTHON="$(cave print-id-environment-variable "${1}/${2}${3:+:}${3}::/?" --best --format %v --variable-name USE_PYTHON)"
+	fi
+	if [[ -z "${USE_PYTHON}" ]]; then
+		USE_PYTHON="${NEW_PYTHON2_VERSION} ${NEW_PYTHON3_VERSION}"
+		USE_PYTHON="${USE_PYTHON# }"
+		USE_PYTHON="${USE_PYTHON% }"
+	fi
+	echo "${USE_PYTHON}"
+}
+
+# check_python_abi_matching(PYTHON_ABI, PYTHON_ABI_pattern)
+check_python_abi_matching() {
+	local pattern patterns patterns_list="0" PYTHON_ABI
+
+	while (($#)); do
+		case "$1" in
+			--patterns-list)
+				patterns_list="1"
+				;;
+			--)
+				shift
+				break
+				;;
+			-*)
+				die "${FUNCNAME}(): Unrecognized option '$1'"
+				;;
+			*)
+				break
+				;;
+		esac
+		shift
+	done
+
+	if [[ "$#" -ne 2 ]]; then
+		die "${FUNCNAME}() requires 2 arguments"
+	fi
+
+	PYTHON_ABI="$1"
+
+	if [[ "${patterns_list}" == "0" ]]; then
+		pattern="$2"
+
+		if [[ "${pattern}" == *"-cpython" ]]; then
+			[[ "${PYTHON_ABI}" =~ ^[[:digit:]]+\.[[:digit:]]+$ && "${PYTHON_ABI}" == ${pattern%-cpython} ]]
+		elif [[ "${pattern}" == *"-jython" ]]; then
+			[[ "${PYTHON_ABI}" == ${pattern} ]]
+		elif [[ "${pattern}" == *"-pypy-"* ]]; then
+			[[ "${PYTHON_ABI}" == ${pattern} ]]
+		else
+			if [[ "${PYTHON_ABI}" =~ ^[[:digit:]]+\.[[:digit:]]+$ ]]; then
+				[[ "${PYTHON_ABI}" == ${pattern} ]]
+			elif [[ "${PYTHON_ABI}" =~ ^[[:digit:]]+\.[[:digit:]]+-jython$ ]]; then
+				[[ "${PYTHON_ABI%-jython}" == ${pattern} ]]
+			elif [[ "${PYTHON_ABI}" =~ ^[[:digit:]]+\.[[:digit:]]+-pypy-[[:digit:]]+\.[[:digit:]]+$ ]]; then
+				[[ "${PYTHON_ABI%-pypy-*}" == ${pattern} ]]
+			else
+				die "${FUNCNAME}(): Unrecognized Python ABI '${PYTHON_ABI}'"
+			fi
+		fi
+	else
+		patterns="${2// /$'\n'}"
+
+		while read pattern; do
+			if check_python_abi_matching "${PYTHON_ABI}" "${pattern}"; then
+				return 0
+			fi
+		done <<< "${patterns}"
+
+		return 1
+	fi
+}
+
+# get_OLD_PYTHON_VERSIONS_REGEX()
+get_OLD_PYTHON_VERSIONS_REGEX() {
+	if [[ -n "${PYTHON_REQUESTED_ACTIVE_VERSION}" ]]; then
+		if [[ "${PYTHON_REQUESTED_ACTIVE_VERSION}" == "2" ]]; then
+			echo "${OLD_PYTHON2_VERSIONS_REGEX}"
+		elif [[ "${PYTHON_REQUESTED_ACTIVE_VERSION}" == "3" ]]; then
+			echo "${OLD_PYTHON3_VERSIONS_REGEX}"
+		fi
+	else
+		echo "${OLD_PYTHON_VERSIONS_REGEX}"
+	fi
+}
+
+# get_OLD_PYTHON_SHARED_LIBRARIES_REGEX()
+get_OLD_PYTHON_SHARED_LIBRARIES_REGEX() {
+	if [[ -n "${PYTHON_REQUESTED_ACTIVE_VERSION}" ]]; then
+		if [[ "${PYTHON_REQUESTED_ACTIVE_VERSION}" == "2" ]]; then
+			echo "${OLD_PYTHON2_SHARED_LIBRARIES_REGEX}"
+		elif [[ "${PYTHON_REQUESTED_ACTIVE_VERSION}" == "3" ]]; then
+			echo "${OLD_PYTHON3_SHARED_LIBRARIES_REGEX}"
+		fi
+	else
+		echo "${OLD_PYTHON_SHARED_LIBRARIES_REGEX}"
+	fi
+}
+
+# Respect PYUPDATER_OPTIONS
+if [[ -n "${PYUPDATER_OPTIONS}" ]]; then
+	set -- ${PYUPDATER_OPTIONS} "${@}"
+fi
+
+# Respect PACKAGE_MANAGER environment variable
+i=0
+for pm in ${SUPPORTED_PMS}; do
+	if [[ "${pm}" == "${PACKAGE_MANAGER}" ]]; then
+		PMS_INDEX="${i}"
+		break
+	fi
+	((i++))
+done
+
+# Command Line Parsing
+while (($#)); do
+	case "${1}" in
+		-h|--help)
+			usage
+			exit 0
+			;;
+		-V|--version)
+			echo "${VERSION}"
+			exit 0
+			;;
+		-p|--pretend)
+			PRETEND="1"
+			;;
+		-v|--verbose)
+			((VERBOSE++))
+			;;
+		--reinstall-identical-versions)
+			REINSTALL_IDENTICAL_VERSIONS="1"
+			;;
+		-P|--package-manager)
+			shift
+			PACKAGE_MANAGER="${1}"
+			case "${PACKAGE_MANAGER}" in
+				portage|pkgcore|paludis)
+					;;
+				*)
+					echo "Unrecognized package manager selected. Please select between ${SUPPORTED_PMS}"
+					exit 1
+					;;
+			esac
+
+			# PMS_INDEX is used to select the right commands and options for the selected package manager
+			PMS_INDEX=0
+			for PM in ${SUPPORTED_PMS}; do
+				[[ ${PM} == ${PACKAGE_MANAGER} ]] && break
+				PMS_INDEX=$((${PMS_INDEX} + 1))
+			done
+			;;
+		--package-manager-command)
+			shift
+			CUSTOM_PMS_COMMAND="${1}"
+			;;
+		-c|--command)
+			shift
+			PIPE_COMMAND="${1}"
+			;;
+		-eall|--enable-all)
+			CHECK_MANUAL="1"
+			CHECK_NEED_REBUILD="1"
+			CHECK_PYLIBDIR="1"
+			CHECK_PYTHON_ABIS="1"
+			CHECK_SHARED_LINKING="1"
+			CHECK_STATIC_LINKING="1"
+			;;
+		-dall|--disable-all)
+			CHECK_MANUAL="0"
+			CHECK_NEED_REBUILD="0"
+			CHECK_PYLIBDIR="0"
+			CHECK_PYTHON_ABIS="0"
+			CHECK_SHARED_LINKING="0"
+			CHECK_STATIC_LINKING="0"
+			;;
+		-emanual|--enable-manual)
+			CHECK_MANUAL="1"
+			;;
+		-dmanual|--disable-manual)
+			CHECK_MANUAL="0"
+			;;
+		-eneed_rebuild|--enable-need_rebuild)
+			CHECK_NEED_REBUILD="1"
+			;;
+		-dneed_rebuild|--disable-need_rebuild)
+			CHECK_NEED_REBUILD="0"
+			;;
+		-epylibdir|--enable-pylibdir)
+			CHECK_PYLIBDIR="1"
+			;;
+		-dpylibdir|--disable-pylibdir)
+			CHECK_PYLIBDIR="0"
+			;;
+		-ePYTHON_ABIS|--enable-PYTHON_ABIS)
+			CHECK_PYTHON_ABIS="1"
+			;;
+		-dPYTHON_ABIS|--disable-PYTHON_ABIS)
+			CHECK_PYTHON_ABIS="0"
+			;;
+		-eshared_linking|--enable-shared_linking)
+			CHECK_SHARED_LINKING="1"
+			;;
+		-dshared_linking|--disable-shared_linking)
+			CHECK_SHARED_LINKING="0"
+			;;
+		-estatic_linking|--enable-static_linking)
+			CHECK_STATIC_LINKING="1"
+			;;
+		-dstatic_linking|--disable-static_linking)
+			CHECK_STATIC_LINKING="0"
+			;;
+		--)
+			shift
+			ADDITIONAL_OPTIONS="${*}"
+			break
+			;;
+		*)
+			usage
+			echo "Unrecognized option '${1}'"
+			exit 1
+			;;
+	esac
+	shift
+done
+
+# On a prefix portage we need to use sed from ebuild-helpers/ instead
+# of $PATH. On non-prefix portages ebuild-helpers/sed does not exist.
+# Prepending ebuild-helpers/ to $PATH uses too many tools from there.
+# So alias sed to ebuild-helpers/sed if it exists:
+if [[ "${PMS_COMMAND[${PMS_INDEX}]}" == "emerge" ]]; then
+	sed="$("/home/core/gentoo"/usr/bin/python -c "import os; print(os.path.dirname(os.path.realpath('$(type -p emerge)')))")/ebuild-helpers/sed"
+	if [[ -x "${sed}" ]]; then
+		alias sed="${sed}"
+	fi
+fi
+
+if has_version "=dev-lang/python-2*"; then
+	if [[ "$(readlink "/home/core/gentoo"/usr/bin/python2)" != "python2."* ]]; then
+		die "'/home/core/gentoo/usr/bin/python2' is not valid symlink"
+	fi
+	NEW_PYTHON2_VERSION="$("/home/core/gentoo"/usr/bin/python2 -c 'from sys import version_info; print(".".join([str(x) for x in version_info[:2]]))')"
+fi
+if has_version "=dev-lang/python-3*"; then
+	if [[ "$(readlink "/home/core/gentoo"/usr/bin/python3)" != "python3."* ]]; then
+		die "'/home/core/gentoo/usr/bin/python3' is not valid symlink"
+	fi
+	NEW_PYTHON3_VERSION="$("/home/core/gentoo"/usr/bin/python3 -c 'from sys import version_info; print(".".join([str(x) for x in version_info[:2]]))')"
+fi
+if [[ -z "${NEW_PYTHON2_VERSION}" && -z "${NEW_PYTHON3_VERSION}" ]]; then
+	die "Python 2 and Python 3 not installed"
+fi
+
+OLD_PYTHON_SHARED_LIBRARIES_REGEX=""
+for python_version in ${PYTHON_VERSIONS}; do
+	if [[ "${python_version}" != "${NEW_PYTHON_VERSION}" ]]; then
+		OLD_PYTHON_VERSIONS+="${OLD_PYTHON_VERSIONS:+ }${python_version}"
+		soname="$(readlink -n "/home/core/gentoo"/usr/lib/libpython${python_version}.so)"
+		if [[ -z "${soname}" ]]; then
+			# Use relatively safe, default value.
+            if [[ -f "/home/core/gentoo"/usr/lib/libpython${python_version}.dylib ]] ; then
+                # there is no versioned dylib on Darwin
+                soname="libpython${python_version}.dylib"
+            else
+                soname="libpython${python_version}.so.1.0"
+            fi
+		fi
+		OLD_PYTHON_SHARED_LIBRARIES_REGEX+="${OLD_PYTHON_SHARED_LIBRARIES_REGEX:+|}${soname//./\.}"
+	fi
+done
+OLD_PYTHON_VERSIONS_REGEX="(${OLD_PYTHON_VERSIONS// /|})"
+OLD_PYTHON_VERSIONS_REGEX="${OLD_PYTHON_VERSIONS_REGEX//./\.}"
+OLD_PYTHON_SHARED_LIBRARIES_REGEX="(${OLD_PYTHON_SHARED_LIBRARIES_REGEX})"
+
+OLD_PYTHON2_SHARED_LIBRARIES_REGEX=""
+for python_version in ${PYTHON2_VERSIONS}; do
+	if [[ "${python_version}" != "${NEW_PYTHON2_VERSION}" ]]; then
+		OLD_PYTHON2_VERSIONS+="${OLD_PYTHON2_VERSIONS:+ }${python_version}"
+		soname="$(readlink -n "/home/core/gentoo"/usr/lib/libpython${python_version}.so)"
+		if [[ -z "${soname}" ]]; then
+			# Use relatively safe, default value.
+            if [[ -f "/home/core/gentoo"/usr/lib/libpython${python_version}.dylib ]] ; then
+                # there is no versioned dylib on Darwin
+                soname="libpython${python_version}.dylib"
+            else
+                soname="libpython${python_version}.so.1.0"
+            fi
+		fi
+		OLD_PYTHON2_SHARED_LIBRARIES_REGEX+="${OLD_PYTHON2_SHARED_LIBRARIES_REGEX:+|}${soname//./\.}"
+	fi
+done
+OLD_PYTHON2_VERSIONS_REGEX="(${OLD_PYTHON2_VERSIONS// /|})"
+OLD_PYTHON2_VERSIONS_REGEX="${OLD_PYTHON2_VERSIONS_REGEX//./\.}"
+OLD_PYTHON2_SHARED_LIBRARIES_REGEX="(${OLD_PYTHON2_SHARED_LIBRARIES_REGEX})"
+
+OLD_PYTHON3_SHARED_LIBRARIES_REGEX=""
+for python_version in ${PYTHON3_VERSIONS}; do
+	if [[ "${python_version}" != "${NEW_PYTHON3_VERSION}" ]]; then
+		OLD_PYTHON3_VERSIONS+="${OLD_PYTHON3_VERSIONS:+ }${python_version}"
+		soname="$(readlink -n "/home/core/gentoo"/usr/lib/libpython${python_version}.so)"
+		if [[ -z "${soname}" ]]; then
+			# Use relatively safe, default value.
+            if [[ -f "/home/core/gentoo"/usr/lib/libpython${python_version}.dylib ]] ; then
+                # there is no versioned dylib on Darwin
+                soname="libpython${python_version}.dylib"
+            else
+                soname="libpython${python_version}.so.1.0"
+            fi
+		fi
+		OLD_PYTHON3_SHARED_LIBRARIES_REGEX+="${OLD_PYTHON3_SHARED_LIBRARIES_REGEX:+|}${soname//./\.}"
+	fi
+done
+OLD_PYTHON3_VERSIONS_REGEX="(${OLD_PYTHON3_VERSIONS// /|})"
+OLD_PYTHON3_VERSIONS_REGEX="${OLD_PYTHON3_VERSIONS_REGEX//./\.}"
+OLD_PYTHON3_SHARED_LIBRARIES_REGEX="(${OLD_PYTHON3_SHARED_LIBRARIES_REGEX})"
+
+declare -A PYTHON_GLOBALLY_SUPPORTED_ABIS
+if [[ "${PMS_COMMAND[${PMS_INDEX}]}" == "emerge" ]]; then
+	eval "$("/home/core/gentoo"/usr/bin/python -c \
+"import re
+import sys
+
+if '' in sys.path:
+	sys.path.remove('')
+
+import portage
+
+variables = [
+	'_CPYTHON2_GLOBALLY_SUPPORTED_ABIS',
+	'_CPYTHON3_GLOBALLY_SUPPORTED_ABIS',
+	'_JYTHON_GLOBALLY_SUPPORTED_ABIS',
+	'_PYPY_GLOBALLY_SUPPORTED_ABIS'
+]
+
+for variable in variables:
+	exec('%(variable)s_regex = re.compile(r\'^%(variable)s=\((.*)\)\')' % {'variable': variable})
+
+dbapi = portage.db['/home/core/gentoo/']['porttree'].dbapi
+python_eclass_locations = {}
+
+if hasattr(dbapi.repositories.mainRepo(), 'eclass_db'):
+	# Portage >=2.1.10.40 or >=2.2.0_alpha80.
+	for repository in dbapi.repositories:
+		python_eclass_location = repository.eclass_db.eclasses['python'].location
+		python_eclass_locations[repository.name] = python_eclass_location
+else:
+	for repository_location in dbapi._repo_info:
+		repository = dbapi._repo_info[repository_location].name
+		python_eclass_location = dbapi._repo_info[repository_location].eclass_db.eclasses['python'].location
+		python_eclass_locations[repository] = python_eclass_location
+
+for repository, python_eclass_location in python_eclass_locations.items():
+	for variable in variables:
+		exec('%s = []' % variable)
+	python_eclass = open(python_eclass_location)
+	python_eclass_lines = python_eclass.readlines()
+	python_eclass.close()
+	for python_eclass_line in python_eclass_lines:
+		for variable in variables:
+			exec(
+				'%(variable)s_matched = %(variable)s_regex.match(python_eclass_line)\n'
+				'if %(variable)s_matched is not None:\n'
+				'	%(variable)s = %(variable)s_matched.group(1).split(\' \')'
+				% {'variable': variable}
+			)
+	python_globally_supported_abis = []
+	for variable in variables:
+		exec('python_globally_supported_abis.extend(%s)' % variable)
+	print('PYTHON_GLOBALLY_SUPPORTED_ABIS[%s]=\"%s\"' % (repository, ' '.join(python_globally_supported_abis)))")"
+fi
+
+declare -A PYTHON_GLOBALLY_SUPPORTED_USE_FLAGS
+for repository in "${!PYTHON_GLOBALLY_SUPPORTED_ABIS[@]}"; do
+	USE_flags=""
+	for PYTHON_ABI in ${PYTHON_GLOBALLY_SUPPORTED_ABIS[${repository}]}; do
+		USE_flags+="${USE_flags:+ }python_abis_${PYTHON_ABI}"
+	done
+	PYTHON_GLOBALLY_SUPPORTED_USE_FLAGS[${repository}]="${USE_flags}"
+done
+
+einfo $'\e[1;34mStarting Python Updater...\e[0m'
+einfo $'\e[1;36m'"Main active version of Python:    ${NEW_PYTHON_VERSION}"$'\e[0m'
+einfo $'\e[1;36m'"Active version of Python 2:       ${NEW_PYTHON2_VERSION:-(None)}"$'\e[0m'
+einfo $'\e[1;36m'"Active version of Python 3:       ${NEW_PYTHON3_VERSION:-(None)}"$'\e[0m'
+einfo $'\e[1;36m'"Globally supported Python ABIs in installed repositories:"$'\e[0m'
+eindent
+for repository in $(echo "${!PYTHON_GLOBALLY_SUPPORTED_ABIS[@]}" | sed -e "s/ /\n/g" | sort); do
+	einfo $'\e[1;36m'"${repository}: $(for ((i = 0; i < 30 - ${#repository}; i++)); do echo -n " "; done)${PYTHON_GLOBALLY_SUPPORTED_ABIS[${repository}]}"$'\e[0m'
+done
+eoutdent
+
+[[ "${CHECK_MANUAL}" -ne 0 ]] \
+	&& veinfo 1 'Check "manual" enabled.' \
+	|| veinfo 1 'Check "manual" disabled.'
+[[ "${CHECK_NEED_REBUILD}" -ne 0 ]] \
+	&& veinfo 1 'Check "need_rebuild" enabled.' \
+	|| veinfo 1 'Check "need_rebuild" disabled.'
+[[ "${CHECK_PYLIBDIR}" -ne 0 ]] \
+	&& veinfo 1 'Check "pylibdir" enabled.' \
+	|| veinfo 1 'Check "pylibdir" disabled.'
+[[ "${CHECK_PYTHON_ABIS}" -ne 0 ]] \
+	&& veinfo 1 'Check "PYTHON_ABIS" enabled.' \
+	|| veinfo 1 'Check "PYTHON_ABIS" disabled.'
+if [[ "${CHECK_SHARED_LINKING}" -ne 0 ]]; then
+	if ! type -P scanelf >/dev/null 2>&1; then
+		ewarn 'scanelf not found!'
+		ewarn 'Check "shared_linking" is disabled.'
+		CHECK_SHARED_LINKING=0
+	else
+		veinfo 1 'Check "shared_linking" enabled.'
+	fi
+else
+	veinfo 1 'Check "shared_linking" disabled.'
+fi
+if [[ "${CHECK_STATIC_LINKING}" -ne 0 ]]; then
+	if ! type -P scanelf >/dev/null 2>&1; then
+		ewarn 'scanelf not found!'
+		ewarn 'Check "static_linking" is disabled.'
+		CHECK_STATIC_LINKING=0
+	else
+		veinfo 1 'Check "static_linking" enabled.'
+	fi
+else
+	veinfo 1 'Check "static_linking" disabled.'
+fi
+
+# Iterate through the contents of all the installed packages.
+# ${PKG_DBDIR} must be followed by '/' to avoid problems when ${PKG_DBDIR} is a symlink.
+for contents_file in $(find ${PKG_DBDIR}/ -name CONTENTS | sort); do
+	environment_file="${contents_file%CONTENTS}environment.bz2"
+
+	# Extract some variables. PVR is required.
+	get_vdb_variable PVR "${environment_file}" || die "Missing metadata in '${environment_file}' file. Manually reinstall corresponding package."
+	get_vdb_variable EAPI "${environment_file}"
+	get_vdb_variable PYTHON_MULTIPLE_ABIS "${environment_file}"
+	get_vdb_variable SUPPORT_PYTHON_ABIS "${environment_file}"
+	get_vdb_variable PYTHON_ABIS "${environment_file}"
+	get_vdb_variable PYTHON_REQUESTED_ACTIVE_VERSION "${environment_file}"
+	get_vdb_variable PYTHON_UPDATER_IGNORE "${environment_file}"
+
+	# Manually calculate CATEGORY, PF, PN and SLOT to avoid problems with moved packages.
+	CATEGORY="$(echo "${environment_file#${PKG_DBDIR}/}" | sed -e "s:/.*::")"
+	PF="$(echo "${environment_file#${PKG_DBDIR}/${CATEGORY}/}" | sed -e "s:/.*::")"
+	PN="${PF%-${PVR}}"
+	if [[ -f "${contents_file%CONTENTS}SLOT" ]]; then
+		SLOT="$(<"${contents_file%CONTENTS}SLOT")"
+	else
+		get_vdb_variable SLOT "${environment_file}"
+	fi
+
+	CATPKG="${CATEGORY}/${PN}"
+	# Use exact version when --reinstall-identical-versions option is used or SLOT is unknown.
+	if [[ "${REINSTALL_IDENTICAL_VERSIONS}" -eq 0 && -n "${SLOT}" ]]; then
+		CATPKGVER="${CATPKG}:${SLOT}"
+	else
+		CATPKGVER="=${CATEGORY}/${PF}"
+	fi
+
+	veinfo 2 "Checking ${CATEGORY}/${PF}${SLOT:+:}${SLOT}"
+
+	# Exclude packages, which are exceptions, like Portage and Python itself.
+	if has "${CATPKG}" ${PKGS_EXCEPTIONS}; then
+		eindent
+		veinfo 2 "Skipping ${CATPKGVER}, reason: exception"
+		eoutdent
+		continue
+	fi
+
+	# Exclude packages, which set PYTHON_UPDATER_IGNORE variable.
+	if [[ -n "${PYTHON_UPDATER_IGNORE}" ]]; then
+		eindent
+		veinfo 2 "Skipping ${CATPKGVER}, reason: PYTHON_UPDATER_IGNORE"
+		eoutdent
+		continue
+	fi
+
+	if [[ -n "${PYTHON_MULTIPLE_ABIS}" && "${EAPI}" =~ ^4-python$ ]]; then
+		# Potentially update USE flags in IUSE in EAPI >= 4-python.
+		if [[ "${PRETEND}" -eq 0 && -f "${contents_file%CONTENTS}IUSE" && -f "${contents_file%CONTENTS}USE" && -f "${contents_file%CONTENTS}repository" ]]; then
+			get_vdb_variable PYTHON_RESTRICTED_ABIS "${environment_file}"
+			IUSE="$(<"${contents_file%CONTENTS}IUSE")"
+			USE="$(<"${contents_file%CONTENTS}USE")"
+			repository="$(<"${contents_file%CONTENTS}repository")"
+			[[ "${repository}" == "python" ]] && repository="progress"
+			if [[ -n "${#PYTHON_GLOBALLY_SUPPORTED_USE_FLAGS[${repository}]}" ]]; then
+				deleted_USE_flags=""
+				added_USE_flags=""
+				# Delete no longer available USE flags.
+				for USE_flag in ${IUSE}; do
+					USE_flag="${USE_flag#[+-]}"
+					if [[ "${USE_flag}" == python_abis_* ]] && ! has "${USE_flag}" ${PYTHON_GLOBALLY_SUPPORTED_USE_FLAGS[${repository}]} && ! has "${USE_flag}" ${USE}; then
+						deleted_USE_flags+="${deleted_USE_flags:+ }${USE_flag}"
+						sed -e "s/\(^\| \)${USE_flag}\($\| \)/\1\2/;s/^ //;s/  / /g;s/ $//" -i "${contents_file%CONTENTS}IUSE"
+					fi
+				done
+				# Add newly available USE flags.
+				for USE_flag in ${PYTHON_GLOBALLY_SUPPORTED_USE_FLAGS[${repository}]}; do
+					if ! has "${USE_flag}" ${IUSE} && ! check_python_abi_matching --patterns-list "${USE_flag#python_abis_}" "${PYTHON_RESTRICTED_ABIS}"; then
+						added_USE_flags+="${added_USE_flags:+ }${USE_flag}"
+						sed -e "s/$/ ${USE_flag}/" -i "${contents_file%CONTENTS}IUSE"
+					fi
+				done
+				if [[ -n "${deleted_USE_flags}" || -n "${added_USE_flags}" ]]; then
+					# Update mtime of directory.
+					touch "${contents_file%/CONTENTS}"
+				fi
+				eindent
+				if [[ -n "${deleted_USE_flags}" ]]; then
+					veinfo 1 "Deleted USE flags: ${deleted_USE_flags}"
+				fi
+				if [[ -n "${added_USE_flags}" ]]; then
+					veinfo 1 "Added USE flags: ${added_USE_flags}"
+				fi
+				eoutdent
+			fi
+		fi
+		# Don't run any checks in EAPI >= 4-python.
+		continue
+	fi
+
+	if [[ "$((${CHECK_MANUAL} + ${CHECK_NEED_REBUILD} + ${CHECK_PYLIBDIR} + ${CHECK_PYTHON_ABIS} + ${CHECK_SHARED_LINKING} + ${CHECK_STATIC_LINKING}))" -eq 0 ]]; then
+		continue
+	fi
+
+	# Check if package is in PKGS_MANUAL.
+	if [[ "${CHECK_MANUAL}" -ne 0 ]] && has "${CATPKG}" ${PKGS_MANUAL}; then
+		PKGS_TO_REMERGE+=" ${CATPKGVER}"
+		eindent
+		einfo "Adding to list: ${CATPKGVER}"
+		eindent
+		einfo "check: manual [Added to list manually, see CHECKS in manpage for more information.]"
+		eoutdent && eoutdent
+		continue
+	fi
+
+	if [[ "${CHECK_PYTHON_ABIS}" -ne 0 ]]; then
+		if [[ -n "${PYTHON_MULTIPLE_ABIS}" || -n "${SUPPORT_PYTHON_ABIS}" ]]; then
+			new_PYTHON_ABIS=""
+			PYTHON_RESTRICTED_ABIS="$(get_ebuild_variable "${CATEGORY}" "${PN}" "${SLOT}" PYTHON_RESTRICTED_ABIS)"
+			RESTRICT_PYTHON_ABIS="$(get_ebuild_variable "${CATEGORY}" "${PN}" "${SLOT}" RESTRICT_PYTHON_ABIS)"
+			if [[ -z "${PYTHON_RESTRICTED_ABIS}" && -n "${RESTRICT_PYTHON_ABIS}" ]]; then
+				PYTHON_RESTRICTED_ABIS="${RESTRICT_PYTHON_ABIS}"
+			fi
+			USE_PYTHON="$(get_USE_PYTHON "${CATEGORY}" "${PN}" "${SLOT}")"
+			for PYTHON_ABI in ${USE_PYTHON}; do
+				if ! check_python_abi_matching --patterns-list "${PYTHON_ABI}" "${PYTHON_RESTRICTED_ABIS}"; then
+					new_PYTHON_ABIS+="${new_PYTHON_ABIS:+ }${PYTHON_ABI}"
+				fi
+			done
+			eindent && eindent
+			veinfo 3 "Requested ABIs:          \"${USE_PYTHON}\""
+			veinfo 3 "Restricted ABIs:         \"${PYTHON_RESTRICTED_ABIS}\""
+			veinfo 3 "Previously enabled ABIs: \"${PYTHON_ABIS}\""
+			veinfo 3 "Newly enabled ABIs:      \"${new_PYTHON_ABIS}\""
+			eoutdent && eoutdent
+			if [[ "${PYTHON_ABIS}" != "${new_PYTHON_ABIS}" ]]; then
+				PKGS_TO_REMERGE+=" ${CATPKGVER}"
+				eindent
+				einfo "Adding to list: ${CATPKGVER}"
+				eindent
+				veinfo 1 "check: PYTHON_ABIS [ Previous Python ABIs: ${PYTHON_ABIS}, new Python ABIs: ${new_PYTHON_ABIS} ]"
+				eoutdent && eoutdent
+				continue
+			fi
+			# Don't run other checks if PYTHON_ABIS check has been run.
+			continue
+		fi
+	fi
+
+	if [[ "${CHECK_STATIC_LINKING}" -ne 0 ]]; then
+		binaries="$(scanelf -qs +Py_Initialize < <(grep -E "^obj" "${contents_file}" | cut -d" " -f2 | grep -Ev "^/home/core/gentoo/usr/lib(32|64)?/debug/") | sed "s/.* //")"
+		if [[ -n "${binaries}" ]]; then
+			PKGS_TO_REMERGE+=" ${CATPKGVER}"
+			eindent
+			einfo "Adding to list: ${CATPKGVER}"
+			eindent
+			veinfo 1 "check: static_linking [ Binaries linked against Python static libraries found:"
+			eindent
+			old_IFS="${IFS}"
+			IFS=$'\n'
+			for binary in ${binaries}; do
+				veinfo 1 "${binary}"
+			done
+			IFS="${old_IFS}"
+			eoutdent
+			veinfo 1 "]"
+			eoutdent && eoutdent
+		fi
+	fi
+
+	if [[ "${PYTHON_REQUESTED_ACTIVE_VERSION}" =~ ^[[:digit:]]+\.[[:digit:]]+$ ]]; then
+		eindent && eindent
+		veinfo 2 "Requested active version of Python: \"${PYTHON_REQUESTED_ACTIVE_VERSION}\""
+		eoutdent && eoutdent
+		# Don't run other checks if given package has been built with precisely specified requested active version of Python.
+		continue
+	fi
+
+	if [[ "${CHECK_NEED_REBUILD}" -ne 0 ]]; then
+		get_vdb_variable PYTHON_NEED_REBUILD "${environment_file}"
+		if echo "${PYTHON_NEED_REBUILD}" | grep -qE "$(get_OLD_PYTHON_VERSIONS_REGEX)"; then
+			PKGS_TO_REMERGE+=" ${CATPKGVER}"
+			eindent
+			einfo "Adding to list: ${CATPKGVER}"
+			eindent
+			veinfo 1 "check: need_rebuild [ Ebuild set PYTHON_NEED_REBUILD=${PYTHON_NEED_REBUILD} ]"
+			eoutdent && eoutdent
+			continue
+		fi
+	fi
+
+	if [[ "${CHECK_PYLIBDIR}" -ne 0 ]]; then
+		# Search for possible old Python dirs in CONTENTS
+		# /usr/include/python$old
+		# /usr/lib/python$old
+		# /usr/lib32/python$old
+		# /usr/lib64/python$old
+		if grep -qE "/usr/(include|lib(32|64)?)/python$(get_OLD_PYTHON_VERSIONS_REGEX)" "${contents_file}"; then
+			PKGS_TO_REMERGE+=" ${CATPKGVER}"
+			eindent
+			einfo "Adding to list: ${CATPKGVER}"
+			eindent
+			veinfo 1 "check: pylibdir [ Installed file under old Python include/library directory ]"
+			eoutdent && eoutdent
+			continue
+		fi
+	fi
+
+	if [[ "${CHECK_SHARED_LINKING}" -ne 0 ]]; then
+		binaries="$(scanelf -qF "%F %n" < <(grep -E "^obj" "${contents_file}" | cut -d" " -f2 | grep -Ev "^/home/core/gentoo/usr/lib(32|64)?/debug/") | grep -E "( |,)$(get_OLD_PYTHON_SHARED_LIBRARIES_REGEX)(,|$)")"
+        [[ -z ${binaries} ]] && \
+            binaries="$(scanmacho -qF "%F %n" < <(grep -E "^obj" "${contents_file}" | cut -d" " -f2) | grep -E "( |,)$(get_OLD_PYTHON_SHARED_LIBRARIES_REGEX)(,|$)")"
+		if [[ -n "${binaries}" ]]; then
+			PKGS_TO_REMERGE+=" ${CATPKGVER}"
+			eindent
+			einfo "Adding to list: ${CATPKGVER}"
+			eindent
+			veinfo 1 "check: shared_linking [ Binaries linked against old Python shared libraries found:"
+			eindent
+			old_IFS="${IFS}"
+			IFS=$'\n'
+			for binary in ${binaries}; do
+				veinfo 1 "${binary}"
+			done
+			IFS="${old_IFS}"
+			eoutdent
+			veinfo 1 "]"
+			eoutdent && eoutdent
+		fi
+	fi
+done
+
+# Pipe to command if we have one
+if [[ -n "${PIPE_COMMAND}" ]]; then
+	echo "${PKGS_TO_REMERGE}" | ${PIPE_COMMAND}
+	exit "${?}"
+fi
+
+if [[ "${PMS_COMMAND[${PMS_INDEX}]}" == "emerge" ]] ; then
+	# Filter out --getbinpkg, --getbinpkgonly, --usepkg and --usepkgonly options in EMERGE_DEFAULT_OPTS environment variable
+	emerge_default_opts=""
+	for option in $("/home/core/gentoo"/usr/bin/portageq envvar EMERGE_DEFAULT_OPTS); do
+		if [[ "${option}" == -[[:alnum:]]* ]]; then
+			[[ "${option//[gGkK]/}" != "-" ]] && emerge_default_opts+=" ${option//[gGkK]/}"
+		elif [[ "${option}" != "--getbinpkg" && "${option}" != "--getbinpkgonly" && "${option}" != "--usepkg" && "${option}" != "--usepkgonly" ]]; then
+			emerge_default_opts+=" ${option}"
+		fi
+	done
+	export EMERGE_DEFAULT_OPTS="${emerge_default_opts# }"
+fi
+
+# Only pretending?
+[[ "${PRETEND}" -eq 1 ]] && PMS_OPTIONS[${PMS_INDEX}]+=" ${PMS_PRETENDING_OPTIONS[${PMS_INDEX}]}"
+
+# (Pretend to) reinstall packages
+if [[ -n "${PKGS_TO_REMERGE}" ]]; then
+	pmscmd="${CUSTOM_PMS_COMMAND}"
+	[[ -z "${pmscmd}" ]] && pmscmd="${PMS_COMMAND[${PMS_INDEX}]}"
+	cmd="${pmscmd} ${PMS_OPTIONS[${PMS_INDEX}]} ${PKGS_TO_REMERGE} ${ADDITIONAL_OPTIONS}"
+	einfo ${cmd}
+	${cmd}
+else
+	einfo "No packages need to be reinstalled."
+fi

@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=app-emacs/htmlize app-emacs/httpd >=virtual/emacs-23
+DESCRIPTION=Maintain a local Wiki using Emacs-friendly markup
+HOMEPAGE=http://www.mwolson.org/projects/EmacsWiki.html http://www.emacswiki.org/cgi-bin/wiki.pl?EmacsWikiMode
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2+
+RDEPEND=app-emacs/htmlize app-emacs/httpd >=virtual/emacs-23
+SLOT=0
+SRC_URI=http://www.mwolson.org/static/dist/emacs-wiki/emacs-wiki-2.72.tar.gz
+_eclasses_=elisp	b7ff113c97bf466ace6f3235f80af600	elisp-common	1aa23b3de5dae55456fa2071428eb5bf	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7ce2943336dc00dcc80c8e23f892e24d

@@ -1,0 +1,6 @@
+ * Package:    dev-lang/python-exec-2.0.1-r1
+ * Repository: gentoo_prefix
+ * Maintainer: python@gentoo.org
+ * Upstream:   mgorny@gentoo.org https://bitbucket.org/mgorny/python-exec/issues/
+ * USE:        abi_x86_64 amd64 elibc_glibc kernel_linux prefix python_targets_jython2_5 python_targets_jython2_7 python_targets_pypy python_targets_python2_7 python_targets_python3_2 python_targets_python3_3 python_targets_python3_4 userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox

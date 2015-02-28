@@ -1,0 +1,1 @@
+/home/core/gentoo/usr/bin/patchelf libstdc++.so.6,libm.so.6,libgcc_s.so.1,libc.so.6

@@ -1,0 +1,6 @@
+#!/bin/bash
+profiles=(
+	x86_64-pc-linux-gnu-4.6.0
+)
+gcc-config -S ${profiles[@]}
+[[ $? -eq 0 ]]

@@ -1,0 +1,1 @@
+sys-apps/util-linux sys-libs/zlib virtual/awk !=sys-apps/grep-2.13* =sys-fs/zfs-kmod-0.6.3* !sys-fs/zfs-fuse app-arch/cpio app-misc/pax-utils !<sys-boot/grub-2.00-r2:2

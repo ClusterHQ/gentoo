@@ -1,0 +1,110 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/xz-utils-5.0.6
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/lzma-file-format.txt.bz2 ce8713df20544ec9ad002955cfe01f1c 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/xz-file-format.txt.bz2 22319f431ea4d5e69081ddef6e858737 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/history.txt.bz2 8f080930bc8ca793c71158cac27db853 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/faq.txt.bz2 9aba982afb49666e44d5135541fcf369 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/TODO.bz2 d94cdf30c1659388c0f477b4c4109f45 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/THANKS.bz2 4b80cd406e9e0b0a2bd619c43b8d398b 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/README.bz2 8dda00c46a82ab487ee4c1631cb8a426 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/NEWS.bz2 ac65e1383671f56b9480398abf7e9bd6 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/AUTHORS.bz2 3fb7ef74d17cab6a6e382484ecb0cd17 1410987382
+dir /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/examples_old
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/examples_old/xz_pipe_decomp.c.bz2 44e3b7a2fe4d354d3e77612167872097 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/examples_old/xz_pipe_comp.c.bz2 53356894853a9b1eebee2d34985c9b23 1410987382
+dir /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/examples
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/examples/Makefile.bz2 2ddc414b04037df2faabfc3e9d93a9b9 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/examples/03_compress_custom.c.bz2 76ff2c75dc8237d82926bba2caf7b36e 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/examples/02_decompress.c.bz2 2f47e9e53e916044e7ca7ace188ff9a8 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/examples/01_compress_easy.c.bz2 b898c2158a96546c251a1778aad35295 1410987382
+obj /home/core/gentoo/usr/share/doc/xz-utils-5.0.6/examples/00_README.txt.bz2 19c8589511c7eb023391317bd1dd9c23 1410987382
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/xz.mo fe5c185ebf4e645f0af2d32f3eb47f2e 1410987382
+dir /home/core/gentoo/usr/share/locale/it
+dir /home/core/gentoo/usr/share/locale/it/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/it/LC_MESSAGES/xz.mo 6532d002aa94083bfb86a640a75b81f5 1410987382
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/xz.mo 89481844af51e1a1fcf6f0a7699b0295 1410987382
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/xz.mo 3396b9c534fce636aeb5e11953451f98 1410987382
+dir /home/core/gentoo/usr/share/locale/cs
+dir /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES/xz.mo 6bbaf0ffb241f44a2b4f6b32ac280614 1410987382
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+sym /home/core/gentoo/usr/share/man/man1/lzless.1.bz2 -> xzless.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/lzmore.1.bz2 -> xzmore.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/lzfgrep.1.bz2 -> xzgrep.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/lzegrep.1.bz2 -> xzgrep.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/lzgrep.1.bz2 -> xzgrep.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/lzcmp.1.bz2 -> xzdiff.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/lzdiff.1.bz2 -> xzdiff.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/xzfgrep.1.bz2 -> xzgrep.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/xzegrep.1.bz2 -> xzgrep.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/xzcmp.1.bz2 -> xzdiff.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/lzcat.1.bz2 -> xz.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/unlzma.1.bz2 -> xz.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/lzma.1.bz2 -> xz.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/xzcat.1.bz2 -> xz.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/unxz.1.bz2 -> xz.1.bz2 1410987384
+sym /home/core/gentoo/usr/share/man/man1/lzmadec.1.bz2 -> xzdec.1.bz2 1410987384
+obj /home/core/gentoo/usr/share/man/man1/xzless.1.bz2 d8a285a0d946d03992ee14eee363346d 1410987382
+obj /home/core/gentoo/usr/share/man/man1/xzmore.1.bz2 461be8f6c32bd77f441e6b68d623f339 1410987382
+obj /home/core/gentoo/usr/share/man/man1/xzgrep.1.bz2 acdd40d6bf0b5a8f51a7524092909119 1410987382
+obj /home/core/gentoo/usr/share/man/man1/xzdiff.1.bz2 50cc91b454d3c941dedb3ab26efe967d 1410987382
+obj /home/core/gentoo/usr/share/man/man1/lzmainfo.1.bz2 a313c3e69d278cb9cb52d717e9df4c6b 1410987382
+obj /home/core/gentoo/usr/share/man/man1/xz.1.bz2 708a0c5f93b36444a01b9b7b785d1d32 1410987382
+obj /home/core/gentoo/usr/share/man/man1/xzdec.1.bz2 46390f63332e7106e130e4d2762fc2f0 1410987381
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/lzmainfo 79f5df96f763923ec30dc5a54e69cb94 1410987383
+obj /home/core/gentoo/usr/bin/xz a2e03f6757e7b6b713c1392a77dc1bce 1410987383
+obj /home/core/gentoo/usr/bin/xzdec 9d6e0c85c4d49d3fea0237f60190d87e 1410987383
+obj /home/core/gentoo/usr/bin/lzmadec 71525925167dff4fc1b6413340e6b9b6 1410987383
+sym /home/core/gentoo/usr/bin/lzless -> xzless 1410987384
+sym /home/core/gentoo/usr/bin/lzmore -> xzmore 1410987384
+sym /home/core/gentoo/usr/bin/lzfgrep -> xzgrep 1410987384
+sym /home/core/gentoo/usr/bin/lzegrep -> xzgrep 1410987384
+sym /home/core/gentoo/usr/bin/lzgrep -> xzgrep 1410987384
+sym /home/core/gentoo/usr/bin/lzcmp -> xzdiff 1410987384
+sym /home/core/gentoo/usr/bin/lzdiff -> xzdiff 1410987384
+sym /home/core/gentoo/usr/bin/xzfgrep -> xzgrep 1410987384
+sym /home/core/gentoo/usr/bin/xzegrep -> xzgrep 1410987384
+sym /home/core/gentoo/usr/bin/xzcmp -> xzdiff 1410987384
+obj /home/core/gentoo/usr/bin/xzless 306eddb6c7f69ad97a358454bd787d18 1410987382
+obj /home/core/gentoo/usr/bin/xzmore b67368be0b50361fe1c11762016ef0c1 1410987382
+obj /home/core/gentoo/usr/bin/xzgrep ed6c35d6e2fa1f646b83770622f0b508 1410987382
+obj /home/core/gentoo/usr/bin/xzdiff df5263114aea65290908f38257570faf 1410987382
+sym /home/core/gentoo/usr/bin/lzcat -> xz 1410987384
+sym /home/core/gentoo/usr/bin/unlzma -> xz 1410987384
+sym /home/core/gentoo/usr/bin/lzma -> xz 1410987384
+sym /home/core/gentoo/usr/bin/xzcat -> xz 1410987384
+sym /home/core/gentoo/usr/bin/unxz -> xz 1410987384
+dir /home/core/gentoo/usr/lib
+obj /home/core/gentoo/usr/lib/liblzma.so.5.0.6 0aaf38d997b44d8a7333d7890b9de16a 1410987383
+sym /home/core/gentoo/usr/lib/liblzma.so -> liblzma.so.5.0.6 1410987384
+sym /home/core/gentoo/usr/lib/liblzma.so.5 -> liblzma.so.5.0.6 1410987384
+dir /home/core/gentoo/usr/lib/pkgconfig
+obj /home/core/gentoo/usr/lib/pkgconfig/liblzma.pc 089f9d1a148493c44882c665e4d07ce8 1410987381
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/lzma.h 872a873c553b69d5f8ec0ef649aad718 1410987381
+dir /home/core/gentoo/usr/include/lzma
+obj /home/core/gentoo/usr/include/lzma/vli.h e1aa51527ce08aa260777d4fb351a0b7 1410987381
+obj /home/core/gentoo/usr/include/lzma/version.h b67fd3cd08baff2b97af1f7366eeff95 1410987381
+obj /home/core/gentoo/usr/include/lzma/stream_flags.h d3814c86a389337e759db33a259f1072 1410987381
+obj /home/core/gentoo/usr/include/lzma/lzma.h c59c540efa0aff44f03d71331089fff8 1410987381
+obj /home/core/gentoo/usr/include/lzma/index_hash.h 93f41ec399d5b72fa726dbb2f572cbec 1410987381
+obj /home/core/gentoo/usr/include/lzma/index.h 923fbd07d3b348bf7a676d089b5c066f 1410987381
+obj /home/core/gentoo/usr/include/lzma/hardware.h 1c76f7f15d37106607dad60a79cc2568 1410987381
+obj /home/core/gentoo/usr/include/lzma/filter.h 5eb86d86854a7619ed1d1ac1b57b2484 1410987381
+obj /home/core/gentoo/usr/include/lzma/delta.h 397cde14a8f4a544385c9c6ecc7e0cc9 1410987381
+obj /home/core/gentoo/usr/include/lzma/container.h 7f878de3abe07c50108c7f7da139bedb 1410987381
+obj /home/core/gentoo/usr/include/lzma/check.h b07c3297e2bcc14bb477793d08325ee3 1410987381
+obj /home/core/gentoo/usr/include/lzma/block.h 8fa479e7387b780a2d400501560298a3 1410987381
+obj /home/core/gentoo/usr/include/lzma/bcj.h a1035092336f34cf9afafbb05b1edd83 1410987381
+obj /home/core/gentoo/usr/include/lzma/base.h 81a3070447cc5b61b56cfbed076853db 1410987381

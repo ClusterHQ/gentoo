@@ -1,0 +1,22 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/version-0.990.800
+obj /home/core/gentoo/usr/share/doc/version-0.990.800/README.bz2 907428b7805309f38b908b52441cfe27 1410959365
+obj /home/core/gentoo/usr/share/doc/version-0.990.800/Changes.bz2 3fc94e690eef133fd5f9b9dd22d1cc55 1410959365
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/perl5
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/version
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/version/vpp.pm 3ac1b590548a4f167ecfbeb5701dbec7 1410959364
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/version/Internals.pod 9fcf0ba9d77dca6a593fac18da58cc5e 1410959364
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/version/vxs.pm 4f6003e21509fa629972b29e29b03fc9 1410959364
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/version/regex.pm 510e8a3cc0877f4165925a87f5f74216 1410959364
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/version.pod 11f4c4c23d66e90b25eaf36ee643a071 1410959364
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/version.pm f51584c8f90ba5a76e4f1e467080719d 1410959364
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto/version
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto/version/vxs
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/x86_64-linux/auto/version/vxs/vxs.so 4653e970fdfe95e78af6cc8aab951451 1410959365

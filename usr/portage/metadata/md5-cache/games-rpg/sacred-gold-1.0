@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Action role-playing game
+HOMEPAGE=http://linuxgamepublishing.com/info.php?id=sacred
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=all-rights-reserved GPL-2 LGPL-2
+PROPERTIES=interactive
+RDEPEND=virtual/opengl x86? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXi ) amd64? ( app-emulation/emul-linux-x86-xlibs )
+RESTRICT=bindist strip
+SLOT=0
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cdrom	49b4b952fb5c83fac6c616b532723e60	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=38e75135a4fadf29a0f666c9344fbb2f

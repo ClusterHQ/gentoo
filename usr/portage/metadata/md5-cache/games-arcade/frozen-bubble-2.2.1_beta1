@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DEPEND=>=dev-lang/perl-5.12 >=dev-libs/glib-2 >=dev-perl/Alien-SDL-1.413 dev-perl/Compress-Bzip2 dev-perl/File-ShareDir dev-perl/File-Slurp dev-perl/File-Which dev-perl/IPC-System-Simple >=dev-perl/SDL-2.511 media-libs/sdl-image[gif,png] media-libs/sdl-mixer[vorbis] media-libs/sdl-pango media-libs/sdl-ttf virtual/libiconv virtual/perl-Getopt-Long virtual/perl-IO virtual/pkgconfig dev-perl/locale-maketext-lexicon virtual/perl-ExtUtils-CBuilder virtual/perl-ExtUtils-ParseXS virtual/perl-Module-Build >=sys-apps/sed-4 dev-lang/perl:=[-build(-)]
+DESCRIPTION=A Puzzle Bubble clone written in perl (now with network support)
+EAPI=5
+HOMEPAGE=http://www.frozen-bubble.org/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/perl-5.12 >=dev-libs/glib-2 >=dev-perl/Alien-SDL-1.413 dev-perl/Compress-Bzip2 dev-perl/File-ShareDir dev-perl/File-Slurp dev-perl/File-Which dev-perl/IPC-System-Simple >=dev-perl/SDL-2.511 media-libs/sdl-image[gif,png] media-libs/sdl-mixer[vorbis] media-libs/sdl-pango media-libs/sdl-ttf virtual/libiconv virtual/perl-Getopt-Long virtual/perl-IO dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=http://www.frozen-bubble.org/data/frozen-bubble-2.2.1-beta1.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	a6a2d5c77bdaeba2794b167689cafb7a	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=b2f377def6832ee1e995ebbc6c947db3

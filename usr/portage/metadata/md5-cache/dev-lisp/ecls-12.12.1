@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup
+DEPEND=dev-libs/gmp virtual/libffi >=dev-libs/boehm-gc-7.1[threads?] app-text/texi2html emacs? ( virtual/emacs >=app-admin/eselect-emacs-1.12 )
+DESCRIPTION=ECL is an embeddable Common Lisp implementation
+EAPI=4
+HOMEPAGE=http://ecls.sourceforge.net/
+IUSE=debug emacs gengc precisegc threads +unicode X
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux
+LICENSE=BSD LGPL-2
+PDEPEND=dev-lisp/gentoo-init
+RDEPEND=dev-libs/gmp virtual/libffi >=dev-libs/boehm-gc-7.1[threads?]
+SLOT=0
+SRC_URI=mirror://sourceforge/ecls/ecl-12.12.1.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e60d609dd07f648ecfdc398f2da46769

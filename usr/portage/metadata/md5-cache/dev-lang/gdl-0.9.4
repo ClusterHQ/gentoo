@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=sci-libs/gsl:0= sci-libs/plplot:0= sys-libs/ncurses:5= sys-libs/readline:0= sys-libs/zlib:0= x11-libs/libX11:0= fftw? ( sci-libs/fftw:3.0= ) grib? ( sci-libs/grib_api:0= ) gshhs? ( sci-geosciences/gshhs-data sci-geosciences/gshhs:0= ) hdf? ( sci-libs/hdf:0= ) hdf5? ( sci-libs/hdf5:0= ) imagemagick? ( || ( media-gfx/graphicsmagick[cxx] media-gfx/imagemagick[cxx] ) ) netcdf? ( sci-libs/netcdf ) proj? ( sci-libs/proj ) postscript? ( dev-libs/pslib ) python? ( dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) udunits? ( sci-libs/udunits ) wxwidgets? ( x11-libs/wxGTK:2.8[X,-odbc] ) >=dev-java/antlr-2.7.7-r5:0[cxx,java,script] virtual/pkgconfig eigen? ( dev-cpp/eigen:3 ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost )
+DESCRIPTION=Interactive Data Language compatible incremental compiler
+EAPI=5
+HOMEPAGE=http://gnudatalanguage.sourceforge.net/
+IUSE=+eigen fftw grib gshhs hdf hdf5 imagemagick netcdf openmp proj postscript python static-libs udunits wxwidgets python_targets_python2_7 test
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=sci-libs/gsl:0= sci-libs/plplot:0= sys-libs/ncurses:5= sys-libs/readline:0= sys-libs/zlib:0= x11-libs/libX11:0= fftw? ( sci-libs/fftw:3.0= ) grib? ( sci-libs/grib_api:0= ) gshhs? ( sci-geosciences/gshhs-data sci-geosciences/gshhs:0= ) hdf? ( sci-libs/hdf:0= ) hdf5? ( sci-libs/hdf5:0= ) imagemagick? ( || ( media-gfx/graphicsmagick[cxx] media-gfx/imagemagick[cxx] ) ) netcdf? ( sci-libs/netcdf ) proj? ( sci-libs/proj ) postscript? ( dev-libs/pslib ) python? ( dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) udunits? ( sci-libs/udunits ) wxwidgets? ( x11-libs/wxGTK:2.8[X,-odbc] )
+REQUIRED_USE=python? ( || ( python_targets_python2_7 ) )
+SLOT=0
+SRC_URI=mirror://sourceforge/gnudatalanguage/gdl-0.9.4.tar.gz
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multibuild	46527a4656956da3d58acff72c9b59b1	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	python-r1	75e5c82b55dcb208a0a8f4ab8847e731	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	virtualx	73cfc129b4b9ba23aed1abb10c825d86	wxwidgets	6d6eec2685256d35511e7b6d5461bec9
+_md5_=42ab9a026da4987433987f55675a1203

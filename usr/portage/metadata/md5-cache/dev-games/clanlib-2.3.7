@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=sys-libs/zlib X? ( media-libs/libpng virtual/jpeg media-libs/freetype media-libs/fontconfig opengl? ( virtual/opengl ) app-arch/bzip2 x11-libs/libX11 ) sqlite? ( dev-db/sqlite ) sound? ( media-libs/alsa-lib ) mikmod? ( media-libs/libmikmod media-libs/alsa-lib ) vorbis? ( media-libs/libogg media-libs/libvorbis media-libs/alsa-lib ) virtual/pkgconfig doc? ( app-doc/doxygen dev-lang/perl )
+DESCRIPTION=multi-platform game development library
+EAPI=4
+HOMEPAGE=http://www.clanlib.org/
+IUSE=doc ipv6 mikmod opengl sound sqlite sse2 static-libs vorbis X
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+RDEPEND=sys-libs/zlib X? ( media-libs/libpng virtual/jpeg media-libs/freetype media-libs/fontconfig opengl? ( virtual/opengl ) app-arch/bzip2 x11-libs/libX11 ) sqlite? ( dev-db/sqlite ) sound? ( media-libs/alsa-lib ) mikmod? ( media-libs/libmikmod media-libs/alsa-lib ) vorbis? ( media-libs/libogg media-libs/libvorbis media-libs/alsa-lib )
+REQUIRED_USE=opengl? ( X )
+SLOT=2.3
+SRC_URI=http://clanlib.org/download/releases-2.0/ClanLib-2.3.7.tgz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	autotools-utils	3727db64c7b960903d5033280f108080	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=f3517cf4d927394f9125b5a4ce3a44e0

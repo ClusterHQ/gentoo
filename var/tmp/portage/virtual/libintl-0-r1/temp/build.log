@@ -1,0 +1,23 @@
+ * Package:    virtual/libintl-0-r1
+ * Repository: gentoo_prefix
+ * Maintainer: alt@gentoo.org
+ * USE:        abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox
+>>> Unpacking source...
+>>> Source unpacked in /home/core/gentoo/var/tmp/portage/virtual/libintl-0-r1/work
+>>> Preparing source in /home/core/gentoo/var/tmp/portage/virtual/libintl-0-r1/work ...
+>>> Source prepared.
+>>> Configuring source in /home/core/gentoo/var/tmp/portage/virtual/libintl-0-r1/work ...
+>>> Source configured.
+Traceback (most recent call last):
+  File "/home/core/gentoo/var/tmp/portage/._portage_reinstall_.9fcp9Y/bin/ebuild-ipc.py", line 228, in <module>
+    sys.exit(ebuild_ipc_main(sys.argv[1:]))
+  File "/home/core/gentoo/var/tmp/portage/._portage_reinstall_.9fcp9Y/bin/ebuild-ipc.py", line 225, in ebuild_ipc_main
+    return ebuild_ipc.communicate(args)
+  File "/home/core/gentoo/var/tmp/portage/._portage_reinstall_.9fcp9Y/bin/ebuild-ipc.py", line 82, in communicate
+    lock_obj = portage.locks.lockfile(self.ipc_lock_file, unlinkfile=True)
+  File "/home/core/gentoo/var/tmp/portage/._portage_reinstall_.9fcp9Y/pym/portage/locks.py", line 106, in lockfile
+    myfd = os.open(lockfilename, os.O_CREAT|os.O_RDWR, 0o660)
+  File "/home/core/gentoo/var/tmp/portage/._portage_reinstall_.9fcp9Y/pym/portage/__init__.py", line 260, in __call__
+    rval = self._func(*wrapped_args, **wrapped_kwargs)
+KeyboardInterrupt

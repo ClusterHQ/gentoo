@@ -1,0 +1,15 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/which.info.bz2 89f6004658e2b79667fc88cbe470a020 1410958927
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/which.1.bz2 92d413b681e25f0280a6f380f0275e68 1410958927
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/which-2.20-r1
+obj /home/core/gentoo/usr/share/doc/which-2.20-r1/README.bz2 353f3368b8bfd631efe6a090eee25730 1410958927
+obj /home/core/gentoo/usr/share/doc/which-2.20-r1/NEWS.bz2 eeb9958d169958c582c075ec7593a28b 1410958927
+obj /home/core/gentoo/usr/share/doc/which-2.20-r1/README.alias.bz2 c61ff981bbb9878f8ac5e2991091f4c4 1410958927
+obj /home/core/gentoo/usr/share/doc/which-2.20-r1/AUTHORS.bz2 b0167086cd1e1a42fb919c5e95a77608 1410958927
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/which a385b3ffb6a3afd148e7e6f44ad060e6 1410958928

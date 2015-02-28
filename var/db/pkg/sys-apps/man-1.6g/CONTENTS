@@ -1,0 +1,252 @@
+dir /home/core/gentoo/var
+dir /home/core/gentoo/var/cache
+dir /home/core/gentoo/var/cache/man
+dir /home/core/gentoo/var/cache/man/cat3p
+obj /home/core/gentoo/var/cache/man/cat3p/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat7
+obj /home/core/gentoo/var/cache/man/cat7/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat3
+obj /home/core/gentoo/var/cache/man/cat3/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat9
+obj /home/core/gentoo/var/cache/man/cat9/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/catp
+obj /home/core/gentoo/var/cache/man/catp/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cattcl
+obj /home/core/gentoo/var/cache/man/cattcl/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/catn
+obj /home/core/gentoo/var/cache/man/catn/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat4
+obj /home/core/gentoo/var/cache/man/cat4/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat6
+obj /home/core/gentoo/var/cache/man/cat6/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/catl
+obj /home/core/gentoo/var/cache/man/catl/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat1p
+obj /home/core/gentoo/var/cache/man/cat1p/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat1
+obj /home/core/gentoo/var/cache/man/cat1/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat5
+obj /home/core/gentoo/var/cache/man/cat5/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cato
+obj /home/core/gentoo/var/cache/man/cato/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat8
+obj /home/core/gentoo/var/cache/man/cat8/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat0p
+obj /home/core/gentoo/var/cache/man/cat0p/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+obj /home/core/gentoo/var/cache/man/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/var/cache/man/cat2
+obj /home/core/gentoo/var/cache/man/cat2/.keep_sys-apps_man-0 d41d8cd98f00b204e9800998ecf8427e 1410960813
+dir /home/core/gentoo/etc
+obj /home/core/gentoo/etc/man.conf 4b9ea225d3723e2603ae3a752f115bad 1410960812
+dir /home/core/gentoo/etc/cron.daily
+obj /home/core/gentoo/etc/cron.daily/makewhatis 2fa85a14e2de7d448142852b2f6298d3 1410960813
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/sbin
+obj /home/core/gentoo/usr/sbin/makewhatis f306045b07248c031a3945335a042e15 1410960814
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/man-1.6g
+obj /home/core/gentoo/usr/share/doc/man-1.6g/README.bz2 003032b063d89c56aaf74da8e37b6736 1410960813
+obj /home/core/gentoo/usr/share/doc/man-1.6g/LSM.bz2 e8507a3703c3ce2c2f7d4f128499eae2 1410960813
+obj /home/core/gentoo/usr/share/doc/man-1.6g/README.HP.bz2 1052e9aa4f22e83e668b9c1c7199d456 1410960813
+obj /home/core/gentoo/usr/share/doc/man-1.6g/README.GNU-WIN32.bz2 1ef21db13b24d0fde5caf90d7dc60e7c 1410960813
+obj /home/core/gentoo/usr/share/doc/man-1.6g/TODO.bz2 e25b09691defe69b9732a272eba76009 1410960813
+obj /home/core/gentoo/usr/share/doc/man-1.6g/README.IRIX.bz2 0eeba8cee7314e81ee8789c1c112cbc8 1410960813
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/cs
+dir /home/core/gentoo/usr/share/man/cs/man1
+obj /home/core/gentoo/usr/share/man/cs/man1/whatis.1.bz2 80ccb2ccfad4d7479ffef4acacd3bc94 1410960812
+obj /home/core/gentoo/usr/share/man/cs/man1/apropos.1.bz2 35302336d75160554181164a1fd24cdc 1410960812
+obj /home/core/gentoo/usr/share/man/cs/man1/man.1.bz2 0e6ef74d29f21d6dd1f7c7b2f01d6389 1410960812
+dir /home/core/gentoo/usr/share/man/cs/man8
+dir /home/core/gentoo/usr/share/man/cs/man5
+obj /home/core/gentoo/usr/share/man/cs/man5/man.conf.5.bz2 3eff5aedc91fc3399c9ee0bd91e7f2d4 1410960813
+dir /home/core/gentoo/usr/share/man/nl
+dir /home/core/gentoo/usr/share/man/nl/man8
+dir /home/core/gentoo/usr/share/man/nl/man5
+obj /home/core/gentoo/usr/share/man/nl/man5/man.conf.5.bz2 7f934cf861f30793c5c25f578b6e1746 1410960812
+dir /home/core/gentoo/usr/share/man/nl/man1
+obj /home/core/gentoo/usr/share/man/nl/man1/whatis.1.bz2 1cc506ad5bcb243d2bf431787a449f45 1410960812
+obj /home/core/gentoo/usr/share/man/nl/man1/man.1.bz2 03e7eb8f5e17cc7cca85684719d2cbea 1410960812
+obj /home/core/gentoo/usr/share/man/nl/man1/apropos.1.bz2 f9cba6316727f31f8f72d94911b5fb50 1410960812
+dir /home/core/gentoo/usr/share/man/fr
+dir /home/core/gentoo/usr/share/man/fr/man1
+obj /home/core/gentoo/usr/share/man/fr/man1/man.1.bz2 0551b8ba19ada3283f7c8b987595774c 1410960813
+obj /home/core/gentoo/usr/share/man/fr/man1/whatis.1.bz2 15d3699b090f0c2ff5a242ba2f4b26a6 1410960813
+obj /home/core/gentoo/usr/share/man/fr/man1/apropos.1.bz2 8057e8a2c0d56d1990b3102bd3e5aaf6 1410960813
+dir /home/core/gentoo/usr/share/man/fr/man8
+obj /home/core/gentoo/usr/share/man/fr/man8/makewhatis.8.bz2 3f66fe3a69d7d2cc1ef8cae7cc04c71e 1410960813
+dir /home/core/gentoo/usr/share/man/fr/man5
+obj /home/core/gentoo/usr/share/man/fr/man5/man.conf.5.bz2 39ba9cc3f5c6b3acec85968c3349fa51 1410960813
+dir /home/core/gentoo/usr/share/man/bg
+dir /home/core/gentoo/usr/share/man/bg/man5
+obj /home/core/gentoo/usr/share/man/bg/man5/man.conf.5.bz2 b4f1da764e60f28b3c4dc4b65e2a19e5 1410960812
+dir /home/core/gentoo/usr/share/man/bg/man8
+obj /home/core/gentoo/usr/share/man/bg/man8/makewhatis.8.bz2 cd131c4f1a95bc25b7987a7b864631d9 1410960812
+dir /home/core/gentoo/usr/share/man/bg/man1
+obj /home/core/gentoo/usr/share/man/bg/man1/man.1.bz2 079669edee698e1742725c1277b5533f 1410960812
+obj /home/core/gentoo/usr/share/man/bg/man1/apropos.1.bz2 4c4da8aa2ac413cea38f399ccccbec05 1410960812
+obj /home/core/gentoo/usr/share/man/bg/man1/whatis.1.bz2 05f641c823168ab1db8dedf38ae3e29c 1410960812
+dir /home/core/gentoo/usr/share/man/hr
+dir /home/core/gentoo/usr/share/man/hr/man5
+obj /home/core/gentoo/usr/share/man/hr/man5/man.conf.5.bz2 1b0608bbcaa8c2d09a4dcf602ad6ee5c 1410960812
+dir /home/core/gentoo/usr/share/man/hr/man8
+dir /home/core/gentoo/usr/share/man/hr/man1
+obj /home/core/gentoo/usr/share/man/hr/man1/man.1.bz2 875fbbbdd580a9a0599f8fba6a77b172 1410960812
+obj /home/core/gentoo/usr/share/man/hr/man1/whatis.1.bz2 5e515e1ec2bc614ca5718bb852d1d4f5 1410960812
+obj /home/core/gentoo/usr/share/man/hr/man1/apropos.1.bz2 3c4e40f0fb3d8e08241d9fab7a3a6c88 1410960812
+dir /home/core/gentoo/usr/share/man/pl
+dir /home/core/gentoo/usr/share/man/pl/man1
+obj /home/core/gentoo/usr/share/man/pl/man1/whatis.1.bz2 09b1870b45602f080689648396e14a71 1410960812
+obj /home/core/gentoo/usr/share/man/pl/man1/man.1.bz2 536aa5ed09be791211a54d7b9eeec0d6 1410960812
+obj /home/core/gentoo/usr/share/man/pl/man1/apropos.1.bz2 862e51b60f57d4c17454f94fcd29e6ef 1410960812
+dir /home/core/gentoo/usr/share/man/pl/man5
+obj /home/core/gentoo/usr/share/man/pl/man5/man.conf.5.bz2 d8fdbe43b1aee9ffa1dd8ed04ab4bd3c 1410960812
+dir /home/core/gentoo/usr/share/man/pl/man8
+dir /home/core/gentoo/usr/share/man/es
+dir /home/core/gentoo/usr/share/man/es/man1
+obj /home/core/gentoo/usr/share/man/es/man1/man.1.bz2 90dddbfec1ff66809442f5bb867a89a1 1410960812
+obj /home/core/gentoo/usr/share/man/es/man1/whatis.1.bz2 64633c571fb5fc88f959e45d8aeaba11 1410960812
+obj /home/core/gentoo/usr/share/man/es/man1/apropos.1.bz2 1976a66885b834edb1c47bde1d03e617 1410960812
+dir /home/core/gentoo/usr/share/man/es/man5
+obj /home/core/gentoo/usr/share/man/es/man5/man.conf.5.bz2 4a3ec1c32fe8e7cf82cd6300bddc7bc1 1410960812
+dir /home/core/gentoo/usr/share/man/es/man8
+obj /home/core/gentoo/usr/share/man/es/man8/makewhatis.8.bz2 7547400cfabb7e7ba416f0bdd5fb0f32 1410960813
+dir /home/core/gentoo/usr/share/man/sl
+dir /home/core/gentoo/usr/share/man/sl/man8
+dir /home/core/gentoo/usr/share/man/sl/man5
+obj /home/core/gentoo/usr/share/man/sl/man5/man.conf.5.bz2 16bc219ec324811624ff01c9c8d100e2 1410960813
+dir /home/core/gentoo/usr/share/man/sl/man1
+obj /home/core/gentoo/usr/share/man/sl/man1/whatis.1.bz2 d598bfa7766edb4bafd4912321ef89d6 1410960813
+obj /home/core/gentoo/usr/share/man/sl/man1/apropos.1.bz2 a199e2f5307614830dd959e63616b20a 1410960813
+obj /home/core/gentoo/usr/share/man/sl/man1/man.1.bz2 322c94732e2c7b0565edd2a48008e96b 1410960813
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/man2html.1.bz2 7d8cd122471ca9e052aa4681637bed6b 1410960812
+obj /home/core/gentoo/usr/share/man/man1/whatis.1.bz2 415a852706b114f67ebdfe15893bad4f 1410960812
+obj /home/core/gentoo/usr/share/man/man1/apropos.1.bz2 3d2a9463a2216038ae3120b494bca832 1410960812
+obj /home/core/gentoo/usr/share/man/man1/man.1.bz2 63d3f9f7e6cb57ace1b406e72af96184 1410960812
+dir /home/core/gentoo/usr/share/man/it
+dir /home/core/gentoo/usr/share/man/it/man1
+obj /home/core/gentoo/usr/share/man/it/man1/man.1.bz2 10cad51b00279f1ce71ad3da2e26a888 1410960813
+obj /home/core/gentoo/usr/share/man/it/man1/whatis.1.bz2 6204df5f4be0b8f852cd9c4b3be44991 1410960813
+obj /home/core/gentoo/usr/share/man/it/man1/apropos.1.bz2 724696339759a2b405c9e315009aad13 1410960813
+dir /home/core/gentoo/usr/share/man/it/man5
+obj /home/core/gentoo/usr/share/man/it/man5/man.conf.5.bz2 2f768985db344d6d88b8712b179d26c0 1410960813
+dir /home/core/gentoo/usr/share/man/it/man8
+obj /home/core/gentoo/usr/share/man/it/man8/makewhatis.8.bz2 9d0581cd11dcef099eca483895b59829 1410960813
+dir /home/core/gentoo/usr/share/man/ro
+dir /home/core/gentoo/usr/share/man/ro/man8
+obj /home/core/gentoo/usr/share/man/ro/man8/makewhatis.8.bz2 610565b5a169e980d5cc3ffadf84b131 1410960812
+dir /home/core/gentoo/usr/share/man/ro/man5
+obj /home/core/gentoo/usr/share/man/ro/man5/man.conf.5.bz2 d09d9606a4a9f4bab5acc1b7163a01d2 1410960812
+dir /home/core/gentoo/usr/share/man/ro/man1
+obj /home/core/gentoo/usr/share/man/ro/man1/whatis.1.bz2 aaeae8ce63447dd62d3351e3a686b206 1410960812
+obj /home/core/gentoo/usr/share/man/ro/man1/man.1.bz2 bfee6e111920c534fd472860e37ae79d 1410960812
+obj /home/core/gentoo/usr/share/man/ro/man1/apropos.1.bz2 5af2499ff27ec7a1f1fe195fd5064ac3 1410960812
+dir /home/core/gentoo/usr/share/man/da
+dir /home/core/gentoo/usr/share/man/da/man5
+obj /home/core/gentoo/usr/share/man/da/man5/man.conf.5.bz2 d94a37ec052bfe855e1eec8c94d706e1 1410960812
+dir /home/core/gentoo/usr/share/man/da/man8
+dir /home/core/gentoo/usr/share/man/da/man1
+obj /home/core/gentoo/usr/share/man/da/man1/whatis.1.bz2 b020d306b9e1948f901e3665e7c43439 1410960812
+obj /home/core/gentoo/usr/share/man/da/man1/man.1.bz2 87dafc8d530250130014f6452275c018 1410960812
+obj /home/core/gentoo/usr/share/man/da/man1/apropos.1.bz2 765fe067fb77e0eef4734452a5ef51f0 1410960812
+dir /home/core/gentoo/usr/share/man/el
+dir /home/core/gentoo/usr/share/man/el/man1
+obj /home/core/gentoo/usr/share/man/el/man1/man.1.bz2 51148c6058b7441879306b5712cddf3b 1410960812
+obj /home/core/gentoo/usr/share/man/el/man1/whatis.1.bz2 4667b0c9133f084eb58a4a8d27d313f2 1410960812
+obj /home/core/gentoo/usr/share/man/el/man1/apropos.1.bz2 d88119f757e15d1d7019d2e98cb7bf48 1410960812
+dir /home/core/gentoo/usr/share/man/el/man8
+obj /home/core/gentoo/usr/share/man/el/man8/makewhatis.8.bz2 99a9376b1cbecca1d92636c6aa9c86e3 1410960813
+dir /home/core/gentoo/usr/share/man/el/man5
+obj /home/core/gentoo/usr/share/man/el/man5/man.conf.5.bz2 af6f62dc4203de08c69e45142ffa67dc 1410960812
+dir /home/core/gentoo/usr/share/man/man8
+obj /home/core/gentoo/usr/share/man/man8/makewhatis.8.bz2 8907ff39af76f550d63320df38630265 1410960812
+dir /home/core/gentoo/usr/share/man/de
+dir /home/core/gentoo/usr/share/man/de/man1
+obj /home/core/gentoo/usr/share/man/de/man1/apropos.1.bz2 8bb6c2e5bc3f615e9574257517606dff 1410960812
+obj /home/core/gentoo/usr/share/man/de/man1/man.1.bz2 f6ddf0f09102e8da9a2174f0304530fa 1410960812
+obj /home/core/gentoo/usr/share/man/de/man1/whatis.1.bz2 61af19fff8b8d4f26c087ec7ee6c024a 1410960812
+dir /home/core/gentoo/usr/share/man/de/man5
+obj /home/core/gentoo/usr/share/man/de/man5/man.conf.5.bz2 e752f0d1ed7873eea28de61ebe57b83b 1410960812
+dir /home/core/gentoo/usr/share/man/de/man8
+dir /home/core/gentoo/usr/share/man/ja
+dir /home/core/gentoo/usr/share/man/ja/man5
+obj /home/core/gentoo/usr/share/man/ja/man5/man.conf.5.bz2 0f0535f0597d3261e9a9b42932b78739 1410960812
+dir /home/core/gentoo/usr/share/man/ja/man8
+dir /home/core/gentoo/usr/share/man/ja/man1
+obj /home/core/gentoo/usr/share/man/ja/man1/man.1.bz2 e50afb7f9bf8d2b8f1ff261223aa8389 1410960812
+obj /home/core/gentoo/usr/share/man/ja/man1/whatis.1.bz2 44ba9f4b2c98fef7d5668689582ff6fe 1410960812
+obj /home/core/gentoo/usr/share/man/ja/man1/apropos.1.bz2 ce96c7b1df53e84fefedcc6b1f411ca3 1410960812
+dir /home/core/gentoo/usr/share/man/man5
+obj /home/core/gentoo/usr/share/man/man5/man.conf.5.bz2 2668a864c1ce353844692d67473169ad 1410960812
+dir /home/core/gentoo/usr/share/man/ko
+dir /home/core/gentoo/usr/share/man/ko/man8
+dir /home/core/gentoo/usr/share/man/ko/man5
+obj /home/core/gentoo/usr/share/man/ko/man5/man.conf.5.bz2 a2c498d48255856734e991fcbe066489 1410960812
+dir /home/core/gentoo/usr/share/man/ko/man1
+obj /home/core/gentoo/usr/share/man/ko/man1/apropos.1.bz2 64a3681ab3d4a7019811b9747ba15a54 1410960812
+obj /home/core/gentoo/usr/share/man/ko/man1/whatis.1.bz2 cf72d0e3ae28c3735fe07285eb4af49a 1410960812
+obj /home/core/gentoo/usr/share/man/ko/man1/man.1.bz2 b6cb810f2133252f1b7272fcce247e82 1410960812
+dir /home/core/gentoo/usr/share/man/pt
+dir /home/core/gentoo/usr/share/man/pt/man5
+obj /home/core/gentoo/usr/share/man/pt/man5/man.conf.5.bz2 b68b6ef8decc8b534d5fc63e8c3878f5 1410960812
+dir /home/core/gentoo/usr/share/man/pt/man8
+dir /home/core/gentoo/usr/share/man/pt/man1
+obj /home/core/gentoo/usr/share/man/pt/man1/apropos.1.bz2 1a162b6b633b18f3df051721c51de20e 1410960812
+obj /home/core/gentoo/usr/share/man/pt/man1/man.1.bz2 4fb92cfcabdb67315c2c771207785162 1410960812
+obj /home/core/gentoo/usr/share/man/pt/man1/whatis.1.bz2 6045d10f953b8660386fbb266fcf484d 1410960812
+dir /home/core/gentoo/usr/share/man/fi
+dir /home/core/gentoo/usr/share/man/fi/man1
+obj /home/core/gentoo/usr/share/man/fi/man1/apropos.1.bz2 8941ca71af8ffee0043a7c8d604e6cc2 1410960812
+obj /home/core/gentoo/usr/share/man/fi/man1/whatis.1.bz2 c7798d38cc9581cfc980cb8302a26eea 1410960812
+obj /home/core/gentoo/usr/share/man/fi/man1/man.1.bz2 2748624954cec126f98d09bac41539a0 1410960812
+dir /home/core/gentoo/usr/share/man/fi/man8
+dir /home/core/gentoo/usr/share/man/fi/man5
+obj /home/core/gentoo/usr/share/man/fi/man5/man.conf.5.bz2 053f588bce3f5ebbeb22998ba3dc4e03 1410960812
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/ru
+obj /home/core/gentoo/usr/share/locale/ru/man a62b325eeb8bbbbc33ece919e2cc6d4d 1410960813
+dir /home/core/gentoo/usr/share/locale/ko
+obj /home/core/gentoo/usr/share/locale/ko/man bab259f747ad230cc43a54c66b98c71f 1410960813
+dir /home/core/gentoo/usr/share/locale/pt
+obj /home/core/gentoo/usr/share/locale/pt/man 0595b76520885a1708cfd9dd20261bf8 1410960813
+dir /home/core/gentoo/usr/share/locale/fi
+obj /home/core/gentoo/usr/share/locale/fi/man f30650bb59350e243f49b1f09c679318 1410960813
+dir /home/core/gentoo/usr/share/locale/el
+obj /home/core/gentoo/usr/share/locale/el/man e207648096dc1c952f726db32273ca06 1410960813
+dir /home/core/gentoo/usr/share/locale/ja
+obj /home/core/gentoo/usr/share/locale/ja/man d3f6813baab99ba5f6af4e760297e32d 1410960813
+dir /home/core/gentoo/usr/share/locale/de
+obj /home/core/gentoo/usr/share/locale/de/man 019732f807a0294e552fb053cac5ab7e 1410960813
+dir /home/core/gentoo/usr/share/locale/da
+obj /home/core/gentoo/usr/share/locale/da/man 86b916920445e639b956b86645aeef4e 1410960813
+dir /home/core/gentoo/usr/share/locale/sl
+obj /home/core/gentoo/usr/share/locale/sl/man ec8ec30893cc14c58b0edb506ecf320a 1410960813
+dir /home/core/gentoo/usr/share/locale/it
+obj /home/core/gentoo/usr/share/locale/it/man 1aaed170b588874b9978fd3312792fe0 1410960813
+dir /home/core/gentoo/usr/share/locale/ro
+obj /home/core/gentoo/usr/share/locale/ro/man 500b5e114d36bd9af569db9db8d499eb 1410960813
+dir /home/core/gentoo/usr/share/locale/es
+obj /home/core/gentoo/usr/share/locale/es/man 45450aea9edf2a9ca380e26ed73961db 1410960813
+dir /home/core/gentoo/usr/share/locale/pl
+obj /home/core/gentoo/usr/share/locale/pl/man 6477a5d9893fe9cb4fac084ebf54bed3 1410960813
+dir /home/core/gentoo/usr/share/locale/bg
+obj /home/core/gentoo/usr/share/locale/bg/man 952a4abf4372f208c557a1f62dd05546 1410960813
+dir /home/core/gentoo/usr/share/locale/hr
+obj /home/core/gentoo/usr/share/locale/hr/man cb4e2e1e7410f8943bad52b9c2563234 1410960813
+dir /home/core/gentoo/usr/share/locale/nl
+obj /home/core/gentoo/usr/share/locale/nl/man 11d80082e5d830e53261356bae2eb209 1410960813
+dir /home/core/gentoo/usr/share/locale/fr
+obj /home/core/gentoo/usr/share/locale/fr/man c1c15dd68ceabd947917c940b66f3849 1410960813
+dir /home/core/gentoo/usr/share/locale/en
+obj /home/core/gentoo/usr/share/locale/en/man 163d29d408e93a0db2e194fc129482bd 1410960813
+dir /home/core/gentoo/usr/share/locale/cs
+obj /home/core/gentoo/usr/share/locale/cs/man 8f455d5b5b4ac953b85203cde8f0b760 1410960813
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/man2html fd1eb84788fb62b9ecf2e4c2de3fb5ce 1410960814
+obj /home/core/gentoo/usr/bin/whatis be44e4b6c2862ada4527f22fed194682 1410960814
+obj /home/core/gentoo/usr/bin/man a77164313a92899afada42dcd5daca24 1410960814
+obj /home/core/gentoo/usr/bin/man2dvi 26f69a12887d7ab7725934450f2e6e19 1410960814
+obj /home/core/gentoo/usr/bin/apropos b2409f8268861cb1732f783641ee8451 1410960814
+sym /home/core/gentoo/usr/bin/manpath -> man 1410960865

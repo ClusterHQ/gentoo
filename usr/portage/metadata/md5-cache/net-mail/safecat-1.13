@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=sys-apps/groff >=sys-apps/sed-4
+DESCRIPTION=Safecat implements qmail's maildir algorithm, copying standard input safely to a specified directory
+EAPI=3
+HOMEPAGE=http://www.jeenyus.net/linux/software/safecat.html
+KEYWORDS=amd64 ~hppa ~mips ppc ~sparc x86
+LICENSE=BSD
+RESTRICT=test
+SLOT=0
+SRC_URI=http://www.jeenyus.net/linux/software/safecat/safecat-1.13.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fixheadtails	c6fd1fc49c9dc11924f28a1406f251a0	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6265a3a19f4e9929d76a95b6658a5d60

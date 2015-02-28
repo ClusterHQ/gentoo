@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=>=dev-libs/geoip-1.4.8 =www-servers/apache-2*
+DESCRIPTION=Apache 2.x module for finding the country and city that a web request originated from
+HOMEPAGE=http://www.maxmind.com/app/mod_geoip
+KEYWORDS=~x86 ~amd64
+LICENSE=Apache-1.1
+RDEPEND=>=dev-libs/geoip-1.4.8 =www-servers/apache-2*
+SLOT=0
+SRC_URI=http://geolite.maxmind.com/download/geoip/api/mod_geoip2/mod_geoip2_1.2.7.tar.gz
+_eclasses_=apache-module	5c4c90da2d68c2dc8391666824f1293c	depend.apache	41d01b539f56fa0a5269f3a8ce916981	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=d6215056370ece699359f9ed2db98e2c

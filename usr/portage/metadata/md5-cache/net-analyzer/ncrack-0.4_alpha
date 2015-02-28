@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=ssl? ( dev-libs/openssl ) ssh? ( net-misc/openssh )
+DESCRIPTION=a high-speed network authentication cracking tool
+EAPI=2
+HOMEPAGE=http://nmap.org/ncrack/
+IUSE=ssh ssl
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=ssl? ( dev-libs/openssl ) ssh? ( net-misc/openssh )
+SLOT=0
+SRC_URI=http://nmap.org/ncrack/dist/ncrack-0.4ALPHA.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=36e6131b262a17baa697b711414239f4

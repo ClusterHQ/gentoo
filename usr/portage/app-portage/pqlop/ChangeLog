@@ -1,0 +1,25 @@
+# ChangeLog for app-portage/pqlop
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-portage/pqlop/ChangeLog,v 1.5 2014/07/06 13:05:17 mgorny Exp $
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> pqlop-0.02-r1.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> pqlop-0.02-r1.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*pqlop-0.02-r1 (06 Jul 2013)
+
+  06 Jul 2013; Maxim Koltsov <maksbotan@gentoo.org> +pqlop-0.02-r1.ebuild,
+  -pqlop-0.02.ebuild:
+  Update to EAPI5 and python-r1.eclass
+
+  31 Oct 2012; Michał Górny <mgorny@gentoo.org> pqlop-0.02.ebuild:
+  Use virtual for argparse.
+
+*pqlop-0.02 (11 Dec 2011)
+
+  11 Dec 2011; Maxim Koltsov <maksbotan@gentoo.org> +pqlop-0.02.ebuild,
+  +metadata.xml:
+  Add app-portage/pqlop-0.02, thanks to lk4d4. Bug 363889

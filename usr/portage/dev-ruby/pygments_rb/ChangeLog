@@ -1,0 +1,32 @@
+# ChangeLog for dev-ruby/pygments_rb
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/pygments_rb/ChangeLog,v 1.6 2014/09/10 12:15:02 mrueg Exp $
+
+*pygments_rb-0.6.0-r2 (10 Sep 2014)
+
+  10 Sep 2014; Manuel Rüger <mrueg@gentoo.org> +pygments_rb-0.6.0-r2.ebuild,
+  -pygments_rb-0.6.0-r1.ebuild:
+  Use correct gemspec.
+
+*pygments_rb-0.6.0-r1 (02 Sep 2014)
+
+  02 Sep 2014; Manuel Rüger <mrueg@gentoo.org> +pygments_rb-0.6.0-r1.ebuild,
+  -pygments_rb-0.5.4.ebuild, -pygments_rb-0.6.0.ebuild:
+  Add ruby21 target. Cleanup old.
+
+  15 Aug 2014; Manuel Rüger <mrueg@gentoo.org> pygments_rb-0.6.0.ebuild:
+  Restrict yajl-ruby dependency to =1.1*.
+
+  16 Jul 2014; Manuel Rüger <mrueg@gentoo.org> pygments_rb-0.6.0.ebuild:
+  Add ruby20 support. Remove python 2.6 support.
+
+*pygments_rb-0.6.0 (28 Jun 2014)
+
+  28 Jun 2014; Manuel Rüger <mrueg@gentoo.org> +pygments_rb-0.6.0.ebuild:
+  Version bump.
+
+*pygments_rb-0.5.4 (07 Apr 2014)
+
+  07 Apr 2014; Manuel Rüger <mrueg@gentoo.org> +metadata.xml,
+  +pygments_rb-0.5.4.ebuild:
+  Initial version. Original ebuild by Tiziano Müller (dev-zero).

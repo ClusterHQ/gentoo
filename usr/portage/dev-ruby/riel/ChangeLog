@@ -1,0 +1,40 @@
+# ChangeLog for dev-ruby/riel
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/riel/ChangeLog,v 1.11 2014/08/05 15:49:10 armin76 Exp $
+
+  05 Aug 2014; Raúl Porcel <armin76@gentoo.org> riel-1.2.0.ebuild:
+  sparc stable, bug #505100
+
+  07 Jun 2014; Agostino Sarubbo <ago@gentoo.org> riel-1.2.0.ebuild:
+  Stable for ppc, wrt bug #505100
+
+  07 Jun 2014; Agostino Sarubbo <ago@gentoo.org> riel-1.2.0.ebuild:
+  Stable for x86, wrt bug #505100
+
+  15 May 2014; Chema Alonso <nimiux@gentoo.org> riel-1.2.0.ebuild:
+  Stable for amd64 wrt bug #505100
+
+  04 Apr 2014; Hans de Graaff <graaff@gentoo.org> riel-1.2.0.ebuild:
+  Add slot to rainbow dependency in preparation of adding a new slot.
+
+  20 Mar 2014; Jeroen Roovers <jer@gentoo.org> riel-1.2.0.ebuild:
+  Stable for HPPA (bug #505100).
+
+  16 Dec 2013; Agostino Sarubbo <ago@gentoo.org> riel-1.2.0.ebuild:
+  Add ~x86, wrt bug #494410
+
+  15 Dec 2013; Agostino Sarubbo <ago@gentoo.org> riel-1.2.0.ebuild:
+  Add ~sparc, wrt bug #493006
+
+  15 Dec 2013; Agostino Sarubbo <ago@gentoo.org> riel-1.2.0.ebuild:
+  Add ~ppc, wrt bug #493006
+
+  02 Dec 2013; Jeroen Roovers <jer@gentoo.org> riel-1.2.0.ebuild:
+  Marked ~hppa (bug #493006).
+
+*riel-1.2.0 (30 Nov 2013)
+
+  30 Nov 2013; Hans de Graaff <graaff@gentoo.org> +riel-1.2.0.ebuild,
+  +metadata.xml:
+  Initial import. New dependency for app-text/glark. Ebuild by Peter Wilmott in
+  the ruby overlay.

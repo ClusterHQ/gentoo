@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=app-text/libwpd:0.9 app-text/libwpg:0.2 dev-libs/icu:= dev-libs/libxml2 sys-libs/zlib >=dev-libs/boost-1.46 dev-util/gperf sys-devel/libtool virtual/pkgconfig doc? ( app-doc/doxygen )
+DESCRIPTION=Library parsing the visio documents
+EAPI=5
+HOMEPAGE=http://www.freedesktop.org/wiki/Software/libvisio
+IUSE=doc static-libs
+KEYWORDS=amd64 ~arm ppc x86
+LICENSE=|| ( GPL-2+ LGPL-2.1 MPL-1.1 )
+RDEPEND=app-text/libwpd:0.9 app-text/libwpg:0.2 dev-libs/icu:= dev-libs/libxml2 sys-libs/zlib
+SLOT=0
+SRC_URI=http://dev-www.libreoffice.org/src/libvisio-0.0.30.tar.xz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=fd228bee79972afb592ebb7467c2f5f3

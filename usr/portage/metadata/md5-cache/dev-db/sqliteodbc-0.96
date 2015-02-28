@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare setup
+DEPEND=>=dev-db/sqlite-3.6 || ( >=dev-db/unixODBC-2.2 >=dev-db/libiodbc-3.5 )
+DESCRIPTION=ODBC driver to access local SQLite database files
+EAPI=4
+HOMEPAGE=http://www.ch-werner.de/sqliteodbc/
+KEYWORDS=amd64 ~arm ppc x86
+LICENSE=BSD
+RDEPEND=>=dev-db/sqlite-3.6 || ( >=dev-db/unixODBC-2.2 >=dev-db/libiodbc-3.5 )
+SLOT=0
+SRC_URI=http://www.ch-werner.de/sqliteodbc/sqliteodbc-0.96.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=842b8449492bca28f0717ca41c1cf56e

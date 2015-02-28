@@ -1,0 +1,24 @@
+# ChangeLog for dev-python/gntp
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/gntp/ChangeLog,v 1.5 2013/09/05 18:46:19 mgorny Exp $
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> gntp-1.0.1.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*gntp-1.0.1 (06 Jun 2013)
+
+  06 Jun 2013; Doug Goldstein <cardoe@gentoo.org> +gntp-1.0.1.ebuild:
+  Version bump. Update to EAPI=5 and distutils-r1.
+
+*gntp-0.6 (19 Apr 2012)
+
+  19 Apr 2012; Patrick Lauer <patrick@gentoo.org> +gntp-0.6.ebuild:
+  Bump
+
+  15 Jan 2012; Markos Chandras <hwoarang@gentoo.org> gntp-0.5.ebuild:
+  Improve HOMEPAGE. Patch by Arfrever.
+
+*gntp-0.5 (12 Jan 2012)
+
+  12 Jan 2012; Naohiro Aota <naota@gentoo.org> +gntp-0.5.ebuild, +metadata.xml:
+  New package dev-python/gntp

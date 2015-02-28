@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst
+DEPEND=dev-lisp/common-lisp-controller virtual/commonlisp dev-lisp/cl-ppcre doc? ( sys-apps/texinfo ) dev-lisp/common-lisp-controller
+DESCRIPTION=Stumpwm is a tiling, keyboard driven X11 Window Manager written entirely in Common Lisp
+EAPI=2
+HOMEPAGE=http://www.nongnu.org/stumpwm/index.html
+IUSE=sbcl clisp emacs doc
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=dev-lisp/common-lisp-controller virtual/commonlisp dev-lisp/cl-ppcre doc? ( sys-apps/texinfo ) emacs? ( app-emacs/slime ) !clisp? ( !sbcl? ( !amd64? ( dev-lisp/cmucl ) ) ) clisp? ( >=dev-lisp/clisp-2.38-r2[X,-new-clx] ) sbcl? ( dev-lisp/sbcl dev-lisp/cl-clx )
+SLOT=0
+SRC_URI=http://download.savannah.nongnu.org/releases/stumpwm/stumpwm-0.9.7.tgz
+_eclasses_=common-lisp	c0762703d46ef354d2354f7d73b80008	common-lisp-common	8d460f76ed2854a12cdd74dab97a54e9	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=44c0cb5c8998ac0c3bd40bcdf473b1cc

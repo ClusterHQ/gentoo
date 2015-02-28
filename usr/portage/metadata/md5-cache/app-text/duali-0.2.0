@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm
+DEPEND==dev-lang/python-2*
+DESCRIPTION=Arabic dictionary based on the DICT protocol
+EAPI=3
+HOMEPAGE=http://www.arabeyes.org/project.php?proj=Duali
+KEYWORDS=alpha amd64 ~hppa ia64 ~mips ppc ~sparc x86
+LICENSE=BSD
+PDEPEND=app-dicts/duali-data
+RDEPEND==dev-lang/python-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/arabeyes/duali-0.2.0.tar.bz2
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c98f64eee3574803317176164d33d819

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
+DEPEND=emacs? ( virtual/emacs ) test? ( app-arch/unzip dev-python/pygments[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) dev-python/docutils[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[threads] ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-vcs/mercurial
+DESCRIPTION=Scalable distributed SCM
+EAPI=5
+HOMEPAGE=http://mercurial.selenic.com/
+IUSE=bugzilla emacs gpg test tk zsh-completion python_targets_python2_7
+LICENSE=GPL-2
+RDEPEND=bugzilla? ( dev-python/mysql-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) gpg? ( app-crypt/gnupg ) tk? ( dev-lang/tk ) zsh-completion? ( app-shells/zsh ) app-misc/ca-certificates python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[threads] ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+_eclasses_=bash-completion-r1	c8399c7c7ecbcf7ed6e5bd3abb3d4af3	distutils-r1	90e7008a7d21e3b1597bea444bb85827	elisp-common	1aa23b3de5dae55456fa2071428eb5bf	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	mercurial	2fbda5894dda6392b71334ee9a92de0b	multibuild	46527a4656956da3d58acff72c9b59b1	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	python-r1	75e5c82b55dcb208a0a8f4ab8847e731	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=53092045518f145ed632569a2ca2ac22

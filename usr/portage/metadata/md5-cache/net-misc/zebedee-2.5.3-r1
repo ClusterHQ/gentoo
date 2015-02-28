@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=dev-lang/perl dev-libs/openssl sys-libs/zlib app-arch/bzip2
+DESCRIPTION=A simple, free, secure TCP and UDP tunnel program
+EAPI=2
+HOMEPAGE=http://www.winton.org.uk/zebedee/
+KEYWORDS=alpha amd64 ~hppa ia64 ~mips ~ppc ppc64 s390 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl dev-libs/openssl sys-libs/zlib app-arch/bzip2
+SLOT=0
+SRC_URI=mirror://sourceforge/zebedee/zebedee-2.5.3.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=260f520e55f942094215f21e4b85be85

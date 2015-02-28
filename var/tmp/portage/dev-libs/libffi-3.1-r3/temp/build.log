@@ -1,0 +1,7 @@
+ * Package:    dev-libs/libffi-3.1-r3
+ * Repository: gentoo_prefix
+ * Maintainer: toolchain@gentoo.org
+ * USE:        abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox
+>>> Unpacking source...
+>>> Unpacking libffi-3.1.tar.gz to /home/core/gentoo/var/tmp/portage/dev-libs/libffi-3.1-r3/work

@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure prepare
+DEPEND=dev-libs/glib:2 dev-scheme/guile-lib dev-scheme/guile[deprecated] virtual/libffi virtual/pkgconfig
+DESCRIPTION=A tool for exporting C libraries into Scheme
+EAPI=4
+HOMEPAGE=http://www.nongnu.org/g-wrap/
+KEYWORDS=amd64 hppa ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/glib:2 dev-scheme/guile-lib dev-scheme/guile[deprecated] virtual/libffi
+SLOT=0
+SRC_URI=http://download.savannah.gnu.org/releases/g-wrap/g-wrap-1.9.11.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e5af22a937b6521056a232065498a611

@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst
+DEPEND=>=dev-lang/python-2.5 vorbis? ( dev-python/pyogg dev-python/pyvorbis )
+DESCRIPTION=Greg Stein's python streaming audio server for desktop or LAN use
+HOMEPAGE=http://edna.sourceforge.net/
+IUSE=vorbis
+KEYWORDS=alpha amd64 hppa ~mips ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/python-2.5 vorbis? ( dev-python/pyogg dev-python/pyvorbis )
+SLOT=0
+SRC_URI=mirror://sourceforge/edna/edna-0.5.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=4f9423c24e53b4368aa98d728bf20917

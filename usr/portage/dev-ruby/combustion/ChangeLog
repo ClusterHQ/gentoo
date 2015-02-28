@@ -1,0 +1,14 @@
+# ChangeLog for dev-ruby/combustion
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/combustion/ChangeLog,v 1.2 2014/07/18 05:30:00 graaff Exp $
+
+*combustion-0.5.2 (18 Jul 2014)
+
+  18 Jul 2014; Hans de Graaff <graaff@gentoo.org> +combustion-0.5.2.ebuild:
+  Version bump.
+
+*combustion-0.5.1 (02 Apr 2014)
+
+  02 Apr 2014; Manuel Rüger <mrueg@gentoo.org> +combustion-0.5.1.ebuild,
+  +metadata.xml:
+  Initial version. Original ebuild by Hans de Graaff.

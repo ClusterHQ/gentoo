@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-perl/libwww-perl dev-perl/HTML-Parser dev-lang/perl:=[-build(-)] dev-vcs/cvs
+DESCRIPTION=Program to download daily comics strips from web
+EAPI=5
+HOMEPAGE=http://netcomics.sourceforge.net
+IUSE=doc
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl:=[-build(-)]
+SLOT=0
+_eclasses_=cvs	a4cb8da1bb586b224ade5b54f1d2fda0	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	a6a2d5c77bdaeba2794b167689cafb7a	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52
+_md5_=5538ab61f936cc270fd34c0b4d7ab31b

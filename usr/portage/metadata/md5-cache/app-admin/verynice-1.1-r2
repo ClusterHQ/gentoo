@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=virtual/pkgconfig
+DESCRIPTION=A tool for dynamically adjusting the nice-level of processes
+EAPI=5
+HOMEPAGE=http://thermal.cnde.iastate.edu/~sdh4/verynice/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://thermal.cnde.iastate.edu/~sdh4/verynice/down/verynice-1.1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b26260b834d13aa49573264534ccc490

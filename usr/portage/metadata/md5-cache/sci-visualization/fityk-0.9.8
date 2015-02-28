@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup
+DEPEND=>=sci-libs/xylib-0.8 lua? ( dev-lang/lua ) readline? ( sys-libs/readline ) wxwidgets? ( x11-libs/wxGTK:2.8[X] ) dev-libs/boost >=sys-devel/libtool-2.2 python? ( =dev-lang/python-2* )
+DESCRIPTION=General-purpose nonlinear curve fitting and data analysis
+EAPI=4
+HOMEPAGE=http://fityk.nieto.pl/
+IUSE=doc examples gnuplot lua readline python static-libs wxwidgets
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sci-libs/xylib-0.8 lua? ( dev-lang/lua ) readline? ( sys-libs/readline ) wxwidgets? ( x11-libs/wxGTK:2.8[X] ) gnuplot? ( sci-visualization/gnuplot ) python? ( =dev-lang/python-2* )
+SLOT=0
+SRC_URI=mirror://github/wojdyr/fityk/fityk-0.9.8.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	wxwidgets	6d6eec2685256d35511e7b6d5461bec9
+_md5_=af2651bda516bc11724de87a50b596fe

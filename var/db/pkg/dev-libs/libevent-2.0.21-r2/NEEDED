@@ -1,0 +1,5 @@
+/home/core/gentoo/usr/lib/libevent_pthreads-2.0.so.5.1.9 libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/libevent_openssl-2.0.so.5.1.9 libssl.so.1.0.0,libcrypto.so.1.0.0,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/libevent_extra-2.0.so.5.1.9 libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/libevent_core-2.0.so.5.1.9 libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/libevent-2.0.so.5.1.9 libpthread.so.0,libc.so.6

@@ -1,0 +1,31 @@
+# ChangeLog for dev-ruby/d3_rails
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/d3_rails/ChangeLog,v 1.5 2014/07/23 00:22:01 mrueg Exp $
+
+*d3_rails-3.4.10 (23 Jul 2014)
+
+  23 Jul 2014; Manuel Rüger <mrueg@gentoo.org> +d3_rails-3.4.10.ebuild,
+  -d3_rails-3.3.13.ebuild, -d3_rails-3.4.6.ebuild:
+  Version bump. Cleanup old.
+
+*d3_rails-3.4.8 (25 May 2014)
+
+  25 May 2014; Hans de Graaff <graaff@gentoo.org> +d3_rails-3.4.8.ebuild:
+  Version bump.
+
+*d3_rails-3.4.6 (02 May 2014)
+
+  02 May 2014; Hans de Graaff <graaff@gentoo.org> +d3_rails-3.4.6.ebuild:
+  Version bump. Add ruby20, ruby21.
+
+*d3_rails-3.3.13 (21 Dec 2013)
+
+  21 Dec 2013; Manuel Rüger <mrueg@gentoo.org> +d3_rails-3.3.13.ebuild,
+  -d3_rails-3.3.11.ebuild:
+  Version bump.
+
+*d3_rails-3.3.11 (13 Dec 2013)
+
+  13 Dec 2013; Manuel Rüger <mrueg@gentoo.org> +d3_rails-3.3.11.ebuild,
+  +metadata.xml:
+  Import from dev-zero's overlay. Added small changes.

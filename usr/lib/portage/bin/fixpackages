@@ -1,0 +1,52 @@
+#!/home/core/gentoo/usr/bin/python -b
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+from __future__ import print_function
+
+import os
+import sys
+
+from os import path as osp
+pym_path = osp.join(osp.dirname(osp.dirname(osp.realpath(__file__))), "pym")
+sys.path.insert(0, pym_path)
+import portage
+portage._internal_caller = True
+from portage import os
+from portage.output import EOutput
+from portage.util._argparse import ArgumentParser
+from textwrap import wrap
+from portage._global_updates import _global_updates
+mysettings = portage.settings
+mytrees = portage.db
+mtimedb = portage.mtimedb
+
+description = """The fixpackages program performs package move updates on
+	configuration files, installed packages, and binary packages."""
+description = " ".join(description.split())
+
+parser = ArgumentParser(description=description)
+parser.parse_args()
+
+if mysettings['ROOT'] != "/":
+	out = EOutput()
+	msg = "The fixpackages program is not intended for use with " + \
+		"ROOT != \"/\". Instead use `emaint --fix movebin` and/or " + \
+		"`emaint --fix moveinst."
+	for line in wrap(msg, 72):
+		out.eerror(line)
+	sys.exit(1)
+
+try:
+	os.nice(int(mysettings.get("PORTAGE_NICENESS", "0")))
+except (OSError, ValueError) as e:
+	portage.writemsg("!!! Failed to change nice value to '%s'\n" % \
+		mysettings["PORTAGE_NICENESS"])
+	portage.writemsg("!!! %s\n" % str(e))
+	del e
+
+_global_updates(mytrees, mtimedb["updates"], if_mtime_changed=False)
+
+print()
+print("Done.")
+print()

@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=dev-libs/gmp dev-libs/libpcre virtual/libffi dev-libs/boehm-gc[threads?]
+DESCRIPTION=fast and light Scheme implementation
+EAPI=3
+HOMEPAGE=http://www.stklos.net
+IUSE=threads
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/gmp dev-libs/libpcre virtual/libffi dev-libs/boehm-gc[threads?]
+SLOT=0
+SRC_URI=http://www.stklos.net/download/stklos-1.01.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=63cc8070fff949c3cefe3ed50ea62d3a

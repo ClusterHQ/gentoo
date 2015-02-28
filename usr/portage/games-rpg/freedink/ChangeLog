@@ -1,0 +1,28 @@
+# ChangeLog for games-rpg/freedink
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/games-rpg/freedink/ChangeLog,v 1.6 2014/05/29 20:47:34 hasufell Exp $
+
+*freedink-108.2 (29 May 2014)
+
+  29 May 2014; Julian Ospald <hasufell@gentoo.org> +freedink-108.2.ebuild:
+  version bump
+
+  15 May 2014; Ulrich Müller <ulm@gentoo.org> freedink-1.08.20121209.ebuild:
+  Fix USE dependency on media-libs/libsdl, "audio" USE flag was renamed to
+  "sound", bug 357661.
+
+  28 Aug 2013; Agostino Sarubbo <ago@gentoo.org> freedink-1.08.20121209.ebuild:
+  Stable for x86, wrt bug #480800
+
+  13 Aug 2013; Agostino Sarubbo <ago@gentoo.org> freedink-1.08.20121209.ebuild:
+  Stable for amd64, wrt bug #480800
+
+  13 Jul 2013; Julian Ospald <hasufell@gentoo.org>
+  freedink-1.08.20121209.ebuild:
+  update dep on freedink-data
+
+*freedink-1.08.20121209 (11 Jul 2013)
+
+  11 Jul 2013; Julian Ospald <hasufell@gentoo.org>
+  +freedink-1.08.20121209.ebuild, +metadata.xml:
+  initial import wrt #238220

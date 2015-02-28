@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=doc? ( app-text/ghostscript-gpl sys-apps/groff )
+DESCRIPTION=TCP Load Balancing Port Forwarder
+EAPI=4
+HOMEPAGE=http://www.inlab.de/balance.html
+IUSE=doc
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.inlab.de/balance-3.54.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=22046a738d13ba3dbfede166811636dc

@@ -1,0 +1,44 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/bzip2-1.0.6-r7
+obj /home/core/gentoo/usr/share/doc/bzip2-1.0.6-r7/CHANGES.bz2 5529731d7fff006cebfd2325f2c6cada 1410958921
+obj /home/core/gentoo/usr/share/doc/bzip2-1.0.6-r7/README.XML.STUFF.bz2 6ef0e1a83554f49c4f935c902db5020a 1410958921
+obj /home/core/gentoo/usr/share/doc/bzip2-1.0.6-r7/README.COMPILATION.PROBLEMS.bz2 5c9c44a6513ab1bdc7f949175069c513 1410958921
+obj /home/core/gentoo/usr/share/doc/bzip2-1.0.6-r7/manual.pdf ab972624312ea1a908a86ff3709231b6 1410958921
+obj /home/core/gentoo/usr/share/doc/bzip2-1.0.6-r7/README.bz2 36821337748176c36b9e9e6044e30325 1410958921
+dir /home/core/gentoo/usr/share/doc/bzip2-1.0.6-r7/html
+obj /home/core/gentoo/usr/share/doc/bzip2-1.0.6-r7/html/manual.html eafd9164547f1c491434a9a23ede7e3d 1410958921
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/bzip2.1.bz2 ea12ced945c84fab5f051abfa586c6c7 1410958920
+sym /home/core/gentoo/usr/share/man/man1/bzip2recover.1.bz2 -> bzip2.1.bz2 1410959028
+obj /home/core/gentoo/usr/share/man/man1/bzdiff.1.bz2 cb1eadff2911a891636fdb94fa891ed7 1410958920
+obj /home/core/gentoo/usr/share/man/man1/bzmore.1.bz2 d0705680dbdafef86eeec2c1e6ff7daa 1410958920
+sym /home/core/gentoo/usr/share/man/man1/bzless.1.bz2 -> bzmore.1.bz2 1410959028
+sym /home/core/gentoo/usr/share/man/man1/bzcat.1.bz2 -> bzip2.1.bz2 1410959028
+sym /home/core/gentoo/usr/share/man/man1/bzegrep.1.bz2 -> bzgrep.1.bz2 1410959028
+sym /home/core/gentoo/usr/share/man/man1/bzfgrep.1.bz2 -> bzgrep.1.bz2 1410959028
+obj /home/core/gentoo/usr/share/man/man1/bzgrep.1.bz2 d98329ae8760444eb2e15754b2f62288 1410958920
+sym /home/core/gentoo/usr/share/man/man1/bzcmp.1.bz2 -> bzdiff.1.bz2 1410959028
+sym /home/core/gentoo/usr/share/man/man1/bunzip2.1.bz2 -> bzip2.1.bz2 1410959028
+dir /home/core/gentoo/usr/lib
+obj /home/core/gentoo/usr/lib/libbz2.so.1.0.6 fb0a2ace766b5250c135da2267ba7879 1410958922
+sym /home/core/gentoo/usr/lib/libbz2.so -> libbz2.so.1.0.6 1410959028
+sym /home/core/gentoo/usr/lib/libbz2.so.1 -> libbz2.so.1.0.6 1410959028
+sym /home/core/gentoo/usr/lib/libbz2.so.1.0 -> libbz2.so.1.0.6 1410959028
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/bzlib.h ee6d6cd40ee1d4b342811a455bdae4ae 1410958920
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/bzegrep -> bzgrep 1410959028
+sym /home/core/gentoo/usr/bin/bzless -> bzmore 1410959028
+obj /home/core/gentoo/usr/bin/bzip2recover 059b6738d2ae794ea4cb08cd1ff4a3c4 1410958922
+obj /home/core/gentoo/usr/bin/bzdiff 338b82374866bd0b5560847105d388bd 1410958920
+sym /home/core/gentoo/usr/bin/bzcmp -> bzdiff 1410959028
+obj /home/core/gentoo/usr/bin/bzgrep e3151d7edc7e19ecd782ada4b47d1352 1410958920
+obj /home/core/gentoo/usr/bin/bzmore 8ca359286a71e381d84ac5f3fdec8c58 1410958920
+sym /home/core/gentoo/usr/bin/bzfgrep -> bzgrep 1410959028
+dir /home/core/gentoo/bin
+obj /home/core/gentoo/bin/bzip2 4266cb45a4b6d4af52e7a4d216ce50de 1410958922
+sym /home/core/gentoo/bin/bzcat -> bzip2 1410959028
+sym /home/core/gentoo/bin/bunzip2 -> bzip2 1410959028

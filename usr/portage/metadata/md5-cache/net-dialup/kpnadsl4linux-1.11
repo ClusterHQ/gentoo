@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst prepare
+DESCRIPTION=ADSL4Linux, a PPTP start/stop/etc. program especially for Dutch users
+EAPI=5
+HOMEPAGE=http://www.adsl4linux.nl/
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=>=net-dialup/pptpclient-1.7.0 >=net-dialup/ppp-2.4.2
+SLOT=0
+SRC_URI=http://home.planet.nl/~mcdon001/kpnadsl4linux-1.11.tar.gz http://www.adsl4linux.nl/download/kpnadsl4linux-1.11.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=1d96b1a21af14482dc11a903fc65e6d5

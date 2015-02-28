@@ -1,0 +1,12 @@
+DEFINED_PHASES=install setup
+DEPEND==app-admin/gkrellm-2* virtual/pkgconfig
+DESCRIPTION=Plugin for GKrellM2 to change your desktop background
+EAPI=4
+HOMEPAGE=http://www.bender-suhl.de/stefan/english/comp/gkrellmbgchg.html
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND==app-admin/gkrellm-2*
+SLOT=2
+SRC_URI=http://www.bender-suhl.de/stefan/comp/sources/gkrellmbgchg2-0.1.10.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	gkrellm-plugin	4599c73f33aed9a9988a7031f60d2ed8	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=2c27a4b34bb4d97d7a38387ccf673986

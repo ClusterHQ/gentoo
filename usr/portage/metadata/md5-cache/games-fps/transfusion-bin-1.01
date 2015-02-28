@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=sys-libs/glibc app-arch/unzip
+DESCRIPTION=Blood remake
+HOMEPAGE=http://www.transfusion-game.com/
+KEYWORDS=-* x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/glibc
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/blood/transfusion-1.0-linux.i386.zip mirror://sourceforge/blood/transfusion-patch-1.01-linux.i386.zip mirror://gentoo/transfusion.png
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=50b4c8e2a5c7fdfb954199f42a152deb

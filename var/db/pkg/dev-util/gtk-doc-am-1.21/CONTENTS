@@ -1,0 +1,6 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/gtkdoc-rebase 3dd109341ddbf4b4150c2a28d7f26334 1410959350
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/aclocal
+obj /home/core/gentoo/usr/share/aclocal/gtk-doc.m4 8b607f5b1a903f3ba91558561d362623 1410959350

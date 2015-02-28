@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare
+DEPEND=zlib? ( sys-libs/zlib ) python? ( dev-lang/python )
+DESCRIPTION=identify a file's format by scanning binary data for patterns
+EAPI=2
+HOMEPAGE=ftp://ftp.astron.com/pub/file/
+IUSE=python static-libs zlib
+KEYWORDS=~ppc-aix ~x64-freebsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+LICENSE=BSD-2
+RDEPEND=zlib? ( sys-libs/zlib ) python? ( dev-lang/python )
+SLOT=0
+SRC_URI=ftp://ftp.astron.com/pub/file/file-5.11.tar.gz ftp://ftp.gw.com/mirrors/pub/unix/file/file-5.11.tar.gz
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	eutils	06133990e861be0fe60c2b428fd025d9	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=af5c16ac5910330bc8c61a7b076e1766

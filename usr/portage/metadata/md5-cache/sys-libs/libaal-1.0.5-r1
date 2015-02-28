@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure install prepare
+DESCRIPTION=library required by reiser4progs
+EAPI=4
+HOMEPAGE=https://sourceforge.net/projects/reiser4/
+IUSE=static-libs
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 -sparc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/reiser4/libaal-1.0.5.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=b4312d298e0794fd3d7c46b4ea94d7b4

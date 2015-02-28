@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare prerm setup test
+DEPEND=dev-lang/perl app-admin/apache-tools app-admin/makepasswd >=app-admin/webapp-config-1.50.15
+DESCRIPTION=A high-performance system for backing up computers to a server's disk
+EAPI=5
+HOMEPAGE=http://backuppc.sourceforge.net/
+IUSE=rss samba vhosts
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl app-admin/apache-tools app-admin/makepasswd virtual/perl-IO-Compress dev-perl/Archive-Zip dev-perl/libwww-perl >=app-arch/tar-1.13.20 app-arch/par2cmdline app-arch/gzip app-arch/bzip2 virtual/mta www-apache/mod_perl www-servers/apache net-misc/rsync >=dev-perl/File-RsyncP-0.68 rss? ( dev-perl/XML-RSS ) samba? ( net-fs/samba ) >=app-admin/webapp-config-1.50.15
+SLOT=0
+SRC_URI=mirror://sourceforge/backuppc/BackupPC-3.3.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=26a9369449fc4474c12c3a4d105e8ac2

@@ -1,0 +1,145 @@
+  eclass exists: /home/core/gentoo/usr/portage/eclass/python-utils-r1.eclass
+inherit: python-utils-r1 -> /home/core/gentoo/usr/portage/eclass/python-utils-r1.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+*** Multiple Inheritence (Level: 5)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/prefix.eclass
+inherit: prefix -> /home/core/gentoo/usr/portage/eclass/prefix.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/autotools-utils.eclass
+inherit: autotools-utils -> /home/core/gentoo/usr/portage/eclass/autotools-utils.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/autotools.eclass
+inherit: autotools -> /home/core/gentoo/usr/portage/eclass/autotools.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/libtool.eclass
+inherit: libtool -> /home/core/gentoo/usr/portage/eclass/libtool.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+inherit: multiprocessing -> /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/libtool.eclass
+inherit: libtool -> /home/core/gentoo/usr/portage/eclass/libtool.eclass
+EXPORT_FUNCTIONS: src_prepare -> autotools-utils_src_prepare
+EXPORT_FUNCTIONS: src_configure -> autotools-utils_src_configure
+EXPORT_FUNCTIONS: src_compile -> autotools-utils_src_compile
+EXPORT_FUNCTIONS: src_install -> autotools-utils_src_install
+EXPORT_FUNCTIONS: src_test -> autotools-utils_src_test
+  eclass exists: /home/core/gentoo/usr/portage/eclass/python-r1.eclass
+inherit: python-r1 -> /home/core/gentoo/usr/portage/eclass/python-r1.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multibuild.eclass
+inherit: multibuild -> /home/core/gentoo/usr/portage/eclass/multibuild.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+inherit: multiprocessing -> /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/python-utils-r1.eclass
+inherit: python-utils-r1 -> /home/core/gentoo/usr/portage/eclass/python-utils-r1.eclass
+_python_impl_supported: entering function, parameters: jython2_5
+python_export: entering function, parameters: jython2_5 PYTHON_PKG_DEP
+python_export: implementation: jython2.5
+python_export: PYTHON_PKG_DEP = >=dev-java/jython-2.5.3-r2:2.5
+_python_impl_supported: entering function, parameters: jython2_7
+  eclass exists: /home/core/gentoo/usr/portage/eclass/python-utils-r1.eclass
+inherit: python-utils-r1 -> /home/core/gentoo/usr/portage/eclass/python-utils-r1.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+*** Multiple Inheritence (Level: 5)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/prefix.eclass
+inherit: prefix -> /home/core/gentoo/usr/portage/eclass/prefix.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/autotools-utils.eclass
+inherit: autotools-utils -> /home/core/gentoo/usr/portage/eclass/autotools-utils.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/autotools.eclass
+inherit: autotools -> /home/core/gentoo/usr/portage/eclass/autotools.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/libtool.eclass
+inherit: libtool -> /home/core/gentoo/usr/portage/eclass/libtool.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multilib.eclass
+inherit: multilib -> /home/core/gentoo/usr/portage/eclass/multilib.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /home/core/gentoo/usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+inherit: multiprocessing -> /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/eutils.eclass
+inherit: eutils -> /home/core/gentoo/usr/portage/eclass/eutils.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/libtool.eclass
+inherit: libtool -> /home/core/gentoo/usr/portage/eclass/libtool.eclass
+EXPORT_FUNCTIONS: src_prepare -> autotools-utils_src_prepare
+EXPORT_FUNCTIONS: src_configure -> autotools-utils_src_configure
+EXPORT_FUNCTIONS: src_compile -> autotools-utils_src_compile
+EXPORT_FUNCTIONS: src_install -> autotools-utils_src_install
+EXPORT_FUNCTIONS: src_test -> autotools-utils_src_test
+  eclass exists: /home/core/gentoo/usr/portage/eclass/python-r1.eclass
+inherit: python-r1 -> /home/core/gentoo/usr/portage/eclass/python-r1.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multibuild.eclass
+inherit: multibuild -> /home/core/gentoo/usr/portage/eclass/multibuild.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+inherit: multiprocessing -> /home/core/gentoo/usr/portage/eclass/multiprocessing.eclass
+  eclass exists: /home/core/gentoo/usr/portage/eclass/python-utils-r1.eclass
+inherit: python-utils-r1 -> /home/core/gentoo/usr/portage/eclass/python-utils-r1.eclass
+_python_impl_supported: entering function, parameters: jython2_5
+python_export: entering function, parameters: jython2_5 PYTHON_PKG_DEP
+python_export: implementation: jython2.5
+python_export: PYTHON_PKG_DEP = >=dev-java/jython-2.5.3-r2:2.5
+_python_impl_supported: entering function, parameters: jython2_7
+python_export: entering function, parameters: jython2_7 PYTHON_PKG_DEP
+python_export: implementation: jython2.7
+python_export: PYTHON_PKG_DEP = dev-java/jython:2.7
+_python_impl_supported: entering function, parameters: pypy
+python_export: entering function, parameters: pypy PYTHON_PKG_DEP
+python_export: implementation: pypy
+python_export: PYTHON_PKG_DEP = virtual/pypy:0=
+_python_impl_supported: entering function, parameters: python3_2
+python_export: entering function, parameters: python3_2 PYTHON_PKG_DEP
+python_export: implementation: python3.2
+python_export: PYTHON_PKG_DEP = >=dev-lang/python-3.2.5-r2:3.2
+_python_impl_supported: entering function, parameters: python3_3
+python_export: entering function, parameters: python3_3 PYTHON_PKG_DEP
+python_export: implementation: python3.3
+python_export: PYTHON_PKG_DEP = >=dev-lang/python-3.3.2-r2:3.3
+_python_impl_supported: entering function, parameters: python3_4
+python_export: entering function, parameters: python3_4 PYTHON_PKG_DEP
+python_export: implementation: python3.4
+python_export: PYTHON_PKG_DEP = dev-lang/python:3.4
+_python_impl_supported: entering function, parameters: python2_7
+python_export: entering function, parameters: python2_7 PYTHON_PKG_DEP
+python_export: implementation: python2.7
+python_export: PYTHON_PKG_DEP = >=dev-lang/python-2.7.5-r2:2.7

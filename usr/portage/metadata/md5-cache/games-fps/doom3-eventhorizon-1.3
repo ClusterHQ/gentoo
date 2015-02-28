@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install nofetch postinst preinst prepare setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Doom 3 Event Horizon - single-player mission based on the Event Horizon film
+EAPI=2
+HOMEPAGE=http://doom3.filefront.com/file/Event_Horizon_XV;91253
+IUSE=dedicated opengl dedicated opengl
+KEYWORDS=amd64 x86
+LICENSE=all-rights-reserved
+RDEPEND=dedicated? ( games-fps/doom3[dedicated] ) opengl? ( || ( games-fps/doom3[opengl] games-fps/doom3[-dedicated] ) ) !dedicated? ( !opengl? ( || ( games-fps/doom3[opengl] games-fps/doom3[-dedicated] ) ) )
+RESTRICT=fetch mirror
+SLOT=0
+SRC_URI=event_horizon_xv_1.3.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	games-mods	9d44c6f45289592ca9cf29d77424a048	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=68d2a3877c21a169cb7c373997375b45

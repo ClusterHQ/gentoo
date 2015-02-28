@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare setup unpack
+DEPEND==sys-freebsd/freebsd-lib-9.1*[ipv6?,atm?,netware?] =sys-freebsd/freebsd-libexec-9.1* >=dev-libs/expat-2.0.1 ssl? ( dev-libs/openssl ) >=dev-libs/libedit-20120311.3.0-r1 sys-libs/readline || ( sys-process/cronie sys-process/vixie-cron ) atm? ( net-analyzer/bsnmp ) !build? ( =sys-freebsd/freebsd-sources-9.1* ) =sys-freebsd/freebsd-mk-defs-9.1* virtual/pmake virtual/pmake
+DESCRIPTION=FreeBSD sbin utils
+EAPI=2
+HOMEPAGE=http://www.freebsd.org/
+IUSE=atm ipfilter +pf ipv6 build ssl +cxx netware profile
+KEYWORDS=~amd64-fbsd ~sparc-fbsd ~x86-fbsd
+LICENSE=BSD
+RDEPEND==sys-freebsd/freebsd-lib-9.1*[ipv6?,atm?,netware?] =sys-freebsd/freebsd-libexec-9.1* >=dev-libs/expat-2.0.1 ssl? ( dev-libs/openssl ) >=dev-libs/libedit-20120311.3.0-r1 sys-libs/readline || ( sys-process/cronie sys-process/vixie-cron ) atm? ( net-analyzer/bsnmp )
+SLOT=0
+SRC_URI=mirror://gentoo/freebsd-sbin-9.1.tar.bz2 mirror://gentoo/freebsd-contrib-9.1.tar.bz2 mirror://gentoo/freebsd-lib-9.1.tar.bz2 mirror://gentoo/freebsd-libexec-9.1.tar.bz2 mirror://gentoo/freebsd-usbin-9.1.tar.bz2 mirror://gentoo/freebsd-etc-9.1.tar.bz2 build? ( mirror://gentoo/freebsd-sys-9.1.tar.bz2 )
+_eclasses_=bsdmk	a5323161d86b178920afb5e31a9e5d3f	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	freebsd	9df2a927373191607071d802c1058c96	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	portability	a45c088f246ef5091e029f6285d7ce42	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=aa6a55ec61c53d2025aa7456da249cc9

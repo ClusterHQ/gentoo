@@ -1,0 +1,27 @@
+# ChangeLog for x11-misc/pcmanfm-qt
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-misc/pcmanfm-qt/ChangeLog,v 1.5 2014/05/29 07:49:55 mrueg Exp $
+
+  29 May 2014; Manuel Rüger <mrueg@gentoo.org> pcmanfm-qt-0.7.0.ebuild:
+  Add ~arm keyword.
+
+  26 May 2014;  <jauhien@gentoo.org> metadata.xml:
+  Removing Markos Chandras from maintainer as he is no longer interested in this
+  package
+
+*pcmanfm-qt-0.7.0 (26 May 2014)
+
+  26 May 2014; Jauhien Piatlicki <jauhien@gentoo.org> +pcmanfm-qt-0.7.0.ebuild,
+  -pcmanfm-qt-0.1.0.ebuild, -pcmanfm-qt-9999.ebuild, metadata.xml:
+  version bump, thanks to Harvey Mittens and Davide Pesavento, see bug #509946
+
+  29 Apr 2013; Markos Chandras <hwoarang@gentoo.org> pcmanfm-qt-0.1.0.ebuild,
+  pcmanfm-qt-9999.ebuild:
+  Use subslot deps for libfm
+
+*pcmanfm-qt-9999 (28 Apr 2013)
+*pcmanfm-qt-0.1.0 (28 Apr 2013)
+
+  28 Apr 2013; Markos Chandras <hwoarang@gentoo.org> +metadata.xml,
+  +pcmanfm-qt-0.1.0.ebuild, +pcmanfm-qt-9999.ebuild:
+  Initial commit for the pcmanfm Qt4 port

@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=A tool to read SMART information from harddiscs
+HOMEPAGE=http://www.linalco.com/comunidad.html http://www.linux-ide.org/smart.html
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.linalco.com/ragnar/ide-smart-1.4.tar.gz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=7e93b09405c9d56369dc9b0c35fa8b07

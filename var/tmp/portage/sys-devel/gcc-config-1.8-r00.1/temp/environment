@@ -1,0 +1,2856 @@
+declare -x ABI="amd64"
+declare -x ABI_X86="64"
+declare -x ALSA_CARDS=""
+declare -x APACHE2_MODULES="authn_core authz_core socache_shmcb unixd actions alias auth_basic authn_alias authn_anon authn_dbm authn_default authn_file authz_dbm authz_default authz_groupfile authz_host authz_owner authz_user autoindex cache cgi cgid dav dav_fs dav_lock deflate dir disk_cache env expires ext_filter file_cache filter headers include info log_config logio mem_cache mime mime_magic negotiation rewrite setenvif speling status unique_id userdir usertrack vhost_alias"
+declare -x ARCH="amd64"
+declare -x BOOTSTRAP_USE="cxx unicode internal-glib python_targets_python3_3 python_targets_python2_7 multilib multilib"
+declare -x CALLIGRA_FEATURES="kexi words flow plan sheets stage tables krita karbon braindump author"
+declare -x CAMERAS="ptp2"
+declare -x CBUILD="x86_64-pc-linux-gnu"
+declare -x CFLAGS="-O2 -pipe -O2 -pipe"
+declare -x CFLAGS_amd64="-m64"
+declare -x CFLAGS_default
+declare -x CFLAGS_x32="-mx32"
+declare -x CFLAGS_x86="-m32"
+declare -x CHOST="x86_64-pc-linux-gnu"
+declare -x CHOST_amd64="x86_64-pc-linux-gnu"
+declare -x CHOST_default="x86_64-pc-linux-gnu"
+declare -x CHOST_x32="x86_64-pc-linux-gnux32"
+declare -x CHOST_x86="i686-pc-linux-gnu"
+declare -x COLLECTD_PLUGINS="df interface irq load memory rrdtool swap syslog"
+declare -x CONFIGURE_EPREFIX="/home/core/gentoo"
+declare -x CONFIG_SHELL="/home/core/gentoo/bin/bash"
+declare -x CTARGET_default="x86_64-pc-linux-gnu"
+declare -x CXXFLAGS="-O2 -pipe -O2 -pipe"
+declare -x DEFAULT_ABI="amd64"
+declare -x DEFINED_PHASES=" compile install postinst prepare unpack"
+declare DEPEND=""
+declare DESCRIPTION="utility to manage compilers"
+declare -x DESTTREE="/usr"
+declare -x DIROPTIONS="-m0755"
+declare -x EAPI="3"
+declare -x ELIBC="glibc"
+declare -- EPATCH_COMMON_OPTS="-g0 -E --no-backup-if-mismatch"
+declare -- EPATCH_EXCLUDE=""
+declare -- EPATCH_FORCE="no"
+declare -- EPATCH_MULTI_MSG="Applying various patches (bugfixes/updates) ..."
+declare -- EPATCH_OPTS=""
+declare -- EPATCH_SINGLE_MSG=""
+declare -- EPATCH_SOURCE="/home/core/gentoo/var/tmp/portage/sys-devel/gcc-config-1.8-r00.1/work/patch"
+declare -- EPATCH_SUFFIX="patch.bz2"
+declare -x EXEOPTIONS="-m0755"
+declare -x FCFLAGS="-O2 -pipe"
+declare -x FETCHCOMMAND_SSH="bash -c \"x=\\\${2#ssh://} ; host=\\\${x%%/*} ; port=\\\${host##*:} ; host=\\\${host%:*} ; [[ \\\${host} = \\\${port} ]] && port=22 ; exec rsync --rsh=\\\"ssh -p\\\${port} \\\${3}\\\" -avP \\\"\\\${host}:/\\\${x#*/}\\\" \\\"\\\$1\\\"\" rsync \"\${DISTDIR}/\${FILE}\" \"\${URI}\" \"\${PORTAGE_SSH_OPTS}\""
+declare -x FFLAGS="-O2 -pipe"
+declare -x GCC_SPECS=""
+declare -x GPSD_PROTOCOLS="ashtech aivdm earthmate evermore fv18 garmin garmintxt gpsclock itrax mtk3301 nmea ntrip navcom oceanserver oldstyle oncore rtcm104v2 rtcm104v3 sirf superstar2 timing tsip tripmate tnt ublox ubx"
+declare -x GRUB_PLATFORMS=""
+declare HDEPEND=""
+declare HOMEPAGE="http://git.overlays.gentoo.org/gitweb/?p=proj/gcc-config.git"
+declare -x INHERITED=" unpacker toolchain-funcs multilib prefix eutils"
+declare -x INPUT_DEVICES="keyboard mouse evdev"
+declare -x INSDESTTREE=""
+declare -x INSOPTIONS="-m0644"
+declare IUSE=""
+declare -x IUSE_IMPLICIT="abi_x86_64 prefix"
+declare -x KERNEL="linux"
+declare -x KERNEL_ABI="amd64"
+declare -x KEYWORDS="~ppc-aix ~x64-freebsd ~x86-freebsd ~hppa-hpux ~ia64-hpux ~x86-interix ~amd64-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris ~x86-winnt"
+declare -x KV=""
+declare -x LCD_DEVICES=""
+declare -x LC_MESSAGES="C"
+declare -x LDFLAGS="-Wl,-O1"
+declare -x LDFLAGS_amd64="-m elf_x86_64"
+declare -x LDFLAGS_default
+declare -x LDFLAGS_x32="-m elf32_x86_64"
+declare -x LDFLAGS_x86="-m elf_i386"
+declare -x LIBDIR_amd64="lib"
+declare -x LIBDIR_amd64_fbsd="lib64"
+declare -x LIBDIR_arm="lib"
+declare -x LIBDIR_arm64="lib64"
+declare -x LIBDIR_default="lib"
+declare -x LIBDIR_n32="lib32"
+declare -x LIBDIR_n64="lib64"
+declare -x LIBDIR_o32="lib"
+declare -x LIBDIR_ppc="lib32"
+declare -x LIBDIR_ppc64="lib64"
+declare -x LIBDIR_s390="lib32"
+declare -x LIBDIR_s390x="lib64"
+declare -x LIBDIR_sparc32="lib32"
+declare -x LIBDIR_sparc64="lib64"
+declare -x LIBDIR_x32="libx32"
+declare -x LIBDIR_x86="lib32"
+declare -x LIBDIR_x86_fbsd="lib32"
+declare -x LIBOPTIONS="-m0644"
+declare -x LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer"
+declare -x LICENSE="GPL-2"
+declare -x MACOSSANDBOX_PATHS="/dev/fd/ /private/tmp/ /private/var/tmp/ @@PORTAGE_BUILDDIR@@/ @@PORTAGE_ACTUAL_DISTDIR@@/"
+declare -x MACOSSANDBOX_PATHS_CONTENT_ONLY="/dev/null /dev/dtracehelper /dev/tty /private/var/run/syslog"
+declare -x MAKEOPTS="-j8"
+declare -x MULTILIB_ABIS="amd64"
+declare -x MULTILIB_STRICT_DENY="64-bit.*shared object"
+declare -x MULTILIB_STRICT_DIRS="/lib32 /lib /usr/lib32 /usr/lib /usr/kde/*/lib32 /usr/kde/*/lib /usr/qt/*/lib32 /usr/qt/*/lib /usr/X11R6/lib32 /usr/X11R6/lib"
+declare -x MULTILIB_STRICT_EXEMPT="(perl5|gcc|gcc-lib|binutils|eclipse-3|debug|portage|udev|systemd|clang|python-exec)"
+declare -x NETBEANS="apisupport cnd groovy gsf harness ide identity j2ee java mobility nb php profiler soa visualweb webcommon websvccommon xml"
+declare -x OFFICE_IMPLEMENTATION="libreoffice"
+declare -x PATH="/home/core/gentoo/var/tmp/portage/._portage_reinstall_.9fcp9Y/bin/ebuild-helpers/unprivileged:/home/core/gentoo/var/tmp/portage/._portage_reinstall_.9fcp9Y/bin/ebuild-helpers:/home/core/gentoo/usr/sbin:/home/core/gentoo/usr/bin:/home/core/gentoo/sbin:/home/core/gentoo/bin:/home/core/gentoo/opt/bin:/home/core/gentoo/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3:/usr/bin:/bin"
+declare PDEPEND=""
+declare -x PHP_TARGETS=""
+declare -a PORTAGE_DOCOMPRESS='([0]="/usr/share/doc" [1]="/usr/share/info" [2]="/usr/share/man")'
+declare -x PORTAGE_DOCOMPRESS_SIZE_LIMIT="128"
+declare -a PORTAGE_DOCOMPRESS_SKIP='([0]="/usr/share/doc/gcc-config-1.8-r00.1/html")'
+declare -x PORTAGE_ROOT_USER="core"
+declare -- PREFIXREV="221"
+declare -x PREFIX_DISABLE_GEN_USR_LDSCRIPT="yes"
+declare -x PROFILE_ONLY_VARIABLES="ARCH ELIBC IUSE_IMPLICIT KERNEL USERLAND USE_EXPAND_IMPLICIT USE_EXPAND_UNPREFIXED USE_EXPAND_VALUES_ARCH USE_EXPAND_VALUES_ELIBC USE_EXPAND_VALUES_KERNEL USE_EXPAND_VALUES_USERLAND"
+declare -x PROPERTIES=""
+declare -x PROVIDE=""
+declare -x PYTHONDONTWRITEBYTECODE="1"
+declare -x PYTHON_SINGLE_TARGET=""
+declare -x PYTHON_TARGETS=""
+declare -x RDEPEND=""
+declare REPOSITORY
+declare REQUIRED_USE=""
+declare -x RESTRICT=""
+declare -x RESUMECOMMAND_SSH="bash -c \"x=\\\${2#ssh://} ; host=\\\${x%%/*} ; port=\\\${host##*:} ; host=\\\${host%:*} ; [[ \\\${host} = \\\${port} ]] && port=22 ; exec rsync --rsh=\\\"ssh -p\\\${port} \\\${3}\\\" -avP \\\"\\\${host}:/\\\${x#*/}\\\" \\\"\\\$1\\\"\" rsync \"\${DISTDIR}/\${FILE}\" \"\${URI}\" \"\${PORTAGE_SSH_OPTS}\""
+declare -x RUBY_TARGETS=""
+declare -x S="/home/core/gentoo/var/tmp/portage/sys-devel/gcc-config-1.8-r00.1/work/gcc-config-1.8"
+declare -x SANDBOX_DENY=""
+declare -x SANDBOX_PREDICT=""
+declare -x SANDBOX_READ="/:/home/core/gentoo/var/tmp"
+declare -x SANDBOX_WRITE="/home/core/gentoo/var/tmp"
+declare -x SHELL="/home/core/gentoo/bin/bash"
+declare -x SLOT="0"
+declare SRC_URI="mirror://gentoo/gcc-config-1.8.tar.xz
+	http://dev.gentoo.org/~vapier/dist/gcc-config-1.8.tar.xz"
+declare -x SYMLINK_LIB=""
+declare -x USE="abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU"
+declare -x USERLAND="GNU"
+declare -x USE_EXPAND_IMPLICIT="ARCH ELIBC KERNEL USERLAND"
+declare -x USE_EXPAND_UNPREFIXED="ARCH"
+declare -x USE_EXPAND_VALUES_ARCH="alpha amd64 amd64-fbsd amd64-linux arm arm-linux arm64 hppa hppa-hpux ia64 ia64-hpux ia64-linux m68k m68k-mint mips ppc ppc64 ppc64-linux ppc-aix ppc-macos ppc-openbsd s390 sh sparc sparc64-freebsd sparc64-solaris sparc-fbsd sparc-solaris x64-freebsd x64-macos x64-openbsd x64-solaris x86 x86-cygwin x86-fbsd x86-freebsd x86-interix x86-linux x86-macos x86-netbsd x86-openbsd x86-solaris x86-winnt"
+declare -x USE_EXPAND_VALUES_ELIBC="AIX Cygwin Darwin DragonFly FreeBSD glibc HPUX Interix mintlib musl NetBSD OpenBSD SunOS uclibc Winnt"
+declare -x USE_EXPAND_VALUES_KERNEL="AIX Cygwin Darwin FreeBSD freemint HPUX Interix linux NetBSD OpenBSD SunOS Winnt"
+declare -x USE_EXPAND_VALUES_USERLAND="BSD GNU"
+declare -x USE_PYTHON="2.7"
+declare -- VERS="19"
+declare -x VIDEO_CARDS=""
+declare -x XTABLES_ADDONS="quota2 psd pknock lscan length2 ipv4options ipset ipp2p iface geoip fuzzy condition tee tarpit sysrq steal rawnat logmark ipmark dhcpmac delude chaos account"
+declare -- _EUTILS_ECLASS="1"
+declare -x _E_DOCDESTTREE_=""
+declare -x _E_EXEDESTTREE_=""
+declare -- _MULTILIB_ECLASS="1"
+declare -- _UNPACKER_ECLASS="1"
+declare -- ___ECLASS_ONCE_TOOLCHAIN_FUNCS="recur -_+^+_- spank"
+declare -- arch="tar --no-same-owner -xof"
+declare -- comp="xz -dc"
+declare -- phase_func
+__bashpid () 
+{ 
+    sh -c 'echo ${PPID}'
+}
+__call-ebuildshell () 
+{ 
+    if ! has ebuildshell ${FEATURES}; then
+        "$@";
+        return $?;
+    fi;
+    ( umask 002;
+    ( ( set;
+    declare -p;
+    declare -fp;
+    shopt -p;
+    if [[ ${BASH_VERSINFO[0]} == 3 ]]; then
+        export;
+    fi ) | __filter_readonly_variables --filter-for-subshell;
+    echo 'declare -r $PORTAGE_READONLY_METADATA $PORTAGE_READONLY_VARS';
+    echo "export PS1='EBUILD ${PN} $1 \$ '";
+    echo 'unset ENV';
+    echo "type $1";
+    echo "echo WANTED: $@";
+    echo "trap '";
+    echo "umask 002";
+    echo "(";
+    echo "	set";
+    echo "	declare -p";
+    echo "	declare -fp";
+    echo "	shopt -p | grep -v extdebug$";
+    if [[ ${BASH_VERSINFO[0]} == 3 ]]; then
+        echo "	export";
+    fi;
+    echo -n ")";
+    echo -n " | __filter_readonly_variables --filter-metadata";
+    echo " > ${T}/ebuildshell-environment-outcome' 0";
+    echo "shopt -u extdebug";
+    echo "trap - DEBUG" ) > ${T}/ebuildshell-environment;
+    chown ${PORTAGE_USER:-portage}:${PORTAGE_GROUP:-portage} "${T}/ebuildshell-environment" &>/dev/null;
+    chmod g+w "${T}/ebuildshell-environment" &>/dev/null );
+    rm -f "${T}/ebuildshell-environment-outcome" &>/dev/null;
+    unset BASH_ENV;
+    env -i ${BASH} --rcfile "${T}/ebuildshell-environment" -i || die;
+    chown ${PORTAGE_USER:-portage}:${PORTAGE_GROUP:-portage} "${T}/ebuildshell-environment-outcome" &>/dev/null;
+    chmod g+w "${T}/ebuildshell-environment-outcome" &>/dev/null;
+    source "${T}/ebuildshell-environment-outcome" &>/dev/null
+}
+_eutils_eprefix_init () 
+{ 
+    has "${EAPI:-0}" 0 1 2 && : ${ED:=${D}} ${EPREFIX:=} ${EROOT:=${ROOT}}
+}
+_gcc-install-dir () 
+{ 
+    echo "$(LC_ALL=C $(tc-getCC) -print-search-dirs 2> /dev/null |		awk '$1=="install:" {print $2}')"
+}
+_gcc-specs-directive_raw () 
+{ 
+    local cc=$(tc-getCC);
+    local specfiles=$(LC_ALL=C ${cc} -v 2>&1 | awk '$1=="Reading" {print $NF}');
+    ${cc} -dumpspecs 2> /dev/null | cat - ${specfiles} | awk -v directive=$1 'BEGIN	{ pspec=""; spec=""; outside=1 }
+$1=="*"directive":"  { pspec=spec; spec=""; outside=0; next }
+	outside || NF==0 || ( substr($1,1,1)=="*" && substr($1,length($1),1)==":" ) { outside=1; next }
+	spec=="" && substr($0,1,1)=="+" { spec=pspec " " substr($0,2); next }
+	{ spec=spec $0 }
+END	{ print spec }';
+    return 0
+}
+_gcc-specs-exists () 
+{ 
+    [[ -f $(_gcc-install-dir)/$1 ]]
+}
+_gcc_fullversion () 
+{ 
+    local ver="$1";
+    shift;
+    set -- `$(tc-getCPP "$@") -E -P - <<<"__GNUC__ __GNUC_MINOR__ __GNUC_PATCHLEVEL__"`;
+    eval echo "$ver"
+}
+_iconins () 
+{ 
+    ( local funcname=$1;
+    shift;
+    local size dir;
+    local context=apps;
+    local theme=hicolor;
+    while [[ $# -gt 0 ]]; do
+        case $1 in 
+            -s | --size)
+                if [[ ${2%%x*}x${2%%x*} == "$2" ]]; then
+                    size=${2%%x*};
+                else
+                    size=${2};
+                fi;
+                case ${size} in 
+                    16 | 22 | 24 | 32 | 36 | 48 | 64 | 72 | 96 | 128 | 192 | 256)
+                        size=${size}x${size}
+                    ;;
+                    scalable)
+
+                    ;;
+                    *)
+                        eerror "${size} is an unsupported icon size!";
+                        exit 1
+                    ;;
+                esac;
+                shift 2
+            ;;
+            -t | --theme)
+                theme=${2};
+                shift 2
+            ;;
+            -c | --context)
+                context=${2};
+                shift 2
+            ;;
+            *)
+                if [[ -z ${size} ]]; then
+                    insinto /usr/share/pixmaps;
+                else
+                    insinto /usr/share/icons/${theme}/${size}/${context};
+                fi;
+                if [[ ${funcname} == doicon ]]; then
+                    if [[ -f $1 ]]; then
+                        doins "${1}";
+                    else
+                        if [[ -d $1 ]]; then
+                            shopt -s nullglob;
+                            doins "${1}"/*.{png,svg};
+                            shopt -u nullglob;
+                        else
+                            eerror "${1} is not a valid file/directory!";
+                            exit 1;
+                        fi;
+                    fi;
+                else
+                    break;
+                fi;
+                shift 1
+            ;;
+        esac;
+    done;
+    if [[ ${funcname} == newicon ]]; then
+        newins "$@";
+    fi ) || die
+}
+_tc-getPROG () 
+{ 
+    local tuple=$1;
+    local v var vars=$2;
+    local prog=$3;
+    var=${vars%% *};
+    for v in ${vars};
+    do
+        if [[ -n ${!v} ]]; then
+            export ${var}="${!v}";
+            echo "${!v}";
+            return 0;
+        fi;
+    done;
+    local search=;
+    [[ -n $4 ]] && search=$(type -p "$4-${prog}");
+    [[ -z ${search} && -n ${!tuple} ]] && search=$(type -p "${!tuple}-${prog}");
+    [[ -n ${search} ]] && prog=${search##*/};
+    export ${var}=${prog};
+    echo "${!var}"
+}
+_unpacker () 
+{ 
+    [[ $# -eq 1 ]] || die "Usage: ${FUNCNAME} <file>";
+    local a=$1;
+    local m=$(echo "${a}" | tr '[:upper:]' '[:lower:]');
+    a=$(find_unpackable_file "${a}");
+    case ${m} in 
+        *.bz2 | *.tbz | *.tbz2)
+            local bzcmd=${PORTAGE_BZIP2_COMMAND:-$(type -P pbzip2 || type -P bzip2)};
+            local bzuncmd=${PORTAGE_BUNZIP2_COMMAND:-${bzcmd} -d};
+            : ${UNPACKER_BZ2:=${bzuncmd}};
+            comp="${UNPACKER_BZ2} -c"
+        ;;
+        *.z | *.gz | *.tgz)
+            comp="gzip -dc"
+        ;;
+        *.lzma | *.xz | *.txz)
+            comp="xz -dc"
+        ;;
+        *.lz)
+            : ${UNPACKER_LZIP:=$(type -P plzip || type -P pdlzip || type -P lzip)};
+            comp="${UNPACKER_LZIP} -dc"
+        ;;
+        *)
+            comp=""
+        ;;
+    esac;
+    arch="";
+    case ${m} in 
+        *.tgz | *.tbz | *.tbz2 | *.txz | *.tar.* | *.tar)
+            arch="tar --no-same-owner -xof"
+        ;;
+        *.cpio.* | *.cpio)
+            arch="unpack_cpio"
+        ;;
+        *.deb)
+            arch="unpack_deb"
+        ;;
+        *.run)
+            arch="unpack_makeself"
+        ;;
+        *.sh)
+            if head -n 30 "${a}" | grep -qs '#.*Makeself'; then
+                arch="unpack_makeself";
+            fi
+        ;;
+        *.bin)
+            if head -c 100 "${a}" | grep -qs '#.*Makeself'; then
+                arch="unpack_makeself";
+            fi
+        ;;
+        *.zip)
+            arch="unpack_zip"
+        ;;
+    esac;
+    if [[ -z ${arch}${comp} ]]; then
+        unpack "$1";
+        return $?;
+    fi;
+    [[ ${arch} != unpack_* ]] && unpack_banner "${a}";
+    if [[ -z ${arch} ]]; then
+        local _a=${a%.*};
+        ${comp} "${a}" > "${_a##*/}";
+    else
+        if [[ -z ${comp} ]]; then
+            ${arch} "${a}";
+        else
+            ${comp} "${a}" | ${arch} -;
+        fi;
+    fi;
+    assert "unpacking ${a} failed (comp=${comp} arch=${arch})"
+}
+built_with_use () 
+{ 
+    _eutils_eprefix_init;
+    local hidden="no";
+    if [[ $1 == "--hidden" ]]; then
+        hidden="yes";
+        shift;
+    fi;
+    local missing_action="die";
+    if [[ $1 == "--missing" ]]; then
+        missing_action=$2;
+        shift;
+        shift;
+        case ${missing_action} in 
+            true | false | die)
+
+            ;;
+            *)
+                die "unknown action '${missing_action}'"
+            ;;
+        esac;
+    fi;
+    local opt=$1;
+    [[ ${opt:0:1} = "-" ]] && shift || opt="-a";
+    local PKG=$(best_version $1);
+    [[ -z ${PKG} ]] && die "Unable to resolve $1 to an installed package";
+    shift;
+    local USEFILE=${EROOT}/var/db/pkg/${PKG}/USE;
+    local IUSEFILE=${EROOT}/var/db/pkg/${PKG}/IUSE;
+    if [[ ! -e ${USEFILE} ]] || [[ ! -e ${IUSEFILE} && ${hidden} == "no" ]]; then
+        case ${missing_action} in 
+            true)
+                return 0
+            ;;
+            false)
+                return 1
+            ;;
+            die)
+                die "Unable to determine what USE flags $PKG was built with"
+            ;;
+        esac;
+    fi;
+    if [[ ${hidden} == "no" ]]; then
+        local IUSE_BUILT=($(<"${IUSEFILE}"));
+        local expand;
+        for expand in $(echo ${USE_EXPAND} | tr '[:upper:]' '[:lower:]');
+        do
+            if [[ $1 == ${expand}_* ]]; then
+                expand="";
+                break;
+            fi;
+        done;
+        if [[ -n ${expand} ]]; then
+            if ! has $1 ${IUSE_BUILT[@]#[-+]}; then
+                case ${missing_action} in 
+                    true)
+                        return 0
+                    ;;
+                    false)
+                        return 1
+                    ;;
+                    die)
+                        die "$PKG does not actually support the $1 USE flag!"
+                    ;;
+                esac;
+            fi;
+        fi;
+    fi;
+    local USE_BUILT=$(<${USEFILE});
+    while [[ $# -gt 0 ]]; do
+        if [[ ${opt} = "-o" ]]; then
+            has $1 ${USE_BUILT} && return 0;
+        else
+            has $1 ${USE_BUILT} || return 1;
+        fi;
+        shift;
+    done;
+    [[ ${opt} = "-a" ]]
+}
+check_license () 
+{ 
+    die "you no longer need this as portage supports ACCEPT_LICENSE itself"
+}
+doicon () 
+{ 
+    _iconins ${FUNCNAME} "$@"
+}
+domenu () 
+{ 
+    ( local i j ret=0;
+    insinto /usr/share/applications;
+    for i in "$@";
+    do
+        if [[ -f ${i} ]]; then
+            doins "${i}";
+            ((ret+=$?));
+        else
+            if [[ -d ${i} ]]; then
+                for j in "${i}"/*.desktop;
+                do
+                    doins "${j}";
+                    ((ret+=$?));
+                done;
+            else
+                ((++ret));
+            fi;
+        fi;
+    done;
+    exit ${ret} )
+}
+ebeep () 
+{ 
+    ewarn "QA Notice: ebeep is not defined in EAPI=${EAPI}, please file a bug at http://bugs.gentoo.org"
+}
+econf_build () 
+{ 
+    tc-env_build econf --build=${CBUILD:-${CHOST}} "$@"
+}
+ecvs_clean () 
+{ 
+    [[ -z $* ]] && set -- .;
+    find "$@" -type d -name 'CVS' -prune -print0 | xargs -0 rm -rf;
+    find "$@" -type f -name '.cvs*' -print0 | xargs -0 rm -rf
+}
+edos2unix () 
+{ 
+    [[ $# -eq 0 ]] && return 0;
+    sed -i 's/\r$//' -- "$@" || die
+}
+einstalldocs () 
+{ 
+    debug-print-function ${FUNCNAME} "${@}";
+    local dodoc_opts=-r;
+    has ${EAPI} 0 1 2 3 && dodoc_opts=;
+    if ! declare -p DOCS &>/dev/null; then
+        local d;
+        for d in README* ChangeLog AUTHORS NEWS TODO CHANGES THANKS BUGS FAQ CREDITS CHANGELOG;
+        do
+            if [[ -s ${d} ]]; then
+                dodoc "${d}" || die;
+            fi;
+        done;
+    else
+        if [[ $(declare -p DOCS) == "declare -a"* ]]; then
+            if [[ -n ${DOCS[@]} ]]; then
+                dodoc ${dodoc_opts} "${DOCS[@]}" || die;
+            fi;
+        else
+            if [[ -n ${DOCS} ]]; then
+                dodoc ${dodoc_opts} ${DOCS} || die;
+            fi;
+        fi;
+    fi;
+    if [[ $(declare -p HTML_DOCS 2>/dev/null) == "declare -a"* ]]; then
+        if [[ -n ${HTML_DOCS[@]} ]]; then
+            dohtml -r "${HTML_DOCS[@]}" || die;
+        fi;
+    else
+        if [[ -n ${HTML_DOCS} ]]; then
+            dohtml -r ${HTML_DOCS} || die;
+        fi;
+    fi;
+    return 0
+}
+emktemp () 
+{ 
+    local exe="touch";
+    [[ $1 == -d ]] && exe="mkdir" && shift;
+    local topdir=$1;
+    if [[ -z ${topdir} ]]; then
+        [[ -z ${T} ]] && topdir="/tmp" || topdir=${T};
+    fi;
+    if ! type -P mktemp > /dev/null; then
+        local tmp=/;
+        while [[ -e ${tmp} ]]; do
+            tmp=${topdir}/tmp.${RANDOM}.${RANDOM}.${RANDOM};
+        done;
+        ${exe} "${tmp}" || ${exe} -p "${tmp}";
+        echo "${tmp}";
+    else
+        if [[ ${exe} == "touch" ]]; then
+            TMPDIR="${topdir}" mktemp -t tmp.XXXXXXXXXX;
+        else
+            TMPDIR="${topdir}" mktemp -dt tmp.XXXXXXXXXX;
+        fi;
+    fi
+}
+epatch () 
+{ 
+    function _epatch_draw_line () 
+    { 
+        [[ -z $1 ]] && set "$(printf "%65s" '')";
+        echo "${1//?/=}"
+    };
+    unset P4CONFIG P4PORT P4USER;
+    local EPATCH_OPTS=(${EPATCH_OPTS[*]});
+    while [[ $# -gt 0 ]]; do
+        case $1 in 
+            -*)
+                EPATCH_OPTS+=("$1")
+            ;;
+            *)
+                break
+            ;;
+        esac;
+        shift;
+    done;
+    if [[ $# -gt 1 ]]; then
+        local m;
+        for m in "$@";
+        do
+            epatch "${m}";
+        done;
+        return 0;
+    fi;
+    local SINGLE_PATCH="no";
+    [[ $# -eq 0 ]] && set -- "${EPATCH_SOURCE}";
+    if [[ -f $1 ]]; then
+        SINGLE_PATCH="yes";
+        set -- "$1";
+        local EPATCH_SUFFIX=$1;
+    else
+        if [[ -d $1 ]]; then
+            evar_push_set LC_COLLATE C;
+            set -- "$1"/*${EPATCH_SUFFIX:+."${EPATCH_SUFFIX}"};
+            evar_pop;
+        else
+            if [[ -f ${EPATCH_SOURCE}/$1 ]]; then
+                epatch "${EPATCH_SOURCE}/$1";
+                return $?;
+            else
+                [[ $# -ne 0 ]] && EPATCH_SOURCE=$1;
+                echo;
+                eerror "Cannot find \$EPATCH_SOURCE!  Value for \$EPATCH_SOURCE is:";
+                eerror;
+                eerror "  ${EPATCH_SOURCE}";
+                eerror "  ( ${EPATCH_SOURCE##*/} )";
+                echo;
+                die "Cannot find \$EPATCH_SOURCE!";
+            fi;
+        fi;
+    fi;
+    EPATCH_OPTS="${EPATCH_COMMON_OPTS} ${EPATCH_OPTS[*]}";
+    local PIPE_CMD;
+    case ${EPATCH_SUFFIX##*\.} in 
+        xz)
+            PIPE_CMD="xz -dc"
+        ;;
+        lzma)
+            PIPE_CMD="lzma -dc"
+        ;;
+        bz2)
+            PIPE_CMD="bzip2 -dc"
+        ;;
+        gz | Z | z)
+            PIPE_CMD="gzip -dc"
+        ;;
+        ZIP | zip)
+            PIPE_CMD="unzip -p"
+        ;;
+        *)
+
+        ;;
+    esac;
+    [[ ${SINGLE_PATCH} == "no" ]] && einfo "${EPATCH_MULTI_MSG}";
+    local x;
+    for x in "$@";
+    do
+        [[ ! -f ${x} ]] && continue;
+        local patchname=${x##*/};
+        local a=${patchname#*_};
+        a=${a%%_*};
+        if ! [[ ${SINGLE_PATCH} == "yes" || ${EPATCH_FORCE} == "yes" || ${a} == all || ${a} == ${ARCH} ]]; then
+            continue;
+        fi;
+        if [[ -n ${EPATCH_EXCLUDE} ]]; then
+            eshopts_push -o noglob;
+            local ex;
+            for ex in ${EPATCH_EXCLUDE};
+            do
+                if [[ ${patchname} == ${ex} ]]; then
+                    einfo "  Skipping ${patchname} due to EPATCH_EXCLUDE ...";
+                    eshopts_pop;
+                    continue 2;
+                fi;
+            done;
+            for ex in ${EPATCH_USER_EXCLUDE};
+            do
+                if [[ ${patchname} == ${ex} ]]; then
+                    einfo "  Skipping ${patchname} due to EPATCH_USER_EXCLUDE ...";
+                    eshopts_pop;
+                    continue 2;
+                fi;
+            done;
+            eshopts_pop;
+        fi;
+        if [[ ${SINGLE_PATCH} == "yes" ]]; then
+            if [[ -n ${EPATCH_SINGLE_MSG} ]]; then
+                einfo "${EPATCH_SINGLE_MSG}";
+            else
+                einfo "Applying ${patchname} ...";
+            fi;
+        else
+            einfo "  ${patchname} ...";
+        fi;
+        local STDERR_TARGET="${T}/${patchname}.out";
+        if [[ -e ${STDERR_TARGET} ]]; then
+            STDERR_TARGET="${T}/${patchname}-$$.out";
+        fi;
+        printf "***** %s *****\nPWD: %s\n\n" "${patchname}" "${PWD}" > "${STDERR_TARGET}";
+        local count=0;
+        local PATCH_TARGET;
+        if [[ -n ${PIPE_CMD} ]]; then
+            PATCH_TARGET="${T}/$$.patch";
+            echo "PIPE_COMMAND:  ${PIPE_CMD} ${x} > ${PATCH_TARGET}" >> "${STDERR_TARGET}";
+            if ! ( ${PIPE_CMD} "${x}" > "${PATCH_TARGET}" ) >> "${STDERR_TARGET}" 2>&1; then
+                echo;
+                eerror "Could not extract patch!";
+                count=5;
+                break;
+            fi;
+        else
+            PATCH_TARGET=${x};
+        fi;
+        local abs_paths=$(egrep -n '^[-+]{3} /' "${PATCH_TARGET}" | awk '$2 != "/dev/null" { print }');
+        if [[ -n ${abs_paths} ]]; then
+            count=1;
+            printf "NOTE: skipping -p0 due to absolute paths in patch:\n%s\n" "${abs_paths}" >> "${STDERR_TARGET}";
+        fi;
+        local rel_paths=$(egrep -n '^[-+]{3} [^	]*[.][.]/' "${PATCH_TARGET}");
+        if [[ -n ${rel_paths} ]]; then
+            echo;
+            eerror "Rejected Patch: ${patchname} !";
+            eerror " ( ${PATCH_TARGET} )";
+            eerror;
+            eerror "Your patch uses relative paths '../':";
+            eerror "${rel_paths}";
+            echo;
+            die "you need to fix the relative paths in patch";
+        fi;
+        local patch_cmd;
+        local patch="patch";
+        eval $(alias patch 2>/dev/null | sed 's:^alias ::');
+        while [[ ${count} -lt 5 ]]; do
+            patch_cmd="${patch} -p${count} ${EPATCH_OPTS}";
+            ( _epatch_draw_line "***** ${patchname} *****";
+            echo;
+            echo "PATCH COMMAND:  ${patch_cmd} < '${PATCH_TARGET}'";
+            echo;
+            _epatch_draw_line "***** ${patchname} *****";
+            ${patch_cmd} --dry-run -f < "${PATCH_TARGET}" 2>&1;
+            ret=$?;
+            echo;
+            echo "patch program exited with status ${ret}";
+            exit ${ret} ) >> "${STDERR_TARGET}";
+            if [ $? -eq 0 ]; then
+                ( _epatch_draw_line "***** ${patchname} *****";
+                echo;
+                echo "ACTUALLY APPLYING ${patchname} ...";
+                echo;
+                _epatch_draw_line "***** ${patchname} *****";
+                ${patch_cmd} < "${PATCH_TARGET}" 2>&1;
+                ret=$?;
+                echo;
+                echo "patch program exited with status ${ret}";
+                exit ${ret} ) >> "${STDERR_TARGET}";
+                if [ $? -ne 0 ]; then
+                    echo;
+                    eerror "A dry-run of patch command succeeded, but actually";
+                    eerror "applying the patch failed!";
+                    count=5;
+                fi;
+                break;
+            fi;
+            : $(( count++ ));
+        done;
+        if [[ -n ${PIPE_CMD} ]]; then
+            rm -f "${PATCH_TARGET}";
+        fi;
+        if [[ ${count} -ge 5 ]]; then
+            echo;
+            eerror "Failed Patch: ${patchname} !";
+            eerror " ( ${PATCH_TARGET} )";
+            eerror;
+            eerror "Include in your bugreport the contents of:";
+            eerror;
+            eerror "  ${STDERR_TARGET}";
+            echo;
+            die "Failed Patch: ${patchname}!";
+        fi;
+        rm -f "${STDERR_TARGET}";
+        cat >> "${T}/epatch.log"  <<-EOF
+PATCH: ${x}
+CMD: ${patch_cmd}
+PWD: ${PWD}
+
+EOF
+
+        eend 0;
+    done;
+    [[ ${SINGLE_PATCH} == "no" ]] && einfo "Done with patching";
+    :
+}
+epatch_user () 
+{ 
+    [[ $# -ne 0 ]] && die "epatch_user takes no options";
+    local applied="${T}/epatch_user.log";
+    [[ -e ${applied} ]] && return 2;
+    local EPATCH_SOURCE check base=${PORTAGE_CONFIGROOT%/}/etc/portage/patches;
+    for check in ${CATEGORY}/{${P}-${PR},${P},${PN}}{,:${SLOT}};
+    do
+        EPATCH_SOURCE=${base}/${CTARGET}/${check};
+        [[ -r ${EPATCH_SOURCE} ]] || EPATCH_SOURCE=${base}/${CHOST}/${check};
+        [[ -r ${EPATCH_SOURCE} ]] || EPATCH_SOURCE=${base}/${check};
+        if [[ -d ${EPATCH_SOURCE} ]]; then
+            EPATCH_SOURCE=${EPATCH_SOURCE} EPATCH_SUFFIX="patch" EPATCH_FORCE="yes" EPATCH_MULTI_MSG="Applying user patches from ${EPATCH_SOURCE} ..." epatch;
+            echo "${EPATCH_SOURCE}" > "${applied}";
+            return 0;
+        fi;
+    done;
+    echo "none" > "${applied}";
+    return 1
+}
+epause () 
+{ 
+    ewarn "QA Notice: epause is not defined in EAPI=${EAPI}, please file a bug at http://bugs.gentoo.org"
+}
+eprefixify () 
+{ 
+    [[ $# -lt 1 ]] && die "at least one argument required";
+    einfo "Adjusting to prefix ${EPREFIX:-/}";
+    local x;
+    for x in "$@";
+    do
+        if [[ -e ${x} ]]; then
+            ebegin "  ${x##*/}";
+            sed -i -e "s|@GENTOO_PORTAGE_EPREFIX@|${EPREFIX}|g" "${x}";
+            eend $? || die "failed to eprefixify ${x}";
+        else
+            die "${x} does not exist";
+        fi;
+    done;
+    return 0
+}
+epunt_cxx () 
+{ 
+    local dir=$1;
+    [[ -z ${dir} ]] && dir=${S};
+    ebegin "Removing useless C++ checks";
+    local f p any_found;
+    while IFS= read -r -d '' f; do
+        for p in "${PORTDIR}"/eclass/ELT-patches/nocxx/*.patch;
+        do
+            if patch --no-backup-if-mismatch -p1 "${f}" "${p}" > /dev/null; then
+                any_found=1;
+                break;
+            fi;
+        done;
+    done < <(find "${dir}" -name configure -print0);
+    if [[ -z ${any_found} ]]; then
+        eqawarn "epunt_cxx called unnecessarily (no C++ checks to punt).";
+    fi;
+    eend 0
+}
+eshopts_pop () 
+{ 
+    local s;
+    estack_pop eshopts s || die "${FUNCNAME}: unbalanced push";
+    if [[ ${s} == "shopt -"* ]]; then
+        eval "${s}" || die "${FUNCNAME}: sanity: invalid shopt options: ${s}";
+    else
+        set +$- || die "${FUNCNAME}: sanity: invalid shell settings: $-";
+        set -${s} || die "${FUNCNAME}: sanity: unable to restore saved shell settings: ${s}";
+    fi
+}
+eshopts_push () 
+{ 
+    if [[ $1 == -[su] ]]; then
+        estack_push eshopts "$(shopt -p)";
+        [[ $# -eq 0 ]] && return 0;
+        shopt "$@" || die "${FUNCNAME}: bad options to shopt: $*";
+    else
+        estack_push eshopts $-;
+        [[ $# -eq 0 ]] && return 0;
+        set "$@" || die "${FUNCNAME}: bad options to set: $*";
+    fi
+}
+estack_pop () 
+{ 
+    [[ $# -eq 0 || $# -gt 2 ]] && die "estack_pop: incorrect # of arguments";
+    local _estack_name="_ESTACK_$1_";
+    shift;
+    local _estack_retvar=$1;
+    shift;
+    eval local _estack_i=\${#${_estack_name}\[@\]};
+    [[ $(( --_estack_i )) -eq -1 ]] && return 1;
+    if [[ -n ${_estack_retvar} ]]; then
+        eval ${_estack_retvar}=\"\${${_estack_name}\[${_estack_i}\]}\";
+    fi;
+    eval unset ${_estack_name}\[${_estack_i}\]
+}
+estack_push () 
+{ 
+    [[ $# -eq 0 ]] && die "estack_push: incorrect # of arguments";
+    local stack_name="_ESTACK_$1_";
+    shift;
+    eval ${stack_name}+=\( \"\$@\" \)
+}
+esvn_clean () 
+{ 
+    [[ -z $* ]] && set -- .;
+    find "$@" -type d -name '.svn' -prune -print0 | xargs -0 rm -rf
+}
+eumask_pop () 
+{ 
+    [[ $# -eq 0 ]] || die "${FUNCNAME}: we take no options";
+    local s;
+    estack_pop eumask s || die "${FUNCNAME}: unbalanced push";
+    umask ${s} || die "${FUNCNAME}: sanity: could not restore umask: ${s}"
+}
+eumask_push () 
+{ 
+    estack_push eumask "$(umask)";
+    umask "$@" || die "${FUNCNAME}: bad options to umask: $*"
+}
+evar_pop () 
+{ 
+    local cnt=${1:-bad};
+    case $# in 
+        0)
+            cnt=1
+        ;;
+        1)
+            isdigit "${cnt}" || die "${FUNCNAME}: first arg must be a number: $*"
+        ;;
+        *)
+            die "${FUNCNAME}: only accepts one arg: $*"
+        ;;
+    esac;
+    local var val;
+    while (( cnt-- )); do
+        estack_pop evar val || die "${FUNCNAME}: unbalanced push";
+        estack_pop evar var || die "${FUNCNAME}: unbalanced push";
+        [[ ${val} == "unset_76fc3c462065bb4ca959f939e6793f94" ]] && unset ${var} || printf -v "${var}" '%s' "${val}";
+    done
+}
+evar_push () 
+{ 
+    local var val;
+    for var in "$@";
+    do
+        [[ ${!var+set} == "set" ]] && val=${!var} || val="unset_76fc3c462065bb4ca959f939e6793f94";
+        estack_push evar "${var}" "${val}";
+    done
+}
+evar_push_set () 
+{ 
+    local var=$1;
+    evar_push ${var};
+    case $# in 
+        1)
+            unset ${var}
+        ;;
+        2)
+            printf -v "${var}" '%s' "$2"
+        ;;
+        *)
+            die "${FUNCNAME}: incorrect # of args: $*"
+        ;;
+    esac
+}
+find_unpackable_file () 
+{ 
+    local src=$1;
+    if [[ -z ${src} ]]; then
+        src=${DISTDIR}/${A};
+    else
+        if [[ ${src} == ./* ]]; then
+            :;
+        else
+            if [[ -e ${DISTDIR}/${src} ]]; then
+                src=${DISTDIR}/${src};
+            else
+                if [[ -e ${PWD}/${src} ]]; then
+                    src=${PWD}/${src};
+                else
+                    if [[ -e ${src} ]]; then
+                        src=${src};
+                    fi;
+                fi;
+            fi;
+        fi;
+    fi;
+    [[ ! -e ${src} ]] && return 1;
+    echo "${src}"
+}
+gcc-fullversion () 
+{ 
+    _gcc_fullversion '$1.$2.$3' "$@"
+}
+gcc-major-version () 
+{ 
+    _gcc_fullversion '$1' "$@"
+}
+gcc-micro-version () 
+{ 
+    _gcc_fullversion '$3' "$@"
+}
+gcc-minor-version () 
+{ 
+    _gcc_fullversion '$2' "$@"
+}
+gcc-specs-directive () 
+{ 
+    local directive subdname subdirective;
+    directive="$(_gcc-specs-directive_raw $1)";
+    while [[ ${directive} == *%\(*\)* ]]; do
+        subdname=${directive/*%\(};
+        subdname=${subdname/\)*};
+        subdirective="$(_gcc-specs-directive_raw ${subdname})";
+        directive="${directive//\%(${subdname})/${subdirective}}";
+    done;
+    echo "${directive}";
+    return 0
+}
+gcc-specs-nostrict () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive cc1);
+    return $([[ "${directive/\{!fstrict-overflow:}" != "${directive}" ]])
+}
+gcc-specs-now () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive link_command);
+    return $([[ "${directive/\{!nonow:}" != "${directive}" ]])
+}
+gcc-specs-pie () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive cc1);
+    return $([[ "${directive/\{!nopie:}" != "${directive}" ]])
+}
+gcc-specs-relro () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive link_command);
+    return $([[ "${directive/\{!norelro:}" != "${directive}" ]])
+}
+gcc-specs-ssp () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive cc1);
+    return $([[ "${directive/\{!fno-stack-protector:}" != "${directive}" ]])
+}
+gcc-specs-ssp-to-all () 
+{ 
+    local directive;
+    directive=$(gcc-specs-directive cc1);
+    return $([[ "${directive/\{!fno-stack-protector-all:}" != "${directive}" ]])
+}
+gcc-version () 
+{ 
+    _gcc_fullversion '$1.$2' "$@"
+}
+gen_usr_ldscript () 
+{ 
+    local lib libdir=$(get_libdir) output_format="" auto=false suffix=$(get_libname);
+    [[ -z ${ED+set} ]] && local ED=${D%/}${EPREFIX}/;
+    tc-is-static-only && return;
+    [[ -n ${PREFIX_DISABLE_GEN_USR_LDSCRIPT} ]] && return;
+    case ${CTARGET:-${CHOST}} in 
+        *-darwin*)
+            type -P scanmacho > /dev/null || return
+        ;;
+        *linux* | *-freebsd* | *-openbsd* | *-netbsd* | *-solaris*)
+            type -P scanelf > /dev/null || return
+        ;;
+        *)
+            return 0
+        ;;
+    esac;
+    dodir /usr/${libdir};
+    if [[ $1 == "-a" ]]; then
+        auto=true;
+        shift;
+        dodir /${libdir};
+    fi;
+    local flags=(${CFLAGS} ${LDFLAGS} -Wl,--verbose);
+    if $(tc-getLD) --version | grep -q 'GNU gold'; then
+        local d="${T}/bfd-linker";
+        mkdir -p "${d}";
+        ln -sf $(which ${CHOST}-ld.bfd) "${d}"/ld;
+        flags+=(-B"${d}");
+    fi;
+    output_format=$($(tc-getCC) "${flags[@]}" 2>&1 | sed -n 's/^OUTPUT_FORMAT("\([^"]*\)",.*/\1/p');
+    [[ -n ${output_format} ]] && output_format="OUTPUT_FORMAT ( ${output_format} )";
+    for lib in "$@";
+    do
+        local tlib;
+        if ${auto}; then
+            lib="lib${lib}${suffix}";
+        else
+            [[ -r ${ED}/${libdir}/${lib} ]] || continue;
+        fi;
+        case ${CTARGET:-${CHOST}} in 
+            *-darwin*)
+                if ${auto}; then
+                    tlib=$(scanmacho -qF'%S#F' "${ED}"/usr/${libdir}/${lib});
+                else
+                    tlib=$(scanmacho -qF'%S#F' "${ED}"/${libdir}/${lib});
+                fi;
+                if [[ -z ${tlib} ]]; then
+                    ewarn "gen_usr_ldscript: unable to read install_name from ${lib}";
+                    tlib=${lib};
+                fi;
+                tlib=${tlib##*/};
+                if ${auto}; then
+                    mv "${ED}"/usr/${libdir}/${lib%${suffix}}.*${suffix#.} "${ED}"/${libdir}/ || die;
+                    if [[ ${tlib} != ${lib%${suffix}}.*${suffix#.} ]]; then
+                        mv "${ED}"/usr/${libdir}/${tlib%${suffix}}.*${suffix#.} "${ED}"/${libdir}/ || die;
+                    fi;
+                    [[ ${tlib} != ${lib} ]] && rm -f "${ED}"/${libdir}/${lib};
+                fi;
+                if [[ ! -w "${ED}/${libdir}/${tlib}" ]]; then
+                    chmod u+w "${ED}${libdir}/${tlib}";
+                    local nowrite=yes;
+                fi;
+                install_name_tool -id "${EPREFIX}"/${libdir}/${tlib} "${ED}"/${libdir}/${tlib} || die "install_name_tool failed";
+                [[ -n ${nowrite} ]] && chmod u-w "${ED}${libdir}/${tlib}";
+                local l obj needed lib;
+                scanmacho -qyRF '%p;%n' "${D}" | { 
+                    while IFS= read l; do
+                        obj=${l%%;*};
+                        needed=${l#*;};
+                        for lib in ${needed//,/ };
+                        do
+                            if [[ ${lib} == */usr/lib*/${tlib} ]]; then
+                                local s=${lib%usr/*}${lib##*/usr/};
+                                [[ ${lib} != ${s} ]] || continue;
+                                einfo "gen_usr_ldscript: correcting install_name from ${lib} to ${s} in ${obj}";
+                                install_name_tool -change "${lib}" "${s}" "${D}${obj}";
+                            fi;
+                        done;
+                    done
+                };
+                pushd "${ED}/usr/${libdir}" > /dev/null;
+                ln -snf "../../${libdir}/${tlib}" "${lib}";
+                popd > /dev/null
+            ;;
+            *)
+                if ${auto}; then
+                    tlib=$(scanelf -qF'%S#F' "${ED}"/usr/${libdir}/${lib});
+                    if [[ -z ${tlib} ]]; then
+                        ewarn "gen_usr_ldscript: unable to read SONAME from ${lib}";
+                        tlib=${lib};
+                    fi;
+                    mv "${ED}"/usr/${libdir}/${lib}* "${ED}"/${libdir}/ || die;
+                    if [[ ${tlib} != ${lib}* ]]; then
+                        mv "${ED}"/usr/${libdir}/${tlib}* "${ED}"/${libdir}/ || die;
+                    fi;
+                    [[ ${tlib} != ${lib} ]] && rm -f "${ED}"/${libdir}/${lib};
+                else
+                    tlib=${lib};
+                fi;
+                cat > "${ED}/usr/${libdir}/${lib}"  <<-END_LDSCRIPT
+/* GNU ld script
+   Since Gentoo has critical dynamic libraries in /lib, and the static versions
+   in /usr/lib, we need to have a "fake" dynamic lib in /usr/lib, otherwise we
+   run into linking problems.  This "fake" dynamic lib is a linker script that
+   redirects the linker to the real lib.  And yes, this works in the cross-
+   compiling scenario as the sysroot-ed linker will prepend the real path.
+
+   See bug http://bugs.gentoo.org/4411 for more info.
+ */
+${output_format}
+GROUP ( ${EPREFIX}/${libdir}/${tlib} )
+END_LDSCRIPT
+
+            ;;
+        esac
+        fperms a+x "/usr/${libdir}/${lib}" || die "could not change perms on ${lib}";
+    done
+}
+get_abi_CFLAGS () 
+{ 
+    get_abi_var CFLAGS "$@"
+}
+get_abi_CHOST () 
+{ 
+    get_abi_var CHOST "$@"
+}
+get_abi_CTARGET () 
+{ 
+    get_abi_var CTARGET "$@"
+}
+get_abi_FAKE_TARGETS () 
+{ 
+    get_abi_var FAKE_TARGETS "$@"
+}
+get_abi_LDFLAGS () 
+{ 
+    get_abi_var LDFLAGS "$@"
+}
+get_abi_LIBDIR () 
+{ 
+    get_abi_var LIBDIR "$@"
+}
+get_abi_var () 
+{ 
+    local flag=$1;
+    local abi=${2:-${ABI:-${DEFAULT_ABI:-default}}};
+    local var="${flag}_${abi}";
+    echo ${!var}
+}
+get_all_abis () 
+{ 
+    local x order="" mvar dvar;
+    mvar="MULTILIB_ABIS";
+    dvar="DEFAULT_ABI";
+    if [[ -n $1 ]]; then
+        mvar="$1_${mvar}";
+        dvar="$1_${dvar}";
+    fi;
+    if [[ -z ${!mvar} ]]; then
+        echo "default";
+        return 0;
+    fi;
+    for x in ${!mvar};
+    do
+        if [[ ${x} != ${!dvar} ]]; then
+            order="${order:+${order} }${x}";
+        fi;
+    done;
+    order="${order:+${order} }${!dvar}";
+    echo ${order};
+    return 0
+}
+get_all_libdirs () 
+{ 
+    local libdirs abi;
+    for abi in ${MULTILIB_ABIS};
+    do
+        libdirs+=" $(get_abi_LIBDIR ${abi})";
+    done;
+    [[ " ${libdirs} " != *" lib "* ]] && libdirs+=" lib";
+    echo "${libdirs}"
+}
+get_install_abis () 
+{ 
+    local x order="";
+    if [[ -z ${MULTILIB_ABIS} ]]; then
+        echo "default";
+        return 0;
+    fi;
+    if [[ ${EMULTILIB_PKG} == "true" ]]; then
+        for x in ${MULTILIB_ABIS};
+        do
+            if [[ ${x} != "${DEFAULT_ABI}" ]]; then
+                has ${x} ${ABI_DENY} || order="${order} ${x}";
+            fi;
+        done;
+        has ${DEFAULT_ABI} ${ABI_DENY} || order="${order} ${DEFAULT_ABI}";
+        if [[ -n ${ABI_ALLOW} ]]; then
+            local ordera="";
+            for x in ${order};
+            do
+                if has ${x} ${ABI_ALLOW}; then
+                    ordera="${ordera} ${x}";
+                fi;
+            done;
+            order=${ordera};
+        fi;
+    else
+        order=${DEFAULT_ABI};
+    fi;
+    if [[ -z ${order} ]]; then
+        die "The ABI list is empty.  Are you using a proper multilib profile?  Perhaps your USE flags or MULTILIB_ABIS are too restrictive for this package.";
+    fi;
+    echo ${order};
+    return 0
+}
+get_libdir () 
+{ 
+    local CONF_LIBDIR;
+    if [ -n "${CONF_LIBDIR_OVERRIDE}" ]; then
+        echo ${CONF_LIBDIR_OVERRIDE};
+    else
+        get_abi_LIBDIR;
+    fi
+}
+get_libname () 
+{ 
+    local libname;
+    local ver=$1;
+    case ${CHOST} in 
+        *-cygwin | mingw* | *-mingw*)
+            libname="dll"
+        ;;
+        *-darwin*)
+            libname="dylib"
+        ;;
+        *-mint*)
+            libname="irrelevant"
+        ;;
+        hppa*-hpux*)
+            libname="sl"
+        ;;
+        *)
+            libname="so"
+        ;;
+    esac;
+    if [[ -z $* ]]; then
+        echo ".${libname}";
+    else
+        for ver in "$@";
+        do
+            case ${CHOST} in 
+                *-darwin*)
+                    echo ".${ver}.${libname}"
+                ;;
+                *-mint*)
+                    echo ".${libname}"
+                ;;
+                *)
+                    echo ".${libname}.${ver}"
+                ;;
+            esac;
+        done;
+    fi
+}
+get_modname () 
+{ 
+    local modname;
+    local ver=$1;
+    case ${CHOST} in 
+        *-darwin*)
+            modname="bundle"
+        ;;
+        *)
+            modname="so"
+        ;;
+    esac;
+    echo ".${modname}"
+}
+has_multilib_profile () 
+{ 
+    [ -n "${MULTILIB_ABIS}" -a "${MULTILIB_ABIS}" != "${MULTILIB_ABIS/ /}" ]
+}
+in_iuse () 
+{ 
+    debug-print-function ${FUNCNAME} "${@}";
+    [[ ${#} -eq 1 ]] || die "Invalid args to ${FUNCNAME}()";
+    local flag=${1};
+    local liuse=(${IUSE});
+    has "${flag}" "${liuse[@]#[+-]}"
+}
+is_final_abi () 
+{ 
+    has_multilib_profile || return 0;
+    set -- $(get_install_abis);
+    local LAST_ABI=$#;
+    [[ ${!LAST_ABI} == ${ABI} ]]
+}
+isdigit () 
+{ 
+    local d;
+    for d in "$@";
+    do
+        [[ ${d:-bad} == *[!0-9]* ]] && return 1;
+    done;
+    return 0
+}
+make_desktop_entry () 
+{ 
+    [[ -z $1 ]] && die "make_desktop_entry: You must specify the executable";
+    local exec=${1};
+    local name=${2:-${PN}};
+    local icon=${3:-${PN}};
+    local type=${4};
+    local fields=${5};
+    if [[ -z ${type} ]]; then
+        local catmaj=${CATEGORY%%-*};
+        local catmin=${CATEGORY##*-};
+        case ${catmaj} in 
+            app)
+                case ${catmin} in 
+                    accessibility)
+                        type="Utility;Accessibility"
+                    ;;
+                    admin)
+                        type=System
+                    ;;
+                    antivirus)
+                        type=System
+                    ;;
+                    arch)
+                        type="Utility;Archiving"
+                    ;;
+                    backup)
+                        type="Utility;Archiving"
+                    ;;
+                    cdr)
+                        type="AudioVideo;DiscBurning"
+                    ;;
+                    dicts)
+                        type="Office;Dictionary"
+                    ;;
+                    doc)
+                        type=Documentation
+                    ;;
+                    editors)
+                        type="Utility;TextEditor"
+                    ;;
+                    emacs)
+                        type="Development;TextEditor"
+                    ;;
+                    emulation)
+                        type="System;Emulator"
+                    ;;
+                    laptop)
+                        type="Settings;HardwareSettings"
+                    ;;
+                    office)
+                        type=Office
+                    ;;
+                    pda)
+                        type="Office;PDA"
+                    ;;
+                    vim)
+                        type="Development;TextEditor"
+                    ;;
+                    xemacs)
+                        type="Development;TextEditor"
+                    ;;
+                esac
+            ;;
+            dev)
+                type="Development"
+            ;;
+            games)
+                case ${catmin} in 
+                    action | fps)
+                        type=ActionGame
+                    ;;
+                    arcade)
+                        type=ArcadeGame
+                    ;;
+                    board)
+                        type=BoardGame
+                    ;;
+                    emulation)
+                        type=Emulator
+                    ;;
+                    kids)
+                        type=KidsGame
+                    ;;
+                    puzzle)
+                        type=LogicGame
+                    ;;
+                    roguelike)
+                        type=RolePlaying
+                    ;;
+                    rpg)
+                        type=RolePlaying
+                    ;;
+                    simulation)
+                        type=Simulation
+                    ;;
+                    sports)
+                        type=SportsGame
+                    ;;
+                    strategy)
+                        type=StrategyGame
+                    ;;
+                esac;
+                type="Game;${type}"
+            ;;
+            gnome)
+                type="Gnome;GTK"
+            ;;
+            kde)
+                type="KDE;Qt"
+            ;;
+            mail)
+                type="Network;Email"
+            ;;
+            media)
+                case ${catmin} in 
+                    gfx)
+                        type=Graphics
+                    ;;
+                    *)
+                        case ${catmin} in 
+                            radio)
+                                type=Tuner
+                            ;;
+                            sound)
+                                type=Audio
+                            ;;
+                            tv)
+                                type=TV
+                            ;;
+                            video)
+                                type=Video
+                            ;;
+                        esac;
+                        type="AudioVideo;${type}"
+                    ;;
+                esac
+            ;;
+            net)
+                case ${catmin} in 
+                    dialup)
+                        type=Dialup
+                    ;;
+                    ftp)
+                        type=FileTransfer
+                    ;;
+                    im)
+                        type=InstantMessaging
+                    ;;
+                    irc)
+                        type=IRCClient
+                    ;;
+                    mail)
+                        type=Email
+                    ;;
+                    news)
+                        type=News
+                    ;;
+                    nntp)
+                        type=News
+                    ;;
+                    p2p)
+                        type=FileTransfer
+                    ;;
+                    voip)
+                        type=Telephony
+                    ;;
+                esac;
+                type="Network;${type}"
+            ;;
+            sci)
+                case ${catmin} in 
+                    astro*)
+                        type=Astronomy
+                    ;;
+                    bio*)
+                        type=Biology
+                    ;;
+                    calc*)
+                        type=Calculator
+                    ;;
+                    chem*)
+                        type=Chemistry
+                    ;;
+                    elec*)
+                        type=Electronics
+                    ;;
+                    geo*)
+                        type=Geology
+                    ;;
+                    math*)
+                        type=Math
+                    ;;
+                    physics)
+                        type=Physics
+                    ;;
+                    visual*)
+                        type=DataVisualization
+                    ;;
+                esac;
+                type="Education;Science;${type}"
+            ;;
+            sys)
+                type="System"
+            ;;
+            www)
+                case ${catmin} in 
+                    client)
+                        type=WebBrowser
+                    ;;
+                esac;
+                type="Network;${type}"
+            ;;
+            *)
+                type=
+            ;;
+        esac;
+    fi;
+    if [ "${SLOT}" == "0" ]; then
+        local desktop_name="${PN}";
+    else
+        local desktop_name="${PN}-${SLOT}";
+    fi;
+    local desktop="${T}/$(echo ${exec} | sed 's:[[:space:]/:]:_:g')-${desktop_name}.desktop";
+    type=${type%;}${type:+;};
+    eshopts_push -s extglob;
+    if [[ -n ${icon} && ${icon} != /* ]] && [[ ${icon} == *.xpm || ${icon} == *.png || ${icon} == *.svg ]]; then
+        ewarn "As described in the Icon Theme Specification, icon file extensions are not";
+        ewarn "allowed in .desktop files if the value is not an absolute path.";
+        icon=${icon%.@(xpm|png|svg)};
+    fi;
+    eshopts_pop;
+    cat > "${desktop}"  <<-EOF
+[Desktop Entry]
+Name=${name}
+Type=Application
+Comment=${DESCRIPTION}
+Exec=${exec}
+TryExec=${exec%% *}
+Icon=${icon}
+Categories=${type}
+EOF
+
+    if [[ ${fields:-=} != *=* ]]; then
+        ewarn "make_desktop_entry: update your 5th arg to read Path=${fields}";
+        fields="Path=${fields}";
+    fi;
+    [[ -n ${fields} ]] && printf '%b\n' "${fields}" >> "${desktop}";
+    ( insinto /usr/share/applications;
+    doins "${desktop}" ) || die "installing desktop file failed"
+}
+make_session_desktop () 
+{ 
+    [[ -z $1 ]] && eerror "$0: You must specify the title" && return 1;
+    [[ -z $2 ]] && eerror "$0: You must specify the command" && return 1;
+    local title=$1;
+    local command=$2;
+    local desktop=${T}/${wm:-${PN}}.desktop;
+    shift 2;
+    cat > "${desktop}"  <<-EOF
+[Desktop Entry]
+Name=${title}
+Comment=This session logs you into ${title}
+Exec=${command} $*
+TryExec=${command}
+Type=XSession
+EOF
+
+    ( insinto /usr/share/xsessions;
+    doins "${desktop}" )
+}
+make_wrapper () 
+{ 
+    _eutils_eprefix_init;
+    local wrapper=$1 bin=$2 chdir=$3 libdir=$4 path=$5;
+    local tmpwrapper=$(emktemp);
+    ( echo '#!/bin/sh';
+    [[ -n ${chdir} ]] && printf 'cd "%s"\n' "${EPREFIX}${chdir}";
+    if [[ -n ${libdir} ]]; then
+        local var;
+        if [[ ${CHOST} == *-darwin* ]]; then
+            var=DYLD_LIBRARY_PATH;
+        else
+            var=LD_LIBRARY_PATH;
+        fi;
+        cat  <<-EOF
+if [ "\${${var}+set}" = "set" ] ; then
+export ${var}="\${${var}}:${EPREFIX}${libdir}"
+else
+export ${var}="${EPREFIX}${libdir}"
+fi
+EOF
+
+    fi
+    printf 'exec %s "$@"\n' "${bin/#\//${EPREFIX}\/}" ) > "${tmpwrapper}";
+    chmod go+rx "${tmpwrapper}";
+    if [[ -n ${path} ]]; then
+        ( exeinto "${path}";
+        newexe "${tmpwrapper}" "${wrapper}" ) || die;
+    else
+        newbin "${tmpwrapper}" "${wrapper}" || die;
+    fi
+}
+multilib_env () 
+{ 
+    local CTARGET=${1:-${CTARGET}};
+    local cpu=${CTARGET%%*-};
+    case ${cpu} in 
+        aarch64*)
+            export CFLAGS_arm=${CFLAGS_arm-};
+            case ${cpu} in 
+                aarch64*be)
+                    export CHOST_arm="armv8b-${CTARGET#*-}"
+                ;;
+                *)
+                    export CHOST_arm="armv8l-${CTARGET#*-}"
+                ;;
+            esac;
+            CHOST_arm=${CHOST_arm/%-gnu/-gnueabi};
+            export CTARGET_arm=${CHOST_arm};
+            export LIBDIR_arm="lib";
+            export CFLAGS_arm64=${CFLAGS_arm64-};
+            export CHOST_arm64=${CTARGET};
+            export CTARGET_arm64=${CHOST_arm64};
+            export LIBDIR_arm64="lib64";
+            : ${MULTILIB_ABIS=arm64};
+            : ${DEFAULT_ABI=arm64}
+        ;;
+        x86_64*)
+            export CFLAGS_x86=${CFLAGS_x86--m32};
+            export CHOST_x86=${CTARGET/x86_64/i686};
+            CHOST_x86=${CHOST_x86/%-gnux32/-gnu};
+            export CTARGET_x86=${CHOST_x86};
+            if [[ ${SYMLINK_LIB} == "yes" ]]; then
+                export LIBDIR_x86="lib32";
+            else
+                export LIBDIR_x86="lib";
+            fi;
+            export CFLAGS_amd64=${CFLAGS_amd64--m64};
+            export CHOST_amd64=${CTARGET/%-gnux32/-gnu};
+            export CTARGET_amd64=${CHOST_amd64};
+            export LIBDIR_amd64="lib64";
+            export CFLAGS_x32=${CFLAGS_x32--mx32};
+            export CHOST_x32=${CTARGET/%-gnu/-gnux32};
+            export CTARGET_x32=${CHOST_x32};
+            export LIBDIR_x32="libx32";
+            case ${CTARGET} in 
+                *-gnux32)
+                    : ${MULTILIB_ABIS=x32 amd64 x86};
+                    : ${DEFAULT_ABI=x32}
+                ;;
+                *)
+                    : ${MULTILIB_ABIS=amd64 x86};
+                    : ${DEFAULT_ABI=amd64}
+                ;;
+            esac
+        ;;
+        mips64*)
+            export CFLAGS_o32=${CFLAGS_o32--mabi=32};
+            export CHOST_o32=${CTARGET/mips64/mips};
+            export CTARGET_o32=${CHOST_o32};
+            export LIBDIR_o32="lib";
+            export CFLAGS_n32=${CFLAGS_n32--mabi=n32};
+            export CHOST_n32=${CTARGET};
+            export CTARGET_n32=${CHOST_n32};
+            export LIBDIR_n32="lib32";
+            export CFLAGS_n64=${CFLAGS_n64--mabi=64};
+            export CHOST_n64=${CTARGET};
+            export CTARGET_n64=${CHOST_n64};
+            export LIBDIR_n64="lib64";
+            : ${MULTILIB_ABIS=n64 n32 o32};
+            : ${DEFAULT_ABI=n32}
+        ;;
+        powerpc64*)
+            export CFLAGS_ppc=${CFLAGS_ppc--m32};
+            export CHOST_ppc=${CTARGET/powerpc64/powerpc};
+            export CTARGET_ppc=${CHOST_ppc};
+            export LIBDIR_ppc="lib";
+            export CFLAGS_ppc64=${CFLAGS_ppc64--m64};
+            export CHOST_ppc64=${CTARGET};
+            export CTARGET_ppc64=${CHOST_ppc64};
+            export LIBDIR_ppc64="lib64";
+            : ${MULTILIB_ABIS=ppc64 ppc};
+            : ${DEFAULT_ABI=ppc64}
+        ;;
+        s390x*)
+            export CFLAGS_s390=${CFLAGS_s390--m31};
+            export CHOST_s390=${CTARGET/s390x/s390};
+            export CTARGET_s390=${CHOST_s390};
+            export LIBDIR_s390="lib";
+            export CFLAGS_s390x=${CFLAGS_s390x--m64};
+            export CHOST_s390x=${CTARGET};
+            export CTARGET_s390x=${CHOST_s390x};
+            export LIBDIR_s390x="lib64";
+            : ${MULTILIB_ABIS=s390x s390};
+            : ${DEFAULT_ABI=s390x}
+        ;;
+        sparc64*)
+            export CFLAGS_sparc32=${CFLAGS_sparc32--m32};
+            export CHOST_sparc32=${CTARGET/sparc64/sparc};
+            export CTARGET_sparc32=${CHOST_sparc32};
+            export LIBDIR_sparc32="lib";
+            export CFLAGS_sparc64=${CFLAGS_sparc64--m64};
+            export CHOST_sparc64=${CTARGET};
+            export CTARGET_sparc64=${CHOST_sparc64};
+            export LIBDIR_sparc64="lib64";
+            : ${MULTILIB_ABIS=sparc64 sparc32};
+            : ${DEFAULT_ABI=sparc64}
+        ;;
+        *)
+            : ${MULTILIB_ABIS=default};
+            : ${DEFAULT_ABI=default}
+        ;;
+    esac;
+    export MULTILIB_ABIS DEFAULT_ABI
+}
+multilib_toolchain_setup () 
+{ 
+    local v vv;
+    export ABI=$1;
+    if [[ ${_DEFAULT_ABI_SAVED} == "true" ]]; then
+        for v in CHOST CBUILD AS CC CXX LD PKG_CONFIG_{LIBDIR,PATH};
+        do
+            vv="_abi_saved_${v}";
+            [[ ${!vv+set} == "set" ]] && export ${v}="${!vv}" || unset ${v};
+            unset ${vv};
+        done;
+        unset _DEFAULT_ABI_SAVED;
+    fi;
+    if [[ ${ABI} != ${DEFAULT_ABI} ]]; then
+        for v in CHOST CBUILD AS CC CXX LD PKG_CONFIG_{LIBDIR,PATH};
+        do
+            vv="_abi_saved_${v}";
+            [[ ${!v+set} == "set" ]] && export ${vv}="${!v}" || unset ${vv};
+        done;
+        export _DEFAULT_ABI_SAVED="true";
+        export CHOST=$(get_abi_CHOST ${DEFAULT_ABI});
+        export CC="$(tc-getCC) $(get_abi_CFLAGS)";
+        export CXX="$(tc-getCXX) $(get_abi_CFLAGS)";
+        export LD="$(tc-getLD) $(get_abi_LDFLAGS)";
+        export CHOST=$(get_abi_CHOST $1);
+        export CBUILD=$(get_abi_CHOST $1);
+        export PKG_CONFIG_LIBDIR=${EPREFIX}/usr/$(get_libdir)/pkgconfig;
+        export PKG_CONFIG_PATH=${EPREFIX}/usr/share/pkgconfig;
+    fi
+}
+newicon () 
+{ 
+    _iconins ${FUNCNAME} "$@"
+}
+newmenu () 
+{ 
+    ( insinto /usr/share/applications;
+    newins "$@" )
+}
+number_abis () 
+{ 
+    set -- `get_install_abis`;
+    echo $#
+}
+optfeature () 
+{ 
+    debug-print-function ${FUNCNAME} "$@";
+    local i j msg;
+    local desc=$1;
+    local flag=0;
+    shift;
+    for i in "$@";
+    do
+        for j in ${i};
+        do
+            if has_version "${j}"; then
+                flag=1;
+            else
+                flag=0;
+                break;
+            fi;
+        done;
+        if [[ ${flag} -eq 1 ]]; then
+            break;
+        fi;
+    done;
+    if [[ ${flag} -eq 0 ]]; then
+        for i in "$@";
+        do
+            msg=" ";
+            for j in ${i};
+            do
+                msg+=" ${j} and";
+            done;
+            msg="${msg:0: -4} for ${desc}";
+            elog "${msg}";
+        done;
+    fi
+}
+path_exists () 
+{ 
+    local opt=$1;
+    [[ ${opt} == -[ao] ]] && shift || opt="-a";
+    [[ $# -eq 0 ]] && return 1;
+    local p r=0;
+    for p in "$@";
+    do
+        [[ -e ${p} ]];
+        : $(( r += $? ));
+    done;
+    case ${opt} in 
+        -a)
+            return $(( r != 0 ))
+        ;;
+        -o)
+            return $(( r == $# ))
+        ;;
+    esac
+}
+pkg_nofetch () 
+{ 
+    __eapi0_pkg_nofetch "$@"
+}
+pkg_postinst () 
+{ 
+    rm -f "${EROOT}"/etc/env.d/05compiler & rm -f "${EROOT}"/usr/sbin/gcc-config & rm -f "${EROOT}"/usr/include/g++{,-v3} & local x;
+    for x in $(gcc-config -C -l 2>/dev/null | awk '$NF == "*" { print $2 }');
+    do
+        gcc-config ${x};
+    done;
+    wait
+}
+post_src_install () 
+{ 
+    prefix-post_src_install
+}
+prefix-post_src_install () 
+{ 
+    local f;
+    if [[ ${PN} != "libiconv" && -n $(ls "${ED}"/usr/lib*/charset.alias 2>/dev/null) ]]; then
+        einfo "automatically removing charset.alias";
+        rm -f "${ED}"/usr/lib*/charset.alias;
+    fi
+}
+preserve_old_lib () 
+{ 
+    _eutils_eprefix_init;
+    if [[ ${EBUILD_PHASE} != "preinst" ]]; then
+        eerror "preserve_old_lib() must be called from pkg_preinst() only";
+        die "Invalid preserve_old_lib() usage";
+    fi;
+    [[ -z $1 ]] && die "Usage: preserve_old_lib <library to preserve> [more libraries to preserve]";
+    has preserve-libs ${FEATURES} && return 0;
+    local lib dir;
+    for lib in "$@";
+    do
+        [[ -e ${EROOT}/${lib} ]] || continue;
+        dir=${lib%/*};
+        dodir ${dir} || die "dodir ${dir} failed";
+        cp "${EROOT}"/${lib} "${ED}"/${lib} || die "cp ${lib} failed";
+        touch "${ED}"/${lib};
+    done
+}
+preserve_old_lib_notify () 
+{ 
+    if [[ ${EBUILD_PHASE} != "postinst" ]]; then
+        eerror "preserve_old_lib_notify() must be called from pkg_postinst() only";
+        die "Invalid preserve_old_lib_notify() usage";
+    fi;
+    has preserve-libs ${FEATURES} && return 0;
+    _eutils_eprefix_init;
+    local lib notice=0;
+    for lib in "$@";
+    do
+        [[ -e ${EROOT}/${lib} ]] || continue;
+        if [[ ${notice} -eq 0 ]]; then
+            notice=1;
+            ewarn "Old versions of installed libraries were detected on your system.";
+            ewarn "In order to avoid breaking packages that depend on these old libs,";
+            ewarn "the libraries are not being removed.  You need to run revdep-rebuild";
+            ewarn "in order to remove these old dependencies.  If you do not have this";
+            ewarn "helper program, simply emerge the 'gentoolkit' package.";
+            ewarn;
+        fi;
+        ewarn "  # revdep-rebuild --library '${lib}' && rm '${lib}'";
+    done
+}
+profile-post_src_install () 
+{ 
+    prefix-post_src_install
+}
+prune_libtool_files () 
+{ 
+    debug-print-function ${FUNCNAME} "$@";
+    local removing_all removing_modules opt;
+    _eutils_eprefix_init;
+    for opt in "$@";
+    do
+        case "${opt}" in 
+            --all)
+                removing_all=1;
+                removing_modules=1
+            ;;
+            --modules)
+                removing_modules=1
+            ;;
+            *)
+                die "Invalid argument to ${FUNCNAME}(): ${opt}"
+            ;;
+        esac;
+    done;
+    local f;
+    local queue=();
+    while IFS= read -r -d '' f; do
+        local archivefile=${f/%.la/.a};
+        if ! sed -n -e '/^# Generated by .*libtool/q0;4q1' "${f}"; then
+            continue;
+        fi;
+        [[ ${f} != ${archivefile} ]] || die 'regex sanity check failed';
+        local reason pkgconfig_scanned;
+        local snotlink=$(sed -n -e 's:^shouldnotlink=::p' "${f}");
+        if [[ ${snotlink} == yes ]]; then
+            if [[ -f ${archivefile} ]]; then
+                einfo "Removing unnecessary ${archivefile#${D%/}} (static plugin)";
+                queue+=("${archivefile}");
+            fi;
+            if [[ -n ${removing_modules} ]]; then
+                reason='module';
+            fi;
+        else
+            if [[ -n ${removing_all} ]]; then
+                reason='requested';
+            else
+                if [[ ! -f ${archivefile} ]]; then
+                    reason='no static archive';
+                else
+                    if [[ ! -n $(sed -nre 					"s/^(dependency_libs|inherited_linker_flags)='(.*)'$/\2/p" 					"${f}") ]]; then
+                        reason='no libs & flags';
+                    else
+                        if [[ ! -n ${pkgconfig_scanned} ]]; then
+                            local pc_libs=();
+                            if [[ ! -n ${removing_all} ]]; then
+                                local pc;
+                                local tf=${T}/prune-lt-files.pc;
+                                local pkgconf=$(tc-getPKG_CONFIG);
+                                while IFS= read -r -d '' pc; do
+                                    local arg libs;
+                                    if ${pkgconf} --exists "${pc}" &>/dev/null; then
+                                        sed -e '/^Requires:/d' "${pc}" > "${tf}";
+                                        libs=$(${pkgconf} --libs "${tf}");
+                                    else
+                                        libs=$(sed -ne 's/^Libs://p' "${pc}");
+                                    fi;
+                                    for arg in ${libs};
+                                    do
+                                        if [[ ${arg} == -l* ]]; then
+                                            if [[ ${arg} == '*$*' ]]; then
+                                                eqawarn "${FUNCNAME}: variable substitution likely failed in ${pc}";
+                                                eqawarn "(arg: ${arg})";
+                                                eqawarn "Most likely, you need to add virtual/pkgconfig to DEPEND.";
+                                            fi;
+                                            pc_libs+=(lib${arg#-l}.la);
+                                        fi;
+                                    done;
+                                done < <(find "${D}" -type f -name '*.pc' -print0);
+                                rm -f "${tf}";
+                            fi;
+                            pkgconfig_scanned=1;
+                        fi;
+                        has "${f##*/}" "${pc_libs[@]}" && reason='covered by .pc';
+                    fi;
+                fi;
+            fi;
+        fi;
+        if [[ -n ${reason} ]]; then
+            einfo "Removing unnecessary ${f#${D%/}} (${reason})";
+            queue+=("${f}");
+        fi;
+    done < <(find "${ED}" -xtype f -name '*.la' -print0);
+    if [[ -n ${queue[@]} ]]; then
+        rm -f "${queue[@]}";
+    fi
+}
+src_compile () 
+{ 
+    emake EPREFIX="${EPREFIX}" CC="$(tc-getCC)" || die
+}
+src_configure () 
+{ 
+    __eapi2_src_configure "$@"
+}
+src_install () 
+{ 
+    emake EPREFIX="${EPREFIX}" DESTDIR="${D}" PV="${PV}" SUBLIBDIR="$(get_libdir)" install || die
+}
+src_prepare () 
+{ 
+    mv wrapper.c wrapper.c.in || die;
+    epatch "${FILESDIR}"/${PN}-prefix-${PV}-r${PREFIXREV}.patch;
+    epatch "${FILESDIR}"/${P}-copy-gcc-libs.patch
+}
+src_test () 
+{ 
+    __eapi0_src_test "$@"
+}
+src_unpack () 
+{ 
+    unpacker_src_unpack "$@"
+}
+strip-linguas () 
+{ 
+    local ls newls nols;
+    if [[ $1 == "-i" ]] || [[ $1 == "-u" ]]; then
+        local op=$1;
+        shift;
+        ls=$(find "$1" -name '*.po' -exec basename {} .po ';');
+        shift;
+        local d f;
+        for d in "$@";
+        do
+            if [[ ${op} == "-u" ]]; then
+                newls=${ls};
+            else
+                newls="";
+            fi;
+            for f in $(find "$d" -name '*.po' -exec basename {} .po ';');
+            do
+                if [[ ${op} == "-i" ]]; then
+                    has ${f} ${ls} && newls="${newls} ${f}";
+                else
+                    has ${f} ${ls} || newls="${newls} ${f}";
+                fi;
+            done;
+            ls=${newls};
+        done;
+    else
+        ls="$@";
+    fi;
+    nols="";
+    newls="";
+    for f in ${LINGUAS};
+    do
+        if has ${f} ${ls}; then
+            newls="${newls} ${f}";
+        else
+            nols="${nols} ${f}";
+        fi;
+    done;
+    [[ -n ${nols} ]] && einfo "Sorry, but ${PN} does not support the LINGUAS:" ${nols};
+    export LINGUAS=${newls:1}
+}
+tc-arch () 
+{ 
+    tc-ninja_magic_to_arch portage "$@"
+}
+tc-arch-kernel () 
+{ 
+    tc-ninja_magic_to_arch kern "$@"
+}
+tc-endian () 
+{ 
+    local host=$1;
+    [[ -z ${host} ]] && host=${CTARGET:-${CHOST}};
+    host=${host%%-*};
+    case ${host} in 
+        aarch64*be)
+            echo big
+        ;;
+        aarch64)
+            echo little
+        ;;
+        alpha*)
+            echo big
+        ;;
+        arm*b*)
+            echo big
+        ;;
+        arm*)
+            echo little
+        ;;
+        cris*)
+            echo little
+        ;;
+        hppa*)
+            echo big
+        ;;
+        i?86*)
+            echo little
+        ;;
+        ia64*)
+            echo little
+        ;;
+        m68*)
+            echo big
+        ;;
+        mips*l*)
+            echo little
+        ;;
+        mips*)
+            echo big
+        ;;
+        powerpc*)
+            echo big
+        ;;
+        s390*)
+            echo big
+        ;;
+        sh*b*)
+            echo big
+        ;;
+        sh*)
+            echo little
+        ;;
+        sparc*)
+            echo big
+        ;;
+        x86_64*)
+            echo little
+        ;;
+        *)
+            echo wtf
+        ;;
+    esac
+}
+tc-env_build () 
+{ 
+    tc-export_build_env;
+    CFLAGS=${BUILD_CFLAGS} CXXFLAGS=${BUILD_CXXFLAGS} CPPFLAGS=${BUILD_CPPFLAGS} LDFLAGS=${BUILD_LDFLAGS} AR=$(tc-getBUILD_AR) AS=$(tc-getBUILD_AS) CC=$(tc-getBUILD_CC) CPP=$(tc-getBUILD_CPP) CXX=$(tc-getBUILD_CXX) LD=$(tc-getBUILD_LD) NM=$(tc-getBUILD_NM) PKG_CONFIG=$(tc-getBUILD_PKG_CONFIG) RANLIB=$(tc-getBUILD_RANLIB) "$@"
+}
+tc-export () 
+{ 
+    local var;
+    for var in "$@";
+    do
+        [[ $(type -t tc-get${var}) != "function" ]] && die "tc-export: invalid export variable '${var}'";
+        eval tc-get${var} > /dev/null;
+    done
+}
+tc-export_build_env () 
+{ 
+    tc-export "$@";
+    : ${BUILD_CFLAGS:=-O1 -pipe};
+    : ${BUILD_CXXFLAGS:=-O1 -pipe};
+    : ${BUILD_CPPFLAGS:=};
+    : ${BUILD_LDFLAGS:=};
+    export BUILD_{C,CXX,CPP,LD}FLAGS;
+    local v;
+    for v in BUILD_{C,CXX,CPP,LD}FLAGS;
+    do
+        export ${v#BUILD_}_FOR_BUILD="${!v}";
+    done
+}
+tc-getAR () 
+{ 
+    tc-getPROG AR ar "$@"
+}
+tc-getAS () 
+{ 
+    tc-getPROG AS as "$@"
+}
+tc-getBUILD_AR () 
+{ 
+    tc-getBUILD_PROG AR ar "$@"
+}
+tc-getBUILD_AS () 
+{ 
+    tc-getBUILD_PROG AS as "$@"
+}
+tc-getBUILD_CC () 
+{ 
+    tc-getBUILD_PROG CC gcc "$@"
+}
+tc-getBUILD_CPP () 
+{ 
+    tc-getBUILD_PROG CPP cpp "$@"
+}
+tc-getBUILD_CXX () 
+{ 
+    tc-getBUILD_PROG CXX g++ "$@"
+}
+tc-getBUILD_LD () 
+{ 
+    tc-getBUILD_PROG LD ld "$@"
+}
+tc-getBUILD_NM () 
+{ 
+    tc-getBUILD_PROG NM nm "$@"
+}
+tc-getBUILD_OBJCOPY () 
+{ 
+    tc-getBUILD_PROG OBJCOPY objcopy "$@"
+}
+tc-getBUILD_PKG_CONFIG () 
+{ 
+    tc-getBUILD_PROG PKG_CONFIG pkg-config "$@"
+}
+tc-getBUILD_PROG () 
+{ 
+    _tc-getPROG CBUILD "BUILD_$1 $1_FOR_BUILD HOST$1" "${@:2}"
+}
+tc-getBUILD_RANLIB () 
+{ 
+    tc-getBUILD_PROG RANLIB ranlib "$@"
+}
+tc-getBUILD_STRIP () 
+{ 
+    tc-getBUILD_PROG STRIP strip "$@"
+}
+tc-getCC () 
+{ 
+    tc-getPROG CC gcc "$@"
+}
+tc-getCPP () 
+{ 
+    tc-getPROG CPP cpp "$@"
+}
+tc-getCXX () 
+{ 
+    tc-getPROG CXX g++ "$@"
+}
+tc-getDLLWRAP () 
+{ 
+    tc-getPROG DLLWRAP dllwrap "$@"
+}
+tc-getF77 () 
+{ 
+    tc-getPROG F77 gfortran "$@"
+}
+tc-getFC () 
+{ 
+    tc-getPROG FC gfortran "$@"
+}
+tc-getGCJ () 
+{ 
+    tc-getPROG GCJ gcj "$@"
+}
+tc-getLD () 
+{ 
+    tc-getPROG LD ld "$@"
+}
+tc-getNM () 
+{ 
+    tc-getPROG NM nm "$@"
+}
+tc-getOBJCOPY () 
+{ 
+    tc-getPROG OBJCOPY objcopy "$@"
+}
+tc-getPKG_CONFIG () 
+{ 
+    tc-getPROG PKG_CONFIG pkg-config "$@"
+}
+tc-getPROG () 
+{ 
+    _tc-getPROG CHOST "$@"
+}
+tc-getRANLIB () 
+{ 
+    tc-getPROG RANLIB ranlib "$@"
+}
+tc-getRC () 
+{ 
+    tc-getPROG RC windres "$@"
+}
+tc-getSTRIP () 
+{ 
+    tc-getPROG STRIP strip "$@"
+}
+tc-has-openmp () 
+{ 
+    local base="${T}/test-tc-openmp";
+    cat > "${base}.c"  <<-EOF
+#include <omp.h>
+int main() {
+int nthreads, tid, ret = 0;
+#pragma omp parallel private(nthreads, tid)
+{
+tid = omp_get_thread_num();
+nthreads = omp_get_num_threads(); ret += tid + nthreads;
+}
+return ret;
+}
+EOF
+
+    $(tc-getCC "$@") -fopenmp "${base}.c" -o "${base}" &>/dev/null;
+    local ret=$?;
+    rm -f "${base}"*;
+    return ${ret}
+}
+tc-has-tls () 
+{ 
+    local base="${T}/test-tc-tls";
+    cat > "${base}.c"  <<-EOF
+int foo(int *i) {
+static __thread int j = 0;
+return *i ? j : *i;
+}
+EOF
+
+    local flags;
+    case $1 in 
+        -s)
+            flags="-S"
+        ;;
+        -c)
+            flags="-c"
+        ;;
+        -l)
+
+        ;;
+        -*)
+            die "Usage: tc-has-tls [-c|-l] [toolchain prefix]"
+        ;;
+    esac;
+    : ${flags:=-fPIC -shared -Wl,-z,defs};
+    [[ $1 == -* ]] && shift;
+    $(tc-getCC "$@") ${flags} "${base}.c" -o "${base}" &>/dev/null;
+    local ret=$?;
+    rm -f "${base}"*;
+    return ${ret}
+}
+tc-is-cross-compiler () 
+{ 
+    return $([[ ${CBUILD:-${CHOST}} != ${CHOST} ]])
+}
+tc-is-softfloat () 
+{ 
+    local CTARGET=${CTARGET:-${CHOST}};
+    case ${CTARGET} in 
+        bfin* | h8300*)
+            echo "only"
+        ;;
+        *)
+            if [[ ${CTARGET//_/-} == *-softfloat-* ]]; then
+                echo "yes";
+            else
+                if [[ ${CTARGET//_/-} == *-softfp-* ]]; then
+                    echo "softfp";
+                else
+                    echo "no";
+                fi;
+            fi
+        ;;
+    esac
+}
+tc-is-static-only () 
+{ 
+    local host=${CTARGET:-${CHOST}};
+    return $([[ ${host} == *-mint* ]])
+}
+tc-ninja_magic_to_arch () 
+{ 
+    function ninj () 
+    { 
+        [[ ${type} == "kern" ]] && echo $1 || echo $2
+    };
+    local type=$1;
+    local host=$2;
+    [[ -z ${host} ]] && host=${CTARGET:-${CHOST}};
+    local KV=${KV:-${KV_FULL}};
+    use kernel_linux && [[ ${type} == "kern" ]] && [[ -z ${KV} ]] && ewarn "QA: Kernel version could not be determined, please inherit kernel-2 or linux-info";
+    case ${host} in 
+        powerpc-apple-darwin*)
+            echo ppc-macos
+        ;;
+        powerpc64-apple-darwin*)
+            echo ppc64-macos
+        ;;
+        i?86-apple-darwin*)
+            echo x86-macos
+        ;;
+        x86_64-apple-darwin*)
+            echo x64-macos
+        ;;
+        sparc-sun-solaris*)
+            echo sparc-solaris
+        ;;
+        sparcv9-sun-solaris*)
+            echo sparc64-solaris
+        ;;
+        i?86-pc-solaris*)
+            echo x86-solaris
+        ;;
+        x86_64-pc-solaris*)
+            echo x64-solaris
+        ;;
+        powerpc-ibm-aix*)
+            echo ppc-aix
+        ;;
+        mips-sgi-irix*)
+            echo mips-irix
+        ;;
+        ia64w-hp-hpux*)
+            echo ia64w-hpux
+        ;;
+        ia64-hp-hpux*)
+            echo ia64-hpux
+        ;;
+        hppa*64*-hp-hpux*)
+            echo hppa64-hpux
+        ;;
+        hppa*-hp-hpux*)
+            echo hppa-hpux
+        ;;
+        i?86-pc-freebsd*)
+            echo x86-freebsd
+        ;;
+        x86_64-pc-freebsd*)
+            echo x64-freebsd
+        ;;
+        powerpc-unknown-openbsd*)
+            echo ppc-openbsd
+        ;;
+        i?86-pc-openbsd*)
+            echo x86-openbsd
+        ;;
+        x86_64-pc-openbsd*)
+            echo x64-openbsd
+        ;;
+        i?86-pc-netbsd*)
+            echo x86-netbsd
+        ;;
+        i?86-pc-interix*)
+            echo x86-interix
+        ;;
+        i?86-pc-winnt*)
+            echo x86-winnt
+        ;;
+        aarch64*)
+            ninj arm64 arm
+        ;;
+        alpha*)
+            echo alpha
+        ;;
+        arm*)
+            echo arm
+        ;;
+        avr*)
+            ninj avr32 avr
+        ;;
+        bfin*)
+            ninj blackfin bfin
+        ;;
+        c6x)
+            echo c6x
+        ;;
+        cris*)
+            echo cris
+        ;;
+        frv)
+            echo frv
+        ;;
+        hexagon)
+            echo hexagon
+        ;;
+        hppa*)
+            ninj parisc hppa
+        ;;
+        i?86*)
+            if [[ ${type} == "kern" ]] && [[ $(KV_to_int ${KV}) -lt $(KV_to_int 2.6.24) || ${host} == *freebsd* ]]; then
+                echo i386;
+            else
+                echo x86;
+            fi
+        ;;
+        ia64*)
+            echo ia64
+        ;;
+        m68*)
+            echo m68k
+        ;;
+        metag)
+            echo metag
+        ;;
+        mips*)
+            echo mips
+        ;;
+        nios2*)
+            echo nios2
+        ;;
+        nios*)
+            echo nios
+        ;;
+        or32)
+            echo openrisc
+        ;;
+        powerpc*)
+            if [[ ${type} == "kern" ]] && [[ $(KV_to_int ${KV}) -ge $(KV_to_int 2.6.16) ]]; then
+                echo powerpc;
+            else
+                if [[ ${type} == "kern" ]] && [[ $(KV_to_int ${KV}) -eq $(KV_to_int 2.6.15) ]]; then
+                    if [[ ${host} == powerpc64* ]] || [[ ${PROFILE_ARCH} == "ppc64" ]]; then
+                        echo powerpc;
+                    else
+                        echo ppc;
+                    fi;
+                else
+                    if [[ ${host} == powerpc64* ]]; then
+                        echo ppc64;
+                    else
+                        if [[ ${PROFILE_ARCH} == "ppc64" ]]; then
+                            ninj ppc64 ppc;
+                        else
+                            echo ppc;
+                        fi;
+                    fi;
+                fi;
+            fi
+        ;;
+        s390*)
+            echo s390
+        ;;
+        score)
+            echo score
+        ;;
+        sh64*)
+            ninj sh64 sh
+        ;;
+        sh*)
+            echo sh
+        ;;
+        sparc64*)
+            ninj sparc64 sparc
+        ;;
+        sparc*)
+            [[ ${PROFILE_ARCH} == "sparc64" ]] && ninj sparc64 sparc || echo sparc
+        ;;
+        tile*)
+            echo tile
+        ;;
+        vax*)
+            echo vax
+        ;;
+        x86_64*freebsd*)
+            echo amd64
+        ;;
+        x86_64*)
+            if [[ ${type} == "kern" ]] && [[ $(KV_to_int ${KV}) -ge $(KV_to_int 2.6.24) ]]; then
+                echo x86;
+            else
+                ninj x86_64 amd64;
+            fi
+        ;;
+        xtensa*)
+            echo xtensa
+        ;;
+        *)
+            echo unknown
+        ;;
+    esac
+}
+unpack_banner () 
+{ 
+    echo ">>> Unpacking ${1##*/} to ${PWD}"
+}
+unpack_cpio () 
+{ 
+    [[ $# -eq 1 ]] || die "Usage: ${FUNCNAME} <file>";
+    local cpio_cmd=(cpio --make-directories --extract --preserve-modification-time);
+    if [[ $1 == "-" ]]; then
+        unpack_banner "stdin";
+        "${cpio_cmd[@]}";
+    else
+        local cpio=$(find_unpackable_file "$1");
+        unpack_banner "${cpio}";
+        "${cpio_cmd[@]}" < "${cpio}";
+    fi
+}
+unpack_deb () 
+{ 
+    [[ $# -eq 1 ]] || die "Usage: ${FUNCNAME} <file>";
+    local deb=$(find_unpackable_file "$1");
+    unpack_banner "${deb}";
+    if [[ -n ${EPREFIX} ]]; then
+        { 
+            read;
+            [[ ${REPLY} = "!<arch>" ]] || die "${deb} does not seem to be a deb archive";
+            local f timestamp uid gid mode size magic;
+            while read f timestamp uid gid mode size magic; do
+                [[ -n ${f} && -n ${size} ]] || continue;
+                if [[ ${f} = "data.tar"* ]]; then
+                    head -c "${size}" > "${f}";
+                else
+                    head -c "${size}" > /dev/null;
+                fi;
+            done
+        } < "${deb}";
+    else
+        ar x "${deb}";
+    fi;
+    unpacker ./data.tar*;
+    rm -f debian-binary {control,data}.tar*
+}
+unpack_makeself () 
+{ 
+    local src_input=${1:-${A}};
+    local src=$(find_unpackable_file "${src_input}");
+    local skip=$2;
+    local exe=$3;
+    [[ -z ${src} ]] && die "Could not locate source for '${src_input}'";
+    unpack_banner "${src}";
+    if [[ -z ${skip} ]]; then
+        local ver=$(grep -m1 -a '#.*Makeself' "${src}" | awk '{print $NF}');
+        local skip=0;
+        exe=tail;
+        case ${ver} in 
+            1.5.* | 1.6.0-nv*)
+                skip=$(grep -a ^skip= "${src}" | cut -d= -f2)
+            ;;
+            2.0 | 2.0.1)
+                skip=$(grep -a ^'	'tail "${src}" | awk '{print $2}' | cut -b2-)
+            ;;
+            2.1.1)
+                skip=$(grep -a ^offset= "${src}" | awk '{print $2}' | cut -b2-);
+                (( skip++ ))
+            ;;
+            2.1.2)
+                skip=$(grep -a ^offset= "${src}" | awk '{print $3}' | head -n 1);
+                (( skip++ ))
+            ;;
+            2.1.3)
+                skip=`grep -a ^offset= "${src}" | awk '{print $3}'`;
+                (( skip++ ))
+            ;;
+            2.1.4 | 2.1.5 | 2.1.6 | 2.2.0)
+                skip=$(grep -a offset=.*head.*wc "${src}" | awk '{print $3}' | head -n 1);
+                skip=$(head -n ${skip} "${src}" | wc -c);
+                exe="dd"
+            ;;
+            *)
+                eerror "I'm sorry, but I was unable to support the Makeself file.";
+                eerror "The version I detected was '${ver}'.";
+                eerror "Please file a bug about the file ${src##*/} at";
+                eerror "http://bugs.gentoo.org/ so that support can be added.";
+                die "makeself version '${ver}' not supported"
+            ;;
+        esac;
+        debug-print "Detected Makeself version ${ver} ... using ${skip} as offset";
+    fi;
+    case ${exe} in 
+        tail)
+            exe="tail -n +${skip} '${src}'"
+        ;;
+        dd)
+            exe="dd ibs=${skip} skip=1 if='${src}'"
+        ;;
+        *)
+            die "makeself cant handle exe '${exe}'"
+        ;;
+    esac;
+    local filetype tmpfile="${T}/${FUNCNAME}";
+    eval ${exe} 2> /dev/null | head -c 512 > "${tmpfile}";
+    filetype=$(file -b "${tmpfile}") || die;
+    case ${filetype} in 
+        *tar\ archive*)
+            eval ${exe} | tar --no-same-owner -xf -
+        ;;
+        bzip2*)
+            eval ${exe} | bzip2 -dc | tar --no-same-owner -xf -
+        ;;
+        gzip*)
+            eval ${exe} | tar --no-same-owner -xzf -
+        ;;
+        compress*)
+            eval ${exe} | gunzip | tar --no-same-owner -xf -
+        ;;
+        XZ*)
+            eval ${exe} | unxz | tar --no-same-owner -xf -
+        ;;
+        *)
+            eerror "Unknown filetype \"${filetype}\" ?";
+            false
+        ;;
+    esac;
+    assert "failure unpacking (${filetype}) makeself ${src##*/} ('${ver}' +${skip})"
+}
+unpack_pdv () 
+{ 
+    local src=$(find_unpackable_file "$1");
+    local sizeoff_t=$2;
+    [[ -z ${src} ]] && die "Could not locate source for '$1'";
+    [[ -z ${sizeoff_t} ]] && die "No idea what off_t size was used for this pdv :(";
+    unpack_banner "${src}";
+    local metaskip=$(tail -c ${sizeoff_t} "${src}" | hexdump -e \"%i\");
+    local tailskip=$(tail -c $((${sizeoff_t}*2)) "${src}" | head -c ${sizeoff_t} | hexdump -e \"%i\");
+    local metafile="${T}/${FUNCNAME}.meta";
+    tail -c +$((${metaskip}+1)) "${src}" > "${metafile}";
+    local datafile=$(tail -c +$((${metaskip}+1)) "${src}" | strings | head -n 1);
+    datafile=$(basename "${datafile}");
+    local tmpfile="${T}/${FUNCNAME}";
+    tail -c +$((${tailskip}+1)) ${src} 2> /dev/null | head -c 512 > "${tmpfile}";
+    local iscompressed=$(file -b "${tmpfile}");
+    if [[ ${iscompressed:0:8} == "compress" ]]; then
+        iscompressed=1;
+        mv "${tmpfile}"{,.Z};
+        gunzip "${tmpfile}";
+    else
+        iscompressed=0;
+    fi;
+    local istar=$(file -b "${tmpfile}");
+    if [[ ${istar:0:9} == "POSIX tar" ]]; then
+        istar=1;
+    else
+        istar=0;
+    fi;
+    if [ ${iscompressed} -eq 1 ]; then
+        if [ ${istar} -eq 1 ]; then
+            tail -c +$((${tailskip}+1)) "${src}" 2> /dev/null | head -c $((${metaskip}-${tailskip})) | tar -xzf -;
+        else
+            tail -c +$((${tailskip}+1)) "${src}" 2> /dev/null | head -c $((${metaskip}-${tailskip})) | gzip -dc > ${datafile};
+        fi;
+    else
+        if [ ${istar} -eq 1 ]; then
+            tail -c +$((${tailskip}+1)) "${src}" 2> /dev/null | head -c $((${metaskip}-${tailskip})) | tar --no-same-owner -xf -;
+        else
+            tail -c +$((${tailskip}+1)) "${src}" 2> /dev/null | head -c $((${metaskip}-${tailskip})) > ${datafile};
+        fi;
+    fi;
+    true
+}
+unpack_zip () 
+{ 
+    [[ $# -eq 1 ]] || die "Usage: ${FUNCNAME} <file>";
+    local zip=$(find_unpackable_file "$1");
+    unpack_banner "${zip}";
+    unzip -qo "${zip}";
+    [[ $? -le 1 ]] || die "unpacking ${zip} failed (arch=unpack_zip)"
+}
+unpacker () 
+{ 
+    local a;
+    [[ $# -eq 0 ]] && set -- ${A};
+    for a in "$@";
+    do
+        _unpacker "${a}";
+    done
+}
+unpacker_src_unpack () 
+{ 
+    unpacker
+}
+unpacker_src_uri_depends () 
+{ 
+    local uri deps d;
+    [[ $# -eq 0 ]] && set -- ${SRC_URI};
+    for uri in "$@";
+    do
+        case ${uri} in 
+            *.cpio.* | *.cpio)
+                d="app-arch/cpio"
+            ;;
+            *.rar | *.RAR)
+                d="app-arch/unrar"
+            ;;
+            *.7z)
+                d="app-arch/p7zip"
+            ;;
+            *.xz)
+                d="app-arch/xz-utils"
+            ;;
+            *.zip)
+                d="app-arch/unzip"
+            ;;
+            *.lz)
+                d="|| ( app-arch/plzip app-arch/pdlzip app-arch/lzip )"
+            ;;
+        esac;
+        deps+=" ${d}";
+    done;
+    echo "${deps}"
+}
+use_if_iuse () 
+{ 
+    in_iuse $1 || return 1;
+    use $1
+}
+usex () 
+{ 
+    use "$1" && echo "${2-yes}$4" || echo "${3-no}$5"
+}
+validate_desktop_entries () 
+{ 
+    _eutils_eprefix_init;
+    if [[ -x "${EPREFIX}"/usr/bin/desktop-file-validate ]]; then
+        einfo "Checking desktop entry validity";
+        local directories="";
+        for d in /usr/share/applications $@;
+        do
+            [[ -d ${ED}${d} ]] && directories="${directories} ${ED}${d}";
+        done;
+        if [[ -n ${directories} ]]; then
+            for FILE in $(find ${directories} -name "*\.desktop" 							-not -path '*.hidden*' | sort -u 2>/dev/null);
+            do
+                local temp=$(desktop-file-validate ${FILE} | grep -v "warning:" | 								sed -e "s|error: ||" -e "s|${FILE}:|--|g" );
+                [[ -n $temp ]] && elog ${temp/--/${FILE/${ED}/}:};
+            done;
+        fi;
+        echo "";
+    else
+        einfo "Passing desktop entry validity check. Install dev-util/desktop-file-utils, if you want to help to improve Gentoo.";
+    fi
+}

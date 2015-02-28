@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-apps/sed
+DESCRIPTION=An encoder for packet radio
+HOMEPAGE=http://home.t-online.de/home/dg1bbq/7plus.htm
+KEYWORDS=~x86
+LICENSE=7plus
+SLOT=0
+SRC_URI=http://home.t-online.de/home/dg1bbq/7pl225sr.tgz
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=ed9353f9a0bfd0bc4dd52dcdc35d88a3

@@ -1,0 +1,5 @@
+ * Switching native-compiler to x86_64-pc-linux-gnu-4.6.2 ... [ ok ]
+ * Switching native-compiler to x86_64-pc-linux-gnu-4.7.0 ...
+ * double insanity with x86_64-pc-linux-gnu-gcj and @ROOT@//usr/x86_64-pc-linux-gnu/gcc-bin/4.7.0/gcj
+ * double insanity with gcj and @ROOT@//usr/x86_64-pc-linux-gnu/gcc-bin/4.7.0/gcj
+ [ ok ]

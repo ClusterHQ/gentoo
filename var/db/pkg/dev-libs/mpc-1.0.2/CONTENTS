@@ -1,0 +1,17 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/mpc.h 836cca3d778174ec2a500e9d1686b71a 1410959210
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/mpc.info.bz2 cf045cac307f841dad6da6c5694c86c6 1410959210
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/mpc-1.0.2
+obj /home/core/gentoo/usr/share/doc/mpc-1.0.2/AUTHORS 973783b0684437d7bc6e32a681eb5028 1410959210
+obj /home/core/gentoo/usr/share/doc/mpc-1.0.2/ChangeLog d41d8cd98f00b204e9800998ecf8427e 1410959210
+obj /home/core/gentoo/usr/share/doc/mpc-1.0.2/TODO.bz2 4fc881e1d5d498911fa05dcd59f730f5 1410959210
+obj /home/core/gentoo/usr/share/doc/mpc-1.0.2/README.bz2 5a5ea66097614e0dc6410295bf0907fb 1410959210
+obj /home/core/gentoo/usr/share/doc/mpc-1.0.2/NEWS.bz2 1942a26a226d64093de90f25c9631e3a 1410959210
+dir /home/core/gentoo/usr/lib
+sym /home/core/gentoo/usr/lib/libmpc.so.3 -> libmpc.so.3.0.0 1410959326
+sym /home/core/gentoo/usr/lib/libmpc.so -> libmpc.so.3.0.0 1410959326
+obj /home/core/gentoo/usr/lib/libmpc.so.3.0.0 55ad196d6cdfc92d0122408c0793580b 1410959211

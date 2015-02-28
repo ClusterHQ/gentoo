@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install preinst prepare setup unpack
+DEPEND=>=virtual/jdk-1.6 app-arch/unzip !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 ) source? ( app-arch/zip ) dev-lang/python !dev-lang/python[-threads]
+DESCRIPTION=a constraint solver for relational logic
+EAPI=5
+HOMEPAGE=http://alloy.mit.edu/kodkod/index.html
+IUSE=elibc_FreeBSD doc source
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=virtual/jre-1.6 !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 ) source? ( app-arch/zip )
+SLOT=0/1.5.2
+SRC_URI=http://alloy.mit.edu/kodkod/1.5.2/kodkod-1.5.2.zip http://waf.googlecode.com/files/waf-1.7.16
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	java-pkg-2	65bbb59987d777c1106ae8aa4bf36e7b	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f	waf-utils	8ba4703b0e4f03e42a8f6e7b8aabd9e6
+_md5_=6e01d8d82818a889bd99226e2607705e

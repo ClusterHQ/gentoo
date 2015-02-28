@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=!<dev-python/apptools-4 !<dev-python/blockcanvas-4 !<dev-python/chaco-4 !<dev-python/codetools-4 !<dev-python/enable-4 !<dev-python/enthoughtbase-4 !<dev-python/envisagecore-4 !<dev-python/envisageplugins-4 !<dev-python/etsdevtools-4 !<dev-python/etsprojecttools-4 !<dev-python/graphcanvas-4 !<sci-visualization/mayavi-4 !<dev-python/scimath-4 !<dev-python/traits-4 !<dev-python/traitsbackendwx-4 !<dev-python/traitsbackendqt-4 !<dev-python/traitsgui-4 dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=Enthought Tool Suite: Proxy modules for backwards compatibility
+EAPI=5
+HOMEPAGE=http://pypi.python.org/pypi/etsproxy
+IUSE=python_targets_python2_7
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=!<dev-python/apptools-4 !<dev-python/blockcanvas-4 !<dev-python/chaco-4 !<dev-python/codetools-4 !<dev-python/enable-4 !<dev-python/enthoughtbase-4 !<dev-python/envisagecore-4 !<dev-python/envisageplugins-4 !<dev-python/etsdevtools-4 !<dev-python/etsprojecttools-4 !<dev-python/graphcanvas-4 !<sci-visualization/mayavi-4 !<dev-python/scimath-4 !<dev-python/traits-4 !<dev-python/traitsbackendwx-4 !<dev-python/traitsbackendqt-4 !<dev-python/traitsgui-4 python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=http://www.enthought.com/repo/ets/etsproxy-0.1.2.tar.gz
+_eclasses_=distutils-r1	90e7008a7d21e3b1597bea444bb85827	eutils	06133990e861be0fe60c2b428fd025d9	multibuild	46527a4656956da3d58acff72c9b59b1	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	python-r1	75e5c82b55dcb208a0a8f4ab8847e731	python-utils-r1	47dda904cf91c61f45b564d9f834fde1	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=f3e4825317bc7e8c596aa3345b122728

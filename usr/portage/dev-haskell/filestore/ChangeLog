@@ -1,0 +1,24 @@
+# ChangeLog for dev-haskell/filestore
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/filestore/ChangeLog,v 1.5 2014/07/25 09:16:44 slyfox Exp $
+
+  25 Jul 2014; Sergei Trofimovich <slyfox@gentoo.org> filestore-0.6.0.1.ebuild,
+  filestore-0.6.0.2.ebuild:
+  Drop trailing '.' from description.
+
+  25 Jul 2014; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml:
+  Drop redundant '<maintainer>' field, leave only '<herd>'.
+
+*filestore-0.6.0.2 (02 Jul 2014)
+
+  02 Jul 2014; Mark Wright <gienah@gentoo.org> +filestore-0.6.0.2.ebuild:
+  Bump filestore to 0.6.0.2
+
+  21 Feb 2014; Sergei Trofimovich <slyfox@gentoo.org> filestore-0.6.0.1.ebuild:
+  Allow ghc-7.8.
+
+*filestore-0.6.0.1 (20 Jun 2013)
+
+  20 Jun 2013; Alexander Vershilov <qnikst@gentoo.org>
+  +filestore-0.6.0.1.ebuild, +metadata.xml:
+  add new version due to #473858

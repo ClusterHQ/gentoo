@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/libf2c
+DESCRIPTION=Fortran to C converter
+HOMEPAGE=http://www.netlib.org/f2c
+KEYWORDS=amd64 ppc ppc64 x86 ~x86-fbsd
+LICENSE=HPND
+RDEPEND=dev-libs/libf2c
+SLOT=0
+SRC_URI=mirror://gentoo/f2c-20060507.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=15c2b102230e865b76759082465f2441

@@ -1,0 +1,37 @@
+# ChangeLog for games-strategy/seven-kingdoms
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/games-strategy/seven-kingdoms/ChangeLog,v 1.7 2013/11/10 15:36:45 pinkbyte Exp $
+
+  10 Nov 2013; Sergey Popov <pinkbyte@gentoo.org>
+  -seven-kingdoms-2.14.3.ebuild:
+  Drop old version
+
+  24 Jan 2013; Sergey Popov <pinkbyte@gentoo.org> seven-kingdoms-2.14.4.ebuild:
+  Fix missing backslash in econf call, wrt bug #453754. Thanks to Diego Elio
+  Pettenò for discovering this issue
+
+  15 Jan 2013; Sergey Popov <pinkbyte@gentoo.org> seven-kingdoms-2.14.4.ebuild:
+  Correct dependencies, wrt bug #451672: upstream includes data files in this
+  package, fix installation of binary
+
+  08 Jan 2013; Sergey Popov <pinkbyte@gentoo.org> seven-kingdoms-2.14.4.ebuild,
+  metadata.xml:
+  Add 'network' USE-flag, make dependency on media-libs/sdl-net optionally
+  controlled through this flag
+
+*seven-kingdoms-2.14.4 (08 Jan 2013)
+
+  08 Jan 2013; Sergey Popov <pinkbyte@gentoo.org>
+  +seven-kingdoms-2.14.4.ebuild:
+  Version bump
+
+  20 Nov 2012; Sergey Popov <pinkbyte@gentoo.org> seven-kingdoms-2.14.3.ebuild:
+  Correct libsdl dependency wrt bug #443936. Thanks to Julian Ospald for
+  discovering this issue
+
+*seven-kingdoms-2.14.3 (19 Nov 2012)
+
+  19 Nov 2012; Sergey Popov <pinkbyte@gentoo.org>
+  +seven-kingdoms-2.14.3.ebuild, +metadata.xml:
+  Initial commit wrt bug #358209. Thanks to Sven Eden for initial ebuild
+

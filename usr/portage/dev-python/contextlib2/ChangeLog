@@ -1,0 +1,23 @@
+# ChangeLog for dev-python/contextlib2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/contextlib2/ChangeLog,v 1.5 2014/09/06 10:06:18 mgorny Exp $
+
+  06 Sep 2014; Michał Górny <mgorny@gentoo.org> contextlib2-0.4.0.ebuild:
+  Enable python3.4 support.
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> contextlib2-0.4.0.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> contextlib2-0.4.0.ebuild:
+  Add support for the new PyPy slotting.
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> contextlib2-0.4.0.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*contextlib2-0.4.0 (15 Jul 2013)
+
+  15 Jul 2013; Michał Górny <mgorny@gentoo.org> +contextlib2-0.4.0.ebuild,
+  +metadata.xml:
+  Introduce contextlib2, a library providing backports and extensions to the
+  contextlib module. It is needed for bedup.

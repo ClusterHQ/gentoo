@@ -1,0 +1,100 @@
+# ChangeLog for dev-python/urllib3
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/urllib3/ChangeLog,v 1.23 2014/07/16 14:16:45 idella4 Exp $
+
+*urllib3-1.9 (16 Jul 2014)
+
+  16 Jul 2014; Ian Delaney <idella4@gentoo.org> +urllib3-1.9.ebuild:
+  bump; fix to tests ensuring imports from installed system six, fix patch by
+  fau, fixes Bug #517078
+
+*urllib3-1.8.3 (26 Jun 2014)
+
+  26 Jun 2014; Tim Harder <radhermit@gentoo.org> +urllib3-1.8.3.ebuild:
+  Version bump.
+
+  06 May 2014; Tim Harder <radhermit@gentoo.org> urllib3-1.8-r1.ebuild,
+  urllib3-1.8.2.ebuild:
+  Rewrap long conditional dep line and quote python2 glob.
+
+*urllib3-1.8.2 (06 May 2014)
+
+  06 May 2014; Tim Harder <radhermit@gentoo.org> +urllib3-1.8.2.ebuild:
+  Version bump, add python3_4 support.
+
+  19 Apr 2014; Michał Górny <mgorny@gentoo.org> urllib3-1.8-r1.ebuild:
+  Use ${PYTHON_USEDEP} substitution support added to python_gen_cond_dep().
+
+  31 Mar 2014; Michał Górny <mgorny@gentoo.org> urllib3-1.6.ebuild,
+  urllib3-1.7.1.ebuild, urllib3-1.7.ebuild, urllib3-1.8-r1.ebuild:
+  Add support for the new PyPy slotting.
+
+  22 Mar 2014; Markus Meier <maekke@gentoo.org> urllib3-1.8-r1.ebuild:
+  add ~arm, bug #503556
+
+  07 Mar 2014; Tim Harder <radhermit@gentoo.org> urllib3-1.8-r1.ebuild:
+  Make sure pypy2_0 use flag deps are generated as well.
+
+  07 Mar 2014; Tim Harder <radhermit@gentoo.org> urllib3-1.8-r1.ebuild:
+  Fix backports-ssl-match-hostname conditional dep for pypy2_0.
+
+*urllib3-1.8-r1 (07 Mar 2014)
+
+  07 Mar 2014; Tim Harder <radhermit@gentoo.org> -urllib3-1.8.ebuild,
+  +urllib3-1.8-r1.ebuild:
+  Properly conditionalize dev-python/backports-ssl-match-hostname dep for
+  python2* only.
+
+*urllib3-1.8 (06 Mar 2014)
+
+  06 Mar 2014; Tim Harder <radhermit@gentoo.org> +urllib3-1.8.ebuild:
+  Version bump.
+
+  06 Nov 2013; Mike Gilbert <floppym@gentoo.org> urllib3-1.7.1.ebuild:
+  Restore python 3 support.
+
+  08 Oct 2013; Michał Górny <mgorny@gentoo.org> urllib3-1.7.1.ebuild:
+  Add missing dev-python/mock dependency. Clean up the ebuild.
+
+*urllib3-1.7.1 (02 Oct 2013)
+
+  02 Oct 2013; Patrick Lauer <patrick@gentoo.org> +urllib3-1.7.1.ebuild:
+  Bump
+
+  05 Sep 2013; Michał Górny <mgorny@gentoo.org> urllib3-1.6.ebuild,
+  urllib3-1.7.ebuild:
+  Clean up PYTHON_COMPAT from old implementations.
+
+*urllib3-1.7 (26 Aug 2013)
+
+  26 Aug 2013; Patrick Lauer <patrick@gentoo.org> +urllib3-1.7.ebuild:
+  Bump
+
+  11 May 2013; Ian Delaney <idella4@gentoo.org> urllib3-1.6.ebuild:
+  delete stray 'local test'
+
+*urllib3-1.6 (09 May 2013)
+
+  09 May 2013; Ian Delaney <idella4@gentoo.org> +urllib3-1.6.ebuild:
+  bump; added pypy support, fix to setup.cfg -> fixes testsuite, fixes Bug
+  #468236
+
+*urllib3-1.5-r1 (25 Mar 2013)
+
+  25 Mar 2013; Matthew Thode <prometheanfire@gentoo.org> +urllib3-1.5-r1.ebuild:
+  updating urllib3 to support distutils-r1
+
+  19 Mar 2013; Patrick Lauer <patrick@gentoo.org> urllib3-1.5.ebuild:
+  Restrict tests for 3.2 too as tornado is missing there
+
+  06 Oct 2012; Anthony G. Basile <blueness@gentoo.org> urllib3-1.5.ebuild:
+  keyword ~arm, bug #437250
+
+  20 Aug 2012; Mike Gilbert <floppym@gentoo.org> urllib3-1.5.ebuild:
+  Drop doc use flag, depend on setuptools.
+
+*urllib3-1.5 (19 Aug 2012)
+
+  19 Aug 2012; Mike Gilbert <floppym@gentoo.org> +metadata.xml,
+  +urllib3-1.5.ebuild:
+  New ebuild; unbundling from dev-python/requests.

@@ -1,0 +1,30 @@
+# ChangeLog for dev-ruby/dbf
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/dbf/ChangeLog,v 1.6 2014/07/25 13:12:46 mrueg Exp $
+
+*dbf-2.0.7-r2 (25 Jul 2014)
+
+  25 Jul 2014; Manuel Rüger <mrueg@gentoo.org> +dbf-2.0.7-r2.ebuild:
+  Add ruby21 target. Drop jruby target.
+
+  16 Mar 2014; Manuel Rüger <mrueg@gentoo.org> dbf-2.0.7-r1.ebuild,
+  dbf-2.0.7.ebuild:
+  Remove ruby18 target.
+
+  10 Mar 2014; Johannes Huber <johu@gentoo.org> dbf-2.0.7.ebuild:
+  x86 stable, bug #499132
+
+  08 Mar 2014; Pacho Ramos <pacho@gentoo.org> dbf-2.0.7.ebuild:
+  amd64 stable, bug 499132
+
+*dbf-2.0.7-r1 (07 Mar 2014)
+
+  07 Mar 2014; Manuel Rüger <mrueg@gentoo.org> +dbf-2.0.7-r1.ebuild,
+  dbf-2.0.7.ebuild:
+  Move ruby20 to new revision.
+
+*dbf-2.0.7 (27 Dec 2013)
+
+  27 Dec 2013; Hans de Graaff <graaff@gentoo.org> +dbf-2.0.7.ebuild,
+  +metadata.xml:
+  Initial import. New dependency for dev-ruby/GeoRuby.

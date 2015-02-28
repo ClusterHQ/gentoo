@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst prepare setup
+DEPEND=ssl? ( dev-libs/openssl ) zlib? ( sys-libs/zlib ) curl? ( net-misc/curl[adns] ) dev-libs/tre >=net-dns/c-ares-1.7 >=sys-apps/sed-4 virtual/pkgconfig ssl? ( dev-libs/openssl )
+DESCRIPTION=An advanced Internet Relay Chat daemon
+EAPI=4
+HOMEPAGE=http://www.unrealircd.com/
+IUSE=curl ipv6 +extban-stacking +operoverride +spoof operoverride-verify +prefixaq showlistmodes shunnotices ssl topicisnuhost +usermod zlib ssl
+KEYWORDS=amd64 ppc x86 ~x86-fbsd ~amd64-linux
+LICENSE=GPL-2
+RDEPEND=ssl? ( dev-libs/openssl ) zlib? ( sys-libs/zlib ) curl? ( net-misc/curl[adns] ) dev-libs/tre >=net-dns/c-ares-1.7
+SLOT=0
+SRC_URI=http://www.unrealircd.com/downloads/Unreal3.2.9.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	ssl-cert	6698abb0c28e144e92c4ff1e33341684	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=80826f0caa235582fc1a8eae50f3e9e6

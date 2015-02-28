@@ -1,0 +1,84 @@
+# ChangeLog for app-vim/notes
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-vim/notes/ChangeLog,v 1.17 2014/07/01 07:31:21 radhermit Exp $
+
+*notes-0.23.11 (01 Jul 2014)
+
+  01 Jul 2014; Tim Harder <radhermit@gentoo.org> +notes-0.23.11.ebuild:
+  Version bump.
+
+  26 Jun 2014; Tim Harder <radhermit@gentoo.org> -notes-0.12.10.ebuild,
+  -notes-0.16.17.ebuild, -notes-0.23.2.ebuild:
+  Remove old.
+
+*notes-0.23.10 (26 Jun 2014)
+
+  26 Jun 2014; Tim Harder <radhermit@gentoo.org> +notes-0.23.10.ebuild:
+  Version bump.
+
+  24 Dec 2013; Agostino Sarubbo <ago@gentoo.org> notes-0.23.4.ebuild:
+  Stable for x86, wrt bug #481860
+
+  12 Nov 2013; Chema Alonso <nimiux@gentoo.org> notes-0.23.4.ebuild:
+  Stable for amd64 wrt bug #481860
+
+*notes-0.23.4 (26 Sep 2013)
+
+  26 Sep 2013; Tim Harder <radhermit@gentoo.org> +notes-0.23.4.ebuild:
+  Version bump.
+
+*notes-0.23.2 (01 Sep 2013)
+
+  01 Sep 2013; Tim Harder <radhermit@gentoo.org> +notes-0.23.2.ebuild:
+  Version bump.
+
+  03 Aug 2012; Tim Harder <radhermit@gentoo.org> -notes-0.11.3.ebuild,
+  -notes-0.12.8.ebuild:
+  Remove old.
+
+*notes-0.16.17 (03 Aug 2012)
+
+  03 Aug 2012; Tim Harder <radhermit@gentoo.org> +notes-0.16.17.ebuild:
+  Version bump.
+
+*notes-0.12.10 (17 Nov 2011)
+
+  17 Nov 2011; Tim Harder <radhermit@gentoo.org> +notes-0.12.10.ebuild:
+  Version bump.
+
+*notes-0.12.8 (13 Nov 2011)
+
+  13 Nov 2011; Tim Harder <radhermit@gentoo.org> -notes-0.11.ebuild,
+  +notes-0.12.8.ebuild:
+  Version bump and remove old.
+
+*notes-0.11.3 (19 Sep 2011)
+
+  19 Sep 2011; Tim Harder <radhermit@gentoo.org> -notes-0.10-r1.ebuild,
+  +notes-0.11.3.ebuild:
+  Version bump and remove old.
+
+*notes-0.11 (14 Sep 2011)
+
+  14 Sep 2011; Tim Harder <radhermit@gentoo.org> +notes-0.11.ebuild:
+  Version bump.
+
+  31 Aug 2011; Tim Harder <radhermit@gentoo.org> -notes-0.9.4.ebuild,
+  -notes-0.10.ebuild:
+  Remove old.
+
+*notes-0.10-r1 (31 Aug 2011)
+
+  31 Aug 2011; Tim Harder <radhermit@gentoo.org> +notes-0.10-r1.ebuild:
+  Revision bump. Add dependency on external xolox-misc scripts.
+
+*notes-0.10 (12 Jul 2011)
+
+  12 Jul 2011; Tim Harder <radhermit@gentoo.org> +notes-0.10.ebuild:
+  Version bump.
+
+*notes-0.9.4 (29 Jun 2011)
+
+  29 Jun 2011; Tim Harder <radhermit@gentoo.org> +notes-0.9.4.ebuild,
+  +metadata.xml:
+  Initial import.

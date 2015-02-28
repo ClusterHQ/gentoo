@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=SLiM (Simple Login Manager) themes pack
+EAPI=2
+HOMEPAGE=http://slim.berlios.de
+KEYWORDS=amd64 arm ~mips ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=x11-misc/slim
+RESTRICT=strip binchecks
+SLOT=0
+SRC_URI=mirror://berlios/slim/slim-1.2.3-themepack1a.tar.gz mirror://berlios/slim/slim-gentoo-simple.tar.bz2 mirror://gentoo/slim-archlinux.tar.gz mirror://berlios/slim/slim-debian-moreblue.tar.bz2 mirror://berlios/slim/slim-fingerprint.tar.gz mirror://berlios/slim/slim-flat.tar.gz mirror://berlios/slim/slim-lunar-0.4.tar.bz2 mirror://berlios/slim/slim-previous.tar.gz mirror://berlios/slim/slim-rainbow.tar.gz mirror://berlios/slim/slim-rear-window.tar.gz mirror://berlios/slim/slim-scotland-road.tar.gz mirror://berlios/slim/slim-subway.tar.gz mirror://berlios/slim/slim-wave.tar.gz mirror://berlios/slim/slim-zenwalk.tar.gz mirror://berlios/slim/slim-archlinux-simple.tar.gz mirror://berlios/slim/slim-lake.tar.gz mirror://gentoo/slim-gentoo-1.0.tar.bz2 http://www.xfce-look.org/CONTENT/content-files/48605-xfce-g-box-slim-0.1.tar.gz http://www.konstantinhansen.de/source/slim_themes/gentoo_10_purple/gentoo_10_purple.tar.bz2 http://www.konstantinhansen.de/source/slim_themes/gentoo_10_blue/gentoo_10_blue.tar.bz2 http://www.konstantinhansen.de/source/slim_themes/gentoo_10_dark/gentoo_10_dark.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=1de264878edda2215d188b5b6af3de61

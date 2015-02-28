@@ -1,0 +1,49 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/rsync
+obj /home/core/gentoo/usr/share/rsync/atomic-rsync 8906022b9766bff75cdea38890698d72 1410959642
+obj /home/core/gentoo/usr/share/rsync/deny-rsync 4668ba2753f52294a63975ed265c64ec 1410959642
+obj /home/core/gentoo/usr/share/rsync/mnt-excl f4a878b81d97c5819395bd727ac53c03 1410959642
+obj /home/core/gentoo/usr/share/rsync/files-to-excludes f1303c2614ca7d75ea20a291ec9970a4 1410959642
+obj /home/core/gentoo/usr/share/rsync/logfilter ba059c8287e7174286caa5a044fc0ae0 1410959642
+obj /home/core/gentoo/usr/share/rsync/cvs2includes 1ec98c4ff5154168bea3e9b0eb66c60c 1410959642
+obj /home/core/gentoo/usr/share/rsync/file-attr-restore b6fae384f8ae374f6c35fc443f71a8e3 1410959642
+obj /home/core/gentoo/usr/share/rsync/git-set-file-times 46ac57099161a228227526d24a83c2b7 1410959642
+obj /home/core/gentoo/usr/share/rsync/mapfrom 9e08c56d4befa827927ed86e0489df59 1410959642
+obj /home/core/gentoo/usr/share/rsync/mapto 0a0020e39f9af1c2d48d52dc01743678 1410959642
+obj /home/core/gentoo/usr/share/rsync/munge-symlinks f75008bf29fef04e8e28fa9fdf516dee 1410959642
+obj /home/core/gentoo/usr/share/rsync/instant-rsyncd fa9da449e11f42d48cc1dec891a3e6f2 1410959642
+obj /home/core/gentoo/usr/share/rsync/lsh f959b6e6a6aacba1a1a1334a03ab228d 1410959642
+obj /home/core/gentoo/usr/share/rsync/rsync-no-vanished 961319f618713e1e1517dcfafc90a8e9 1410959642
+obj /home/core/gentoo/usr/share/rsync/lsh.sh 18f89b388a463d30adc9fcf196db76ca 1410959642
+obj /home/core/gentoo/usr/share/rsync/rsync-slash-strip ae4783bf5a74161fdca9f5ca1b9cc085 1410959642
+obj /home/core/gentoo/usr/share/rsync/rrsync ea3facda34148e39226b69298ea5353b 1410959642
+obj /home/core/gentoo/usr/share/rsync/rsyncstats a848efb3b4f0bdaf45914707e5bcf752 1410959642
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/rsync-3.1.1
+obj /home/core/gentoo/usr/share/doc/rsync-3.1.1/NEWS.bz2 2ea99721ced33a55a216e77c4a61bcf3 1410959641
+obj /home/core/gentoo/usr/share/doc/rsync-3.1.1/tech_report.tex.bz2 e08cf3e4c4cfcd0e4b5ca5104f517b84 1410959641
+obj /home/core/gentoo/usr/share/doc/rsync-3.1.1/TODO.bz2 3ce117b5b0876e9085bf453b7ced2aea 1410959641
+obj /home/core/gentoo/usr/share/doc/rsync-3.1.1/README.bz2 d2c6bf70461a353c203e3e6f6e7112ec 1410959641
+obj /home/core/gentoo/usr/share/doc/rsync-3.1.1/OLDNEWS.bz2 3f3cc8dea87be3a505774c45673e9fbb 1410959641
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man5
+obj /home/core/gentoo/usr/share/man/man5/rsyncd.conf.5.bz2 c61dbce1305d818354fd11b6ccbd981c 1410959641
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/rsync.1.bz2 67b0d15a61939ec5ef16c589a90dca2b 1410959641
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/systemd
+dir /home/core/gentoo/usr/lib/systemd/system
+obj /home/core/gentoo/usr/lib/systemd/system/rsyncd.service 397a9c2bc8aee1254be7355c55039286 1410959642
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/rsync f88f710c4995cb3a83bd54092cc5fc6f 1410959642
+dir /home/core/gentoo/etc
+obj /home/core/gentoo/etc/rsyncd.conf d917f779ee0a8057d4f614906ee7c7a4 1410959642
+dir /home/core/gentoo/etc/conf.d
+obj /home/core/gentoo/etc/conf.d/rsyncd e5e62e8cef29e09c22e8ba8152ec1751 1410959641
+dir /home/core/gentoo/etc/init.d
+obj /home/core/gentoo/etc/init.d/rsyncd 4c3c8bd3a9d82941f67830e2e0cc7c44 1410959642
+dir /home/core/gentoo/etc/logrotate.d
+obj /home/core/gentoo/etc/logrotate.d/rsyncd 169cafc6907a4c3787bb0462e9d6a5c2 1410959642
+dir /home/core/gentoo/etc/xinetd.d
+obj /home/core/gentoo/etc/xinetd.d/rsyncd fb81e41fe623c3128b9186d2da96e8bb 1410959642

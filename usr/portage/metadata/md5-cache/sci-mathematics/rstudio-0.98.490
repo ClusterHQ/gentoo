@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DEPEND=>=dev-lang/R-2.11.1 >=dev-libs/boost-1.50 dev-libs/mathjax dev-libs/openssl sys-libs/zlib >=virtual/jre-1.5 x11-libs/pango !dedicated? ( >=dev-qt/qtcore-4.8:4 >=dev-qt/qtdbus-4.8:4 >=dev-qt/qtgui-4.8:4 >=dev-qt/qtwebkit-4.8:4 >=dev-qt/qtxmlpatterns-4.8:4 server? ( virtual/pam ) ) dedicated? ( virtual/pam ) app-arch/unzip dev-java/ant-core >=virtual/jdk-1.5 virtual/pkgconfig sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) >=sys-apps/sed-4 !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 )
+DESCRIPTION=IDE for the R language
+EAPI=5
+HOMEPAGE=http://www.rstudio.org
+IUSE=dedicated server elibc_FreeBSD
+KEYWORDS=~amd64 x86 ~amd64-linux ~x86-linux
+LICENSE=AGPL-3
+RDEPEND=>=dev-lang/R-2.11.1 >=dev-libs/boost-1.50 dev-libs/mathjax dev-libs/openssl sys-libs/zlib >=virtual/jre-1.5 x11-libs/pango !dedicated? ( >=dev-qt/qtcore-4.8:4 >=dev-qt/qtdbus-4.8:4 >=dev-qt/qtgui-4.8:4 >=dev-qt/qtwebkit-4.8:4 >=dev-qt/qtxmlpatterns-4.8:4 server? ( virtual/pam ) ) dedicated? ( virtual/pam ) !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 )
+SLOT=0
+SRC_URI=https://github.com/rstudio/rstudio/archive/v0.98.490.tar.gz -> rstudio-0.98.490.tar.gz https://s3.amazonaws.com/rstudio-buildtools/gin-1.5.zip https://s3.amazonaws.com/rstudio-buildtools/gwt-2.5.1.zip https://s3.amazonaws.com/rstudio-dictionaries/core-dictionaries.zip
+_eclasses_=cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	java-pkg-2	65bbb59987d777c1106ae8aa4bf36e7b	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	pam	5e39d502488dd7c258289b7e4b482342	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=4ed6fa4a53998d076936a506d00e0d25

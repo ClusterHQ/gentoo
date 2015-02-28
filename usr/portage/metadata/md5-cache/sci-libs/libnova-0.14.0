@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install
+DEPEND=doc? ( app-doc/doxygen )
+DESCRIPTION=Celestial Mechanics and Astronomical Calculation Library
+EAPI=4
+HOMEPAGE=http://libnova.sourceforge.net/
+IUSE=doc examples static-libs
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~x86
+LICENSE=LGPL-2
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~bicatali/libnova-0.14.0.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=0e36be531d1fb2cf98de5f675d278833

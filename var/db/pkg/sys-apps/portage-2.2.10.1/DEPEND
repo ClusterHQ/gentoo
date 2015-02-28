@@ -1,0 +1,1 @@
+|| ( >=dev-lang/python-2.7 dev-lang/python:2.6[threads] ) dev-lang/python:2.7 >=sys-devel/make-3.82 >=sys-apps/sed-4.0.5 sys-devel/patch

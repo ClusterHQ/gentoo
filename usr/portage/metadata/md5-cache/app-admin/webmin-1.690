@@ -1,0 +1,13 @@
+DEFINED_PHASES=config install postinst postrm preinst prepare prerm
+DEPEND=virtual/perl-Sys-Syslog virtual/perl-Time-HiRes virtual/perl-Time-Local dev-perl/Authen-Libwrap dev-perl/IO-Tty dev-perl/MD5 dev-perl/Net-SSLeay dev-perl/Authen-PAM dev-perl/Sys-Hostname-Long >=net-dns/dnssec-tools-1.13 !minimal? ( mysql? ( dev-perl/DBD-mysql ) postgres? ( dev-perl/DBD-Pg ) ldap? ( dev-perl/perl-ldap ) dev-perl/XML-Generator dev-perl/XML-Parser ) ssl? ( dev-libs/openssl ) virtual/pkgconfig
+DESCRIPTION=A web-based Unix systems administration interface
+EAPI=5
+HOMEPAGE=http://www.webmin.com/
+IUSE=minimal +ssl mysql postgres ldap ssl
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD GPL-2
+RDEPEND=virtual/perl-Sys-Syslog virtual/perl-Time-HiRes virtual/perl-Time-Local dev-perl/Authen-Libwrap dev-perl/IO-Tty dev-perl/MD5 dev-perl/Net-SSLeay dev-perl/Authen-PAM dev-perl/Sys-Hostname-Long >=net-dns/dnssec-tools-1.13 !minimal? ( mysql? ( dev-perl/DBD-mysql ) postgres? ( dev-perl/DBD-Pg ) ldap? ( dev-perl/perl-ldap ) dev-perl/XML-Generator dev-perl/XML-Parser )
+SLOT=0
+SRC_URI=minimal? ( mirror://sourceforge/webadmin/webmin-1.690-minimal.tar.gz ) !minimal? ( mirror://sourceforge/webadmin/webmin-1.690.tar.gz )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	pam	5e39d502488dd7c258289b7e4b482342	prefix	21058c21ca48453d771df15500873ede	ssl-cert	6698abb0c28e144e92c4ff1e33341684	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=6779098322ed28a7505d5a1185679314

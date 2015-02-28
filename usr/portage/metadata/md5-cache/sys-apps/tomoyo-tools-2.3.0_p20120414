@@ -1,0 +1,12 @@
+DEFINED_PHASES=config install postinst prepare
+DEPEND=sys-libs/ncurses
+DESCRIPTION=TOMOYO Linux tools
+EAPI=2
+HOMEPAGE=http://tomoyo.sourceforge.jp/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses !sys-apps/ccs-tools
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/tomoyo/48663/tomoyo-tools-2.3.0-20120414.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=008f2e9447d3df69d16e01e742169e5a

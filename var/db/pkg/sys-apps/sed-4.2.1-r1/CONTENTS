@@ -1,0 +1,131 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/sed-4.2.1-r1
+obj /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/README.boot.bz2 c762caee546e9450b3ff57eedabddf60 1410959502
+obj /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/AUTHORS.bz2 d2421b9aa3e9f3a53555be44a72bd239 1410959502
+obj /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/THANKS.bz2 88bb2c1e35e0897c5eb137a4f7d2c901 1410959502
+obj /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/BUGS.bz2 bb0a92a6d97827a07cb8222133b7a912 1410959502
+obj /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/NEWS.bz2 d7dc925040b5cffd7e376b5176fc73c8 1410959502
+obj /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/ChangeLog.bz2 3bad3a51a51540da8511ad238bc63c7f 1410959502
+obj /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/README-alpha.bz2 e71adb01012afdc94af57a234d65e403 1410959502
+obj /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/README.bz2 0349be90f857e0e8796215670c75fcd6 1410959502
+dir /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/examples
+obj /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/examples/unix2dos.bz2 a3a4c899fcf8c11b2a33f9eb610937bf 1410959502
+obj /home/core/gentoo/usr/share/doc/sed-4.2.1-r1/examples/dos2unix.bz2 282400909ac49f901f6237fc0df6aeeb 1410959502
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/sed.1.bz2 3048db7da73fc23888e586deb3deb828 1410959502
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/sed.info.bz2 12abdf894891e6ab1d5052737398c4b7 1410959502
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/eu
+dir /home/core/gentoo/usr/share/locale/eu/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eu/LC_MESSAGES/sed.mo 76fa3c4a3bff07222730c77cf6303029 1410959501
+dir /home/core/gentoo/usr/share/locale/ko
+dir /home/core/gentoo/usr/share/locale/ko/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ko/LC_MESSAGES/sed.mo 659b3ba690020c8ab6f0dfbb5355c18b 1410959501
+dir /home/core/gentoo/usr/share/locale/pt
+dir /home/core/gentoo/usr/share/locale/pt/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt/LC_MESSAGES/sed.mo 119bab6afea12865c9cd645c6ca8352a 1410959501
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/sed.mo baca1c77c59b1a4a60e6612475eb6066 1410959501
+dir /home/core/gentoo/usr/share/locale/sv
+dir /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES/sed.mo e68e86c17ae7e66b978ab0ee6f25aec8 1410959501
+dir /home/core/gentoo/usr/share/locale/ru
+dir /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES/sed.mo bf89440d00b27c62c30f4a554f1231bd 1410959501
+dir /home/core/gentoo/usr/share/locale/id
+dir /home/core/gentoo/usr/share/locale/id/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/id/LC_MESSAGES/sed.mo 49723213b0ae7161b3961cc0819b511d 1410959501
+dir /home/core/gentoo/usr/share/locale/uk
+dir /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES/sed.mo 1dc7594377ce1e52a996b6551caf443e 1410959501
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/sed.mo 2be1a877106c919b8501265d7562e708 1410959501
+dir /home/core/gentoo/usr/share/locale/ja
+dir /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES/sed.mo 2dea275ef6d87cf07eefebcadf74f8f4 1410959501
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/sed.mo cbf7094354e025c2a6cdfe2770bc51c6 1410959501
+dir /home/core/gentoo/usr/share/locale/el
+dir /home/core/gentoo/usr/share/locale/el/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/el/LC_MESSAGES/sed.mo 5b853225085127dbd9f156ff5aed1a5d 1410959501
+dir /home/core/gentoo/usr/share/locale/tr
+dir /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES/sed.mo 881fbbf690264907beb4e8ae15864148 1410959501
+dir /home/core/gentoo/usr/share/locale/sk
+dir /home/core/gentoo/usr/share/locale/sk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sk/LC_MESSAGES/sed.mo af3e5524db2d1dcb0aaf338dd257611b 1410959501
+dir /home/core/gentoo/usr/share/locale/da
+dir /home/core/gentoo/usr/share/locale/da/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/da/LC_MESSAGES/sed.mo ada969cfe56675bcb2e89b4425ad8377 1410959501
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/sed.mo e6eb9d59ae38bb91a4ccb1affb007c21 1410959501
+dir /home/core/gentoo/usr/share/locale/it
+dir /home/core/gentoo/usr/share/locale/it/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/it/LC_MESSAGES/sed.mo cacd4389d3b27f7848f4bd33680aa4df 1410959501
+dir /home/core/gentoo/usr/share/locale/ro
+dir /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES/sed.mo 12de87479ae2bd99846b742bd23584e2 1410959501
+dir /home/core/gentoo/usr/share/locale/ca
+dir /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES/sed.mo b0a886904c34d004ae4721e99429530f 1410959501
+dir /home/core/gentoo/usr/share/locale/sl
+dir /home/core/gentoo/usr/share/locale/sl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sl/LC_MESSAGES/sed.mo b10b0020a8b7225a411a78a91350e1c0 1410959501
+dir /home/core/gentoo/usr/share/locale/sr
+dir /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES/sed.mo 3907695c9e7d4d60b0465bcbf1518763 1410959501
+dir /home/core/gentoo/usr/share/locale/eo
+dir /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES/sed.mo b841189283af595f25d1588a6927dc16 1410959501
+dir /home/core/gentoo/usr/share/locale/hu
+dir /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES/sed.mo db116ad704185f65959e42a621f97a56 1410959501
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/sed.mo 6a024504a25fda8956e6a6e3a46bab0b 1410959501
+dir /home/core/gentoo/usr/share/locale/es
+dir /home/core/gentoo/usr/share/locale/es/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/es/LC_MESSAGES/sed.mo 014c4527a6ebdf0591563c58227efae9 1410959501
+dir /home/core/gentoo/usr/share/locale/gl
+dir /home/core/gentoo/usr/share/locale/gl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/gl/LC_MESSAGES/sed.mo 0232058e3af27fe2b0d54b158fba3b7f 1410959501
+dir /home/core/gentoo/usr/share/locale/ga
+dir /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES/sed.mo 7509e9ca3e7c92a2f775a2b35648699c 1410959501
+dir /home/core/gentoo/usr/share/locale/et
+dir /home/core/gentoo/usr/share/locale/et/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/et/LC_MESSAGES/sed.mo daf72b28890cd307d7c7624432dc7d84 1410959501
+dir /home/core/gentoo/usr/share/locale/hr
+dir /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hr/LC_MESSAGES/sed.mo c8f1cdfc04bac3142d6551175a791f07 1410959501
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/sed.mo 35bc04939cce110231be602e9b4ba336 1410959501
+dir /home/core/gentoo/usr/share/locale/zh_CN
+dir /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES/sed.mo 18a48382791d2281777482f6639726fb 1410959501
+dir /home/core/gentoo/usr/share/locale/nl
+dir /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES/sed.mo ab2483241d90de8a794cf76381cfd8fe 1410959501
+dir /home/core/gentoo/usr/share/locale/cs
+dir /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES/sed.mo 26f7d48fb74527d5ff3bc0309bed9d3a 1410959501
+dir /home/core/gentoo/usr/share/locale/zh_TW
+dir /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES/sed.mo 4bb0315d5891c7780440abd10d63dc10 1410959501
+dir /home/core/gentoo/usr/share/locale/he
+dir /home/core/gentoo/usr/share/locale/he/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/he/LC_MESSAGES/sed.mo ee0084bae72835b5621a890dbad8975a 1410959501
+dir /home/core/gentoo/usr/share/locale/af
+dir /home/core/gentoo/usr/share/locale/af/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/af/LC_MESSAGES/sed.mo 1b98ff080136a21cea4c10fd77fe8bfd 1410959501
+dir /home/core/gentoo/bin
+obj /home/core/gentoo/bin/sed 496b8e7c244c09fca084971b1248eca0 1410959504

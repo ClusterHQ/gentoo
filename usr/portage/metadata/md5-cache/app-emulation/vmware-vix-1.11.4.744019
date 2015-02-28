@@ -1,0 +1,14 @@
+DEFINED_PHASES=install nofetch postinst prerm unpack
+DEPEND=dev-libs/libxslt
+DESCRIPTION=VMware VIX API for Linux
+EAPI=4
+HOMEPAGE=http://www.vmware.com/support/developer/vix-api/
+IUSE=doc
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=vmware
+RDEPEND=dev-libs/glib:2 dev-libs/libxml2 =dev-libs/openssl-0.9.8* net-misc/curl sys-libs/glibc sys-libs/zlib !app-emulation/vmware-workstation
+RESTRICT=fetch mirror strip
+SLOT=0
+SRC_URI=x86? ( VMware-VIX-1.11.4-744019.i386.bundle ) amd64? ( VMware-VIX-1.11.4-744019.x86_64.bundle )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f	vmware-bundle	23c070352c2722510704dae8063293e0
+_md5_=3e6c20819fdde1891daf37155ef9bb5e

@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile configure install
+DESCRIPTION=mkclean is a command line tool to clean and optimize Matroska files
+EAPI=4
+HOMEPAGE=http://www.matroska.org/downloads/mkclean.html
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://downloads.sourceforge.net/project/matroska/mkclean/mkclean-0.8.6.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=f6b64e84d78e2f919c4b2b95a84b5d9b

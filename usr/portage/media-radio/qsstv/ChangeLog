@@ -1,0 +1,66 @@
+# ChangeLog for media-radio/qsstv
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-radio/qsstv/ChangeLog,v 1.21 2014/06/14 11:03:42 tomjbe Exp $
+
+  14 Jun 2014; Thomas Beierlein <tomjbe@gentoo.org> qsstv-7.1.7.ebuild,
+  qsstv-8.1.14.ebuild, qsstv-8.1.17.ebuild, qsstv-8.2.7.ebuild:
+  Add missing '|| die' (bug 507926). thanks nimiux
+
+  14 Jun 2014; Pawel Hajdan jr <phajdan.jr@gentoo.org> qsstv-8.1.17.ebuild:
+  x86 stable wrt bug #507926
+
+  09 Jun 2014; Chema Alonso <nimiux@gentoo.org> qsstv-8.1.17.ebuild:
+  Stable for amd64 wrt bug #507926
+
+*qsstv-8.2.7 (17 Apr 2014)
+
+  17 Apr 2014; Thomas Beierlein <tomjbe@gentoo.org> +qsstv-8.2.7.ebuild:
+  Version bump
+
+*qsstv-8.1.17 (13 Mar 2014)
+
+  13 Mar 2014; Thomas Beierlein <tomjbe@gentoo.org> +qsstv-8.1.17.ebuild:
+  Version bump
+
+  10 Mar 2014; Michael Palimaka <kensington@gentoo.org> qsstv-8.1.14.ebuild:
+  Pin Qt dependencies to SLOT 4.
+
+*qsstv-8.1.14 (02 Feb 2014)
+
+  02 Feb 2014; Thomas Beierlein <tomjbe@gentoo.org> +qsstv-8.1.14.ebuild:
+  Version bump
+
+  02 Mar 2013; Markos Chandras <hwoarang@gentoo.org> qsstv-7.1.7.ebuild:
+  Move Qt dependencies to the new category
+
+  01 Aug 2012; Thomas Beierlein <tomjbe@gentoo.org> qsstv-7.1.7.ebuild,
+  +files/qsstv-7.1.7-gcc-47.patch:
+  Add missing #includes for gcc47 (bug 427486). Thanks Diego. Also add slot
+  deps to qt-*:4
+
+  19 Jun 2012; Jeff Horelick <jdhore@gentoo.org> qsstv-7.1.7.ebuild:
+  marked x86 per bug 421711
+
+  18 Jun 2012; Agostino Sarubbo <ago@gentoo.org> qsstv-7.1.7.ebuild:
+  Stable for amd64, wrt bug #421711
+
+  18 Jun 2012; Agostino Sarubbo <ago@gentoo.org> -qsstv-7.1.6.ebuild:
+  Remove old
+
+  15 Apr 2012; Thomas Beierlein <tomjbe@gentoo.org> qsstv-7.1.6.ebuild,
+  qsstv-7.1.7.ebuild:
+  add missing RDEPEND
+
+*qsstv-7.1.7 (12 Feb 2012)
+
+  12 Feb 2012; Thomas Beierlein <tomjbe@gentoo.org> +qsstv-7.1.7.ebuild:
+  Minor bug fix release
+
+  09 Jan 2012; Thomas Beierlein <tomjbe@gentoo.org> qsstv-7.1.6.ebuild:
+  Add missing built with USE=qt3support dep
+
+*qsstv-7.1.6 (03 Jan 2012)
+
+  03 Jan 2012; Thomas Beierlein <tomjbe@gentoo.org> +qsstv-7.1.6.ebuild,
+  +metadata.xml:
+  Initial commit of new version working with Qt4

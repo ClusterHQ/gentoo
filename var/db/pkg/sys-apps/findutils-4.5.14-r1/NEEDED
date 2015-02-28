@@ -1,0 +1,2 @@
+/home/core/gentoo/usr/bin/find libm.so.6,libc.so.6
+/home/core/gentoo/usr/bin/xargs libc.so.6

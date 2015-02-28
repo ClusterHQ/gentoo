@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test unpack
+DEPEND=media-libs/alsa-lib dev-qt/qtgui:4 dev-qt/qtsvg:4 x11-misc/shared-mime-info dbus? ( dev-qt/qtdbus:4 ) virtual/pkgconfig doc? ( app-doc/doxygen app-text/docbook-xsl-stylesheets dev-libs/libxslt ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) >=sys-apps/sed-4
+DESCRIPTION=Qt4/C++ wrapper for ALSA sequencer
+EAPI=4
+HOMEPAGE=http://drumstick.sourceforge.net/
+IUSE=dbus doc
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/alsa-lib dev-qt/qtgui:4 dev-qt/qtsvg:4 x11-misc/shared-mime-info dbus? ( dev-qt/qtdbus:4 )
+SLOT=0
+SRC_URI=mirror://sourceforge/drumstick/drumstick-0.5.0.tar.bz2
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=989b7f2be52e97aefb38355628aa9d21

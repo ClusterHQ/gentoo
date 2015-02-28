@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare
+DEPEND=dev-libs/expat dev-libs/openssl:0 sys-libs/zlib virtual/opengl dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 || ( >=media-video/ffmpeg-1.0.0 >=media-video/libav-0.8.9 ) amd64? ( multilib? ( app-emulation/emul-linux-x86-baselibs ) ) >=sys-apps/sed-4
+DESCRIPTION=Tool for ripping Blu-Ray, HD-DVD and DVD discs and copying content to a Matroska container
+EAPI=5
+HOMEPAGE=http://www.makemkv.com/
+IUSE=multilib
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1 MPL-1.1 MakeMKV-EULA openssl
+RDEPEND=dev-libs/expat dev-libs/openssl:0 sys-libs/zlib virtual/opengl dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 || ( >=media-video/ffmpeg-1.0.0 >=media-video/libav-0.8.9 ) amd64? ( multilib? ( app-emulation/emul-linux-x86-baselibs ) )
+SLOT=0
+SRC_URI=http://www.makemkv.com/download/old/makemkv-oss-1.8.10.tar.gz http://www.makemkv.com/download/old/makemkv-bin-1.8.10.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnome2-utils	f658eba3cc594a21cf6eef4af47daa90	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=20a7c92cbbc7ad41daa7ac0deb5003d7

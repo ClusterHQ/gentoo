@@ -1,0 +1,170 @@
+dir /home/core/gentoo/etc
+obj /home/core/gentoo/etc/nanorc 582449cdd9fda321b10580909aa9a68c 1410959483
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/nl
+dir /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES/nano.mo 21eec2fb7e56136dbb2e3319b658c08b 1410959481
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/nano.mo c23faf02be248197c67a1346a298ff95 1410959481
+dir /home/core/gentoo/usr/share/locale/cs
+dir /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/cs/LC_MESSAGES/nano.mo 4e85549aa5308b405e2aaf275105b92e 1410959481
+dir /home/core/gentoo/usr/share/locale/gl
+dir /home/core/gentoo/usr/share/locale/gl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/gl/LC_MESSAGES/nano.mo 0d56a80e843afae83492dc82e45502d4 1410959481
+dir /home/core/gentoo/usr/share/locale/ms
+dir /home/core/gentoo/usr/share/locale/ms/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ms/LC_MESSAGES/nano.mo 08215152b8b6755c3f3a60b18e4365b8 1410959481
+dir /home/core/gentoo/usr/share/locale/hu
+dir /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/hu/LC_MESSAGES/nano.mo 082dba8fbc2bc0034213017b23a811f3 1410959481
+dir /home/core/gentoo/usr/share/locale/es
+dir /home/core/gentoo/usr/share/locale/es/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/es/LC_MESSAGES/nano.mo 224e712da230e9b793ddc13f5650a9b0 1410959481
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/nano.mo c63c9927d1ba4972e4c55d6c506024b7 1410959481
+dir /home/core/gentoo/usr/share/locale/bg
+dir /home/core/gentoo/usr/share/locale/bg/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/bg/LC_MESSAGES/nano.mo 9ed907c8296ec9541b60a8e99bc897ea 1410959481
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/nano.mo 590c7d4f27d1373bbfd9e96b8014b844 1410959482
+dir /home/core/gentoo/usr/share/locale/ga
+dir /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ga/LC_MESSAGES/nano.mo 2c8ef2701cc5b3d6010f6d2ed5d15e7f 1410959481
+dir /home/core/gentoo/usr/share/locale/nb
+dir /home/core/gentoo/usr/share/locale/nb/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nb/LC_MESSAGES/nano.mo 017cb2123ae0a66e8645d4508397b265 1410959481
+dir /home/core/gentoo/usr/share/locale/da
+dir /home/core/gentoo/usr/share/locale/da/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/da/LC_MESSAGES/nano.mo 9b16c68186a406da690357715281e8c3 1410959481
+dir /home/core/gentoo/usr/share/locale/tr
+dir /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/tr/LC_MESSAGES/nano.mo 2aaf28b5a0bacce005e57746d51c1a4d 1410959482
+dir /home/core/gentoo/usr/share/locale/sl
+dir /home/core/gentoo/usr/share/locale/sl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sl/LC_MESSAGES/nano.mo 323cc7d0500f735b4a7ad4fd7b9800e3 1410959482
+dir /home/core/gentoo/usr/share/locale/sr
+dir /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES/nano.mo ed1b9d7b7cd41112577aa086855298cb 1410959482
+dir /home/core/gentoo/usr/share/locale/eo
+dir /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES/nano.mo 7ca33a7feabfe62740765f4be35068b0 1410959481
+dir /home/core/gentoo/usr/share/locale/ro
+dir /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ro/LC_MESSAGES/nano.mo 1d3c58437eeba20378c4a8753545aa0e 1410959482
+dir /home/core/gentoo/usr/share/locale/it
+dir /home/core/gentoo/usr/share/locale/it/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/it/LC_MESSAGES/nano.mo 0296490d7ad010116024037b9e6580a4 1410959481
+dir /home/core/gentoo/usr/share/locale/ca
+dir /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ca/LC_MESSAGES/nano.mo d634ee81accaa110999f0dd5f09f2af0 1410959481
+dir /home/core/gentoo/usr/share/locale/zh_TW
+dir /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_TW/LC_MESSAGES/nano.mo 54c1917f78b017b0edf188cad1534407 1410959482
+dir /home/core/gentoo/usr/share/locale/id
+dir /home/core/gentoo/usr/share/locale/id/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/id/LC_MESSAGES/nano.mo e785cdb11b4c2f778411f9340f999c33 1410959481
+dir /home/core/gentoo/usr/share/locale/ru
+dir /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ru/LC_MESSAGES/nano.mo c64d58809e3fde280b7d01d0d666f8f8 1410959482
+dir /home/core/gentoo/usr/share/locale/eu
+dir /home/core/gentoo/usr/share/locale/eu/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eu/LC_MESSAGES/nano.mo 8748f7370042af060e3e48aac6b66ec3 1410959481
+dir /home/core/gentoo/usr/share/locale/sv
+dir /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES/nano.mo 5af835a49e4e8f7615b989f916812e74 1410959482
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/nano.mo 712fefd92eca19da7ee63ebece9406e8 1410959481
+dir /home/core/gentoo/usr/share/locale/zh_CN
+dir /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/zh_CN/LC_MESSAGES/nano.mo bd61a029b169bce249dde07136cfd500 1410959482
+dir /home/core/gentoo/usr/share/locale/nn
+dir /home/core/gentoo/usr/share/locale/nn/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nn/LC_MESSAGES/nano.mo f865ec61e69d1d70ccab0f65683c05dd 1410959481
+dir /home/core/gentoo/usr/share/locale/uk
+dir /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES/nano.mo 7df5281cd98b7eb4526e9e0662d99e84 1410959482
+dir /home/core/gentoo/usr/share/locale/ja
+dir /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES/nano.mo 3b0fe4e3fdfc4774d1c0b08ad64e1877 1410959481
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/nano.mo 3ed0c461c15cf4778d7d8f5c97d8512b 1410959481
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/nano.mo 79ef5f0a1af04766d4f22f6d668c1672 1410959482
+dir /home/core/gentoo/usr/share/nano
+obj /home/core/gentoo/usr/share/nano/javascript.nanorc 37372d2721f19fd952f7ac9aab73dca7 1410959480
+obj /home/core/gentoo/usr/share/nano/patch.nanorc b7434c13c51eb9a84ed6a4a041e294c4 1410959480
+obj /home/core/gentoo/usr/share/nano/makefile.nanorc 43265afc6c377094e547e89586b06e63 1410959480
+obj /home/core/gentoo/usr/share/nano/java.nanorc 2bf464c1ab3c41e9ee2fe641dadb7a90 1410959480
+obj /home/core/gentoo/usr/share/nano/texinfo.nanorc 5e652b4cd223dd4554872ac48e7f2779 1410959480
+obj /home/core/gentoo/usr/share/nano/lua.nanorc f1c56d2e2af61807b90d8927ca660ddd 1410959480
+obj /home/core/gentoo/usr/share/nano/perl.nanorc ca12cee06d68900bf53103506471b627 1410959480
+obj /home/core/gentoo/usr/share/nano/python.nanorc 719235d04a492df2efe2856c74ce6665 1410959480
+obj /home/core/gentoo/usr/share/nano/ocaml.nanorc 10f1cf7d58d61bbb39313c397a68a8fa 1410959480
+obj /home/core/gentoo/usr/share/nano/gentoo.nanorc 491f5f9f3ac39b694b45179f63db8d59 1410959480
+obj /home/core/gentoo/usr/share/nano/debian.nanorc eaa61ed18e34c8480b4bb40344069390 1410959480
+obj /home/core/gentoo/usr/share/nano/html.nanorc af221bd2900c4d6c502c58f8ace23e0c 1410959480
+obj /home/core/gentoo/usr/share/nano/ruby.nanorc b7bf0e7d49d47a81c4194040fcfbbf1f 1410959480
+obj /home/core/gentoo/usr/share/nano/groff.nanorc f9168ed837e96cfa08a1e9e03f721e94 1410959480
+obj /home/core/gentoo/usr/share/nano/man.nanorc b0172f82e1a82562001f4f6a4c34a952 1410959480
+obj /home/core/gentoo/usr/share/nano/go.nanorc ec5d4a4f06ae80f1d2cd33910a77654b 1410959480
+obj /home/core/gentoo/usr/share/nano/pov.nanorc 1ce8bfe992839c062b47eafeb014f839 1410959480
+obj /home/core/gentoo/usr/share/nano/mutt.nanorc 0593e1b264de4c27e3f8a5dccd5c0791 1410959480
+obj /home/core/gentoo/usr/share/nano/css.nanorc 9c85af03731f0592ee5c055acc366261 1410959480
+obj /home/core/gentoo/usr/share/nano/changelog.nanorc dadfa38ce76b3882634fcc1153cc9649 1410959480
+obj /home/core/gentoo/usr/share/nano/spec.nanorc f686f1da827a7b43402e44a3cd804313 1410959480
+obj /home/core/gentoo/usr/share/nano/c.nanorc 554579e6bd3fba9864d90286bd9ac00a 1410959480
+obj /home/core/gentoo/usr/share/nano/tcl.nanorc e2777a12c04e650dcbb1d96b119d485e 1410959480
+obj /home/core/gentoo/usr/share/nano/json.nanorc b5d1c4c1a8e6a6d0c5d70952a4bd6d65 1410959480
+obj /home/core/gentoo/usr/share/nano/php.nanorc 4caa9decd78718c432d1da6e6d218c02 1410959480
+obj /home/core/gentoo/usr/share/nano/asm.nanorc c4f39363cd32aa55bfea7d5d1c3c3dec 1410959480
+obj /home/core/gentoo/usr/share/nano/xml.nanorc d53432028ffd57b6ef7aa2c33b00ca6f 1410959480
+obj /home/core/gentoo/usr/share/nano/fortran.nanorc c91af342a968c0dae02a61d73e5ef2af 1410959480
+obj /home/core/gentoo/usr/share/nano/tex.nanorc 613ebfa3fa8ca9299473bd3b85e38b2a 1410959480
+obj /home/core/gentoo/usr/share/nano/default.nanorc dc8d6d0c3df57ac2cb2367f6159ab203 1410959480
+obj /home/core/gentoo/usr/share/nano/mgp.nanorc f6c6003c19979cce80e843d7fd1f3de2 1410959480
+obj /home/core/gentoo/usr/share/nano/objc.nanorc f873b72862ad2f172c14d475350140f0 1410959480
+obj /home/core/gentoo/usr/share/nano/nanorc.nanorc 3ed7e70725c9e851417f6b2454e03b7a 1410959480
+obj /home/core/gentoo/usr/share/nano/cmake.nanorc e97a565adcf5a0355e6d946103c05a65 1410959480
+obj /home/core/gentoo/usr/share/nano/sh.nanorc def6f46a557a9cdb830333e18786f995 1410959480
+obj /home/core/gentoo/usr/share/nano/awk.nanorc fb2fb73e5ec3f2180e0e5c8cd1033a57 1410959480
+obj /home/core/gentoo/usr/share/nano/po.nanorc ca0b8ce3ee363a6bc63faa26ac210773 1410959480
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man5
+obj /home/core/gentoo/usr/share/man/man5/nanorc.5.bz2 b04a5c02f1f3e4cca3e93caacb78d3c3 1410959480
+dir /home/core/gentoo/usr/share/man/fr
+dir /home/core/gentoo/usr/share/man/fr/man5
+obj /home/core/gentoo/usr/share/man/fr/man5/nanorc.5.bz2 fd8b23472928eadf3835c2def05c0818 1410959480
+dir /home/core/gentoo/usr/share/man/fr/man1
+obj /home/core/gentoo/usr/share/man/fr/man1/rnano.1.bz2 ece56d1a4c69e4f1acc2988a06035738 1410959480
+obj /home/core/gentoo/usr/share/man/fr/man1/nano.1.bz2 752856dc8af86d5581612f9692302dfe 1410959480
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/nano.1.bz2 65e8ace34401d75c17217db796963eb8 1410959480
+obj /home/core/gentoo/usr/share/man/man1/rnano.1.bz2 38c2f0dfe03839ec41043fe0da7f5824 1410959480
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/nano-2.3.6
+obj /home/core/gentoo/usr/share/doc/nano-2.3.6/THANKS.bz2 25cd14c2ee28b5941dce9854557d1279 1410959483
+obj /home/core/gentoo/usr/share/doc/nano-2.3.6/ChangeLog.bz2 ac4f37d778835cf0ed5a77f038dca115 1410959483
+obj /home/core/gentoo/usr/share/doc/nano-2.3.6/README.SVN.bz2 d7270a804d45b1f6a39ba40c6dd546f2 1410959482
+dir /home/core/gentoo/usr/share/doc/nano-2.3.6/html
+obj /home/core/gentoo/usr/share/doc/nano-2.3.6/html/faq.html f851b621029e2d1117816f9a1349c4f5 1410959483
+obj /home/core/gentoo/usr/share/doc/nano-2.3.6/NEWS.bz2 6af456bb2008ff15b0c5b34eb7368a65 1410959483
+obj /home/core/gentoo/usr/share/doc/nano-2.3.6/TODO.bz2 fafa7eea10da943d0fdf26c9523dd445 1410959483
+obj /home/core/gentoo/usr/share/doc/nano-2.3.6/AUTHORS.bz2 4fb9e8c4c650de3027766fdf18a6fdc6 1410959483
+obj /home/core/gentoo/usr/share/doc/nano-2.3.6/README.bz2 816961515ea0ee2fcb5a57f95a8dd214 1410959482
+obj /home/core/gentoo/usr/share/doc/nano-2.3.6/nanorc.sample.bz2 b088f25ce583670bfef2cfaddd4acb73 1410959483
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/nano.info.bz2 01afaca662c420e9f298e46ad282282b 1410959480
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/nano -> /home/core/gentoo/bin/nano 1410959606
+dir /home/core/gentoo/bin
+obj /home/core/gentoo/bin/nano b618d3e5b8bb98a517f23b834b58a596 1410959484
+sym /home/core/gentoo/bin/rnano -> nano 1410959606

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=x11-libs/libXext virtual/opengl virtual/glu
+DESCRIPTION=Dominions 2: The Ascension Wars is an epic turn-based fantasy strategy game
+EAPI=2
+HOMEPAGE=http://www.shrapnelgames.com/Illwinter/d2/
+KEYWORDS=x86
+LICENSE=all-rights-reserved
+RDEPEND=x11-libs/libXext virtual/opengl virtual/glu
+RESTRICT=mirror bindist strip
+SLOT=0
+SRC_URI=http://www.shrapnelgames.com/downloads/dom2demo_linux_x86.tgz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=436a4c0e43af66386138de5ac8aef7f4

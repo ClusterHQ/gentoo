@@ -1,0 +1,1 @@
+!app-admin/eselect-news sys-apps/sed || ( sys-apps/coreutils sys-freebsd/freebsd-bin app-misc/realpath ) sys-apps/file sys-libs/ncurses

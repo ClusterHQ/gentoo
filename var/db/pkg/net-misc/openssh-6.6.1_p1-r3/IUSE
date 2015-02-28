@@ -1,0 +1,1 @@
+bindist +hpn kerberos ldap ldns libedit pam selinux skey static tcpd X X509

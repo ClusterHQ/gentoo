@@ -1,0 +1,12 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/perl5
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/ExtUtils
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/ExtUtils/Command.pm 44d01ea84b7cdfc020f33980bfecd685 1410959363
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/ExtUtils-Command-1.180.0-r1
+obj /home/core/gentoo/usr/share/doc/ExtUtils-Command-1.180.0-r1/README.bz2 29a877f658f09bdd834069ca6a912ba2 1410959363
+obj /home/core/gentoo/usr/share/doc/ExtUtils-Command-1.180.0-r1/Changes.bz2 8e47d3a6b31c59b059364f0ea7ec903c 1410959363

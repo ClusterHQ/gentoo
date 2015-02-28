@@ -1,0 +1,25 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/lz4-0_p120
+obj /home/core/gentoo/usr/share/doc/lz4-0_p120/NEWS.bz2 b058450a1748dd45f095fde5d03426ed 1411049257
+obj /home/core/gentoo/usr/share/doc/lz4-0_p120/README.md.bz2 5b9b4cecf765523e250bef3e60f0d041 1411049257
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/lz4cat.1.bz2 f93dc48491f8b3072bd7ebe278ac6905 1411049257
+obj /home/core/gentoo/usr/share/man/man1/lz4c.1.bz2 dc3eca09a0958f5a2bf1717530dfd557 1411049257
+obj /home/core/gentoo/usr/share/man/man1/lz4.1.bz2 44f341cd5bdfeb080f8a2e2fb85efd62 1411049257
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/lz4c b37d36f54387fc30b1b002f80e47d607 1411049258
+obj /home/core/gentoo/usr/bin/lz4 89c978514009e82c13dc9a3a3b275f15 1411049258
+sym /home/core/gentoo/usr/bin/lz4cat -> lz4 1411049258
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/lz4hc.h 5af6c906d6f4f6cd931ab952a12b62ea 1411049257
+obj /home/core/gentoo/usr/include/lz4.h 50b36575955bf915c5bbd7a73d9a9991 1411049257
+dir /home/core/gentoo/usr/lib
+obj /home/core/gentoo/usr/lib/liblz4.a fb6def4c511f9b7e0c3dc01dc62f4a65 1411049258
+obj /home/core/gentoo/usr/lib/liblz4.so.1.3.0 c86d7bf34582887e0aef219e32ad0fc1 1411049257
+sym /home/core/gentoo/usr/lib/liblz4.so -> liblz4.so.1.3.0 1411049258
+sym /home/core/gentoo/usr/lib/liblz4.so.1 -> liblz4.so.1.3.0 1411049258
+dir /home/core/gentoo/usr/lib/pkgconfig
+obj /home/core/gentoo/usr/lib/pkgconfig/liblz4.pc 7d66631626e7408d9ed82b90167d032b 1411049257

@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=A parodic fantasy module for Neverwinter Nights
+HOMEPAGE=http://pixelscapes.com/penultima
+KEYWORDS=-* amd64 x86
+LICENSE=freedist
+RDEPEND=games-rpg/nwn
+SLOT=0
+SRC_URI=http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1674/PR0_and_PR1_Penultima_ReRolled_Starter_Pack_v1.4.zip http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1675/PR2_Below_the_R00t.v1.zip http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1676/PR3_Homeland_Security.v1.4.zip http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1677/PR4_Pastor_of_Muppets.v1.1.zip http://c.vnfiles.ign.com/nwvault.ign.com/fms/files/modules/1678/PR5_The_Saving_Throw.v1.1.zip
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=e908a190e0019a5d2d7efe9e48cd1cbd

@@ -1,0 +1,25 @@
+# ChangeLog for dev-ruby/connection_pool
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/connection_pool/ChangeLog,v 1.4 2014/05/16 18:42:10 graaff Exp $
+
+*connection_pool-2.0.0 (16 May 2014)
+
+  16 May 2014; Hans de Graaff <graaff@gentoo.org>
+  +connection_pool-2.0.0.ebuild:
+  Version bump.
+
+  10 Jan 2014; Hans de Graaff <graaff@gentoo.org> connection_pool-1.2.0.ebuild:
+  Fix implicit dependency on git.
+
+*connection_pool-1.2.0 (27 Nov 2013)
+
+  27 Nov 2013; Manuel Rüger <mrueg@gentoo.org> +connection_pool-1.2.0.ebuild,
+  -connection_pool-1.1.0.ebuild:
+  Version bump. Drop old.
+
+*connection_pool-1.1.0 (25 Nov 2013)
+
+  25 Nov 2013; Manuel Rüger <mrueg@gentoo.org> +connection_pool-1.1.0.ebuild,
+  +metadata.xml:
+  Initial ebuild by Tiziano Müller (dev-zero). Taken from his overlay. Added
+  minor changes.

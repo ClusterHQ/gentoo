@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install test unpack
+DEPEND=zlib? ( >=sys-libs/zlib-1.2.2.3 ) bzip2? ( app-arch/bzip2 ) lzma? ( app-arch/xz-utils ) nls? ( sys-devel/gettext ) >=sys-devel/flex-2.5.4a sys-devel/m4 !dev-libs/libelf
+DESCRIPTION=Libraries/utilities to handle ELF objects (drop in replacement for libelf)
+HOMEPAGE=https://fedorahosted.org/elfutils
+IUSE=bzip2 lzma nls zlib
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2-with-exceptions
+RDEPEND=zlib? ( >=sys-libs/zlib-1.2.2.3 ) bzip2? ( app-arch/bzip2 ) lzma? ( app-arch/xz-utils )
+SLOT=0
+SRC_URI=https://fedorahosted.org/releases/e/l/elfutils/0.150/elfutils-0.150.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=2486b1ab2c7565223924c8de88cb237f

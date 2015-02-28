@@ -1,0 +1,17 @@
+/home/core/gentoo/bin/pidof libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/bin/kill libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/bin/ps libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/tload libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/w libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/vmstat libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/pkill libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/pwdx libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/pgrep libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/free libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/watch libprocps.so.3,libncursesw.so.5,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/uptime libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/pmap libprocps.so.3,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/slabtop libprocps.so.3,libncurses.so.5,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/bin/top libprocps.so.3,libncurses.so.5,libdl.so.2,libc.so.6
+/home/core/gentoo/usr/lib/libprocps.so.3.0.0 libdl.so.2,libc.so.6
+/home/core/gentoo/sbin/sysctl libprocps.so.3,libdl.so.2,libc.so.6

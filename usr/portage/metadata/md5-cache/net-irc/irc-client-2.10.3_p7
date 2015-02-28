@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-libs/ncurses sys-libs/zlib
+DESCRIPTION=A simplistic RFC compliant IRC client
+HOMEPAGE=http://www.irc.org
+IUSE=ipv6
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-1
+RDEPEND=sys-libs/ncurses sys-libs/zlib !net-irc/irc-client
+SLOT=0
+SRC_URI=ftp://ftp.irc.org/irc/server/irc2.10.3p7.tgz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=e6e982b070f490cb86a27cf1a866bac8

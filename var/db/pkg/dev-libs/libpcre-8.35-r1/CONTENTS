@@ -1,0 +1,201 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+obj /home/core/gentoo/usr/lib/libpcrecpp.so.0.0.0 22b67ad20438c0678118106cff4492b1 1410959643
+obj /home/core/gentoo/usr/lib/libpcre.so.1.2.3 8619ee421420557e921eab8482c0e0f9 1410959643
+sym /home/core/gentoo/usr/lib/libpcreposix.so.0 -> libpcreposix.so.0.0.2 1410959743
+sym /home/core/gentoo/usr/lib/libpcrecpp.so -> libpcrecpp.so.0.0.0 1410959743
+sym /home/core/gentoo/usr/lib/libpcrecpp.so.0 -> libpcrecpp.so.0.0.0 1410959743
+sym /home/core/gentoo/usr/lib/libpcreposix.so -> libpcreposix.so.0.0.2 1410959743
+dir /home/core/gentoo/usr/lib/pkgconfig
+obj /home/core/gentoo/usr/lib/pkgconfig/libpcreposix.pc df914456080bdafb83599a62bda1c003 1410959641
+obj /home/core/gentoo/usr/lib/pkgconfig/libpcrecpp.pc 4b87787987cc97aae8ccb2c51756acc4 1410959641
+obj /home/core/gentoo/usr/lib/pkgconfig/libpcre.pc a44023b59ea257006bd81986d79605df 1410959641
+sym /home/core/gentoo/usr/lib/libpcre.so.1 -> libpcre.so.1.2.3 1410959743
+sym /home/core/gentoo/usr/lib/libpcre.so -> libpcre.so.1.2.3 1410959743
+obj /home/core/gentoo/usr/lib/libpcreposix.so.0.0.2 0a894072342440d817769e2df72816fe 1410959643
+dir /home/core/gentoo/usr/bin
+sym /home/core/gentoo/usr/bin/pcre-config -> x86_64-pc-linux-gnu-pcre-config 1410959743
+obj /home/core/gentoo/usr/bin/pcregrep 75cd98a0b70e78764f822179284a7505 1410959643
+obj /home/core/gentoo/usr/bin/pcretest 6dbc87954de539d71da055b3de25440d 1410959643
+obj /home/core/gentoo/usr/bin/x86_64-pc-linux-gnu-pcre-config 339564654a797c6a5edc42f522773d55 1410959643
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/libpcre-8.35-r1
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/LICENCE.bz2 ca966f5379e497eb126011f3e43f6092 1410959641
+dir /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcretest.html 34d09b5d0da3b02d63e081d285c6bd3c 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcredemo.html c93c934cd9e5b710cc540966f0d779b9 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_copy_named_substring.html f11ef85dd5b356935c948328009f0fbd 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_fullinfo.html e7b0015c4bbeac68faa2fb71e19a9d99 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_pattern_to_host_byte_order.html 2db9f29d6a65528d2bfe03332a3b4c68 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_get_substring_list.html be66c2fa49ec2ad3ad148854a0205780 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcrecpp.html 5d819af52cc11da5fb895d3b208828bf 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_utf16_to_host_byte_order.html f2f068995c8ee023d9c8f9c297dd0e0e 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_utf32_to_host_byte_order.html f632b9cec6398930291ce5169b208327 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_get_stringtable_entries.html 63319d085b59f953b8439ed8fe8af674 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcreapi.html 30022869d0d2b8f4d032c885cebe0ea0 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre.html 30add5848e53ff4f24f312dfe7d98ee3 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_free_substring_list.html 6f0a4280e0eec92722b244c2df0a9eac 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_compile.html 923bdf92340fa292dd8644d0dcff1e60 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_config.html f8433b47c2480b95cb47c767b0b85093 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_free_substring.html 053f2f0e8f499731fac9c55b87e0badd 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcrebuild.html 673f73caec3c00b31f87af2448f0658a 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_jit_stack_alloc.html 43df4765112b77ef5e2abe17c39641e9 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcreunicode.html d35a12f66b12f7ee7a476268148a75cf 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcrestack.html 0f2b1715e6e17e10baf45c19b6c106df 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/NON-AUTOTOOLS-BUILD.txt 2d66fdc2558199d859c84ec68b66ad6b 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_copy_substring.html 219aaaccb0199163cf2e1592bcf4bcb7 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_study.html 6f1bfa121cb74bea7c262d2f4a9dd94b 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_refcount.html 7f737aeea39d8f9d7f5ae2a2e2d6e5d8 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre-config.html ff1c2fa7fba3640931d6309d8778d1b0 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcresample.html 871f562253da91993e9ac6ee956f13fc 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcrejit.html e75aef4d0b14a0b51d24e49acc09d910 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_jit_exec.html 8bce934481280fb18bf77eda64b7c407 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_exec.html 843b1a535e4b74096e828d3146ea7b0b 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcrepattern.html b4db7c90f450a95882d7c7413adeb83e 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_assign_jit_stack.html 23e77bbe00a68c87ac231e6659bea32d 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre32.html 314190a4396a7a84eb2f5d20f010e67e 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_dfa_exec.html d6f9e67a0280afd569ac56be79162b4b 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_free_study.html 92ca171dd9d4d4e23a109d5cb168a850 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcrecallout.html bcfb171ccd6d3615ed6ff13ce2ed4c65 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcreposix.html 7cb65239e37f6708e37915602704637f 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcrecompat.html c8e36e061b2f2dcdc3e372bef75d852c 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_compile2.html f4e314072a5485e765a9df9d80c9dfe2 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcrematching.html 2b8661ce758d582645b24acb32ce830f 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_maketables.html 4f2fc99be29dc78ca2dc23d3bcef9d00 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_get_stringnumber.html c6dd2531a56e7beaabb056fc10e02f8c 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/README.txt 40c40d9896ed127d238c0833c63274a7 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcrelimits.html d80e89495d6130fda65e973514b7dce7 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre16.html 4a5725ac14d122a1103e7545cb542f87 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcreprecompile.html 8b3245d9497825513d347d0f97881c64 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcresyntax.html 73136a2fbd92531589532afbfd101d00 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/index.html 513e7914d2adec55f1f068cb413944aa 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_get_named_substring.html 9196f7d6e8530055f84117ad5e241fb2 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_version.html 9dd6b4507ac44e3bf194bbc4d16a607a 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_get_substring.html b3dbd62c6b5ab33e13a008e1135faf8a 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcrepartial.html c5cee18d392975036fa1e37422d20cf9 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcre_jit_stack_free.html e01892b08961f3ba064a319e0447c036 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcreperform.html eacc004dd7ff6b1224ae92d3237a5ddd 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/html/pcregrep.html 9693321132f07296943ee16934460b4a 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/ChangeLog.bz2 376cd315df3c9dbfad9dade3dafc3c15 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/pcretest.txt.bz2 24f549ff8090d0049d25123663c288fe 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/README.bz2 8ee704d60eb86b02c1a29e5eb17fa6a0 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/COPYING 266ebc3ff74ee9ce6fad65577667c0f4 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/pcregrep.txt.bz2 a8768369c89b51eac6541110dc5e8651 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/AUTHORS.bz2 b270ed5080588dfd2948da9a9c4af7a9 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/NEWS.bz2 056b1c2f01f99369a5b42616fd6e1cba 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/pcre-config.txt.bz2 ac08805076daf81e715b560b0f3c88a8 1410959641
+obj /home/core/gentoo/usr/share/doc/libpcre-8.35-r1/pcre.txt.bz2 d4d8c6ad317cdc3956fcbb4f1d7f1f9d 1410959641
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man3
+obj /home/core/gentoo/usr/share/man/man3/pcrepattern.3.bz2 96a7ff8dd466269c9fe690abf7c88da6 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre16_copy_named_substring.3.bz2 -> pcre_copy_named_substring.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_get_stringtable_entries.3.bz2 -> pcre_get_stringtable_entries.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_compile2.3.bz2 10f27d51ba4aef629268c3a19f75cbd8 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_pattern_to_host_byte_order.3.bz2 35fc385c29e8d7b820907822232e466a 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_get_substring_list.3.bz2 b56b76d628140a411d8ba7690a078ee5 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcrematching.3.bz2 3e13be147912cdcbb0971fbe4af17ef2 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_config.3.bz2 -> pcre_config.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_assign_jit_stack.3.bz2 -> pcre_assign_jit_stack.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_get_named_substring.3.bz2 -> pcre_get_named_substring.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcreprecompile.3.bz2 ac4ebb4ac31b36af82bba3daa21e55de 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcrestack.3.bz2 967f40067557772e95e7a99a1a8672cf 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_fullinfo.3.bz2 9cdfcc7f47d2bbf867986903456bec4c 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_utf16_to_host_byte_order.3.bz2 214b3351411de6b294c9d847e32973ba 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcrepartial.3.bz2 55c8f1c70e46b4bad7d9618dc5ccc6f2 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_assign_jit_stack.3.bz2 -> pcre_assign_jit_stack.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_get_substring_list.3.bz2 -> pcre_get_substring_list.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_utf16_to_host_byte_order.3.bz2 -> pcre_utf16_to_host_byte_order.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_maketables.3.bz2 -> pcre_maketables.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcreposix.3.bz2 272530994071cd19461a68ca68b0eef9 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcreapi.3.bz2 a8af92f2a411e32bd2f5bfa993ee8128 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_dfa_exec.3.bz2 4bf0f54804b56df0a4802deec7703cac 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre16_refcount.3.bz2 -> pcre_refcount.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_jit_stack_alloc.3.bz2 -> pcre_jit_stack_alloc.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_get_stringtable_entries.3.bz2 61a662afd983ee6196f6d96025dddafb 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_assign_jit_stack.3.bz2 40997b942f52326aab2e5486b990b38b 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcresample.3.bz2 aa1ca3f48de65e041b935f78a3c28730 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_fullinfo.3.bz2 -> pcre_fullinfo.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_config.3.bz2 -> pcre_config.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_free_substring.3.bz2 -> pcre_free_substring.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre32.3.bz2 09f4d24cfac57dd6411a6222c07a920d 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_dfa_exec.3.bz2 -> pcre_dfa_exec.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_exec.3.bz2 -> pcre_exec.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_compile.3.bz2 5b2ac76ac3f5e456c7b6b2e7aefff552 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_free_study.3.bz2 52b34b55940352a191383106ccc68509 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre16_get_stringtable_entries.3.bz2 -> pcre_get_stringtable_entries.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_jit_stack_free.3.bz2 -> pcre_jit_stack_free.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_get_substring.3.bz2 -> pcre_get_substring.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_jit_stack_free.3.bz2 214a8a5b68f7e6af57a4d12ac252e7e0 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_compile2.3.bz2 -> pcre_compile2.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_free_substring.3.bz2 -> pcre_free_substring.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcredemo.3.bz2 fa83d2531fd7430d693a747b01404709 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_free_substring.3.bz2 9b7767133aa679fd1055a9eace0c55a6 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcrecompat.3.bz2 791c946a8b8510950d3adfb86e63797d 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_exec.3.bz2 f1e08535ad1aec9498f391071a3135f3 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcrelimits.3.bz2 38e9c711ca63ef5959f28af1178ee4a8 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre16_compile.3.bz2 -> pcre_compile.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcreunicode.3.bz2 073ce48c2e30053dabc5ab3984a57c3d 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_pattern_to_host_byte_order.3.bz2 -> pcre_pattern_to_host_byte_order.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_get_named_substring.3.bz2 4d31bf24bec9dcdaf2b57832339f7dad 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre16_jit_stack_free.3.bz2 -> pcre_jit_stack_free.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_free_substring_list.3.bz2 -> pcre_free_substring_list.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_jit_exec.3.bz2 -> pcre_jit_exec.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_version.3.bz2 -> pcre_version.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_free_study.3.bz2 -> pcre_free_study.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_utf32_to_host_byte_order.3.bz2 e572b5b5011e3983d827e758b419ac8e 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre16_get_stringnumber.3.bz2 -> pcre_get_stringnumber.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_jit_exec.3.bz2 -> pcre_jit_exec.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_get_substring_list.3.bz2 -> pcre_get_substring_list.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_jit_stack_alloc.3.bz2 2ee00b47f16e386e142975867d0c4d71 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre16_copy_substring.3.bz2 -> pcre_copy_substring.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_get_substring.3.bz2 -> pcre_get_substring.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_compile2.3.bz2 -> pcre_compile2.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcrecallout.3.bz2 a0deb30d937a8eb0adea05311926525c 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_study.3.bz2 -> pcre_study.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_copy_named_substring.3.bz2 fc6fec5acce3c9577efe775c1b6bbac6 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcrebuild.3.bz2 8fdba18649efb351b87bfd6f9089820f 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_get_stringnumber.3.bz2 -> pcre_get_stringnumber.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_free_substring_list.3.bz2 -> pcre_free_substring_list.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_dfa_exec.3.bz2 -> pcre_dfa_exec.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_refcount.3.bz2 3863ae3eb8ac49f2dbcf0da75bf4eae4 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_config.3.bz2 27bc1ab1e62901135632041b42684b29 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_free_study.3.bz2 -> pcre_free_study.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_fullinfo.3.bz2 -> pcre_fullinfo.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_copy_substring.3.bz2 2efdcb44b22bca328e76bf4c8b6fbd28 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_copy_substring.3.bz2 -> pcre_copy_substring.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_utf32_to_host_byte_order.3.bz2 -> pcre_utf32_to_host_byte_order.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_pattern_to_host_byte_order.3.bz2 -> pcre_pattern_to_host_byte_order.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_get_named_substring.3.bz2 -> pcre_get_named_substring.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcrejit.3.bz2 e07e1580c5234aec32498caadf8dbf99 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcrecpp.3.bz2 89733301fb2544d90d4458ce0d3c2ee8 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_copy_named_substring.3.bz2 -> pcre_copy_named_substring.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_free_substring_list.3.bz2 6736daeb63bab07e32eeb890ed124c51 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_refcount.3.bz2 -> pcre_refcount.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre16_version.3.bz2 -> pcre_version.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_jit_stack_alloc.3.bz2 -> pcre_jit_stack_alloc.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_get_substring.3.bz2 5bc78755cabbc8c0b08ac56d2fed2a6e 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_get_stringnumber.3.bz2 5605389ea0f6f56fc9df883240c0cdd5 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_maketables.3.bz2 8539833f9a8294eecd817569cfb701f6 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre32_compile.3.bz2 -> pcre_compile.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcresyntax.3.bz2 373350dbd652eca668d432b411439149 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre16.3.bz2 11a17400cda613972fc4b9e0e8f126c5 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre16_study.3.bz2 -> pcre_study.3.bz2 1410959743
+sym /home/core/gentoo/usr/share/man/man3/pcre32_exec.3.bz2 -> pcre_exec.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre_jit_exec.3.bz2 98dc7684013c27b05e6e5d62885a9f1b 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_study.3.bz2 e8925026821d352c05702766e1ea48d3 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcre_version.3.bz2 a23014b75caff99ab07ed0638aea59cf 1410959641
+sym /home/core/gentoo/usr/share/man/man3/pcre16_maketables.3.bz2 -> pcre_maketables.3.bz2 1410959743
+obj /home/core/gentoo/usr/share/man/man3/pcre.3.bz2 29a7cab70a81f12df4e13503f9920edf 1410959641
+obj /home/core/gentoo/usr/share/man/man3/pcreperform.3.bz2 9259eebe1682ba2a9a7c4b88a7e49b56 1410959641
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/pcretest.1.bz2 900bb0b5a9b0764f728cccf28da47455 1410959641
+obj /home/core/gentoo/usr/share/man/man1/pcregrep.1.bz2 4bfd538b729babb405a4f1e76d72b20e 1410959641
+obj /home/core/gentoo/usr/share/man/man1/pcre-config.1.bz2 56eb741bfdd226717dd8baef28655acd 1410959641
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/pcrecpp.h 7c2dded866f6678ea8d139a8328ad585 1410959641
+obj /home/core/gentoo/usr/include/pcre.h 34f27a79a471b45874599d9f941aa328 1410959641
+obj /home/core/gentoo/usr/include/pcre_stringpiece.h a87501818c786dc0965bec24d4e0d201 1410959641
+obj /home/core/gentoo/usr/include/pcreposix.h 9c67f0d3ea8d1494e04125afe9c3eb31 1410959641
+obj /home/core/gentoo/usr/include/pcre_scanner.h 524fc49143dd83fa94d12e0b180d6be6 1410959641
+obj /home/core/gentoo/usr/include/pcrecpparg.h f907364a60cda13f1916726a65c9bd6c 1410959641

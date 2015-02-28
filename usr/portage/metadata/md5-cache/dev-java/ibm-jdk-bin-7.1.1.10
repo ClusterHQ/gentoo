@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install nofetch postinst postrm prepare prerm setup unpack
+DEPEND==dev-java/java-config-2* || ( app-admin/eselect-java <dev-java/java-config-2.2 )
+DESCRIPTION=IBM Java SE Development Kit
+EAPI=4
+HOMEPAGE=http://www.ibm.com/developerworks/java/jdk/
+IUSE=X alsa doc examples nsplugin odbc
+KEYWORDS=-* ~amd64 ~ppc ~ppc64 ~x86 ~ppc-aix
+LICENSE=kernel_Linux? ( IBM-J7.1 ) kernel_AIX? ( IBM-J7.AIX )
+RDEPEND=ppc? ( =virtual/libstdc++-3.3 ) ppc64? ( =virtual/libstdc++-3.3 ) X? ( x11-libs/libXi x11-libs/libXrender x11-libs/libXtst ) alsa? ( media-libs/alsa-lib ) doc? ( =dev-java/java-sdk-docs-1.7* ) odbc? ( dev-db/unixODBC ) =dev-java/java-config-2* || ( app-admin/eselect-java <dev-java/java-config-2.2 )
+RESTRICT=fetch splitdebug strip
+SLOT=7
+SRC_URI=x86? ( ibm-java-sdk-7.1-1.0-i386-archive.bin ) amd64? ( ibm-java-sdk-7.1-1.0-x86_64-archive.bin ) ppc? ( ibm-java-sdk-7.1-1.0-ppc-archive.bin ) ppc64? ( ibm-java-sdk-7.1-1.0-ppc64-archive.bin ) ppc-aix? ( j7r132redist.7.1.0.10.bin )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	java-vm-2	834752b84da3c4deea95f5b186aada54	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	pax-utils	8257582809714b788173511f975d767d	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=7a6fc3b34116f92800bb713c8d210af9

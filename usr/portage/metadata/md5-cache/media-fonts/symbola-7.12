@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm prepare setup
+DEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings )
+DESCRIPTION=Unicode font for Basic Latin, IPA Extensions, Greek, Cyrillic and many Symbol Blocks
+EAPI=4
+HOMEPAGE=http://users.teilar.gr/~g1951d/
+IUSE=doc X
+KEYWORDS=amd64 ~arm ppc x86
+LICENSE=Unicode_Fonts_for_Ancient_Scripts
+SLOT=0
+SRC_URI=http://users.teilar.gr/~g1951d/Symbola.ttf -> symbola-7.12.ttf doc? ( http://users.teilar.gr/~g1951d/Symbola.docx -> symbola-7.12.docx http://users.teilar.gr/~g1951d/Symbola.pdf -> symbola-7.12.pdf )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	font	37271e0911f39dd15a28adcaf94f6956	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=bd1f7f3d61d96fb3bde0a745bc49638b

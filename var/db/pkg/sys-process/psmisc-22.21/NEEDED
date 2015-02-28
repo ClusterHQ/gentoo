@@ -1,0 +1,5 @@
+/home/core/gentoo/bin/fuser libc.so.6
+/home/core/gentoo/usr/bin/killall libc.so.6
+/home/core/gentoo/usr/bin/prtstat libc.so.6
+/home/core/gentoo/usr/bin/pstree libncurses.so.5,libc.so.6
+/home/core/gentoo/usr/bin/peekfd libc.so.6

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst postrm setup
+DEPEND=dev-python/empy dev-python/imaging =dev-lang/python-2*
+DESCRIPTION=Python HTML Slideshow Generator using HTML and CSS
+EAPI=3
+HOMEPAGE=http://www.chrisarndt.de/en/software/pylize/
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-python/empy dev-python/imaging =dev-lang/python-2*
+SLOT=0
+SRC_URI=http://www.chrisarndt.de/en/software/pylize/download/pylize-1.3b.tar.bz2
+_eclasses_=multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=0beecaabb0dcb8ad164a379c38d8aca7

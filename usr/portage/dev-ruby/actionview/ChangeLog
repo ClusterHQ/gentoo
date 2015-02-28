@@ -1,0 +1,47 @@
+# ChangeLog for dev-ruby/actionview
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/actionview/ChangeLog,v 1.10 2014/09/12 06:27:16 graaff Exp $
+
+*actionview-4.1.6 (12 Sep 2014)
+
+  12 Sep 2014; Hans de Graaff <graaff@gentoo.org> +actionview-4.1.6.ebuild:
+  Version bump.
+
+  23 Aug 2014; Hans de Graaff <graaff@gentoo.org> -actionview-4.1.4.ebuild:
+  Cleanup.
+
+*actionview-4.1.5 (18 Aug 2014)
+
+  18 Aug 2014; Hans de Graaff <graaff@gentoo.org> +actionview-4.1.5.ebuild:
+  Version bump for security bug 520212.
+
+  12 Aug 2014; Anthony G. Basile <blueness@gentoo.org> actionview-4.1.4.ebuild:
+  Keyword ~ppc and ~ppc64, bug #519170
+
+  12 Jul 2014; Hans de Graaff <graaff@gentoo.org> -actionview-4.1.1.ebuild,
+  -actionview-4.1.2.ebuild:
+  Remove vulnerable versions.
+
+*actionview-4.1.4 (03 Jul 2014)
+
+  03 Jul 2014; Hans de Graaff <graaff@gentoo.org> +actionview-4.1.4.ebuild:
+  Version bump to Rails 4.1.4 for security bug 516084.
+
+*actionview-4.1.2 (26 Jun 2014)
+
+  26 Jun 2014; Hans de Graaff <graaff@gentoo.org> +actionview-4.1.2.ebuild:
+  Version bump to Rails 4.1.2.
+
+  12 May 2014; Hans de Graaff <graaff@gentoo.org> -actionview-4.1.0.ebuild:
+  Cleanup.
+
+*actionview-4.1.1 (06 May 2014)
+
+  06 May 2014; Hans de Graaff <graaff@gentoo.org> +actionview-4.1.1.ebuild:
+  Version bump for Rails 4.1.1, security bug 509706.
+
+*actionview-4.1.0 (26 Apr 2014)
+
+  26 Apr 2014; Hans de Graaff <graaff@gentoo.org> +actionview-4.1.0.ebuild,
+  +metadata.xml:
+  Version bump for Rails 4.1. Drop x86, bug 508780.

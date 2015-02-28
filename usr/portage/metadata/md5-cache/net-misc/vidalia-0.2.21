@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEPEND=dev-qt/qtgui:4[debug?] sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Qt 4 front-end for Tor
+EAPI=4
+HOMEPAGE=https://www.torproject.org/projects/vidalia.html.en
+IUSE=debug +tor
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=|| ( GPL-3 GPL-2 ) openssl
+RDEPEND=dev-qt/qtgui:4[debug?] tor? ( net-misc/tor )
+SLOT=0
+SRC_URI=https://www.torproject.org/dist/vidalia/vidalia-0.2.21.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	cmake-utils	da2974fcb060ec927e93a17c835afa67	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	qmake-utils	40136c5fe0002a0d3937e869ae4ee0e2	qt4-r2	b40473dafd07d7c5fe4aef1c1b902f39	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=97e130b4f649ba7c5f8cd910ecb97711

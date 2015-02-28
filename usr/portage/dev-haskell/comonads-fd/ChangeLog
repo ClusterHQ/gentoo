@@ -1,0 +1,18 @@
+# ChangeLog for dev-haskell/comonads-fd
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-haskell/comonads-fd/ChangeLog,v 1.3 2014/07/25 08:58:26 slyfox Exp $
+
+  25 Jul 2014; Sergei Trofimovich <slyfox@gentoo.org> metadata.xml:
+  Drop redundant '<maintainer>' field, leave only '<herd>'.
+
+*comonads-fd-4.0 (19 Oct 2013)
+
+  19 Oct 2013; Mark Wright <gienah@gentoo.org> +comonads-fd-4.0.ebuild:
+  Bump comonads-fd to 4.0
+
+*comonads-fd-3.0.3 (26 Aug 2013)
+*comonads-fd-3.0.2 (26 Aug 2013)
+
+  26 Aug 2013; Alexander Vershilov <qnikst@gentoo.org>
+  +comonads-fd-3.0.2.ebuild, +comonads-fd-3.0.3.ebuild, +metadata.xml:
+  dev-haskell/comonads-fd: initial layout

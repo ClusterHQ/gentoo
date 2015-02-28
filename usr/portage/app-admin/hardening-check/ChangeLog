@@ -1,0 +1,34 @@
+# ChangeLog for app-admin/hardening-check
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-admin/hardening-check/ChangeLog,v 1.8 2014/08/10 10:14:22 ago Exp $
+
+  10 Aug 2014; Agostino Sarubbo <ago@gentoo.org> -hardening-check-2.4.ebuild,
+  hardening-check-2.5.ebuild:
+  Update homepage, remove old
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> hardening-check-2.5.ebuild:
+  Stable for x86, wrt bug #500100
+
+  20 Feb 2014; Agostino Sarubbo <ago@gentoo.org> hardening-check-2.5.ebuild:
+  Stable for amd64, wrt bug #500100
+
+*hardening-check-2.5 (29 Dec 2013)
+
+  29 Dec 2013; Agostino Sarubbo <ago@gentoo.org> +hardening-check-2.5.ebuild:
+  Version bump to 2.5
+
+  01 Nov 2013; Agostino Sarubbo <ago@gentoo.org> hardening-check-2.4.ebuild:
+  Stable for x86, wrt bug #489470
+
+  01 Nov 2013; Agostino Sarubbo <ago@gentoo.org> hardening-check-2.4.ebuild:
+  Stable for amd64, wrt bug #489470
+
+  30 Sep 2013; Agostino Sarubbo <ago@gentoo.org> metadata.xml:
+  Add upstream in the metadata.xml
+
+*hardening-check-2.4 (29 Sep 2013)
+
+  29 Sep 2013; Agostino Sarubbo <ago@gentoo.org> +hardening-check-2.4.ebuild,
+  +metadata.xml:
+  First commit for hardening-check, the tool to verify the hardened status of
+  the ELF files

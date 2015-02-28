@@ -1,0 +1,28 @@
+# ChangeLog for app-misc/zygrib
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-misc/zygrib/ChangeLog,v 1.6 2014/09/11 11:21:28 kensington Exp $
+
+  11 Sep 2014; Michael Palimaka <kensington@gentoo.org> zygrib-6.2.3.ebuild:
+  Pin dev-qt/qtsvg to SLOT 4.
+
+  25 Jun 2014; Marc Schiffbauer <mschiff@gentoo.org> zygrib-6.2.3.ebuild:
+  Added missing depend on dev-qt/qtsvg. Fixes #515024. Thanks Patrick.
+
+*zygrib-6.2.3 (02 Feb 2014)
+
+  02 Feb 2014; Marc Schiffbauer <mschiff@gentoo.org> -zygrib-6.1.4.ebuild,
+  +zygrib-6.2.3.ebuild:
+  Version bump. Drop old version.
+
+  01 Jun 2013; Marc Schiffbauer <mschiff@gentoo.org> -files/zygrib.png,
+  zygrib-6.1.4.ebuild:
+  Remove icon from files/ dir and mirror it manually instead. Fixes #471886
+
+  21 May 2013; Marc Schiffbauer <mschiff@gentoo.org> zygrib-6.1.4.ebuild:
+  Updated coastline maps to 2.4
+
+*zygrib-6.1.4 (21 May 2013)
+
+  21 May 2013; Marc Schiffbauer <mschiff@gentoo.org> +zygrib-6.1.4.ebuild,
+  +files/zygrib, +files/zygrib.desktop, +files/zygrib.png, +metadata.xml:
+  Initial commit of zygrib

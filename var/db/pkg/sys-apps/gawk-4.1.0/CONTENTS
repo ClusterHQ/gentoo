@@ -1,0 +1,138 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/gawk
+obj /home/core/gentoo/usr/lib/gawk/testext.la 44db0a8954f67a3a8197af73a31e153a 1410959512
+obj /home/core/gentoo/usr/lib/gawk/filefuncs.la 4f70dead4679cf212c7f09b40457fb5f 1410959512
+obj /home/core/gentoo/usr/lib/gawk/revoutput.so c3c45b4987d49be3014d607aebd09c2c 1410959514
+obj /home/core/gentoo/usr/lib/gawk/rwarray.la 94814ce9f9b865f567ffb7b7f181da97 1410959512
+obj /home/core/gentoo/usr/lib/gawk/rwarray.so 9817e053cdeca8295716229a5d2880bd 1410959514
+obj /home/core/gentoo/usr/lib/gawk/testext.so 49d9c6ff0ee01f0fd30ba71d124c7615 1410959514
+obj /home/core/gentoo/usr/lib/gawk/filefuncs.so 990cb0e964304bb9751122244f8793fe 1410959514
+obj /home/core/gentoo/usr/lib/gawk/revoutput.la 3e4497337f3c59b737a1335f1695434b 1410959512
+obj /home/core/gentoo/usr/lib/gawk/revtwoway.so 1ce1031a308869b2dab4e9f81dedd0f2 1410959514
+obj /home/core/gentoo/usr/lib/gawk/ordchr.so f073509419a675b4a9b53cae412e2ca3 1410959514
+obj /home/core/gentoo/usr/lib/gawk/time.la 535a58e89bf677798ca95c37c9f2ab9d 1410959512
+obj /home/core/gentoo/usr/lib/gawk/inplace.so 2adf8eb427b1a0acee8656288f394071 1410959514
+obj /home/core/gentoo/usr/lib/gawk/readfile.la 3fe903d03be6da7146f46c337175ab65 1410959512
+obj /home/core/gentoo/usr/lib/gawk/readdir.la 6d949a7d9c0ff232d0548e73755b4950 1410959512
+obj /home/core/gentoo/usr/lib/gawk/fork.so b9ed4bd41709d9f49e231e787ce21906 1410959514
+obj /home/core/gentoo/usr/lib/gawk/fnmatch.so bcd7059693ae7fe33e984c6f7eba2492 1410959514
+obj /home/core/gentoo/usr/lib/gawk/fork.la 24789dc068ecd69866130eeaf12898e2 1410959512
+obj /home/core/gentoo/usr/lib/gawk/readfile.so 132c5f94cc5250981968f4cd6fdbc19f 1410959514
+obj /home/core/gentoo/usr/lib/gawk/readdir.so c0cdd170ee761cd60c5b95137547ace3 1410959514
+obj /home/core/gentoo/usr/lib/gawk/fnmatch.la a3d3939fd180db88da7f7e7262d09bec 1410959512
+obj /home/core/gentoo/usr/lib/gawk/time.so 2e49d4648de3be83355e0ddedcde852a 1410959514
+obj /home/core/gentoo/usr/lib/gawk/inplace.la d2779f8d75c3b9ef1fb464b41c5e5d24 1410959512
+obj /home/core/gentoo/usr/lib/gawk/ordchr.la 121a413b8cbe807a8e78a8ee4fe580dc 1410959512
+obj /home/core/gentoo/usr/lib/gawk/revtwoway.la dd8443c1db585e3ff0aced8e7bbade3a 1410959512
+dir /home/core/gentoo/usr/lib/misc
+dir /home/core/gentoo/usr/lib/misc/awk
+obj /home/core/gentoo/usr/lib/misc/awk/pwcat 64eb9cf8aacb2f054d929c78e6873137 1410959514
+obj /home/core/gentoo/usr/lib/misc/awk/grcat fc5846bc7f3bffd48a0a400db7f48dd4 1410959514
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/igawk 0a279627b752f9d4030fed69f4e74633 1410959515
+obj /home/core/gentoo/usr/bin/gawk 7c5fd2d5778efe1206ae08b7bddf1ec8 1410959514
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/gawk.mo 4d8318e7dfa3ca7a679a335807ee6f9f 1410959512
+dir /home/core/gentoo/usr/share/locale/es
+dir /home/core/gentoo/usr/share/locale/es/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/es/LC_MESSAGES/gawk.mo 26db9b2083fc478b3272a053d7cbb211 1410959512
+dir /home/core/gentoo/usr/share/locale/ms
+dir /home/core/gentoo/usr/share/locale/ms/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ms/LC_MESSAGES/gawk.mo ee510b36462e46b6d0286c3ea07525fd 1410959512
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/gawk.mo c458d1c042e47dfc8aae6efc32d1c8b8 1410959512
+dir /home/core/gentoo/usr/share/locale/nl
+dir /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/nl/LC_MESSAGES/gawk.mo 441a0497562392a98b63be1374ae1340 1410959512
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/gawk.mo d137e4ce952647cb215b152cef0b82d1 1410959512
+dir /home/core/gentoo/usr/share/locale/sv
+dir /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sv/LC_MESSAGES/gawk.mo b1f9ccc7d7101af6486323f53d34ddd0 1410959512
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/gawk.mo 4940910ad20f822ea026ff0f1d2ca0df 1410959512
+dir /home/core/gentoo/usr/share/locale/ja
+dir /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES/gawk.mo 7c8ee36f2244b776075560bf21cdeefd 1410959512
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/gawk.mo 33e4d527fb2545bd611cfc053393b71e 1410959512
+dir /home/core/gentoo/usr/share/locale/da
+dir /home/core/gentoo/usr/share/locale/da/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/da/LC_MESSAGES/gawk.mo c424f258b7d256c765cda4bb09cf48d9 1410959512
+dir /home/core/gentoo/usr/share/locale/it
+dir /home/core/gentoo/usr/share/locale/it/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/it/LC_MESSAGES/gawk.mo 78cb16d210dde7d08b92d7c3168caf3c 1410959512
+dir /home/core/gentoo/usr/share/awk
+obj /home/core/gentoo/usr/share/awk/passwd.awk e3c72addb7f5ff912c8e9109c942b0e8 1410959511
+obj /home/core/gentoo/usr/share/awk/quicksort.awk 83bb78906dee011b37c8b6c574e34015 1410959511
+obj /home/core/gentoo/usr/share/awk/inplace.awk c3770e92af40a769d5c22dacb13668fd 1410959511
+obj /home/core/gentoo/usr/share/awk/round.awk e9028984b0d82fac692f3d5c5d4c211e 1410959511
+obj /home/core/gentoo/usr/share/awk/group.awk 7115401552c82d4f0a89009e6d6349ed 1410959511
+obj /home/core/gentoo/usr/share/awk/zerofile.awk a69b061ef1bbca105082fe8a248818da 1410959511
+obj /home/core/gentoo/usr/share/awk/bits2str.awk e10f4cad40ea00ed5f0b5c7faa16f265 1410959511
+obj /home/core/gentoo/usr/share/awk/getopt.awk 2afe2f8217a73640b72ccfc4eab46b8a 1410959511
+obj /home/core/gentoo/usr/share/awk/assert.awk e9b376bed891ce012d972099ca4355c8 1410959511
+obj /home/core/gentoo/usr/share/awk/ord.awk 1b35f85e1492c59ebc24bd2e643074f6 1410959511
+obj /home/core/gentoo/usr/share/awk/noassign.awk f41784e356178616b4c9cb89058989f3 1410959511
+obj /home/core/gentoo/usr/share/awk/strtonum.awk bd5cfb18cd1575dd2ae7c11ef730d4c9 1410959511
+obj /home/core/gentoo/usr/share/awk/rewind.awk c87adbdbc349b6e4c96d9494d7fc9a30 1410959511
+obj /home/core/gentoo/usr/share/awk/walkarray.awk 7b15948b50551201439773ad50912103 1410959511
+obj /home/core/gentoo/usr/share/awk/cliff_rand.awk 4f102335ebacbb13af785af2a5ee5699 1410959511
+obj /home/core/gentoo/usr/share/awk/ctime.awk ea5c580e7cb2a88db330cf04a8a65b83 1410959511
+obj /home/core/gentoo/usr/share/awk/libintl.awk cc11a880a2e1e277530c2d7d7cdac202 1410959511
+obj /home/core/gentoo/usr/share/awk/join.awk babd186770765508e26d344613ffbe0d 1410959511
+obj /home/core/gentoo/usr/share/awk/gettime.awk 8a4784537dfcaa8861dbb8c48e19bf8f 1410959511
+obj /home/core/gentoo/usr/share/awk/ftrans.awk d3fb488decd780a765ba4252288e7d42 1410959511
+obj /home/core/gentoo/usr/share/awk/readable.awk 07bc386a382b277f750d28add7b642a2 1410959511
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/gawk-4.1.0
+obj /home/core/gentoo/usr/share/doc/gawk-4.1.0/ChangeLog.bz2 977225db01b4cc89c15ea91c4d1ab268 1410959513
+obj /home/core/gentoo/usr/share/doc/gawk-4.1.0/AUTHORS.bz2 21ce4e47a42ba61f35545af703ca9bd2 1410959513
+obj /home/core/gentoo/usr/share/doc/gawk-4.1.0/TODO.bz2 9537362f9819afd54c165d245b9f4e02 1410959513
+obj /home/core/gentoo/usr/share/doc/gawk-4.1.0/NEWS.bz2 692729fc22229cad617a2f70643e3349 1410959513
+obj /home/core/gentoo/usr/share/doc/gawk-4.1.0/README.bz2 36733f5088e332978515ea1a5cb08177 1410959513
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/gawkinet.info.bz2 d07c3fece757ef0190f0a884559ea0c0 1410959512
+obj /home/core/gentoo/usr/share/info/gawk.info.bz2 fc909b947aacfdaec32ee711c4cb911e 1410959512
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man3
+obj /home/core/gentoo/usr/share/man/man3/rwarray.3am.bz2 1bb74ba45af1de04173444fd517529c0 1410959512
+obj /home/core/gentoo/usr/share/man/man3/revtwoway.3am.bz2 cb6329956b9daa7dd1f67a1a5a1927a7 1410959512
+obj /home/core/gentoo/usr/share/man/man3/filefuncs.3am.bz2 6dc06962370bceee21c0e85d6f760a76 1410959512
+obj /home/core/gentoo/usr/share/man/man3/revoutput.3am.bz2 c8c439ca129021fdeced3d3ee7706eb6 1410959512
+obj /home/core/gentoo/usr/share/man/man3/readfile.3am.bz2 49f00fd5c5fd0f4b0ff5e19233bb77f5 1410959512
+obj /home/core/gentoo/usr/share/man/man3/ordchr.3am.bz2 7a458c0c8fb8187b79eeed07156f7914 1410959512
+obj /home/core/gentoo/usr/share/man/man3/fork.3am.bz2 f73396ac2db41360da0bf437f403c8f2 1410959512
+obj /home/core/gentoo/usr/share/man/man3/time.3am.bz2 268ec06ea9f2db330d4501fae0c937d6 1410959512
+obj /home/core/gentoo/usr/share/man/man3/fnmatch.3am.bz2 2288ce2e9040f55b6531699050a56b47 1410959512
+obj /home/core/gentoo/usr/share/man/man3/readdir.3am.bz2 a554b076fb1b825a9c87297404bbad46 1410959512
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/igawk.1.bz2 7397bb3bc71a6e1a10d1c6ae54318047 1410959512
+obj /home/core/gentoo/usr/share/man/man1/gawk.1.bz2 e5d812bd13b39850ad59ecc0c3cf3fcf 1410959512
+dir /home/core/gentoo/usr/include
+obj /home/core/gentoo/usr/include/gawkapi.h ff75dcfa5e958389245c77d3ad006cb5 1410959511
+dir /home/core/gentoo/usr/include/awk
+obj /home/core/gentoo/usr/include/awk/regex_internal.h f9fbbe90e92314a4c339dc2298dd4d1c 1410959513
+obj /home/core/gentoo/usr/include/awk/awk.h 303cbac8c2a50f62f85e62af821186a8 1410959513
+obj /home/core/gentoo/usr/include/awk/getopt.h 5667850b79990bc3c0187ff88d497027 1410959513
+obj /home/core/gentoo/usr/include/awk/custom.h 75345a5a7dd4e5e28e579ed572ed9104 1410959513
+obj /home/core/gentoo/usr/include/awk/xalloc.h c302721a514dbf104a4c22d473c11211 1410959513
+obj /home/core/gentoo/usr/include/awk/gettext.h b41c9e56cdcc2d3c87065853ab20a9c8 1410959513
+obj /home/core/gentoo/usr/include/awk/interpret.h 162e2d9ca67c2336816a6b7d87d83cd8 1410959513
+obj /home/core/gentoo/usr/include/awk/getopt_int.h 5e5c8be26acff92fe16d74f43a53c238 1410959513
+obj /home/core/gentoo/usr/include/awk/gawkapi.h ff75dcfa5e958389245c77d3ad006cb5 1410959513
+obj /home/core/gentoo/usr/include/awk/regex.h 03b930498752078312bd635851190cdc 1410959513
+obj /home/core/gentoo/usr/include/awk/random.h c33f02a2b5d9641d333c34d8b379fd48 1410959513
+obj /home/core/gentoo/usr/include/awk/protos.h 1ef68a5c823db9805f318377556f876a 1410959513
+obj /home/core/gentoo/usr/include/awk/floatmagic.h 13869a381269c2e6103cc4747a972411 1410959513
+obj /home/core/gentoo/usr/include/awk/cmd.h 7f36663da1002c3ebd7d45d4679e122f 1410959513
+obj /home/core/gentoo/usr/include/awk/mbsupport.h 5cfc3976baaf04a4b75aecaf8b18141f 1410959513
+obj /home/core/gentoo/usr/include/awk/dfa.h c7fd67cdcc9f8b9b61f32e49e46df4c3 1410959513

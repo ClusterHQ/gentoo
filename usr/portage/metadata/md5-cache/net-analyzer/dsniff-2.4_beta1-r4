@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=net-libs/libpcap >=net-libs/libnet-1.1.2.1-r1 >=net-libs/libnids-1.21 >=dev-libs/openssl-0.9.6e >=sys-libs/db-4.2.52_p4 sys-apps/sed X? ( x11-libs/libXmu ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.13 >=sys-devel/automake-1.14 ) >=sys-devel/autoconf-2.68 sys-devel/libtool
+DESCRIPTION=A collection of tools for network auditing and penetration testing
+HOMEPAGE=http://monkey.org/~dugsong/dsniff/
+IUSE=X
+KEYWORDS=amd64 ppc x86
+LICENSE=BSD
+RDEPEND=net-libs/libpcap >=net-libs/libnet-1.1.2.1-r1 >=net-libs/libnids-1.21 >=dev-libs/openssl-0.9.6e >=sys-libs/db-4.2.52_p4 sys-apps/sed X? ( x11-libs/libXmu )
+SLOT=0
+SRC_URI=http://monkey.org/~dugsong/dsniff/beta/dsniff-2.4b1.tar.gz mirror://debian/pool/main/d/dsniff/dsniff_2.4b1+debian-18.diff.gz
+_eclasses_=autotools	d09f20f76eddfb29b5a0de3f268016ae	eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=649b4096a1264c3f8954f6cd51dee61f

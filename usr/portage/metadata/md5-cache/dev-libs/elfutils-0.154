@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare test
+DEPEND=zlib? ( >=sys-libs/zlib-1.2.2.3 ) bzip2? ( app-arch/bzip2 ) lzma? ( app-arch/xz-utils ) !dev-libs/libelf nls? ( sys-devel/gettext ) >=sys-devel/flex-2.5.4a sys-devel/m4
+DESCRIPTION=Libraries/utilities to handle ELF objects (drop in replacement for libelf)
+EAPI=3
+HOMEPAGE=https://fedorahosted.org/elfutils/
+IUSE=bzip2 lzma nls test zlib
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2-with-exceptions
+RDEPEND=zlib? ( >=sys-libs/zlib-1.2.2.3 ) bzip2? ( app-arch/bzip2 ) lzma? ( app-arch/xz-utils ) !dev-libs/libelf
+SLOT=0
+SRC_URI=https://fedorahosted.org/releases/e/l/elfutils/0.154/elfutils-0.154.tar.bz2 https://fedorahosted.org/releases/e/l/elfutils/0.154/elfutils-portability.patch -> elfutils-0.154-portability.patch https://fedorahosted.org/releases/e/l/elfutils/0.154/elfutils-robustify.patch -> elfutils-0.154-robustify.patch
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=5e7f41517aed045b39cd485d07ba80ac

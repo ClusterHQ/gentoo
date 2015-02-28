@@ -1,0 +1,65 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/gdbm_dump 9bb36da85b6ff5e195f025bac31958b2 1410958946
+obj /home/core/gentoo/usr/bin/gdbmtool 90d110bebb6d59b751dfff9ece0d8dcf 1410958946
+obj /home/core/gentoo/usr/bin/gdbm_load 0bd4ff9073e8daa0e6f2e39529ff8ea1 1410958946
+dir /home/core/gentoo/usr/lib
+sym /home/core/gentoo/usr/lib/libgdbm_compat.so -> libgdbm_compat.so.4.0.0 1410959040
+sym /home/core/gentoo/usr/lib/libgdbm.so.4 -> libgdbm.so.4.0.0 1410959040
+obj /home/core/gentoo/usr/lib/libgdbm.so.4.0.0 d00b982d1f7abac830776ccb329153c3 1410958946
+obj /home/core/gentoo/usr/lib/libgdbm_compat.so.4.0.0 b42cbab4588a4f341bfdcbc56881f283 1410958946
+sym /home/core/gentoo/usr/lib/libgdbm_compat.so.4 -> libgdbm_compat.so.4.0.0 1410959040
+sym /home/core/gentoo/usr/lib/libgdbm.so -> libgdbm.so.4.0.0 1410959040
+dir /home/core/gentoo/usr/include
+dir /home/core/gentoo/usr/include/gdbm
+obj /home/core/gentoo/usr/include/gdbm/dbm.h ae2b6fb84d44d12966458265dace0378 1410958945
+obj /home/core/gentoo/usr/include/gdbm/ndbm.h 3e71d49857b247f7ade96447a37ed3d8 1410958945
+obj /home/core/gentoo/usr/include/gdbm.h cb3269c859c592fa610a05b18a33839b 1410958945
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/gdbm.info.bz2 e5f72bd725012273d000cfdc566e9160 1410958945
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/gdbm-1.11
+obj /home/core/gentoo/usr/share/doc/gdbm-1.11/ChangeLog.bz2 ee7ba01f779333b65b9db89688600e4b 1410958946
+obj /home/core/gentoo/usr/share/doc/gdbm-1.11/THANKS.bz2 4fc803943df8a7c1cdeb245b6e2d9d38 1410958946
+obj /home/core/gentoo/usr/share/doc/gdbm-1.11/README.bz2 b4b633af02e2157e76a958376b0f30f0 1410958946
+obj /home/core/gentoo/usr/share/doc/gdbm-1.11/NEWS.bz2 1e40ce7c518b73d1b8068c4e81380304 1410958946
+obj /home/core/gentoo/usr/share/doc/gdbm-1.11/AUTHORS 8f58ec79b2fa7dd61baff91dbf9e43c2 1410958946
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man3
+obj /home/core/gentoo/usr/share/man/man3/gdbm.3.bz2 7d5462fd9ec77c7e092777157b0baa85 1410958945
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/gdbm_load.1.bz2 7b59e60e3b48cdae2db21897ed0e977d 1410958945
+obj /home/core/gentoo/usr/share/man/man1/gdbm_dump.1.bz2 511e855e3a9c07e7a54acb17bf15e4b5 1410958945
+obj /home/core/gentoo/usr/share/man/man1/gdbmtool.1.bz2 f0e8746f7a4e6b73cbf289d8a02cfa2a 1410958945
+dir /home/core/gentoo/usr/share/locale
+dir /home/core/gentoo/usr/share/locale/fi
+dir /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fi/LC_MESSAGES/gdbm.mo 293fb58eef66feaea1ee78ae24847102 1410958945
+dir /home/core/gentoo/usr/share/locale/uk
+dir /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/uk/LC_MESSAGES/gdbm.mo e4329d5039f14636ff37db7cd3e33ad0 1410958945
+dir /home/core/gentoo/usr/share/locale/de
+dir /home/core/gentoo/usr/share/locale/de/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/de/LC_MESSAGES/gdbm.mo c2775050fbfab243473e1e0d91d040af 1410958945
+dir /home/core/gentoo/usr/share/locale/ja
+dir /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/ja/LC_MESSAGES/gdbm.mo 6d9707b738b186db17bd2d6ba9a02d89 1410958945
+dir /home/core/gentoo/usr/share/locale/vi
+dir /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/vi/LC_MESSAGES/gdbm.mo 7e3d5c95030e7cad224da5112c41189d 1410958945
+dir /home/core/gentoo/usr/share/locale/pt_BR
+dir /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pt_BR/LC_MESSAGES/gdbm.mo dc8cc6c459cde193764f0d7cdecbf9aa 1410958945
+dir /home/core/gentoo/usr/share/locale/sr
+dir /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/sr/LC_MESSAGES/gdbm.mo fa18d74b1afb4decea455dcd1dae0cfb 1410958945
+dir /home/core/gentoo/usr/share/locale/eo
+dir /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/eo/LC_MESSAGES/gdbm.mo 5b4625dc7302b594e2bed425af096133 1410958945
+dir /home/core/gentoo/usr/share/locale/pl
+dir /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/pl/LC_MESSAGES/gdbm.mo e22a6fc51400f9d9cca0e9af0deb3b1c 1410958945
+dir /home/core/gentoo/usr/share/locale/fr
+dir /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES
+obj /home/core/gentoo/usr/share/locale/fr/LC_MESSAGES/gdbm.mo f9eb82eaa84e7dfeceb422013b960142 1410958945

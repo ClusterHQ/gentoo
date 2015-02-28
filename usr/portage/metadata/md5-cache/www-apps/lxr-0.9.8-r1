@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare prerm setup test unpack
+DEPEND==www-servers/apache-2* dev-lang/perl:=[-build(-)] >=app-admin/webapp-config-1.50.15
+DESCRIPTION=general purpose source code indexer and cross-referener with a web-based frontend
+EAPI=5
+HOMEPAGE=http://sourceforge.net/projects/lxr
+IUSE=cvs mysql postgres vhosts
+KEYWORDS=~amd64 ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-util/ctags dev-lang/perl dev-perl/DBI dev-perl/File-MMagic cvs? ( dev-vcs/rcs ) postgres? ( dev-perl/DBD-Pg ) mysql? ( dev-perl/DBD-mysql ) =www-servers/apache-2* dev-lang/perl:=[-build(-)] >=app-admin/webapp-config-1.50.15
+SLOT=0
+SRC_URI=mirror://sourceforge/lxr/lxr-0.9.8.tgz
+_eclasses_=depend.apache	41d01b539f56fa0a5269f3a8ce916981	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	perl-module	a6a2d5c77bdaeba2794b167689cafb7a	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	unpacker	f300a7ca9131b1024a79762e8edd3c52	webapp	3ce81fd4a0c9835d0bc88c70d71cf3c3
+_md5_=0da9ee99bc0d145347df3521b45306f5

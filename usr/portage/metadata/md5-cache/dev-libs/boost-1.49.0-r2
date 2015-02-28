@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=icu? ( >=dev-libs/icu-3.3 ) mpi? ( || ( sys-cluster/openmpi[cxx] sys-cluster/mpich2[cxx,threads] ) ) app-arch/bzip2 sys-libs/zlib !app-admin/eselect-boost elibc_glibc? ( <sys-libs/glibc-2.16 ) =dev-util/boost-build-1.49* python? ( dev-lang/python )
+DESCRIPTION=Boost Libraries for C++
+EAPI=4
+HOMEPAGE=http://www.boost.org/
+IUSE=debug doc icu mpi python static-libs tools
+KEYWORDS=~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x86-solaris ~x86-winnt
+LICENSE=Boost-1.0
+RDEPEND=icu? ( >=dev-libs/icu-3.3 ) mpi? ( || ( sys-cluster/openmpi[cxx] sys-cluster/mpich2[cxx,threads] ) ) app-arch/bzip2 sys-libs/zlib !app-admin/eselect-boost elibc_glibc? ( <sys-libs/glibc-2.16 ) python? ( dev-lang/python )
+SLOT=0
+SRC_URI=mirror://sourceforge/boost/boost_1_49_0.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=d0af709b1cadeab3df1bbfdb1ef0367d

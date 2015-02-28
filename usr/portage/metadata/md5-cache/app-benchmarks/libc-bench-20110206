@@ -1,0 +1,10 @@
+DEFINED_PHASES=configure install prepare
+DESCRIPTION=Time and memory-efficiency tests of various C/POSIX standard library functions
+EAPI=5
+HOMEPAGE=http://www.etalabs.net/libc-bench.html http://git.musl-libc.org/cgit/libc-bench/
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=http://www.etalabs.net/releases/libc-bench-20110206.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=0501f6c7de2f00858bf5203a39722a38

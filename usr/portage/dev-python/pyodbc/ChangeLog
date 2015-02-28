@@ -1,0 +1,40 @@
+# ChangeLog for dev-python/pyodbc
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/pyodbc/ChangeLog,v 1.8 2014/01/14 13:52:39 ago Exp $
+
+  14 Jan 2014; Agostino Sarubbo <ago@gentoo.org> pyodbc-3.0.7.ebuild:
+  Stable for x86, wrt bug #491576
+
+  12 Jan 2014; Pacho Ramos <pacho@gentoo.org> pyodbc-3.0.7.ebuild:
+  amd64 stable, bug #491576
+
+*pyodbc-3.0.7 (22 Jul 2013)
+
+  22 Jul 2013; Patrick Lauer <patrick@gentoo.org> +pyodbc-3.0.7.ebuild:
+  Bump
+
+*pyodbc-3.0.6 (29 Aug 2012)
+
+  29 Aug 2012; Patrick Lauer <patrick@gentoo.org> +pyodbc-3.0.6.ebuild:
+  Bump
+
+*pyodbc-3.0.3 (14 Apr 2012)
+
+  14 Apr 2012; Jesus Rivero <neurogeek@gentoo.org> +pyodbc-3.0.3.ebuild,
+  +files/pyodbc-3.0.3-py25-compat.patch:
+  Version bump
+
+  20 Feb 2012; Patrick Lauer <patrick@gentoo.org> pyodbc-2.1.11.ebuild,
+  pyodbc-2.1.8.ebuild:
+  Restricting pypy #404917
+
+*pyodbc-2.1.11 (16 Sep 2011)
+
+  16 Sep 2011; Dirkjan Ochtman <djc@gentoo.org> +pyodbc-2.1.11.ebuild:
+  Version bump to 2.1.11 (fixes bug 382937, thanks jbergstroem).
+
+*pyodbc-2.1.8 (25 Mar 2011)
+
+  25 Mar 2011; Jesus Rivero <neurogeek@gentoo.org> +pyodbc-2.1.8.ebuild,
+  +metadata.xml:
+  Initial commit. Closes bug #230553

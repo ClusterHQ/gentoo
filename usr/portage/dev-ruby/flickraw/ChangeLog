@@ -1,0 +1,27 @@
+# ChangeLog for dev-ruby/flickraw
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/flickraw/ChangeLog,v 1.5 2014/08/05 16:00:31 mrueg Exp $
+
+  05 Aug 2014; Manuel Rüger <mrueg@gentoo.org> flickraw-0.9.8.ebuild:
+  Remove trailing '.' from DESCRIPTION.
+
+  26 May 2014; Manuel Rüger <mrueg@gentoo.org> -flickraw-0.9.6.ebuild,
+  -flickraw-0.9.7.ebuild:
+  Cleanup old.
+
+*flickraw-0.9.8 (15 Apr 2014)
+
+  15 Apr 2014; Hans de Graaff <graaff@gentoo.org> +flickraw-0.9.8.ebuild:
+  Version bump.
+
+*flickraw-0.9.7 (29 Nov 2013)
+
+  29 Nov 2013; Hans de Graaff <graaff@gentoo.org> +flickraw-0.9.7.ebuild:
+  Version bump.
+
+*flickraw-0.9.6 (25 Jan 2013)
+
+  25 Jan 2013; Diego E. Pettenò <flameeyes@gentoo.org> +flickraw-0.9.6.ebuild,
+  +metadata.xml:
+  Initial import of flickraw from graaff's overlay. This version drops test
+  dependencies as well supports doc building without rake.

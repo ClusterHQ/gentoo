@@ -1,0 +1,7 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/sbin
+obj /home/core/gentoo/usr/sbin/perl-cleaner e1072221b7481eedd0ecbc58e7924e34 1410959165
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/perl-cleaner.1.bz2 ee134b2eee62535bd68aeb7ad2af3c6e 1410959164

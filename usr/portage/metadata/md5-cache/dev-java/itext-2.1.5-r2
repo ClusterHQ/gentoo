@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install preinst prepare setup unpack
+DEPEND=dev-java/bcmail:1.45 dev-java/bcprov:1.45 rups? ( dev-java/dom4j:1 dev-java/pdf-renderer:0 ) >=virtual/jdk-1.5 cjk? ( app-arch/unzip ) !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 ) source? ( app-arch/zip ) >=dev-java/ant-core-1.8.2 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=A Java library that generate documents in the Portable Document Format (PDF) and/or HTML
+EAPI=4
+HOMEPAGE=http://www.lowagie.com/iText/
+IUSE=cjk rtf rups elibc_FreeBSD doc source elibc_FreeBSD
+KEYWORDS=amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux
+LICENSE=MPL-1.1
+RDEPEND=dev-java/bcmail:1.45 dev-java/bcprov:1.45 rups? ( dev-java/dom4j:1 dev-java/pdf-renderer:0 ) >=virtual/jre-1.5 !x86-winnt? ( >=dev-java/java-config-2.1.9-r1 ) source? ( app-arch/zip )
+SLOT=0
+SRC_URI=mirror://sourceforge/itext/iText-src-2.1.5.tar.gz cjk? ( mirror://sourceforge/itext/iTextAsian.jar mirror://sourceforge/itext/iTextAsianCmaps.jar )
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	java-ant-2	7d26b85ec9c11fb0a78ac321e23ac384	java-pkg-2	65bbb59987d777c1106ae8aa4bf36e7b	java-utils-2	17d6bc13e1979ef0ee6d89850e23ecc5	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=e0fdd3f658a131e672e192ca46020f69

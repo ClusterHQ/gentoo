@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm prepare setup
+DEPEND==dev-lang/python-2*
+DESCRIPTION=Nagstamon is a Nagios status monitor for a systray and displays a realtime status of a Nagios box
+EAPI=5
+HOMEPAGE=http://nagstamon.sourceforge.net
+IUSE=gnome sound
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-python/pygobject:2 dev-python/pygtk dev-python/lxml dev-python/beautifulsoup:python-2 gnome-base/librsvg gnome? ( dev-python/egg-python ) sound? ( media-sound/sox ) =dev-lang/python-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/nagstamon/Nagstamon-0.9.11rc1-20130729.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=5f3ce441757e05d1ee8167cf5f7ef95e

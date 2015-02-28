@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm setup test unpack
+DEPEND=hppa? ( sys-devel/binutils-hppa64 ) !sys-devel/gcc-hppa64 !sys-devel/gcc-mips64 !sys-devel/gcc-powerpc64 !sys-devel/gcc-sparc64 >=sys-apps/sed-4 sys-devel/gnuconfig sys-libs/zlib nls? ( sys-devel/gettext ) virtual/libiconv >=sys-devel/bison-1.875 >=sys-devel/flex-2.5.4 regression-test? ( >=dev-util/dejagnu-1.4.4 >=sys-devel/autogen-5.5.4 )
+DESCRIPTION=64bit kernel compiler
+HOMEPAGE=http://gcc.gnu.org/
+IUSE=multislot regression-test vanilla nls nptl
+KEYWORDS=-* ~hppa ~mips ~ppc ~s390 sparc
+LICENSE=GPL-2 LGPL-2.1
+PDEPEND=>=sys-devel/gcc-config-1.7
+RDEPEND=hppa? ( sys-devel/binutils-hppa64 ) !sys-devel/gcc-hppa64 !sys-devel/gcc-mips64 !sys-devel/gcc-powerpc64 !sys-devel/gcc-sparc64 sys-libs/zlib nls? ( sys-devel/gettext ) virtual/libiconv
+RESTRICT=strip
+SLOT=3.4
+SRC_URI=mirror://gnu/gcc/gcc-3.4.6/gcc-3.4.6.tar.bz2 mirror://gentoo/gcc-3.4.6-patches-1.2.tar.bz2 http://dev.gentoo.org/~vapier/dist/gcc-3.4.6-patches-1.2.tar.bz2 http://dev.gentoo.org/~dirtyepic/dist/gcc-3.4.6-patches-1.2.tar.bz2 http://dev.gentoo.org/~halcy0n/patches/gcc-3.4.6-patches-1.2.tar.bz2 http://dev.gentoo.org/~zorry/patches/gcc/gcc-3.4.6-patches-1.2.tar.bz2
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	fixheadtails	c6fd1fc49c9dc11924f28a1406f251a0	flag-o-matic	b8428cc28f049de39ef7bc77e53748dd	gnuconfig	1f703be3634689b52cc0c4f1b306d79c	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	pax-utils	8257582809714b788173511f975d767d	prefix	21058c21ca48453d771df15500873ede	toolchain	8873a8dc2d8d8bbcdf1d793e2e9724c2	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=7ba8b008080ade055be3ab2b62c3031f

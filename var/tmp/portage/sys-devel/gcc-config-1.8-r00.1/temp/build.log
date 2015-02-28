@@ -1,0 +1,16 @@
+ * Package:    sys-devel/gcc-config-1.8-r00.1
+ * Repository: gentoo_prefix
+ * Maintainer: toolchain@gentoo.org
+ * USE:        abi_x86_64 amd64 elibc_glibc kernel_linux prefix userland_GNU
+ * FEATURES:   preserve-libs userpriv usersandbox
+>>> Unpacking source...
+>>> Unpacking gcc-config-1.8.tar.xz to /home/core/gentoo/var/tmp/portage/sys-devel/gcc-config-1.8-r00.1/work
+>>> Source unpacked in /home/core/gentoo/var/tmp/portage/sys-devel/gcc-config-1.8-r00.1/work
+>>> Preparing source in /home/core/gentoo/var/tmp/portage/sys-devel/gcc-config-1.8-r00.1/work/gcc-config-1.8 ...
+ * Applying gcc-config-prefix-1.8-r221.patch ...
+ [ ok ]
+ * Applying gcc-config-1.8-copy-gcc-libs.patch ...
+ [ ok ]
+
+/home/core/gentoo/usr/portage/sys-devel/gcc-config/gcc-config-1.8-r00.1.ebuild: src_prepare aborted; exiting.
+

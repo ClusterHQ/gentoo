@@ -1,0 +1,11 @@
+/home/core/gentoo/usr/sbin/sshd libwrap.so.0,libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/misc/ssh-keysign libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/misc/sftp-server libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/lib/misc/ssh-pkcs11-helper libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/ssh-add libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/sftp libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/ssh-agent libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/scp libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/ssh-keyscan libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/ssh-keygen libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6
+/home/core/gentoo/usr/bin/ssh libssl.so.1.0.0,libcrypto.so.1.0.0,libdl.so.2,libutil.so.1,libz.so.1,libnsl.so.1,libcrypt.so.1,libresolv.so.2,libpthread.so.0,libc.so.6

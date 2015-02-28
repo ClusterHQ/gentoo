@@ -1,0 +1,51 @@
+# ChangeLog for dev-ruby/async_sinatra
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/async_sinatra/ChangeLog,v 1.10 2014/05/15 01:22:48 mrueg Exp $
+
+  15 May 2014; Manuel Rüger <mrueg@gentoo.org> async_sinatra-1.1.0.ebuild:
+  Remove ruby18.
+
+  08 Mar 2014; Manuel Rüger <mrueg@gentoo.org> -async_sinatra-1.0.0.ebuild,
+  -files/async_sinatra-0.4.0-rack.patch,
+  -files/async_sinatra-1.0.0-extended-sinatra.patch:
+  Cleanup old.
+
+*async_sinatra-1.1.0 (25 Dec 2013)
+
+  25 Dec 2013; Hans de Graaff <graaff@gentoo.org> +async_sinatra-1.1.0.ebuild:
+  Version bump.
+
+  11 Aug 2013; Hans de Graaff <graaff@gentoo.org> -async_sinatra-0.4.0.ebuild:
+  Cleanup.
+
+*async_sinatra-1.0.0 (14 Dec 2012)
+
+  14 Dec 2012; Hans de Graaff <graaff@gentoo.org> +async_sinatra-1.0.0.ebuild,
+  +files/async_sinatra-1.0.0-extended-sinatra.patch:
+  Version bump.
+
+  19 Mar 2011; Hans de Graaff <graaff@gentoo.org>
+  -async_sinatra-0.1.5.ebuild, -async_sinatra-0.3.0.ebuild:
+  Remove old versions.
+
+*async_sinatra-0.4.0 (20 Feb 2011)
+
+  20 Feb 2011; Hans de Graaff <graaff@gentoo.org>
+  +async_sinatra-0.4.0.ebuild, +files/async_sinatra-0.4.0-rack.patch:
+  Version bump.
+
+*async_sinatra-0.3.0 (02 Jan 2011)
+
+  02 Jan 2011; Hans de Graaff <graaff@gentoo.org>
+  +async_sinatra-0.3.0.ebuild:
+  Version bump. Run new test suite.
+
+  19 Apr 2010; Diego E. Pettenò <flameeyes@gentoo.org>
+  async_sinatra-0.1.5.ebuild:
+  Fix SRC_URI.
+
+*async_sinatra-0.1.5 (19 Apr 2010)
+
+  19 Apr 2010; Diego E. Pettenò <flameeyes@gentoo.org>
+  +async_sinatra-0.1.5.ebuild, +metadata.xml:
+  Initial import of async_sinatra gem.

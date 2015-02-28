@@ -1,0 +1,19 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/CPAN-Meta-2.132.510-r1
+obj /home/core/gentoo/usr/share/doc/CPAN-Meta-2.132.510-r1/README.bz2 1fc25451929fd997d97f1836d7f520db 1410959468
+obj /home/core/gentoo/usr/share/doc/CPAN-Meta-2.132.510-r1/Changes.bz2 3e4c45358a6c6790a55ef3a1bee6c5f6 1410959468
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/perl5
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN/Meta.pm 8d4950e292c12dda33e88b1b34ad739c 1410959468
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN/Meta
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN/Meta/Converter.pm c687d0fe4ab81620ad2e4f20334d4403 1410959468
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN/Meta/Spec.pm b675655375998cf013cb31d59fdab412 1410959468
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN/Meta/Prereqs.pm 908a046d3a3341210c51ba4770d00f5d 1410959468
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN/Meta/History.pm 27bc98ce0bdd694ca81967d0c7a37fc3 1410959468
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN/Meta/Validator.pm 3c74ba69deaab0c4d60d057b9edf7592 1410959468
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/CPAN/Meta/Feature.pm bd66359eb765f1b2ea1dd0a3f5ec7edb 1410959468

@@ -1,0 +1,13 @@
+prefix=/home/core/gentoo/usr
+exec_prefix=${prefix}
+libdir=/home/core/gentoo/usr/lib
+includedir=/home/core/gentoo/usr/include/ncursesw
+major_version=5
+version=5.9.20110404
+
+Name: ncurses++w
+Description: ncurses 5.9 add-on library
+Version: ${version}
+Requires: panelw menuw formw ncursesw 
+Libs: -L${libdir} -lncurses++w
+Cflags: -I${includedir}

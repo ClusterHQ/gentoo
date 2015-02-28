@@ -1,0 +1,31 @@
+# ChangeLog for sys-apps/daemonize
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/daemonize/ChangeLog,v 1.7 2014/01/16 17:32:56 jer Exp $
+
+  16 Jan 2014; Jeroen Roovers <jer@gentoo.org> daemonize-1.6.ebuild,
+  daemonize-1.7.4.ebuild:
+  Spelling.
+
+  30 Mar 2013; Agostino Sarubbo <ago@gentoo.org> daemonize-1.7.4.ebuild:
+  Stable for x86, wrt bug #463138
+
+  30 Mar 2013; Agostino Sarubbo <ago@gentoo.org> daemonize-1.7.4.ebuild:
+  Stable for amd64, wrt bug #463138
+
+*daemonize-1.7.4 (06 Feb 2013)
+
+  06 Feb 2013; Markos Chandras <hwoarang@gentoo.org> +daemonize-1.7.4.ebuild:
+  Version bump. Move to EAPI5. Bug #455482
+
+  26 Aug 2010; Markos Chandras <hwoarang@gentoo.org> daemonize-1.6.ebuild:
+  Stable on amd64 wrt bug #333415
+
+  20 Aug 2010; Pawel Hajdan jr <phajdan.jr@gentoo.org> daemonize-1.6.ebuild:
+  x86 stable wrt bug #333415
+
+*daemonize-1.6 (15 Jul 2010)
+
+  15 Jul 2010; Markos Chandras <hwoarang@gentoo.org> +daemonize-1.6.ebuild,
+  +metadata.xml:
+  Moved from sunrise overlay. Bug #226055. Thanks to Thomas Anderson
+  <tanderson@gentoo.org> for the ebuild

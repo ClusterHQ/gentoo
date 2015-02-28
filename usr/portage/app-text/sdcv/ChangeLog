@@ -1,0 +1,23 @@
+# ChangeLog for app-text/sdcv
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-text/sdcv/ChangeLog,v 1.4 2014/01/05 11:34:20 pacho Exp $
+
+  05 Jan 2014; Pacho Ramos <pacho@gentoo.org> metadata.xml:
+  Cleanup due http://gentoo.2317880.n4.nabble.com/app-dicts-herd-is-empty-
+  td271273.html
+
+  30 Oct 2009; Markus Meier <maekke@gentoo.org> sdcv-0.4.2.ebuild:
+  amd64/x86 stable, bug #289473
+
+  25 Jul 2009; Mark Loeser <halcy0n@gentoo.org>
+  files/sdcv-0.4.2-missing-headers.patch:
+  Update missing headers patch for gcc-4.4; bug #276288
+
+*sdcv-0.4.2 (16 Dec 2008)
+
+  16 Dec 2008; Peter Volkov <pva@gentoo.org> +files/sdcv-0.4.2-crash.patch,
+  +files/sdcv-0.4.2-g-handling.patch,
+  +files/sdcv-0.4.2-missing-headers.patch,
+  +files/sdcv-0.4.2-respect-HOME.patch, +metadata.xml, +sdcv-0.4.2.ebuild:
+  Initial import, bug #118359, thank Qiangning Hong and Andrew Savchenko for
+  initial ebuild.

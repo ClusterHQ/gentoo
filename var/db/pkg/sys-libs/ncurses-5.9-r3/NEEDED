@@ -1,0 +1,15 @@
+/home/core/gentoo/usr/bin/tput libncursesw.so.5,libc.so.6
+/home/core/gentoo/usr/bin/tic libncursesw.so.5,libc.so.6
+/home/core/gentoo/usr/bin/tset libncursesw.so.5,libc.so.6
+/home/core/gentoo/usr/bin/clear libncursesw.so.5,libc.so.6
+/home/core/gentoo/usr/bin/toe libncursesw.so.5,libc.so.6
+/home/core/gentoo/usr/bin/tabs libncursesw.so.5,libc.so.6
+/home/core/gentoo/usr/bin/infocmp libncursesw.so.5,libc.so.6
+/home/core/gentoo/usr/lib/libmenuw.so.5.9 libc.so.6,libncursesw.so.5
+/home/core/gentoo/usr/lib/libncurses.so.5.9 libc.so.6
+/home/core/gentoo/usr/lib/libform.so.5.9 libc.so.6,libncurses.so.5
+/home/core/gentoo/usr/lib/libmenu.so.5.9 libc.so.6,libncurses.so.5
+/home/core/gentoo/usr/lib/libncursesw.so.5.9 libc.so.6
+/home/core/gentoo/usr/lib/libpanel.so.5.9 libc.so.6,libncurses.so.5
+/home/core/gentoo/usr/lib/libpanelw.so.5.9 libc.so.6,libncursesw.so.5
+/home/core/gentoo/usr/lib/libformw.so.5.9 libc.so.6,libncursesw.so.5

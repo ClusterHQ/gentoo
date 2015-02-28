@@ -1,0 +1,18 @@
+# ChangeLog for media-libs/libmkv
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libmkv/ChangeLog,v 1.4 2014/08/10 21:09:20 slyfox Exp $
+
+  10 Aug 2014; Sergei Trofimovich <slyfox@gentoo.org> libmkv-0.6.5.1.ebuild:
+  QA: drop trailing '.' from DESCRIPTION
+
+  28 Aug 2013; Agostino Sarubbo <ago@gentoo.org> libmkv-0.6.5.1.ebuild:
+  Stable for x86, wrt bug #481944
+
+  23 Aug 2013; Agostino Sarubbo <ago@gentoo.org> libmkv-0.6.5.1.ebuild:
+  Stable for amd64, wrt bug #481944
+
+*libmkv-0.6.5.1 (05 May 2013)
+
+  05 May 2013; Tom Wijsman <TomWij@gentoo.org> +libmkv-0.6.5.1.ebuild,
+  +metadata.xml:
+  Added media-libs/libmkv, a dependency for media-video/handbrake.

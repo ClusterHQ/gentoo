@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=media-libs/xine-lib[v4l?,X,imagemagick] dvb? ( media-libs/xine-lib[v4l] ) dev-libs/libcdio curl? ( net-misc/curl ) joystick? ( media-libs/libjsw ) jpeg? ( media-gfx/imagemagick media-libs/netpbm[jpeg,zlib] media-video/mjpegtools ) lirc? ( app-misc/lirc ) nls? ( virtual/libintl sys-devel/gettext ) png? ( media-gfx/imagemagick media-libs/netpbm[png,zlib] media-video/mjpegtools ) X? ( x11-libs/libXext x11-libs/libX11 ) virtual/pkgconfig
+DESCRIPTION=OSD frontend for Xine
+EAPI=5
+HOMEPAGE=http://oxine.sourceforge.net/
+IUSE=X curl debug dvb exif joystick jpeg lirc nls png v4l
+KEYWORDS=amd64 ppc ~ppc64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/xine-lib[v4l?,X,imagemagick] dvb? ( media-libs/xine-lib[v4l] ) dev-libs/libcdio curl? ( net-misc/curl ) joystick? ( media-libs/libjsw ) jpeg? ( media-gfx/imagemagick media-libs/netpbm[jpeg,zlib] media-video/mjpegtools ) lirc? ( app-misc/lirc ) nls? ( virtual/libintl sys-devel/gettext ) png? ( media-gfx/imagemagick media-libs/netpbm[png,zlib] media-video/mjpegtools ) X? ( x11-libs/libXext x11-libs/libX11 ) virtual/eject
+SLOT=0
+SRC_URI=mirror://sourceforge/oxine/oxine-0.7.1.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=75c7c243966b3d22a2122bc3119da66c

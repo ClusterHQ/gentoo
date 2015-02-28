@@ -1,0 +1,137 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/automake-1.14
+obj /home/core/gentoo/usr/share/automake-1.14/texinfo.tex 43456026a9f622742d43cbba561002ff 1410959629
+sym /home/core/gentoo/usr/share/automake-1.14/config.guess -> ../gnuconfig/config.guess 1410959634
+obj /home/core/gentoo/usr/share/automake-1.14/depcomp f4aafb270c2f983f35b365aad5fe8870 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/missing ba67d589a17b479cb3f568cd7b52b0c3 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/install-sh 6e5fe73723cd40a28adc5b7b5650c8d1 1410959629
+dir /home/core/gentoo/usr/share/automake-1.14/am
+obj /home/core/gentoo/usr/share/automake-1.14/am/texinfos.am 65460874dbd677ff2eab3c3f7e828b86 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/compile.am 7caf34bb7741500076aa92025cb5c6f8 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/subdirs.am 70e366d87f5dd89594d122351330fd78 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/clean.am 607b2e54f8c7787ad054bb8372a3ed1b 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/scripts.am 24c8a12b7f0d53013e77d468e210d945 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/mans-vars.am aa7c3120315698bbdb6c85af238ce8d8 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/depend2.am 0083cc5e778e0113667d85771485efd2 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/program.am cf77b1036befd6a26f49ef80327f44e9 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/texi-vers.am 975ce87544466adbcc6baef76c618663 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/data.am 7bdbcc5dc3203d84eebfdc5dd883b211 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/check.am c73d67f629f41194f69e189511b481af 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/ltlibrary.am 704e1c77e87f6499da150609734eaf0f 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/libs.am bed207bc7af1c07a3d9b75f011962302 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/yacc.am aeaadd5b05ef10e5d65c8cc8f08f90c3 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/vala.am b3cf3d8dbbd46863f89c268922a8cc8d 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/texibuild.am 3448e95329245c487e13f2bc57041c9e 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/python.am 4a9d25fef45a9708b540c8571fa6b7a5 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/inst-vars.am 8452922b139708b1737ec521b7d1b1c0 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/remake-hdr.am 71387514f67732c88018f2778f942665 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/libtool.am 190f6a5e841be3bcb0bad2afe86e9bc0 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/depend.am 7c66489cd0135f6ed31c2d3238508b8d 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/footer.am 5edd2e7f4adea1dd3beaa181d70eb7d3 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/lisp.am fecb1fc67b28277ed7c28f46c0b6bf18 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/ltlib.am cf3124d35fc0347281210f8b39c8a63d 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/java.am 762717c07e6c9cef0df71c8a57279bab 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/lex.am 990bac681fd421a2701523147b3a6d16 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/lang-compile.am 75f7f7c358de6d647f4389b2fa95e132 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/clean-hdr.am efedd9c113a6b32b5dd3425a2f7344e1 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/distdir.am f58488fea0005160059d9d2ecaae0758 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/header-vars.am 195cbb03c0b12b628acc88f3f33166cf 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/header.am a6e2427c89373e82130656ff16fe8c67 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/mans.am fd3367317b0cf4da9c93d251e8d487fa 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/dejagnu.am ac8eca51b2cf1d6e366ace25a5c9d876 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/install.am 19559b30453aea0544c2e30ff176883c 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/configure.am f2abc3e76b1c8118d806cd2aa30fe43f 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/check2.am ab8fb172708b6ee4716e869ef0187abb 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/tags.am 4f868048ca3e66356ba0db84cdcb75eb 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/progs.am 5f879ea7602b0c5e7a5af4278787d808 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/am/library.am da2221bce82dc7fb5b25714d9a0cc048 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/mdate-sh cb6ad6c68a6629108307afb28985c040 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/tap-driver.pl d45ad30ef104062a0f63c86174fc110f 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/py-compile 9e0b8f05fd4c9a6e68552ff771107d0f 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/compile 0c8b042f99995c11aeb81bccc23c4c05 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/COPYING d32239bcb673463ab874e80d47fae504 1410959629
+sym /home/core/gentoo/usr/share/automake-1.14/config.sub -> ../gnuconfig/config.sub 1410959634
+dir /home/core/gentoo/usr/share/automake-1.14/Automake
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Condition.pm 32ee5e18e188e5cd7c4c42d1654f5696 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/FileUtils.pm 7160106a26c5c322882c634f23c1f370 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Item.pm 5cae77ca1ba361a19d987f908b9f062d 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/ChannelDefs.pm f148ca33234a0952efbada09c286adc8 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/VarDef.pm 66e8f55fd8c515f6d859782cb05191ae 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/ItemDef.pm 034f70320351ddf6e3df641c271003e3 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Configure_ac.pm d1f1e2cc5ca75079158fe575bf99dcd1 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Version.pm 13c53702fd2a88ba8a9316c141c76272 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Location.pm 87f5c60a067c56f858baa636a31d726f 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Options.pm d7f4f5bf8886aa48a325a140ea6bed1d 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Wrap.pm 31e4a0bebcd289080e0089a9e24060e2 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/XFile.pm 8a917bac5149bcec411bf1d7ff1cf761 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/RuleDef.pm 1b179252b92f55ac24642ef9452e4ac5 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Config.pm 0e2a4d83e6e0a898a574e3e9c625caa2 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Variable.pm c075d20dd2f2d122cb3ad30027556ea2 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Channels.pm 664341f0e50122d1939ece676c72faea 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/General.pm 2f1b5a41af871c3d368e73b66c724d19 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Language.pm 7be5caffeb28be5db5ef6ac0eb07c7f6 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Rule.pm fbeceb5222a0f14bc2b11ef3e2ebe0b0 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/Getopt.pm 2d3cf0a9f0a768ef8954423dfe034843 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/Automake/DisjConditions.pm 5372f548a0c1f6d870c555e310733e09 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/ar-lib 9274c17761d598304d1068c4c15fb107 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/test-driver 0ba88052a1dc5202649375d827e9f1f7 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/mkinstalldirs 82b7b70a9845ee61a01f20b29dd2df2c 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/tap-driver.sh 47b4edd2f1b4e02cf0179bc14139e55e 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/INSTALL 0278479fa183a2ff8ab216669424b764 1410959629
+obj /home/core/gentoo/usr/share/automake-1.14/ylwrap 05080f524c2a181ed63efcc32b295983 1410959629
+dir /home/core/gentoo/usr/share/man
+dir /home/core/gentoo/usr/share/man/man1
+obj /home/core/gentoo/usr/share/man/man1/aclocal-1.14.1.bz2 b1929930be3d6ff0d25087af008a7903 1410959629
+obj /home/core/gentoo/usr/share/man/man1/automake-1.14.1.bz2 4f8e28531f702d423cb374cda24bdbf4 1410959629
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/automake-1.14
+obj /home/core/gentoo/usr/share/doc/automake-1.14/AUTHORS.bz2 eaed887d605c65d069fdbf0166e45e45 1410959630
+obj /home/core/gentoo/usr/share/doc/automake-1.14/README.bz2 602c21fbb6558008457be7b66a7be82d 1410959630
+obj /home/core/gentoo/usr/share/doc/automake-1.14/amhello-1.0.tar.gz 7e79ccebd8c1ae940c3ca140bbfde0ac 1410959629
+obj /home/core/gentoo/usr/share/doc/automake-1.14/THANKS.bz2 c89d38a2d383c3de9344da5f1827dc41 1410959630
+obj /home/core/gentoo/usr/share/doc/automake-1.14/ChangeLog.bz2 141550dc766a84bbf2b9fca66d76d115 1410959630
+obj /home/core/gentoo/usr/share/doc/automake-1.14/NEWS.bz2 ae663057245acf24eeb9d4c33eebf4f5 1410959630
+dir /home/core/gentoo/usr/share/aclocal-1.14
+obj /home/core/gentoo/usr/share/aclocal-1.14/extra-recurs.m4 c3e9fc27b9d474a1c71e15427a39757d 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/tar.m4 7912d5069bb39dd241a39e09d8fb74b7 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/obsolete.m4 b8d5fe9585108ab61a2d06eaf044705d 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/init.m4 c70cc932147dafa473bff4bec484f258 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/cond-if.m4 189cf9e0072af91be4ac47a9d71b5942 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/lex.m4 c531ea723745b2905090da642b4221c0 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/sanity.m4 270661b0d2ebda1a65926fd002000855 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/runlog.m4 2d7de93cc0119d0f93c04e9ce53be991 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/lead-dot.m4 b4e4c07a8434a49132d1d4d10545520b 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/mkdirp.m4 ed3c04663cdf0d1f445b2ae24b6c8b7c 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/substnot.m4 75e00f0b82bbf1755bc625ab23c80832 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/as.m4 548911685192afe64b079cfe573006fc 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/silent.m4 ef8c8dd8e3fb3c5d0092e755a7a7028b 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/install-sh.m4 8f8d332590b49c4bc75c9ac16b22913d 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/options.m4 751d114671cbc590d1d692d2d60688e9 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/maintainer.m4 1f4f8b9f18999ced1c2c47ca7676cf1d 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/depout.m4 dcac08a49d488948874139010ce48b3b 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/missing.m4 fbde8b965f91f60fc033ee8e733ad6d1 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/strip.m4 833a1f557d119a26169360ac5630fb1c 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/amversion.m4 f0ae18b9f7537fa2463819df2866ead6 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/cond.m4 1f123f0c0a3915bce7c85f1a65e1ff26 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/upc.m4 d868bffef1da98727d23213593657a26 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/depend.m4 a99192edfbd14536a8735e7accd9b144 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/make.m4 9a251a0cb2ce5bb4fd225fdee8d7df68 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/ar-lib.m4 68a3dad972a0619681648464e335a210 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/prog-cc-c-o.m4 f9445304d314355aa1e7680b693d74d1 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/vala.m4 3ee857cf0b0d4934205dbf085273c9dc 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/python.m4 93f58ff571aced08b969f18c7f3b0675 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/gcj.m4 823a26a98d708dc858b983bc1f60e00a 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/auxdir.m4 c81cba98f4911343fb2b8f35fdf5f840 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/lispdir.m4 ae3598131e92e61f591e80114dd2dde5 1410959629
+dir /home/core/gentoo/usr/share/aclocal-1.14/internal
+obj /home/core/gentoo/usr/share/aclocal-1.14/internal/ac-config-macro-dirs.m4 58c5ec100af65d1957af792112487721 1410959629
+obj /home/core/gentoo/usr/share/aclocal-1.14/dmalloc.m4 0e9772deee34dafb4bfc53f076a7e797 1410959629
+dir /home/core/gentoo/usr/share/info
+obj /home/core/gentoo/usr/share/info/automake-history-1.14.info.bz2 b8fff669f52f944ce98a29270ef5b494 1410959630
+obj /home/core/gentoo/usr/share/info/automake-1.14.info-2.bz2 5622086c2e439ac4880b1292923a52e9 1410959630
+obj /home/core/gentoo/usr/share/info/automake-1.14.info.bz2 2502ce46f5766132684c02d6c327b14c 1410959630
+obj /home/core/gentoo/usr/share/info/automake-1.14.info-1.bz2 be935ef37903b92442fbe8cf674fb0bd 1410959630
+dir /home/core/gentoo/usr/bin
+obj /home/core/gentoo/usr/bin/aclocal-1.14 73b641f0fca9de86ca60a575691a44fd 1410959629
+obj /home/core/gentoo/usr/bin/automake-1.14 d1863fe513a92ad7341c915d86a63ed3 1410959629

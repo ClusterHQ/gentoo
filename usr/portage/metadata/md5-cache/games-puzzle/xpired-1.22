@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/sdl-gfx media-libs/sdl-image[jpeg] media-libs/sdl-mixer[mod]
+DESCRIPTION=A Sokoban-styled puzzle game with lots more action
+EAPI=2
+HOMEPAGE=http://xpired.sourceforge.net
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/sdl-gfx media-libs/sdl-image[jpeg] media-libs/sdl-mixer[mod]
+SLOT=0
+SRC_URI=mirror://sourceforge/xpired/xpired-1.22-linux_source.tar.gz
+_eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	06133990e861be0fe60c2b428fd025d9	games	dac10eff8e85525db38b099d348fb26d	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	user	0182825ef9804bba1fc04df9a471bbb3
+_md5_=01b3bff72a475fc3c2168e7bf1063c75

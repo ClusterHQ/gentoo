@@ -1,0 +1,10 @@
+prefix=/home/core/gentoo/usr
+exec_prefix=${prefix}
+libdir=/home/core/gentoo/usr/lib
+includedir=${prefix}/include
+
+Name: popt
+Version: 1.16
+Description: popt library.
+Libs: -L${libdir} -lpopt
+Cflags: -I${includedir}

@@ -1,0 +1,80 @@
+This is a special Gentoo Prefix that has been patched to enable compilation of
+the ZFS kernel modules on production CoreOS systems. In Gentoo Prefix
+terminology, ${EPREFIX} is /home/core/gentoo.
+
+Differences from stock Gentoo Prefix are as follows:
+
+${EPREFIX}/usr/portage/sys-libs/glibc/files/eblits/src_configure.eblit was patched
+to enable glibc to build. Since the Prefix ld does rpath injection, this prefix
+was created on a Gentoo Linux host system and the system ld was temporarily
+substituted for the Prefix ld during the glibc build. An unfortunate
+consequence of this is that glibc cannot be rebuilt inside this prefix without
+breaking it. This could be fixed by killing the rpath injection with making
+some additional toolchain fixes, but not enough time was spent to do that.
+
+--with-lib-path="${EPREFIX}/usr/lib:${EPREFIX}/lib" is injected into binutils'
+configure script via ${EPREFIX}/etc/portage/env/sys-devel/binutils.
+
+The system GCC was patched to build binaries against glibc's bundled ELF
+interpreter and also to use the prefix crt{1,i.n}.o files instead of the
+system's versions at /usr/lib/crt{1,i.n}.o. The former is necessary because the
+system's ELF interpreter is tightly integrated with glibc and is therefore
+capable of breaking. This was observed during development because CoreOS at the
+time used glibc 2.17 while Gentoo used glibc 2.19. The latter is necessary for
+similar reasons, although in the latter's case, those files should never have
+been shipped with a production CoreOS image. These changes were achieved  a
+patch file applied via epatch_user at:
+${EPREFIX}/etc/portage/patches/sys-devel/gcc-4.7.3-r1/gcc-4.7.3-r1-coreos-prefix.patch
+
+Changes to the ZoL packaging were required to support Prefix. These involved modifications to the following files as well as some patch files that were sent upstream:
+
+${EPREFIX}/etc/portage/patches/sys-kernel/spl-0.6.3/384.patch
+${EPREFIX}/etc/portage/patches/sys-fs/zfs-0.6.3-r0/2641.patch
+${EPREFIX}/home/core/gentoo/usr/portage/sys-kernel/spl/spl-0.6.3.ebuild
+${EPREFIX}/home/core/gentoo/usr/portage/sys-fs/zfs-kmod/zfs-kmod-0.6.3.ebuild
+${EPREFIX}/home/core/gentoo/usr/portage/sys-fs/zfs/zfs-0.6.3.ebuild
+
+The corresponding manifest files were updated via the `ebuild $EBUILD_FILE
+digest` command.
+
+In addition, several packages were keyworded locally via
+${EPREFIX}/etc/portage/package.accept_keywords while dependencies on kernel
+sources and device management were bypassed via
+${EPREFIX}/etc/portage/profile/package.provided.
+
+An attempt to keep the prefix lean was made, so python 2.7 has been removed and
+an attempt to configure portage to stop depending on it was made in
+${EPREFIX}/etc/portage/make.conf. In addition, pkgconf has been used in place
+of pkgconfig.
+
+CoreOS places its group file at /usr/share/baselayout/group, which broke the
+emerge command due to a fallback where portage tried to set the group for files
+as 0.  sys-libs/nss-usrfiles was created in a local overlay to resolve that. At
+time of writing, this package has been committed to upstream Gentoo.
+
+Simiarly, there was an issue involving the user/group identification numbers,
+which differed between the build Gentoo system and the target CoreOS system. My
+local workstation used 1001 as the user and group id numbers while CoreOS uses
+500 as the user and group id numbers. Portage has 1001 stored somewhere that I
+was not identified in the time allotted, so PORTAGE_INST_GID=500 and
+PORTAGE_INST_UID=500 were set in ${EPREFIX}/etc/portage/make.conf.
+
+Building the ZFS kernel modules involved doing a build of the kernel for
+identification of exported symbols and distinction between GPL symbol exports
+and regular symbol exports via Module.symvers as well as
+modules.{order,builtin}, which are needed for understanding module
+dependencies. The commands used to build the the kernel are below:
+
+git clone --depth 1 -b coreos/v$(uname -r | sed 's/+$//') https://github.com/coreos/linux.git kernel-coreos-$(uname -r | sed 's/+$//')
+zcat /proc/config.gz > kernel-coreos-$(uname -r | sed 's/+$//')/.config
+sed -i -e '/CONFIG_SYSTEM_TRUSTED_KEYRING=y/d' kernel-coreos-$(uname -r | sed 's/+$//')/.config
+touch kernel-coreos-$(uname -r | sed 's/+$//')/.x509.list
+touch kernel-coreos-$(uname -r | sed 's/+$//')/bootengine.cpio
+make -C $HOME/kernel-coreos-$(uname -r | sed 's/+$//') vmlinux modules
+
+This does not build a functional kernel, but it is sufficient to produce a sane
+Module.symvers. Then the following can be done to update the modules:
+
+env EXTRA_ECONF="--with-linux=$HOME/kernel-coreos-$(uname -r | sed 's/+$//')" KV_OUT_DIR=$HOME/kernel-coreos-$(uname -r | sed 's/+$//') emerge -1v sys-kernel/spl sys-fs/zfs-kmod
+cp ~/kernel-coreos-$(uname -r | sed 's/+$//')/modules.{order,builtin} /home/core/gentoo/lib/modules/$(uname -r)/
+depmod -b ~/gentoo

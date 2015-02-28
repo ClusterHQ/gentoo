@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=dev-lang/tk =dev-tcltk/itcl-3.4*
+DESCRIPTION=Object Oriented Enhancements for Tcl/Tk
+EAPI=3
+HOMEPAGE=http://incrtcl.sourceforge.net/
+KEYWORDS=alpha amd64 ia64 ppc sparc x86 ~amd64-linux ~x86-linux
+LICENSE=BSD
+RDEPEND=dev-lang/tk =dev-tcltk/itcl-3.4*
+SLOT=0
+SRC_URI=mirror://gentoo/incrTcl-3.4_pre20090417.tar.gz
+_eclasses_=eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=deff6410a050eba6092b4c19bf85353c

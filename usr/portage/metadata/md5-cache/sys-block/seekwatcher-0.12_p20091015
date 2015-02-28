@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup
+DEPEND=dev-python/pyrex =dev-lang/python-2*
+DESCRIPTION=Seekwatcher generates graphs from blktrace runs to help visualize IO patterns and performance
+EAPI=4
+HOMEPAGE=http://oss.oracle.com/~mason/seekwatcher/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-python/matplotlib dev-python/numpy >=sys-block/btrace-0.0.20070730162628 =dev-lang/python-2*
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~slyfox/seekwatcher-0.12_p20091015.tar.gz
+_eclasses_=distutils	34e0f373c466bb0e97ba194735f1acf2	eutils	06133990e861be0fe60c2b428fd025d9	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	python	be9965681d83c3980660a2660ac95e95	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=c16fb2a15fc81699f4b732a2d71de67a

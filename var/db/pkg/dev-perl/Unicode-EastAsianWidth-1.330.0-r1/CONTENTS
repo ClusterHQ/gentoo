@@ -1,0 +1,13 @@
+dir /home/core/gentoo/usr
+dir /home/core/gentoo/usr/share
+dir /home/core/gentoo/usr/share/doc
+dir /home/core/gentoo/usr/share/doc/Unicode-EastAsianWidth-1.330.0-r1
+obj /home/core/gentoo/usr/share/doc/Unicode-EastAsianWidth-1.330.0-r1/Changes.bz2 236783890af022e51c10a5c298af20ea 1410959351
+obj /home/core/gentoo/usr/share/doc/Unicode-EastAsianWidth-1.330.0-r1/README.bz2 6a33d7e5d23611b98fe117ef79e79c18 1410959351
+obj /home/core/gentoo/usr/share/doc/Unicode-EastAsianWidth-1.330.0-r1/README.mkdn.bz2 ed41613658ec6edd1c0ac69f6be8c73c 1410959351
+dir /home/core/gentoo/usr/lib
+dir /home/core/gentoo/usr/lib/perl5
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2
+dir /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/Unicode
+obj /home/core/gentoo/usr/lib/perl5/vendor_perl/5.18.2/Unicode/EastAsianWidth.pm 23593af6dd7960750c2e9ffec995be8d 1410959351

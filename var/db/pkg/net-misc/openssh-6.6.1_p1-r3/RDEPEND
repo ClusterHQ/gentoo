@@ -1,0 +1,1 @@
+>=dev-libs/openssl-0.9.6d:0[-bindist] dev-libs/openssl >=sys-libs/zlib-1.2.3 >=sys-apps/tcp-wrappers-7.6 virtual/shadow

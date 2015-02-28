@@ -1,0 +1,22 @@
+# ChangeLog for dev-python/argcomplete
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/argcomplete/ChangeLog,v 1.5 2014/07/06 12:36:18 mgorny Exp $
+
+  06 Jul 2014; Michał Górny <mgorny@gentoo.org> argcomplete-0.6.5.ebuild:
+  Clean up obsolete dependencies on virtual/python-argparse and virtual/python-
+  unittest2 (those packages were only required for <=python-2.6).
+
+  02 Jul 2014; Mike Gilbert <floppym@gentoo.org> argcomplete-0.6.5.ebuild:
+  Depend on setuptools.
+
+  05 Jun 2014; Fabian Groffen <grobian@gentoo.org> argcomplete-0.6.5.ebuild:
+  Marked ~x64-macos
+
+  24 Dec 2013; Justin Lecher <jlec@gentoo.org> argcomplete-0.6.5.ebuild:
+  Drop empty line
+
+*argcomplete-0.6.5 (24 Dec 2013)
+
+  24 Dec 2013; Justin Lecher <jlec@gentoo.org> +argcomplete-0.6.5.ebuild,
+  +metadata.xml:
+  New package, ebuild written by me

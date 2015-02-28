@@ -1,0 +1,23 @@
+# ChangeLog for sys-auth/pam_yubico
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-auth/pam_yubico/ChangeLog,v 1.4 2014/08/19 02:33:41 zerochaos Exp $
+
+*pam_yubico-2.16 (19 Aug 2014)
+
+  19 Aug 2014; Rick Farina <zerochaos@gentoo.org> +pam_yubico-2.16.ebuild:
+  version bump, bug 513944
+
+*pam_yubico-2.14 (28 Oct 2013)
+
+  28 Oct 2013; Rick Farina <zerochaos@gentoo.org> +pam_yubico-2.14.ebuild,
+  metadata.xml:
+  version bump, new homepage, new download site, remove unneeded(?) patch
+
+  22 Apr 2013; Rick Farina <zerochaos@gentoo.org> pam_yubico-2.13.ebuild:
+  minor fix to deps and .la fix
+
+*pam_yubico-2.13 (22 Apr 2013)
+
+  22 Apr 2013; Rick Farina <zerochaos@gentoo.org> +files/2.11-drop_privs.patch,
+  +metadata.xml, +pam_yubico-2.13.ebuild:
+  initial commit, deps are likely a bit more complex than this

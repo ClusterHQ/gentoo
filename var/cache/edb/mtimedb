@@ -1,0 +1,62 @@
+{
+    "info": {}, 
+    "ldpath": {
+        "/home/core/gentoo/lib": 1411049258, 
+        "/home/core/gentoo/lib64": 1410958659, 
+        "/home/core/gentoo/usr/lib": 1411049258, 
+        "/home/core/gentoo/usr/lib64": 1410958659
+    }, 
+    "resume_backup": {
+        "favorites": [
+            "sys-fs/zfs"
+        ], 
+        "mergelist": [
+            [
+                "ebuild", 
+                "/home/core/gentoo/", 
+                "sys-kernel/spl-0.6.2-r5", 
+                "merge"
+            ], 
+            [
+                "ebuild", 
+                "/home/core/gentoo/", 
+                "sys-fs/zfs-kmod-0.6.2-r5", 
+                "merge"
+            ], 
+            [
+                "ebuild", 
+                "/home/core/gentoo/", 
+                "sys-fs/zfs-0.6.2-r5", 
+                "merge"
+            ]
+        ], 
+        "myopts": {}
+    }, 
+    "starttime": 0, 
+    "updates": {
+        "/home/core/gentoo/usr/portage/profiles/updates/1Q-2009": 1239303597, 
+        "/home/core/gentoo/usr/portage/profiles/updates/1Q-2010": 1270060381, 
+        "/home/core/gentoo/usr/portage/profiles/updates/1Q-2011": 1301931154, 
+        "/home/core/gentoo/usr/portage/profiles/updates/1Q-2012": 1331647381, 
+        "/home/core/gentoo/usr/portage/profiles/updates/1Q-2013": 1364684485, 
+        "/home/core/gentoo/usr/portage/profiles/updates/1Q-2014": 1395684090, 
+        "/home/core/gentoo/usr/portage/profiles/updates/2Q-2009": 1246564702, 
+        "/home/core/gentoo/usr/portage/profiles/updates/2Q-2010": 1277238780, 
+        "/home/core/gentoo/usr/portage/profiles/updates/2Q-2011": 1362259886, 
+        "/home/core/gentoo/usr/portage/profiles/updates/2Q-2012": 1341151313, 
+        "/home/core/gentoo/usr/portage/profiles/updates/2Q-2013": 1387362688, 
+        "/home/core/gentoo/usr/portage/profiles/updates/2Q-2014": 1404655289, 
+        "/home/core/gentoo/usr/portage/profiles/updates/3Q-2009": 1254687481, 
+        "/home/core/gentoo/usr/portage/profiles/updates/3Q-2010": 1284976990, 
+        "/home/core/gentoo/usr/portage/profiles/updates/3Q-2011": 1319356965, 
+        "/home/core/gentoo/usr/portage/profiles/updates/3Q-2012": 1348997510, 
+        "/home/core/gentoo/usr/portage/profiles/updates/3Q-2013": 1379948490, 
+        "/home/core/gentoo/usr/portage/profiles/updates/3Q-2014": 1406325685, 
+        "/home/core/gentoo/usr/portage/profiles/updates/4Q-2009": 1261941331, 
+        "/home/core/gentoo/usr/portage/profiles/updates/4Q-2010": 1293676406, 
+        "/home/core/gentoo/usr/portage/profiles/updates/4Q-2011": 1335027710, 
+        "/home/core/gentoo/usr/portage/profiles/updates/4Q-2012": 1358319718, 
+        "/home/core/gentoo/usr/portage/profiles/updates/4Q-2013": 1386829889
+    }, 
+    "version": "2.2.10.1-prefix"
+}

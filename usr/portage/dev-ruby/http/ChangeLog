@@ -1,0 +1,40 @@
+# ChangeLog for dev-ruby/http
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-ruby/http/ChangeLog,v 1.9 2014/08/15 14:32:03 blueness Exp $
+
+  15 Aug 2014; Anthony G. Basile <blueness@gentoo.org> http-0.5.0.ebuild,
+  http-0.6.1.ebuild, http-0.6.2.ebuild:
+  Keyword ~ppc ~ppc64, bug #511424
+
+  13 Aug 2014; Manuel Rüger <mrueg@gentoo.org> http-0.5.0.ebuild:
+  Add ruby21 support.
+
+*http-0.6.2 (08 Aug 2014)
+
+  08 Aug 2014; Hans de Graaff <graaff@gentoo.org> +http-0.6.2.ebuild:
+  Version bump.
+
+  05 Aug 2014; Manuel Rüger <mrueg@gentoo.org> http-0.5.0.ebuild:
+  Remove trailing '.' from DESCRIPTION.
+
+  16 May 2014; Hans de Graaff <graaff@gentoo.org> http-0.6.1.ebuild:
+  Move to a slot that dependencies expect.
+
+  16 May 2014; Hans de Graaff <graaff@gentoo.org> -http-0.6.0.ebuild:
+  Cleanup.
+
+*http-0.6.1 (14 May 2014)
+
+  14 May 2014; Manuel Rüger <mrueg@gentoo.org> +http-0.6.1.ebuild:
+  Version bump.
+
+*http-0.6.0 (22 Apr 2014)
+
+  22 Apr 2014; Hans de Graaff <graaff@gentoo.org> +http-0.6.0.ebuild:
+  Version bump. Add missing http_parser_rb dependency.
+
+*http-0.5.0 (21 Feb 2014)
+
+  21 Feb 2014; Hans de Graaff <graaff@gentoo.org> +http-0.5.0.ebuild,
+  +metadata.xml:
+  Initial import. New dependency for dev-ruby/twitter.

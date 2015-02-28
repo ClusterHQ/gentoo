@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=>=dev-libs/efl-1.8.0_beta2 gstreamer? ( media-libs/gstreamer:0.10 media-libs/gst-plugins-base:0.10 ) pdf? ( app-text/poppler ) postscript? ( app-text/libspectre ) raw? ( media-libs/libraw ) svg? ( gnome-base/librsvg x11-libs/cairo ) doc? ( app-doc/doxygen )
+DESCRIPTION=Provides external applications as generic loaders for Evas
+EAPI=3
+HOMEPAGE=http://www.enlightenment.org/
+IUSE=gstreamer pdf postscript raw svg nls doc
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=BSD
+RDEPEND=>=dev-libs/efl-1.8.0_beta2 gstreamer? ( media-libs/gstreamer:0.10 media-libs/gst-plugins-base:0.10 ) pdf? ( app-text/poppler ) postscript? ( app-text/libspectre ) raw? ( media-libs/libraw ) svg? ( gnome-base/librsvg x11-libs/cairo ) nls? ( sys-devel/gettext )
+SLOT=0
+SRC_URI=http://download.enlightenment.org/rel/libs/evas_generic_loaders/evas_generic_loaders-1.8.1.tar.bz2
+_eclasses_=enlightenment	98392d364f7f4c6cde8a516cbc298472	eutils	06133990e861be0fe60c2b428fd025d9	libtool	52d0e17251d04645ffaa61bfdd858944	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	prefix	21058c21ca48453d771df15500873ede	toolchain-funcs	3d3b3bc5c0a478d9739303f6ab600935
+_md5_=bc5603c9b08a3447209f3e10a73e55a1
