@@ -11,8 +11,6 @@ zcat /proc/config.gz > kernel-coreos-$(uname -r | sed 's/+$//')/.config
 sed -i -e '/CONFIG_SYSTEM_TRUSTED_KEYRING=y/d' kernel-coreos-$(uname -r | sed 's/+$//')/.config
 touch kernel-coreos-$(uname -r | sed 's/+$//')/.x509.list
 touch kernel-coreos-$(uname -r | sed 's/+$//')/bootengine.cpio
-# XXX possibly the following line is unnecessary because the tag already
-# includes Module.symvers
 make -j8 -C $HOME/kernel-coreos-$(uname -r | sed 's/+$//') vmlinux modules
 
 # attempt to build latest git version of zfs and spl with "=[pkgname]-9999" syntax.
