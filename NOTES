@@ -65,7 +65,10 @@ and regular symbol exports via Module.symvers as well as
 modules.{order,builtin}, which are needed for understanding module
 dependencies. The commands used to build the the kernel are below:
 
-git clone --depth 1 -b coreos/v$(uname -r | sed 's/+$//') https://github.com/coreos/linux.git kernel-coreos-$(uname -r | sed 's/+$//')
+git checkout https://github.com/coreos/linux.git kernel-coreos-$(uname -r | sed 's/+$//')
+cd kernel-coreos-$(uname -r | sed 's/+$//')
+git checkout tags/v$(uname -r | sed 's/+$//')
+cd ..
 zcat /proc/config.gz > kernel-coreos-$(uname -r | sed 's/+$//')/.config
 sed -i -e '/CONFIG_SYSTEM_TRUSTED_KEYRING=y/d' kernel-coreos-$(uname -r | sed 's/+$//')/.config
 touch kernel-coreos-$(uname -r | sed 's/+$//')/.x509.list
