@@ -18,7 +18,12 @@ touch kernel-coreos-$(uname -r | sed 's/+$//')/bootengine.cpio
 # attempt to build latest git version of zfs and spl with "=[pkgname]-9999" syntax.
 echo "=sys-kernel/spl-9999" >> gentoo/etc/portage/package.unmask
 echo "=sys-fs/zfs-kmod-9999" >> gentoo/etc/portage/package.unmask
+echo "=sys-fs/zfs-9999" >> gentoo/etc/portage/package.unmask
 
-env EXTRA_ECONF="--with-linux=$HOME/kernel-coreos-$(uname -r | sed 's/+$//')" KV_OUT_DIR=$HOME/kernel-coreos-$(uname -r | sed 's/+$//') emerge -j8 -1v =sys-kernel/spl-9999 =sys-fs/zfs-kmod-9999
+echo "sys-kernel/spl ~amd64 **" >> gentoo/etc/portage/package.accept_keywords
+echo "sys-fs/zfs-kmod ~amd64 **" >> gentoo/etc/portage/package.accept_keywords
+echo "sys-fs/zfs ~amd64 **" >> gentoo/etc/portage/package.accept_keywords
+
+env EXTRA_ECONF="--with-linux=$HOME/kernel-coreos-$(uname -r | sed 's/+$//')" KV_OUT_DIR=$HOME/kernel-coreos-$(uname -r | sed 's/+$//') emerge -j8 -1v =sys-kernel/spl-9999 =sys-fs/zfs-kmod-9999 =sys-fs/zfs-9999
 cp ~/kernel-coreos-$(uname -r | sed 's/+$//')/modules.{order,builtin} /home/core/gentoo/lib/modules/$(uname -r)/
 depmod -b ~/gentoo
