@@ -1,6 +1,6 @@
 #!/bin/bash -xe
 
-EPREFIX=${EPREFIX}
+EPREFIX=/home/core/gentoo
 
 cd /home/core
 if [[ ! -d kernel-coreos-$(uname -r | sed 's/+$//') ]]; then
@@ -30,17 +30,20 @@ then
     mv ${EPREFIX}/etc/portage/package.accept_keywords{.bak,/coreos}
 fi
 
-if [ ! -f ${EPREFIX}/etc/portage/package.unmask/core-zfs ]
-then
-
 # attempt to build latest git version of zfs and spl with "=[pkgname]-9999" syntax.
-   echo "=sys-kernel/spl-9999" >> ${EPREFIX}/etc/portage/package.unmask
-   echo "=sys-fs/zfs-kmod-9999" >> ${EPREFIX}/etc/portage/package.unmask
-   echo "=sys-fs/zfs-9999" >> ${EPREFIX}/etc/portage/package.unmask
+if [ ! -f ${EPREFIX}/etc/portage/package.unmask/core-zfs-9999 ]
+then
+    echo "=sys-kernel/spl-9999" >> ${EPREFIX}/etc/portage/package.unmask/core-zfs-9999
+    echo "=sys-fs/zfs-kmod-9999" >> ${EPREFIX}/etc/portage/package.unmask/core-zfs-9999
+    echo "=sys-fs/zfs-9999" >> ${EPREFIX}/etc/portage/package.unmask/core-zfs-9999
+fi
 
-echo "sys-kernel/spl ~amd64 **" >> gentoo/etc/portage/package.accept_keywords
-echo "sys-fs/zfs-kmod ~amd64 **" >> gentoo/etc/portage/package.accept_keywords
-echo "sys-fs/zfs ~amd64 **" >> gentoo/etc/portage/package.accept_keywords
+if [ ! -f ${EPREFIX}/etc/portage/package.accept_keywords/core-zfs-9999 ]
+then
+    echo "sys-kernel/spl **" >> ${EPREFIX}/etc/portage/package.accept_keywords/core-zfs-9999
+    echo "sys-fs/zfs-kmod **" >> ${EPREFIX}/etc/portage/package.accept_keywords/core-zfs-9999
+    echo "sys-fs/zfs **" >> ${EPREFIX}/etc/portage/package.accept_keywords/core-zfs-9999
+fi
 
 env KERNEL_DIR=$HOME/kernel-coreos-$(uname -r | sed 's/+$//') EXTRA_ECONF="--with-linux=$HOME/kernel-coreos-$(uname -r | sed 's/+$//')" KV_OUT_DIR=$HOME/kernel-coreos-$(uname -r | sed 's/+$//') emerge -j8 -1v =sys-kernel/spl-9999 =sys-fs/zfs-kmod-9999 =sys-fs/zfs-9999
 cp ~/kernel-coreos-$(uname -r | sed 's/+$//')/modules.{order,builtin} ${EPREFIX}/lib/modules/$(uname -r)/
