@@ -45,6 +45,6 @@ then
     echo "sys-fs/zfs **" >> ${EPREFIX}/etc/portage/package.accept_keywords/core-zfs-9999
 fi
 
-env KERNEL_DIR=$HOME/kernel-coreos-$(uname -r | sed 's/+$//') EXTRA_ECONF="--with-linux=$HOME/kernel-coreos-$(uname -r | sed 's/+$//')" KV_OUT_DIR=$HOME/kernel-coreos-$(uname -r | sed 's/+$//') emerge -j8 -1v =sys-kernel/spl-9999 =sys-fs/zfs-kmod-9999 =sys-fs/zfs-9999
+env KERNEL_DIR=$HOME/kernel-coreos-$(uname -r | sed 's/+$//') EXTRA_ECONF="--disable-systemd --with-udevdir=$HOME/gentoo/lib/udev --with-dracutdir=$HOME/gentoo/usr/lib/dracut --with-linux=$HOME/kernel-coreos-$(uname -r | sed 's/+$//')" KV_OUT_DIR=$HOME/kernel-coreos-$(uname -r | sed 's/+$//') emerge -j8 -1v =sys-kernel/spl-9999 =sys-fs/zfs-kmod-9999 =sys-fs/zfs-9999
 cp ~/kernel-coreos-$(uname -r | sed 's/+$//')/modules.{order,builtin} ${EPREFIX}/lib/modules/$(uname -r)/
 depmod -b ~/gentoo
