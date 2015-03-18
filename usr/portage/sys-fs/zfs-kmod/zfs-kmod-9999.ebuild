@@ -84,6 +84,7 @@ src_prepare() {
 }
 
 src_configure() {
+	local SPL_PATH="$(basename $(echo "${EROOT}usr/src/spl-"*))"
 	use custom-cflags || strip-flags
 	filter-ldflags -Wl,*
 
@@ -94,12 +95,10 @@ src_configure() {
 		--with-config=kernel
 		--with-linux="${KV_DIR}"
 		--with-linux-obj="${KV_OUT_DIR}"
+		--with-spl="${EROOT}usr/src/${SPL_PATH}"
+		--with-spl-obj="${EROOT}usr/src/${SPL_PATH}/${KV_FULL}"
 		$(use_enable debug)
 	)
-
-	SPL_PATH=$(basename $(echo "${EROOT}usr/src/spl-"*)) \
-			myeconfargs="${myeconfargs} --with-spl=${EROOT}usr/src/${SPL_PATH} \
-							--with-spl-obj=${EROOT}usr/src/${SPL_PATH}/${KV_FULL}"
 
 	autotools-utils_src_configure
 }
