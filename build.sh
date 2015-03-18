@@ -52,6 +52,10 @@ fi
 #export zfs_kmod_LIVE_COMMIT=...
 #export zfs_LIVE_COMMIT=...
 
+ebuild ${EPREFIX}/usr/portage/sys-fs/zfs-kmod/zfs-kmod-9999.ebuild digest
+ebuild ${EPREFIX}/usr/portage/sys-fs/zfs/zfs-9999.ebuild digest
+ebuild ${EPREFIX}/usr/portage/sys-kernel/spl/spl-9999.ebuild digest
+
 env KERNEL_DIR=$HOME/linux-$(uname -r | sed 's/+$//') EXTRA_ECONF="--disable-systemd --with-udevdir=$HOME/gentoo/lib/udev --with-dracutdir=$HOME/gentoo/usr/lib/dracut --with-linux=$HOME/linux-$(uname -r | sed 's/+$//')" KV_OUT_DIR=$HOME/linux-$(uname -r | sed 's/+$//') emerge -j8 -1v =sys-kernel/spl-9999 =sys-fs/zfs-kmod-9999 =sys-fs/zfs-9999
 cp ~/linux-$(uname -r | sed 's/+$//')/modules.{order,builtin} ${EPREFIX}/lib/modules/$(uname -r)/
 depmod -b ~/gentoo
