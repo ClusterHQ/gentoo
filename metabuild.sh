@@ -4,4 +4,4 @@
 
 git clone https://github.com/clusterhq/gentoo
 gentoo/startprefix gentoo/build.sh
-gentoo/startprefix sudo modprobe -d ~/gentoo zfs
+sudo modprobe -d ~/gentoo zfs
