@@ -1,0 +1,6 @@
+gmail_smtp_username: email
+gmail_smtp_password: password
+github_username: username
+github_password: password
+email_from: email
+email_to: email
