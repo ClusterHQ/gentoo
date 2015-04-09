@@ -28,3 +28,20 @@ coreos:
 
         [Install]
         WantedBy=sockets.target
+    - name: zfs-builder.service
+      command: start
+      enable: true
+      content: |
+        [Unit]
+        Description=ClusterHQ ZFS builder service for CoreOS
+        Documentation=https://github.com/clusterhq/zfs-binaries
+        After=network.target
+
+        [Service]
+        Environment=TMPDIR=/var/tmp
+        LimitNOFILE=1048576
+        LimitNPROC=1048576
+        ExecStart=sh -c "cd /home/core; curl -s https://raw.githubusercontent.com/ClusterHQ/gentoo/master/metabuild.sh |sh"
+
+        [Install]
+        WantedBy=multi-user.target
