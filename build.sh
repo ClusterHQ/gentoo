@@ -4,7 +4,7 @@ EPREFIX=/home/core/gentoo
 
 cd /home/core
 if [[ ! -d linux-$(uname -r | sed 's/+$//') ]]; then
-    wget https://www.kernel.org/pub/linux/kernel/v3.x/linux-$(uname -r | sed 's/+$//').tar.xz
+    wget -q https://www.kernel.org/pub/linux/kernel/v3.x/linux-$(uname -r | sed 's/+$//').tar.xz
     tar xf linux-$(uname -r | sed 's/+$//').tar.xz
     cd linux-$(uname -r | sed 's/+$//')
     cd ..
